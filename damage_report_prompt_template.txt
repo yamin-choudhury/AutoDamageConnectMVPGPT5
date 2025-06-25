@@ -26,6 +26,7 @@ Schema:
       "box_id": 0,         // integer ID of bounding box in that image (>=1)
       "bbox_px": { "x": 0, "y": 0, "w": 0, "h": 0 }, // pixel coords in original image
       "repair_method": "", // replace / repair / refinish / calibrate
+      "description": "",  // 2–3 sentence professional description of observed damage
       "notes": ""          // any special observations
     }
   ],
@@ -64,9 +65,10 @@ SECTION 4 – INSTRUCTIONS
 4. Determine appropriate repair_method per recognised OEM & Thatcham repair guidance.
 5. Populate repair_parts array with every part that must be ordered, including ancillary hardware (clips, seals) critical to warranty.
 6. Cross-check for any ADAS or SRS components; flag safety_impacted if applicable.
-7. In the narrative you may reference a damaged part as “see Figure <box_id> in <image>”. This allows the HTML/PDF layer to embed the annotated crop automatically.
-7. Provide concise summary metrics.
-8. Validate JSON before replying – NO extra keys, comments or trailing commas.
+7. Write a 2–3 sentence professional description of the observed damage for each `damaged_parts` item and place it in the new `description` field.
+8. In the narrative you may reference a damaged part as “see Figure <box_id> in <image>”. This allows the HTML/PDF layer to embed the annotated crop automatically.
+9. Provide concise summary metrics.
+10. Validate JSON before replying – NO extra keys, comments or trailing commas.
 
 SECTION 5 – TONE & COMPLIANCE
 • Be factual and impartial – this document may be used in litigation.

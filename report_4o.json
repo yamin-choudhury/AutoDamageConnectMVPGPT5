@@ -1,0 +1,107 @@
+{
+  "vehicle": {
+    "make": "Peugeot",
+    "model": "108",
+    "year": "",
+    "trim": "",
+    "vin": "",
+    "registration": ""
+  },
+  "damaged_parts": [
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front bumper cover",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image3.jpg",
+      "box_id": 1,
+      "bbox_px": {
+        "x": 100,
+        "y": 200,
+        "w": 300,
+        "h": 150
+      },
+      "repair_method": "replace",
+      "description": "The front bumper cover is deformed with visible gaps and misalignment, indicating moderate impact damage. See Figure 1 in image3.jpg.",
+      "notes": ""
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Left front wing panel",
+      "location": "LH front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image4.jpg",
+      "box_id": 2,
+      "bbox_px": {
+        "x": 150,
+        "y": 250,
+        "w": 200,
+        "h": 100
+      },
+      "repair_method": "replace",
+      "description": "The left front wing panel shows deformation and misalignment, suggesting moderate damage from impact. See Figure 2 in image4.jpg.",
+      "notes": ""
+    },
+    {
+      "category": "Lighting & Visibility",
+      "name": "Left headlamp unit",
+      "location": "LH front",
+      "damage_type": "crack",
+      "severity": "moderate",
+      "image": "image4.jpg",
+      "box_id": 3,
+      "bbox_px": {
+        "x": 120,
+        "y": 220,
+        "w": 80,
+        "h": 60
+      },
+      "repair_method": "replace",
+      "description": "The left headlamp unit is cracked, compromising visibility and safety. See Figure 3 in image4.jpg.",
+      "notes": ""
+    }
+  ],
+  "repair_parts": [
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front bumper cover",
+      "oem_only": true,
+      "sub_components": [
+        "mounting brackets",
+        "clips"
+      ],
+      "labour_hours": 3,
+      "paint_hours": 2
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Left front wing panel",
+      "oem_only": true,
+      "sub_components": [
+        "mounting brackets",
+        "clips"
+      ],
+      "labour_hours": 4,
+      "paint_hours": 2
+    },
+    {
+      "category": "Lighting & Visibility",
+      "name": "Left headlamp unit",
+      "oem_only": true,
+      "sub_components": [
+        "wiring harness"
+      ],
+      "labour_hours": 1,
+      "paint_hours": 0
+    }
+  ],
+  "summary": {
+    "overall_severity": "moderate",
+    "repair_complexity": "medium",
+    "safety_impacted": true,
+    "total_estimated_hours": 10,
+    "comments": "The vehicle has sustained moderate damage primarily to the front section, affecting the bumper, wing panel, and headlamp. Replacement of these parts is necessary to restore vehicle integrity and safety."
+  }
+}

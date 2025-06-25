@@ -105,7 +105,7 @@ def main():
     response = openai.chat.completions.create(
         model=args.model,
         messages=[system_msg, user_msg],
-        max_tokens=4096,
+        max_tokens=7000,
         temperature=0.2,
     )
 

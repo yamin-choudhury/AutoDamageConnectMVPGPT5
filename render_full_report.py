@@ -72,12 +72,13 @@ def build_html(report: Dict, images_dir: Path) -> str:
     # Damage overview table
     rows = []
     for p in report['damaged_parts']:
-        rows.append(f"<tr><td>{p['name']}</td><td>{p['location']}</td><td class='{severity_class(p['severity'])}'>{p['severity']}</td><td>{p['damage_type']}</td><td>{p['image']} #{p['box_id']}</td></tr>")
+        desc_html = p.get('description', '')
+        rows.append(f"<tr><td>{p['name']}</td><td>{p['location']}</td><td class='{severity_class(p['severity'])}'>{p['severity']}</td><td>{p['damage_type']}</td><td>{p['image']} #{p['box_id']}</td><td>{desc_html}</td></tr>")
     table_html = """
     <div class='table-wrapper'>
     <h2>Damage Overview</h2>
     <table>
-        <thead><tr><th>Part</th><th>Location</th><th>Severity</th><th>Damage Type</th><th>Image Ref</th></tr></thead>
+        <thead><tr><th>Part</th><th>Location</th><th>Severity</th><th>Damage Type</th><th>Image Ref</th><th>Description</th></tr></thead>
         <tbody>{}</tbody>
     </table></div>""".format("\n".join(rows))
 

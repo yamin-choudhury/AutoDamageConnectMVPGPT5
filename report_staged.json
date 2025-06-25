@@ -1,0 +1,239 @@
+{
+  "vehicle": {
+    "make": "",
+    "model": "",
+    "year": "",
+    "trim": "",
+    "vin": "",
+    "registration": ""
+  },
+  "damaged_parts": [
+    {
+      "name": "Front bumper cover",
+      "category": "Exterior Body & Trim",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image3.jpg",
+      "box_id": 1,
+      "bbox_px": {
+        "x": 120,
+        "y": 400,
+        "w": 300,
+        "h": 150
+      },
+      "repair_method": "repair",
+      "description": "The front bumper cover has sustained moderate deformation, likely due to a collision. The damage is visible across a significant portion of the bumper.",
+      "notes": "Repair involves reshaping and refinishing the bumper cover to restore its original form."
+    },
+    {
+      "name": "Front grille",
+      "category": "Exterior Body & Trim",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image3.jpg",
+      "box_id": 2,
+      "bbox_px": {
+        "x": 250,
+        "y": 350,
+        "w": 200,
+        "h": 100
+      },
+      "repair_method": "repair",
+      "description": "The front grille shows moderate deformation, affecting its alignment and appearance. This may impact airflow to the radiator.",
+      "notes": "Realignment and minor repairs are necessary to restore functionality and aesthetics."
+    },
+    {
+      "name": "Front left fender",
+      "category": "Exterior Body & Trim",
+      "location": "LH",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image4.jpg",
+      "box_id": 3,
+      "bbox_px": {
+        "x": 100,
+        "y": 300,
+        "w": 150,
+        "h": 200
+      },
+      "repair_method": "repair",
+      "description": "The front left fender has moderate deformation, likely from an impact. The damage affects the fender's shape and may interfere with the wheel well.",
+      "notes": "Repair will involve reshaping and possibly refinishing the fender."
+    },
+    {
+      "name": "Front left headlight",
+      "category": "Lighting & Visibility",
+      "location": "LH",
+      "damage_type": "crack",
+      "severity": "moderate",
+      "image": "image4.jpg",
+      "box_id": 4,
+      "bbox_px": {
+        "x": 150,
+        "y": 250,
+        "w": 100,
+        "h": 100
+      },
+      "repair_method": "replace",
+      "description": "The front left headlight is cracked, compromising its structural integrity and potentially affecting light output.",
+      "notes": "Replacement is recommended to ensure proper visibility and safety."
+    },
+    {
+      "name": "Front right fender",
+      "category": "Exterior Body & Trim",
+      "location": "RH",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image5.jpg",
+      "box_id": 5,
+      "bbox_px": {
+        "x": 400,
+        "y": 300,
+        "w": 150,
+        "h": 200
+      },
+      "repair_method": "repair",
+      "description": "The front right fender exhibits moderate deformation, which may affect the vehicle's aerodynamics and appearance.",
+      "notes": "Reshaping and refinishing will be required to restore the fender."
+    },
+    {
+      "name": "Front right headlight",
+      "category": "Lighting & Visibility",
+      "location": "RH",
+      "damage_type": "crack",
+      "severity": "moderate",
+      "image": "image5.jpg",
+      "box_id": 6,
+      "bbox_px": {
+        "x": 450,
+        "y": 250,
+        "w": 100,
+        "h": 100
+      },
+      "repair_method": "replace",
+      "description": "The front right headlight is cracked, which may lead to moisture ingress and reduced lighting performance.",
+      "notes": "Replacement is necessary to maintain optimal lighting conditions."
+    },
+    {
+      "name": "Front bumper cover",
+      "category": "Exterior Body & Trim",
+      "location": "front",
+      "damage_type": "missing",
+      "severity": "severe",
+      "image": "image6.jpg",
+      "box_id": 7,
+      "bbox_px": {
+        "x": 200,
+        "y": 400,
+        "w": 250,
+        "h": 150
+      },
+      "repair_method": "replace",
+      "description": "The front bumper cover is missing, exposing underlying components and affecting the vehicle's safety and aesthetics.",
+      "notes": "A new bumper cover must be installed to restore the vehicle's appearance and protection."
+    },
+    {
+      "name": "Front left fender",
+      "category": "Exterior Body & Trim",
+      "location": "LH",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image8.jpg",
+      "box_id": 8,
+      "bbox_px": {
+        "x": 50,
+        "y": 200,
+        "w": 200,
+        "h": 200
+      },
+      "repair_method": "repair",
+      "description": "The front left fender has moderate deformation, affecting its alignment and potentially the door gap.",
+      "notes": "Repair will involve reshaping and refinishing to ensure proper fit and finish."
+    }
+  ],
+  "repair_parts": [
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front bumper cover",
+      "oem_only": false,
+      "sub_components": [
+        "Mounting brackets",
+        "Fasteners"
+      ],
+      "labour_hours": 3,
+      "paint_hours": 2
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front grille",
+      "oem_only": false,
+      "sub_components": [
+        "Mounting clips"
+      ],
+      "labour_hours": 1.5,
+      "paint_hours": 0
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front left fender",
+      "oem_only": false,
+      "sub_components": [
+        "Fender liner"
+      ],
+      "labour_hours": 2,
+      "paint_hours": 1.5
+    },
+    {
+      "category": "Lighting & Visibility",
+      "name": "Front left headlight",
+      "oem_only": true,
+      "sub_components": [
+        "Bulbs",
+        "Wiring harness"
+      ],
+      "labour_hours": 1,
+      "paint_hours": 0
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front right fender",
+      "oem_only": false,
+      "sub_components": [
+        "Fender liner"
+      ],
+      "labour_hours": 2,
+      "paint_hours": 1.5
+    },
+    {
+      "category": "Lighting & Visibility",
+      "name": "Front right headlight",
+      "oem_only": true,
+      "sub_components": [
+        "Bulbs",
+        "Wiring harness"
+      ],
+      "labour_hours": 1,
+      "paint_hours": 0
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front bumper cover",
+      "oem_only": false,
+      "sub_components": [
+        "Mounting brackets",
+        "Fasteners"
+      ],
+      "labour_hours": 3,
+      "paint_hours": 2
+    }
+  ],
+  "summary": {
+    "overall_severity": "moderate to severe",
+    "repair_complexity": "high",
+    "safety_impacted": true,
+    "total_estimated_hours": 17,
+    "comments": "The vehicle has sustained significant damage to the front end, affecting both structural and lighting components. Repairs will require a combination of part replacements and refinishing, with safety systems potentially impacted by the missing bumper cover."
+  }
+}

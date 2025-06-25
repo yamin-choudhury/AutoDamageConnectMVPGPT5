@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Damage Assessment - Peugeot 108</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1, h2, h3, h4 {
+            margin-top: 0;
+        }
+        .summary {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2c3e50;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .category-section {
+            margin-bottom: 30px;
+        }
+        .category-header {
+            background-color: #34495e;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        /* eBay listings styling */
+        .ebay-section { 
+            margin-bottom: 40px; 
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .ebay-part-header { 
+            background-color: #e53238; 
+            color: white; 
+            padding: 12px 20px; 
+            border-radius: 6px; 
+            margin-bottom: 20px; 
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 5px rgba(229, 50, 56, 0.3);
+        }
+        .ebay-listings-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .ebay-listing { 
+            border: 1px solid #e0e0e0; 
+            border-radius: 8px; 
+            padding: 15px; 
+            background-color: white;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .ebay-listing:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .ebay-listing-image {
+            width: 100%;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            background-color: #f0f0f0;
+        }
+        .ebay-listing-image img { 
+            max-width: 100%;
+            max-height: 170px;
+            object-fit: contain;
+        }
+        .ebay-listing-details { 
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+        }
+        .ebay-listing-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            line-height: 1.4;
+            font-size: 1.05em;
+            /* For title that's too long */
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .ebay-price { 
+            font-weight: bold; 
+            color: #e53238; 
+            font-size: 1.5em; 
+            margin: 10px 0;
+        }
+        .ebay-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .ebay-confidence { 
+            display: inline-block; 
+            padding: 4px 8px; 
+            border-radius: 4px; 
+            background-color: #0064d2; 
+            color: white; 
+            font-size: 0.85em; 
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .ebay-button-container {
+            margin-top: auto;
+            padding-top: 15px;
+        }
+        .ebay-button { 
+            display: block;
+            width: 100%;
+            background-color: #0064d2; 
+            color: white; 
+            padding: 10px 15px; 
+            text-decoration: none; 
+            border-radius: 4px; 
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.2s;
+            box-shadow: 0 2px 5px rgba(0, 100, 210, 0.3);
+        }
+        .ebay-button:hover { 
+            background-color: #004580; 
+        }
+        .part-card {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .severity-minor {
+            color: #27ae60;
+        }
+        .severity-moderate {
+            color: #f39c12;
+        }
+        .severity-severe {
+            color: #c0392b;
+            font-weight: bold;
+        }
+        .part-details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .part-location {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .repair-parts-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .repair-part-item {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-left: 3px solid #3498db;
+        }
+        .oem-required {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .aftermarket-ok {
+            color: #27ae60;
+        }
+        .catalog-badge {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .damage-type {
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #777;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vehicle Damage Assessment</h1>
+            <h2>Peugeot 108</h2>
+            <p>Generated on 2025-06-25 22:51:59</p>
+        </header>
+        
+        <div class="summary">
+            <h2>Damage Summary</h2>
+            <p><strong>Overall Severity:</strong> Unknown</p>
+            <p><strong>Repair Complexity:</strong> Unknown</p>
+            <p><strong>Damaged Parts:</strong> 4 parts affected</p>
+            <p><strong>Repair Parts Needed:</strong> 4 parts required</p>
+            
+        </div>
+
+        <h2>Damage Assessment</h2>
+
+        <div class="category-section">
+            <h3 class="category-header">Exterior Body & Trim</h3>
+
+            <div class="part-card">
+                <div class="part-details">
+                    <h4>Front bumper cover</h4>
+                    <span class="severity-severe">severe</span>
+                </div>
+                <p class="part-location">front</p>
+                <p class="damage-type">Damage: deformation</p>
+            </div>
+
+            <div class="part-card">
+                <div class="part-details">
+                    <h4>Left front wing panel</h4>
+                    <span class="severity-moderate">moderate</span>
+                </div>
+                <p class="part-location">front left</p>
+                <p class="damage-type">Damage: deformation</p>
+            </div>
+
+            <div class="part-card">
+                <div class="part-details">
+                    <h4>Bonnet</h4>
+                    <span class="severity-moderate">moderate</span>
+                </div>
+                <p class="part-location">front</p>
+                <p class="damage-type">Damage: deformation</p>
+            </div>
+
+        </div>
+
+        <div class="category-section">
+            <h3 class="category-header">Lighting & Visibility</h3>
+
+            <div class="part-card">
+                <div class="part-details">
+                    <h4>Left headlamp unit</h4>
+                    <span class="severity-moderate">moderate</span>
+                </div>
+                <p class="part-location">front left</p>
+                <p class="damage-type">Damage: crack</p>
+            </div>
+
+        </div>
+
+        <h2>Parts Needed for Repair</h2>
+
+        <div class="category-section">
+            <h3 class="category-header">Exterior Body & Trim</h3>
+            <ul class="repair-parts-list">
+
+                <li class="repair-part-item">
+                    <div class="part-details">
+                        <strong>Front bumper cover</strong>
+                        <span class="oem-required">OEM Required</span>
+                    </div>
+                    
+                </li>
+
+                <li class="repair-part-item">
+                    <div class="part-details">
+                        <strong>Left front wing panel</strong>
+                        <span class="aftermarket-ok">Aftermarket OK</span>
+                    </div>
+                    
+                </li>
+
+                <li class="repair-part-item">
+                    <div class="part-details">
+                        <strong>Bonnet</strong>
+                        <span class="aftermarket-ok">Aftermarket OK</span>
+                    </div>
+                    
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="category-section">
+            <h3 class="category-header">Lighting & Visibility</h3>
+            <ul class="repair-parts-list">
+
+                <li class="repair-part-item">
+                    <div class="part-details">
+                        <strong>Left headlamp unit</strong>
+                        <span class="oem-required">OEM Required</span>
+                    </div>
+                    
+                </li>
+
+            </ul>
+        </div>
+
+        <footer>
+            <p>Generated by Auto Parts Catalog Damage Analysis</p>
+        </footer>
+    </div>
+</body>
+</html>

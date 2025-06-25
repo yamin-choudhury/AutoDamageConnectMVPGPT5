@@ -1,0 +1,113 @@
+{
+  "vehicle": {
+    "make": "Peugeot",
+    "model": "108",
+    "year": "",
+    "trim": "",
+    "vin": "",
+    "registration": ""
+  },
+  "damaged_parts": [
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front bumper cover",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "images": [
+        "image3.jpg",
+        "image4.jpg",
+        "image5.jpg"
+      ],
+      "repair_method": "replace",
+      "notes": "Front bumper cover is deformed and partially detached."
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front fender panel",
+      "location": "left-hand",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "images": [
+        "image4.jpg",
+        "image8.jpg"
+      ],
+      "repair_method": "replace",
+      "notes": "Left-hand front fender panel is deformed."
+    },
+    {
+      "category": "Lighting & Visibility",
+      "name": "Headlamp assembly",
+      "location": "left-hand",
+      "damage_type": "crack",
+      "severity": "moderate",
+      "images": [
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "repair_method": "replace",
+      "notes": "Left-hand headlamp assembly is cracked."
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Grille",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "images": [
+        "image3.jpg"
+      ],
+      "repair_method": "replace",
+      "notes": "Front grille is deformed."
+    }
+  ],
+  "repair_parts": [
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front bumper cover",
+      "oem_only": false,
+      "sub_components": [
+        "clips",
+        "fasteners"
+      ],
+      "labour_hours": 3,
+      "paint_hours": 2
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Front fender panel",
+      "oem_only": false,
+      "sub_components": [
+        "clips",
+        "fasteners"
+      ],
+      "labour_hours": 2,
+      "paint_hours": 2
+    },
+    {
+      "category": "Lighting & Visibility",
+      "name": "Headlamp assembly",
+      "oem_only": true,
+      "sub_components": [],
+      "labour_hours": 1,
+      "paint_hours": 0
+    },
+    {
+      "category": "Exterior Body & Trim",
+      "name": "Grille",
+      "oem_only": false,
+      "sub_components": [
+        "clips"
+      ],
+      "labour_hours": 1,
+      "paint_hours": 1
+    }
+  ],
+  "summary": {
+    "overall_severity": "moderate",
+    "repair_complexity": "medium",
+    "safety_impacted": false,
+    "total_estimated_hours": 9,
+    "comments": "Front end damage with moderate severity. No safety systems appear to be impacted."
+  }
+}

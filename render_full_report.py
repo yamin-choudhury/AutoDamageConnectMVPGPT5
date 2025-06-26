@@ -31,9 +31,9 @@ th{background:#2c3e50;color:#fff}
 .severity-minor{color:#27ae60}
 .severity-moderate{color:#f39c12}
 .severity-severe{color:#c0392b;font-weight:bold}
-.annotated{position:relative;display:inline-block;margin:10px;border:1px solid #ccc;box-shadow:0 0 6px rgba(0,0,0,.1)}
-.annotated img{display:block}
-.annotated svg{position:absolute;top:0;left:0;pointer-events:none}
+.plain-img{display:inline-block;margin:10px;border:1px solid #ccc;box-shadow:0 0 6px rgba(0,0,0,.1)}
+.plain-img img{display:block}
+.damage-map-wrapper{display:flex;justify-content:center;gap:40px;margin:40px 0}.damage-view{text-align:center;font-size:14px;color:#555}
 footer{text-align:center;margin-top:60px;font-size:14px;color:#777}
 """
 
@@ -73,20 +73,113 @@ def build_html(report: Dict, images_dir: Path) -> str:
     rows = []
     for p in report['damaged_parts']:
         desc_html = p.get('description', '')
-        rows.append(f"<tr><td>{p['name']}</td><td>{p['location']}</td><td class='{severity_class(p['severity'])}'>{p['severity']}</td><td>{p['damage_type']}</td><td>{p['image']} #{p['box_id']}</td><td>{desc_html}</td></tr>")
+        notes_html = p.get('notes','')
+        rows.append(f"<tr><td>{p['name']}</td><td>{p['location']}</td><td class='{severity_class(p['severity'])}'>{p['severity']}</td><td>{p['damage_type']}</td><td>{p['repair_method']}</td><td>{p['image']} #{p['box_id']}</td><td>{desc_html}</td><td>{notes_html}</td></tr>")
     table_html = """
     <div class='table-wrapper'>
     <h2>Damage Overview</h2>
     <table>
-        <thead><tr><th>Part</th><th>Location</th><th>Severity</th><th>Damage Type</th><th>Image Ref</th><th>Description</th></tr></thead>
+        <thead><tr><th>Part</th><th>Location</th><th>Severity</th><th>Damage Type</th><th>Repair Method</th><th>Image Ref</th><th>Description</th><th>Notes</th></tr></thead>
         <tbody>{}</tbody>
     </table></div>""".format("\n".join(rows))
 
-    # Annotated images
+    # Repair parts table
+    repair_rows = []
+    for rp in report.get('repair_parts', []):
+        sub = ', '.join(rp.get('sub_components', []))
+        repair_rows.append(f"<tr><td>{rp['category']}</td><td>{rp['name']}</td><td>{'Yes' if rp['oem_only'] else 'No'}</td><td>{sub}</td><td>{rp['labour_hours']}</td><td>{rp['paint_hours']}</td></tr>")
+    repair_table_html = ""
+    if repair_rows:
+        repair_table_html = """
+        <div class='table-wrapper'>
+        <h2>Parts Required for Repair</h2>
+        <table>
+            <thead><tr><th>Category</th><th>Part Name</th><th>OEM Only</th><th>Sub-components</th><th>Labour h</th><th>Paint h</th></tr></thead>
+            <tbody>{}</tbody>
+        </table></div>""".format("\n".join(repair_rows))
+
+    # Plain images for visual reference
     # Map image name -> list of boxes
     img_map: Dict[str,List[dict]] = {}
     for part in report['damaged_parts']:
         img_map.setdefault(part['image'], []).append(part)
+
+    # ---------------- Multi-view damage map ------------------
+    views = [
+        {"id": "front", "w": 120, "h": 180, "title": "Front"},
+        {"id": "left", "w": 120, "h": 180, "title": "Left"},
+        {"id": "rear", "w": 120, "h": 180, "title": "Rear"},
+        {"id": "right", "w": 120, "h": 180, "title": "Right"},
+    ]
+
+    # helper: choose view(s) and approx coords
+    def locate(part: dict):
+        loc = part.get('location','').lower()
+        name = part.get('name','').lower()
+        targets = []
+        # decide view
+        if 'front' in loc or 'bumper' in name and 'rear' not in loc:
+            view = 'front'
+        elif 'rear' in loc or 'tail' in name:
+            view = 'rear'
+        elif 'left' in loc or 'lh' in loc:
+            view = 'left'
+        elif 'right' in loc or 'rh' in loc:
+            view = 'right'
+        else:
+            # default side based on severity count to spread
+            view = 'left'
+        # choose y by part category
+        y_map = {
+            'roof':30,'window':60,'windscreen':60,'bonnet':60,'hood':60,'door':90,
+            'fender':100,'quarter':120,'bumper':150,'wheel':160
+        }
+        y = 90
+        for k,v in y_map.items():
+            if k in name:
+                y=v
+                break
+        # x position: center of each SVG
+        x = 60
+        return view,x,y
+
+    # build svg dict
+    svg_parts = {v['id']:[] for v in views}
+    for idx,p in enumerate(report['damaged_parts'],1):
+        view,x,y = locate(p)
+        color = '#c0392b' if p['severity']=='severe' else ('#f39c12' if p['severity']=='moderate' else '#27ae60')
+        svg_parts[view].append(f"<circle cx='{x}' cy='{y}' r='10' fill='{color}' opacity='0.8'/><text x='{x-4}' y='{y+4}' fill='#fff' font-size='9'>{idx}</text>")
+
+    damage_map_views = []
+    for v in views:
+        inner=''.join(svg_parts[v['id']])
+        # simple silhouette paths per view for nicer look
+        path_map = {
+            'front': "M20 60 Q60 20 100 60 L100 120 Q60 150 20 120 Z",
+            'rear':  "M20 60 Q60 20 100 60 L100 120 Q60 150 20 120 Z",
+            'left':  "M20 40 L100 40 Q110 60 110 80 L110 120 Q110 140 100 140 L20 140 Z",
+            'right': "M20 40 L100 40 Q110 60 110 80 L110 120 Q110 140 100 140 L20 140 Z",
+        }
+        silhouette = f"<path d='{path_map[v['id']]}' fill='#ecf0f1' stroke='#bdc3c7' stroke-width='3' />"
+        damage_map_views.append(
+            f"<div class='damage-view'><svg width='{v['w']}' height='{v['h']}' viewBox='0 0 {v['w']} {v['h']}'>{silhouette}{inner}</svg><div>{v['title']}</div></div>")
+    damage_map_html = "<h2>Damage Map</h2><div class='damage-map-wrapper'>" + ''.join(damage_map_views) + "</div>"
+    # ------------------------------------------------------
+    def part_to_coords(loc: str):
+        loc = loc.lower()
+        x = 100  # center default
+        y = 200
+        if 'front' in loc:
+            y = 60
+        elif 'rear' in loc or 'back' in loc:
+            y = 340
+        if 'left' in loc or 'lh' in loc:
+            x = 60
+        elif 'right' in loc or 'rh' in loc:
+            x = 140
+        return x, y
+
+    circles = []
 
     img_sections = []
     for img_name, parts in img_map.items():
@@ -104,25 +197,26 @@ def build_html(report: Dict, images_dir: Path) -> str:
             if not path.exists():
                 continue
         data_uri, w, h = inline_image(path)
-        svg_rects = []
-        for p in parts:
-            box = p['bbox_px']
-            color = '#c0392b' if p['severity']=='severe' else ('#f39c12' if p['severity']=='moderate' else '#27ae60')
-            svg_rects.append(f"<rect x='{box['x']}' y='{box['y']}' width='{box['w']}' height='{box['h']}' fill='none' stroke='{color}' stroke-width='4' />")
-            svg_rects.append(f"<text x='{box['x']+5}' y='{box['y']+20}' fill='{color}' font-size='20' font-weight='bold'>#{p['box_id']}</text>")
-        svg_markup = "".join(svg_rects)
-        section = f"<div class='annotated'><svg width='{w}' height='{h}' viewBox='0 0 {w} {h}'>{svg_markup}</svg><img src='{data_uri}' width='{w}' height='{h}'/></div>"
+        section = f"<div class='plain-img'><img src='{data_uri}' width='{w}' height='{h}'/></div>"
         img_sections.append(section)
-    images_html = "<h2>Annotated Images</h2>" + "".join(img_sections)
 
+    images_html = "<h2>Vehicle Images</h2>" + "".join(img_sections)
+
+    # --- build title without Unknown/blank values ---
+    title_parts = [vehicle.get('year',''), vehicle.get('make',''), vehicle.get('model','')]
+    title = ' '.join(p for p in title_parts if p and p.lower() != 'unknown').strip() or 'Vehicle'
+
+    # --- assemble final HTML ---
     html = f"""<!DOCTYPE html><html><head><meta charset='utf-8'><title>Vehicle Damage Report</title><style>{CSS}</style></head><body>
     <div class='container'>
-    <header><h1>Vehicle Damage Report</h1><h2>{vehicle.get('make','')} {vehicle.get('model','')}</h2><p>Generated {now}</p></header>
+    <header><h1>Vehicle Damage Report</h1><h2>{title}</h2><p>Generated {now}</p></header>
     {summary_html}
-    {table_html}
+    {table_html}\n    {repair_table_html}
+    {damage_map_html}
     {images_html}
     <footer>© 2025 AutoDamagePro – AI-generated report. Human verification required.</footer>
     </div></body></html>"""
+
     return html
 
 def main():

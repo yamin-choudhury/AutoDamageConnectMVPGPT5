@@ -1,0 +1,198 @@
+{
+  "vehicle": {
+    "make": "Peugeot",
+    "model": "108",
+    "year": "Unknown"
+  },
+  "damaged_parts": [
+    {
+      "name": "Front bumper cover",
+      "category": "Exterior Body & Trim",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image3.jpg",
+      "box_id": 1,
+      "bbox_px": {
+        "x": 100,
+        "y": 300,
+        "w": 300,
+        "h": 200
+      },
+      "repair_method": "repair",
+      "description": "The front bumper cover exhibits moderate deformation, likely from an impact. The damage is visible across a significant portion of the bumper, affecting its structural integrity.",
+      "notes": "Ensure alignment is checked post-repair."
+    },
+    {
+      "name": "Bonnet",
+      "category": "Exterior Body & Trim",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image3.jpg",
+      "box_id": 2,
+      "bbox_px": {
+        "x": 150,
+        "y": 100,
+        "w": 350,
+        "h": 250
+      },
+      "repair_method": "repair",
+      "description": "The bonnet has moderate deformation, suggesting a frontal impact. The damage affects the bonnet's ability to close properly and may impact aerodynamics.",
+      "notes": "Check for underlying structural damage."
+    },
+    {
+      "name": "Left headlight",
+      "category": "Lighting & Visibility",
+      "location": "front LH",
+      "damage_type": "crack",
+      "severity": "moderate",
+      "image": "image4.jpg",
+      "box_id": 3,
+      "bbox_px": {
+        "x": 50,
+        "y": 200,
+        "w": 100,
+        "h": 100
+      },
+      "repair_method": "replace",
+      "description": "The left headlight has a moderate crack, which may allow moisture ingress and affect light output. The integrity of the headlight is compromised.",
+      "notes": "Consider replacing the bulb if moisture is present."
+    },
+    {
+      "name": "Right front fender",
+      "category": "Exterior Body & Trim",
+      "location": "front RH",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image8.jpg",
+      "box_id": 4,
+      "bbox_px": {
+        "x": 200,
+        "y": 150,
+        "w": 150,
+        "h": 200
+      },
+      "repair_method": "repair",
+      "description": "The right front fender shows moderate deformation, likely from a side impact. The damage may affect the vehicle's appearance and aerodynamics.",
+      "notes": "Inspect for any hidden damage to mounting points."
+    },
+    {
+      "name": "Bonnet",
+      "category": "Exterior Body & Trim",
+      "location": "front",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image3.jpg",
+      "box_id": 2,
+      "bbox_px": {
+        "x": 200,
+        "y": 100,
+        "w": 250,
+        "h": 100
+      },
+      "repair_method": "repair",
+      "description": "The bonnet has moderate deformation, indicating a frontal collision. This damage may hinder the bonnet's functionality and alignment.",
+      "notes": "Verify the latch mechanism for proper operation."
+    },
+    {
+      "name": "Right headlight",
+      "category": "Lighting & Visibility",
+      "location": "front RH",
+      "damage_type": "crack",
+      "severity": "severe",
+      "image": "image5.jpg",
+      "box_id": 4,
+      "bbox_px": {
+        "x": 350,
+        "y": 200,
+        "w": 100,
+        "h": 100
+      },
+      "repair_method": "replace",
+      "description": "The right headlight has a severe crack, significantly impairing its function and potentially allowing water ingress. Replacement is necessary to restore full visibility.",
+      "notes": "Check electrical connections for damage."
+    },
+    {
+      "name": "Left front fender",
+      "category": "Exterior Body & Trim",
+      "location": "front LH",
+      "damage_type": "deformation",
+      "severity": "moderate",
+      "image": "image8.jpg",
+      "box_id": 5,
+      "bbox_px": {
+        "x": 50,
+        "y": 300,
+        "w": 150,
+        "h": 150
+      },
+      "repair_method": "repair",
+      "description": "The left front fender is moderately deformed, suggesting impact damage. This may affect the vehicle's aesthetic and could lead to rust if not addressed.",
+      "notes": "Ensure paint is properly matched during repair."
+    }
+  ],
+  "repair_parts": [
+    {
+      "category": "body panel",
+      "name": "front bumper cover",
+      "oem_only": false,
+      "sub_components": [
+        "mounting brackets",
+        "clips"
+      ],
+      "labour_hours": 2.5,
+      "paint_hours": 2.0
+    },
+    {
+      "category": "lighting",
+      "name": "left headlight assembly",
+      "oem_only": true,
+      "sub_components": [
+        "bulbs",
+        "wiring harness"
+      ],
+      "labour_hours": 1.2,
+      "paint_hours": 0.0
+    },
+    {
+      "category": "paint",
+      "name": "base coat",
+      "oem_only": false,
+      "sub_components": [],
+      "labour_hours": 0.0,
+      "paint_hours": 1.5
+    },
+    {
+      "category": "paint",
+      "name": "clear coat",
+      "oem_only": false,
+      "sub_components": [],
+      "labour_hours": 0.0,
+      "paint_hours": 1.0
+    },
+    {
+      "category": "adhesive",
+      "name": "bumper adhesive",
+      "oem_only": false,
+      "sub_components": [],
+      "labour_hours": 0.0,
+      "paint_hours": 0.0
+    },
+    {
+      "category": "fasteners",
+      "name": "bumper clips",
+      "oem_only": false,
+      "sub_components": [],
+      "labour_hours": 0.0,
+      "paint_hours": 0.0
+    }
+  ],
+  "summary": {
+    "overall_severity": "moderate",
+    "repair_complexity": "medium",
+    "safety_impacted": false,
+    "total_estimated_hours": 18,
+    "comments": "The vehicle has sustained moderate damage primarily affecting the front bumper and left fender. The repair process involves moderate complexity due to the need for alignment checks and paint work. Safety systems are not impacted, and the estimated repair time is 18 hours, including both labor and paint work."
+  }
+}

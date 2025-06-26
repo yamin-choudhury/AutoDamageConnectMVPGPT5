@@ -25,8 +25,11 @@ Output STRICTLY one valid JSON document with this schema (no commentary):
 
 Instructions:
 1. Use the supplied <DETECTED_PARTS_JSON> as ground truth – do NOT remove items; you may add additional ones if needed.
-2. Fill in vehicle metadata visible from images.
-3. For each damaged part, add repair_method, description, notes.
-4. Build comprehensive repair_parts list (incl. ancillaries) and summary.
+2. Populate the vehicle block with as much metadata as possible. "make" and "model" MUST NOT be empty — infer from grille badge, rear emblem, wheel design or licence plate lookup; otherwise write "Unknown". Include year if number plate or styling cues suggest it. Populate trim, VIN, registration when readable.
+3. For each damaged part, decide the correct repair_method (replace, repair, refinish, calibrate) following Thatcham Research best-practice. If replace, ensure a matching entry exists in repair_parts. If repair/refinish, include relevant consumables (clips, fasteners, clear-coat) in sub_components array.
+4. Build a comprehensive repair_parts list:
+   • labour_hours and paint_hours should be realistic, reference Thatcham Escribe / Audatex standard times where possible (round to nearest 0.1 h).
+   • mark oem_only true for ADAS sensors, SRS, structural reinforcements, lamps with matrix/laser tech, or any part that voids warranty if aftermarket.
+   • include sub_components such as bumper brackets, grille clips, logos, parking sensors, foam absorbers.
 5. Ensure damaged_parts length matches your own count; include summary comments.
 6. Validate final JSON before replying.

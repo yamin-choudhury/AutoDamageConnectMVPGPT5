@@ -17,9 +17,10 @@ interface UploadedImage {
 
 interface Props {
   documentId: string | null;
+  onDocumentCreated?: (id: string) => void;
 }
 
-const ImageUploader = ({ documentId }: Props) => {
+const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
   const [images, setImages] = useState<UploadedImage[]>([]);
   const [isUploading, setIsUploading] = useState(false);
 
@@ -74,11 +75,37 @@ const ImageUploader = ({ documentId }: Props) => {
     return true;
   };
 
+  const createDraftDocument = async (): Promise<string | null> => {
+    const { data, error } = await (supabase as any).from('documents').insert({
+      status: 'draft',
+      vin: '',
+      registration_plate: '',
+      make: '',
+      model: '',
+      year: '',
+      trim_body_style: ''
+    }).select('id').single();
+    if (error) {
+      toast({ title: 'Failed to create document', description: error.message, variant: 'destructive' });
+      return null;
+    }
+    const newId = data.id as string;
+    if (onDocumentCreated) onDocumentCreated(newId);
+    return newId;
+  };
+
   const handleUpload = async () => {
     if (!images.length) {
       toast({ title: "No images selected", variant: "destructive" });
       return;
     }
+    // ensure we have a document first
+    let docId = documentId;
+    if (!docId) {
+      docId = await createDraftDocument();
+      if (!docId) return; // failed to create
+    }
+
     setIsUploading(true);
     for (const img of images.filter((i) => !i.uploaded)) {
       // optimistic 50% to show some movement

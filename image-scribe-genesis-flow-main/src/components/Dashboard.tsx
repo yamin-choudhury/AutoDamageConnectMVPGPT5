@@ -229,7 +229,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                 </p>
               </CardHeader>
               <CardContent>
-                <ImageUploader documentId={selectedDocumentId} />
+                <ImageUploader documentId={selectedDocumentId} onDocumentCreated={setSelectedDocumentId} />
               </CardContent>
             </Card>
 

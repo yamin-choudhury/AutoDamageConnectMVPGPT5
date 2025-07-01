@@ -62,8 +62,8 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
       toast({ title: "Upload failed", description: upErr.message, variant: "destructive" });
       return false;
     }
-    const { data: urlData } = supabase.storage.from("images").getPublicUrl(path);
-    const publicUrl = (urlData as any).publicUrl || (urlData as any).publicURL || urlData?.publicUrl;
+    const { data: publicData } = supabase.storage.from('images').getPublicUrl(path);
+    const publicUrl = publicData.publicUrl;
     const { error: dbErr } = await (supabase as any).from('images').insert({
       document_id: documentId,
       url: publicUrl,

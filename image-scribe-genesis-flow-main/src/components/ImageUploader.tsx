@@ -61,12 +61,11 @@ const ImageUploader = ({ documentId }: Props) => {
       toast({ title: "Upload failed", description: upErr.message, variant: "destructive" });
       return false;
     }
-    const { data } = supabase.storage.from("images").getPublicUrl(path);
-    const { error: dbErr } = await supabase.from("document_images").insert({
+    const { data: urlData } = supabase.storage.from("images").getPublicUrl(path);
+    const publicUrl = (urlData as any).publicUrl || (urlData as any).publicURL || urlData?.publicUrl;
+    const { error: dbErr } = await (supabase as any).from('images').insert({
       document_id: documentId,
-      image_url: data.publicUrl,
-      image_name: img.file.name,
-      file_size: img.file.size,
+      url: publicUrl,
     });
     if (dbErr) {
       toast({ title: "DB insert failed", description: dbErr.message, variant: "destructive" });

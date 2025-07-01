@@ -59,7 +59,13 @@ async def generate_report(payload: GeneratePayload):
 
         # Run staged generator ------------------------------------------------
         out_json = tmp_dir / "report.json"
-        gen_script = Path(__file__).resolve().parent.parent / "generate_damage_report_staged.py"
+        # Locate generate_damage_report_staged.py whether it lives beside backend/ or at repo root
+        root_dir = Path(__file__).resolve().parent
+        gen_script = root_dir / "generate_damage_report_staged.py"
+        if not gen_script.exists():
+            gen_script = root_dir.parent / "generate_damage_report_staged.py"
+        if not gen_script.exists():
+            raise RuntimeError("generate_damage_report_staged.py not found in expected locations")
         run_subprocess([
             "python", str(gen_script),
             "--images_dir", str(tmp_dir),

@@ -73,10 +73,24 @@ async def generate_report(payload: GeneratePayload):
         ])
 
         # Convert to PDF ------------------------------------------------------
+        # Turn JSON into a simple pretty-printed HTML so Playwright can convert it
+        html_path = tmp_dir / "report.html"
+        html_content = (
+            "<html><head><meta charset='utf-8'><title>Damage Report</title>"
+            "<style>body{font-family:Arial,Helvetica,sans-serif;}pre{white-space:pre-wrap;font-family:monospace;}</style>"
+            "</head><body><h1>Vehicle Damage Report</h1><pre>" +
+            json.dumps(json.loads(out_json.read_text("utf-8")), indent=2) +
+            "</pre></body></html>"
+        )
+        html_path.write_text(html_content, encoding="utf-8")
+
+        # Now render that HTML to PDF using Playwright
         pdf_path = tmp_dir / "report.pdf"
-        html_to_pdf = Path(__file__).resolve().parent.parent / "html_to_pdf.py"
+        html_to_pdf = Path(__file__).resolve().parent / "html_to_pdf.py"
+        if not html_to_pdf.exists():
+            html_to_pdf = Path(__file__).resolve().parent.parent / "html_to_pdf.py"
         print("Converting to PDF…")
-        run_subprocess(["python", str(html_to_pdf), str(out_json), str(pdf_path)])
+        run_subprocess(["python", str(html_to_pdf), str(html_path), str(pdf_path)])
 
         # Upload to storage ---------------------------------------------------
         sb = supabase()
@@ -113,10 +127,22 @@ async def pdf_from_json(payload: PDFPayload):
     tmp_dir = Path(tempfile.mkdtemp(prefix="pdf_"))
     try:
         src = tmp_dir / "report.json"
+        # Build HTML from given JSON
+        html_path = tmp_dir / "report.html"
+        html_content = (
+            "<html><head><meta charset='utf-8'><title>Damage Report</title>"
+            "<style>body{font-family:Arial,Helvetica,sans-serif;}pre{white-space:pre-wrap;font-family:monospace;}</style>"
+            "</head><body><h1>Vehicle Damage Report</h1><pre>" +
+            json.dumps(report_json, indent=2) +
+            "</pre></body></html>"
+        )
+        html_path.write_text(html_content, encoding="utf-8")
         src.write_text(json.dumps(report_json), encoding="utf-8")
         pdf_path = tmp_dir / "report.pdf"
-        html_to_pdf = Path(__file__).resolve().parent.parent / "html_to_pdf.py"
-        run_subprocess(["python", str(html_to_pdf), str(src), str(pdf_path)])
+        html_to_pdf = Path(__file__).resolve().parent / "html_to_pdf.py"
+        if not html_to_pdf.exists():
+            html_to_pdf = Path(__file__).resolve().parent.parent / "html_to_pdf.py"
+        run_subprocess(["python", str(html_to_pdf), str(html_path), str(pdf_path)])
 
         sb = supabase()
         bucket = sb.storage.from_(SUPABASE_BUCKET)

@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@google-cloud/storage": "npm:@google-cloud/storage@6"
+  }
+}

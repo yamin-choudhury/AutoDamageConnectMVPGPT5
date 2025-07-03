@@ -17,10 +17,14 @@ from tqdm import tqdm
 from copy import deepcopy
 
 
-PHASE1_PROMPT = Path(__file__).parent / "prompts/detect_parts_prompt.txt"
-PHASE2_PROMPT = Path(__file__).parent / "prompts/describe_parts_prompt.txt"
-PHASE3_PROMPT = Path(__file__).parent / "prompts/plan_parts_prompt.txt"
-PHASE4_PROMPT = Path(__file__).parent / "prompts/summary_prompt.txt"
+# Look for prompt files one directory up (repo root) to ensure they are present inside the container
+# Try ./prompts beside this file first, else ../prompts (repo root)
+_prompts_same = Path(__file__).resolve().parent / "prompts"
+PROMPTS_DIR = _prompts_same if _prompts_same.exists() else Path(__file__).resolve().parent.parent / "prompts"
+PHASE1_PROMPT = PROMPTS_DIR / "detect_parts_prompt.txt"
+PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
+PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
+PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
 
 
 # ----------------------- YOLO integration disabled -------------------

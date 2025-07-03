@@ -56,22 +56,43 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
       toast({ title: "Save document first", variant: "destructive" });
       return false;
     }
-    const path = `${documentId}/${Date.now()}_${img.file.name}`;
-    const { error: upErr } = await supabase.storage.from("images").upload(path, img.file, { upsert: true });
-    if (upErr) {
-      toast({ title: "Upload failed", description: upErr.message, variant: "destructive" });
+
+    // Compose an object key inside the bucket, namespaced by document
+    const key = `${documentId}/${Date.now()}_${img.file.name}`;
+
+    // 1. Ask our Edge Function for a signed upload URL
+    const { data: presignData, error: presignErr } = await supabase.functions.invoke("gcs-presign", {
+      body: { key, contentType: img.file.type },
+    }) as { data: { url: string; publicUrl: string }; error: any };
+
+    if (presignErr || !presignData?.url) {
+      toast({ title: "Presign failed", description: presignErr?.message || "no url", variant: "destructive" });
       return false;
     }
-    const { data: publicData } = supabase.storage.from('images').getPublicUrl(path);
-    const publicUrl = publicData.publicUrl;
-    const { error: dbErr } = await (supabase as any).from('images').insert({
-      document_id: documentId,
-      url: publicUrl,
+
+    // 2. Upload the file directly to Google Cloud Storage
+    const uploadResp = await fetch(presignData.url, {
+      method: "PUT",
+      headers: { "Content-Type": img.file.type },
+      body: img.file,
     });
+
+    if (!uploadResp.ok) {
+      toast({ title: "Upload failed", description: `GCS responded ${uploadResp.status}` , variant: "destructive" });
+      return false;
+    }
+
+    // 3. Record the public URL in the Supabase images table
+    const { error: dbErr } = await (supabase as any).from("images").insert({
+      document_id: documentId,
+      url: presignData.publicUrl,
+    });
+
     if (dbErr) {
       toast({ title: "DB insert failed", description: dbErr.message, variant: "destructive" });
       return false;
     }
+
     return true;
   };
 

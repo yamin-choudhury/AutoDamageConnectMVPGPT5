@@ -15,7 +15,14 @@ opens the local HTML file, waits for network-idle, and prints to PDF
 from __future__ import annotations
 import sys, asyncio
 from pathlib import Path
-from playwright.async_api import async_playwright
+try:
+    from playwright.async_api import async_playwright  # type: ignore
+except ModuleNotFoundError:
+    import subprocess, sys as _sys
+    print("Playwright missing – installing…", file=_sys.stderr)
+    subprocess.run([_sys.executable, "-m", "pip", "install", "playwright"], check=True)
+    subprocess.run([_sys.executable, "-m", "playwright", "install", "chromium"], check=True)
+    from playwright.async_api import async_playwright  # type: ignore
 
 
 def usage():

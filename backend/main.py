@@ -238,6 +238,295 @@ async def generate_report(payload: GeneratePayload):
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
+async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
+    """
+    Generate a professional HTML damage report with images and annotations.
+    """
+    from datetime import datetime
+    
+    # Get vehicle info
+    vehicle = report_json.get('vehicle', {})
+    damaged_parts = report_json.get('damaged_parts', [])
+    repair_parts = report_json.get('repair_parts', [])
+    summary = report_json.get('summary', {})
+    
+    # Get images from Supabase
+    sb = supabase()
+    images_result = sb.table("images").select("url").eq("document_id", doc_id).execute()
+    image_urls = [img['url'] for img in images_result.data] if images_result.data else []
+    
+    # HTML template with embedded CSS for professional styling
+    html = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Damage Assessment Report</title>
+    <style>
+        body {{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }}
+        .header {{
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }}
+        .header h1 {{
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }}
+        .report-date {{
+            font-size: 1.1em;
+            margin-top: 10px;
+            opacity: 0.9;
+        }}
+        .section {{
+            background: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }}
+        .section h2 {{
+            color: #1e3a8a;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }}
+        .vehicle-info, .summary-info {{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }}
+        .info-label {{
+            font-weight: bold;
+            color: #374151;
+        }}
+        .info-value {{
+            color: #1f2937;
+        }}
+        .severity-high {{ color: #dc2626; font-weight: bold; }}
+        .severity-moderate {{ color: #f59e0b; font-weight: bold; }}
+        .severity-low {{ color: #10b981; font-weight: bold; }}
+        .damage-part {{
+            border-left: 4px solid #3b82f6;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f8fafc;
+            border-radius: 0 8px 8px 0;
+        }}
+        .damage-part h3 {{
+            color: #1e40af;
+            margin-top: 0;
+        }}
+        .images-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }}
+        .image-container {{
+            position: relative;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }}
+        .image-container img {{
+            width: 100%;
+            height: auto;
+            display: block;
+        }}
+        .image-caption {{
+            background-color: #374151;
+            color: white;
+            padding: 10px;
+            font-size: 0.9em;
+            text-align: center;
+        }}
+        .parts-table {{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }}
+        .parts-table th, .parts-table td {{
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }}
+        .parts-table th {{
+            background-color: #f3f4f6;
+            font-weight: 600;
+            color: #374151;
+        }}
+        .parts-table tr:hover {{
+            background-color: #f8fafc;
+        }}
+        .footer {{
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #6b7280;
+            font-size: 0.9em;
+        }}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚗 Vehicle Damage Assessment Report</h1>
+        <div class="report-date">Generated on {datetime.now().strftime('%B %d, %Y at %I:%M %p')}</div>
+    </div>
+
+    <div class="section">
+        <h2>🚙 Vehicle Information</h2>
+        <div class="vehicle-info">
+            <div class="info-label">Make:</div>
+            <div class="info-value">{vehicle.get('make', 'N/A')}</div>
+            <div class="info-label">Model:</div>
+            <div class="info-value">{vehicle.get('model', 'N/A')}</div>
+            <div class="info-label">Year:</div>
+            <div class="info-value">{vehicle.get('year', 'N/A')}</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📋 Damage Summary</h2>
+        <div class="summary-info">
+            <div class="info-label">Overall Severity:</div>
+            <div class="info-value severity-{summary.get('overall_severity', 'low')}">
+                {summary.get('overall_severity', 'N/A').upper()}
+            </div>
+            <div class="info-label">Repair Complexity:</div>
+            <div class="info-value">{summary.get('repair_complexity', 'N/A').title()}</div>
+            <div class="info-label">Safety Impact:</div>
+            <div class="info-value">{'YES' if summary.get('safety_impacted') else 'NO'}</div>
+            <div class="info-label">Estimated Hours:</div>
+            <div class="info-value">{summary.get('total_estimated_hours', 0)} hours</div>
+        </div>
+        {f'<p><strong>Comments:</strong> {summary.get("comments", "")}' if summary.get('comments') else ''}</p>
+    </div>
+
+    <div class="section">
+        <h2>📸 Damage Images</h2>
+        <div class="images-grid">
+"""
+    
+    # Add images to the report
+    for i, img_url in enumerate(image_urls, 1):
+        html += f"""
+            <div class="image-container">
+                <img src="{img_url}" alt="Damage Image {i}" onerror="this.style.display='none';this.nextElementSibling.innerHTML='Image not available'">
+                <div class="image-caption">Image {i} - Vehicle Damage</div>
+            </div>
+        """
+    
+    html += """
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🔧 Damaged Parts Analysis</h2>
+    """
+    
+    # Add damaged parts
+    for i, part in enumerate(damaged_parts, 1):
+        severity_class = f"severity-{part.get('severity', 'low')}"
+        html += f"""
+        <div class="damage-part">
+            <h3>{i}. {part.get('name', 'Unknown Part')}</h3>
+            <div class="vehicle-info">
+                <div class="info-label">Location:</div>
+                <div class="info-value">{part.get('location', 'N/A')}</div>
+                <div class="info-label">Category:</div>
+                <div class="info-value">{part.get('category', 'N/A')}</div>
+                <div class="info-label">Damage Type:</div>
+                <div class="info-value">{part.get('damage_type', 'N/A')}</div>
+                <div class="info-label">Severity:</div>
+                <div class="info-value {severity_class}">{part.get('severity', 'N/A').upper()}</div>
+                <div class="info-label">Repair Method:</div>
+                <div class="info-value">{part.get('repair_method', 'N/A').upper()}</div>
+            </div>
+            {f'<p><strong>Description:</strong> {part.get("description", "")}' if part.get('description') else ''}</p>
+            {f'<p><strong>Notes:</strong> {part.get("notes", "")}' if part.get('notes') else ''}</p>
+        </div>
+        """
+    
+    # Add repair parts table if available
+    if repair_parts:
+        html += """
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Required Parts & Labor</h2>
+        <table class="parts-table">
+            <thead>
+                <tr>
+                    <th>Part Name</th>
+                    <th>Category</th>
+                    <th>Labor Hours</th>
+                    <th>Paint Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+        """
+        
+        total_labor = 0
+        total_paint = 0
+        
+        for part in repair_parts:
+            labor_hours = part.get('labour_hours', 0)
+            paint_hours = part.get('paint_hours', 0)
+            total_labor += labor_hours
+            total_paint += paint_hours
+            
+            html += f"""
+                <tr>
+                    <td>{part.get('name', 'N/A')}</td>
+                    <td>{part.get('category', 'N/A')}</td>
+                    <td>{labor_hours:.1f}h</td>
+                    <td>{paint_hours:.1f}h</td>
+                </tr>
+            """
+        
+        html += f"""
+                <tr style="font-weight: bold; background-color: #f3f4f6;">
+                    <td>TOTAL</td>
+                    <td></td>
+                    <td>{total_labor:.1f}h</td>
+                    <td>{total_paint:.1f}h</td>
+                </tr>
+            </tbody>
+        </table>
+        """
+    
+    html += """
+    </div>
+
+    <div class="footer">
+        <p>📄 End of Vehicle Damage Assessment Report</p>
+        <p>This report was generated automatically using AI damage detection technology.</p>
+    </div>
+
+</body>
+</html>
+    """
+    
+    return html
+
 # ---------------------------------------------------------------------------
 # /pdf-from-json – regenerate PDF after edits
 # ---------------------------------------------------------------------------
@@ -253,15 +542,9 @@ async def pdf_from_json(payload: PDFPayload):
     tmp_dir = Path(tempfile.mkdtemp(prefix="pdf_"))
     try:
         src = tmp_dir / "report.json"
-        # Build HTML from given JSON
+        # Build professional HTML with images and annotations
         html_path = tmp_dir / "report.html"
-        html_content = (
-            "<html><head><meta charset='utf-8'><title>Damage Report</title>"
-            "<style>body{font-family:Arial,Helvetica,sans-serif;}pre{white-space:pre-wrap;font-family:monospace;}</style>"
-            "</head><body><h1>Vehicle Damage Report</h1><pre>" +
-            json.dumps(report_json, indent=2) +
-            "</pre></body></html>"
-        )
+        html_content = await generate_visual_html_report(report_json, doc_id)
         html_path.write_text(html_content, encoding="utf-8")
         src.write_text(json.dumps(report_json), encoding="utf-8")
         pdf_path = tmp_dir / "report.pdf"

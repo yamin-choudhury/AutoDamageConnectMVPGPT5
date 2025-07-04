@@ -206,7 +206,7 @@ async def generate_report(payload: GeneratePayload):
         
         print("Uploading JSON to Supabase storage…")
         try:
-            json_result = bucket.upload(json_key, out_json.read_bytes(), upsert=True, content_type="application/json")
+            json_result = bucket.upload(json_key, out_json.read_bytes(), content_type="application/json")
             print(f"JSON upload result: {json_result}")
         except Exception as e:
             print(f"JSON upload failed: {e}")
@@ -214,7 +214,7 @@ async def generate_report(payload: GeneratePayload):
         
         print("Uploading PDF to Supabase storage…")
         try:
-            pdf_result = bucket.upload(pdf_key, pdf_path.read_bytes(), upsert=True, content_type="application/pdf")
+            pdf_result = bucket.upload(pdf_key, pdf_path.read_bytes(), content_type="application/pdf")
             print(f"PDF upload result: {pdf_result}")
         except Exception as e:
             print(f"PDF upload failed: {e}")
@@ -273,7 +273,7 @@ async def pdf_from_json(payload: PDFPayload):
         sb = supabase()
         bucket = sb.storage.from_(SUPABASE_BUCKET)
         pdf_key = f"{doc_id}.pdf"
-        bucket.upload(pdf_key, pdf_path.read_bytes(), upsert=True, content_type="application/pdf")
+        bucket.upload(pdf_key, pdf_path.read_bytes(), content_type="application/pdf")
         pdf_url = bucket.get_public_url(pdf_key)
 
         # Persist new URL

@@ -37,7 +37,15 @@ def supabase() -> Client:
         print(f"Creating Supabase client...")
         
         # Clean the URL by stripping whitespace and common problematic characters
-        cleaned_url = SUPABASE_URL.strip().replace(' =', '').replace(';', '')
+        cleaned_url = SUPABASE_URL.strip()  # Remove leading/trailing whitespace
+        cleaned_url = cleaned_url.lstrip(' =')  # Remove leading spaces and equals
+        cleaned_url = cleaned_url.rstrip(';')  # Remove trailing semicolons
+        # Additional safety: remove any remaining leading non-alphanumeric chars except https://
+        if not cleaned_url.startswith('https://'):
+            # Find where https:// starts
+            https_pos = cleaned_url.find('https://')
+            if https_pos > 0:
+                cleaned_url = cleaned_url[https_pos:]
         print(f"Original URL repr: {repr(SUPABASE_URL)}")
         print(f"Cleaned URL: {cleaned_url}")
         print(f"Cleaned URL length: {len(cleaned_url)}, starts with https: {cleaned_url.startswith('https://')}")

@@ -27,6 +27,7 @@ except KeyError:
 SUPABASE_BUCKET = os.getenv("REPORT_BUCKET", "reports")
 print(f"SUPABASE_BUCKET: {SUPABASE_BUCKET}")
 print("=== Environment Variables OK ===")
+# Force redeploy to pick up updated SUPABASE_URL
 
 _sb: Client | None = None
 
@@ -34,8 +35,18 @@ def supabase() -> Client:
     global _sb
     if _sb is None:
         print(f"Creating Supabase client...")
-        print(f"URL length: {len(SUPABASE_URL)}, starts with https: {SUPABASE_URL.startswith('https://')}")
-        print(f"URL repr: {repr(SUPABASE_URL)}")
+        
+        # Clean the URL by stripping whitespace and common problematic characters
+        cleaned_url = SUPABASE_URL.strip().replace(' =', '').replace(';', '')
+        print(f"Original URL repr: {repr(SUPABASE_URL)}")
+        print(f"Cleaned URL: {cleaned_url}")
+        print(f"Cleaned URL length: {len(cleaned_url)}, starts with https: {cleaned_url.startswith('https://')}")
+        
+        # Check for invisible characters
+        for i, char in enumerate(SUPABASE_URL):
+            if ord(char) < 32 or ord(char) > 126:
+                print(f"Non-printable character at position {i}: {repr(char)} (ord: {ord(char)})")
+        
         print(f"Service role key length: {len(SUPABASE_SERVICE_ROLE_KEY) if SUPABASE_SERVICE_ROLE_KEY else 'None'}")
         print(f"Service role key starts with: {SUPABASE_SERVICE_ROLE_KEY[:20] if SUPABASE_SERVICE_ROLE_KEY else 'None'}...")
         
@@ -43,8 +54,10 @@ def supabase() -> Client:
             import supabase as sb_module
             print(f"Supabase library version: {getattr(sb_module, '__version__', 'unknown')}")
             
-            _sb = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
-            print("Supabase client created successfully")
+            # Try with cleaned URL first
+            print(f"Attempting client creation with cleaned URL...")
+            _sb = create_client(cleaned_url, SUPABASE_SERVICE_ROLE_KEY)
+            print("Supabase client created successfully with cleaned URL")
         except Exception as e:
             print(f"Supabase client creation failed!")
             print(f"Error type: {type(e).__name__}")

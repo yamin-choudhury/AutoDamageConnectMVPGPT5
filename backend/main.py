@@ -9,16 +9,38 @@ from supabase import create_client, Client
 # ---------------------------------------------------------------------------
 # Environment
 # ---------------------------------------------------------------------------
-SUPABASE_URL = os.environ["SUPABASE_URL"]
-SUPABASE_SERVICE_ROLE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+print("=== Environment Variables Check ===")
+try:
+    SUPABASE_URL = os.environ["SUPABASE_URL"]
+    print(f"SUPABASE_URL: {SUPABASE_URL[:50]}..." if len(SUPABASE_URL) > 50 else f"SUPABASE_URL: {SUPABASE_URL}")
+except KeyError:
+    print("ERROR: SUPABASE_URL environment variable not set")
+    raise
+
+try:
+    SUPABASE_SERVICE_ROLE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    print(f"SUPABASE_SERVICE_ROLE_KEY: {'*' * min(20, len(SUPABASE_SERVICE_ROLE_KEY))}... (length: {len(SUPABASE_SERVICE_ROLE_KEY)})")
+except KeyError:
+    print("ERROR: SUPABASE_SERVICE_ROLE_KEY environment variable not set")
+    raise
+
 SUPABASE_BUCKET = os.getenv("REPORT_BUCKET", "reports")
+print(f"SUPABASE_BUCKET: {SUPABASE_BUCKET}")
+print("=== Environment Variables OK ===")
 
 _sb: Client | None = None
 
 def supabase() -> Client:
     global _sb
     if _sb is None:
-        _sb = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+        print(f"Creating Supabase client with URL: {SUPABASE_URL[:50]}...")
+        print(f"Service role key length: {len(SUPABASE_SERVICE_ROLE_KEY) if SUPABASE_SERVICE_ROLE_KEY else 'None'}")
+        try:
+            _sb = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+            print("Supabase client created successfully")
+        except Exception as e:
+            print(f"Failed to create Supabase client: {e}")
+            raise
     return _sb
 
 app = FastAPI(title="Damage Report Service")

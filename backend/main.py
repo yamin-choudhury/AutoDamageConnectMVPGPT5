@@ -97,35 +97,82 @@ async def generate_report(payload: GeneratePayload):
         ])
 
         # Convert to PDF ------------------------------------------------------
+        print("Starting PDF conversion process...")
         # Turn JSON into a simple pretty-printed HTML so Playwright can convert it
         html_path = tmp_dir / "report.html"
+        print(f"Reading JSON from: {out_json}")
+        
+        try:
+            json_content = json.loads(out_json.read_text("utf-8"))
+            print("JSON loaded successfully")
+        except Exception as e:
+            print(f"Failed to read JSON: {e}")
+            raise HTTPException(status_code=500, detail=f"Failed to read generated JSON: {str(e)}")
+        
         html_content = (
             "<html><head><meta charset='utf-8'><title>Damage Report</title>"
             "<style>body{font-family:Arial,Helvetica,sans-serif;}pre{white-space:pre-wrap;font-family:monospace;}</style>"
             "</head><body><h1>Vehicle Damage Report</h1><pre>" +
-            json.dumps(json.loads(out_json.read_text("utf-8")), indent=2) +
+            json.dumps(json_content, indent=2) +
             "</pre></body></html>"
         )
         html_path.write_text(html_content, encoding="utf-8")
+        print(f"HTML file created: {html_path}")
 
         # Now render that HTML to PDF using Playwright
         pdf_path = tmp_dir / "report.pdf"
         html_to_pdf = Path(__file__).resolve().parent / "html_to_pdf.py"
         if not html_to_pdf.exists():
             html_to_pdf = Path(__file__).resolve().parent.parent / "html_to_pdf.py"
+        
+        print(f"Using html_to_pdf script: {html_to_pdf}")
         print("Converting to PDF…")
-        run_subprocess(["python", str(html_to_pdf), str(html_path), str(pdf_path)])
+        
+        try:
+            run_subprocess(["python", str(html_to_pdf), str(html_path), str(pdf_path)])
+            print(f"PDF conversion completed: {pdf_path}")
+            
+            # Verify PDF was created
+            if not pdf_path.exists():
+                raise FileNotFoundError(f"PDF file was not created: {pdf_path}")
+            print(f"PDF file size: {pdf_path.stat().st_size} bytes")
+        except Exception as e:
+            print(f"PDF conversion failed: {e}")
+            raise HTTPException(status_code=500, detail=f"PDF conversion failed: {str(e)}")
 
         # Upload to storage ---------------------------------------------------
+        print("Initializing Supabase client...")
         sb = supabase()
+        print(f"Supabase bucket: {SUPABASE_BUCKET}")
         bucket = sb.storage.from_(SUPABASE_BUCKET)
         json_key = f"{doc_id}.json"
         pdf_key = f"{doc_id}.pdf"
-        print("Uploading JSON and PDF to Supabase storage…")
-        bucket.upload(json_key, out_json.read_bytes(), upsert=True, content_type="application/json")
-        bucket.upload(pdf_key, pdf_path.read_bytes(), upsert=True, content_type="application/pdf")
-        json_url = bucket.get_public_url(json_key)
-        pdf_url = bucket.get_public_url(pdf_key)
+        print(f"Upload keys: json={json_key}, pdf={pdf_key}")
+        
+        print("Uploading JSON to Supabase storage…")
+        try:
+            json_result = bucket.upload(json_key, out_json.read_bytes(), upsert=True, content_type="application/json")
+            print(f"JSON upload result: {json_result}")
+        except Exception as e:
+            print(f"JSON upload failed: {e}")
+            raise HTTPException(status_code=500, detail=f"JSON upload failed: {str(e)}")
+        
+        print("Uploading PDF to Supabase storage…")
+        try:
+            pdf_result = bucket.upload(pdf_key, pdf_path.read_bytes(), upsert=True, content_type="application/pdf")
+            print(f"PDF upload result: {pdf_result}")
+        except Exception as e:
+            print(f"PDF upload failed: {e}")
+            raise HTTPException(status_code=500, detail=f"PDF upload failed: {str(e)}")
+        
+        print("Getting public URLs...")
+        try:
+            json_url = bucket.get_public_url(json_key)
+            pdf_url = bucket.get_public_url(pdf_key)
+            print(f"Generated URLs: json={json_url}, pdf={pdf_url}")
+        except Exception as e:
+            print(f"URL generation failed: {e}")
+            raise HTTPException(status_code=500, detail=f"URL generation failed: {str(e)}")
 
         # Return to edge function --------------------------------------------
         print("Upload complete, returning URLs…")

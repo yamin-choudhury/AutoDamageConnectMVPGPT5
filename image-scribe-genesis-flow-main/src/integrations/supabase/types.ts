@@ -58,6 +58,8 @@ export type Database = {
           user_id: string
           vin: string | null
           year: string | null
+          report_json: any | null
+          report_pdf_url: string | null
         }
         Insert: {
           created_at?: string
@@ -72,6 +74,8 @@ export type Database = {
           user_id: string
           vin?: string | null
           year?: string | null
+          report_json?: any | null
+          report_pdf_url?: string | null
         }
         Update: {
           created_at?: string
@@ -86,6 +90,8 @@ export type Database = {
           user_id?: string
           vin?: string | null
           year?: string | null
+          report_json?: any | null
+          report_pdf_url?: string | null
         }
         Relationships: []
       }

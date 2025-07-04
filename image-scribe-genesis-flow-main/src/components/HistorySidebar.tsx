@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -27,11 +27,7 @@ const HistorySidebar = ({ onSelectDocument, selectedDocumentId }: HistorySidebar
   const [loading, setLoading] = useState(true);
   const { toast } = useToast();
 
-  useEffect(() => {
-    fetchDocuments();
-  }, []);
-
-  const fetchDocuments = async () => {
+  const fetchDocuments = useCallback(async () => {
     try {
       const { data, error } = await supabase
         .from('documents')
@@ -50,7 +46,33 @@ const HistorySidebar = ({ onSelectDocument, selectedDocumentId }: HistorySidebar
     } finally {
       setLoading(false);
     }
-  };
+  }, [toast]);
+
+  useEffect(() => {
+    fetchDocuments();
+    
+    // Subscribe to realtime updates for documents
+    const channel = supabase
+      .channel('documents-sidebar')
+      .on(
+        'postgres_changes',
+        { event: '*', schema: 'public', table: 'documents' },
+        () => {
+          console.log('Document change detected, refetching...');
+          // Refetch documents when any document changes
+          fetchDocuments();
+        }
+      )
+      .subscribe();
+
+    // Also poll every 10 seconds as backup
+    const pollInterval = setInterval(fetchDocuments, 10000);
+
+    return () => {
+      supabase.removeChannel(channel);
+      clearInterval(pollInterval);
+    };
+  }, [fetchDocuments]);
 
   const handleNewDocument = () => {
     onSelectDocument(null);
@@ -67,14 +89,18 @@ const HistorySidebar = ({ onSelectDocument, selectedDocumentId }: HistorySidebar
 
   const getStatusColor = (status: string) => {
     switch (status) {
+      case 'ready':
       case 'completed':
         return 'text-green-600';
       case 'processing':
         return 'text-blue-600';
+      case 'error':
       case 'failed':
         return 'text-red-600';
-      default:
+      case 'draft':
         return 'text-gray-600';
+      default:
+        return 'text-gray-500';
     }
   };
 

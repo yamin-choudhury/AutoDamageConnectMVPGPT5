@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import Spinner from "@/components/ui/Spinner";
 import { Button } from "@/components/ui/button";
+import ReportViewer from "@/components/ReportViewer";
 
 interface Props {
   documentId: string | null;
@@ -10,8 +11,7 @@ interface Props {
 type DocRow = {
   id: string;
   status: string;
-  report_json: any | null;
-  edited_report_json: any | null;
+  report_json: any;
   report_pdf_url: string | null;
 };
 
@@ -39,11 +39,14 @@ const DocumentPreview = ({ documentId }: Props) => {
 
     // Fetch the initial
     (async () => {
-      const { data } = await supabase
+      const { data, error } = await supabase
         .from("documents")
-        .select("id,status,report_json,edited_report_json,report_pdf_url")
+        .select("id,status,report_pdf_url,report_json")
         .eq("id", documentId)
         .single();
+      
+      console.log('DocumentPreview fetch result:', { data, error, documentId });
+      
       setDoc(data as DocRow);
       setLoading(false);
     })();
@@ -65,40 +68,29 @@ const DocumentPreview = ({ documentId }: Props) => {
     );
   }
 
-  if (!doc.report_json) {
-    return <p className="text-gray-500">Report not generated yet.</p>;
+  console.log('DocumentPreview render check:', { 
+    status: doc.status, 
+    has_pdf: !!doc.report_pdf_url, 
+    has_json: !!doc.report_json,
+    report_json_preview: doc.report_json ? 'has data' : 'null/undefined'
+  });
+
+  if (doc.status === "ready" && (doc.report_pdf_url || doc.report_json)) {
+    console.log('Showing ReportViewer for documentId:', documentId);
+    // Report is ready - show in-app viewer with download capability
+    return <ReportViewer documentId={documentId} />;
   }
 
-  const overview = doc.report_json?.overview || [];
+  // Fallback for other statuses
   return (
-    <div className="space-y-4">
-      {/* Very simple overview list */}
-      <ul className="list-disc list-inside text-sm">
-        {overview.map((item: any, idx: number) => (
-          <li key={idx}>{item.part} – {item.severity}</li>
-        ))}
-      </ul>
-
-      {doc.report_pdf_url && (
-        <Button asChild className="w-full">
-          <a href={doc.report_pdf_url} target="_blank" rel="noopener noreferrer">Download PDF</a>
-        </Button>
+    <div className="text-center space-y-4">
+      <p className="text-gray-500">Status: {doc.status}</p>
+      {doc.status === "draft" && (
+        <p className="text-sm">Upload images and generate your report.</p>
       )}
-      <Button className="w-full" onClick={async () => {
-        const body = {
-          document_id: doc.id,
-          json: doc.edited_report_json ?? doc.report_json,
-        };
-        const res = await fetch(`${import.meta.env.VITE_REPORT_SERVICE_URL}/pdf-from-json`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(body),
-        });
-        if (res.ok) {
-          const { pdf_url } = await res.json();
-          window.open(pdf_url, "_blank");
-        }
-      }}>Re-generate PDF</Button>
+      {doc.status === "error" && (
+        <p className="text-sm text-red-600">Report generation failed. Please try again.</p>
+      )}
     </div>
   );
 };

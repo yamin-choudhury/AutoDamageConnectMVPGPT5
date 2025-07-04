@@ -31,12 +31,27 @@ class GeneratePayload(BaseModel):
 # ---------------------------------------------------------------------------
 async def download_images(images: list[dict] | list[str], dest: Path):
     """Download each image url into dest/<idx>.jpg asynchronously."""
+    print(f"Attempting to download {len(images)} images...")
+    for idx, img in enumerate(images):
+        url = img["url"] if isinstance(img, dict) else img
+        print(f"Image {idx}: {url}")
+    
     async with httpx.AsyncClient(timeout=60) as client:
         for idx, img in enumerate(images):
-            url = img["url"] if isinstance(img, dict) else img
-            r = await client.get(url)
-            r.raise_for_status()
-            (dest / f"{idx}.jpg").write_bytes(r.content)
+            try:
+                url = img["url"] if isinstance(img, dict) else img
+                print(f"Downloading image {idx} from: {url}")
+                
+                if not url or not isinstance(url, str) or not url.startswith(('http://', 'https://')):
+                    raise ValueError(f"Invalid URL: {url}")
+                
+                r = await client.get(url)
+                r.raise_for_status()
+                (dest / f"{idx}.jpg").write_bytes(r.content)
+                print(f"Successfully downloaded image {idx}")
+            except Exception as e:
+                print(f"Failed to download image {idx} from {url}: {str(e)}")
+                raise HTTPException(status_code=400, detail=f"Failed to download image {idx}: {str(e)}")
 
 def run_subprocess(cmd: list[str]):
     proc = subprocess.run(cmd, capture_output=True, text=True)
@@ -49,8 +64,17 @@ def run_subprocess(cmd: list[str]):
 @app.post("/generate")
 async def generate_report(payload: GeneratePayload):
     print("=== /generate called ===")
+    print(f"Received payload: {payload}")
     doc = payload.document
+    print(f"Document data: {doc}")
     doc_id = doc.get("id", str(uuid4()))
+    print(f"Document ID: {doc_id}")
+    
+    # Check images data structure
+    images = doc.get("images", [])
+    print(f"Images data type: {type(images)}")
+    print(f"Images data: {images}")
+    print(f"Number of images: {len(images)}")
 
     tmp_dir = Path(tempfile.mkdtemp(prefix="gen_"))
     try:

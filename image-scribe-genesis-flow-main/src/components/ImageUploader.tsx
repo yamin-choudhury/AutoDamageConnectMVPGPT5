@@ -120,22 +120,44 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
       toast({ title: "No images selected", variant: "destructive" });
       return;
     }
-    // ensure we have a document first
-    let docId = documentId;
-    if (!docId) {
-      docId = await createDraftDocument();
-      if (!docId) return; // failed to create
-    }
 
     setIsUploading(true);
-    for (const img of images.filter((i) => !i.uploaded)) {
-      // optimistic 50% to show some movement
-      setImages((prev) => prev.map((p) => (p.id === img.id ? { ...p, progress: 50 } : p)));
-      const ok = await uploadOne(img);
-      setImages((prev) => prev.map((p) => (p.id === img.id ? { ...p, progress: ok ? 100 : 0, uploaded: ok } : p)));
+    
+    try {
+      // ensure we have a document first
+      let docId = documentId;
+      if (!docId) {
+        docId = await createDraftDocument();
+        if (!docId) {
+          toast({ title: "Failed to create document", variant: "destructive" });
+          return;
+        }
+        // Wait a bit for the document to be fully created
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+
+      const imagesToUpload = images.filter((i) => !i.uploaded);
+      let successCount = 0;
+      
+      for (const img of imagesToUpload) {
+        // optimistic 50% to show some movement
+        setImages((prev) => prev.map((p) => (p.id === img.id ? { ...p, progress: 50 } : p)));
+        const ok = await uploadOne(img);
+        setImages((prev) => prev.map((p) => (p.id === img.id ? { ...p, progress: ok ? 100 : 0, uploaded: ok } : p)));
+        if (ok) successCount++;
+      }
+      
+      if (successCount > 0) {
+        toast({ title: "Upload complete", description: `${successCount} image(s) uploaded successfully` });
+      } else {
+        toast({ title: "Upload failed", description: "No images were uploaded", variant: "destructive" });
+      }
+    } catch (error) {
+      console.error('Upload error:', error);
+      toast({ title: "Upload error", description: "An error occurred during upload", variant: "destructive" });
+    } finally {
+      setIsUploading(false);
     }
-    setIsUploading(false);
-    toast({ title: "Upload complete" });
   };
 
   const clearAll = () => {

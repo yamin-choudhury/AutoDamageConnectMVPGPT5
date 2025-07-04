@@ -53,15 +53,37 @@ serve(async (req) => {
     // mark as processing AFTER we know the doc exists
     await supabase.from("documents").update({ status: "processing" }).eq("id", document_id);
 
-    // fetch related images (if any) separately
-    const { data: images } = await supabase
+    // ------------------------------------------------------------------
+    // Fetch related image paths and create signed download URLs
+    // ------------------------------------------------------------------
+    const { data: imageRows, error: imgErr } = await supabase
       .from("images")
       .select("url")
       .eq("document_id", document_id);
 
-    const docWithImages = { ...doc, images: images || [] };
+    if (imgErr) {
+      console.error("Unable to fetch images", imgErr);
+      await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
+      return new Response("Failed to fetch images", { status: 500, headers: corsHeaders });
+    }
 
-    // 3. Call the Python report service
+    // Directly use public URLs (objects already public in GCS)
+    const signedUrls: string[] = imageRows?.map((r: { url: string }) => r.url) ?? [];
+    if (!signedUrls.length) {
+      console.error("No images found for document", { document_id });
+      await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
+      return new Response("No images", { status: 400, headers: corsHeaders });
+    }
+
+    console.log("Sending to backend (wrapped objects) :", JSON.stringify(signedUrls));
+
+    // Ensure images are in the correct format for the backend
+    const imagesForBackend = signedUrls.map(url => ({ url }));
+    const docWithImages = { ...doc, images: imagesForBackend };
+    
+    console.log("Final document payload:", JSON.stringify(docWithImages, null, 2));
+
+    // 3. Call the Python report service with signed URLs
     const backendResp = await fetch(`${REPORT_SERVICE_URL}/generate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

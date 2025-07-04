@@ -33,14 +33,26 @@ _sb: Client | None = None
 def supabase() -> Client:
     global _sb
     if _sb is None:
-        print(f"Creating Supabase client with URL: {SUPABASE_URL[:50]}...")
+        print(f"Creating Supabase client...")
+        print(f"URL length: {len(SUPABASE_URL)}, starts with https: {SUPABASE_URL.startswith('https://')}")
+        print(f"URL repr: {repr(SUPABASE_URL)}")
         print(f"Service role key length: {len(SUPABASE_SERVICE_ROLE_KEY) if SUPABASE_SERVICE_ROLE_KEY else 'None'}")
+        print(f"Service role key starts with: {SUPABASE_SERVICE_ROLE_KEY[:20] if SUPABASE_SERVICE_ROLE_KEY else 'None'}...")
+        
         try:
+            import supabase as sb_module
+            print(f"Supabase library version: {getattr(sb_module, '__version__', 'unknown')}")
+            
             _sb = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
             print("Supabase client created successfully")
         except Exception as e:
-            print(f"Failed to create Supabase client: {e}")
-            raise
+            print(f"Supabase client creation failed!")
+            print(f"Error type: {type(e).__name__}")
+            print(f"Error message: {str(e)}")
+            print(f"Error args: {e.args}")
+            import traceback
+            print(f"Full traceback: {traceback.format_exc()}")
+            raise HTTPException(status_code=500, detail=f"Supabase client error: {str(e)}")
     return _sb
 
 app = FastAPI(title="Damage Report Service")

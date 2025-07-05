@@ -52,6 +52,70 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
     }
   }, [docStatus, toast]);
 
+  // Real-time subscription for document status updates
+  useEffect(() => {
+    if (!selectedDocumentId) {
+      setDocStatus(null);
+      return;
+    }
+
+    // Check actual database status first
+    const checkDatabaseStatus = async () => {
+      const { data, error } = await supabase
+        .from('documents')
+        .select('id, status, created_at')
+        .eq('id', selectedDocumentId)
+        .single();
+      
+      console.log('🔍 Database status check:', { data, error });
+      if (data) {
+        console.log('  - Actual DB status:', data.status);
+        console.log('  - Current docStatus state:', docStatus);
+        
+        // If DB shows ready but state is wrong, fix it immediately
+        if (data.status === 'ready' && docStatus !== 'ready') {
+          console.log('🚑 FIXING STATE MISMATCH: DB is ready but state is', docStatus);
+          setDocStatus('ready');
+          setIsGenerating(false);
+        }
+      }
+    };
+    
+    checkDatabaseStatus();
+    
+    // Set up real-time listener for this document
+    const channel = supabase
+      .channel("dashboard-doc-" + selectedDocumentId)
+      .on(
+        "postgres_changes",
+        { 
+          event: "UPDATE", 
+          schema: "public", 
+          table: "documents", 
+          filter: `id=eq.${selectedDocumentId}` 
+        },
+        (payload) => {
+          console.log('🎯 Dashboard real-time update received!');
+          console.log('  - Previous status:', docStatus);
+          console.log('  - New status:', payload.new.status);
+          console.log('  - Was generating:', isGenerating);
+          
+          setDocStatus(payload.new.status);
+          setIsGenerating(false); // Clear generating state on any status change
+          
+          console.log('  - Updated states: docStatus ->', payload.new.status, ', isGenerating -> false');
+        }
+      )
+      .subscribe();
+      
+    // Backup: Check database status every 3 seconds
+    const statusCheck = setInterval(checkDatabaseStatus, 3000);
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, [selectedDocumentId]);
+
   useEffect(() => {
     if (selectedDocumentId) {
       fetchDocument(selectedDocumentId);
@@ -159,6 +223,67 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
     return parts.length > 0 ? parts.join(' ') + ' Report' : 'Untitled Document';
   };
 
+  // Check if we should show full-screen report
+  const showFullscreenReport = selectedDocumentId && (docStatus === 'ready' || currentDocument?.status === 'ready');
+  
+  if (showFullscreenReport) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex">
+        {/* History Sidebar - Only Ready Documents */}
+        <div className="w-80 bg-white border-r border-gray-200 flex flex-col">
+          <div className="p-4 border-b border-gray-200">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-lg font-semibold text-gray-900">Ready Reports</h2>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => {
+                  setSelectedDocumentId(null);
+                  setDocStatus(null);
+                  setIsGenerating(false);
+                }}
+              >
+                ← Dashboard
+              </Button>
+            </div>
+          </div>
+          
+          <div className="flex-1 overflow-auto">
+            <HistorySidebar 
+              onSelectDocument={(docId) => {
+                setSelectedDocumentId(docId);
+                setDocStatus('ready'); // Assume ready since we're filtering
+              }}
+              selectedDocumentId={selectedDocumentId}
+              showOnlyReady={true} // New prop to filter only ready docs
+            />
+          </div>
+          
+          <div className="p-4 border-t border-gray-200">
+            <div className="flex items-center space-x-2">
+              <UserIcon className="h-5 w-5 text-gray-400" />
+              <Button variant="outline" size="sm" onClick={onLogout}>Logout</Button>
+            </div>
+          </div>
+        </div>
+        
+        {/* Full-screen report content */}
+        <div className="flex-1 bg-white">
+          <div className="bg-white border-b border-gray-200 px-6 py-4">
+            <div className="flex justify-between items-center">
+              <h1 className="text-xl font-bold text-gray-900">Vehicle Damage Report</h1>
+              <span className="text-sm text-green-600 font-medium">✅ Report Ready</span>
+            </div>
+          </div>
+          
+          <div className="h-[calc(100vh-80px)] overflow-auto">
+            <DocumentPreview documentId={selectedDocumentId} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex">
       {/* History Sidebar */}
@@ -286,12 +411,13 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
         </main>
        </div>
 
-       {(isGenerating || docStatus==='processing') && (
-        <div className="fixed inset-0 bg-black/40 flex flex-col items-center justify-center z-50 space-y-4">
-          <Spinner />
-          <p className="text-white text-lg">Generating report…</p>
-        </div>
-      )}
+       {/* Only show overlay if NOT in fullscreen report mode */}
+       {!showFullscreenReport && (isGenerating || docStatus==='processing') && (
+         <div className="fixed inset-0 bg-black/40 flex flex-col items-center justify-center z-50 space-y-4">
+           <Spinner />
+           <p className="text-white text-lg">Generating report…</p>
+         </div>
+       )}
      </div>
    );
 };

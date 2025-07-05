@@ -20,21 +20,30 @@ interface Document {
 interface HistorySidebarProps {
   onSelectDocument: (documentId: string | null) => void;
   selectedDocumentId: string | null;
+  showOnlyReady?: boolean; // Filter to show only ready documents
 }
 
-const HistorySidebar = ({ onSelectDocument, selectedDocumentId }: HistorySidebarProps) => {
+const HistorySidebar = ({ onSelectDocument, selectedDocumentId, showOnlyReady = false }: HistorySidebarProps) => {
   const [documents, setDocuments] = useState<Document[]>([]);
   const [loading, setLoading] = useState(true);
   const { toast } = useToast();
 
   const fetchDocuments = useCallback(async () => {
     try {
-      const { data, error } = await supabase
+      let query = supabase
         .from('documents')
         .select('id, title, vin, make, model, status, created_at')
         .order('created_at', { ascending: false });
+      
+      // Filter to only ready documents if requested
+      if (showOnlyReady) {
+        query = query.eq('status', 'ready');
+      }
 
+      const { data, error } = await query;
       if (error) throw error;
+      
+      console.log(`📋 Fetched ${data?.length || 0} documents${showOnlyReady ? ' (ready only)' : ''}`);
       setDocuments(data || []);
     } catch (error) {
       console.error('Error fetching documents:', error);
@@ -46,7 +55,7 @@ const HistorySidebar = ({ onSelectDocument, selectedDocumentId }: HistorySidebar
     } finally {
       setLoading(false);
     }
-  }, [toast]);
+  }, [toast, showOnlyReady]);
 
   useEffect(() => {
     fetchDocuments();

@@ -3,6 +3,7 @@ import { supabase } from "@/integrations/supabase/client";
 import Spinner from "@/components/ui/Spinner";
 import { Button } from "@/components/ui/button";
 import ReportViewer from "@/components/ReportViewer";
+import { useToast } from "@/hooks/use-toast";
 
 interface Props {
   documentId: string | null;
@@ -18,6 +19,7 @@ type DocRow = {
 const DocumentPreview = ({ documentId }: Props) => {
   const [doc, setDoc] = useState<DocRow | null>(null);
   const [loading, setLoading] = useState(false);
+  const { toast } = useToast();
 
   // Subscribe to realtime updates for this document
   useEffect(() => {
@@ -25,20 +27,11 @@ const DocumentPreview = ({ documentId }: Props) => {
       setDoc(null);
       return;
     }
+    
     setLoading(true);
-    const channel = supabase
-      .channel("doc-" + documentId)
-      .on(
-        "postgres_changes",
-        { event: "UPDATE", schema: "public", table: "documents", filter: `id=eq.${documentId}` },
-        (payload) => {
-          setDoc(payload.new as DocRow);
-        }
-      )
-      .subscribe();
-
-    // Fetch the initial
-    (async () => {
+    
+    // Fetch initial document data
+    const fetchDocument = async () => {
       const { data, error } = await supabase
         .from("documents")
         .select("id,status,report_pdf_url,report_json")
@@ -47,14 +40,53 @@ const DocumentPreview = ({ documentId }: Props) => {
       
       console.log('DocumentPreview fetch result:', { data, error, documentId });
       
-      setDoc(data as DocRow);
+      if (data) {
+        setDoc(data as DocRow);
+      }
       setLoading(false);
-    })();
+    };
+    
+    fetchDocument();
+    
+    // Set up real-time subscription
+    const channel = supabase
+      .channel("doc-updates-" + documentId)
+      .on(
+        "postgres_changes",
+        { 
+          event: "UPDATE", 
+          schema: "public", 
+          table: "documents", 
+          filter: `id=eq.${documentId}` 
+        },
+        (payload) => {
+          console.log('🔔 Real-time update received:', payload.new);
+          setDoc(payload.new as DocRow);
+          
+          // Show toast notification when status changes to ready
+          if (payload.new.status === 'ready') {
+            console.log('✅ Document is now ready!');
+            toast({
+              title: "Report Ready! 🎉",
+              description: "Your damage report has been generated and is ready to view.",
+              variant: "default",
+            });
+          }
+        }
+      )
+      .subscribe();
+    
+    // Also poll every 5 seconds as backup for critical status changes
+    const pollInterval = setInterval(() => {
+      console.log('🔄 Polling for document updates...');
+      fetchDocument();
+    }, 5000);
 
     return () => {
       supabase.removeChannel(channel);
+      clearInterval(pollInterval);
     };
-  }, [documentId]);
+  }, [documentId, toast]);
 
   if (!documentId) return <p className="text-gray-500">No document selected.</p>;
   if (loading || !doc) return <Spinner />;

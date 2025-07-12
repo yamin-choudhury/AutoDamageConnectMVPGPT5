@@ -22,7 +22,9 @@ from copy import deepcopy
 _prompts_same = Path(__file__).resolve().parent / "prompts"
 PROMPTS_DIR = _prompts_same if _prompts_same.exists() else Path(__file__).resolve().parent.parent / "prompts"
 PHASE1A_PROMPT = PROMPTS_DIR / "detect_quick_prompt.txt"
-PHASE1B_PROMPT = PROMPTS_DIR / "detect_comprehensive_prompt.txt"
+PHASE1B_FRONT_PROMPT = PROMPTS_DIR / "detect_front_prompt.txt"
+PHASE1B_SIDE_PROMPT = PROMPTS_DIR / "detect_side_prompt.txt"
+PHASE1B_REAR_PROMPT = PROMPTS_DIR / "detect_rear_prompt.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
@@ -177,25 +179,60 @@ def main():
         print("Warning: Quick detection failed, using fallback")
         quick_result = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_areas": []}
 
-        # Phase 1B – Comprehensive Part Detection ------
-    p1b_base = PHASE1B_PROMPT.read_text()
-    p1b_prompt = p1b_base.replace("<DAMAGED_AREAS_JSON>", json.dumps(quick_result.get("damaged_areas", [])))
-    print("Phase 1B: Comprehensive part analysis (2-pass ensemble)…")
-    runs = []
-    for temp in (0.3, 0.7):  # 2-pass ensemble for thorough part detection
-        txt = call_openai_vision(p1b_prompt, images, args.model, temperature=temp)
-        if txt.startswith("```"):
-            txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-        try:
-            part_result = json.loads(txt)
-            # Combine with vehicle info from quick detection
-            combined = {
-                "vehicle": quick_result.get("vehicle", {}),
-                "damaged_parts": part_result.get("damaged_parts", [])
-            }
-            runs.append(combined)
-        except json.JSONDecodeError:
-            print("Warning: JSON parse failure in comprehensive pass, skipping")
+        # Phase 1B – Area-Specific Part Detection ------
+    print("Phase 1B: Area-specific part analysis…")
+    all_runs = []
+    
+    # Determine which areas are damaged
+    areas_to_check = []
+    for area in quick_result.get("damaged_areas", []):
+        area_name = area.get("area", "").lower()
+        if "front" in area_name:
+            areas_to_check.append("front")
+        if "side" in area_name or "left" in area_name or "right" in area_name:
+            areas_to_check.append("side")
+        if "rear" in area_name:
+            areas_to_check.append("rear")
+    
+    # Remove duplicates and fallback if no areas detected
+    areas_to_check = list(set(areas_to_check))
+    if not areas_to_check:
+        areas_to_check = ["front"]  # Default to front if unclear
+    
+    print(f"Analyzing areas: {areas_to_check}")
+    
+    # Run area-specific detection for each damaged area
+    for area in areas_to_check:
+        if area == "front":
+            prompt_file = PHASE1B_FRONT_PROMPT
+        elif area == "side":
+            prompt_file = PHASE1B_SIDE_PROMPT
+        elif area == "rear":
+            prompt_file = PHASE1B_REAR_PROMPT
+        else:
+            continue
+            
+        area_prompt = prompt_file.read_text()
+        print(f"  Processing {area} area...")
+        
+        # 2-pass ensemble for each area
+        for temp in (0.3, 0.7):
+            txt = call_openai_vision(area_prompt, images, args.model, temperature=temp)
+            if txt.startswith("```"):
+                txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+            try:
+                part_result = json.loads(txt)
+                # Combine with vehicle info from quick detection
+                combined = {
+                    "vehicle": quick_result.get("vehicle", {}),
+                    "damaged_parts": part_result.get("damaged_parts", [])
+                }
+                all_runs.append(combined)
+                print(f"    Found {len(part_result.get('damaged_parts', []))} parts in {area} area")
+            except json.JSONDecodeError:
+                print(f"    Warning: JSON parse failure for {area} area, skipping")
+    
+    runs = all_runs
     if not runs:
         sys.exit("All comprehensive detection passes failed")
     detected = union_parts(runs)

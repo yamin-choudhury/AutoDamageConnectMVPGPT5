@@ -304,7 +304,7 @@ def main():
     temperatures = [0.2, 0.5, 0.8]  # Conservative, balanced, creative
     for i, temp in enumerate(temperatures, 1):
         print(f"  Pass {i}/3 (temp={temp}): Chain-of-thought analysis...")
-        txt = call_openai_vision(front_enterprise_prompt, images, args.model, temperature=temp)
+        txt = call_openai_vision(PHASE1_FRONT_ENTERPRISE_PROMPT.read_text(), images, args.model, temperature=temp)
         
         # Clean up markdown formatting
         if txt.startswith("```"):

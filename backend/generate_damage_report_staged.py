@@ -116,29 +116,35 @@ def union_parts(runs: List[dict]) -> dict:
                     merged.setdefault("vehicle",{})[k]=val
                     break
     
-    # Smart duplicate detection - catch similar names and overlapping areas
+    # Conservative duplicate detection - only filter obvious duplicates
     for run in runs[1:]:
         for cand in run["damaged_parts"]:
             duplicate = False
             for base in merged["damaged_parts"]:
-                # Check for similar part names (catch Hood/Hoop typos)
+                # Only consider duplicates if BOTH conditions are met:
+                # 1. Very similar/identical part names AND
+                # 2. Very high bounding box overlap (80%+)
+                
                 cand_name = cand.get("name", "").lower().strip().replace("hoop", "hood")
                 base_name = base.get("name", "").lower().strip().replace("hoop", "hood")
                 
-                # Consider duplicate if:
-                # 1. Very similar names (Hood/Hood, Hood/Hoop) OR
-                # 2. Same location and high bounding box overlap
-                similar_names = (cand_name == base_name) or (abs(len(cand_name) - len(base_name)) <= 1 and cand_name[:3] == base_name[:3])
-                same_location = (cand.get("location", "").lower() == base.get("location", "").lower())
-                high_overlap = (cand["image"] == base["image"] and iou(cand["bbox_px"], base["bbox_px"]) > 0.6)
+                # Very strict name matching - only exact matches or clear typos
+                identical_names = (cand_name == base_name)
+                typo_match = (cand_name in ["hood", "hoop"] and base_name in ["hood", "hoop"])
+                name_match = identical_names or typo_match
                 
-                if (similar_names and same_location) or (same_location and high_overlap):
+                # Very high overlap threshold - only if almost same bounding box
+                very_high_overlap = (cand["image"] == base["image"] and iou(cand["bbox_px"], base["bbox_px"]) > 0.8)
+                
+                # Only filter if BOTH name match AND very high overlap
+                if name_match and very_high_overlap:
                     duplicate = True
-                    print(f"Filtered duplicate: {cand.get('name', 'Unknown')} (similar to existing {base.get('name', 'Unknown')})")
+                    print(f"Filtered obvious duplicate: {cand.get('name', 'Unknown')} (same as {base.get('name', 'Unknown')} with {iou(cand['bbox_px'], base['bbox_px']):.2f} overlap)")
                     break
+            
             if not duplicate:
                 merged["damaged_parts"].append(cand)
-                print(f"Added unique part: {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')}")
+                print(f"Added part: {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')}")
     
     print(f"Final merged parts: {[p.get('name', 'Unknown') for p in merged['damaged_parts']]}")
     return merged

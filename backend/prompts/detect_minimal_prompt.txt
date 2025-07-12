@@ -1,0 +1,18 @@
+Analyze vehicle damage. List ALL damaged parts you see.
+
+**CHECK THESE FRONT PARTS:**
+Front Bumper Cover, Hood, Left Front Fender, Right Front Fender, Front Grille, Left Headlight Assembly, Right Headlight Assembly
+
+**JSON OUTPUT:**
+{
+  "damaged_parts": [
+    {
+      "name": "exact part name",
+      "location": "front", 
+      "category": "Exterior Body & Trim",
+      "severity": "minor|moderate|severe",
+      "bbox_px": [x1, y1, x2, y2],
+      "image": "filename"
+    }
+  ]
+}

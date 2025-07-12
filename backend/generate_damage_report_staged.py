@@ -21,7 +21,7 @@ from copy import deepcopy
 # Try ./prompts beside this file first, else ../prompts (repo root)
 _prompts_same = Path(__file__).resolve().parent / "prompts"
 PROMPTS_DIR = _prompts_same if _prompts_same.exists() else Path(__file__).resolve().parent.parent / "prompts"
-PHASE1_MINIMAL_PROMPT = PROMPTS_DIR / "detect_minimal_prompt.txt"
+PHASE1_FRONT_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_front_enterprise.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
@@ -195,16 +195,16 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-        # Phase 1 – Minimal Detection ------
-    minimal_prompt = PHASE1_MINIMAL_PROMPT.read_text()
-    print("Phase 1: Minimal damage detection (3-pass ensemble)…")
+        # Phase 1 – Front-End Enterprise Detection ------
+    front_enterprise_prompt = PHASE1_FRONT_ENTERPRISE_PROMPT.read_text()
+    print("Phase 1: Front-end enterprise damage assessment (3-pass ensemble)…")
     runs = []
     
     # 3-pass ensemble with different temperatures for maximum coverage
     temperatures = [0.2, 0.5, 0.8]  # Conservative, balanced, creative
     for i, temp in enumerate(temperatures, 1):
         print(f"  Pass {i}/3 (temp={temp}): Chain-of-thought analysis...")
-        txt = call_openai_vision(minimal_prompt, images, args.model, temperature=temp)
+        txt = call_openai_vision(front_enterprise_prompt, images, args.model, temperature=temp)
         
         # Clean up markdown formatting
         if txt.startswith("```"):

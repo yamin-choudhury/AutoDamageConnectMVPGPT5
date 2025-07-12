@@ -115,15 +115,24 @@ def union_parts(runs: List[dict]) -> dict:
                 if val and val.lower() != "unknown":
                     merged.setdefault("vehicle",{})[k]=val
                     break
+    
+    # More aggressive part merging - prefer inclusion over exclusion
     for run in runs[1:]:
         for cand in run["damaged_parts"]:
             duplicate = False
             for base in merged["damaged_parts"]:
-                if cand["image"] == base["image"] and iou(cand["bbox_px"], base["bbox_px"]) > 0.3:
+                # Much stricter duplicate detection - only if same part name AND very high overlap
+                same_part = (cand.get("name", "").lower().strip() == base.get("name", "").lower().strip())
+                high_overlap = (cand["image"] == base["image"] and iou(cand["bbox_px"], base["bbox_px"]) > 0.7)
+                
+                if same_part and high_overlap:
                     duplicate = True
                     break
             if not duplicate:
                 merged["damaged_parts"].append(cand)
+                print(f"Added part from ensemble: {cand.get('name', 'Unknown')}")
+    
+    print(f"Final merged parts: {[p.get('name', 'Unknown') for p in merged['damaged_parts']]}")
     return merged
 
 # ----------------------------------------------------------------------
@@ -142,11 +151,11 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-        # Phase 1 – Detection (two-pass ensemble) ---------------------------
+        # Phase 1 – Detection (three-pass ensemble for maximum coverage) ------
     p1_prompt = PHASE1_PROMPT.read_text()
-    print("Phase 1: detecting parts (2-pass ensemble)…")
+    print("Phase 1: detecting parts (3-pass ensemble for thorough detection)…")
     runs = []
-    for temp in (0.2, 0.6):
+    for temp in (0.1, 0.4, 0.7):  # More temperatures for better coverage
         txt = call_openai_vision(p1_prompt, images, args.model, temperature=temp)
         if txt.startswith("```"):
             txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()

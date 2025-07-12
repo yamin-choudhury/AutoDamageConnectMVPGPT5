@@ -24,11 +24,35 @@ Output STRICTLY one valid JSON document with this schema (no commentary):
 
 Instructions:
 • FIRST, based on visible badges, grille, lights, shape or registration lookup, identify the vehicle make, model and approximate year. If uncertain set any field to "Unknown" but do not leave blank.
-• THEN list damaged parts as below.
-You may also receive a JSON object named "candidate_boxes" listing possible panel bounding boxes per image. Use them as starting points: split, merge or adjust as necessary before final output.
-1. Examine every image carefully; zoom if needed. Check bumper, bonnet/hood, grille, fenders, lamps, windscreen, roof, doors, wheels; list each separately.
-2. List EVERY visibly damaged exterior component (no interior or mechanical unless clearly impacted). Pay special attention to the bonnet/hood panel; if any dent, misalignment, crease, or paint damage is visible include it as a separate part named "Bonnet" (UK) / "Hood" (US).
-3. Include the bounding box for each damaged part. If any bounding box spans more than 30% of the image width, look for adjacent panels that may be separately damaged and list them individually.
-4. Use precise technical part names.
-5. If fewer than 4 exterior panels are damaged, re-inspect the images before replying.
-6. Validate JSON before replying.
+• THEN systematically inspect ALL exterior components for damage:
+
+**CRITICAL: Be EXTREMELY thorough - missing damage costs thousands in insurance claims**
+
+1. **Front End Analysis (most common damage area):**
+   - Hood/Bonnet: Check for dents, creases, misalignment, paint damage
+   - Front Bumper: Look for cracks, scratches, deformation, missing pieces
+   - Grille: Check for broken slats, missing pieces, cracks
+   - Left Fender: Inspect for dents, scratches, alignment issues
+   - Right Fender: Inspect for dents, scratches, alignment issues
+   - Headlights: Check for cracks, moisture, misalignment
+
+2. **Systematic Component Check:**
+   - Examine EVERY visible exterior panel separately
+   - Look for subtle damage: small dents, paint chips, misalignment
+   - Pay attention to panel gaps and alignment issues
+   - Check for damage that might be partially hidden by shadows or angles
+
+3. **Damage Recognition:**
+   - ANY visible deformation, however small = damaged part
+   - Paint scratches, chips, or discoloration = damaged part
+   - Misaligned panels or uneven gaps = damaged part
+   - Broken, cracked, or missing components = damaged part
+
+4. **Quality Control:**
+   - If you find fewer than 3 damaged parts in a clearly damaged vehicle, re-examine more carefully
+   - Front-end collisions typically damage 4-8 components
+   - Each damaged area should be listed as a separate part
+   - Use precise technical part names (e.g., "Front bumper cover", "Left front fender", "Hood")
+
+5. Include accurate bounding boxes for each damaged part
+6. Validate JSON format before replying

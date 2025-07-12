@@ -93,11 +93,21 @@ def call_openai_text(prompt: str, model: str = "gpt-4o", temperature: float = 0.
 
 # ----------------------- Ensemble utilities ---------------------------
 
-def iou(box_a: dict, box_b: dict) -> float:
-    xa1, ya1, wa, ha = box_a.values()
-    xa2, ya2 = xa1 + wa, ya1 + ha
-    xb1, yb1, wb, hb = box_b.values()
-    xb2, yb2 = xb1 + wb, yb1 + hb
+def iou(box_a, box_b) -> float:
+    # Handle both dict and list bbox formats
+    if isinstance(box_a, dict):
+        xa1, ya1, wa, ha = box_a.values()
+        xa2, ya2 = xa1 + wa, ya1 + ha
+    else:  # list format [x1, y1, x2, y2]
+        xa1, ya1, xa2, ya2 = box_a
+        wa, ha = xa2 - xa1, ya2 - ya1
+    
+    if isinstance(box_b, dict):
+        xb1, yb1, wb, hb = box_b.values()
+        xb2, yb2 = xb1 + wb, yb1 + hb
+    else:  # list format [x1, y1, x2, y2]
+        xb1, yb1, xb2, yb2 = box_b
+        wb, hb = xb2 - xb1, yb2 - yb1
     inter_x1, inter_y1 = max(xa1, xb1), max(ya1, yb1)
     inter_x2, inter_y2 = min(xa2, xb2), min(ya2, yb2)
     inter_w, inter_h = max(0, inter_x2 - inter_x1), max(0, inter_y2 - inter_y1)

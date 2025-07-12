@@ -21,10 +21,7 @@ from copy import deepcopy
 # Try ./prompts beside this file first, else ../prompts (repo root)
 _prompts_same = Path(__file__).resolve().parent / "prompts"
 PROMPTS_DIR = _prompts_same if _prompts_same.exists() else Path(__file__).resolve().parent.parent / "prompts"
-PHASE1A_PROMPT = PROMPTS_DIR / "detect_quick_prompt.txt"
-PHASE1B_FRONT_PROMPT = PROMPTS_DIR / "detect_front_prompt.txt"
-PHASE1B_SIDE_PROMPT = PROMPTS_DIR / "detect_side_prompt.txt"
-PHASE1B_REAR_PROMPT = PROMPTS_DIR / "detect_rear_prompt.txt"
+PHASE1_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_enterprise_prompt.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
@@ -129,23 +126,55 @@ def union_parts(runs: List[dict]) -> dict:
                     merged.setdefault("vehicle",{})[k]=val
                     break
     
-    # Very permissive duplicate detection - let most parts through
+    # Enterprise-grade intelligent duplicate merging
     for run in runs[1:]:
         for cand in run["damaged_parts"]:
             duplicate = False
-            for base in merged["damaged_parts"]:
-                # Filter exact same part names (ignore bounding boxes since they vary widely)
+            for i, base in enumerate(merged["damaged_parts"]):
+                # Normalize part names for comparison
                 cand_name = cand.get("name", "").lower().strip()
                 base_name = base.get("name", "").lower().strip()
                 
+                # Check if this is the same part (same name + same image)
                 if (cand_name == base_name and 
-                    cand["image"] == base["image"]):
+                    cand.get("image") == base.get("image")):
+                    
+                    # ENTERPRISE MERGING LOGIC:
+                    # 1. Severity hierarchy: severe > moderate > minor
+                    # 2. More detailed descriptions preferred
+                    # 3. Better bounding box coordinates preferred
+                    
+                    cand_severity = cand.get("severity", "minor")
+                    base_severity = base.get("severity", "minor")
+                    severity_priority = {"severe": 3, "moderate": 2, "minor": 1}
+                    
+                    cand_desc_length = len(cand.get("damage_description", ""))
+                    base_desc_length = len(base.get("damage_description", ""))
+                    
+                    should_upgrade = False
+                    upgrade_reason = ""
+                    
+                    # Check if candidate is better
+                    if severity_priority.get(cand_severity, 1) > severity_priority.get(base_severity, 1):
+                        should_upgrade = True
+                        upgrade_reason = f"severity upgrade ({base_severity} → {cand_severity})"
+                    elif (severity_priority.get(cand_severity, 1) == severity_priority.get(base_severity, 1) and 
+                          cand_desc_length > base_desc_length):
+                        should_upgrade = True
+                        upgrade_reason = "more detailed description"
+                    
+                    if should_upgrade:
+                        merged["damaged_parts"][i] = cand
+                        print(f"Upgraded {cand.get('name', 'Unknown')}: {upgrade_reason}")
+                    else:
+                        print(f"Kept existing {base.get('name', 'Unknown')} detection (better quality)")
+                    
                     duplicate = True
-                    print(f"Filtered exact duplicate: {cand.get('name', 'Unknown')}")
                     break
+                    
             if not duplicate:
                 merged["damaged_parts"].append(cand)
-                print(f"Added part: {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')}")
+                print(f"Added new part: {cand.get('name', 'Unknown')} ({cand.get('severity', 'unknown')} at {cand.get('location', 'unknown')})")
     
     print(f"Final merged parts: {[p.get('name', 'Unknown') for p in merged['damaged_parts']]}")
     return merged
@@ -166,73 +195,42 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-        # Phase 1A – Quick Area Detection ------
-    p1a_prompt = PHASE1A_PROMPT.read_text()
-    print("Phase 1A: Quick damage area detection…")
-    quick_txt = call_openai_vision(p1a_prompt, images, args.model, temperature=0.3)
-    if quick_txt.startswith("```"):
-        quick_txt = quick_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-    try:
-        quick_result = json.loads(quick_txt)
-        print(f"Found {len(quick_result.get('damaged_areas', []))} damaged areas")
-    except json.JSONDecodeError:
-        print("Warning: Quick detection failed, using fallback")
-        quick_result = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_areas": []}
-
-        # Phase 1B – Area-Specific Part Detection ------
-    print("Phase 1B: Area-specific part analysis…")
-    all_runs = []
+        # Phase 1 – Enterprise Chain-of-Thought Detection ------
+    enterprise_prompt = PHASE1_ENTERPRISE_PROMPT.read_text()
+    print("Phase 1: Enterprise comprehensive damage analysis (3-pass ensemble)…")
+    runs = []
     
-    # Determine which areas are damaged
-    areas_to_check = []
-    for area in quick_result.get("damaged_areas", []):
-        area_name = area.get("area", "").lower()
-        if "front" in area_name:
-            areas_to_check.append("front")
-        if "side" in area_name or "left" in area_name or "right" in area_name:
-            areas_to_check.append("side")
-        if "rear" in area_name:
-            areas_to_check.append("rear")
-    
-    # Remove duplicates and fallback if no areas detected
-    areas_to_check = list(set(areas_to_check))
-    if not areas_to_check:
-        areas_to_check = ["front"]  # Default to front if unclear
-    
-    print(f"Analyzing areas: {areas_to_check}")
-    
-    # Run area-specific detection for each damaged area
-    for area in areas_to_check:
-        if area == "front":
-            prompt_file = PHASE1B_FRONT_PROMPT
-        elif area == "side":
-            prompt_file = PHASE1B_SIDE_PROMPT
-        elif area == "rear":
-            prompt_file = PHASE1B_REAR_PROMPT
-        else:
-            continue
-            
-        area_prompt = prompt_file.read_text()
-        print(f"  Processing {area} area...")
+    # 3-pass ensemble with different temperatures for maximum coverage
+    temperatures = [0.2, 0.5, 0.8]  # Conservative, balanced, creative
+    for i, temp in enumerate(temperatures, 1):
+        print(f"  Pass {i}/3 (temp={temp}): Chain-of-thought analysis...")
+        txt = call_openai_vision(enterprise_prompt, images, args.model, temperature=temp)
         
-        # 2-pass ensemble for each area
-        for temp in (0.3, 0.7):
-            txt = call_openai_vision(area_prompt, images, args.model, temperature=temp)
-            if txt.startswith("```"):
+        # Clean up markdown formatting
+        if txt.startswith("```"):
+            if "json" in txt.split("\n")[0]:
                 txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-            try:
-                part_result = json.loads(txt)
-                # Combine with vehicle info from quick detection
-                combined = {
-                    "vehicle": quick_result.get("vehicle", {}),
-                    "damaged_parts": part_result.get("damaged_parts", [])
-                }
-                all_runs.append(combined)
-                print(f"    Found {len(part_result.get('damaged_parts', []))} parts in {area} area")
-            except json.JSONDecodeError:
-                print(f"    Warning: JSON parse failure for {area} area, skipping")
-    
-    runs = all_runs
+            else:
+                txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+        
+        try:
+            result = json.loads(txt)
+            # Extract vehicle info and damaged parts
+            combined = {
+                "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
+                "damaged_parts": result.get("damaged_parts", [])
+            }
+            runs.append(combined)
+            parts_count = len(result.get("damaged_parts", []))
+            print(f"    Found {parts_count} damaged parts")
+            
+            # Log reasoning process for debugging
+            if "reasoning_process" in result:
+                print(f"    Reasoning: {result['reasoning_process'][:100]}...")
+                
+        except json.JSONDecodeError as e:
+            print(f"    Warning: JSON parse failure in pass {i}, skipping")
+            print(f"    Raw response preview: {txt[:200]}...")
     if not runs:
         sys.exit("All comprehensive detection passes failed")
     detected = union_parts(runs)

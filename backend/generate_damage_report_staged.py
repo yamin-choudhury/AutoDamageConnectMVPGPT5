@@ -176,9 +176,14 @@ def union_parts(runs: List[dict]) -> dict:
                 cand_name = cand.get("name", "").lower().strip()
                 base_name = base.get("name", "").lower().strip()
                 
-                # Check if this is the same part (same name + same image)
-                if (cand_name == base_name and 
-                    cand.get("image") == base.get("image")):
+                # Potential duplicate if same part name AND (same image OR IoU≥0.6)
+                same_image = cand.get("image") == base.get("image")
+                high_iou = False
+                try:
+                    high_iou = iou(cand.get("bbox_px", []), base.get("bbox_px", [])) >= 0.6
+                except Exception:
+                    pass
+                if cand_name == base_name and (same_image or high_iou):
                     
                     # ENTERPRISE MERGING LOGIC:
                     # 1. Severity hierarchy: severe > moderate > minor
@@ -297,6 +302,13 @@ def main():
         sys.exit("Enterprise detection failed for all areas")
 
     detected = union_parts(runs)
+# ---------------- vehicle back-fill from quick detector ---------------
+    quick_vehicle = areas_json.get("vehicle", {})
+    for k in ("make", "model", "year"):
+        if detected["vehicle"].get(k, "Unknown") in ("", "Unknown", 0):
+            val = quick_vehicle.get(k)
+            if val not in (None, "", "Unknown", 0):
+                detected["vehicle"][k] = val
     print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
     runs = []
     

@@ -132,13 +132,12 @@ def union_parts(runs: List[dict]) -> dict:
         for cand in run["damaged_parts"]:
             duplicate = False
             for base in merged["damaged_parts"]:
-                # Only filter if EXACT same name AND VERY high overlap (95%+)
+                # Filter exact same part names (ignore bounding boxes since they vary widely)
                 cand_name = cand.get("name", "").lower().strip()
                 base_name = base.get("name", "").lower().strip()
                 
                 if (cand_name == base_name and 
-                    cand["image"] == base["image"] and 
-                    iou(cand["bbox_px"], base["bbox_px"]) > 0.7):
+                    cand["image"] == base["image"]):
                     duplicate = True
                     print(f"Filtered exact duplicate: {cand.get('name', 'Unknown')}")
                     break

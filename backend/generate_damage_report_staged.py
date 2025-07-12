@@ -116,35 +116,13 @@ def union_parts(runs: List[dict]) -> dict:
                     merged.setdefault("vehicle",{})[k]=val
                     break
     
-    # Conservative duplicate detection - only filter obvious duplicates
-    for run in runs[1:]:
+    # TEMPORARY: Disable duplicate filtering to see raw AI vision output
+    print("DEBUG: Merging ensemble results WITHOUT duplicate filtering...")
+    for run_idx, run in enumerate(runs[1:], 1):
+        print(f"DEBUG: Adding {len(run['damaged_parts'])} parts from temperature run {run_idx}")
         for cand in run["damaged_parts"]:
-            duplicate = False
-            for base in merged["damaged_parts"]:
-                # Only consider duplicates if BOTH conditions are met:
-                # 1. Very similar/identical part names AND
-                # 2. Very high bounding box overlap (80%+)
-                
-                cand_name = cand.get("name", "").lower().strip().replace("hoop", "hood")
-                base_name = base.get("name", "").lower().strip().replace("hoop", "hood")
-                
-                # Very strict name matching - only exact matches or clear typos
-                identical_names = (cand_name == base_name)
-                typo_match = (cand_name in ["hood", "hoop"] and base_name in ["hood", "hoop"])
-                name_match = identical_names or typo_match
-                
-                # Very high overlap threshold - only if almost same bounding box
-                very_high_overlap = (cand["image"] == base["image"] and iou(cand["bbox_px"], base["bbox_px"]) > 0.8)
-                
-                # Only filter if BOTH name match AND very high overlap
-                if name_match and very_high_overlap:
-                    duplicate = True
-                    print(f"Filtered obvious duplicate: {cand.get('name', 'Unknown')} (same as {base.get('name', 'Unknown')} with {iou(cand['bbox_px'], base['bbox_px']):.2f} overlap)")
-                    break
-            
-            if not duplicate:
-                merged["damaged_parts"].append(cand)
-                print(f"Added part: {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')}")
+            merged["damaged_parts"].append(cand)
+            print(f"DEBUG: Added {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')} (temp run {run_idx})")
     
     print(f"Final merged parts: {[p.get('name', 'Unknown') for p in merged['damaged_parts']]}")
     return merged
@@ -169,7 +147,7 @@ def main():
     p1_prompt = PHASE1_PROMPT.read_text()
     print("Phase 1: detecting parts (3-pass ensemble for thorough detection)…")
     runs = []
-    for temp in (0.1, 0.4, 0.7):  # More temperatures for better coverage
+    for temp in (0.3, 0.7):  # Simplified 2-pass with latest model
         txt = call_openai_vision(p1_prompt, images, args.model, temperature=temp)
         if txt.startswith("```"):
             txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()

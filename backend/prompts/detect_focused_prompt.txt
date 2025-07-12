@@ -1,0 +1,31 @@
+INSTRUCTIONS: You are an expert vehicle damage assessor. Analyze this image and identify ALL damaged vehicle parts.
+
+**FRONT PARTS TO CHECK:**
+- Front Bumper Cover
+- Hood  
+- Left Front Fender
+- Right Front Fender
+- Front Grille
+- Left Headlight Assembly
+- Right Headlight Assembly
+
+**DAMAGE CRITERIA:**
+- Minor: Small scratches, minor dents
+- Moderate: Medium dents, significant scratches
+- Severe: Major damage, missing pieces
+
+**CRITICAL:** Front-end collisions typically damage 4-6 parts. Look carefully at the front bumper cover and fenders - if you see ANY denting, cracking, or deformation, include them.
+
+**OUTPUT JSON:**
+{
+  "damaged_parts": [
+    {
+      "name": "exact part name from list above",
+      "location": "front|rear|left|right", 
+      "category": "Exterior Body & Trim",
+      "severity": "minor|moderate|severe",
+      "bbox_px": [x1, y1, x2, y2],
+      "image": "filename"
+    }
+  ]
+}

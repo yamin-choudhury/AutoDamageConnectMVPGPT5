@@ -138,7 +138,7 @@ def union_parts(runs: List[dict]) -> dict:
                 
                 if (cand_name == base_name and 
                     cand["image"] == base["image"] and 
-                    iou(cand["bbox_px"], base["bbox_px"]) > 0.95):
+                    iou(cand["bbox_px"], base["bbox_px"]) > 0.7):
                     duplicate = True
                     print(f"Filtered exact duplicate: {cand.get('name', 'Unknown')}")
                     break

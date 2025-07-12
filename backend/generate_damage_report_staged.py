@@ -116,21 +116,29 @@ def union_parts(runs: List[dict]) -> dict:
                     merged.setdefault("vehicle",{})[k]=val
                     break
     
-    # More aggressive part merging - prefer inclusion over exclusion
+    # Smart duplicate detection - catch similar names and overlapping areas
     for run in runs[1:]:
         for cand in run["damaged_parts"]:
             duplicate = False
             for base in merged["damaged_parts"]:
-                # Much stricter duplicate detection - only if same part name AND very high overlap
-                same_part = (cand.get("name", "").lower().strip() == base.get("name", "").lower().strip())
-                high_overlap = (cand["image"] == base["image"] and iou(cand["bbox_px"], base["bbox_px"]) > 0.7)
+                # Check for similar part names (catch Hood/Hoop typos)
+                cand_name = cand.get("name", "").lower().strip().replace("hoop", "hood")
+                base_name = base.get("name", "").lower().strip().replace("hoop", "hood")
                 
-                if same_part and high_overlap:
+                # Consider duplicate if:
+                # 1. Very similar names (Hood/Hood, Hood/Hoop) OR
+                # 2. Same location and high bounding box overlap
+                similar_names = (cand_name == base_name) or (abs(len(cand_name) - len(base_name)) <= 1 and cand_name[:3] == base_name[:3])
+                same_location = (cand.get("location", "").lower() == base.get("location", "").lower())
+                high_overlap = (cand["image"] == base["image"] and iou(cand["bbox_px"], base["bbox_px"]) > 0.6)
+                
+                if (similar_names and same_location) or (same_location and high_overlap):
                     duplicate = True
+                    print(f"Filtered duplicate: {cand.get('name', 'Unknown')} (similar to existing {base.get('name', 'Unknown')})")
                     break
             if not duplicate:
                 merged["damaged_parts"].append(cand)
-                print(f"Added part from ensemble: {cand.get('name', 'Unknown')}")
+                print(f"Added unique part: {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')}")
     
     print(f"Final merged parts: {[p.get('name', 'Unknown') for p in merged['damaged_parts']]}")
     return merged

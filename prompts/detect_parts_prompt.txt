@@ -48,11 +48,19 @@ Instructions:
    - Misaligned panels or uneven gaps = damaged part
    - Broken, cracked, or missing components = damaged part
 
-4. **Quality Control:**
-   - If you find fewer than 3 damaged parts in a clearly damaged vehicle, re-examine more carefully
-   - Front-end collisions typically damage 4-8 components
-   - Each damaged area should be listed as a separate part
-   - Use precise technical part names (e.g., "Front bumper cover", "Left front fender", "Hood")
+4. **Quality Control - FIND DIFFERENT PART TYPES:**
+   - DO NOT list the same part multiple times (e.g., don't list "Hood" twice)
+   - Each entry must be a DIFFERENT component type:
+     * Hood (only once)
+     * Front bumper cover (only once) 
+     * Left front fender (only once)
+     * Right front fender (only once)
+     * Grille (only once)
+     * Left headlight (only once)
+     * Right headlight (only once)
+   - If you find fewer than 3 DIFFERENT damaged parts in a clearly damaged vehicle, re-examine more carefully
+   - Front-end collisions typically damage 4-8 DIFFERENT components
+   - Use precise technical part names and ensure each is unique
 
 5. Include accurate bounding boxes for each damaged part
 6. Validate JSON format before replying

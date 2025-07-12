@@ -116,13 +116,24 @@ def union_parts(runs: List[dict]) -> dict:
                     merged.setdefault("vehicle",{})[k]=val
                     break
     
-    # TEMPORARY: Disable duplicate filtering to see raw AI vision output
-    print("DEBUG: Merging ensemble results WITHOUT duplicate filtering...")
-    for run_idx, run in enumerate(runs[1:], 1):
-        print(f"DEBUG: Adding {len(run['damaged_parts'])} parts from temperature run {run_idx}")
+    # Very permissive duplicate detection - let most parts through
+    for run in runs[1:]:
         for cand in run["damaged_parts"]:
-            merged["damaged_parts"].append(cand)
-            print(f"DEBUG: Added {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')} (temp run {run_idx})")
+            duplicate = False
+            for base in merged["damaged_parts"]:
+                # Only filter if EXACT same name AND VERY high overlap (95%+)
+                cand_name = cand.get("name", "").lower().strip()
+                base_name = base.get("name", "").lower().strip()
+                
+                if (cand_name == base_name and 
+                    cand["image"] == base["image"] and 
+                    iou(cand["bbox_px"], base["bbox_px"]) > 0.95):
+                    duplicate = True
+                    print(f"Filtered exact duplicate: {cand.get('name', 'Unknown')}")
+                    break
+            if not duplicate:
+                merged["damaged_parts"].append(cand)
+                print(f"Added part: {cand.get('name', 'Unknown')} at {cand.get('location', 'unknown')}")
     
     print(f"Final merged parts: {[p.get('name', 'Unknown') for p in merged['damaged_parts']]}")
     return merged

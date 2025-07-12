@@ -21,7 +21,8 @@ from copy import deepcopy
 # Try ./prompts beside this file first, else ../prompts (repo root)
 _prompts_same = Path(__file__).resolve().parent / "prompts"
 PROMPTS_DIR = _prompts_same if _prompts_same.exists() else Path(__file__).resolve().parent.parent / "prompts"
-PHASE1_PROMPT = PROMPTS_DIR / "detect_parts_prompt.txt"
+PHASE1A_PROMPT = PROMPTS_DIR / "detect_quick_prompt.txt"
+PHASE1B_PROMPT = PROMPTS_DIR / "detect_comprehensive_prompt.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
@@ -154,22 +155,42 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-        # Phase 1 – Detection (three-pass ensemble for maximum coverage) ------
-    p1_prompt = PHASE1_PROMPT.read_text()
-    print("Phase 1: detecting parts (3-pass ensemble for thorough detection)…")
+        # Phase 1A – Quick Area Detection ------
+    p1a_prompt = PHASE1A_PROMPT.read_text()
+    print("Phase 1A: Quick damage area detection…")
+    quick_txt = call_openai_vision(p1a_prompt, images, args.model, temperature=0.3)
+    if quick_txt.startswith("```"):
+        quick_txt = quick_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+    try:
+        quick_result = json.loads(quick_txt)
+        print(f"Found {len(quick_result.get('damaged_areas', []))} damaged areas")
+    except json.JSONDecodeError:
+        print("Warning: Quick detection failed, using fallback")
+        quick_result = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_areas": []}
+
+        # Phase 1B – Comprehensive Part Detection ------
+    p1b_base = PHASE1B_PROMPT.read_text()
+    p1b_prompt = p1b_base.replace("<DAMAGED_AREAS_JSON>", json.dumps(quick_result.get("damaged_areas", [])))
+    print("Phase 1B: Comprehensive part analysis (2-pass ensemble)…")
     runs = []
-    for temp in (0.3, 0.7):  # Simplified 2-pass with latest model
-        txt = call_openai_vision(p1_prompt, images, args.model, temperature=temp)
+    for temp in (0.3, 0.7):  # 2-pass ensemble for thorough part detection
+        txt = call_openai_vision(p1b_prompt, images, args.model, temperature=temp)
         if txt.startswith("```"):
             txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
         try:
-            runs.append(json.loads(txt))
+            part_result = json.loads(txt)
+            # Combine with vehicle info from quick detection
+            combined = {
+                "vehicle": quick_result.get("vehicle", {}),
+                "damaged_parts": part_result.get("damaged_parts", [])
+            }
+            runs.append(combined)
         except json.JSONDecodeError:
-            print("Warning: JSON parse failure in a pass, skipping")
+            print("Warning: JSON parse failure in comprehensive pass, skipping")
     if not runs:
-        sys.exit("All detection passes failed")
+        sys.exit("All comprehensive detection passes failed")
     detected = union_parts(runs)
-    print(f"Detected {len(detected['damaged_parts'])} unique parts after merge")
+    print(f"Detected {len(detected['damaged_parts'])} unique parts after comprehensive analysis")
 
         # Phase 2 – Describe --------------------------------------------------
     p2_base = PHASE2_PROMPT.read_text()

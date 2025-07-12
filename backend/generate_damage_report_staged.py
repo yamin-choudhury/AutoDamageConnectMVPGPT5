@@ -12,7 +12,7 @@ from typing import List
 
 import openai
 from dotenv import load_dotenv
-from PIL import Image
+from PIL import Image, ImageOps
 from tqdm import tqdm
 from copy import deepcopy
 
@@ -21,7 +21,10 @@ from copy import deepcopy
 # Try ./prompts beside this file first, else ../prompts (repo root)
 _prompts_same = Path(__file__).resolve().parent / "prompts"
 PROMPTS_DIR = _prompts_same if _prompts_same.exists() else Path(__file__).resolve().parent.parent / "prompts"
+PHASE0_QUICK_PROMPT   = PROMPTS_DIR / "detect_quick_prompt.txt"
 PHASE1_FRONT_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_front_enterprise.txt"
+PHASE1_SIDE_ENTERPRISE_PROMPT  = PROMPTS_DIR / "detect_side_enterprise.txt"
+PHASE1_REAR_ENTERPRISE_PROMPT  = PROMPTS_DIR / "detect_rear_enterprise.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
@@ -89,6 +92,44 @@ def call_openai_text(prompt: str, model: str = "gpt-4o", temperature: float = 0.
     )
     return resp.choices[0].message.content.strip()
 
+
+# ----------------------- Image cropping utilities --------------------
+
+def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 1200) -> List[Path]:
+    """Return a list of Path objects: [full_frame, roi_crop] (if bbox present).
+    Creates temporary JPEG crops in /tmp and returns their paths.
+    """
+    out: List[Path] = []
+    tmp_dir = Path("/tmp/damage_crops")
+    tmp_dir.mkdir(exist_ok=True)
+    # Use first 2 images only to keep token count down
+    base_imgs = images[:2]
+    # Always include the downsized full frame
+    for p in base_imgs:
+        out.append(p)
+
+    # Try to find a bbox for this area from quick-detector
+    for area_item in areas_json.get("damaged_areas", []):
+        if area.lower() in area_item.get("area", "").lower() and area_item.get("bbox_px"):
+            x1, y1, x2, y2 = area_item["bbox_px"]
+            for p in base_imgs:
+                img = Image.open(p).convert("RGB")
+                w, h = img.size
+                # clamp bbox, expand by 15%
+                pad_x = int(0.15 * (x2 - x1))
+                pad_y = int(0.15 * (y2 - y1))
+                cx1 = max(0, x1 - pad_x)
+                cy1 = max(0, y1 - pad_y)
+                cx2 = min(w, x2 + pad_x)
+                cy2 = min(h, y2 + pad_y)
+                crop = img.crop((cx1, cy1, cx2, cy2))
+                if max(crop.size) > max_px:
+                    crop.thumbnail((max_px, max_px))
+                out_path = tmp_dir / f"{p.stem}_{area.replace(' ','_')}_crop.jpg"
+                crop.save(out_path, "JPEG", quality=90)
+                out.append(out_path)
+            break  # one bbox is enough
+    return out
 
 # ----------------------- Ensemble utilities ---------------------------
 
@@ -195,9 +236,68 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-        # Phase 1 – Front-End Enterprise Detection ------
-    front_enterprise_prompt = PHASE1_FRONT_ENTERPRISE_PROMPT.read_text()
-    print("Phase 1: Front-end enterprise damage assessment (3-pass ensemble)…")
+        # ----------------  Phase 0 – Quick Area Detection  -----------------
+    quick_prompt = PHASE0_QUICK_PROMPT.read_text()
+    print("Phase 0: Quick damaged-area detection …")
+    areas_json = {}
+    try:
+        quick_txt = call_openai_vision(quick_prompt, images, args.model, temperature=0.2)
+        if quick_txt.startswith("```"):
+            quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+        areas_json = json.loads(quick_txt)
+    except Exception as e:
+        print("   Warning: quick detection failed, assuming front-end damage")
+        areas_json = {"damaged_areas": [{"area": "front end"}]}
+
+    damaged_areas = [a["area"].lower() for a in areas_json.get("damaged_areas", [])]
+    if not damaged_areas:
+        damaged_areas = ["front end"]
+    print(f"   Detected damaged areas: {damaged_areas}")
+
+        # ----------------  Phase 1 – Area-specialist Enterprise Detection ----
+    area_prompt_map = {
+        "front end": PHASE1_FRONT_ENTERPRISE_PROMPT,
+        "front":     PHASE1_FRONT_ENTERPRISE_PROMPT,
+        "left side":  PHASE1_SIDE_ENTERPRISE_PROMPT,
+        "right side": PHASE1_SIDE_ENTERPRISE_PROMPT,
+        "side":       PHASE1_SIDE_ENTERPRISE_PROMPT,
+        "rear":       PHASE1_REAR_ENTERPRISE_PROMPT,
+        "rear end":   PHASE1_REAR_ENTERPRISE_PROMPT,
+    }
+    runs = []
+    for area in damaged_areas:
+        prompt_path = area_prompt_map.get(area, PHASE1_FRONT_ENTERPRISE_PROMPT)
+        prompt_text = prompt_path.read_text()
+        print(f"Phase 1: {area} enterprise assessment using {prompt_path.name} …")
+
+        # Build image list: full frames + ROI crop
+        imgs_for_call = make_crops(area, images, areas_json)
+
+        temperatures = [0.2, 0.5, 0.8]
+        for i, temp in enumerate(temperatures, 1):
+            print(f"  Pass {i}/3 (temp={temp}) …")
+            txt = call_openai_vision(prompt_text, images, args.model, temperature=temp)
+            if txt.startswith("```"):
+                if "json" in txt.split("\n")[0]:
+                    txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+                else:
+                    txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            try:
+                result = json.loads(txt)
+                combined = {
+                    "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
+                    "damaged_parts": result.get("damaged_parts", [])
+                }
+                runs.append(combined)
+                print(f"      → {len(combined['damaged_parts'])} parts")
+            except Exception as e:
+                print("      JSON parse failed, skipping this pass")
+
+    if not runs:
+        sys.exit("Enterprise detection failed for all areas")
+
+    detected = union_parts(runs)
+    print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
     runs = []
     
     # 3-pass ensemble with different temperatures for maximum coverage
@@ -233,8 +333,7 @@ def main():
             print(f"    Raw response preview: {txt[:200]}...")
     if not runs:
         sys.exit("All comprehensive detection passes failed")
-    detected = union_parts(runs)
-    print(f"Detected {len(detected['damaged_parts'])} unique parts after comprehensive analysis")
+    # (removed line as now above)
 
         # Phase 2 – Describe --------------------------------------------------
     p2_base = PHASE2_PROMPT.read_text()

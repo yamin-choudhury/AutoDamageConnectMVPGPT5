@@ -267,7 +267,7 @@ def main():
     print("Phase 0: Quick damaged-area detection …")
     areas_json = {}
     try:
-        quick_txt = call_openai_vision(quick_prompt, images, args.model, temperature=0.2)
+        quick_txt = call_openai_vision(quick_prompt, images[:2], args.model, temperature=0.3)
         if quick_txt.startswith("```"):
             quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
         areas_json = json.loads(quick_txt)

@@ -389,17 +389,18 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                      const docId = await saveDocument();
                      if (!docId) { setIsGenerating(false); return; }
                      const { data: { session } } = await supabase.auth.getSession();
-                     const { error } = await supabase.functions.invoke('generate_report', {
-                       headers: { Authorization: `Bearer ${session?.access_token || supabase['supabaseKey']}` },
-                       body: { document_id: docId },
-                     });
-                     if (error) {
-                       setIsGenerating(false);
-                       toast({ title:'Error', description:'Report generation failed', variant:'destructive' });
-                     } else {
-                       setDocStatus('processing');
-                       toast({ title:'Generating', description:'Report generation started' });
-                     }
+                      const { data, error } = await supabase.functions.invoke('generate_report', {
+                        headers: { Authorization: `Bearer ${session?.access_token || supabase['supabaseKey']}` },
+                        body: { document_id: docId },
+                      });
+                      if (error) {
+                        setIsGenerating(false);
+                        toast({ title:'Error', description:'Report generation failed', variant:'destructive' });
+                      } else {
+                        setIsGenerating(false); // Edge function returns immediately now
+                        setDocStatus('processing');
+                        toast({ title:'Success', description: data?.message || 'Report generation started' });
+                      }
                    }}
                   className="border border-gray-300 px-6"
                 >

@@ -83,47 +83,62 @@ serve(async (req) => {
     
     console.log("Final document payload:", JSON.stringify(docWithImages, null, 2));
 
-    // 3. Call the Python report service with signed URLs
-    const backendResp = await fetch(`${REPORT_SERVICE_URL}/generate`, {
+    // 3. Start the Python report service asynchronously (don't await)
+    fetch(`${REPORT_SERVICE_URL}/generate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         document: docWithImages,
       }),
+    }).then(async (backendResp) => {
+      try {
+        if (!backendResp.ok) {
+          console.error("Report service error", await backendResp.text());
+          await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
+          return;
+        }
+
+        const { json_url, pdf_url } = await backendResp.json();
+
+        // Fetch the generated JSON so we can store it inline for quick preview
+        let reportJson: any = null;
+        try {
+          const jsonResp = await fetch(json_url);
+          if (jsonResp.ok) {
+            reportJson = await jsonResp.json();
+          }
+        } catch (_e) {
+          // non-fatal, we'll still store the URL
+          console.warn("Unable to fetch JSON from", json_url);
+        }
+
+        // Save data & set status ready
+        await supabase
+          .from("documents")
+          .update({
+            status: "ready",
+            report_json: reportJson,
+            report_json_url: json_url,
+            report_pdf_url: pdf_url,
+          })
+          .eq("id", document_id);
+
+        console.log("Report generation completed for document", document_id);
+      } catch (error) {
+        console.error("Error in async report processing:", error);
+        await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
+      }
+    }).catch(async (error) => {
+      console.error("Failed to start report generation:", error);
+      await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
     });
 
-    if (!backendResp.ok) {
-      console.error("Report service error", await backendResp.text());
-      await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
-      return new Response("Report generation failed", { status: 502, headers: corsHeaders });
-    }
-
-    const { json_url, pdf_url } = await backendResp.json();
-
-    // Fetch the generated JSON so we can store it inline for quick preview
-    let reportJson: any = null;
-    try {
-      const jsonResp = await fetch(json_url);
-      if (jsonResp.ok) {
-        reportJson = await jsonResp.json();
-      }
-    } catch (_e) {
-      // non-fatal, we’ll still store the URL
-      console.warn("Unable to fetch JSON from", json_url);
-    }
-
-    // 4. Save data & set status ready
-    await supabase
-      .from("documents")
-      .update({
-        status: "ready",
-        report_json: reportJson,
-        report_json_url: json_url,
-        report_pdf_url: pdf_url,
-      })
-      .eq("id", document_id);
-
-    return new Response(JSON.stringify({ json_url, pdf_url }), {
+    // Return immediately with processing status
+    return new Response(JSON.stringify({ 
+      message: "Report generation started", 
+      document_id,
+      status: "processing" 
+    }), {
       headers: { "Content-Type": "application/json", ...corsHeaders },
     });
   } catch (e) {

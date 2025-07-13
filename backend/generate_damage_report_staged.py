@@ -202,14 +202,8 @@ def union_parts(runs: List[dict]) -> dict:
                 cand_name = cand.get("name", "").lower().strip()
                 base_name = base.get("name", "").lower().strip()
                 
-                # Potential duplicate if same part name AND (same image OR IoU≥0.6)
-                same_image = cand.get("image") == base.get("image")
-                high_iou = False
-                try:
-                    high_iou = iou(cand.get("bbox_px", []), base.get("bbox_px", [])) >= 0.3
-                except Exception:
-                    pass
-                if cand_name == base_name and (same_image or high_iou):
+                # STRICT DUPLICATE CHECK: Same part name = always duplicate
+                if cand_name == base_name:
                     
                     # ENTERPRISE MERGING LOGIC:
                     # 1. Severity hierarchy: severe > moderate > minor
@@ -504,6 +498,22 @@ def main():
     if summary_txt.startswith("```"):
         summary_txt = summary_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     detected["summary"] = json.loads(summary_txt)
+
+    # FINAL DUPLICATE CLEANUP - catch any remaining duplicates
+    final_parts = []
+    seen_parts = set()
+    
+    for part in detected["damaged_parts"]:
+        part_name = part.get("name", "").lower().strip()
+        if part_name not in seen_parts:
+            final_parts.append(part)
+            seen_parts.add(part_name)
+            print(f"✅ Keeping: {part.get('name', 'Unknown')}")
+        else:
+            print(f"❌ DUPLICATE REMOVED: {part.get('name', 'Unknown')}")
+    
+    detected["damaged_parts"] = final_parts
+    print(f"Final cleanup: {len(final_parts)} unique parts remaining")
 
     report = detected
 

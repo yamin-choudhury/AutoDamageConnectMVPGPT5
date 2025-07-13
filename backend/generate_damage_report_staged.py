@@ -146,6 +146,9 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
             cy1 = max(0, uy1 - pad_y)
             cx2 = min(w, ux2 + pad_x)
             cy2 = min(h, uy2 + pad_y)
+            # For front-end, extend crop downward by 25% image height to include bumper
+            if area.lower() in ("front end", "front"):
+                cy2 = min(h, cy2 + int(0.25 * h))
             crop = img.crop((cx1, cy1, cx2, cy2))
             if max(crop.size) > max_px:
                 crop.thumbnail((max_px, max_px))

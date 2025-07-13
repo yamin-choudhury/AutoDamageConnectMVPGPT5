@@ -298,27 +298,32 @@ def main():
 
         # ----------------  Phase 1 – Area-specialist Enterprise Detection ----
     area_prompt_map = {
-        "front end": PHASE1_FRONT_ENTERPRISE_PROMPT,
-        "front":     PHASE1_FRONT_ENTERPRISE_PROMPT,
-        "left side":  PHASE1_SIDE_ENTERPRISE_PROMPT,
-        "right side": PHASE1_SIDE_ENTERPRISE_PROMPT,
-        "side":       PHASE1_SIDE_ENTERPRISE_PROMPT,
-        "rear":       PHASE1_REAR_ENTERPRISE_PROMPT,
-        "rear end":   PHASE1_REAR_ENTERPRISE_PROMPT,
+        "front end": [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],
+        "front":     [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],
+        "left side":  [PROMPTS_DIR / "detect_side_A.txt"],
+        "right side": [PROMPTS_DIR / "detect_side_B.txt"],
+        "side":       [PROMPTS_DIR / "detect_side_A.txt", PROMPTS_DIR / "detect_side_B.txt"],
+        "rear":       [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt"],
+        "rear end":   [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt"],
     }
+
+
+
+
+
+
+
     runs = []
     for area in damaged_areas:
-        prompt_path = area_prompt_map.get(area, PHASE1_FRONT_ENTERPRISE_PROMPT)
-        prompt_text = prompt_path.read_text()
-        print(f"Phase 1: {area} enterprise assessment using {prompt_path.name} …")
-
-        # Build image list: full frames + ROI crop
-        imgs_for_call = make_crops(area, images, areas_json)
-
-        temperatures = [0.1, 0.4, 0.8]
-        for i, temp in enumerate(temperatures, 1):
-            print(f"  Pass {i}/3 (temp={temp}) …")
-            txt = call_openai_vision(prompt_text, imgs_for_call, args.model, temperature=temp)
+        prompt_paths = area_prompt_map.get(area, [PHASE1_FRONT_ENTERPRISE_PROMPT])
+        for prompt_path in prompt_paths:
+            prompt_text = prompt_path.read_text()
+            print(f"Phase 1: {area} assessment with {prompt_path.name} …")
+            imgs_for_call = make_crops(area, images, areas_json)
+            temperatures = [0.1, 0.4, 0.8]
+            for i, temp in enumerate(temperatures, 1):
+                print(f"    Pass {i}/3 (temp={temp}) …")
+                txt = call_openai_vision(prompt_text, imgs_for_call, args.model, temperature=temp)
             if txt.startswith("```"):
                 if "json" in txt.split("\n")[0]:
                     txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()

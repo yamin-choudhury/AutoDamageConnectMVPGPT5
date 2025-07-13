@@ -1,0 +1,15 @@
+EXPERT FRONT-END DAMAGE ASSESSMENT – INSURANCE GRADE (SHARD B)
+
+Continuation of front-end part list. Follow same mission and instructions as Shard A but assess the following additional parts:
+
+FRONT-END PARTS TO ASSESS (LIST B):
+- Radiator Support / Core Support
+- Condenser / Cooling Stack
+- Washer Fluid Reservoir
+- Front Crash Sensors / Radar
+- Front Camera / ADAS Module
+- Hood Latch & Hinges
+- Left Fog Light Assembly
+- Right Fog Light Assembly
+
+Follow identical severity criteria and JSON schema as Shard A. Return JSON only, no commentary, with each part listed at most once.

@@ -264,6 +264,20 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
+    # ----------------  Vehicle Identification Pass  -------------------
+    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+    try:
+        id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), images[:3], args.model, temperature=0.3)
+        if id_txt.startswith("```"):
+            id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+        id_json = json.loads(id_txt)
+        for k in ("make", "model", "year"):
+            val = id_json.get("vehicle", {}).get(k)
+            if val and val not in ("", "Unknown", 0):
+                vehicle[k] = val
+    except Exception as e:
+        print(f"Vehicle-ID pass failed: {e}")
+
         # ----------------  Phase 0 – Quick Area Detection  -----------------
     quick_prompt = PHASE0_QUICK_PROMPT.read_text()
     print("Phase 0: Quick damaged-area detection (per image) …")
@@ -320,27 +334,14 @@ def main():
             damaged_areas_all.extend(run.get("damaged_areas", []))
         areas_json = {"vehicle": vehicle, "damaged_areas": damaged_areas_all}
 
-        # ---- dedicated vehicle-ID refinement if needed ----
-        if any(vehicle.get(k) in ("", "Unknown", 0) for k in ("make", "model", "year")):
-            try:
-                id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), images[:3], args.model, temperature=0.3)
-                if id_txt.startswith("```"):
-                    id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-                id_json = json.loads(id_txt)
-                for k in ("make", "model", "year"):
-                    val = id_json.get("vehicle", {}).get(k)
-                    if val and val not in ("", "Unknown", 0):
-                        areas_json["vehicle"][k] = val
-                        vehicle[k] = val
-            except Exception as e:
-                print(f"   Vehicle-ID refinement failed: {e}")
+
 
     damaged_areas = [a["area"].lower() for a in areas_json.get("damaged_areas", [])]
     if not damaged_areas:
         damaged_areas = ["front end"]
     print(f"   Detected damaged areas: {damaged_areas}")
 
-        # ----------------  Phase 1 – Area-specialist Enterprise Detection ----
+    # ----------------  Phase 1 – Area-specialist Enterprise Detection ----
     area_prompt_map = {
         "front end": [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],
         "front":     [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],

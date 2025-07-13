@@ -26,6 +26,7 @@ PHASE1_FRONT_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_front_enterprise.txt"
 PHASE1_SIDE_ENTERPRISE_PROMPT  = PROMPTS_DIR / "detect_side_enterprise.txt"
 PHASE1_REAR_ENTERPRISE_PROMPT  = PROMPTS_DIR / "detect_rear_enterprise.txt"
 GENERIC_AREAS_PROMPT = PROMPTS_DIR / "detect_generic_areas.txt"
+VEHICLE_ID_PROMPT = PROMPTS_DIR / "identify_vehicle.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
@@ -318,6 +319,21 @@ def main():
         for run in quick_runs:
             damaged_areas_all.extend(run.get("damaged_areas", []))
         areas_json = {"vehicle": vehicle, "damaged_areas": damaged_areas_all}
+
+        # ---- dedicated vehicle-ID refinement if needed ----
+        if any(vehicle.get(k) in ("", "Unknown", 0) for k in ("make", "model", "year")):
+            try:
+                id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), images[:3], args.model, temperature=0.3)
+                if id_txt.startswith("```"):
+                    id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+                id_json = json.loads(id_txt)
+                for k in ("make", "model", "year"):
+                    val = id_json.get("vehicle", {}).get(k)
+                    if val and val not in ("", "Unknown", 0):
+                        areas_json["vehicle"][k] = val
+                        vehicle[k] = val
+            except Exception as e:
+                print(f"   Vehicle-ID refinement failed: {e}")
 
     damaged_areas = [a["area"].lower() for a in areas_json.get("damaged_areas", [])]
     if not damaged_areas:

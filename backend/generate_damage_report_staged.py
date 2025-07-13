@@ -276,20 +276,23 @@ def main():
         except Exception as e:
             print(f"   Image {idx}: quick detection failed – {e}")
     if not quick_runs:
-        sys.exit("Quick detection failed for all images")
-    # Consolidate vehicle metadata
-    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
-    for k in ("make", "model", "year"):
+        print("   Quick detection failed for all images – falling back to default front-end area")
+        areas_json = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0},
+                      "damaged_areas": [{"area": "front end"}]}
+    else:
+        # Consolidate vehicle metadata
+        vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+        for k in ("make", "model", "year"):
+            for run in quick_runs:
+                val = run.get("vehicle", {}).get(k)
+                if val and val not in ("", "Unknown", 0):
+                    vehicle[k] = val
+                    break
+        # Merge damaged areas from all quick runs
+        damaged_areas_all = []
         for run in quick_runs:
-            val = run.get("vehicle", {}).get(k)
-            if val and val not in ("", "Unknown", 0):
-                vehicle[k] = val
-                break
-    # Merge damaged areas from all quick runs
-    damaged_areas_all = []
-    for run in quick_runs:
-        damaged_areas_all.extend(run.get("damaged_areas", []))
-    areas_json = {"vehicle": vehicle, "damaged_areas": damaged_areas_all}
+            damaged_areas_all.extend(run.get("damaged_areas", []))
+        areas_json = {"vehicle": vehicle, "damaged_areas": damaged_areas_all}
 
     damaged_areas = [a["area"].lower() for a in areas_json.get("damaged_areas", [])]
     if not damaged_areas:

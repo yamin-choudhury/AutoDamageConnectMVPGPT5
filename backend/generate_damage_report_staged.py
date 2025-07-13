@@ -261,53 +261,21 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-    # ----------------  Multi-Image Vehicle Consensus  -------------------
-    print("Multi-image vehicle identification with voting consensus...")
-    vehicle_votes = {}  # {"Toyota Yaris 2015": 3, "Peugeot 108 2014": 1}
-    vehicle_details = {}  # Store full details for each vote
-    
-    # Try each image for vehicle identification
-    for idx, img in enumerate(images[:6]):  # Max 6 images to avoid excessive cost
-        try:
-            print(f"  Image {idx+1}: Identifying vehicle...")
-            id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), [img], args.model, temperature=0.2)
-            if id_txt.startswith("```"):
-                id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            id_json = json.loads(id_txt)
-            
-            # Extract vehicle info
-            v_info = id_json.get("vehicle", {})
-            make = v_info.get("make", "Unknown")
-            model = v_info.get("model", "Unknown")
-            year = v_info.get("year", 0)
-            
-            if make not in ("", "Unknown") and model not in ("", "Unknown"):
-                # Create vehicle signature for voting
-                vehicle_sig = f"{make} {model} {year if year not in (0, '', 'Unknown') else 'Unknown'}"
-                
-                # Check for badge visibility (prioritize clear badges)
-                badge_visible = id_json.get("badge_visible", False)
-                vote_weight = 2 if badge_visible else 1
-                
-                vehicle_votes[vehicle_sig] = vehicle_votes.get(vehicle_sig, 0) + vote_weight
-                vehicle_details[vehicle_sig] = {"make": make, "model": model, "year": year}
-                
-                print(f"    → {vehicle_sig} (weight: {vote_weight}, badge: {badge_visible})")
-            else:
-                print(f"    → Unclear/Unknown vehicle")
-                
-        except Exception as e:
-            print(f"    → Failed: {e}")
-    
-    # Use consensus voting to determine final vehicle
-    if vehicle_votes:
-        winner = max(vehicle_votes.items(), key=lambda x: x[1])
-        vehicle_sig, votes = winner
-        vehicle = vehicle_details[vehicle_sig]
-        print(f"  CONSENSUS: {vehicle_sig} with {votes} votes")
-    else:
-        vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
-        print(f"  CONSENSUS: Could not identify vehicle from any image")
+    # ----------------  Vehicle Identification Pass  -------------------
+    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+    try:
+        print("Vehicle identification...")
+        id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), images[:3], args.model, temperature=0.3)
+        if id_txt.startswith("```"):
+            id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+        id_json = json.loads(id_txt)
+        for k in ("make", "model", "year"):
+            val = id_json.get("vehicle", {}).get(k)
+            if val and val not in ("", "Unknown", 0):
+                vehicle[k] = val
+        print(f"Vehicle identified: {vehicle.get('make', 'Unknown')} {vehicle.get('model', 'Unknown')} {vehicle.get('year', 'Unknown')}")
+    except Exception as e:
+        print(f"Vehicle-ID pass failed: {e}")
 
         # ----------------  Phase 0 – Quick Area Detection  -----------------
     quick_prompt = PHASE0_QUICK_PROMPT.read_text()

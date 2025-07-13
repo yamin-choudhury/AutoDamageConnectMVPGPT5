@@ -279,17 +279,31 @@ def main():
     if not quick_runs:
         print("   Quick detection failed for all images – running generic area detector …")
         try:
-            generic_txt = call_openai_vision(GENERIC_AREAS_PROMPT.read_text(), images, args.model, temperature=0.3)
+            generic_prompt = GENERIC_AREAS_PROMPT.read_text()
+            generic_txt = call_openai_vision(generic_prompt, images, args.model, temperature=0.3)
+            raw_generic = generic_txt[:400].replace("\n"," ")
+            print(f"      Raw generic response (trimmed): {raw_generic}")
             if generic_txt.startswith("```"):
                 generic_txt = generic_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            generic_json = json.loads(generic_txt)
+            try:
+                generic_json = json.loads(generic_txt)
+            except json.JSONDecodeError:
+                print("      First parse failed, retrying generic detector at temp=0 …")
+                generic_txt2 = call_openai_vision(generic_prompt, images, args.model, temperature=0.0)
+                raw_generic2 = generic_txt2[:400].replace("\n"," ")
+                print(f"      Retry response (trimmed): {raw_generic2}")
+                try:
+                    generic_json = json.loads(generic_txt2)
+                except json.JSONDecodeError as e2:
+                    print(f"      Generic detector parse failed twice: {e2}")
+                    generic_json = {"damaged_areas": []}
             areas_json = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0},
                           "damaged_areas": generic_json.get("damaged_areas", [])}
             if not areas_json["damaged_areas"]:
-                print("   Generic detector found no damaged areas – aborting with clear error")
-                sys.exit("Unable to determine damaged areas from images")
+                print("   Generic detector found no damaged areas – proceeding with empty result; frontend can show warning")
         except Exception as e:
-            sys.exit(f"Generic area detection failed: {e}")
+            print(f"   Generic area detection unexpected error: {e}")
+            areas_json = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_areas": []}
     else:
         # Consolidate vehicle metadata
         vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}

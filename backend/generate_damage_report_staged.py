@@ -264,16 +264,32 @@ def main():
 
         # ----------------  Phase 0 – Quick Area Detection  -----------------
     quick_prompt = PHASE0_QUICK_PROMPT.read_text()
-    print("Phase 0: Quick damaged-area detection …")
-    areas_json = {}
-    try:
-        quick_txt = call_openai_vision(quick_prompt, images[:2], args.model, temperature=0.3)
-        if quick_txt.startswith("```"):
-            quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-        areas_json = json.loads(quick_txt)
-    except Exception as e:
-        print("   Warning: quick detection failed, assuming front-end damage")
-        areas_json = {"damaged_areas": [{"area": "front end"}]}
+    print("Phase 0: Quick damaged-area detection (per image) …")
+    quick_runs = []
+    for idx, img in enumerate(images, 1):
+        try:
+            quick_txt = call_openai_vision(quick_prompt, [img], args.model, temperature=0.3)
+            if quick_txt.startswith("```"):
+                quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            quick_runs.append(json.loads(quick_txt))
+            print(f"   Image {idx}: success")
+        except Exception as e:
+            print(f"   Image {idx}: quick detection failed – {e}")
+    if not quick_runs:
+        sys.exit("Quick detection failed for all images")
+    # Consolidate vehicle metadata
+    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+    for k in ("make", "model", "year"):
+        for run in quick_runs:
+            val = run.get("vehicle", {}).get(k)
+            if val and val not in ("", "Unknown", 0):
+                vehicle[k] = val
+                break
+    # Merge damaged areas from all quick runs
+    damaged_areas_all = []
+    for run in quick_runs:
+        damaged_areas_all.extend(run.get("damaged_areas", []))
+    areas_json = {"vehicle": vehicle, "damaged_areas": damaged_areas_all}
 
     damaged_areas = [a["area"].lower() for a in areas_json.get("damaged_areas", [])]
     if not damaged_areas:

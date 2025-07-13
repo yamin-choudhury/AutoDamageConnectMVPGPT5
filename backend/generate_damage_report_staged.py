@@ -267,33 +267,72 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-    # ----------------  Vehicle Identification Pass  -------------------
-    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
-    try:
-        id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), images[:3], args.model, temperature=0.3)
-        if id_txt.startswith("```"):
-            id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-        id_json = json.loads(id_txt)
-        for k in ("make", "model", "year"):
-            val = id_json.get("vehicle", {}).get(k)
-            if val and val not in ("", "Unknown", 0):
-                vehicle[k] = val
-    except Exception as e:
-        print(f"Vehicle-ID pass failed: {e}")
+    # ----------------  Multi-Image Vehicle Consensus  -------------------
+    print("Multi-image vehicle identification with voting consensus...")
+    vehicle_votes = {}  # {"Toyota Yaris 2015": 3, "Peugeot 108 2014": 1}
+    vehicle_details = {}  # Store full details for each vote
+    
+    # Try each image for vehicle identification
+    for idx, img in enumerate(images[:6]):  # Max 6 images to avoid excessive cost
+        try:
+            print(f"  Image {idx+1}: Identifying vehicle...")
+            id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), [img], args.model, temperature=0.2)
+            if id_txt.startswith("```"):
+                id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            id_json = json.loads(id_txt)
+            
+            # Extract vehicle info
+            v_info = id_json.get("vehicle", {})
+            make = v_info.get("make", "Unknown")
+            model = v_info.get("model", "Unknown")
+            year = v_info.get("year", 0)
+            
+            if make not in ("", "Unknown") and model not in ("", "Unknown"):
+                # Create vehicle signature for voting
+                vehicle_sig = f"{make} {model} {year if year not in (0, '', 'Unknown') else 'Unknown'}"
+                
+                # Check for badge visibility (prioritize clear badges)
+                badge_visible = id_json.get("badge_visible", False)
+                vote_weight = 2 if badge_visible else 1
+                
+                vehicle_votes[vehicle_sig] = vehicle_votes.get(vehicle_sig, 0) + vote_weight
+                vehicle_details[vehicle_sig] = {"make": make, "model": model, "year": year}
+                
+                print(f"    → {vehicle_sig} (weight: {vote_weight}, badge: {badge_visible})")
+            else:
+                print(f"    → Unclear/Unknown vehicle")
+                
+        except Exception as e:
+            print(f"    → Failed: {e}")
+    
+    # Use consensus voting to determine final vehicle
+    if vehicle_votes:
+        winner = max(vehicle_votes.items(), key=lambda x: x[1])
+        vehicle_sig, votes = winner
+        vehicle = vehicle_details[vehicle_sig]
+        print(f"  CONSENSUS: {vehicle_sig} with {votes} votes")
+    else:
+        vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+        print(f"  CONSENSUS: Could not identify vehicle from any image")
 
         # ----------------  Phase 0 – Quick Area Detection  -----------------
     quick_prompt = PHASE0_QUICK_PROMPT.read_text()
-    print("Phase 0: Quick damaged-area detection (per image) …")
+    print("Phase 0: Quick damaged-area detection with early stop…")
     quick_runs = []
-    for idx, img in enumerate(images, 1):
+    max_quick_images = 8  # safety cap to avoid excessive cost
+    for idx, img in enumerate(images):
+        if idx >= max_quick_images:
+            break
         try:
             quick_txt = call_openai_vision(quick_prompt, [img], args.model, temperature=0.3)
             if quick_txt.startswith("```"):
                 quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            quick_runs.append(json.loads(quick_txt))
-            print(f"   Image {idx}: success")
+            quick_json = json.loads(quick_txt)
+            quick_runs.append(quick_json)
+            print(f"   Image {idx+1}: quick detector success")
+            # Continue processing all images since vehicle consensus is already complete
         except Exception as e:
-            print(f"   Image {idx}: quick detection failed – {e}")
+            print(f"   Image {idx+1}: quick detection failed – {e}")
     if not quick_runs:
         print("   Quick detection failed for all images – running generic area detector …")
         try:

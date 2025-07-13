@@ -68,10 +68,16 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
         console.log('ReportViewer fetch result:', { data, error, documentId });
         
         if (data?.report_json) {
-          console.log('Found report_json in database, parsing...');
-          const dbReport = JSON.parse(data.report_json) as DamageReport;
-          console.log('🔥 SETTING REPORT FROM DB TO:', dbReport);
-          setReport(dbReport);
+      console.log('Found report_json in database, parsing...');
+      let dbReport: DamageReport;
+      if (typeof data.report_json === 'string') {
+        dbReport = JSON.parse(data.report_json) as DamageReport;
+      } else {
+        // Already an object, use directly
+        dbReport = data.report_json as DamageReport;
+      }
+      console.log('🔥 SETTING REPORT FROM DB TO:', dbReport);
+      setReport(dbReport);
         } else if (data?.report_json_url) {
           console.log('No report_json in database, fetching from URL:', data.report_json_url);
           

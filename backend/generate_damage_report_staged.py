@@ -6,8 +6,10 @@ Usage:
                                         --out report_full.json
 """
 from __future__ import annotations
-import argparse, base64, json, os, sys
+import argparse, base64, json, os, sys, requests
 from pathlib import Path
+from urllib.parse import urljoin
+from typing import Optional
 from typing import List
 
 import openai
@@ -485,8 +487,108 @@ def main():
 
     report = detected
 
+    # Write the report to file
     Path(args.out).write_text(json.dumps(report, indent=2))
     print(f"Final report written to {args.out}")
+
+    # Upload to storage and notify webhook if running in production
+    if os.getenv("RAILWAY_ENVIRONMENT") == "production":
+        try:
+            import requests
+            from datetime import datetime
+            
+            # Generate unique filenames with timestamp
+            timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+            report_id = os.path.splitext(os.path.basename(args.out))[0]
+            
+            # Upload JSON report
+            json_filename = f"reports/{report_id}_{timestamp}.json"
+            json_url = upload_to_supabase_storage(args.out, json_filename)
+            
+            # Generate and upload PDF
+            pdf_path = args.out.replace('.json', '.pdf')
+            generate_pdf(report, pdf_path)  # Assuming you have this function
+            pdf_filename = f"reports/{report_id}_{timestamp}.pdf"
+            pdf_url = upload_to_supabase_storage(pdf_path, pdf_filename)
+            
+            # Notify webhook
+            webhook_url = f"{os.getenv('SUPABASE_URL')}/functions/v1/report-complete"
+            response = requests.post(
+                webhook_url,
+                json={
+                    "document_id": report_id,
+                    "json_url": json_url,
+                    "pdf_url": pdf_url
+                },
+                headers={
+                    "Authorization": f"Bearer {os.getenv('SUPABASE_SERVICE_ROLE_KEY')}",
+                    "Content-Type": "application/json"
+                },
+                timeout=10
+            )
+            print(f"Webhook notification sent: {response.status_code}")
+            
+        except Exception as e:
+            print(f"Warning: Webhook notification failed: {str(e)}")
+            # Don't fail the whole process if webhook fails
+
+def upload_to_supabase_storage(file_path: str, destination_path: str) -> Optional[str]:
+    """Upload a file to Supabase Storage and return its public URL."""
+    try:
+        # Get environment variables
+        supabase_url = os.getenv("SUPABASE_URL")
+        service_role_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+        
+        if not supabase_url or not service_role_key:
+            print("Error: Missing Supabase credentials")
+            return None
+            
+        # Read file content
+        with open(file_path, 'rb') as f:
+            file_content = f.read()
+        
+        # Upload file to Supabase Storage
+        upload_url = f"{supabase_url}/storage/v1/object/auto-damage-reports/{destination_path}"
+        headers = {
+            'Authorization': f'Bearer {service_role_key}',
+            'Content-Type': 'application/octet-stream',
+            'x-upsert': 'true'
+        }
+        
+        response = requests.put(
+            upload_url,
+            headers=headers,
+            data=file_content
+        )
+        
+        if response.status_code not in (200, 201):
+            print(f"Error uploading {file_path}: {response.status_code} - {response.text}")
+            return None
+            
+        # Return public URL
+        return f"{supabase_url}/storage/v1/object/public/auto-damage-reports/{destination_path}"
+        
+    except Exception as e:
+        print(f"Error in upload_to_supabase_storage: {str(e)}")
+        return None
+
+def generate_pdf(report_data: dict, output_path: str) -> bool:
+    """Generate a PDF from the report data.
+    
+    This is a placeholder - implement your PDF generation logic here.
+    For now, we'll just create an empty file.
+    """
+    try:
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        # Create empty file as placeholder
+        with open(output_path, 'wb') as f:
+            f.write(b'PDF generation would go here')
+        return True
+    except Exception as e:
+        print(f"Error generating PDF: {str(e)}")
+        return False
 
 if __name__ == "__main__":
     main()

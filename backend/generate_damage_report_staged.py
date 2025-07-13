@@ -25,6 +25,7 @@ PHASE0_QUICK_PROMPT   = PROMPTS_DIR / "detect_quick_prompt.txt"
 PHASE1_FRONT_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_front_enterprise.txt"
 PHASE1_SIDE_ENTERPRISE_PROMPT  = PROMPTS_DIR / "detect_side_enterprise.txt"
 PHASE1_REAR_ENTERPRISE_PROMPT  = PROMPTS_DIR / "detect_rear_enterprise.txt"
+GENERIC_AREAS_PROMPT = PROMPTS_DIR / "detect_generic_areas.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
@@ -276,9 +277,19 @@ def main():
         except Exception as e:
             print(f"   Image {idx}: quick detection failed – {e}")
     if not quick_runs:
-        print("   Quick detection failed for all images – falling back to default front-end area")
-        areas_json = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0},
-                      "damaged_areas": [{"area": "front end"}]}
+        print("   Quick detection failed for all images – running generic area detector …")
+        try:
+            generic_txt = call_openai_vision(GENERIC_AREAS_PROMPT.read_text(), images, args.model, temperature=0.3)
+            if generic_txt.startswith("```"):
+                generic_txt = generic_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            generic_json = json.loads(generic_txt)
+            areas_json = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0},
+                          "damaged_areas": generic_json.get("damaged_areas", [])}
+            if not areas_json["damaged_areas"]:
+                print("   Generic detector found no damaged areas – aborting with clear error")
+                sys.exit("Unable to determine damaged areas from images")
+        except Exception as e:
+            sys.exit(f"Generic area detection failed: {e}")
     else:
         # Consolidate vehicle metadata
         vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}

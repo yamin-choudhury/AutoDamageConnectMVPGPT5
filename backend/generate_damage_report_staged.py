@@ -77,8 +77,8 @@ def call_openai_vision(prompt: str, images: List[Path], model: str = "gpt-4o", t
     resp = openai.chat.completions.create(
         model=model,
         messages=[{"role": "system", "content": prompt}, {"role": "user", "content": user_parts}],
-        max_tokens=4096,
-        temperature=0.2,
+        max_tokens=6144,
+        temperature=temperature,
     )
     return resp.choices[0].message.content.strip()
 
@@ -87,8 +87,8 @@ def call_openai_text(prompt: str, model: str = "gpt-4o", temperature: float = 0.
     resp = openai.chat.completions.create(
         model=model,
         messages=[{"role": "system", "content": prompt}],
-        max_tokens=4096,
-        temperature=0.2,
+        max_tokens=6144,
+        temperature=temperature,
     )
     return resp.choices[0].message.content.strip()
 
@@ -102,8 +102,8 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
     out: List[Path] = []
     tmp_dir = Path("/tmp/damage_crops")
     tmp_dir.mkdir(exist_ok=True)
-    # Use first 2 images only to keep token count down
-    base_imgs = images[:2]
+    # Use first 3 images only to keep token count reasonable
+    base_imgs = images[:3]
     # Always include the downsized full frame
     for p in base_imgs:
         out.append(p)
@@ -129,6 +129,27 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
                 crop.save(out_path, "JPEG", quality=90)
                 out.append(out_path)
             break  # one bbox is enough
+    # Add an extra wide crop covering union of all bboxes for this area
+    bbox_list = [item["bbox_px"] for item in areas_json.get("damaged_areas", []) if area.lower() in item.get("area", "").lower() and item.get("bbox_px")]
+    if bbox_list:
+        xs = [b[0] for b in bbox_list]; ys=[b[1] for b in bbox_list]
+        x2s=[b[2] for b in bbox_list]; y2s=[b[3] for b in bbox_list]
+        ux1, uy1, ux2, uy2 = min(xs), min(ys), max(x2s), max(y2s)
+        for p in base_imgs[:1]:
+            img = Image.open(p).convert("RGB")
+            w, h = img.size
+            pad_x = int(0.15 * (ux2 - ux1))
+            pad_y = int(0.15 * (uy2 - uy1))
+            cx1 = max(0, ux1 - pad_x)
+            cy1 = max(0, uy1 - pad_y)
+            cx2 = min(w, ux2 + pad_x)
+            cy2 = min(h, uy2 + pad_y)
+            crop = img.crop((cx1, cy1, cx2, cy2))
+            if max(crop.size) > max_px:
+                crop.thumbnail((max_px, max_px))
+            out_path = tmp_dir / f"{p.stem}_{area.replace(' ','_')}_wide.jpg"
+            crop.save(out_path, "JPEG", quality=90)
+            out.append(out_path)
     return out
 
 # ----------------------- Ensemble utilities ---------------------------
@@ -180,7 +201,7 @@ def union_parts(runs: List[dict]) -> dict:
                 same_image = cand.get("image") == base.get("image")
                 high_iou = False
                 try:
-                    high_iou = iou(cand.get("bbox_px", []), base.get("bbox_px", [])) >= 0.6
+                    high_iou = iou(cand.get("bbox_px", []), base.get("bbox_px", [])) >= 0.3
                 except Exception:
                     pass
                 if cand_name == base_name and (same_image or high_iou):
@@ -278,10 +299,10 @@ def main():
         # Build image list: full frames + ROI crop
         imgs_for_call = make_crops(area, images, areas_json)
 
-        temperatures = [0.2, 0.5, 0.8]
+        temperatures = [0.1, 0.4, 0.8]
         for i, temp in enumerate(temperatures, 1):
             print(f"  Pass {i}/3 (temp={temp}) …")
-            txt = call_openai_vision(prompt_text, images, args.model, temperature=temp)
+            txt = call_openai_vision(prompt_text, imgs_for_call, args.model, temperature=temp)
             if txt.startswith("```"):
                 if "json" in txt.split("\n")[0]:
                     txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
@@ -313,7 +334,7 @@ def main():
     runs = []
     
     # 3-pass ensemble with different temperatures for maximum coverage
-    temperatures = [0.2, 0.5, 0.8]  # Conservative, balanced, creative
+    temperatures = [0.1, 0.4, 0.8]  # Conservative, balanced, creative
     for i, temp in enumerate(temperatures, 1):
         print(f"  Pass {i}/3 (temp={temp}): Chain-of-thought analysis...")
         txt = call_openai_vision(PHASE1_FRONT_ENTERPRISE_PROMPT.read_text(), images, args.model, temperature=temp)

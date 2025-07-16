@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { supabase } from '../integrations/supabase/client';
 import html2pdf from 'html2pdf.js';
 import { Button } from './ui/button';
@@ -61,27 +61,26 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
       try {
         const { data, error } = await supabase
           .from('documents')
-          .select('report_json, report_json_url')
+          .select('report_pdf_url, status, id')
           .eq('id', documentId)
           .single();
 
         console.log('ReportViewer fetch result:', { data, error, documentId });
         
-        if (data?.report_json) {
-      console.log('Found report_json in database, parsing...');
-      let dbReport: DamageReport;
-      if (typeof data.report_json === 'string') {
-        dbReport = JSON.parse(data.report_json) as DamageReport;
-      } else {
-        // Already an object, use directly
-        dbReport = data.report_json as DamageReport;
-      }
-      console.log('🔥 SETTING REPORT FROM DB TO:', dbReport);
-      setReport(dbReport);
-        } else if (data?.report_json_url) {
-          console.log('No report_json in database, fetching from URL:', data.report_json_url);
+        if (error) {
+          console.error('Error fetching document:', error);
+          setLoading(false);
+          return;
+        }
+        
+        // Check if report is ready and has URLs
+        if (data?.status === 'ready' && data?.report_pdf_url) {
+          // Extract report JSON URL from PDF URL pattern
+          const reportJsonUrl = data.report_pdf_url.replace('_report.pdf', '_report.json');
           
-          const response = await fetch(data.report_json_url);
+          console.log('Fetching report JSON from URL:', reportJsonUrl);
+          
+          const response = await fetch(reportJsonUrl);
           if (response.ok) {
             const jsonText = await response.text();
             console.log('Raw JSON text:', jsonText);
@@ -123,61 +122,51 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
     console.log('damaged_parts value:', report?.damaged_parts);
   }, [report]);
 
-  // Fetch damage images when report changes
+  // Memoize image filenames to create stable dependency
+  const damageImageFiles = useMemo(() => {
+    if (!report?.damaged_parts) return [];
+    return [...new Set(
+      report.damaged_parts.map((part) => part.image).filter(Boolean)
+    )];
+  }, [report?.damaged_parts]);
+
+  // Fetch damage images when image filenames change
   useEffect(() => {
     const fetchDamageImages = async () => {
       console.log('=== FETCHING DAMAGE IMAGES ===');
-      if (!report?.damaged_parts) {
-        console.log('No damaged_parts in report, setting empty images');
+      if (damageImageFiles.length === 0) {
+        console.log('No damage image files found');
         setImages([]);
         return;
       }
-
+      
       try {
-        // Get unique image filenames that contain damage  
-        const damageImageFiles = [...new Set(
-          report.damaged_parts.map((part: any) => part.image).filter(Boolean)
-        )];
-        
         console.log('Damage image filenames:', damageImageFiles);
         
-        if (damageImageFiles.length === 0) {
-          console.log('No damage image files found');
-          setImages([]);
-          return;
-        }
-        
         // Fetch URLs for all images of this document
-        const { data: imageData, error: imageError } = await supabase
-          .from('images')
-          .select('url')
+        const { data: imageData } = await supabase
+          .from('document_images')
+          .select('image_url')
           .eq('document_id', documentId);
         
-        if (imageError) {
-          console.error('Error fetching images:', imageError);
-          setImages([]);
-          return;
-        }
-        
-        console.log('All image URLs from database:', imageData);
+        console.log('All document images from DB:', imageData);
         
         if (imageData && imageData.length > 0) {
-          // Smart matching: map simplified JSON names to actual URLs
           const filteredImageUrls: string[] = [];
           
-          damageImageFiles.forEach(jsonImageName => {
+          damageImageFiles.forEach((jsonImageName: string) => {
             console.log('Looking for match for:', jsonImageName);
             
             // First try exact match
-            let matchedUrl = imageData.find((img: any) => 
-              img.url.includes(jsonImageName)
-            )?.url;
+            let matchedUrl = imageData.find((img: { image_url: string }) => 
+              img.image_url.includes(jsonImageName)
+            )?.image_url;
             
             // If no exact match, use position-based matching
             if (!matchedUrl) {
               const imageIndex = parseInt(jsonImageName.replace(/\D/g, '')) - 1;
               if (imageIndex >= 0 && imageIndex < imageData.length) {
-                matchedUrl = imageData[imageIndex]?.url;
+                matchedUrl = imageData[imageIndex]?.image_url;
                 console.log(`Position-based match: ${jsonImageName} -> index ${imageIndex} -> ${matchedUrl}`);
               }
             }
@@ -203,7 +192,7 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
     };
 
     fetchDamageImages();
-  }, [report, documentId]);
+  }, [documentId, damageImageFiles]); // Stable dependency using memoized filenames
 
   const generatePDF = useCallback(async () => {
     if (!report) return;

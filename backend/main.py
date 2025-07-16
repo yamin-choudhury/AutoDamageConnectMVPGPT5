@@ -229,6 +229,48 @@ async def generate_report(payload: GeneratePayload):
             print(f"URL generation failed: {e}")
             raise HTTPException(status_code=500, detail=f"URL generation failed: {str(e)}")
 
+        # Call the report-complete webhook -------------------------------------
+        print("Calling report-complete webhook...")
+        
+        # First, fetch the JSON content to send to webhook
+        report_json = None
+        try:
+            report_json = json.loads(out_json.read_text("utf-8"))
+        except Exception as e:
+            print(f"Warning: Could not read JSON for webhook: {e}")
+        
+        # Get webhook URL from environment or construct it
+        webhook_url = os.getenv("REPORT_COMPLETE_WEBHOOK_URL")
+        if not webhook_url:
+            # Construct webhook URL from Supabase URL
+            supabase_base = SUPABASE_URL.replace('/rest/v1', '')
+            webhook_url = f"{supabase_base}/functions/v1/report-complete"
+        
+        try:
+            webhook_payload = {
+                "document_id": doc_id,
+                "json_url": json_url,
+                "pdf_url": pdf_url,
+                "report_json": report_json
+            }
+            
+            async with httpx.AsyncClient() as client:
+                webhook_response = await client.post(
+                    webhook_url,
+                    json=webhook_payload,
+                    headers={"Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}"},
+                    timeout=30
+                )
+                
+            if webhook_response.status_code == 200:
+                print(f"✅ Webhook called successfully for document {doc_id}")
+            else:
+                print(f"⚠️ Webhook returned status {webhook_response.status_code}: {webhook_response.text}")
+                
+        except Exception as webhook_error:
+            print(f"❌ Webhook call failed: {webhook_error}")
+            # Don't fail the entire process if webhook fails
+            
         # Return to edge function --------------------------------------------
         print("Upload complete, returning URLs…")
         return {"json_url": json_url, "pdf_url": pdf_url}

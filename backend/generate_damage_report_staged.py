@@ -7,6 +7,8 @@ Usage:
 """
 from __future__ import annotations
 import argparse, base64, json, os, sys, requests
+import asyncio, concurrent.futures, threading
+from collections import Counter
 from pathlib import Path
 from urllib.parse import urljoin
 from typing import Optional
@@ -285,40 +287,94 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-    # ----------------  Vehicle Identification Pass  -------------------
-    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
-    try:
-        print("Vehicle identification...")
-        id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), images[:3], args.model, temperature=0.3)
-        if id_txt.startswith("```"):
-            id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-        id_json = json.loads(id_txt)
-        for k in ("make", "model", "year"):
-            val = id_json.get("vehicle", {}).get(k)
-            if val and val not in ("", "Unknown", 0):
-                vehicle[k] = val
-        print(f"Vehicle identified: {vehicle.get('make', 'Unknown')} {vehicle.get('model', 'Unknown')} {vehicle.get('year', 'Unknown')}")
-    except Exception as e:
-        print(f"Vehicle-ID pass failed: {e}")
-
-        # ----------------  Phase 0 – Quick Area Detection  -----------------
-    quick_prompt = PHASE0_QUICK_PROMPT.read_text()
-    print("Phase 0: Quick damaged-area detection with early stop…")
-    quick_runs = []
-    max_quick_images = 8  # safety cap to avoid excessive cost
-    for idx, img in enumerate(images):
-        if idx >= max_quick_images:
-            break
+    # ----------------  Phase -1 – Vehicle Identification (Parallel)  ----------------
+    def identify_vehicle_batch(image_batch, batch_name):
+        """Identify vehicle from a specific batch of images"""
         try:
-            quick_txt = call_openai_vision(quick_prompt, [img], args.model, temperature=0.3)
+            print(f"Vehicle identification batch {batch_name}...")
+            id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), image_batch, args.model, temperature=0.2)
+            if id_txt.startswith("```"):
+                id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            id_json = json.loads(id_txt)
+            result = id_json.get("vehicle", {})
+            print(f"Batch {batch_name} result: {result}")
+            return result
+        except Exception as e:
+            print(f"Vehicle-ID batch {batch_name} failed: {e}")
+            return {}
+    
+    # Try multiple image combinations in parallel for better accuracy
+    vehicle_batches = [
+        (images[:2], "front-focus"),      # Focus on front images (likely to have badge)
+        (images[1:4], "mixed-angles"),   # Mixed angles
+        (images[:1], "single-best"),     # Just the first image
+    ]
+    
+    print("Running parallel vehicle identification...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+        future_to_batch = {executor.submit(identify_vehicle_batch, batch, name): name 
+                          for batch, name in vehicle_batches[:min(3, len(images))]}
+        
+        vehicle_results = []
+        for future in concurrent.futures.as_completed(future_to_batch):
+            batch_name = future_to_batch[future]
+            try:
+                result = future.result(timeout=30)  # 30 second timeout per batch
+                if result:  # Only add non-empty results
+                    vehicle_results.append(result)
+            except Exception as e:
+                print(f"Vehicle batch {batch_name} timed out or failed: {e}")
+    
+    # Vote on the best result using consensus
+    if vehicle_results:
+        print(f"Vehicle ID results from {len(vehicle_results)} batches:")
+        for i, result in enumerate(vehicle_results):
+            print(f"  Batch {i+1}: {result}")
+        
+        # Use voting for each field
+        vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+        for field in ["make", "model", "year"]:
+            values = [r.get(field) for r in vehicle_results if r.get(field) and r.get(field) not in ("", "Unknown", 0)]
+            if values:
+                # Get most common value
+                most_common = Counter(values).most_common(1)[0][0]
+                vehicle[field] = most_common
+                print(f"Consensus {field}: {most_common} (from {values})")
+    
+    print(f"Final vehicle: {vehicle.get('make', 'Unknown')} {vehicle.get('model', 'Unknown')} {vehicle.get('year', 'Unknown')}")
+
+    # ----------------  Phase 0 – Quick Area Detection (Parallel)  -----------------
+    def quick_detect_image(img, idx, prompt, model):
+        """Quick damage detection for a single image"""
+        try:
+            quick_txt = call_openai_vision(prompt, [img], model, temperature=0.3)
             if quick_txt.startswith("```"):
                 quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
             quick_json = json.loads(quick_txt)
-            quick_runs.append(quick_json)
             print(f"   Image {idx+1}: quick detector success")
-            # Continue processing all images since vehicle consensus is already complete
+            return quick_json
         except Exception as e:
             print(f"   Image {idx+1}: quick detection failed – {e}")
+            return None
+    
+    quick_prompt = PHASE0_QUICK_PROMPT.read_text()
+    print("Phase 0: Parallel quick damaged-area detection…")
+    max_quick_images = min(8, len(images))  # safety cap to avoid excessive cost
+    
+    # Process images in parallel
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        future_to_idx = {executor.submit(quick_detect_image, img, idx, quick_prompt, args.model): idx 
+                        for idx, img in enumerate(images[:max_quick_images])}
+        
+        quick_runs = []
+        for future in concurrent.futures.as_completed(future_to_idx):
+            idx = future_to_idx[future]
+            try:
+                result = future.result(timeout=20)  # 20 second timeout per image
+                if result:  # Only add successful results
+                    quick_runs.append(result)
+            except Exception as e:
+                print(f"Quick detection image {idx+1} timed out: {e}")
     if not quick_runs:
         print("   Quick detection failed for all images – running generic area detector …")
         try:
@@ -390,32 +446,62 @@ def main():
 
 
 
-    runs = []
+    def run_area_detection_task(area, prompt_path, temp, imgs_for_call, model):
+        """Run a single area detection task with specific temperature"""
+        try:
+            prompt_text = prompt_path.read_text()
+            task_id = f"{area}-{prompt_path.name}-temp{temp}"
+            print(f"    Running {task_id}...")
+            
+            txt = call_openai_vision(prompt_text, imgs_for_call, model, temperature=temp)
+            if txt.startswith("```"):
+                if "json" in txt.split("\n")[0]:
+                    txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+                else:
+                    txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            
+            result = json.loads(txt)
+            combined = {
+                "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
+                "damaged_parts": result.get("damaged_parts", [])
+            }
+            print(f"    ✅ {task_id}: {len(combined['damaged_parts'])} parts")
+            return combined
+        except Exception as e:
+            print(f"    ❌ {task_id} failed: {e}")
+            return None
+    
+    # Create all detection tasks upfront
+    detection_tasks = []
     for area in damaged_areas:
         prompt_paths = area_prompt_map.get(area, [PHASE1_FRONT_ENTERPRISE_PROMPT])
+        imgs_for_call = make_crops(area, images, areas_json)
+        
         for prompt_path in prompt_paths:
-            prompt_text = prompt_path.read_text()
-            print(f"Phase 1: {area} assessment with {prompt_path.name} …")
-            imgs_for_call = make_crops(area, images, areas_json)
-            temperatures = [0.1, 0.4, 0.8]
-            for i, temp in enumerate(temperatures, 1):
-                print(f"    Pass {i}/3 (temp={temp}) …")
-                txt = call_openai_vision(prompt_text, imgs_for_call, args.model, temperature=temp)
-                if txt.startswith("```"):
-                    if "json" in txt.split("\n")[0]:
-                        txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-                    else:
-                        txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
-                try:
-                    result = json.loads(txt)
-                    combined = {
-                        "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
-                        "damaged_parts": result.get("damaged_parts", [])
-                    }
-                    runs.append(combined)
-                    print(f"      → {len(combined['damaged_parts'])} parts")
-                except Exception as e:
-                    print(f"      JSON parse failed for temp {temp}, skipping this pass")
+            for temp in [0.1, 0.4, 0.8]:  # Multi-temperature ensemble
+                detection_tasks.append((area, prompt_path, temp, imgs_for_call))
+    
+    print(f"Phase 1: Running {len(detection_tasks)} area-specialist detection tasks in parallel...")
+    
+    # Execute all tasks in parallel with optimal thread count
+    max_workers = min(8, len(detection_tasks))  # Don't overwhelm OpenAI API
+    runs = []
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_task = {executor.submit(run_area_detection_task, area, prompt_path, temp, imgs, args.model): (area, prompt_path.name, temp)
+                         for area, prompt_path, temp, imgs in detection_tasks}
+        
+        completed_count = 0
+        for future in concurrent.futures.as_completed(future_to_task):
+            area, prompt_name, temp = future_to_task[future]
+            try:
+                result = future.result(timeout=30)  # 30 second timeout per task
+                if result:  # Only add successful results
+                    runs.append(result)
+                completed_count += 1
+                print(f"Progress: {completed_count}/{len(detection_tasks)} tasks completed")
+            except Exception as e:
+                print(f"Task {area}-{prompt_name}-{temp} failed: {e}")
 
     if not runs:
         sys.exit("Enterprise detection failed for all areas")

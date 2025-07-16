@@ -76,24 +76,44 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
         // Check if report is ready and has URLs
         if (data?.status === 'ready' && data?.report_pdf_url) {
           // Extract report JSON URL from PDF URL pattern
-          const reportJsonUrl = data.report_pdf_url.replace('_report.pdf', '_report.json');
+          const reportJsonUrl = data.report_pdf_url.replace('.pdf', '.json');
           
           console.log('Fetching report JSON from URL:', reportJsonUrl);
           
           const response = await fetch(reportJsonUrl);
+          console.log('Response status:', response.status, 'Content-Type:', response.headers.get('content-type'));
+          
           if (response.ok) {
+            const contentType = response.headers.get('content-type');
+            
+            // Check if we got JSON or accidentally got PDF
+            if (contentType?.includes('application/pdf')) {
+              console.error('❌ Got PDF instead of JSON - URL pattern is wrong');
+              console.error('PDF URL:', data.report_pdf_url);
+              console.error('Constructed JSON URL:', reportJsonUrl);
+              setReport(null);
+              return;
+            }
+            
             const jsonText = await response.text();
-            console.log('Raw JSON text:', jsonText);
+            console.log('Raw JSON text (first 200 chars):', jsonText?.substring(0, 200));
             console.log('JSON text type:', typeof jsonText);
             console.log('JSON text length:', jsonText?.length);
             
+            // Validate it looks like JSON before parsing
+            if (!jsonText?.trim().startsWith('{') && !jsonText?.trim().startsWith('[')) {
+              console.error('❌ Response does not look like JSON:', jsonText?.substring(0, 100));
+              setReport(null);
+              return;
+            }
+            
             try {
               const parsedReport = JSON.parse(jsonText);
-              console.log('Parsed JSON successfully:', parsedReport);
+              console.log('✅ Parsed JSON successfully:', parsedReport);
               console.log('🔥 SETTING REPORT FROM URL TO:', parsedReport);
               setReport(parsedReport);
             } catch (parseError) {
-              console.error('JSON parse error:', parseError);
+              console.error('❌ JSON parse error:', parseError);
               console.error('Failed to parse JSON data:', jsonText?.substring(0, 200));
               setReport(null);
             }

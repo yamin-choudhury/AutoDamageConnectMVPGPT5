@@ -215,6 +215,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
         description: "Failed to save document",
         variant: "destructive",
       });
+      return null;
     }
   };
 
@@ -385,23 +386,44 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                   disabled={isGenerating || docStatus==='processing' }
                   variant={isGenerating || docStatus==='processing' ? 'secondary' : 'outline'}
                   onClick={async () => {
-                     setIsGenerating(true);
-                     const docId = await saveDocument();
-                     if (!docId) { setIsGenerating(false); return; }
-                     const { data: { session } } = await supabase.auth.getSession();
+                    setIsGenerating(true);
+                    try {
+                      console.log('Starting report generation...');
+                      const docId = await saveDocument();
+                      console.log('Document ID from saveDocument:', docId);
+                      
+                      if (!docId) { 
+                        console.error('No document ID returned from saveDocument');
+                        setIsGenerating(false); 
+                        toast({ title:'Error', description:'Failed to save document before generating report', variant:'destructive' });
+                        return; 
+                      }
+                      
+                      const { data: { session } } = await supabase.auth.getSession();
+                      console.log('Session:', session ? 'Valid' : 'None');
+                      
+                      console.log('Calling generate_report edge function with docId:', docId);
                       const { data, error } = await supabase.functions.invoke('generate_report', {
                         headers: { Authorization: `Bearer ${session?.access_token || supabase['supabaseKey']}` },
                         body: { document_id: docId },
                       });
+                      
                       if (error) {
+                        console.error('Generate report error:', error);
                         setIsGenerating(false);
-                        toast({ title:'Error', description:'Report generation failed', variant:'destructive' });
+                        toast({ title:'Error', description: `Report generation failed: ${error.message || 'Unknown error'}`, variant:'destructive' });
                       } else {
+                        console.log('Generate report success:', data);
                         setIsGenerating(false); // Edge function returns immediately now
                         setDocStatus('processing');
                         toast({ title:'Success', description: data?.message || 'Report generation started' });
                       }
-                   }}
+                    } catch (err) {
+                      console.error('Unexpected error in generate report:', err);
+                      setIsGenerating(false);
+                      toast({ title:'Error', description: 'Unexpected error occurred', variant:'destructive' });
+                    }
+                  }}
                   className="border border-gray-300 px-6"
                 >
                   Generate Report

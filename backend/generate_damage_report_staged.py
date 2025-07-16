@@ -203,9 +203,31 @@ def union_parts(runs: List[dict]) -> dict:
                 # Normalize part names for comparison
                 cand_name = cand.get("name", "").lower().strip()
                 base_name = base.get("name", "").lower().strip()
+                cand_location = cand.get("location", "").lower().strip()
+                base_location = base.get("location", "").lower().strip()
                 
-                # STRICT DUPLICATE CHECK: Same part name = always duplicate
+                # ENHANCED DUPLICATE DETECTION:
+                # 1. Exact name match
+                # 2. Fuzzy name match (e.g., "Front Bumper Cover" vs "Front Bumper")
+                # 3. Same location + similar category
+                
+                is_duplicate = False
+                
+                # Exact match
                 if cand_name == base_name:
+                    is_duplicate = True
+                # Fuzzy match - one name contains the other
+                elif (cand_name in base_name or base_name in cand_name) and len(cand_name) > 3 and len(base_name) > 3:
+                    is_duplicate = True
+                # Location + category match (for parts like "Left Front Fender" vs "Left Fender")
+                elif (cand_location == base_location and cand_location and 
+                      cand.get("category") == base.get("category") and
+                      ("fender" in cand_name and "fender" in base_name or
+                       "bumper" in cand_name and "bumper" in base_name or
+                       "headlight" in cand_name and "headlight" in base_name)):
+                    is_duplicate = True
+                
+                if is_duplicate:
                     
                     # ENTERPRISE MERGING LOGIC:
                     # 1. Severity hierarchy: severe > moderate > minor
@@ -348,6 +370,7 @@ def main():
     print(f"   Detected damaged areas: {damaged_areas}")
 
     # ----------------  Phase 1 – Area-specialist Enterprise Detection ----
+    # Prompts are designed with complementary shards - A and B cover different parts
     area_prompt_map = {
         "front end": [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],
         "front":     [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],
@@ -356,7 +379,10 @@ def main():
         "side":       [PROMPTS_DIR / "detect_side_A.txt", PROMPTS_DIR / "detect_side_B.txt"],
         "rear":       [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt"],
         "rear end":   [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt"],
-    }
+    }    
+    
+    # Remove duplicate areas to prevent running same prompt combinations twice
+    damaged_areas = list(dict.fromkeys(damaged_areas))  # Preserve order, remove duplicates
 
 
 
@@ -375,21 +401,21 @@ def main():
             for i, temp in enumerate(temperatures, 1):
                 print(f"    Pass {i}/3 (temp={temp}) …")
                 txt = call_openai_vision(prompt_text, imgs_for_call, args.model, temperature=temp)
-            if txt.startswith("```"):
-                if "json" in txt.split("\n")[0]:
-                    txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-                else:
-                    txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            try:
-                result = json.loads(txt)
-                combined = {
-                    "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
-                    "damaged_parts": result.get("damaged_parts", [])
-                }
-                runs.append(combined)
-                print(f"      → {len(combined['damaged_parts'])} parts")
-            except Exception as e:
-                print("      JSON parse failed, skipping this pass")
+                if txt.startswith("```"):
+                    if "json" in txt.split("\n")[0]:
+                        txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+                    else:
+                        txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+                try:
+                    result = json.loads(txt)
+                    combined = {
+                        "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
+                        "damaged_parts": result.get("damaged_parts", [])
+                    }
+                    runs.append(combined)
+                    print(f"      → {len(combined['damaged_parts'])} parts")
+                except Exception as e:
+                    print(f"      JSON parse failed for temp {temp}, skipping this pass")
 
     if not runs:
         sys.exit("Enterprise detection failed for all areas")
@@ -403,42 +429,6 @@ def main():
             if val not in (None, "", "Unknown", 0):
                 detected["vehicle"][k] = val
     print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
-    runs = []
-    
-    # 3-pass ensemble with different temperatures for maximum coverage
-    temperatures = [0.1, 0.4, 0.8]  # Conservative, balanced, creative
-    for i, temp in enumerate(temperatures, 1):
-        print(f"  Pass {i}/3 (temp={temp}): Chain-of-thought analysis...")
-        txt = call_openai_vision(PHASE1_FRONT_ENTERPRISE_PROMPT.read_text(), images, args.model, temperature=temp)
-        
-        # Clean up markdown formatting
-        if txt.startswith("```"):
-            if "json" in txt.split("\n")[0]:
-                txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-            else:
-                txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
-        
-        try:
-            result = json.loads(txt)
-            # Extract vehicle info and damaged parts
-            combined = {
-                "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
-                "damaged_parts": result.get("damaged_parts", [])
-            }
-            runs.append(combined)
-            parts_count = len(result.get("damaged_parts", []))
-            print(f"    Found {parts_count} damaged parts")
-            
-            # Log reasoning process for debugging
-            if "reasoning_process" in result:
-                print(f"    Reasoning: {result['reasoning_process'][:100]}...")
-                
-        except json.JSONDecodeError as e:
-            print(f"    Warning: JSON parse failure in pass {i}, skipping")
-            print(f"    Raw response preview: {txt[:200]}...")
-    if not runs:
-        sys.exit("All comprehensive detection passes failed")
-    # (removed line as now above)
 
         # Phase 2 – Describe --------------------------------------------------
     p2_base = PHASE2_PROMPT.read_text()
@@ -469,18 +459,40 @@ def main():
         summary_txt = summary_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     detected["summary"] = json.loads(summary_txt)
 
-    # FINAL DUPLICATE CLEANUP - catch any remaining duplicates
+    # FINAL DUPLICATE CLEANUP - catch any remaining duplicates with fuzzy matching
     final_parts = []
-    seen_parts = set()
+    seen_parts = []  # Use list to enable fuzzy comparison
     
     for part in detected["damaged_parts"]:
         part_name = part.get("name", "").lower().strip()
-        if part_name not in seen_parts:
+        location = part.get("location", "").lower().strip()
+        
+        # Check against all previously seen parts for fuzzy matches
+        is_duplicate = False
+        for seen_part in seen_parts:
+            seen_name = seen_part["name"]
+            seen_location = seen_part["location"]
+            
+            # Enhanced duplicate detection
+            if (part_name == seen_name or 
+                (part_name in seen_name or seen_name in part_name) and len(part_name) > 3 or
+                (location == seen_location and location and 
+                 part.get("category") == seen_part["category"] and
+                 any(keyword in part_name and keyword in seen_name 
+                     for keyword in ["fender", "bumper", "headlight", "grille"]))):
+                is_duplicate = True
+                print(f"❌ DUPLICATE REMOVED: '{part.get('name', 'Unknown')}' (matches '{seen_part['original_name']}')")
+                break
+        
+        if not is_duplicate:
             final_parts.append(part)
-            seen_parts.add(part_name)
+            seen_parts.append({
+                "name": part_name,
+                "location": location, 
+                "category": part.get("category", ""),
+                "original_name": part.get("name", "Unknown")
+            })
             print(f"✅ Keeping: {part.get('name', 'Unknown')}")
-        else:
-            print(f"❌ DUPLICATE REMOVED: {part.get('name', 'Unknown')}")
     
     detected["damaged_parts"] = final_parts
     print(f"Final cleanup: {len(final_parts)} unique parts remaining")

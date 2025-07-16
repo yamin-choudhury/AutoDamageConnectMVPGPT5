@@ -23,28 +23,39 @@ serve(async (req) => {
 
   try {
     const { document_id } = await req.json();
+    console.log('🔍 Edge function called with document_id:', document_id);
+    
     if (!document_id) {
+      console.error('❌ Missing document_id in request');
       return new Response("Missing document_id", { status: 400, headers: corsHeaders });
     }
 
     // Mark as processing
+    console.log('📝 Marking document as processing:', document_id);
     await supabase.from("documents").update({ status: "processing" }).eq("id", document_id);
 
     // Fetch images
+    console.log('🖼️ Fetching images for document:', document_id);
     const { data: imageRows, error: imgErr } = await supabase
       .from("document_images")
       .select("image_url")
       .eq("document_id", document_id);
     
+    console.log('📋 Image query result:', { imageRows, error: imgErr });
+    
     if (imgErr) {
+      console.error('❌ Failed to fetch images:', imgErr);
       await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
       return new Response("Failed to fetch images", { status: 500, headers: corsHeaders });
     }
 
     const signedUrls = imageRows?.map(r => r.image_url) ?? [];
+    console.log('🔗 Signed URLs found:', signedUrls.length, signedUrls);
+    
     if (!signedUrls.length) {
+      console.error('❌ No images found for document:', document_id);
       await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
-      return new Response("No images", { status: 400, headers: corsHeaders });
+      return new Response("No images found for document", { status: 400, headers: corsHeaders });
     }
 
     // Call Railway and return immediately

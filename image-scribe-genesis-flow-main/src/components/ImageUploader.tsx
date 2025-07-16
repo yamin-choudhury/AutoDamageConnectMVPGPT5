@@ -82,10 +82,12 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
       return false;
     }
 
-    // 3. Record the public URL in the Supabase images table
-    const { error: dbErr } = await (supabase as any).from("images").insert({
+    // 3. Record the public URL in the Supabase document_images table
+    const { error: dbErr } = await (supabase as any).from("document_images").insert({
       document_id: documentId,
-      url: presignData.publicUrl,
+      image_url: presignData.publicUrl,
+      image_name: img.file.name,
+      file_size: img.file.size,
     });
 
     if (dbErr) {

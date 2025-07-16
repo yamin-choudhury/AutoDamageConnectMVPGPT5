@@ -109,9 +109,14 @@ async def download_images(images: list[dict] | list[str], dest: Path):
                 raise HTTPException(status_code=400, detail=f"Failed to download image {idx}: {str(e)}")
 
 def run_subprocess(cmd: list[str]):
+    print(f"🔧 Running command: {' '.join(cmd)}")
     proc = subprocess.run(cmd, capture_output=True, text=True)
     if proc.returncode != 0:
-        raise RuntimeError(proc.stderr or proc.stdout)
+        print(f"❌ Command failed with return code {proc.returncode}")
+        print(f"STDOUT: {proc.stdout}")
+        print(f"STDERR: {proc.stderr}")
+        raise RuntimeError(f"Command failed: {proc.stderr or proc.stdout}")
+    print(f"✅ Command completed successfully")
 
 # ---------------------------------------------------------------------------
 # /generate – main pipeline entry
@@ -145,11 +150,17 @@ async def generate_report(payload: GeneratePayload):
             gen_script = root_dir.parent / "generate_damage_report_staged.py"
         if not gen_script.exists():
             raise RuntimeError("generate_damage_report_staged.py not found in expected locations")
-        run_subprocess([
-            "python", str(gen_script),
-            "--images_dir", str(tmp_dir),
-            "--out", str(out_json),
-        ])
+        try:
+            print(f"Starting damage report generation with script: {gen_script}")
+            run_subprocess([
+                "python", str(gen_script),
+                "--images_dir", str(tmp_dir),
+                "--out", str(out_json),
+            ])
+            print("Damage report generation completed")
+        except Exception as e:
+            print(f"Damage report generation failed: {e}")
+            raise HTTPException(status_code=500, detail=f"Damage report generation failed: {str(e)}")
 
         # Convert to PDF ------------------------------------------------------
         print("Starting PDF conversion process...")
@@ -184,6 +195,7 @@ async def generate_report(payload: GeneratePayload):
         print("Converting to PDF…")
         
         try:
+            print(f"Starting PDF conversion with script: {html_to_pdf}")
             run_subprocess(["python", str(html_to_pdf), str(html_path), str(pdf_path)])
             print(f"PDF conversion completed: {pdf_path}")
             

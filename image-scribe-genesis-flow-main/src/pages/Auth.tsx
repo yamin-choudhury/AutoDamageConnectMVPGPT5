@@ -1,18 +1,14 @@
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
-interface AuthPageProps {
-  onLogin: (email: string, password: string) => Promise<{ error: any }>;
-  onSignup: (email: string, password: string, name: string) => Promise<{ error: any }>;
-}
-
-const AuthPage = ({ onLogin, onSignup }: AuthPageProps) => {
+const Auth = () => {
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
   const [signupEmail, setSignupEmail] = useState("");
@@ -20,12 +16,48 @@ const AuthPage = ({ onLogin, onSignup }: AuthPageProps) => {
   const [signupName, setSignupName] = useState("");
   const [loading, setLoading] = useState(false);
   const { toast } = useToast();
+  const navigate = useNavigate();
+
+  // Check if user is already authenticated and redirect
+  useEffect(() => {
+    const checkAuth = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session) {
+        navigate('/dashboard');
+      }
+    };
+    checkAuth();
+  }, [navigate]);
+
+  const handleLogin = async (email: string, password: string) => {
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+    return { error };
+  };
+
+  const handleSignup = async (email: string, password: string, name: string) => {
+    const redirectUrl = `${window.location.origin}/`;
+    
+    const { error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        emailRedirectTo: redirectUrl,
+        data: {
+          full_name: name,
+        }
+      }
+    });
+    return { error };
+  };
 
   const handleLoginSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     
-    const { error } = await onLogin(loginEmail, loginPassword);
+    const { error } = await handleLogin(loginEmail, loginPassword);
     
     if (error) {
       toast({
@@ -38,6 +70,8 @@ const AuthPage = ({ onLogin, onSignup }: AuthPageProps) => {
         title: "Welcome back!",
         description: "You have successfully logged in.",
       });
+      // Redirect to dashboard on successful login
+      navigate('/dashboard');
     }
     
     setLoading(false);
@@ -47,7 +81,7 @@ const AuthPage = ({ onLogin, onSignup }: AuthPageProps) => {
     e.preventDefault();
     setLoading(true);
     
-    const { error } = await onSignup(signupEmail, signupPassword, signupName);
+    const { error } = await handleSignup(signupEmail, signupPassword, signupName);
     
     if (error) {
       toast({
@@ -73,7 +107,7 @@ const AuthPage = ({ onLogin, onSignup }: AuthPageProps) => {
             AutoDamageConnect
           </CardTitle>
           <CardDescription>
-            Upload images to generate intelligent documents
+            AI-Powered Vehicle Damage Assessment Platform
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -173,4 +207,4 @@ const AuthPage = ({ onLogin, onSignup }: AuthPageProps) => {
   );
 };
 
-export default AuthPage;
+export default Auth;

@@ -6,3 +6,6 @@ httpx
 openai
 Pillow
 playwright
+requests
+python-dotenv
+tqdm

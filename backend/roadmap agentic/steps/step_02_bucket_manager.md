@@ -18,8 +18,9 @@ Create `/backend/agents/bucket_manager.py` with:
 - `get_manufacturer_id(name)` method with fuzzy matching
 - `get_models_for_manufacturer(id)` method with caching
 - `get_articles_for_category(manufacturer_id, variant_id, category_id)` method
-- Simple in-memory cache with size limit (100 items)
+- Simple in-memory cache with TTL (1 hour) and size limit (100 items)
 - Error handling for missing files
+- **Note**: Article files follow pattern `articles_{variant}_{category}_{id}.json`
 
 ### **Task 2: Create Package Structure**
 Create the agents package:
@@ -58,10 +59,11 @@ python test_bucket_manager.py
 **Expected Output:**
 ```
 🧪 Testing Bucket Manager...
-✅ Vauxhall -> 117
-✅ Loaded 15 models for Vauxhall
-✅ Cache working correctly
-✅ Loaded 25 articles for category CAT001
+✅ BucketManager initialized successfully
+✅ Vauxhall -> 117 (fuzzy matching working)
+✅ Loaded 57 models for manufacturer 104
+✅ Cache working correctly - second call is faster
+✅ Loaded 53 articles for category 100001
 🎉 Bucket manager test complete - Ready for Step 3!
 ```
 

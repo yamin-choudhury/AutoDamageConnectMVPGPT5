@@ -4,7 +4,8 @@ Catalog tools for component-to-category mapping and parts searching
 
 import json
 import sys
-from typing import Dict, List, Any, Optional
+import re
+from typing import Dict, List, Any, Optional, Tuple
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -488,8 +489,257 @@ def load_categories_for_variant(manufacturer_id: str, variant_id: str) -> Dict:
             "categories": []
         }
 
+def calculate_part_relevance(component_name: str, part_name: str, part_data: Dict) -> float:
+    """
+    Calculate relevance score between a damaged component and a catalog part.
+    
+    Args:
+        component_name: Name of the damaged component
+        part_name: Name of the catalog part
+        part_data: Full part data dictionary
+        
+    Returns:
+        Relevance score from 0.0 to 1.0
+    """
+    component_clean = component_name.upper().strip()
+    part_clean = part_name.upper().strip()
+    
+    # Exact match gets highest score
+    if component_clean == part_clean:
+        return 1.0
+    
+    # Check if component is contained in part name or vice versa
+    if component_clean in part_clean:
+        return 0.9
+    elif part_clean in component_clean:
+        return 0.85
+    
+    # Word-by-word matching
+    component_words = set(component_clean.split())
+    part_words = set(part_clean.split())
+    
+    # Remove common automotive words for better matching
+    common_words = {'FRONT', 'REAR', 'LEFT', 'RIGHT', 'DRIVER', 'PASSENGER', 'SIDE', 'ASSEMBLY'}
+    component_words_filtered = component_words - common_words
+    part_words_filtered = part_words - common_words
+    
+    if component_words_filtered and part_words_filtered:
+        word_overlap = len(component_words_filtered.intersection(part_words_filtered))
+        word_score = word_overlap / max(len(component_words_filtered), len(part_words_filtered))
+        
+        if word_score > 0.7:
+            return 0.8 + (word_score - 0.7) * 0.5  # 0.8 to 0.95 range
+        elif word_score > 0.4:
+            return 0.6 + (word_score - 0.4) * 0.67  # 0.6 to 0.8 range
+    
+    # Fuzzy string matching as fallback
+    fuzzy_score = SequenceMatcher(None, component_clean, part_clean).ratio()
+    
+    # Keyword matching in part details (if available)
+    detail_bonus = 0.0
+    tech_details = part_data.get('techDetails', '')
+    if tech_details and isinstance(tech_details, str):
+        if any(word in tech_details.upper() for word in component_words_filtered):
+            detail_bonus = 0.1
+    
+    return min(fuzzy_score + detail_bonus, 1.0)
+
+def deduplicate_parts(parts_list: List[Dict]) -> List[Dict]:
+    """
+    Remove duplicate parts based on various identifiers.
+    
+    Args:
+        parts_list: List of part dictionaries
+        
+    Returns:
+        Deduplicated list preserving highest-scoring parts
+    """
+    if not parts_list:
+        return []
+    
+    # Group parts by different identifiers
+    seen_parts = {}
+    
+    for part in parts_list:
+        # Try different deduplication keys in order of preference
+        dedup_keys = [
+            ('partNo', part.get('partNo', '')),
+            ('id', part.get('id', '')),
+            ('name', part.get('name', ''))
+        ]
+        
+        dedup_key = None
+        for key_name, key_value in dedup_keys:
+            if key_value and str(key_value).strip():
+                dedup_key = f"{key_name}:{key_value}"
+                break
+        
+        if not dedup_key:
+            # Use combination as fallback
+            name = part.get('name', 'unknown')
+            manufacturer = part.get('manufacturer', 'unknown')
+            dedup_key = f"fallback:{name}:{manufacturer}"
+        
+        # Keep the part with highest relevance score
+        current_score = part.get('relevance_score', 0.0)
+        
+        if dedup_key not in seen_parts or current_score > seen_parts[dedup_key].get('relevance_score', 0.0):
+            seen_parts[dedup_key] = part
+    
+    # Return deduplicated parts sorted by relevance score
+    deduplicated = list(seen_parts.values())
+    deduplicated.sort(key=lambda x: x.get('relevance_score', 0.0), reverse=True)
+    
+    return deduplicated
+
+@tool
+def search_parts_for_damage(variant_ids_json: str, damaged_components_json: str) -> Dict:
+    """
+    Search catalog for parts matching damaged components across multiple variants.
+    
+    Args:
+        variant_ids_json: JSON string containing list of compatible variant IDs
+        damaged_components_json: JSON string containing list of damaged component names
+        
+    Returns:
+        Dict with matching parts, relevance scores, and search metadata
+    """
+    try:
+        bm = get_bucket_manager()
+        
+        # Parse inputs
+        variant_ids = json.loads(variant_ids_json)
+        damaged_components = json.loads(damaged_components_json)
+        
+        if not isinstance(variant_ids, list) or not isinstance(damaged_components, list):
+            return {
+                "success": False,
+                "error": "Expected lists for variant_ids and damaged_components",
+                "parts": []
+            }
+        
+        if not variant_ids or not damaged_components:
+            return {
+                "success": False,
+                "error": "Empty variant_ids or damaged_components provided",
+                "parts": []
+            }
+        
+        # Step 1: Map components to categories
+        component_mapping = map_components_to_categories.func(damaged_components_json)
+        if not component_mapping.get("success"):
+            return {
+                "success": False,
+                "error": f"Component mapping failed: {component_mapping.get('error')}",
+                "parts": []
+            }
+        
+        target_categories = component_mapping.get("all_categories", [])
+        
+        # Step 2: Search across all variant/category combinations
+        all_parts = []
+        search_stats = {
+            "variants_searched": 0,
+            "categories_searched": 0,
+            "articles_loaded": 0,
+            "parts_found": 0,
+            "errors": []
+        }
+        
+        for variant_id in variant_ids:
+            search_stats["variants_searched"] += 1
+            
+            for category_id in target_categories:
+                search_stats["categories_searched"] += 1
+                
+                try:
+                    # Load articles for this variant/category combination
+                    articles = bm.get_articles_for_category("104", variant_id, category_id)  # Using manufacturer 104 for now
+                    
+                    if articles:
+                        search_stats["articles_loaded"] += 1
+                        
+                        # Process each part in the articles
+                        for part in articles:
+                            part_name = part.get('name', '')
+                            
+                            # Calculate relevance for each damaged component
+                            best_relevance = 0.0
+                            best_component = ""
+                            
+                            for component in damaged_components:
+                                component_str = str(component)
+                                relevance = calculate_part_relevance(component_str, part_name, part)
+                                
+                                if relevance > best_relevance:
+                                    best_relevance = relevance
+                                    best_component = component_str
+                            
+                            # Only include parts above minimum threshold
+                            if best_relevance >= 0.4:  # Lower threshold for more coverage
+                                enhanced_part = {
+                                    **part,
+                                    "relevance_score": best_relevance,
+                                    "matched_component": best_component,
+                                    "variant_id": variant_id,
+                                    "category_id": category_id,
+                                    "search_source": f"variant_{variant_id}_category_{category_id}"
+                                }
+                                all_parts.append(enhanced_part)
+                                search_stats["parts_found"] += 1
+                                
+                except Exception as e:
+                    error_msg = f"Error loading variant {variant_id}, category {category_id}: {str(e)}"
+                    search_stats["errors"].append(error_msg)
+        
+        # Step 3: Deduplicate parts
+        deduplicated_parts = deduplicate_parts(all_parts)
+        
+        # Step 4: Analyze results
+        score_distribution = {
+            "high_relevance": len([p for p in deduplicated_parts if p.get('relevance_score', 0) >= 0.8]),
+            "medium_relevance": len([p for p in deduplicated_parts if 0.5 <= p.get('relevance_score', 0) < 0.8]),
+            "low_relevance": len([p for p in deduplicated_parts if 0.4 <= p.get('relevance_score', 0) < 0.5])
+        }
+        
+        # Step 5: Group parts by component
+        parts_by_component = {}
+        for component in damaged_components:
+            component_str = str(component)
+            matching_parts = [p for p in deduplicated_parts if p.get('matched_component') == component_str]
+            parts_by_component[component_str] = matching_parts
+        
+        return {
+            "success": True,
+            "parts": deduplicated_parts[:50],  # Limit to top 50 parts
+            "total_parts_found": len(deduplicated_parts),
+            "parts_by_component": parts_by_component,
+            "score_distribution": score_distribution,
+            "search_stats": search_stats,
+            "deduplication_stats": {
+                "before_dedup": len(all_parts),
+                "after_dedup": len(deduplicated_parts),
+                "duplicates_removed": len(all_parts) - len(deduplicated_parts)
+            },
+            "component_mapping": component_mapping
+        }
+        
+    except json.JSONDecodeError as e:
+        return {
+            "success": False,
+            "error": f"Invalid JSON input: {str(e)}",
+            "parts": []
+        }
+    except Exception as e:
+        return {
+            "success": False,
+            "error": f"Parts search failed: {str(e)}",
+            "parts": []
+        }
+
 # Export tools for LangChain agent use
 catalog_tools = [
     map_components_to_categories,
-    load_categories_for_variant
+    load_categories_for_variant,
+    search_parts_for_damage
 ]

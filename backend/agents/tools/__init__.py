@@ -12,8 +12,12 @@ from .vehicle_tools import (
 from .catalog_tools import (
     map_components_to_categories,
     load_categories_for_variant,
+    search_parts_for_damage,
     catalog_tools
 )
+
+# All available tools for agents
+all_tools = vehicle_identification_tools + catalog_tools
 
 __all__ = [
     'identify_vehicle_from_report',
@@ -22,5 +26,7 @@ __all__ = [
     'vehicle_identification_tools',
     'map_components_to_categories',
     'load_categories_for_variant',
-    'catalog_tools'
+    'search_parts_for_damage',
+    'catalog_tools',
+    'all_tools'
 ]

@@ -4,7 +4,7 @@ Vehicle identification and validation tools for the agentic parts discovery syst
 
 import json
 import sys
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -24,6 +24,118 @@ def get_bucket_manager():
     if bucket_manager is None:
         bucket_manager = BucketManager()
     return bucket_manager
+
+def calculate_model_similarity(query_name: str, catalog_name: str) -> float:
+    """Calculate enhanced similarity between query model name and catalog model name."""
+    
+    # Direct exact match
+    if query_name == catalog_name:
+        return 1.0
+    
+    # Check if query is contained in catalog name (handles "ASTRA" vs "VAUXHALL ASTRA")
+    if query_name in catalog_name:
+        # Bonus for word boundary matches
+        if f" {query_name}" in catalog_name or catalog_name.endswith(query_name):
+            return 0.95
+        return 0.8
+    
+    # Check if catalog name is contained in query (handles "ASTRA K" vs "ASTRA")
+    if catalog_name in query_name:
+        return 0.85
+    
+    # Remove common prefixes/suffixes for better matching
+    clean_query = clean_model_name(query_name)
+    clean_catalog = clean_model_name(catalog_name)
+    
+    if clean_query == clean_catalog:
+        return 0.9
+    
+    # Fuzzy string matching
+    base_similarity = SequenceMatcher(None, query_name, catalog_name).ratio()
+    clean_similarity = SequenceMatcher(None, clean_query, clean_catalog).ratio()
+    
+    # Return the best similarity score
+    return max(base_similarity, clean_similarity)
+
+def clean_model_name(name: str) -> str:
+    """Clean model name by removing common manufacturer prefixes and suffixes."""
+    
+    # Remove manufacturer prefixes
+    prefixes = ["VAUXHALL ", "BMW ", "MERCEDES ", "AUDI ", "VOLKSWAGEN ", "FORD ", "HONDA ", "TOYOTA "]
+    cleaned = name
+    for prefix in prefixes:
+        if cleaned.startswith(prefix):
+            cleaned = cleaned[len(prefix):]
+            break
+    
+    # Remove common suffixes
+    suffixes = [" HATCHBACK", " ESTATE", " SALOON", " COUPE", " CONVERTIBLE", " VAN"]
+    for suffix in suffixes:
+        if cleaned.endswith(suffix):
+            cleaned = cleaned[:-len(suffix)]
+            break
+    
+    # Remove generation markers like "Mk I", "Mk II", etc.
+    import re
+    cleaned = re.sub(r' Mk [IVX]+', '', cleaned)
+    cleaned = re.sub(r' \([A-Z0-9]+\)', '', cleaned)  # Remove codes like (F)
+    
+    return cleaned.strip()
+
+def extract_year_from_date_range(from_date: str, to_date: str) -> Optional[int]:
+    """Extract a representative year from date range."""
+    try:
+        if from_date:
+            # Extract year from ISO date format like "2015-07-01"
+            return int(from_date.split('-')[0])
+    except (ValueError, TypeError, IndexError):
+        pass
+    return None
+
+def calculate_variant_compatibility(name_similarity: float, variant_year: Any, 
+                                 target_year: Optional[int], model_info: Dict) -> float:
+    """Calculate comprehensive compatibility score for a variant."""
+    
+    # Start with name similarity as base score
+    score = name_similarity
+    
+    # Year compatibility bonus
+    if target_year and variant_year:
+        try:
+            variant_year_int = int(variant_year)
+            year_diff = abs(variant_year_int - target_year)
+            
+            if year_diff == 0:
+                score += 0.15  # Perfect year match
+            elif year_diff <= 1:
+                score += 0.10  # Very close year
+            elif year_diff <= 2:
+                score += 0.05  # Close year
+            elif year_diff <= 5:
+                score += 0.02  # Same generation
+            # No penalty for older/newer years, just no bonus
+            
+        except (ValueError, TypeError):
+            pass
+    
+    # Date range compatibility (if variant doesn't have specific year)
+    if not variant_year and target_year and model_info:
+        from_date = model_info.get("fromDate")
+        to_date = model_info.get("toDate")
+        
+        if from_date:
+            try:
+                from_year = int(from_date.split('-')[0])
+                to_year = int(to_date.split('-')[0]) if to_date else 2024  # Current year as default
+                
+                if from_year <= target_year <= to_year:
+                    score += 0.10  # Year falls within model production range
+                    
+            except (ValueError, TypeError, IndexError):
+                pass
+    
+    # Ensure score doesn't exceed 1.0
+    return min(score, 1.0)
 
 @tool
 def identify_vehicle_from_report(damage_report_json: str, vehicle_info_json: str) -> Dict:
@@ -254,50 +366,56 @@ def find_matching_variants(manufacturer_id: str, model_name: str, year: int = No
                 "variants": []
             }
         
-        # Find matching models and their variants
+        # Find matching models and their variants with enhanced scoring
         matching_variants = []
-        model_name_upper = model_name.upper()
+        model_name_upper = model_name.upper().strip()
         
         for model in models:
-            model_catalog_name = model.get("name", "").upper()
+            model_catalog_name = model.get("name", "").upper().strip()
             
-            # Calculate model name similarity - check for exact or partial match first
-            name_similarity = 0.0
+            # Enhanced model name similarity calculation
+            name_similarity = calculate_model_similarity(model_name_upper, model_catalog_name)
             
-            if (model_catalog_name == model_name_upper or 
-                model_name_upper in model_catalog_name or
-                f" {model_name_upper}" in model_catalog_name or
-                f" {model_name_upper} " in model_catalog_name):
-                name_similarity = 0.9  # High score for exact/partial matches
-            else:
-                name_similarity = SequenceMatcher(None, model_name_upper, model_catalog_name).ratio()
-            
-            if name_similarity > 0.4:  # Lower threshold
+            # Only consider models with reasonable similarity
+            if name_similarity > 0.3:  # Lowered threshold for better coverage
                 # Get variants for this model
                 variants = model.get("variants", [])
+                model_additional_info = model.get("additionalInfo", {})
+                
+                # If no variants, create a pseudo-variant from model info
+                if not variants:
+                    variants = [{
+                        "id": model.get("id"),
+                        "name": model_catalog_name,
+                        "year": extract_year_from_date_range(
+                            model_additional_info.get("fromDate"),
+                            model_additional_info.get("toDate")
+                        )
+                    }]
                 
                 for variant in variants:
                     variant_year = variant.get("year")
-                    variant_score = name_similarity
                     
-                    # Boost score if year matches
-                    if year and variant_year:
-                        try:
-                            if int(variant_year) == int(year):
-                                variant_score += 0.3  # Year match bonus
-                            elif abs(int(variant_year) - int(year)) <= 2:
-                                variant_score += 0.1  # Close year bonus
-                        except (ValueError, TypeError):
-                            pass
+                    # Calculate comprehensive compatibility score
+                    compatibility_score = calculate_variant_compatibility(
+                        name_similarity, variant_year, year, model_additional_info
+                    )
                     
                     matching_variants.append({
+                        "model_id": model.get("id"),
                         "model_name": model.get("name"),
                         "variant_id": variant.get("id"),
                         "variant_name": variant.get("name", ""),
                         "year": variant_year,
-                        "compatibility_score": min(variant_score, 1.0),
+                        "compatibility_score": compatibility_score,
+                        "name_similarity": name_similarity,
                         "engine": variant.get("engine", ""),
-                        "fuel_type": variant.get("fuel_type", "")
+                        "fuel_type": variant.get("fuel_type", ""),
+                        "model_url": model.get("url", ""),
+                        "date_range": {
+                            "from": model_additional_info.get("fromDate"),
+                            "to": model_additional_info.get("toDate")
+                        }
                     })
         
         # Sort by compatibility score (highest first)

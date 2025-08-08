@@ -1,0 +1,92 @@
+[
+  {
+    "id": "7894821",
+    "name": "Resistor, interior blower",
+    "partNo": "LFR 0977",
+    "manufacturer": "LUZAR",
+    "supplierId": "4707",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "137714",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7894821/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Article ID:": "7894821",
+      "Article Number:": "LFR 0977",
+      "Manufacturer:": "LUZAR",
+      "EAN Numbers:": "468029511390",
+      "OEM Numbers RENAULT:": "7701209850",
+      "OEM Numbers CITROËN/PEUGEOT:": "6441.FB",
+      "OEM Numbers LADA:": "8450039719"
+    }
+  },
+  {
+    "id": "7894823",
+    "name": "Resistor, interior blower",
+    "partNo": "LFR 0991",
+    "manufacturer": "LUZAR",
+    "supplierId": "4707",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "137714",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7894823/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Article ID:": "7894823",
+      "Article Number:": "LFR 0991",
+      "Manufacturer:": "LUZAR",
+      "EAN Numbers:": "468029510134",
+      "OEM Numbers RENAULT:": "6001547488"
+    }
+  },
+  {
+    "id": "6592646",
+    "name": "Regulator, interior blower",
+    "partNo": "DER004TT",
+    "manufacturer": "THERMOTEC",
+    "supplierId": "4466",
+    "productsId": "4394",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "137714",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6592646/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6592646",
+      "Article Number:": "DER004TT",
+      "Manufacturer:": "THERMOTEC",
+      "EAN Numbers:": "590165508387",
+      "OEM Numbers CITROËN:": "6441 FB",
+      "OEM Numbers RENAULT:": "77 01 209 850"
+    }
+  },
+  {
+    "id": "6592646",
+    "name": "Regulator, interior blower",
+    "partNo": "DER004TT",
+    "manufacturer": "THERMOTEC",
+    "supplierId": "4466",
+    "productsId": "4394",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "137714",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6592646/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6592646",
+      "Article Number:": "DER004TT",
+      "Manufacturer:": "THERMOTEC",
+      "EAN Numbers:": "590165508387",
+      "OEM Numbers CITROËN:": "6441 FB",
+      "OEM Numbers RENAULT:": "77 01 209 850"
+    }
+  }
+]

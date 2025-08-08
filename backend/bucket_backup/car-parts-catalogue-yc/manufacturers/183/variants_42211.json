@@ -1,0 +1,82 @@
+[
+  {
+    "id": "145123",
+    "type": "1.2 MPI",
+    "modelId": "42211",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4LF",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2021-05-01",
+      "power": "62 KW / 84 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145128",
+    "type": "1.0 T-GDI",
+    "modelId": "42211",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G3LE",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-05-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145129",
+    "type": "1.0 T-GDI 48V-Hybrid",
+    "modelId": "42211",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G3LE,G3LF",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2021-05-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145131",
+    "type": "1.0 T-GDI 48V-Hybrid",
+    "modelId": "42211",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G3LE,G3LF",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2021-05-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145517",
+    "type": "1.4 MPI",
+    "modelId": "42211",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4LC",
+      "cylinder": "4",
+      "capacity": "1,368 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2021-05-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "4319813",
+    "name": "Valve, EGR exhaust control",
+    "partNo": "7.02256.00.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "1137",
+    "productGroupId": "100815",
+    "categoryId": "100254",
+    "variantId": "134071",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4319813/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric-pneumatic",
+      "Valve type": "Switch Valve",
+      "Article ID:": "4319813",
+      "Article Number:": "7.02256.00.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897786729",
+      "OEM Numbers FORD:": "YM21-12B573-EA",
+      "OEM Numbers AUDI:": "1K0 906 283 A",
+      "OEM Numbers SEAT:": "1K0 906 283 A",
+      "OEM Numbers SKODA:": "1K0 906 283 A",
+      "OEM Numbers VW:": "1K0 906 283 A",
+      "OEM Numbers LAMBORGHINI:": "1K0 906 283 A",
+      "OEM Numbers BENTLEY:": "1K0 906 283 A",
+      "OEM Numbers MAN:": "65.25902-0019",
+      "OEM Numbers PORSCHE:": "955 605 283 10"
+    }
+  }
+]

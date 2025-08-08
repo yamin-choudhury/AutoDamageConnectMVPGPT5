@@ -1,0 +1,56 @@
+[
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "147088",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100491",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "147088",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147088/100491/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "147088",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "147088",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147088/100046/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "147088",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "147088",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147088/103984/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

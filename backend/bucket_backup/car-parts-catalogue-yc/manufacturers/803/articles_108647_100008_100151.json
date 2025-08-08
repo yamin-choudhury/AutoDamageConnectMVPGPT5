@@ -1,0 +1,34 @@
+[
+  {
+    "id": "9925279",
+    "name": "Spark Plug",
+    "partNo": "WG1461537",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "686",
+    "productGroupId": "100151",
+    "categoryId": "100008",
+    "variantId": "108647",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9925279/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "14",
+      "Spanner Size": "16",
+      "Tightening Torque [Nm]": "22",
+      "Weight [g]": "44",
+      "Country Specific Design": "Japan",
+      "Spark Plug": "1 - Earthed Electrode",
+      "Thread Length [mm]": "25",
+      "Article ID:": "9925279",
+      "Article Number:": "WG1461537",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers FORD:": "CS6G12405AA",
+      "OEM Numbers OPEL:": "55500619",
+      "OEM Numbers CHEVROLET:": "12622561",
+      "OEM Numbers VOLVO:": "31330450",
+      "OEM Numbers MAZDA:": "LFJR18110",
+      "OEM Numbers SUBARU:": "SAB330DE5210"
+    }
+  }
+]

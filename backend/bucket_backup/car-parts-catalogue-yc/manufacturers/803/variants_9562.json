@@ -1,0 +1,18 @@
+[
+  {
+    "id": "9584",
+    "type": "GT",
+    "modelId": "9562",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "N54 B30 A",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01",
+      "power": "228 KW / 310 PS"
+    },
+    "categories": []
+  }
+]

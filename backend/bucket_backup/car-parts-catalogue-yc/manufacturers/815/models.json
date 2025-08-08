@@ -1,0 +1,288 @@
+[
+  {
+    "id": "4460",
+    "name": "BENTLEY ARNAGE (RBS_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7391",
+    "name": "BENTLEY ARNAGE Coupe",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7391/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4929",
+    "name": "BENTLEY AZURE",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4929/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-09-01",
+      "toDate": "2006-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5583",
+    "name": "BENTLEY AZURE II (RBS_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5583/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14812",
+    "name": "BENTLEY BENTAYGA (4V1)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5910",
+    "name": "BENTLEY BROOKLANDS",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5910/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-07-01",
+      "toDate": "1997-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8963",
+    "name": "BENTLEY BROOKLANDS Coupe (RBS_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8963/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4930",
+    "name": "BENTLEY CONTINENTAL",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4930/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-10-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5963",
+    "name": "BENTLEY CONTINENTAL Convertible",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5963/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-07-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5964",
+    "name": "BENTLEY CONTINENTAL Convertible",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5964/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-10-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39437",
+    "name": "BENTLEY CONTINENTAL Convertible (3S_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39437/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6415",
+    "name": "BENTLEY CONTINENTAL Convertible (3W_, 394)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38200",
+    "name": "BENTLEY CONTINENTAL Coupe (3S3)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38200/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5093",
+    "name": "BENTLEY CONTINENTAL Coupe (3W_, 393)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5093/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5416",
+    "name": "BENTLEY CONTINENTAL FLYING SPUR (3W_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5416/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-03-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "30279",
+    "name": "BENTLEY CORNICHE Convertible",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30279/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-03-01",
+      "toDate": "1984-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "30278",
+    "name": "BENTLEY CORNICHE Coupe",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30278/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-09-01",
+      "toDate": "1974-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "30280",
+    "name": "BENTLEY CORNICHE Coupe",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30280/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-09-01",
+      "toDate": "1984-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5990",
+    "name": "BENTLEY EIGHT",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5990/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-07-01",
+      "toDate": "1992-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11490",
+    "name": "BENTLEY FLYING SPUR (4W_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11490/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40211",
+    "name": "BENTLEY FLYING SPUR (ZG2_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40211/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6098",
+    "name": "BENTLEY MULSANNE",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6098/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-10-01",
+      "toDate": "1992-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8950",
+    "name": "BENTLEY MULSANNE (3Y_)",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8950/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "30285",
+    "name": "BENTLEY T1 SERIES Saloon",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30285/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-09-01",
+      "toDate": "1976-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "30287",
+    "name": "BENTLEY T2 SERIES Saloon",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30287/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-09-01",
+      "toDate": "1981-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6191",
+    "name": "BENTLEY TURBO R",
+    "manufacturerId": "815",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6191/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-03-01",
+      "toDate": "1998-02-01"
+    },
+    "variants": []
+  }
+]

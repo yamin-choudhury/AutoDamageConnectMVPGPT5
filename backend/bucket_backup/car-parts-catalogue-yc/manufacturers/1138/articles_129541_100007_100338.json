@@ -1,0 +1,65 @@
+[
+  {
+    "id": "3649922",
+    "name": "Fan, radiator",
+    "partNo": "51485",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "129541",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3649922/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "180",
+      "Article ID:": "3649922",
+      "Article Number:": "51485",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509351485",
+      "OEM Numbers MERCEDES-BENZ:": "453 906 43 00"
+    }
+  },
+  {
+    "id": "5737294",
+    "name": "Fan, radiator",
+    "partNo": "APELRE5035",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "129541",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5737294/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5737294",
+      "Article Number:": "APELRE5035",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers RENAULT:": "A4539064300"
+    }
+  },
+  {
+    "id": "5737293",
+    "name": "Fan, radiator",
+    "partNo": "APELRE5035",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "129541",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5737293/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "AFTERMARKET",
+      "Article ID:": "5737293",
+      "Article Number:": "APELRE5035",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers RENAULT:": "A4539064300"
+    }
+  }
+]

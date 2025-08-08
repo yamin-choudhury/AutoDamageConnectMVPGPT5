@@ -1,0 +1,27 @@
+[
+  {
+    "id": "10087691",
+    "name": "High Pressure Pump",
+    "partNo": "WG1924899",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "3918",
+    "productGroupId": "100717",
+    "categoryId": "100214",
+    "variantId": "141525",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10087691/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Number of connectors": "2",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Article ID:": "10087691",
+      "Article Number:": "WG1924899",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "079 127 025 T",
+      "OEM Numbers BENTLEY:": "079127025T",
+      "OEM Numbers HITACHI:": "HFS034136K"
+    }
+  }
+]

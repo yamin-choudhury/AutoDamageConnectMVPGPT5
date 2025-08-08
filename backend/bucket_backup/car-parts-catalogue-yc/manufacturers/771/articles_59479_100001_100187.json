@@ -1,0 +1,72 @@
+[
+  {
+    "id": "8202078",
+    "name": "Ventilation Grille, bumper",
+    "partNo": "MS6082123",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "244",
+    "productGroupId": "100187",
+    "categoryId": "100001",
+    "variantId": "59479",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8202078/model-series-id-7594/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Front",
+      "Colour": "Black",
+      "Article ID:": "8202078",
+      "Article Number:": "MS6082123",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353365089",
+      "OEM Numbers MASERATI:": "83534800"
+    }
+  },
+  {
+    "id": "8202079",
+    "name": "Ventilation Grille, bumper",
+    "partNo": "MS6082124",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "244",
+    "productGroupId": "100187",
+    "categoryId": "100001",
+    "variantId": "59479",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8202079/model-series-id-7594/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Colour": "Black",
+      "Article ID:": "8202079",
+      "Article Number:": "MS6082124",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353365090",
+      "OEM Numbers MASERATI:": "83534700"
+    }
+  },
+  {
+    "id": "8202074",
+    "name": "Bumper",
+    "partNo": "MS6081021",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "938",
+    "productGroupId": "100187",
+    "categoryId": "100001",
+    "variantId": "59479",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8202074/model-series-id-7594/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Surface": "Primed",
+      "Machined": "with hole(s) for washer jet",
+      "Article ID:": "8202074",
+      "Article Number:": "MS6081021",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353365091",
+      "OEM Numbers MASERATI:": "980145369"
+    }
+  }
+]

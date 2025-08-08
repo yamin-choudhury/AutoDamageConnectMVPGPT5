@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3368809",
+    "name": "Fuel Filter",
+    "partNo": "44911",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "128037",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3368809/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "98",
+      "Inner diameter [mm]": "17,5",
+      "Outer diameter [mm]": "73,4",
+      "Filter type": "Filter Insert",
+      "Lowered rear axle from [mm]": "9",
+      "Article ID:": "3368809",
+      "Article Number:": "44911",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509344911",
+      "OEM Numbers BMW:": "16 14 6 757 196",
+      "OEM Numbers MINI:": "16 14 6 757 196"
+    }
+  },
+  {
+    "id": "3931520",
+    "name": "Fuel Filter",
+    "partNo": "58436",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "128037",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3931520/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Lowered rear axle from [mm]": "9",
+      "Article ID:": "3931520",
+      "Article Number:": "58436",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509358436",
+      "OEM Numbers BMW:": "16 14 7 186 454"
+    }
+  }
+]

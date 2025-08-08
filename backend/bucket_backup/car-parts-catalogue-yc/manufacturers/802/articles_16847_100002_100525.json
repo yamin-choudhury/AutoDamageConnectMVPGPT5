@@ -1,0 +1,53 @@
+[
+  {
+    "id": "6387277",
+    "name": "Big End Bearings",
+    "partNo": "CR112000",
+    "manufacturer": "IPSA",
+    "supplierId": "238",
+    "productsId": "582",
+    "productGroupId": "100525",
+    "categoryId": "100002",
+    "variantId": "16847",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6387277/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "16,101",
+      "Quantity": "4",
+      "Quantity Unit": "Set",
+      "Supplementary Article/Info 2": "with aluminium compound layer",
+      "Wall Thickness [mm]": "1,49",
+      "Article ID:": "6387277",
+      "Article Number:": "CR112000",
+      "Manufacturer:": "IPSA",
+      "OEM Numbers TOYOTA:": "13204-88601"
+    }
+  },
+  {
+    "id": "6387278",
+    "name": "Big End Bearings",
+    "partNo": "CR112001",
+    "manufacturer": "IPSA",
+    "supplierId": "238",
+    "productsId": "582",
+    "productGroupId": "100525",
+    "categoryId": "100002",
+    "variantId": "16847",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6387278/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "16,101",
+      "Quantity": "4",
+      "Quantity Unit": "Set",
+      "Supplementary Article/Info 2": "with aluminium compound layer",
+      "Oversize [mm]": "0,25",
+      "Wall Thickness [mm]": "1,49",
+      "Article ID:": "6387278",
+      "Article Number:": "CR112001",
+      "Manufacturer:": "IPSA",
+      "OEM Numbers TOYOTA:": "13204-88601"
+    }
+  }
+]

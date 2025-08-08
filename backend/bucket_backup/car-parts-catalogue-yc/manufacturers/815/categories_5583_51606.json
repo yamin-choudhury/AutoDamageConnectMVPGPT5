@@ -1,0 +1,191 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104736",
+        "name": "Marten Repellent",
+        "categoryId": "100733",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/104736/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100834",
+        "name": "Tyre-Pressure Monitoring System",
+        "categoryId": "100013",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/100834/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100030",
+        "name": "Disc Brake",
+        "categoryId": "100006",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/100030/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100010",
+    "name": "Electrics",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102747",
+        "name": "Sensors",
+        "categoryId": "100010",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/102747/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/100046/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100598",
+        "name": "Additional Repairs",
+        "categoryId": "100019",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/100598/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104083",
+        "name": "Braking System",
+        "categoryId": "103671",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/104083/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104264",
+        "name": "Electrics",
+        "categoryId": "103671",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/104264/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/103984/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103973",
+        "name": "Wheels/Tyres",
+        "categoryId": "103671",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/103973/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100012",
+    "name": "Steering",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100199",
+        "name": "Steering Gear/ Pump",
+        "categoryId": "100012",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/100199/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103099",
+    "name": "Wheels/Tyres",
+    "variantId": "51606",
+    "manufacturerId": "815",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103479",
+        "name": "Tyre-Pressure Monitoring System",
+        "categoryId": "103099",
+        "variantId": "51606",
+        "manufacturerId": "815",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51606/103479/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

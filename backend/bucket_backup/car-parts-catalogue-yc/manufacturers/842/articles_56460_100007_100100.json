@@ -1,0 +1,56 @@
+[
+  {
+    "id": "470882",
+    "name": "Radiator Hose",
+    "partNo": "05-2267",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "56460",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/470882/model-series-id-11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33",
+      "Inner diameter 2 [mm]": "33",
+      "Hose Length [mm]": "330",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "470882",
+      "Article Number:": "05-2267",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "540060839031",
+      "OEM Numbers TOYOTA:": "16571-36110",
+      "OEM Numbers LEXUS:": "16571-36110"
+    }
+  },
+  {
+    "id": "8725124",
+    "name": "Radiator Hose",
+    "partNo": "R44145",
+    "manufacturer": "RAPRO",
+    "supplierId": "4303",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "56460",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8725124/model-series-id-11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33",
+      "Inner diameter 2 [mm]": "33",
+      "Hose Length [mm]": "330",
+      "Article ID:": "8725124",
+      "Article Number:": "R44145",
+      "Manufacturer:": "RAPRO",
+      "OEM Numbers TOYOTA:": "16571-36110",
+      "OEM Numbers LEXUS:": "16571-36110"
+    }
+  }
+]

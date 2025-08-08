@@ -1,0 +1,81 @@
+[
+  {
+    "id": "3313654",
+    "name": "Inner Tie Rod",
+    "partNo": "43458 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "129538",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3313654/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Thread Size 1": "M16x1,5",
+      "Thread Size 2": "M16x1,5",
+      "Axle Joint Length [mm]": "189",
+      "Article ID:": "3313654",
+      "Article Number:": "43458 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743754352",
+      "OEM Numbers MASERATI:": "670102931"
+    }
+  },
+  {
+    "id": "3315035",
+    "name": "Tie Rod End",
+    "partNo": "43552 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "129538",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3315035/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "233",
+      "Required quantity": "1",
+      "Thread Size 1": "M12x1,75",
+      "Thread Size 2": "M16x1,5",
+      "paired article number": "43553 01",
+      "Article ID:": "3315035",
+      "Article Number:": "43552 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743754824",
+      "OEM Numbers MASERATI:": "673000005"
+    }
+  },
+  {
+    "id": "3315042",
+    "name": "Tie Rod End",
+    "partNo": "43553 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "129538",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3315042/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "233",
+      "Required quantity": "1",
+      "Thread Size 1": "M12x1,75",
+      "Thread Size 2": "M16x1,5",
+      "paired article number": "43552 01",
+      "Article ID:": "3315042",
+      "Article Number:": "43553 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743754826",
+      "OEM Numbers MASERATI:": "673000006"
+    }
+  }
+]

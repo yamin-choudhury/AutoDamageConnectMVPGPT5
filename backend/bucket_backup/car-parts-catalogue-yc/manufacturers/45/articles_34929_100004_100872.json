@@ -1,0 +1,75 @@
+[
+  {
+    "id": "241755",
+    "name": "Gasket, charger",
+    "partNo": "01241700",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "141",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "34929",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/241755/model-series-id-7804/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "1,2",
+      "Length [mm]": "101,5",
+      "Width [mm]": "85,5",
+      "Charge Type": "Exhaust Turbocharger",
+      "Article ID:": "241755",
+      "Article Number:": "01241700",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776998053",
+      "OEM Numbers HONDA:": "18233-RL0-G01"
+    }
+  },
+  {
+    "id": "7568621",
+    "name": "charger, charging (supercharged/turbocharged)",
+    "partNo": "IT-788131",
+    "manufacturer": "INTER-TURBO",
+    "supplierId": "6475",
+    "productsId": "2234",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "34929",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7568621/model-series-id-7804/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "REMANUFACTURED",
+      "Charge Type": "Exhaust Turbocharger",
+      "Supplementary Article/Supplementary Info": "Incl. Gasket Set",
+      "Warranty": "2 years warranty",
+      "Article ID:": "7568621",
+      "Article Number:": "IT-788131",
+      "Manufacturer:": "INTER-TURBO",
+      "OEM Numbers HONDA:": "18900RL1AG010M2"
+    }
+  },
+  {
+    "id": "10205038",
+    "name": "Gasket, charger",
+    "partNo": "WG2077594",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "141",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "34929",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10205038/model-series-id-7804/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "1,2",
+      "Length [mm]": "101,5",
+      "Width [mm]": "85,5",
+      "Charge Type": "Exhaust Turbocharger",
+      "Article ID:": "10205038",
+      "Article Number:": "WG2077594",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers HONDA:": "18233RL0G01"
+    }
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "9261",
+    "type": "6.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CKHB",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2010-11-01\n                            \n                            2013-12-01",
+      "power": "423 KW / 575 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17827",
+    "type": "6.0 GT",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "BEB,BWR",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2003-06-01\n                            \n                            2011-12-01",
+      "power": "412 KW / 560 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "21253",
+    "type": "4.0",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMC,CYCB",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-09-01",
+      "power": "373 KW / 507 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23304",
+    "type": "6.0 GT Speed",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "BWRA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-09-01\n                            \n                            2011-12-01",
+      "power": "449 KW / 610 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34873",
+    "type": "6.0 Supersports",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "BWRB,CKHA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-10-01\n                            \n                            2011-12-01",
+      "power": "463 KW / 630 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54822",
+    "type": "6.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "BWRB,CKHA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2008-02-01",
+      "power": "463 KW / 630 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57514",
+    "type": "6.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2012-09-01",
+      "power": "460 KW / 626 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58430",
+    "type": "6.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2012-09-01",
+      "power": "459 KW / 624 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100536",
+    "type": "4.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMD,CYCA",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2013-12-01",
+      "power": "388 KW / 528 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106278",
+    "type": "6.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAC",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2014-05-01",
+      "power": "467 KW / 635 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108356",
+    "type": "4.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DCCA",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2014-10-01",
+      "power": "426 KW / 579 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115816",
+    "type": "6.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2015-05-01",
+      "power": "434 KW / 590 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119109",
+    "type": "4.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMC",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2011-09-01",
+      "power": "373 KW / 507 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122116",
+    "type": "6.0 FLEX",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDD",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2016-09-01",
+      "power": "472 KW / 642 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122119",
+    "type": "4.0",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMD,CYCA",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-01-01",
+      "power": "389 KW / 529 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129206",
+    "type": "6.0 GT Speed",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDD",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "472 KW / 642 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129223",
+    "type": "6.0 GT Speed",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAC,DBDE",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-05-01\n                            \n                            2016-05-01",
+      "power": "467 KW / 635 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129520",
+    "type": "6.0",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAB,CKHB",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-01-01\n                            \n                            2015-05-01",
+      "power": "423 KW / 575 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132107",
+    "type": "6.0 AWD",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-08-01",
+      "power": "434 KW / 590 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132108",
+    "type": "6.0 Supersports AWD",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DJLA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-09-01\n                            \n                            2018-05-01",
+      "power": "522 KW / 710 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "146467",
+    "type": "4.0",
+    "modelId": "5093",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DCCA",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-09-01\n                            \n                            2015-12-01",
+      "power": "441 KW / 600 PS"
+    },
+    "categories": []
+  }
+]

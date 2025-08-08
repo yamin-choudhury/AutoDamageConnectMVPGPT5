@@ -1,0 +1,122 @@
+[
+  {
+    "id": "4412813",
+    "name": "Catalytic Converter",
+    "partNo": "71273",
+    "manufacturer": "AS",
+    "supplierId": "274",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19734",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4412813/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "360",
+      "Weight [kg]": "2,8",
+      "Fuel Type": "Petrol",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Article ID:": "4412813",
+      "Article Number:": "71273",
+      "Manufacturer:": "AS",
+      "EAN Numbers:": "843524774882",
+      "OEM Numbers MERCEDES-BENZ:": "1694900619"
+    }
+  },
+  {
+    "id": "4412837",
+    "name": "Catalytic Converter",
+    "partNo": "71274",
+    "manufacturer": "AS",
+    "supplierId": "274",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19734",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4412837/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1030",
+      "Weight [kg]": "5,2",
+      "Fuel Type": "Petrol",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Article ID:": "4412837",
+      "Article Number:": "71274",
+      "Manufacturer:": "AS",
+      "EAN Numbers:": "843524774885",
+      "OEM Numbers MERCEDES-BENZ:": "1694900719"
+    }
+  },
+  {
+    "id": "4812014",
+    "name": "Seal, catalytic converter",
+    "partNo": "83 13 3265",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "8253",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19734",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4812014/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Exhaust System": "for catalytic converter",
+      "Article ID:": "4812014",
+      "Article Number:": "83 13 3265",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258850457",
+      "OEM Numbers MERCEDES-BENZ:": "A 169.492.01.80"
+    }
+  },
+  {
+    "id": "8153681",
+    "name": "Catalytic Converter",
+    "partNo": "MK-354",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19734",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8153681/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "360",
+      "Emission Standard": "Euro 4",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Article ID:": "8153681",
+      "Article Number:": "MK-354",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550334449",
+      "OEM Numbers MERCEDES-BENZ:": "A169 490 0619"
+    }
+  },
+  {
+    "id": "8153683",
+    "name": "Catalytic Converter",
+    "partNo": "MK-355",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19734",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8153683/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1030",
+      "Emission Standard": "Euro 4",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Article ID:": "8153683",
+      "Article Number:": "MK-355",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550334450",
+      "OEM Numbers MERCEDES-BENZ:": "A169 490 0719"
+    }
+  }
+]

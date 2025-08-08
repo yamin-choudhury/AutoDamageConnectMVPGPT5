@@ -1,0 +1,57 @@
+[
+  {
+    "id": "4812226",
+    "name": "Bracket, muffler",
+    "partNo": "83 14 3232",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "132596",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4812226/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4812226",
+      "Article Number:": "83 14 3232",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258831216",
+      "OEM Numbers GENERAL MOTORS:": "55187602",
+      "OEM Numbers FIAT:": "(55.200.993)",
+      "OEM Numbers LANCIA:": "(51.782.199)",
+      "OEM Numbers SAAB:": "55.187.602",
+      "OEM Numbers ALFA ROMEO:": "(55.189.183)",
+      "OEM Numbers OPEL:": "58.52.797",
+      "OEM Numbers JAGUAR:": "XR852829",
+      "OEM Numbers LAND ROVER:": "LR093418"
+    }
+  },
+  {
+    "id": "4812350",
+    "name": "Bracket, muffler",
+    "partNo": "83 15 7156",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "132596",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4812350/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4812350",
+      "Article Number:": "83 15 7156",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258830865",
+      "OEM Numbers FORD:": "4.394.093",
+      "OEM Numbers VOLVO:": "31.452.355",
+      "OEM Numbers JAGUAR:": "JDE11954",
+      "OEM Numbers LAND ROVER:": "LR000593",
+      "OEM Numbers MAZDA:": "Z601-40-061B"
+    }
+  }
+]

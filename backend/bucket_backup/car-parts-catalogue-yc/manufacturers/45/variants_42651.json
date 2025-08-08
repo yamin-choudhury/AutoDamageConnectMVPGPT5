@@ -1,0 +1,18 @@
+[
+  {
+    "id": "146543",
+    "type": "1.2 i-VTEC",
+    "modelId": "42651",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B3",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  }
+]

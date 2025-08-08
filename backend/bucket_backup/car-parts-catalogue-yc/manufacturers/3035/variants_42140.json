@@ -1,0 +1,50 @@
+[
+  {
+    "id": "145042",
+    "type": "330 TSI",
+    "modelId": "42140",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DPLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-04-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145043",
+    "type": "380 TSI 4motion",
+    "modelId": "42140",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-04-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145044",
+    "type": "530 V6 4motion",
+    "modelId": "42140",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DMEA",
+      "cylinder": "6",
+      "capacity": "2,492 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2021-07-01",
+      "power": "220 KW / 299 PS"
+    },
+    "categories": []
+  }
+]

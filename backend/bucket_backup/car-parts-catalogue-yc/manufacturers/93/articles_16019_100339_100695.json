@@ -1,0 +1,51 @@
+[
+  {
+    "id": "8142048",
+    "name": "Aerial",
+    "partNo": "MH72530",
+    "manufacturer": "MEHA AUTOMOTIVE",
+    "supplierId": "6924",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "16019",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8142048/model-series-id-4790/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M 4",
+      "Operating Mode": "Electronic",
+      "Thread Pitch [mm]": "0,8",
+      "Article ID:": "8142048",
+      "Article Number:": "MH72530",
+      "Manufacturer:": "MEHA AUTOMOTIVE",
+      "EAN Numbers:": "85291095901\n 868328109657",
+      "OEM Numbers RENAULT:": "8200 684 863",
+      "OEM Numbers DACIA:": "8200 684 863"
+    }
+  },
+  {
+    "id": "4353114",
+    "name": "Aerial",
+    "partNo": "702 018",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "16019",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4353114/model-series-id-4790/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M 4",
+      "Operating Mode": "Electronic",
+      "Thread Pitch [mm]": "0,8",
+      "Article ID:": "4353114",
+      "Article Number:": "702 018",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers RENAULT:": "8200 684 863",
+      "OEM Numbers DACIA:": "8200 684 863"
+    }
+  }
+]

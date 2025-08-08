@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1524727",
+    "name": "Air Filter",
+    "partNo": "1646449680",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100384",
+    "categoryId": "100002",
+    "variantId": "147228",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1524727/model-series-id-42854/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "189",
+      "Width [mm]": "267",
+      "Height [mm]": "34",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1524727",
+      "Article Number:": "1646449680",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "04E129620",
+      "OEM Numbers VW:": "04E129620",
+      "OEM Numbers VW (SVW):": "04E129620D",
+      "OEM Numbers SKODA (SVW):": "04E129620D",
+      "OEM Numbers AUDI (FAW):": "L04E129620D",
+      "OEM Numbers VW (FAW):": "L04E129620D"
+    }
+  }
+]

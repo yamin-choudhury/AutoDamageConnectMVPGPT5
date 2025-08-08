@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1468201",
+    "name": "Mounting, engine",
+    "partNo": "15854",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "22948",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1468201/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Weight [g]": "1660",
+      "Article ID:": "1468201",
+      "Article Number:": "15854",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205854",
+      "OEM Numbers VAG:": "6RF199555B"
+    }
+  },
+  {
+    "id": "1468202",
+    "name": "Mounting, engine",
+    "partNo": "15854",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "22948",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1468202/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Weight [g]": "1660",
+      "Article ID:": "1468202",
+      "Article Number:": "15854",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205854",
+      "OEM Numbers VAG:": "6RF199555B"
+    }
+  }
+]

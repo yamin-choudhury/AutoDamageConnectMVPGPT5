@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1042560",
+    "name": "Aerial",
+    "partNo": "113 27 064 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "18431",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1042560/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Roof Fitting",
+      "Quantity Unit": "Piece",
+      "Article ID:": "1042560",
+      "Article Number:": "113 27 064 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "6561.JT",
+      "OEM Numbers CITROËN/PEUGEOT:": "6561.JS"
+    }
+  },
+  {
+    "id": "869346",
+    "name": "Adapter, antenna cable",
+    "partNo": "103 27 203 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "7271",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "18431",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/869346/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "869346",
+      "Article Number:": "103 27 203 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "9706.AN",
+      "OEM Numbers CITROËN/PEUGEOT:": "9706.AN"
+    }
+  }
+]

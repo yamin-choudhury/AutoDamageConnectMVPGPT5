@@ -1,0 +1,322 @@
+[
+  {
+    "id": "58316",
+    "type": "2.4",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W1",
+      "cylinder": "4",
+      "capacity": "2,354 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "141 KW / 192 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58317",
+    "type": "2.4",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24Z3",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "138 KW / 188 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58318",
+    "type": "3.5",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Y1",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "207 KW / 282 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100316",
+    "type": "3.5 (CR3)",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Z2",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-11-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100317",
+    "type": "2.4 (CR2)",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-11-01",
+      "power": "129 KW / 175 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107035",
+    "type": "2.0 Hybrid (CR6)",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "LFA-MF8",
+      "cylinder": "4",
+      "capacity": "1,993 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2013-01-01\n                            \n                            2016-04-01",
+      "power": "146 KW / 199 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107636",
+    "type": "3.5",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Z2",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-09-01",
+      "power": "204 KW / 277 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108589",
+    "type": "2.0",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "R20Z2",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-09-01",
+      "power": "114 KW / 155 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117564",
+    "type": "2.4 (CR2)",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W3,K24W2",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-07-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121910",
+    "type": "2.4",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24A3",
+      "cylinder": "4",
+      "capacity": "2,354 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-01-01",
+      "power": "117 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122279",
+    "type": "2.0 E85 (CR1)",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "R20Z2,R20Z3",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2013-06-01",
+      "power": "114 KW / 155 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122281",
+    "type": "2.4 E85 (CR2)",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W4",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2013-06-01",
+      "power": "128 KW / 174 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126777",
+    "type": "2.4",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W1",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2017-04-01",
+      "power": "139 KW / 189 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126779",
+    "type": "2.4",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W2",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-05-01",
+      "power": "127 KW / 173 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126782",
+    "type": "3.5",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Z2",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-05-01",
+      "power": "203 KW / 276 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130302",
+    "type": "2.0 Hybrid (CR6)",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "LFA-H4",
+      "cylinder": "4",
+      "capacity": "1,993 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2016-05-01",
+      "power": "158 KW / 215 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132027",
+    "type": "2.4",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24Z2",
+      "cylinder": "4",
+      "capacity": "2,354 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "136 KW / 185 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138467",
+    "type": "3.5 All-wheel Drive",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Y1",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-09-01",
+      "power": "207 KW / 282 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138468",
+    "type": "3.5",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2014-09-01",
+      "power": "201 KW / 273 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "150535",
+    "type": "2.0 Plug-In Hybrid",
+    "modelId": "10999",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "LFA1",
+      "cylinder": "4",
+      "capacity": "1,993 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2013-01-01\n                            \n                            2016-04-01",
+      "power": "146 KW / 199 PS"
+    },
+    "categories": []
+  }
+]

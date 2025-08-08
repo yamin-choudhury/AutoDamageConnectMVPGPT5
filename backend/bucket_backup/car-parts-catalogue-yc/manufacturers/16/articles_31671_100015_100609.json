@@ -1,0 +1,95 @@
+[
+  {
+    "id": "3823264",
+    "name": "Bumper Cover, towing device",
+    "partNo": "5513-00-0085921P",
+    "manufacturer": "BLIC",
+    "supplierId": "4555",
+    "productsId": "943",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "31671",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3823264/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Article ID:": "3823264",
+      "Article Number:": "5513-00-0085921P",
+      "Manufacturer:": "BLIC",
+      "EAN Numbers:": "590165535964\n 803353331180",
+      "OEM Numbers BMW:": "51 11 7 201 202"
+    }
+  },
+  {
+    "id": "3823269",
+    "name": "Bumper Cover, towing device",
+    "partNo": "5513-00-0085971P",
+    "manufacturer": "BLIC",
+    "supplierId": "4555",
+    "productsId": "943",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "31671",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3823269/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Article ID:": "3823269",
+      "Article Number:": "5513-00-0085971P",
+      "Manufacturer:": "BLIC",
+      "EAN Numbers:": "590165548308",
+      "OEM Numbers BMW:": "51127203928"
+    }
+  },
+  {
+    "id": "4811852",
+    "name": "Bracket, muffler",
+    "partNo": "83 12 2029",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "31671",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4811852/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4811852",
+      "Article Number:": "83 12 2029",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258826779",
+      "OEM Numbers BMW:": "7.833.206",
+      "OEM Numbers LAND ROVER:": "WCS 000110"
+    }
+  },
+  {
+    "id": "1007950",
+    "name": "Bumper Cover, towing device",
+    "partNo": "1106811",
+    "manufacturer": "ISAMSpA",
+    "supplierId": "745",
+    "productsId": "943",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "31671",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1007950/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Quality": "QUALITY PRIMER",
+      "Surface": "Primed",
+      "Model year from": "2007",
+      "Model year to": "2011",
+      "Article ID:": "1007950",
+      "Article Number:": "1106811",
+      "Manufacturer:": "ISAMSpA",
+      "EAN Numbers:": "0803100604371",
+      "OEM Numbers BMW:": "51117201202"
+    }
+  }
+]

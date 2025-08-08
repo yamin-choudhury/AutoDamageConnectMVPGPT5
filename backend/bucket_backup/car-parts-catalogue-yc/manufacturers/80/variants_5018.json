@@ -1,0 +1,98 @@
+[
+  {
+    "id": "17435",
+    "type": "3.5",
+    "modelId": "5018",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2003-10-01\n                            \n                            2006-12-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19559",
+    "type": "3.5",
+    "modelId": "5018",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2002-09-01\n                            \n                            2008-12-01",
+      "power": "221 KW / 301 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24262",
+    "type": "3.5",
+    "modelId": "5018",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2004-11-01\n                            \n                            2007-01-01",
+      "power": "214 KW / 291 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25093",
+    "type": "3.5",
+    "modelId": "5018",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35HR",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2005-09-01\n                            \n                            2008-12-01",
+      "power": "230 KW / 313 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "51224",
+    "type": "3.5",
+    "modelId": "5018",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35HR",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2008-12-01",
+      "power": "228 KW / 310 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109588",
+    "type": "3.5",
+    "modelId": "5018",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2005-09-01\n                            \n                            2006-12-01",
+      "power": "224 KW / 305 PS"
+    },
+    "categories": []
+  }
+]

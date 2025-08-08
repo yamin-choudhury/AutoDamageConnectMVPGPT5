@@ -1,0 +1,33 @@
+[
+  {
+    "id": "4322013",
+    "name": "Fuel Feed Unit",
+    "partNo": "7.07795.12.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "24163",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4322013/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "13,5",
+      "Diameter [mm]": "108,75",
+      "Pressure [bar]": "4",
+      "Operating Mode": "Electric",
+      "Pressure [psi]": "58",
+      "Number of connectors": "2",
+      "Current Strength to [A]": "9,4",
+      "Total Length [mm]": "250",
+      "Article ID:": "4322013",
+      "Article Number:": "7.07795.12.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897789876",
+      "OEM Numbers HITACHI:": "133328",
+      "OEM Numbers SKODA:": "8E0 919 051A",
+      "OEM Numbers VW:": "8E0 919 051A"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "9445381",
+    "name": "Mounting, axle beam",
+    "partNo": "TOSPB-035",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "133436",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9445381/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "9445381",
+      "Article Number:": "TOSPB-035",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers TOYOTA:": "48725-12580"
+    }
+  },
+  {
+    "id": "7283407",
+    "name": "Mounting, axle beam",
+    "partNo": "GM-6018",
+    "manufacturer": "ZEKKERT",
+    "supplierId": "4894",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "133436",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7283407/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Weight [kg]": "0,67",
+      "Inner diameter [mm]": "12,3",
+      "Outer diameter [mm]": "65",
+      "Length 1 [mm]": "95,8",
+      "Length 2 [mm]": "48",
+      "Article ID:": "7283407",
+      "Article Number:": "GM-6018",
+      "Manufacturer:": "ZEKKERT",
+      "EAN Numbers:": "425097674965",
+      "OEM Numbers TOYOTA:": "487250F010"
+    }
+  }
+]

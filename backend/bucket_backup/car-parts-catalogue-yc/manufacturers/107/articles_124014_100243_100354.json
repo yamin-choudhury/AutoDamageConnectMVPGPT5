@@ -1,0 +1,80 @@
+[
+  {
+    "id": "766665",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.5505",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/766665/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "6",
+      "Belt Pulley Ø [mm]": "100",
+      "Compressor ID": "SCSA08H",
+      "Article ID:": "766665",
+      "Article Number:": "1.5505",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320845424",
+      "OEM Numbers SUBARU:": "73111-CA011"
+    }
+  },
+  {
+    "id": "766666",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.5505",
+    "manufacturer": "KRIOS",
+    "supplierId": "4399",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/766666/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "6",
+      "Belt Pulley Ø [mm]": "100",
+      "Compressor ID": "SCSA08H",
+      "Article ID:": "766666",
+      "Article Number:": "1.5505",
+      "Manufacturer:": "KRIOS",
+      "EAN Numbers:": "803320845424",
+      "OEM Numbers SUBARU:": "73111-CA011"
+    }
+  },
+  {
+    "id": "766664",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.5505",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/766664/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "6",
+      "Belt Pulley Ø [mm]": "100",
+      "Compressor ID": "SCSA08H",
+      "Article ID:": "766664",
+      "Article Number:": "1.5505",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320845424",
+      "OEM Numbers SUBARU:": "73111-CA011"
+    }
+  }
+]

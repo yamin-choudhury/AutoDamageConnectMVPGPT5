@@ -1,0 +1,49 @@
+[
+  {
+    "id": "3571311",
+    "name": "Mounting, axle beam",
+    "partNo": "50325",
+    "manufacturer": "AKRON-MALÒ",
+    "supplierId": "317",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "134484",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3571311/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "3571311",
+      "Article Number:": "50325",
+      "Manufacturer:": "AKRON-MALÒ",
+      "OEM Numbers SUBARU:": "20204FL020"
+    }
+  },
+  {
+    "id": "2833036",
+    "name": "Mounting, axle beam",
+    "partNo": "34-16 010 0006",
+    "manufacturer": "MEYLE",
+    "supplierId": "144",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "134484",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2833036/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Right",
+      "Height [mm]": "50",
+      "Material": "Steel Elastomer",
+      "Inner diameter [mm]": "12",
+      "Outer diameter [mm]": "40",
+      "Article ID:": "2833036",
+      "Article Number:": "34-16 010 0006",
+      "Manufacturer:": "MEYLE",
+      "EAN Numbers:": "404007429712",
+      "OEM Numbers SUBARU:": "20257XA000"
+    }
+  }
+]

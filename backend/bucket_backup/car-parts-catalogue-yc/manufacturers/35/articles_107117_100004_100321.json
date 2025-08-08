@@ -1,0 +1,81 @@
+[
+  {
+    "id": "238191",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01197300",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/238191/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,8",
+      "Length [mm]": "85",
+      "Width [mm]": "65",
+      "Weight [g]": "14,121",
+      "Article ID:": "238191",
+      "Article Number:": "01197300",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776997888",
+      "OEM Numbers ALFA ROMEO:": "46459258"
+    }
+  },
+  {
+    "id": "242180",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01249000",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/242180/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,4",
+      "Inner diameter [mm]": "84",
+      "Outer diameter [mm]": "94",
+      "Article ID:": "242180",
+      "Article Number:": "01249000",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357701939",
+      "OEM Numbers FIAT:": "51896690",
+      "OEM Numbers OPEL:": "5854312",
+      "OEM Numbers CHRYSLER:": "68201394AA"
+    }
+  },
+  {
+    "id": "255495",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01472900",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/255495/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,4",
+      "Inner diameter [mm]": "76,5",
+      "Outer diameter [mm]": "127,5",
+      "Article ID:": "255495",
+      "Article Number:": "01472900",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357731377",
+      "OEM Numbers FIAT:": "53164537",
+      "OEM Numbers CHRYSLER:": "68081823AD"
+    }
+  }
+]

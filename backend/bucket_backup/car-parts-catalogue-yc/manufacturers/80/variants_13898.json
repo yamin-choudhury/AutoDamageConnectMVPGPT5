@@ -1,0 +1,82 @@
+[
+  {
+    "id": "111869",
+    "type": "1.2",
+    "modelId": "13898",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "CR12DE",
+      "cylinder": "4",
+      "capacity": "1,240 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2006-12-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111870",
+    "type": "1.5",
+    "modelId": "13898",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "HR15DE",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-12-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111871",
+    "type": "1.6 4WD",
+    "modelId": "13898",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "HR16DE",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2008-12-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111872",
+    "type": "1.8",
+    "modelId": "13898",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "MR18DE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-12-01",
+      "power": "91 KW / 124 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123618",
+    "type": "1.5",
+    "modelId": "13898",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "HR15DE",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-12-01",
+      "power": "82 KW / 111 PS"
+    },
+    "categories": []
+  }
+]

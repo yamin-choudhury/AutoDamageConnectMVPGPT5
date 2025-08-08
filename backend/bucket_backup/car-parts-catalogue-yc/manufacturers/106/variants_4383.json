@@ -1,0 +1,194 @@
+[
+  {
+    "id": "13362",
+    "type": "1.4 16V",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "AUB,BBZ",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "1999-12-01\n                            \n                            2008-03-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "13364",
+    "type": "1.9 SDI",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "ASY",
+      "cylinder": "4",
+      "capacity": "1,896 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "1999-12-01\n                            \n                            2008-03-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "14278",
+    "type": "1.9 TDI",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "ATD,AXR",
+      "cylinder": "4",
+      "capacity": "1,896 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "2000-01-01\n                            \n                            2008-03-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "15107",
+    "type": "1.4 16V",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "AUA,BBY,BKY",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "1999-12-01\n                            \n                            2008-03-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "15586",
+    "type": "2.0",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "AZL",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "1999-12-01\n                            \n                            2008-03-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "16944",
+    "type": "1.2",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "AWY,BMD",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2001-07-01\n                            \n                            2007-04-01",
+      "power": "40 KW / 54 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17393",
+    "type": "1.2",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "AZQ,BME",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2003-01-01\n                            \n                            2008-03-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17456",
+    "type": "1.9 TDI RS",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "ASZ,BLT",
+      "cylinder": "4",
+      "capacity": "1,896 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "2003-06-01\n                            \n                            2008-03-01",
+      "power": "96 KW / 130 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17519",
+    "type": "1.4 TDI",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "AMF",
+      "cylinder": "3",
+      "capacity": "1,422 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2003-04-01\n                            \n                            2008-03-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19225",
+    "type": "1.4 TDI",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BNM",
+      "cylinder": "3",
+      "capacity": "1,422 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2005-10-01\n                            \n                            2008-03-01",
+      "power": "51 KW / 70 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19226",
+    "type": "1.4 TDI",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BNV",
+      "cylinder": "3",
+      "capacity": "1,422 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2005-10-01\n                            \n                            2008-03-01",
+      "power": "59 KW / 80 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30104",
+    "type": "1.4",
+    "modelId": "4383",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BUD",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-02-01\n                            \n                            2006-10-01",
+      "power": "59 KW / 80 PS"
+    },
+    "categories": []
+  }
+]

@@ -13,10 +13,12 @@ from pathlib import Path
 from urllib.parse import urljoin
 from typing import Optional
 from typing import List
+from io import BytesIO
 
 import openai
 from dotenv import load_dotenv
 from PIL import Image, ImageOps
+import time, random
 from tqdm import tqdm
 from copy import deepcopy
 
@@ -38,6 +40,13 @@ PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
 
 # ----------------------- YOLO integration disabled -------------------
 # placeholder no-op
+
+# ----------------------- OpenAI client tuning -------------------------
+# Global retry/backoff and concurrency limits to reduce failures and load
+OPENAI_MAX_RETRIES = int(os.getenv("OPENAI_MAX_RETRIES", "3"))
+OPENAI_BACKOFF_BASE = float(os.getenv("OPENAI_BACKOFF_BASE", "0.5"))  # seconds
+OPENAI_CONCURRENCY = int(os.getenv("OPENAI_CONCURRENCY", "4"))
+_openai_sem = threading.Semaphore(OPENAI_CONCURRENCY)
 
 def get_candidate_boxes(img_path: Path):
     """Return empty list – YOLO disabled."""
@@ -66,37 +75,89 @@ def get_candidate_boxes(img_path: Path):
 
 # ----------------------------------------------------------------------
 
-def encode_image_b64(p: Path, max_px: int = 2000) -> str:
+def encode_image_b64(p: Path, max_px: int = 1600, quality: int = 80) -> str:
+    """Return a data URL for a RESIZED JPEG of the image.
+    This avoids embedding original large files in prompts.
+    """
     img = Image.open(p).convert("RGB")
     if max(img.size) > max_px:
         img.thumbnail((max_px, max_px))
-    with p.open("rb") as f:
-        return "data:image/jpeg;base64," + base64.b64encode(f.read()).decode()
+    buf = BytesIO()
+    # Use reasonable quality to retain detail while keeping size small
+    img.save(buf, format="JPEG", quality=quality, optimize=True)
+    buf.seek(0)
+    return "data:image/jpeg;base64," + base64.b64encode(buf.read()).decode()
 
 
-def call_openai_vision(prompt: str, images: List[Path], model: str = "gpt-4o", temperature: float = 0.2) -> str:
+def call_openai_vision(
+    prompt: str,
+    images: List[Path],
+    model: str = "gpt-4o",
+    temperature: float = 0.2,
+    max_images: Optional[int] = None,
+) -> str:
+    """Call OpenAI Vision with a bounded set of downsized images.
+    If max_images is set, sample a small subset of images to keep payload reasonable.
+    """
+    # Sample best-guess diverse subset if needed: first, middle, last, second
+    if max_images is not None and len(images) > max_images:
+        idxs = [0, len(images)//2, len(images)-1, 1]
+        seen = set()
+        sampled: List[Path] = []
+        for i in idxs:
+            if 0 <= i < len(images) and i not in seen:
+                sampled.append(images[i])
+                seen.add(i)
+            if len(sampled) >= max_images:
+                break
+        use_images = sampled
+    else:
+        use_images = images
+
     user_parts = [{"type": "text", "text": "Please analyse all images and reply with JSON only."}]
-    
-    for img in images:
+    for img in use_images:
         user_parts.append({"type": "image_url", "image_url": {"url": encode_image_b64(img)}})
 
-    resp = openai.chat.completions.create(
-        model=model,
-        messages=[{"role": "system", "content": prompt}, {"role": "user", "content": user_parts}],
-        max_tokens=6144,
-        temperature=temperature,
-    )
-    return resp.choices[0].message.content.strip()
+    # Concurrency-limit and retry with backoff
+    with _openai_sem:
+        last_err = None
+        for attempt in range(OPENAI_MAX_RETRIES):
+            try:
+                resp = openai.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "system", "content": prompt}, {"role": "user", "content": user_parts}],
+                    max_tokens=6144,
+                    temperature=temperature,
+                )
+                return resp.choices[0].message.content.strip()
+            except Exception as e:
+                last_err = e
+                if attempt < OPENAI_MAX_RETRIES - 1:
+                    sleep_s = OPENAI_BACKOFF_BASE * (2 ** attempt) + random.uniform(0, 0.25)
+                    time.sleep(sleep_s)
+                else:
+                    raise last_err
 
 
 def call_openai_text(prompt: str, model: str = "gpt-4o", temperature: float = 0.2) -> str:
-    resp = openai.chat.completions.create(
-        model=model,
-        messages=[{"role": "system", "content": prompt}],
-        max_tokens=6144,
-        temperature=temperature,
-    )
-    return resp.choices[0].message.content.strip()
+    with _openai_sem:
+        last_err = None
+        for attempt in range(OPENAI_MAX_RETRIES):
+            try:
+                resp = openai.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "system", "content": prompt}],
+                    max_tokens=6144,
+                    temperature=temperature,
+                )
+                return resp.choices[0].message.content.strip()
+            except Exception as e:
+                last_err = e
+                if attempt < OPENAI_MAX_RETRIES - 1:
+                    sleep_s = OPENAI_BACKOFF_BASE * (2 ** attempt) + random.uniform(0, 0.25)
+                    time.sleep(sleep_s)
+                else:
+                    raise last_err
 
 
 # ----------------------- Image cropping utilities --------------------
@@ -292,7 +353,7 @@ def main():
         """Identify vehicle from a specific batch of images"""
         try:
             print(f"Vehicle identification batch {batch_name}...")
-            id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), image_batch, args.model, temperature=0.2)
+            id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), image_batch, args.model, temperature=0.2, max_images=4)
             if id_txt.startswith("```"):
                 id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
             id_json = json.loads(id_txt)
@@ -379,7 +440,8 @@ def main():
         print("   Quick detection failed for all images – running generic area detector …")
         try:
             generic_prompt = GENERIC_AREAS_PROMPT.read_text()
-            generic_txt = call_openai_vision(generic_prompt, images, args.model, temperature=0.3)
+            # Limit to a representative subset to keep payload small
+            generic_txt = call_openai_vision(generic_prompt, images, args.model, temperature=0.3, max_images=4)
             raw_generic = generic_txt[:400].replace("\n"," ")
             print(f"      Raw generic response (trimmed): {raw_generic}")
             if generic_txt.startswith("```"):
@@ -388,7 +450,7 @@ def main():
                 generic_json = json.loads(generic_txt)
             except json.JSONDecodeError:
                 print("      First parse failed, retrying generic detector at temp=0 …")
-                generic_txt2 = call_openai_vision(generic_prompt, images, args.model, temperature=0.0)
+                generic_txt2 = call_openai_vision(generic_prompt, images, args.model, temperature=0.0, max_images=4)
                 raw_generic2 = generic_txt2[:400].replace("\n"," ")
                 print(f"      Retry response (trimmed): {raw_generic2}")
                 try:
@@ -453,7 +515,7 @@ def main():
             task_id = f"{area}-{prompt_path.name}-temp{temp}"
             print(f"    Running {task_id}...")
             
-            txt = call_openai_vision(prompt_text, imgs_for_call, model, temperature=temp)
+            txt = call_openai_vision(prompt_text, imgs_for_call, model, temperature=temp, max_images=4)
             if txt.startswith("```"):
                 if "json" in txt.split("\n")[0]:
                     txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()

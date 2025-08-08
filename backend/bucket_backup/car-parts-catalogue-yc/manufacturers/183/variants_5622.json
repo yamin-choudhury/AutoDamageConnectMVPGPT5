@@ -1,0 +1,50 @@
+[
+  {
+    "id": "19900",
+    "type": "1.4 GL",
+    "modelId": "5622",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4EE",
+      "cylinder": "4",
+      "capacity": "1,399 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2005-11-01\n                            \n                            2010-11-01",
+      "power": "71 KW / 97 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19902",
+    "type": "1.6 GLS",
+    "modelId": "5622",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4ED",
+      "cylinder": "4",
+      "capacity": "1,599 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2005-11-01\n                            \n                            2010-11-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19903",
+    "type": "1.5 CRDi GLS",
+    "modelId": "5622",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FA",
+      "cylinder": "4",
+      "capacity": "1,493 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2005-11-01\n                            \n                            2010-11-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  }
+]

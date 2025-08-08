@@ -1,0 +1,34 @@
+[
+  {
+    "id": "132255",
+    "type": "1.0",
+    "modelId": "38846",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B",
+      "cylinder": "3",
+      "capacity": "996 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01\n                            \n                            2015-03-01",
+      "power": "49 KW / 67 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132259",
+    "type": "1.0",
+    "modelId": "38846",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B",
+      "cylinder": "3",
+      "capacity": "996 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01\n                            \n                            2014-11-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1717899",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "19027885B",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "54455",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1717899/model-series-id-35870/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Height 1 [mm]": "11",
+      "Material": "FPM (fluoride rubber)",
+      "Dust Cover": "with dust lip",
+      "Outer diameter 1 [mm]": "104",
+      "Inner diameter 1 [mm]": "84",
+      "Article ID:": "1717899",
+      "Article Number:": "19027885B",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896027885",
+      "OEM Numbers NISSAN:": "1227985Y00",
+      "OEM Numbers INFINITI:": "1227918V00"
+    }
+  },
+  {
+    "id": "8284771",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "NJ284",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "54455",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8284771/model-series-id-35870/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "11,00",
+      "Material": "MVQ (Silicone Elastomer)",
+      "Inner diameter [mm]": "84,00",
+      "Outer diameter [mm]": "104,00",
+      "Swirl Type": "Left-hand Twist",
+      "Radial Shaft Seal Design": "827S LD W",
+      "Article ID:": "8284771",
+      "Article Number:": "NJ284",
+      "Manufacturer:": "PAYEN",
+      "EAN Numbers:": "501087404841",
+      "OEM Numbers NISSAN:": "12279DO100"
+    }
+  }
+]

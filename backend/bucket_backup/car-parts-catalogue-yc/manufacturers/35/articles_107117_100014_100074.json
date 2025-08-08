@@ -1,0 +1,50 @@
+[
+  {
+    "id": "6019896",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "BK211",
+    "manufacturer": "SHAFTEC",
+    "supplierId": "4607",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6019896/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "96",
+      "Inner diameter 1 [mm]": "20",
+      "Inner diameter 2 [mm]": "68",
+      "Article ID:": "6019896",
+      "Article Number:": "BK211",
+      "Manufacturer:": "SHAFTEC",
+      "OEM Numbers FIAT:": "46308672"
+    }
+  },
+  {
+    "id": "6020173",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "BK40",
+    "manufacturer": "SHAFTEC",
+    "supplierId": "4607",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6020173/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "90",
+      "Inner diameter 1 [mm]": "22",
+      "Inner diameter 2 [mm]": "78",
+      "Article ID:": "6020173",
+      "Article Number:": "BK40",
+      "Manufacturer:": "SHAFTEC",
+      "OEM Numbers KIA:": "0K2KB-22-540",
+      "OEM Numbers VAUXHALL:": "95518260",
+      "OEM Numbers HYUNDAI:": "49542-24000"
+    }
+  }
+]

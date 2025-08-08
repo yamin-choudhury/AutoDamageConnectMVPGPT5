@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3055778",
+    "name": "Ball Joint",
+    "partNo": "39705 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "2462",
+    "productGroupId": "100581",
+    "categoryId": "100013",
+    "variantId": "145043",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3055778/model-series-id-42140/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "paired article number": "39706 01",
+      "Article ID:": "3055778",
+      "Article Number:": "39705 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743749126",
+      "OEM Numbers VW:": "3QF 407 365",
+      "OEM Numbers VW (SVW):": "3QF 407 365"
+    }
+  },
+  {
+    "id": "3055784",
+    "name": "Ball Joint",
+    "partNo": "39706 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "2462",
+    "productGroupId": "100581",
+    "categoryId": "100013",
+    "variantId": "145043",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3055784/model-series-id-42140/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "paired article number": "39705 01",
+      "Article ID:": "3055784",
+      "Article Number:": "39706 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743749141",
+      "OEM Numbers VW:": "3QF 407 366",
+      "OEM Numbers VW (SVW):": "3QF 407 366"
+    }
+  }
+]

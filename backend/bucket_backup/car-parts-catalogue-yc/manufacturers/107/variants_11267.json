@@ -1,0 +1,114 @@
+[
+  {
+    "id": "59424",
+    "type": "1.6 i (GP2)",
+    "modelId": "11267",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB16A,FB16B",
+      "cylinder": "4",
+      "capacity": "1,600 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01\n                            \n                            2016-09-01",
+      "power": "84 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59425",
+    "type": "1.6 i AWD",
+    "modelId": "11267",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB16B",
+      "cylinder": "4",
+      "capacity": "1,600 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01",
+      "power": "84 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112815",
+    "type": "2.0 (GP6)",
+    "modelId": "11267",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-01-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112816",
+    "type": "2.0 AWD (GP7)",
+    "modelId": "11267",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-01-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119817",
+    "type": "2.0 Hybrid AWD (GPE)",
+    "modelId": "11267",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20B",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2016-04-01\n                            \n                            2016-09-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124368",
+    "type": "1.6 i (GP2)",
+    "modelId": "11267",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB16",
+      "cylinder": "4",
+      "capacity": "1,599 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2011-12-01\n                            \n                            2016-10-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124369",
+    "type": "1.6 i AWD (GP3)",
+    "modelId": "11267",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB16",
+      "cylinder": "4",
+      "capacity": "1,599 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2011-12-01\n                            \n                            2016-10-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  }
+]

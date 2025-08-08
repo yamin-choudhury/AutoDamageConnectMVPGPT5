@@ -1,0 +1,51 @@
+[
+  {
+    "id": "5296875",
+    "name": "Anti-Squeal Foil, brake pad (back plate)",
+    "partNo": "940141",
+    "manufacturer": "FRENKIT",
+    "supplierId": "380",
+    "productsId": "5297",
+    "productGroupId": "103673",
+    "categoryId": "103671",
+    "variantId": "19902",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5296875/model-series-id-5622/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Brake System": "Mando",
+      "Article ID:": "5296875",
+      "Article Number:": "940141",
+      "Manufacturer:": "FRENKIT",
+      "OEM Numbers HYUNDAI:": "58101-1GE00",
+      "OEM Numbers KIA:": "58101-1GE00"
+    }
+  },
+  {
+    "id": "5296878",
+    "name": "Anti-Squeal Foil, brake pad (back plate)",
+    "partNo": "940142",
+    "manufacturer": "FRENKIT",
+    "supplierId": "380",
+    "productsId": "5297",
+    "productGroupId": "103673",
+    "categoryId": "103671",
+    "variantId": "19902",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5296878/model-series-id-5622/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Brake System": "Sumitomo",
+      "Article ID:": "5296878",
+      "Article Number:": "940142",
+      "Manufacturer:": "FRENKIT",
+      "OEM Numbers DAIHATSU:": "04946-48060",
+      "OEM Numbers TOYOTA:": "04946-48060",
+      "OEM Numbers LEXUS:": "04946-48060",
+      "OEM Numbers HYUNDAI:": "58302-1GA00",
+      "OEM Numbers KIA:": "58302-1GA00"
+    }
+  }
+]

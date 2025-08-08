@@ -1,0 +1,50 @@
+[
+  {
+    "id": "8047418",
+    "name": "Sensor, wheel speed",
+    "partNo": "MBA010274",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "412",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "139094",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8047418/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Left",
+      "Braking / Drive Dynamics": "for vehicles with ABS",
+      "paired article number": "MBA010275",
+      "Article ID:": "8047418",
+      "Article Number:": "MBA010274",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880974667352",
+      "OEM Numbers HYUNDAI:": "9567005300"
+    }
+  },
+  {
+    "id": "8047419",
+    "name": "Sensor, wheel speed",
+    "partNo": "MBA010275",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "412",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "139094",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8047419/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Braking / Drive Dynamics": "for vehicles with ABS",
+      "paired article number": "MBA010274",
+      "Article ID:": "8047419",
+      "Article Number:": "MBA010275",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880974667353",
+      "OEM Numbers HYUNDAI:": "9567005350"
+    }
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "28755",
+    "type": "4.6 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G8BA",
+      "cylinder": "8",
+      "capacity": "4,627 CCM / 4.6 L",
+      "fuelType": "Petrol",
+      "year": "2008-06-01",
+      "power": "250 KW / 340 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "50413",
+    "type": "3.8",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DA",
+      "cylinder": "6",
+      "capacity": "3,778 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01\n                            \n                            2011-12-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "50414",
+    "type": "3.8 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DA",
+      "cylinder": "6",
+      "capacity": "3,778 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01\n                            \n                            2011-12-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "50415",
+    "type": "4.6",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G8BA",
+      "cylinder": "8",
+      "capacity": "4,627 CCM / 4.6 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01\n                            \n                            2011-12-01",
+      "power": "250 KW / 340 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57690",
+    "type": "3.0 CRDi 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D6EA,D6EB",
+      "cylinder": "6",
+      "capacity": "2,959 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-11-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58056",
+    "type": "3.8 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DA",
+      "cylinder": "6",
+      "capacity": "3,778 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-06-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "101138",
+    "type": "3.0 CRDi 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D6EA,D6EB",
+      "cylinder": "6",
+      "capacity": "2,959 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2008-01-01",
+      "power": "188 KW / 256 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122242",
+    "type": "3.8 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6RB",
+      "cylinder": "6",
+      "capacity": "3,778 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "201 KW / 274 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122243",
+    "type": "3.8",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6RB",
+      "cylinder": "6",
+      "capacity": "3,778 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-06-01\n                            \n                            2013-12-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128779",
+    "type": "3.0 CRDi",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D6EA,D6EB",
+      "cylinder": "6",
+      "capacity": "2,959 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-01-01\n                            \n                            2011-10-01",
+      "power": "191 KW / 260 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129215",
+    "type": "3.0 CRDi",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D6EA",
+      "cylinder": "6",
+      "capacity": "2,959 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-11-01\n                            \n                            2011-10-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138423",
+    "type": "3.0 CRDi 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D6EB",
+      "cylinder": "6",
+      "capacity": "2,959 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2016-01-01",
+      "power": "191 KW / 260 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138424",
+    "type": "3.8 4WD",
+    "modelId": "10898",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6RB",
+      "cylinder": "6",
+      "capacity": "3,778 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "199 KW / 271 PS"
+    },
+    "categories": []
+  }
+]

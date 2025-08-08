@@ -1,0 +1,53 @@
+[
+  {
+    "id": "5981305",
+    "name": "Bracket, brake caliper",
+    "partNo": "BDA974",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "1009",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "23365",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5981305/model-series-id-6429/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Article ID:": "5981305",
+      "Article Number:": "BDA974",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293779705",
+      "OEM Numbers AUDI:": "1K0 615 425 N",
+      "OEM Numbers SEAT:": "1K0 615 425 N",
+      "OEM Numbers SKODA:": "1K0 615 425 N",
+      "OEM Numbers VW:": "1K0 615 425 N"
+    }
+  },
+  {
+    "id": "5981306",
+    "name": "Bracket, brake caliper",
+    "partNo": "BDA975",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "1009",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "23365",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5981306/model-series-id-6429/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Article ID:": "5981306",
+      "Article Number:": "BDA975",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293779646",
+      "OEM Numbers AUDI:": "1K0 615 426 L",
+      "OEM Numbers SEAT:": "1K0 615 426 L",
+      "OEM Numbers SKODA:": "1K0 615 426 L",
+      "OEM Numbers VW:": "1K0 615 426 L",
+      "OEM Numbers VW (FAW):": "1K0 615 426 B"
+    }
+  }
+]

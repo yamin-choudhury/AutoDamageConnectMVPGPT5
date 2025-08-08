@@ -1,0 +1,79 @@
+[
+  {
+    "id": "851525",
+    "name": "Starter",
+    "partNo": "101624",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "2",
+    "productGroupId": "100359",
+    "categoryId": "100010",
+    "variantId": "121921",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/851525/model-series-id-11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of Teeth": "10",
+      "Rated Power [kW]": "1",
+      "Weight [kg]": "2,989",
+      "Article ID:": "851525",
+      "Article Number:": "101624",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422401624",
+      "OEM Numbers AUDI:": "2T 911 024 NX",
+      "OEM Numbers SEAT:": "2T 911 024 NX",
+      "OEM Numbers SKODA:": "2T 911 024 NX",
+      "OEM Numbers VW:": "2Z 911 023 C"
+    }
+  },
+  {
+    "id": "1087374",
+    "name": "Starter",
+    "partNo": "11722",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "2",
+    "productGroupId": "100359",
+    "categoryId": "100010",
+    "variantId": "121921",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1087374/model-series-id-11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of Teeth": "10",
+      "Rated Power [kW]": "1",
+      "Number of mounting bores": "2",
+      "Article ID:": "1087374",
+      "Article Number:": "11722",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509311722",
+      "OEM Numbers VW:": "02Z 911 023 C"
+    }
+  },
+  {
+    "id": "4221224",
+    "name": "Starter",
+    "partNo": "65594",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "2",
+    "productGroupId": "100359",
+    "categoryId": "100010",
+    "variantId": "121921",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4221224/model-series-id-11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of Teeth": "10",
+      "Rated Power [kW]": "1,1",
+      "Article ID:": "4221224",
+      "Article Number:": "65594",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509365594",
+      "OEM Numbers VW:": "02Z 911 021 A"
+    }
+  }
+]

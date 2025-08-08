@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1488275",
+    "name": "Mounting, engine",
+    "partNo": "16062",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "56744",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1488275/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Weight [g]": "1304",
+      "Article ID:": "1488275",
+      "Article Number:": "16062",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539206259",
+      "OEM Numbers FIAT:": "51943758"
+    }
+  },
+  {
+    "id": "1488276",
+    "name": "Mounting, engine",
+    "partNo": "16062",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "56744",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1488276/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Weight [g]": "1304",
+      "Article ID:": "1488276",
+      "Article Number:": "16062",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539206259",
+      "OEM Numbers FIAT:": "51943758"
+    }
+  }
+]

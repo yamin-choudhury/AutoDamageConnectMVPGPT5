@@ -1,0 +1,138 @@
+[
+  {
+    "id": "6110432",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "BSG 40-980-058",
+    "manufacturer": "BSG",
+    "supplierId": "4455",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6110432/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Article ID:": "6110432",
+      "Article Number:": "BSG 40-980-058",
+      "Manufacturer:": "BSG",
+      "EAN Numbers:": "871982220104",
+      "OEM Numbers KIA:": "817801D010"
+    }
+  },
+  {
+    "id": "3300844",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "431023",
+    "manufacturer": "KILEN",
+    "supplierId": "176",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3300844/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Article ID:": "3300844",
+      "Article Number:": "431023",
+      "Manufacturer:": "KILEN",
+      "EAN Numbers:": "739441011361",
+      "OEM Numbers KIA:": "817801D010"
+    }
+  },
+  {
+    "id": "4727381",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "8144223",
+    "manufacturer": "LESJÖFORS",
+    "supplierId": "175",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4727381/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Article ID:": "4727381",
+      "Article Number:": "8144223",
+      "Manufacturer:": "LESJÖFORS",
+      "EAN Numbers:": "739441011361",
+      "OEM Numbers KIA:": "817801D010"
+    }
+  },
+  {
+    "id": "5641826",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "AE-KA-010",
+    "manufacturer": "NTY",
+    "supplierId": "6355",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5641826/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "570",
+      "Eject Force [N]": "590",
+      "Article ID:": "5641826",
+      "Article Number:": "AE-KA-010",
+      "Manufacturer:": "NTY",
+      "EAN Numbers:": "590204814038",
+      "OEM Numbers KIA:": "817801D010"
+    }
+  },
+  {
+    "id": "7357499",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "GS1309",
+    "manufacturer": "ROC",
+    "supplierId": "401",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7357499/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Article ID:": "7357499",
+      "Article Number:": "GS1309",
+      "Manufacturer:": "ROC",
+      "EAN Numbers:": "739441011361",
+      "OEM Numbers KIA:": "817801D010"
+    }
+  },
+  {
+    "id": "4776086",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "821 080",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4776086/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle Tailgate",
+      "Length [mm]": "569",
+      "Stroke [mm]": "249",
+      "Eject Force [N]": "590",
+      "Supplementary Article/Supplementary Info": "without holder",
+      "Article ID:": "4776086",
+      "Article Number:": "821 080",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers KIA:": "81780 1D010"
+    }
+  }
+]

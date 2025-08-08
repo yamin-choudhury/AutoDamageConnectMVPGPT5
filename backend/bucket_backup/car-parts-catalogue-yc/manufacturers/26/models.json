@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1709",
+    "name": "DAIMLER 2.8 - 5.3",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1709/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-10-01",
+      "toDate": "1993-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3494",
+    "name": "DAIMLER COUPE",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3494/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1711",
+    "name": "DAIMLER DAIMLER (XJ4_)",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1711/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-10-01",
+      "toDate": "1994-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10785",
+    "name": "DAIMLER DAIMLER XJ (X30_)",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10785/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-10-01",
+      "toDate": "2003-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11022",
+    "name": "DAIMLER DART Convertible",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11022/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1959-04-01",
+      "toDate": "1964-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1710",
+    "name": "DAIMLER LANDAULETTE",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1710/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-03-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3608",
+    "name": "DAIMLER LIMOUSINE",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3608/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-06-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38351",
+    "name": "DAIMLER SUPER EIGHT (X350)",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38351/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14561",
+    "name": "DAIMLER V8",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14561/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-09-01",
+      "toDate": "1970-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1715",
+    "name": "DAIMLER XJ 40, 81",
+    "manufacturerId": "26",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1715/manufacturer-id-26/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-10-01",
+      "toDate": "1994-09-01"
+    },
+    "variants": []
+  }
+]

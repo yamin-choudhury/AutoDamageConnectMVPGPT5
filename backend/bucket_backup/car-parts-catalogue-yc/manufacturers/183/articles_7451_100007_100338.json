@@ -1,0 +1,90 @@
+[
+  {
+    "id": "6109763",
+    "name": "Fan, radiator",
+    "partNo": "BSG 40-510-004",
+    "manufacturer": "BSG",
+    "supplierId": "4455",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "7451",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6109763/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "140",
+      "Outer diameter [mm]": "390",
+      "Article ID:": "6109763",
+      "Article Number:": "BSG 40-510-004",
+      "Manufacturer:": "BSG",
+      "EAN Numbers:": "871982216632",
+      "OEM Numbers HYUNDAI:": "25380-1R050"
+    }
+  },
+  {
+    "id": "7982226",
+    "name": "Fan, radiator",
+    "partNo": "M06356",
+    "manufacturer": "Movelex",
+    "supplierId": "6533",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "7451",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7982226/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7982226",
+      "Article Number:": "M06356",
+      "Manufacturer:": "Movelex",
+      "OEM Numbers HYUNDAI:": "25380-1R000"
+    }
+  },
+  {
+    "id": "2065354",
+    "name": "Fan, radiator",
+    "partNo": "22281",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "7451",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2065354/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "140",
+      "Outer diameter [mm]": "390",
+      "Article ID:": "2065354",
+      "Article Number:": "22281",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509322281",
+      "OEM Numbers HYUNDAI:": "25380-1R050"
+    }
+  },
+  {
+    "id": "8539160",
+    "name": "Fan, radiator",
+    "partNo": "PFN229",
+    "manufacturer": "PATRON",
+    "supplierId": "4558",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "7451",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8539160/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8539160",
+      "Article Number:": "PFN229",
+      "Manufacturer:": "PATRON",
+      "EAN Numbers:": "481425500264",
+      "OEM Numbers HYUNDAI:": "25380-4L050",
+      "OEM Numbers KIA:": "25380-4L050"
+    }
+  }
+]

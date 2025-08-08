@@ -1,0 +1,50 @@
+[
+  {
+    "id": "19613",
+    "type": "6.8",
+    "modelId": "5583",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "L 410 M1T5",
+      "cylinder": "8",
+      "capacity": "6,761 CCM / 6.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-06-01",
+      "power": "336 KW / 456 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34869",
+    "type": "6.8",
+    "modelId": "5583",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "L 410 M1T4",
+      "cylinder": "8",
+      "capacity": "6,761 CCM / 6.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-06-01",
+      "power": "373 KW / 507 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "51606",
+    "type": "6.8 T",
+    "modelId": "5583",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "8",
+      "capacity": "6,761 CCM / 6.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2010-12-01",
+      "power": "298 KW / 405 PS"
+    },
+    "categories": []
+  }
+]

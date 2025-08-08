@@ -1,0 +1,98 @@
+[
+  {
+    "id": "4296297",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "6DD 010 966-661",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "129125",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4296297/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electronic",
+      "Sensor Type": "Hall Sensor",
+      "Number of pins": "4",
+      "Voltage from [V]": "7",
+      "Voltage to [V]": "16",
+      "Article ID:": "4296297",
+      "Article Number:": "6DD 010 966-661",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230081729",
+      "OEM Numbers BMW:": "9 231 129",
+      "OEM Numbers MINI:": "9 231 129"
+    }
+  },
+  {
+    "id": "3559746",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "502 792",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "129125",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3559746/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Clutch Master Cylinder",
+      "Sensor Type": "Hall Sensor",
+      "Article ID:": "3559746",
+      "Article Number:": "502 792",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers BMW:": "6131 9 231 129",
+      "OEM Numbers MINI:": "6131 9 231 129"
+    }
+  },
+  {
+    "id": "9526773",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "V20-73-0150",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "129125",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9526773/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Footwell",
+      "Weight [kg]": "0,004",
+      "Article ID:": "9526773",
+      "Article Number:": "V20-73-0150",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "404600185305",
+      "OEM Numbers BMW:": "9 231 129"
+    }
+  },
+  {
+    "id": "9526773",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "V20-73-0150",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "129125",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9526773/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Footwell",
+      "Weight [kg]": "0,004",
+      "Article ID:": "9526773",
+      "Article Number:": "V20-73-0150",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "404600185305",
+      "OEM Numbers BMW:": "9 231 129"
+    }
+  }
+]

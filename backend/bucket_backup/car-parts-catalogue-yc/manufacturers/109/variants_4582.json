@@ -1,0 +1,18 @@
+[
+  {
+    "id": "19206",
+    "type": "1.3 16 V (DA32V)",
+    "modelId": "4582",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "G13BB",
+      "cylinder": "4",
+      "capacity": "1,298 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2000-03-01",
+      "power": "58 KW / 79 PS"
+    },
+    "categories": []
+  }
+]

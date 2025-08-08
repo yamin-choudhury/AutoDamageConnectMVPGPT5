@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1418597",
+    "name": "Mounting, engine",
+    "partNo": "15108",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "13364",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1418597/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Required quantity": "1",
+      "Weight [g]": "1100",
+      "Article ID:": "1418597",
+      "Article Number:": "15108",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205108",
+      "OEM Numbers SEAT:": "6Q0199851T",
+      "OEM Numbers SKODA:": "6Q0199851T",
+      "OEM Numbers VW:": "6Q0199851T"
+    }
+  },
+  {
+    "id": "1468201",
+    "name": "Mounting, engine",
+    "partNo": "15854",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "13364",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1468201/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Weight [g]": "1660",
+      "Article ID:": "1468201",
+      "Article Number:": "15854",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205854",
+      "OEM Numbers VAG:": "6RF199555B"
+    }
+  },
+  {
+    "id": "1418599",
+    "name": "Mounting, engine",
+    "partNo": "15108",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "13364",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1418599/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Required quantity": "1",
+      "Weight [g]": "1100",
+      "Article ID:": "1418599",
+      "Article Number:": "15108",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205108",
+      "OEM Numbers SEAT:": "6Q0199851T",
+      "OEM Numbers SKODA:": "6Q0199851T",
+      "OEM Numbers VW:": "6Q0199851T"
+    }
+  },
+  {
+    "id": "1468202",
+    "name": "Mounting, engine",
+    "partNo": "15854",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "13364",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1468202/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Weight [g]": "1660",
+      "Article ID:": "1468202",
+      "Article Number:": "15854",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205854",
+      "OEM Numbers VAG:": "6RF199555B"
+    }
+  }
+]

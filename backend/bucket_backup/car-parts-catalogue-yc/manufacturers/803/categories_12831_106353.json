@@ -1,0 +1,128 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "106353",
+    "manufacturerId": "803",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104736",
+        "name": "Marten Repellent",
+        "categoryId": "100733",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/104736/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "106353",
+    "manufacturerId": "803",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102208",
+        "name": "Brake Fluid",
+        "categoryId": "100006",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/102208/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100050",
+    "name": "Clutch/Attachment Parts",
+    "variantId": "106353",
+    "manufacturerId": "803",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104813",
+        "name": "Hydraulic Fluid",
+        "categoryId": "100050",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/104813/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100010",
+    "name": "Electrics",
+    "variantId": "106353",
+    "manufacturerId": "803",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100042",
+        "name": "Battery",
+        "categoryId": "100010",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/100042/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "106353",
+    "manufacturerId": "803",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/100046/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "106353",
+    "manufacturerId": "803",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "706537",
+        "name": "Braking System",
+        "categoryId": "103671",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/706537/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103966",
+        "name": "Electrics",
+        "categoryId": "103671",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/103966/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "106353",
+        "manufacturerId": "803",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/106353/103984/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

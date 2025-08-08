@@ -1,0 +1,50 @@
+[
+  {
+    "id": "129518",
+    "type": "3.5",
+    "modelId": "38342",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-03-01",
+      "power": "257 KW / 349 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133416",
+    "type": "3.5 410",
+    "modelId": "38342",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "306 KW / 416 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135638",
+    "type": "3.5 380",
+    "modelId": "38342",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2016-11-01",
+      "power": "279 KW / 379 PS"
+    },
+    "categories": []
+  }
+]

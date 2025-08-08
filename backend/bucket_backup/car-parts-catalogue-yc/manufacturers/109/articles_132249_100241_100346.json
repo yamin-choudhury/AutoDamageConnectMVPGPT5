@@ -1,0 +1,54 @@
+[
+  {
+    "id": "6184444",
+    "name": "Filter, interior air",
+    "partNo": "C30411",
+    "manufacturer": "1A FIRST AUTOMOTIVE",
+    "supplierId": "4814",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "132249",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6184444/model-series-id-38842/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "193",
+      "Width [mm]": "163",
+      "Height [mm]": "20",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "6184444",
+      "Article Number:": "C30411",
+      "Manufacturer:": "1A FIRST AUTOMOTIVE",
+      "EAN Numbers:": "803397700324",
+      "OEM Numbers NISSAN:": "27891-4A00C",
+      "OEM Numbers SUZUKI:": "95861-M68K30-000"
+    }
+  },
+  {
+    "id": "7005185",
+    "name": "Filter, interior air",
+    "partNo": "FC411",
+    "manufacturer": "MULLER FILTER",
+    "supplierId": "490",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "132249",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7005185/model-series-id-38842/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "193",
+      "Width [mm]": "163",
+      "Height [mm]": "20",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "7005185",
+      "Article Number:": "FC411",
+      "Manufacturer:": "MULLER FILTER",
+      "EAN Numbers:": "803397750411",
+      "OEM Numbers NISSAN:": "27891-4A00C",
+      "OEM Numbers SUZUKI:": "95861-M68K30-000"
+    }
+  }
+]

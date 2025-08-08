@@ -1,0 +1,57 @@
+[
+  {
+    "id": "5733369",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCOKI0019",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5733369/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5733369",
+      "Article Number:": "APCOKI0019",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers KIA:": "D07C12NHH"
+    }
+  },
+  {
+    "id": "4826009",
+    "name": "Compressor, air conditioning",
+    "partNo": "8301K715",
+    "manufacturer": "VAN WEZEL",
+    "supplierId": "36",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4826009/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "Type Denso",
+      "Fastening Type": "Four-point mounting",
+      "Belt Pulley Ø [mm]": "117",
+      "Pulleys": "with v-ribbed belt pulley",
+      "Connector Shape": "round",
+      "Inlet Ø [mm]": "15,6",
+      "Outlet Ø [mm]": "12,2",
+      "Oil Fill Quantity [ml]": "150",
+      "Compressor Oil": "PAG 46",
+      "Compressor ID": "6SBU16C",
+      "Number of grooves": "6",
+      "Refrigerant": "R 134a",
+      "Article ID:": "4826009",
+      "Article Number:": "8301K715",
+      "Manufacturer:": "VAN WEZEL",
+      "EAN Numbers:": "541090972522",
+      "OEM Numbers KIA:": "977011D100"
+    }
+  }
+]

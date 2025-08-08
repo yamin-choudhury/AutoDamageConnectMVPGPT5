@@ -1,0 +1,58 @@
+[
+  {
+    "id": "9382826",
+    "name": "Ball Joint",
+    "partNo": "TC1316",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "2462",
+    "productGroupId": "100581",
+    "categoryId": "100013",
+    "variantId": "147228",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9382826/model-series-id-42854/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "95",
+      "Width [mm]": "95",
+      "Height [mm]": "110",
+      "Thread Size": "M12x1.5",
+      "Article ID:": "9382826",
+      "Article Number:": "TC1316",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275934891",
+      "OEM Numbers AUDI:": "1K0 407 365E",
+      "OEM Numbers SEAT:": "1K0 407 365E",
+      "OEM Numbers SKODA:": "1K0 407 365E",
+      "OEM Numbers VW:": "1K0 407 365E"
+    }
+  },
+  {
+    "id": "9382827",
+    "name": "Ball Joint",
+    "partNo": "TC1317",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "2462",
+    "productGroupId": "100581",
+    "categoryId": "100013",
+    "variantId": "147228",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9382827/model-series-id-42854/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "95",
+      "Width [mm]": "95",
+      "Height [mm]": "110",
+      "Thread Size": "M12x1.5",
+      "Article ID:": "9382827",
+      "Article Number:": "TC1317",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275934892",
+      "OEM Numbers AUDI:": "1K0 407 366E",
+      "OEM Numbers SEAT:": "1K0 407 366E",
+      "OEM Numbers SKODA:": "1K0 407 366E",
+      "OEM Numbers VW:": "1K0 407 366E"
+    }
+  }
+]

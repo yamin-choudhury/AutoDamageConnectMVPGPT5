@@ -1,0 +1,59 @@
+[
+  {
+    "id": "10374946",
+    "name": "Bolt, exhaust system",
+    "partNo": "X12121",
+    "manufacturer": "FENNO",
+    "supplierId": "415",
+    "productsId": "731",
+    "productGroupId": "100333",
+    "categoryId": "100004",
+    "variantId": "58700",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10374946/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "44059AA010",
+      "Length [mm]": "65,6",
+      "Weight [kg]": "0,059",
+      "Article ID:": "10374946",
+      "Article Number:": "X12121",
+      "Manufacturer:": "FENNO",
+      "EAN Numbers:": "643004683869",
+      "OEM Numbers SUBARU:": "44059AA010"
+    }
+  },
+  {
+    "id": "2299635",
+    "name": "Bolt, exhaust system",
+    "partNo": "258-855",
+    "manufacturer": "KLOKKERHOLM",
+    "supplierId": "78",
+    "productsId": "731",
+    "productGroupId": "100333",
+    "categoryId": "100004",
+    "variantId": "58700",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2299635/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "WP",
+      "Length [mm]": "55",
+      "Thread Size": "M8",
+      "Article ID:": "2299635",
+      "Article Number:": "258-855",
+      "Manufacturer:": "KLOKKERHOLM",
+      "EAN Numbers:": "335164258855",
+      "OEM Numbers MERCEDES-BENZ:": "A910143008017",
+      "OEM Numbers BMW:": "07119912524",
+      "OEM Numbers SKODA:": "6U0253090",
+      "OEM Numbers FIAT:": "16044324",
+      "OEM Numbers LANCIA:": "16044324",
+      "OEM Numbers NISSAN:": "2013801B00",
+      "OEM Numbers SUBARU:": "901000087",
+      "OEM Numbers PEUGEOT:": "692202",
+      "OEM Numbers AUDI:": "N0103527",
+      "OEM Numbers SEAT:": "N01035210"
+    }
+  }
+]

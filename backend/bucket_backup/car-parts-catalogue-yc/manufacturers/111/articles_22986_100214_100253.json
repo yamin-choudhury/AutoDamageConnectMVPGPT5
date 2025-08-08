@@ -1,0 +1,74 @@
+[
+  {
+    "id": "7582600",
+    "name": "Fuel Filter",
+    "partNo": "J1332091",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "22986",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7582600/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "137",
+      "Outer diameter [mm]": "95",
+      "Filter type": "Long-life Filter",
+      "Article ID:": "7582600",
+      "Article Number:": "J1332091",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941617218",
+      "OEM Numbers TOYOTA:": "23300-21010"
+    }
+  },
+  {
+    "id": "5904158",
+    "name": "Fuel Filter",
+    "partNo": "B32073PR",
+    "manufacturer": "JC PREMIUM",
+    "supplierId": "4689",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "22986",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5904158/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "137",
+      "Outer diameter [mm]": "95",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5904158",
+      "Article Number:": "B32073PR",
+      "Manufacturer:": "JC PREMIUM",
+      "EAN Numbers:": "590117052462",
+      "OEM Numbers TOYOTA:": "23300 21010"
+    }
+  },
+  {
+    "id": "5904158",
+    "name": "Fuel Filter",
+    "partNo": "B32073PR",
+    "manufacturer": "JC PREMIUM",
+    "supplierId": "4689",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "22986",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5904158/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "137",
+      "Outer diameter [mm]": "95",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5904158",
+      "Article Number:": "B32073PR",
+      "Manufacturer:": "JC PREMIUM",
+      "EAN Numbers:": "590117052462",
+      "OEM Numbers TOYOTA:": "23300 21010"
+    }
+  }
+]

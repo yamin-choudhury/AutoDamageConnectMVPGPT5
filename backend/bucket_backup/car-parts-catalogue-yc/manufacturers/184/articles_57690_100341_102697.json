@@ -1,0 +1,46 @@
+[
+  {
+    "id": "6766213",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "EGS00238K",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "219",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "57690",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6766213/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "6766213",
+      "Article Number:": "EGS00238K",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880974675252",
+      "OEM Numbers KIA:": "817802J000"
+    }
+  },
+  {
+    "id": "6766220",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "EGS00246K",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "219",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "57690",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6766220/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Article ID:": "6766220",
+      "Article Number:": "EGS00246K",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880974675260",
+      "OEM Numbers KIA:": "817702J000"
+    }
+  }
+]

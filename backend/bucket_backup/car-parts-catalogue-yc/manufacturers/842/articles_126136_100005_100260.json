@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1524794",
+    "name": "Air Filter",
+    "partNo": "1646456180",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "126136",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1524794/model-series-id-11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "220",
+      "Width [mm]": "243",
+      "Height [mm]": "56",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1524794",
+      "Article Number:": "1646456180",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers TOYOTA:": "17801-31131",
+      "OEM Numbers TOYOTA (GAC):": "17801-31131",
+      "OEM Numbers LEXUS:": "17801-31131"
+    }
+  },
+  {
+    "id": "1537054",
+    "name": "Air Filter",
+    "partNo": "1667452580",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "126136",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1537054/model-series-id-11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "253",
+      "Width [mm]": "239",
+      "Height [mm]": "58",
+      "Shape": "Flat",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1537054",
+      "Article Number:": "1667452580",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers TOYOTA:": "17801-AD010",
+      "OEM Numbers LOTUS:": "A132E6324S"
+    }
+  }
+]

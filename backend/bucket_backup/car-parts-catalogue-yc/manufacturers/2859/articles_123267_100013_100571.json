@@ -1,0 +1,58 @@
+[
+  {
+    "id": "4776236",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "821 0948 10",
+    "manufacturer": "FAG",
+    "supplierId": "192",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "123267",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4776236/model-series-id-11204/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Sheet Steel",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Supplementary Article/Info 2": "without ball joint",
+      "paired article number": "821 0949 10",
+      "Article ID:": "4776236",
+      "Article Number:": "821 0948 10",
+      "Manufacturer:": "FAG",
+      "EAN Numbers:": "401487041804",
+      "OEM Numbers AUDI:": "6R0407151F",
+      "OEM Numbers SEAT:": "6R0407151F",
+      "OEM Numbers VW:": "6RD407151E",
+      "OEM Numbers SKODA:": "6R0407151F"
+    }
+  },
+  {
+    "id": "4776237",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "821 0949 10",
+    "manufacturer": "FAG",
+    "supplierId": "192",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "123267",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4776237/model-series-id-11204/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Sheet Steel",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Supplementary Article/Info 2": "without ball joint",
+      "paired article number": "821 0948 10",
+      "Article ID:": "4776237",
+      "Article Number:": "821 0949 10",
+      "Manufacturer:": "FAG",
+      "EAN Numbers:": "401487041605",
+      "OEM Numbers AUDI:": "6R0407152F",
+      "OEM Numbers SEAT:": "6R0407152F",
+      "OEM Numbers VW:": "6RD407152E",
+      "OEM Numbers SKODA:": "6R0407152F"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "221448",
+    "name": "Gasket, coolant flange",
+    "partNo": "01061400",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3248",
+    "productGroupId": "100840",
+    "categoryId": "100007",
+    "variantId": "126175",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/221448/model-series-id-4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Thickness [mm]": "0,35",
+      "Length [mm]": "80",
+      "Width [mm]": "76",
+      "Article ID:": "221448",
+      "Article Number:": "01061400",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776975076",
+      "OEM Numbers FORD:": "1119275",
+      "OEM Numbers MAZDA:": "LF01-15-169",
+      "OEM Numbers VOLVO:": "8694757"
+    }
+  },
+  {
+    "id": "9983528",
+    "name": "Gasket, coolant flange",
+    "partNo": "WG1751291",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "3248",
+    "productGroupId": "100840",
+    "categoryId": "100007",
+    "variantId": "126175",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9983528/model-series-id-4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Thickness [mm]": "0,35",
+      "Length [mm]": "80",
+      "Width [mm]": "76",
+      "Article ID:": "9983528",
+      "Article Number:": "WG1751291",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers FORD:": "1119275",
+      "OEM Numbers MAZDA:": "LF0115169",
+      "OEM Numbers VOLVO:": "8694757"
+    }
+  }
+]

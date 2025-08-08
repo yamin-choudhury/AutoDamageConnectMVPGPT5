@@ -1,0 +1,43 @@
+[
+  {
+    "id": "490362",
+    "name": "Mounting, engine",
+    "partNo": "0512-DERMT",
+    "manufacturer": "ASVA",
+    "supplierId": "4631",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "23397",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/490362/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Article ID:": "490362",
+      "Article Number:": "0512-DERMT",
+      "Manufacturer:": "ASVA",
+      "OEM Numbers MAZDA:": "D651-39-04XD"
+    }
+  },
+  {
+    "id": "2608108",
+    "name": "Mounting, engine",
+    "partNo": "30965",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "23397",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2608108/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2608108",
+      "Article Number:": "30965",
+      "Manufacturer:": "FARE-MX",
+      "OEM Numbers MAZDA:": "D651-39-060F"
+    }
+  }
+]

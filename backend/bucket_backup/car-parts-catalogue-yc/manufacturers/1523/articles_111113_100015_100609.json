@@ -1,0 +1,73 @@
+[
+  {
+    "id": "4811858",
+    "name": "Bracket, muffler",
+    "partNo": "83 12 2035",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "111113",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4811858/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Supplementary Article/Info 2": "with vulcanized-in fabric belt",
+      "Article ID:": "4811858",
+      "Article Number:": "83 12 2035",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258827037",
+      "OEM Numbers BMW:": "8.570.671"
+    }
+  },
+  {
+    "id": "4811894",
+    "name": "Bracket, muffler",
+    "partNo": "83 12 2089",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "111113",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4811894/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Supplementary Article/Info 2": "with vulcanized-in fabric belt",
+      "Article ID:": "4811894",
+      "Article Number:": "83 12 2089",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258842469",
+      "OEM Numbers BMW:": "8.657.332",
+      "OEM Numbers LAND ROVER:": "WCS50030",
+      "OEM Numbers JAGUAR:": "C2C41707",
+      "OEM Numbers ROVER:": "LR025064"
+    }
+  },
+  {
+    "id": "5999169",
+    "name": "Bracket, muffler",
+    "partNo": "BG-132",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "111113",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5999169/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "5999169",
+      "Article Number:": "BG-132",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550303154",
+      "OEM Numbers BMW:": "1820 8 570 671"
+    }
+  }
+]

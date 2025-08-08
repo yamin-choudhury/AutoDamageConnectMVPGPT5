@@ -1,0 +1,242 @@
+[
+  {
+    "id": "8451",
+    "type": "1.6 CVVT",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FC",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-10-01",
+      "power": "93 KW / 126 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "8469",
+    "type": "1.6 CRDi 128",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FB",
+      "cylinder": "4",
+      "capacity": "1,582 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-10-01",
+      "power": "94 KW / 128 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "8470",
+    "type": "2.0 CRDi 115",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4EA",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-05-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19751",
+    "type": "2.0 CVVT",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KA",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01",
+      "power": "106 KW / 144 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19752",
+    "type": "2.0 CRDi 140",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4EA",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-09-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "21841",
+    "type": "2.4 CVVT",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KC",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2012-12-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33606",
+    "type": "1.6 CVVT",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FC",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2009-08-01",
+      "power": "97 KW / 132 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33607",
+    "type": "2.0 CRDi 135",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4EA",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2009-08-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "50418",
+    "type": "2.7",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6EA",
+      "cylinder": "6",
+      "capacity": "2,656 CCM / 2.7 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01\n                            \n                            2010-12-01",
+      "power": "143 KW / 194 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59293",
+    "type": "1.6 CRDi 110",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FB",
+      "cylinder": "4",
+      "capacity": "1,582 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-10-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108530",
+    "type": "2.4 CVVT",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KC",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2012-12-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121867",
+    "type": "2.0 CRDi",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4EA",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2008-01-01\n                            \n                            2010-04-01",
+      "power": "104 KW / 142 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122207",
+    "type": "2.0 LPI",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KA",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2009-01-01\n                            \n                            2013-03-01",
+      "power": "104 KW / 141 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129367",
+    "type": "2.0 CVVT",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KA",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01",
+      "power": "111 KW / 151 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132221",
+    "type": "2.0 CVVT",
+    "modelId": "5602",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KA",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-05-01\n                            \n                            2013-03-01",
+      "power": "105 KW / 143 PS"
+    },
+    "categories": []
+  }
+]

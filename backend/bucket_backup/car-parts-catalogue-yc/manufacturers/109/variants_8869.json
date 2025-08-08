@@ -1,0 +1,82 @@
+[
+  {
+    "id": "57483",
+    "type": "1.5 (SL415)",
+    "modelId": "8869",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "G15A",
+      "cylinder": "4",
+      "capacity": "1,493 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "1999-02-01",
+      "power": "57 KW / 78 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120600",
+    "type": "1.6 16V (AQ416)",
+    "modelId": "8869",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "G16A (16V)",
+      "cylinder": "4",
+      "capacity": "1,590 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2004-10-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123444",
+    "type": "0.7",
+    "modelId": "8869",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-09-01",
+      "power": "35 KW / 48 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123482",
+    "type": "0.7 4x4",
+    "modelId": "8869",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-09-01",
+      "power": "35 KW / 48 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140415",
+    "type": "1.2",
+    "modelId": "8869",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "G12B",
+      "cylinder": "4",
+      "capacity": "1,196 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "54 KW / 73 PS"
+    },
+    "categories": []
+  }
+]

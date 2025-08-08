@@ -1,0 +1,52 @@
+[
+  {
+    "id": "473184",
+    "name": "Radiator Hose",
+    "partNo": "05-4436",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "123618",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/473184/model-series-id-13898/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33,5",
+      "Inner diameter 2 [mm]": "33,5",
+      "Hose Length [mm]": "437",
+      "Article ID:": "473184",
+      "Article Number:": "05-4436",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers NISSAN:": "21503ED000"
+    }
+  },
+  {
+    "id": "473208",
+    "name": "Radiator Hose",
+    "partNo": "05-4454",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "123618",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/473208/model-series-id-13898/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "34",
+      "Inner diameter 2 [mm]": "33,5",
+      "Hose Length [mm]": "354",
+      "Article ID:": "473208",
+      "Article Number:": "05-4454",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers NISSAN:": "21501ED000"
+    }
+  }
+]

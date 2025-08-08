@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1004954",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "1104264",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "12828",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1004954/model-series-id-9881/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "SACHS",
+      "Diameter [mm]": "19,05",
+      "Material": "Aluminium",
+      "Article ID:": "1004954",
+      "Article Number:": "1104264",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293787353",
+      "OEM Numbers AUDI:": "5Q0 721 261 M",
+      "OEM Numbers SEAT:": "5Q0 721 261 M",
+      "OEM Numbers SKODA:": "5Q0 721 261 M",
+      "OEM Numbers VW:": "5Q0 721 261 M"
+    }
+  },
+  {
+    "id": "8559639",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "PJD264",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "12828",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8559639/model-series-id-9881/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "SACHS",
+      "Diameter [mm]": "19,05",
+      "Material": "Aluminium",
+      "Article ID:": "8559639",
+      "Article Number:": "PJD264",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293787349",
+      "OEM Numbers AUDI:": "5Q0 721 261 M",
+      "OEM Numbers SEAT:": "5Q0 721 261 M",
+      "OEM Numbers SKODA:": "5Q0 721 261 M",
+      "OEM Numbers VW:": "5Q0 721 261 M"
+    }
+  }
+]

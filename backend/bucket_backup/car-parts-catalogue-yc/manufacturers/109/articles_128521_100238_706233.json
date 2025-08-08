@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1629653",
+    "name": "Manual Transmission Oil",
+    "partNo": "18000VW",
+    "manufacturer": "MPM",
+    "supplierId": "1402",
+    "productsId": "3225",
+    "productGroupId": "706233",
+    "categoryId": "100238",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1629653/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Oil Viscosity Classification SAE": "75W",
+      "Specification": "API GL-4",
+      "Oil": "Full Synthetic Oil",
+      "Oil - manufacturer recommendation": "VW TL 726",
+      "SAE viscosity class": "75W",
+      "Article ID:": "1629653",
+      "Article Number:": "18000VW",
+      "Manufacturer:": "MPM",
+      "OEM Numbers BMW:": "83220397244",
+      "OEM Numbers VW:": "G 070 726"
+    }
+  }
+]

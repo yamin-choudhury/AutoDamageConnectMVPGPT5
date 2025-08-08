@@ -1,0 +1,82 @@
+[
+  {
+    "id": "3858139",
+    "name": "Cap, fuel tank",
+    "partNo": "56035",
+    "manufacturer": "AIC",
+    "supplierId": "1368",
+    "productsId": "602",
+    "productGroupId": "100250",
+    "categoryId": "100214",
+    "variantId": "23707",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3858139/model-series-id-4607/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Plastic",
+      "Supplementary Article/Info 2": "without support strap",
+      "Article ID:": "3858139",
+      "Article Number:": "56035",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "0404628356035",
+      "OEM Numbers FORD:": "7 145 535"
+    }
+  },
+  {
+    "id": "3858139",
+    "name": "Cap, fuel tank",
+    "partNo": "56035",
+    "manufacturer": "AIC",
+    "supplierId": "1368",
+    "productsId": "602",
+    "productGroupId": "100250",
+    "categoryId": "100214",
+    "variantId": "23707",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3858139/model-series-id-4607/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Plastic",
+      "Supplementary Article/Info 2": "without support strap",
+      "Article ID:": "3858139",
+      "Article Number:": "56035",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "0404628356035",
+      "OEM Numbers FORD:": "7 145 535"
+    }
+  },
+  {
+    "id": "1140936",
+    "name": "Cap, fuel tank",
+    "partNo": "12045-SV-023",
+    "manufacturer": "STec",
+    "supplierId": "2429",
+    "productsId": "602",
+    "productGroupId": "100250",
+    "categoryId": "100214",
+    "variantId": "23707",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1140936/model-series-id-4607/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "44,5",
+      "Lock System": "with key",
+      "Supplementary Article/Info 2": "with breather valve",
+      "Article ID:": "1140936",
+      "Article Number:": "12045-SV-023",
+      "Manufacturer:": "STec",
+      "EAN Numbers:": "0900938103981",
+      "OEM Numbers SKODA:": "107201551FG",
+      "OEM Numbers VOLVO:": "9142606",
+      "OEM Numbers FORD:": "7243549",
+      "OEM Numbers HONDA:": "17670-SM1-A03",
+      "OEM Numbers LADA:": "21080-1103010-11",
+      "OEM Numbers KIA:": "310104F100",
+      "OEM Numbers SAAB:": "5336060",
+      "OEM Numbers FIAT:": "46745649",
+      "OEM Numbers ALFA ROMEO:": "60575668",
+      "OEM Numbers OPEL:": "93189942",
+      "OEM Numbers MERCEDES-BENZ:": "A1634710030"
+    }
+  }
+]

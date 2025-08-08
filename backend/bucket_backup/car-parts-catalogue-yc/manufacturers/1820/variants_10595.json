@@ -1,0 +1,34 @@
+[
+  {
+    "id": "56210",
+    "type": "2.2 Td4 4x4 (L317)",
+    "modelId": "10595",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT224",
+      "cylinder": "4",
+      "capacity": "2,198 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2011-08-01\n                            \n                            2016-02-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59758",
+    "type": "2.4 TD4 4x4",
+    "modelId": "10595",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT244",
+      "cylinder": "4",
+      "capacity": "2,402 CCM / 2.4 L",
+      "fuelType": "Diesel",
+      "year": "2007-05-01\n                            \n                            2016-02-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  }
+]

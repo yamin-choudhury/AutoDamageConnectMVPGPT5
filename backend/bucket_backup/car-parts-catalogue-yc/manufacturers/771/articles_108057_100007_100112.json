@@ -1,0 +1,63 @@
+[
+  {
+    "id": "8753273",
+    "name": "Cap, coolant tank",
+    "partNo": "RC213",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "108057",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8753273/model-series-id-10221/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "26",
+      "Pressure [bar]": "1,0",
+      "Outer diameter [mm]": "52",
+      "Pressure [psi]": "15",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "8753273",
+      "Article Number:": "RC213",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "541446564002",
+      "OEM Numbers FIAT:": "60807748",
+      "OEM Numbers CITROËN:": "1306E7",
+      "OEM Numbers PEUGEOT:": "1306.E7",
+      "OEM Numbers ALFA ROMEO:": "60811713",
+      "OEM Numbers LANCIA:": "60807748",
+      "OEM Numbers FERRARI:": "46556738",
+      "OEM Numbers MASERATI:": "980145477",
+      "OEM Numbers IVECO:": "99489567",
+      "OEM Numbers IRISBUS:": "500359823",
+      "OEM Numbers MITSUBISHI:": "99489567"
+    }
+  },
+  {
+    "id": "9530721",
+    "name": "Cap, coolant tank",
+    "partNo": "V24-0448",
+    "manufacturer": "VAICO",
+    "supplierId": "162",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "108057",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9530721/model-series-id-10221/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Main Expansion Tank",
+      "Weight [kg]": "0,05",
+      "Pressure [bar]": "1",
+      "Article ID:": "9530721",
+      "Article Number:": "V24-0448",
+      "Manufacturer:": "VAICO",
+      "EAN Numbers:": "404600160274",
+      "OEM Numbers LANCIA:": "60567645",
+      "OEM Numbers FIAT:": "82 429 515",
+      "OEM Numbers ALFA ROMEO:": "60811713"
+    }
+  }
+]

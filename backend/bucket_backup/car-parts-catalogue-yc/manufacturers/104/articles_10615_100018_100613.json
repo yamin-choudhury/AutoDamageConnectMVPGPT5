@@ -1,0 +1,58 @@
+[
+  {
+    "id": "4173546",
+    "name": "Wiper Switch",
+    "partNo": "638 161",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "877",
+    "productGroupId": "100613",
+    "categoryId": "100018",
+    "variantId": "10615",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4173546/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "GRP (Glass fibre Reinforced Plastic)",
+      "Mounting Type": "Plugged",
+      "Vehicle Equipment": "for vehicles with cruise control",
+      "Combi Switch Function": "with headlight flasher",
+      "Colour Code": "9B9",
+      "Article ID:": "4173546",
+      "Article Number:": "638 161",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers SEAT:": "5K0 953 502M 9B9",
+      "OEM Numbers SKODA:": "5K0 953 502M 9B9",
+      "OEM Numbers VW:": "5K0 953 502M 9B9"
+    }
+  },
+  {
+    "id": "4173555",
+    "name": "Wiper Switch",
+    "partNo": "638 171",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "877",
+    "productGroupId": "100613",
+    "categoryId": "100018",
+    "variantId": "10615",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4173555/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "GRP (Glass fibre Reinforced Plastic)",
+      "Mounting Type": "Plugged",
+      "Vehicle Equipment": "for vehicles without cruise control",
+      "Combi Switch Function": "with headlight flasher",
+      "Colour Code": "9B9",
+      "Article ID:": "4173555",
+      "Article Number:": "638 171",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers SEAT:": "5K0 953 502L 9B9",
+      "OEM Numbers SKODA:": "5K0 953 502L 9B9",
+      "OEM Numbers VW:": "5K0 953 502L 9B9"
+    }
+  }
+]

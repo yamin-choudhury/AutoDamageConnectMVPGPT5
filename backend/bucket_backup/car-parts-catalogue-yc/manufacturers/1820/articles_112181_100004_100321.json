@@ -1,0 +1,100 @@
+[
+  {
+    "id": "220562",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01053000",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "112181",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/220562/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,3",
+      "Inner diameter [mm]": "107",
+      "Outer diameter [mm]": "107",
+      "Article ID:": "220562",
+      "Article Number:": "01053000",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776973342",
+      "OEM Numbers LAND ROVER:": "ESR3737"
+    }
+  },
+  {
+    "id": "246025",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01304300",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "112181",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/246025/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,30",
+      "Inner diameter [mm]": "63",
+      "Outer diameter [mm]": "84",
+      "Article ID:": "246025",
+      "Article Number:": "01304300",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357712352",
+      "OEM Numbers LAND ROVER:": "LR000954"
+    }
+  },
+  {
+    "id": "9752457",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1158508",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "112181",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9752457/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,3",
+      "Inner diameter [mm]": "107",
+      "Outer diameter [mm]": "107",
+      "Article ID:": "9752457",
+      "Article Number:": "WG1158508",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers LAND ROVER:": "ESR3737"
+    }
+  },
+  {
+    "id": "9983690",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1751454",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "112181",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9983690/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,30",
+      "Inner diameter [mm]": "63",
+      "Outer diameter [mm]": "84",
+      "Article ID:": "9983690",
+      "Article Number:": "WG1751454",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers LAND ROVER:": "LR000954"
+    }
+  }
+]

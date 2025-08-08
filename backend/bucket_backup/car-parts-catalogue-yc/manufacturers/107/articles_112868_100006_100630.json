@@ -1,0 +1,103 @@
+[
+  {
+    "id": "5091109",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "8DZ 355 205-271",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112868",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5091109/model-series-id-14085/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,053",
+      "Brake System": "Akebono",
+      "Technical Information Number": "K0460",
+      "Article ID:": "5091109",
+      "Article Number:": "8DZ 355 205-271",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "408230047614",
+      "OEM Numbers SUBARU:": "26632AG000"
+    }
+  },
+  {
+    "id": "5091110",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "8DZ 355 205-271",
+    "manufacturer": "HELLA PAGID",
+    "supplierId": "4625",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112868",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5091110/model-series-id-14085/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,053",
+      "Brake System": "Akebono",
+      "Technical Information Number": "K0460",
+      "Article ID:": "5091110",
+      "Article Number:": "8DZ 355 205-271",
+      "Manufacturer:": "HELLA PAGID",
+      "EAN Numbers:": "408230047614",
+      "OEM Numbers SUBARU:": "26632AG000"
+    }
+  },
+  {
+    "id": "8048355",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "MBA1847",
+    "manufacturer": "MINTEX",
+    "supplierId": "73",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112868",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8048355/model-series-id-14085/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,053",
+      "Brake System": "Akebono",
+      "Packaging length [cm]": "18,5",
+      "Packaging width [cm]": "1",
+      "Packaging height [cm]": "12",
+      "Article ID:": "8048355",
+      "Article Number:": "MBA1847",
+      "Manufacturer:": "MINTEX",
+      "EAN Numbers:": "502874078562",
+      "OEM Numbers SUBARU:": "26632AG000"
+    }
+  },
+  {
+    "id": "4793213",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "82518100",
+    "manufacturer": "TEXTAR",
+    "supplierId": "39",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112868",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4793213/model-series-id-14085/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,053",
+      "Brake System": "Akebono",
+      "Packaging length [cm]": "18,5",
+      "Packaging width [cm]": "12,5",
+      "Packaging height [cm]": "1",
+      "Number of Parts [parts]": "9",
+      "Article ID:": "4793213",
+      "Article Number:": "82518100",
+      "Manufacturer:": "TEXTAR",
+      "EAN Numbers:": "401972244692",
+      "OEM Numbers SUBARU:": "26632AG000"
+    }
+  }
+]

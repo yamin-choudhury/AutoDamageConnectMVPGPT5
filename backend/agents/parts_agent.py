@@ -10,11 +10,99 @@ import json
 import re
 from typing import Dict, List, Optional, Any
 from langchain.agents import create_react_agent, AgentExecutor
-from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
+from langchain_openai import ChatOpenAI
+from langchain.tools import tool
+from typing import Dict, List, Any
+import json
+import os
 from dotenv import load_dotenv
 
-from agents.tools import all_tools
+# Import all tools
+from .tools import all_tools
+from .tools.vehicle_tools import identify_vehicle_from_report as _identify_vehicle
+from .tools.vehicle_tools import validate_vehicle_in_catalog as _validate_vehicle
+from .tools.vehicle_tools import find_matching_variants as _find_variants
+from .tools.catalog_tools import map_components_to_categories as _map_components
+from .tools.catalog_tools import load_categories_for_variant as _load_categories
+from .tools.catalog_tools import search_parts_for_damage as _search_parts
+
+# Create simplified wrapper tools for better ReAct compatibility
+@tool
+def identify_vehicle(input_text: str) -> Dict:
+    """Extract vehicle info from damage report. Input: 'SEAT Ibiza 2020 with Brake Component damage'"""
+    try:
+        print(f"🔍 identify_vehicle called with: {input_text}")
+        
+        # The ReAct agent may send JSON string, parse it first
+        try:
+            # Try to parse as JSON first
+            parsed_input = json.loads(input_text)
+            if isinstance(parsed_input, dict) and 'input_text' in parsed_input:
+                actual_input = parsed_input['input_text']
+            else:
+                actual_input = input_text
+        except:
+            # If parsing fails, use input as-is
+            actual_input = input_text
+            
+        print(f"🔍 Processing: {actual_input}")
+        
+        # Parse the input text to extract vehicle and damage info
+        parts = actual_input.split(' with ')
+        vehicle_part = parts[0].strip()
+        damage_part = parts[1].replace(' damage', '') if len(parts) > 1 else 'Unknown'
+        
+        # Extract make, model, year from vehicle part
+        vehicle_words = vehicle_part.split()
+        if len(vehicle_words) >= 3:
+            make = vehicle_words[0]
+            model = vehicle_words[1]
+            year = int(vehicle_words[2]) if vehicle_words[2].isdigit() else 2020
+        else:
+            return {"success": False, "error": "Invalid input format"}
+        
+        # Create JSON strings for the actual tool
+        damage_json = json.dumps([{"component": damage_part}])
+        vehicle_json = json.dumps({"make": make, "model": model, "year": year})
+        
+        print(f"🔍 Calling _identify_vehicle with damage_json={damage_json}, vehicle_json={vehicle_json}")
+        
+        # Call the actual tool
+        result = _identify_vehicle.func(damage_json, vehicle_json)
+        return result
+        
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+@tool
+def validate_vehicle_wrapper(manufacturer_id: str, model_name: str) -> Dict:
+    """Validate vehicle in catalog. Input: manufacturer_id='117', model_name='Astra'"""
+    try:
+        result = _validate_vehicle.func(manufacturer_id, model_name)
+        return result
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+@tool
+def find_variants_wrapper(manufacturer_id: str, model_name: str, year: int) -> Dict:
+    """Find vehicle variants. Input: manufacturer_id='117', model_name='Astra', year=2018"""
+    try:
+        result = _find_variants.func(manufacturer_id, model_name, year)
+        return result
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+@tool
+def search_vehicle_parts(variant_id: str, component: str) -> Dict:
+    """Search for parts. Input format: variant_id='10615', component='Brake Component'"""
+    try:
+        variant_json = json.dumps([variant_id])
+        component_json = json.dumps([component])
+        result = _search_parts.func(variant_json, component_json)
+        return result
+    except Exception as e:
+        return {"success": False, "error": str(e)}
 
 class PartsDiscoveryAgent:
     """
@@ -49,78 +137,94 @@ class PartsDiscoveryAgent:
             max_retries=2
         )
         
-        # Set up all available tools
+        # Use the ORIGINAL tools - they work fine, the issue is with ReAct parsing
         self.tools = all_tools
         print(f"🔧 Agent initialized with {len(self.tools)} tools: {[tool.name for tool in self.tools]}")
         
         # Create specialized automotive agent prompt
         self.prompt = self._create_agent_prompt()
         
-        # Use the official ReAct prompt template instead of custom one
-        from langchain import hub
-        try:
-            # Get the standard ReAct prompt that works reliably
-            react_prompt = hub.pull("hwchase17/react")
-            self.prompt = react_prompt
-            print("✅ Using official LangChain ReAct prompt")
-        except:
-            # Fallback to our custom prompt if hub is unavailable
-            self.prompt = self._create_agent_prompt()
-            print("⚠️  Using custom ReAct prompt (hub unavailable)")
+        # Use custom prompt with explicit tool input examples
+        self.prompt = self._create_agent_prompt()
+        print("🔧 Using custom ReAct prompt with tool input examples")
         
-        # Create ReAct agent
-        self.agent = create_react_agent(self.llm, self.tools, self.prompt)
+        # Use STRUCTURED_CHAT agent which properly handles multi-parameter tools
+        from langchain.agents import initialize_agent, AgentType
         
-        # Create executor with robust error handling
-        self.agent_executor = AgentExecutor(
-            agent=self.agent,
+        self.agent_executor = initialize_agent(
             tools=self.tools,
+            llm=self.llm,
+            agent=AgentType.STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION,
             verbose=True,
-            max_iterations=max_iterations,
             handle_parsing_errors=True,
+            max_iterations=10,
+            max_execution_time=60,
             return_intermediate_steps=True
         )
+        
+        print("✅ Using STRUCTURED_CHAT agent for multi-parameter tools")
+    
+    def _custom_parsing_error_handler(self, error) -> str:
+        """Custom handler for parsing errors to provide better guidance."""
+        error_msg = str(error)
+        
+        # Common parsing issues and fixes
+        if "Field required" in error_msg:
+            if "vehicle_info_json" in error_msg:
+                return "Error: Missing vehicle_info_json parameter. Use: {\"damage_report_json\": \"[...]\", \"vehicle_info_json\": \"{...}\"}"
+            elif "damaged_components_json" in error_msg:
+                return "Error: Missing damaged_components_json parameter. Use: {\"damaged_components_json\": \"[...]\"}"
+        
+        return f"Parsing error: {error_msg}. Please check the Action Input format matches the tool requirements exactly."
     
     def _create_agent_prompt(self) -> PromptTemplate:
         """Create the specialized automotive parts discovery prompt template."""
         
-        template = """You are an expert automotive parts specialist AI agent. Your task is to analyze vehicle damage reports and find exact OEM replacement parts from a comprehensive catalog.
+        template = """You are an expert automotive parts specialist AI agent. Find OEM replacement parts from damage reports.
 
 You have access to the following tools:
 
 {tools}
 
-Use the following format:
+USE THIS EXACT FORMAT:
 
-Question: the vehicle damage analysis task
-Thought: you should always think about what to do
-Action: the action to take, should be one of [{tool_names}]
-Action Input: the input to the action
-Observation: the result of the action
-... (this Thought/Action/Action Input/Observation can repeat N times)
+Question: the task
+Thought: think about what to do
+Action: tool name from [{tool_names}]
+Action Input: {{"param1": "value1", "param2": "value2"}}
+Observation: result
+... (repeat as needed)
 Thought: I now know the final answer
-Final Answer: the final answer as a JSON object
+Final Answer: JSON result
 
-FOLLOW THIS SYSTEMATIC APPROACH:
+TOOL INPUT EXAMPLES - USE THESE EXACT FORMATS:
 
-1. VEHICLE IDENTIFICATION: Use identify_vehicle_from_report
-   Action Input: {{"damage_report_json": "[{{\"component\": \"Brake Component\"}}]", "vehicle_info_json": "{{\"make\": \"SEAT\", \"model\": \"Ibiza\", \"year\": 2020}}"}}
+1. identify_vehicle (Simple text input):
+Action Input: {{"input_text": "SEAT Ibiza 2020 with Brake Component damage"}}
 
-2. CATALOG VALIDATION: Use validate_vehicle_in_catalog
-   Action Input: {{"manufacturer_id": "104", "model_name": "Ibiza"}}
+2. validate_vehicle_in_catalog:
+Action Input: {{"manufacturer_id": "104", "model_name": "Ibiza"}}
 
-3. VARIANT DISCOVERY: Use find_matching_variants
-   Action Input: {{"manufacturer_id": "104", "model_name": "Ibiza", "year": 2020}}
+3. find_matching_variants:
+Action Input: {{"manufacturer_id": "104", "model_name": "Ibiza", "year": 2020}}
 
-4. COMPONENT MAPPING: Use map_components_to_categories
-   Action Input: {{"damaged_components_json": "[\"Brake Component\"]"}}
+4. search_parts_for_damage (Include manufacturer_id):
+Action Input: {{"variant_ids_json": "[\"10615\"]", "damaged_components_json": "[\"Brake Component\"]", "manufacturer_id": "117"}}
 
-5. PARTS SEARCH: Use search_parts_for_damage
-   Action Input: {{"variant_ids_json": "[\"10615\"]", "damaged_components_json": "[\"Brake Component\"]"}}
+IMPORTANT:
+- ALWAYS provide ALL required parameters for each tool
+- Use the EXACT JSON format shown above
+- Don't miss any required parameters
 
-FINAL ANSWER FORMAT - Return a JSON object:
+Workflow:
+1. Use identify_vehicle_from_report (extract vehicle and damage info)
+2. Use validate_vehicle_in_catalog (confirm vehicle exists)
+3. Use find_matching_variants (get compatible variants)
+4. Use search_parts_for_damage (find actual parts with manufacturer_id)
+
+Final Answer format:
 {{
-    "success": true/false,
+    "success": true,
     "parts_found": [{{"component": "...", "part_name": "...", "part_number": "...", "relevance_score": 0.85}}],
     "vehicle_info": {{"make": "...", "model": "...", "year": "..."}},
     "confidence_score": 0.85

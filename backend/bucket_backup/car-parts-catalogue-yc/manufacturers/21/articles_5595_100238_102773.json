@@ -1,0 +1,49 @@
+[
+  {
+    "id": "3956489",
+    "name": "Mounting, manual transmission",
+    "partNo": "594604",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "5595",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3956489/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3956489",
+      "Article Number:": "594604",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975084505",
+      "OEM Numbers CITROËN:": "1844-51",
+      "OEM Numbers PEUGEOT:": "9610450680"
+    }
+  },
+  {
+    "id": "4438891",
+    "name": "Mounting, manual transmission",
+    "partNo": "72-11394-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "5595",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4438891/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Weight [kg]": "0,283",
+      "Required quantity": "1",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "4438891",
+      "Article Number:": "72-11394-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727626076",
+      "OEM Numbers CITROËN/PEUGEOT:": "96068159"
+    }
+  }
+]

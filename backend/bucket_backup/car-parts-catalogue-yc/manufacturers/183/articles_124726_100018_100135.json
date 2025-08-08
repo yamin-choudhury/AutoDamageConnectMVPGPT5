@@ -1,0 +1,48 @@
+[
+  {
+    "id": "3738289",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "53269",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "124726",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3738289/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3738289",
+      "Article Number:": "53269",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509353269",
+      "OEM Numbers HYUNDAI:": "98510-1W010"
+    }
+  },
+  {
+    "id": "8695757",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "QWP089",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "124726",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8695757/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "2",
+      "Pump Type": "Mono Pump",
+      "Article ID:": "8695757",
+      "Article Number:": "QWP089",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043849565",
+      "OEM Numbers HYUNDAI:": "98510-4F000",
+      "OEM Numbers KIA:": "98510-4F000"
+    }
+  }
+]

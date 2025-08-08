@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1524727",
+    "name": "Air Filter",
+    "partNo": "1646449680",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "142403",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1524727/model-series-id-41481/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "189",
+      "Width [mm]": "267",
+      "Height [mm]": "34",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1524727",
+      "Article Number:": "1646449680",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "04E129620",
+      "OEM Numbers VW:": "04E129620",
+      "OEM Numbers VW (SVW):": "04E129620D",
+      "OEM Numbers SKODA (SVW):": "04E129620D",
+      "OEM Numbers AUDI (FAW):": "L04E129620D",
+      "OEM Numbers VW (FAW):": "L04E129620D"
+    }
+  },
+  {
+    "id": "1539502",
+    "name": "Air Filter",
+    "partNo": "1672352480",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "142403",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1539502/model-series-id-41481/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "189",
+      "Width [mm]": "267",
+      "Height [mm]": "34",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1539502",
+      "Article Number:": "1672352480",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "04E129620",
+      "OEM Numbers VW:": "04E129620",
+      "OEM Numbers VW (SVW):": "04E129620D",
+      "OEM Numbers SKODA (SVW):": "04E129620D"
+    }
+  },
+  {
+    "id": "3701562",
+    "name": "Air Filter",
+    "partNo": "52457",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "142403",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3701562/model-series-id-41481/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "3701562",
+      "Article Number:": "52457",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509352457",
+      "OEM Numbers AUDI:": "04E 129 620"
+    }
+  }
+]

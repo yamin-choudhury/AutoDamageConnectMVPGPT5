@@ -1,0 +1,78 @@
+[
+  {
+    "id": "5622239",
+    "name": "Steering Column Switch",
+    "partNo": "ADJ131402",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "1563",
+    "productGroupId": "102695",
+    "categoryId": "100341",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5622239/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "XPB 101290",
+      "Weight [kg]": "0,07",
+      "Number of connectors": "8",
+      "Combi Switch Function": "with horn",
+      "Article ID:": "5622239",
+      "Article Number:": "ADJ131402",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006318584",
+      "OEM Numbers ROVER:": "XPB 101290",
+      "OEM Numbers LAND ROVER:": "XPB101290"
+    }
+  },
+  {
+    "id": "949156",
+    "name": "Steering Column Switch",
+    "partNo": "108241",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1563",
+    "productGroupId": "102695",
+    "categoryId": "100341",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/949156/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,07",
+      "Number of connectors": "8",
+      "Combi Switch Function": "with horn",
+      "Article ID:": "949156",
+      "Article Number:": "108241",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422408241",
+      "OEM Numbers ROVER:": "XPB 101290",
+      "OEM Numbers LAND ROVER:": "XPB101290"
+    }
+  },
+  {
+    "id": "2024455",
+    "name": "Steering Column Switch",
+    "partNo": "22 10 8241",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1563",
+    "productGroupId": "102695",
+    "categoryId": "100341",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2024455/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,07",
+      "Number of connectors": "8",
+      "Combi Switch Function": "with horn",
+      "Article ID:": "2024455",
+      "Article Number:": "22 10 8241",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422808241",
+      "OEM Numbers ROVER:": "XPB 101290",
+      "OEM Numbers LAND ROVER:": "XPB101290"
+    }
+  }
+]

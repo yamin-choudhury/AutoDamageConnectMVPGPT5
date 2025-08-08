@@ -1,0 +1,48 @@
+[
+  {
+    "id": "3742850",
+    "name": "Belt Tensioner, V-ribbed belt",
+    "partNo": "534 0700 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "541",
+    "productGroupId": "100441",
+    "categoryId": "100016",
+    "variantId": "138543",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3742850/model-series-id-40163/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "31,5",
+      "Outer diameter [mm]": "60",
+      "Article ID:": "3742850",
+      "Article Number:": "534 0700 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487053588",
+      "OEM Numbers SUZUKI:": "1754063R30"
+    }
+  },
+  {
+    "id": "3742851",
+    "name": "Belt Tensioner, V-ribbed belt",
+    "partNo": "534 0701 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "541",
+    "productGroupId": "100441",
+    "categoryId": "100016",
+    "variantId": "138543",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3742851/model-series-id-40163/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "31,5",
+      "Outer diameter [mm]": "60",
+      "Article ID:": "3742851",
+      "Article Number:": "534 0701 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487053626",
+      "OEM Numbers SUZUKI:": "1754063R40"
+    }
+  }
+]

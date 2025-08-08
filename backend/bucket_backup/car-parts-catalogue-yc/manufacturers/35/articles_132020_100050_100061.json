@@ -1,0 +1,98 @@
+[
+  {
+    "id": "5607130",
+    "name": "Master Cylinder, clutch",
+    "partNo": "ADBP340000",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "132020",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5607130/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,192",
+      "Supplementary Article/Supplementary Info": "without hose",
+      "Article ID:": "5607130",
+      "Article Number:": "ADBP340000",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774617714",
+      "OEM Numbers FIAT:": "55187040 SK1"
+    }
+  },
+  {
+    "id": "1598442",
+    "name": "Master Cylinder, clutch",
+    "partNo": "174868",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "132020",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1598442/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,192",
+      "Supplementary Article/Supplementary Info": "without hose",
+      "Article ID:": "1598442",
+      "Article Number:": "174868",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422474868",
+      "OEM Numbers FIAT:": "55187040 SK1"
+    }
+  },
+  {
+    "id": "1630442",
+    "name": "Master Cylinder, clutch",
+    "partNo": "180044",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "132020",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1630442/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,345",
+      "Left-/right-hand drive vehicles": "for right-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with hose",
+      "Fill Medium": "Brake Fluid",
+      "Article ID:": "1630442",
+      "Article Number:": "180044",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422480044",
+      "OEM Numbers FORD:": "1544174 SK1",
+      "OEM Numbers FIAT:": "55187040",
+      "OEM Numbers FORD MOTOR COMPANY:": "9S51-7A543-AA SK1"
+    }
+  },
+  {
+    "id": "2763800",
+    "name": "Master Cylinder, clutch",
+    "partNo": "33 10 2497",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "132020",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2763800/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,192",
+      "Supplementary Article/Supplementary Info": "without hose",
+      "Article ID:": "2763800",
+      "Article Number:": "33 10 2497",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422874868",
+      "OEM Numbers FIAT:": "55187040 SK1"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "3744958",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0005 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "33236",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3744958/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Number of grooves": "5",
+      "for manufacturer number": "F-552699.XX",
+      "Distance to first groove [mm]": "5",
+      "Article ID:": "3744958",
+      "Article Number:": "535 0005 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510819300",
+      "OEM Numbers AUDI:": "074903018P",
+      "OEM Numbers SEAT:": "074903018P",
+      "OEM Numbers SKODA:": "074903018P",
+      "OEM Numbers VW:": "074903018P"
+    }
+  },
+  {
+    "id": "491427",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "05161",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "33236",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/491427/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "491427",
+      "Article Number:": "05161",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357305161",
+      "OEM Numbers VW:": "038 903 119 M"
+    }
+  },
+  {
+    "id": "10454360",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "ZM 96.000.27",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "33236",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10454360/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M16",
+      "Overall Length [mm]": "35,1",
+      "Outer diameter [mm]": "61",
+      "Belt Pulley Ø [mm]": "56,2",
+      "Thread Length 1 [mm]": "11,7",
+      "Thread Length 2 [mm]": "24,5",
+      "for shaft diameter [mm]": "17",
+      "Number of grooves": "5",
+      "Groove from shaft end size": "5,1",
+      "Article ID:": "10454360",
+      "Article Number:": "ZM 96.000.27",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268413017",
+      "OEM Numbers AUDI:": "038 903 119 M",
+      "OEM Numbers SKODA:": "038 903 119 M",
+      "OEM Numbers VW:": "038 903 119 M"
+    }
+  }
+]

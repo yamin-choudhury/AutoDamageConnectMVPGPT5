@@ -1,0 +1,52 @@
+[
+  {
+    "id": "4756542",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 11 9229",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "33305",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756542/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4756542",
+      "Article Number:": "82 11 9229",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258873847",
+      "OEM Numbers AUDI:": "(6R0.254.200 AX)",
+      "OEM Numbers VW:": "(1K0.254.211 X)",
+      "OEM Numbers SEAT:": "(6R0.254.200 AX)",
+      "OEM Numbers SKODA:": "(6R0.254.200 AX)"
+    }
+  },
+  {
+    "id": "4756611",
+    "name": "Mounting Kit, muffler",
+    "partNo": "82 11 9853",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "519",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "33305",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756611/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with pipe connector",
+      "Exhaust System": "for rear muffler",
+      "Article ID:": "4756611",
+      "Article Number:": "82 11 9853",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258832213",
+      "OEM Numbers SEAT:": "JZW.298.141 AC",
+      "OEM Numbers SKODA:": "JZW.298.141 AC",
+      "OEM Numbers VW:": "JZW.298.141 AC",
+      "OEM Numbers AUDI:": "JZW.298.141 AC"
+    }
+  }
+]

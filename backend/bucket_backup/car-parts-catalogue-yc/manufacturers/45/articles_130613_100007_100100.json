@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2165930",
+    "name": "Radiator Hose",
+    "partNo": "23390",
+    "manufacturer": "GATES-MX",
+    "supplierId": "6350",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "130613",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2165930/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "31",
+      "Inner diameter 2 [mm]": "31",
+      "Hose Length [mm]": "409",
+      "Article ID:": "2165930",
+      "Article Number:": "23390",
+      "Manufacturer:": "GATES-MX",
+      "EAN Numbers:": "077007536208",
+      "OEM Numbers HONDA:": "19501RGLA01"
+    }
+  },
+  {
+    "id": "2165962",
+    "name": "Radiator Hose",
+    "partNo": "23391",
+    "manufacturer": "GATES-MX",
+    "supplierId": "6350",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "130613",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2165962/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "31",
+      "Inner diameter 2 [mm]": "31",
+      "Hose Length [mm]": "772",
+      "Article ID:": "2165962",
+      "Article Number:": "23391",
+      "Manufacturer:": "GATES-MX",
+      "EAN Numbers:": "077007536209",
+      "OEM Numbers HONDA:": "19502RGLA01"
+    }
+  }
+]

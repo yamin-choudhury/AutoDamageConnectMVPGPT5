@@ -1,0 +1,78 @@
+[
+  {
+    "id": "7044836",
+    "name": "Fuel Feed Unit",
+    "partNo": "FG1502-12B1",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "58802",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7044836/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fuel Type": "Petrol",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Supplementary Article/Info 2": "without pressure sensor",
+      "Article ID:": "7044836",
+      "Article Number:": "FG1502-12B1",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275952526",
+      "OEM Numbers SEAT:": "1S0919051B",
+      "OEM Numbers SKODA:": "1S0919051B",
+      "OEM Numbers VW:": "1S0919051B"
+    }
+  },
+  {
+    "id": "9508208",
+    "name": "Fuel Feed Unit",
+    "partNo": "V10-09-1238",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "58802",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9508208/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,88",
+      "Operating Mode": "Electric",
+      "Article ID:": "9508208",
+      "Article Number:": "V10-09-1238",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "404600162428",
+      "OEM Numbers AUDI:": "1S0 919 087",
+      "OEM Numbers SEAT:": "1S0 919 051 B",
+      "OEM Numbers SKODA:": "1S0 919 087",
+      "OEM Numbers VW:": "1S0 919 087",
+      "OEM Numbers VAG:": "1S0 919 087"
+    }
+  },
+  {
+    "id": "9945636",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG1498751",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "58802",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9945636/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fuel Type": "Petrol",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Supplementary Article/Info 2": "without pressure sensor",
+      "Article ID:": "9945636",
+      "Article Number:": "WG1498751",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "1S0 919 051 B"
+    }
+  }
+]

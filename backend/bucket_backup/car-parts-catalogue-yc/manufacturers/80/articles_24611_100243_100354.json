@@ -1,0 +1,49 @@
+[
+  {
+    "id": "9472230",
+    "name": "Compressor, air conditioning",
+    "partNo": "TSP0155401",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "24611",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9472230/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "CALSO",
+      "Belt Pulley Ø [mm]": "139",
+      "Compressor Oil": "PAG 150",
+      "Compressor ID": "CSV613",
+      "Clutch ID": "PV6",
+      "Article ID:": "9472230",
+      "Article Number:": "TSP0155401",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275936121",
+      "OEM Numbers NISSAN:": "92600-9F511"
+    }
+  },
+  {
+    "id": "5734359",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCONI0038",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "24611",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5734359/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5734359",
+      "Article Number:": "APCONI0038",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers NISSAN:": "926009F502"
+    }
+  }
+]

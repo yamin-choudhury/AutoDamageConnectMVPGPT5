@@ -1,0 +1,62 @@
+[
+  {
+    "id": "5596280",
+    "name": "Wiper Blade",
+    "partNo": "AD14HY350",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "15967",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596280/model-series-id-10111/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "350",
+      "Length [in]": "14",
+      "Weight [kg]": "0,067",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Hybrid Wiper Blade",
+      "Article ID:": "5596280",
+      "Article Number:": "AD14HY350",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327928",
+      "OEM Numbers HONDA:": "76630-TF0-G01",
+      "OEM Numbers TOYOTA:": "85222-25160"
+    }
+  },
+  {
+    "id": "4499741",
+    "name": "Wiper Blade",
+    "partNo": "7418-20140",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "15967",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4499741/model-series-id-10111/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4499741",
+      "Article Number:": "7418-20140",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers NISSAN:": "AY00AUK13R",
+      "OEM Numbers SUZUKI:": "38350M60M02",
+      "OEM Numbers PROTON:": "PC542503",
+      "OEM Numbers MARUTI:": "38350M60M02",
+      "OEM Numbers TATA:": "542782400118",
+      "OEM Numbers HONDA:": "76630TM0T01",
+      "OEM Numbers TOYOTA:": "85222-BZ220",
+      "OEM Numbers DAIHATSU:": "85242-BZ030",
+      "OEM Numbers PERODUA:": "85242-BZ030",
+      "OEM Numbers DAEWOO:": "96380628",
+      "OEM Numbers HYUNDAI:": "98820-17000",
+      "OEM Numbers KIA:": "98360-A5000",
+      "OEM Numbers INOKOM:": "98820-17000",
+      "OEM Numbers MITSUBISHI:": "MB885837"
+    }
+  }
+]

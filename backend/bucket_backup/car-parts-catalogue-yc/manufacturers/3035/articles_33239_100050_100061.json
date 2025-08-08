@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1137649",
+    "name": "Master Cylinder, clutch",
+    "partNo": "1202471",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "33239",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1137649/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "15,87",
+      "Article ID:": "1137649",
+      "Article Number:": "1202471",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293747865",
+      "OEM Numbers AUDI:": "6Q0 721 388 G",
+      "OEM Numbers SEAT:": "6Q0 721 388 G",
+      "OEM Numbers SKODA:": "6Q0 721 388 G",
+      "OEM Numbers VW:": "6Q0 721 388 G"
+    }
+  },
+  {
+    "id": "3620805",
+    "name": "Master Cylinder, clutch",
+    "partNo": "511 0105 10",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "33239",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3620805/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3620805",
+      "Article Number:": "511 0105 10",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510835933",
+      "OEM Numbers AUDI:": "6QE721388",
+      "OEM Numbers SEAT:": "6QE721388",
+      "OEM Numbers SKODA:": "6QE721388",
+      "OEM Numbers VW:": "6QE721388"
+    }
+  },
+  {
+    "id": "8579355",
+    "name": "Master Cylinder, clutch",
+    "partNo": "PNB471",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "33239",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8579355/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "15,87",
+      "Article ID:": "8579355",
+      "Article Number:": "PNB471",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293739495",
+      "OEM Numbers AUDI:": "6Q0 721 388 G",
+      "OEM Numbers SEAT:": "6Q0 721 388 G",
+      "OEM Numbers SKODA:": "6Q0 721 388 G",
+      "OEM Numbers VW:": "6Q0 721 388 G"
+    }
+  }
+]

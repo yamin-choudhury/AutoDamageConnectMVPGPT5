@@ -1,0 +1,98 @@
+[
+  {
+    "id": "118577",
+    "type": "1.0 (A1K310)",
+    "modelId": "36212",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10C",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118578",
+    "type": "1.2 (A1K412)",
+    "modelId": "36212",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K12C",
+      "cylinder": "4",
+      "capacity": "1,242 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118579",
+    "type": "1.2 Hybrid (A1K412)",
+    "modelId": "36212",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K12C",
+      "cylinder": "4",
+      "capacity": "1,242 CCM / 1.2 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2016-02-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128521",
+    "type": "1.2",
+    "modelId": "36212",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K12C",
+      "cylinder": "4",
+      "capacity": "1,242 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "67 KW / 91 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128522",
+    "type": "1.4",
+    "modelId": "36212",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K14B",
+      "cylinder": "4",
+      "capacity": "1,372 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-06-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135036",
+    "type": "1.0",
+    "modelId": "36212",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10C",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-01-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  }
+]

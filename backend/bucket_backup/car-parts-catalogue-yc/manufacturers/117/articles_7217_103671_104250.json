@@ -1,0 +1,101 @@
+[
+  {
+    "id": "9636355",
+    "name": "Flywheel",
+    "partNo": "VOL021N",
+    "manufacturer": "DIPASPORT",
+    "supplierId": "4882",
+    "productsId": "577",
+    "productGroupId": "104250",
+    "categoryId": "103671",
+    "variantId": "7217",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9636355/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "240",
+      "Article ID:": "9636355",
+      "Article Number:": "VOL021N",
+      "Manufacturer:": "DIPASPORT",
+      "OEM Numbers OPEL:": "4817995",
+      "OEM Numbers VAUXHALL:": "4817995",
+      "OEM Numbers CHEVROLET:": "24243637"
+    }
+  },
+  {
+    "id": "3230497",
+    "name": "Flywheel",
+    "partNo": "415 0741 10",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "577",
+    "productGroupId": "104250",
+    "categoryId": "103671",
+    "variantId": "7217",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3230497/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Manual Transmission",
+      "Supplementary Article/Info 2": "with screw set",
+      "Number of mounting bores": "6",
+      "Article ID:": "3230497",
+      "Article Number:": "415 0741 10",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487016531",
+      "OEM Numbers OPEL:": "4817995",
+      "OEM Numbers VAUXHALL:": "4817995",
+      "OEM Numbers CHEVROLET:": "24243637"
+    }
+  },
+  {
+    "id": "2106230",
+    "name": "Flywheel",
+    "partNo": "2294 001 589",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "577",
+    "productGroupId": "104250",
+    "categoryId": "103671",
+    "variantId": "7217",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2106230/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Outer diameter [mm]": "240",
+      "Supplementary Article/Supplementary Info": "with flywheel screws",
+      "Article ID:": "2106230",
+      "Article Number:": "2294 001 589",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387279937",
+      "OEM Numbers OPEL:": "4817995",
+      "OEM Numbers VAUXHALL:": "4817995",
+      "OEM Numbers CHEVROLET:": "24243637"
+    }
+  },
+  {
+    "id": "2106230",
+    "name": "Flywheel",
+    "partNo": "2294 001 589",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "577",
+    "productGroupId": "104250",
+    "categoryId": "103671",
+    "variantId": "7217",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2106230/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Outer diameter [mm]": "240",
+      "Supplementary Article/Supplementary Info": "with flywheel screws",
+      "Article ID:": "2106230",
+      "Article Number:": "2294 001 589",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387279937",
+      "OEM Numbers OPEL:": "4817995",
+      "OEM Numbers VAUXHALL:": "4817995",
+      "OEM Numbers CHEVROLET:": "24243637"
+    }
+  }
+]

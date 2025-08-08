@@ -1,0 +1,210 @@
+[
+  {
+    "id": "139208",
+    "type": "TCe 100 (HFMT)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4D 450",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-01-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139209",
+    "type": "TCe 130 (HFMF)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5H 470",
+      "cylinder": "4",
+      "capacity": "1,332 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2020-01-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139210",
+    "type": "TCe 155 (HFMN)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5H 470",
+      "cylinder": "4",
+      "capacity": "1,332 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2020-01-01",
+      "power": "113 KW / 154 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139211",
+    "type": "Blue dCi 95 (HFAF)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 872",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2020-01-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139212",
+    "type": "Blue dCi 115 (HFAD)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 872,K9K 873",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2020-01-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140405",
+    "type": "LPG (HFMT)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4D 460",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2020-01-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140525",
+    "type": "E-TECH 160",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4M 630",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-05-01",
+      "power": "116 KW / 158 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141969",
+    "type": "TCe 90 (HFM6)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4D 470",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-09-01",
+      "power": "67 KW / 91 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142008",
+    "type": "TCe 140 (HFN0)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5H 490",
+      "cylinder": "4",
+      "capacity": "1,332 CCM / 1.3 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-01-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145556",
+    "type": "1.0 TCe 90 ECO-G (HFM6)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4D 470",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2021-01-01",
+      "power": "67 KW / 91 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145711",
+    "type": "TCe 160 (HFN1)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5H 490",
+      "cylinder": "4",
+      "capacity": "1,332 CCM / 1.3 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-09-01",
+      "power": "116 KW / 158 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "147398",
+    "type": "E-TECH 145 (HFMU)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4M 632",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2022-01-01",
+      "power": "105 KW / 143 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "147792",
+    "type": "E-TECH 145 (HFMU, HFMM)",
+    "modelId": "40399",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4M 630,H4M 632",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2021-06-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4313348",
+    "name": "Brake Hose",
+    "partNo": "6T48376",
+    "manufacturer": "LPR",
+    "supplierId": "197",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "107636",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4313348/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "450",
+      "Thread Size 1": "10",
+      "Thread Size 2": "F10X1",
+      "Article ID:": "4313348",
+      "Article Number:": "6T48376",
+      "Manufacturer:": "LPR",
+      "EAN Numbers:": "803292812657",
+      "OEM Numbers HONDA:": "01468TL0G50"
+    }
+  },
+  {
+    "id": "4313349",
+    "name": "Brake Hose",
+    "partNo": "6T48376",
+    "manufacturer": "SAMKO",
+    "supplierId": "343",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "107636",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4313349/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "450",
+      "Thread Size 1": "10",
+      "Thread Size 2": "F10X1",
+      "Article ID:": "4313349",
+      "Article Number:": "6T48376",
+      "Manufacturer:": "SAMKO",
+      "EAN Numbers:": "803292812657",
+      "OEM Numbers HONDA:": "01468TL0G50"
+    }
+  }
+]

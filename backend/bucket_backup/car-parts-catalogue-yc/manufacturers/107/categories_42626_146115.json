@@ -1,0 +1,146 @@
+[
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "146115",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100572",
+        "name": "Control Arm/Swing Arm Joint",
+        "categoryId": "100013",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100572/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100577",
+        "name": "Stabiliser Bar/Fastening Parts",
+        "categoryId": "100013",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100577/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100579",
+        "name": "Wheel Hub/Mounting",
+        "categoryId": "100013",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100579/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "146115",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100491",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100491/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "146115",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100046/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "146115",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/103984/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103897",
+        "name": "Suspension/Damping",
+        "categoryId": "103671",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/103897/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100011",
+    "name": "Suspension/Damping",
+    "variantId": "146115",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "101830",
+        "name": "Coil Spring Suspension",
+        "categoryId": "100011",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/101830/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100340",
+        "name": "Leveling Control/ Suspension Hydraulics",
+        "categoryId": "100011",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100340/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100121",
+        "name": "Shock Absorber",
+        "categoryId": "100011",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100121/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100370",
+        "name": "Suspension Kit, complete",
+        "categoryId": "100011",
+        "variantId": "146115",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/146115/100370/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

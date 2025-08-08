@@ -1,0 +1,44 @@
+[
+  {
+    "id": "301943",
+    "name": "Mounting, engine",
+    "partNo": "0212-B10R",
+    "manufacturer": "ASVA",
+    "supplierId": "4631",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "414",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/301943/model-series-id-9005/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Fitting",
+      "Article ID:": "301943",
+      "Article Number:": "0212-B10R",
+      "Manufacturer:": "ASVA",
+      "OEM Numbers NISSAN:": "11320-95F0A"
+    }
+  },
+  {
+    "id": "301987",
+    "name": "Mounting, engine",
+    "partNo": "0212-N16JF",
+    "manufacturer": "ASVA",
+    "supplierId": "4631",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "414",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/301987/model-series-id-9005/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Article ID:": "301987",
+      "Article Number:": "0212-N16JF",
+      "Manufacturer:": "ASVA",
+      "OEM Numbers NISSAN:": "11270-95F0A"
+    }
+  }
+]

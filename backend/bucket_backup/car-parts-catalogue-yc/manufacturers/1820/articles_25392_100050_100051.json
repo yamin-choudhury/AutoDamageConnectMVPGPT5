@@ -1,0 +1,100 @@
+[
+  {
+    "id": "4142734",
+    "name": "Clutch Kit",
+    "partNo": "626 3052 09",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4142734/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "260",
+      "Adjustment": "with automatic adjustment",
+      "Article ID:": "4142734",
+      "Article Number:": "626 3052 09",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510872199",
+      "OEM Numbers LAND ROVER:": "URF500060"
+    }
+  },
+  {
+    "id": "4142735",
+    "name": "Clutch Kit",
+    "partNo": "626 3052 33",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4142735/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "260",
+      "Supplementary Article/Supplementary Info": "with central slave cylinder",
+      "Adjustment": "with automatic adjustment",
+      "Article ID:": "4142735",
+      "Article Number:": "626 3052 33",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510872171",
+      "OEM Numbers JAGUAR:": "XR832967",
+      "OEM Numbers LAND ROVER:": "UUB000100"
+    }
+  },
+  {
+    "id": "4832042",
+    "name": "Clutch Kit",
+    "partNo": "832069",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4832042/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "8,86",
+      "Supplementary Article/Supplementary Info": "without central slave cylinder",
+      "Supplementary Article/Info 2": "with clutch disc",
+      "External diameter, clutch pressure plate [mm]": "260",
+      "Article ID:": "4832042",
+      "Article Number:": "832069",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642832069",
+      "OEM Numbers LAND ROVER:": "URF500060"
+    }
+  },
+  {
+    "id": "4832042",
+    "name": "Clutch Kit",
+    "partNo": "832069",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4832042/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "8,86",
+      "Supplementary Article/Supplementary Info": "without central slave cylinder",
+      "Supplementary Article/Info 2": "with clutch disc",
+      "External diameter, clutch pressure plate [mm]": "260",
+      "Article ID:": "4832042",
+      "Article Number:": "832069",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642832069",
+      "OEM Numbers LAND ROVER:": "URF500060"
+    }
+  }
+]

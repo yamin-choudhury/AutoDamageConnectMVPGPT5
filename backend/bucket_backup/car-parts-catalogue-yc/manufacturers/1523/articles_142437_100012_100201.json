@@ -1,0 +1,52 @@
+[
+  {
+    "id": "671777",
+    "name": "Bellow Kit, steering",
+    "partNo": "0908508",
+    "manufacturer": "OCAP",
+    "supplierId": "198",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "142437",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/671777/model-series-id-12860/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Inner diameter 1 [mm]": "14",
+      "Inner diameter 2 [mm]": "52",
+      "Article ID:": "671777",
+      "Article Number:": "0908508",
+      "Manufacturer:": "OCAP",
+      "OEM Numbers BMW:": "32106893700",
+      "OEM Numbers MINI:": "32106893700"
+    }
+  },
+  {
+    "id": "2722030",
+    "name": "Bellow, steering",
+    "partNo": "321.036",
+    "manufacturer": "SIDEM",
+    "supplierId": "135",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "142437",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2722030/model-series-id-12860/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "187",
+      "Inner diameter 1 [mm]": "13,5",
+      "Inner diameter 2 [mm]": "51,5",
+      "Article ID:": "2722030",
+      "Article Number:": "321.036",
+      "Manufacturer:": "SIDEM",
+      "EAN Numbers:": "541397826429",
+      "OEM Numbers BMW:": "32 10 6 865 380",
+      "OEM Numbers MINI:": "32 10 6 893 700"
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "7142459",
+    "name": "Fuel Feed Unit",
+    "partNo": "FT4099-12B1",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "32155",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7142459/model-series-id-5148/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "220",
+      "Width [mm]": "122",
+      "Height [mm]": "163",
+      "Fuel Type": "Diesel",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Supplementary Article/Info 2": "without pressure sensor",
+      "Article ID:": "7142459",
+      "Article Number:": "FT4099-12B1",
+      "Manufacturer:": "DELPHI",
+      "OEM Numbers VAUXHALL:": "93190269",
+      "OEM Numbers OPEL:": "93190269"
+    }
+  },
+  {
+    "id": "9992046",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG1778694",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "32155",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9992046/model-series-id-5148/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Number of connectors": "2",
+      "Article ID:": "9992046",
+      "Article Number:": "WG1778694",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers OPEL:": "815168",
+      "OEM Numbers GENERAL MOTORS:": "93190269"
+    }
+  },
+  {
+    "id": "10297490",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG2194538",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "32155",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10297490/model-series-id-5148/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "220",
+      "Width [mm]": "122",
+      "Height [mm]": "163",
+      "Fuel Type": "Diesel",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Supplementary Article/Info 2": "without pressure sensor",
+      "Article ID:": "10297490",
+      "Article Number:": "WG2194538",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAUXHALL:": "93190269",
+      "OEM Numbers OPEL:": "93190269"
+    }
+  }
+]

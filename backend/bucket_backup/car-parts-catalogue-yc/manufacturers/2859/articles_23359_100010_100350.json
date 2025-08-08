@@ -1,0 +1,62 @@
+[
+  {
+    "id": "8110471",
+    "name": "Alternator",
+    "partNo": "MEE035042",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "23359",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8110471/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Alternator Charge Current [A]": "90",
+      "Fitting Position": "Alternator",
+      "Weight [kg]": "5,84",
+      "Number of ribs": "6",
+      "Position / Degree": "71",
+      "Belt Pulley Ø [mm]": "56,0",
+      "Clamp": "B+(M8)",
+      "Rotation Direction": "Clockwise rotation",
+      "Article ID:": "8110471",
+      "Article Number:": "MEE035042",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880975248284",
+      "OEM Numbers VW:": "74903026",
+      "OEM Numbers AUDI:": "6B903018SX",
+      "OEM Numbers SEAT:": "6B903018SX",
+      "OEM Numbers SKODA:": "6B903018SX",
+      "OEM Numbers VW (SVW):": "L030903023J",
+      "OEM Numbers VW (FAW):": "L030903023J"
+    }
+  },
+  {
+    "id": "6951564",
+    "name": "Alternator",
+    "partNo": "F042A01180",
+    "manufacturer": "UNIPOINT",
+    "supplierId": "4620",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "23359",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6951564/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Alternator Charge Current [A]": "90",
+      "Diameter [mm]": "56",
+      "Pulleys": "with multi-belt pulley",
+      "Number of grooves": "6",
+      "Article ID:": "6951564",
+      "Article Number:": "F042A01180",
+      "Manufacturer:": "UNIPOINT",
+      "OEM Numbers VW:": "06A-903-026A"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "3745179",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0247 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "108281",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3745179/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "for manufacturer number": "F-570870.XX",
+      "Article ID:": "3745179",
+      "Article Number:": "535 0247 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510883839",
+      "OEM Numbers MITSUBISHI:": "1800A567",
+      "OEM Numbers MAZDA:": "SHMW18300"
+    }
+  },
+  {
+    "id": "9614739",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "VKM 06408",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "108281",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9614739/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "39,2",
+      "Number of ribs": "6",
+      "Inner diameter [mm]": "17",
+      "Outer diameter [mm]": "50,9",
+      "Article ID:": "9614739",
+      "Article Number:": "VKM 06408",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657715865",
+      "OEM Numbers MAZDA:": "SH1A-18-330A"
+    }
+  }
+]

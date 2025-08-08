@@ -1,0 +1,52 @@
+[
+  {
+    "id": "4530727",
+    "name": "Mount, exhaust system",
+    "partNo": "753-711",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "58978",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4530727/model-series-id-8052/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4530727",
+      "Article Number:": "753-711",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513329606",
+      "OEM Numbers SUZUKI:": "1428158B00",
+      "OEM Numbers NISSAN:": "2069514N000",
+      "OEM Numbers VOLVO:": "30617119",
+      "OEM Numbers MITSUBISHI:": "MR514734"
+    }
+  },
+  {
+    "id": "4530766",
+    "name": "Mount, exhaust system",
+    "partNo": "753-911",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "58978",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4530766/model-series-id-8052/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4530766",
+      "Article Number:": "753-911",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513321653",
+      "OEM Numbers SUZUKI:": "1428158B00",
+      "OEM Numbers NISSAN:": "2069514N000",
+      "OEM Numbers VOLVO:": "30617119",
+      "OEM Numbers MITSUBISHI:": "MR514734"
+    }
+  }
+]

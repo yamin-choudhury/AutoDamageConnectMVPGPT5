@@ -1,0 +1,53 @@
+[
+  {
+    "id": "7602568",
+    "name": "Bellow Kit, steering",
+    "partNo": "J4104037",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "100317",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7602568/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "178",
+      "Inner diameter 1 [mm]": "14,5",
+      "Inner diameter 2 [mm]": "46,5",
+      "Article ID:": "7602568",
+      "Article Number:": "J4104037",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941640610",
+      "OEM Numbers HONDA:": "53429-TR0-A02"
+    }
+  },
+  {
+    "id": "2995953",
+    "name": "Bellow, steering",
+    "partNo": "37604 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "100317",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2995953/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "162",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "12,5",
+      "Inner diameter 2 [mm]": "50,5",
+      "Article ID:": "2995953",
+      "Article Number:": "37604 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743742953",
+      "OEM Numbers HONDA:": "53537-TL1-G01",
+      "OEM Numbers MAZDA:": "GS1D-32-125"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "4841813",
+    "name": "Valve, brake booster",
+    "partNo": "83706",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "663",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "33472",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4841813/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Valve type": "Non-Return Valve",
+      "Article ID:": "4841813",
+      "Article Number:": "83706",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843388912955",
+      "OEM Numbers AUDI:": "046905291B",
+      "OEM Numbers SEAT:": "046905291B",
+      "OEM Numbers VW:": "046905291B"
+    }
+  },
+  {
+    "id": "5655327",
+    "name": "Pressure Sensor, brake booster",
+    "partNo": "AF05163",
+    "manufacturer": "Alfa e-Parts",
+    "supplierId": "5413",
+    "productsId": "4144",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "33472",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5655327/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Pressure from [bar]": "0,13",
+      "Pressure to [bar]": "1,12",
+      "Number of pins": "4",
+      "Voltage from [V]": "0,5",
+      "Voltage to [V]": "4,5",
+      "Socket colour": "Black",
+      "Article ID:": "5655327",
+      "Article Number:": "AF05163",
+      "Manufacturer:": "Alfa e-Parts",
+      "EAN Numbers:": "844573100193",
+      "OEM Numbers AUDI:": "036906051G",
+      "OEM Numbers SEAT:": "036906051G",
+      "OEM Numbers SKODA:": "036906051G",
+      "OEM Numbers VW:": "036906051G",
+      "OEM Numbers VAG:": "036906051G",
+      "OEM Numbers STANDARD AUTOMOBILE:": "16910",
+      "OEM Numbers DS:": "1721",
+      "OEM Numbers PORSCHE:": "95835505107"
+    }
+  }
+]

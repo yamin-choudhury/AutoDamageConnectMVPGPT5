@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3635463",
+    "name": "Bulb, front fog light",
+    "partNo": "51162",
+    "manufacturer": "SPAHN GLÜHLAMPEN",
+    "supplierId": "45",
+    "productsId": "108",
+    "productGroupId": "101343",
+    "categoryId": "100001",
+    "variantId": "100897",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3635463/model-series-id-4919/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "55",
+      "Lamp Type": "H1",
+      "Socket Type": "P14,5s",
+      "Article ID:": "3635463",
+      "Article Number:": "51162",
+      "Manufacturer:": "SPAHN GLÜHLAMPEN",
+      "EAN Numbers:": "401663551163",
+      "OEM Numbers EVOBUS:": "000000 000268",
+      "OEM Numbers BMW:": "07 50 9 064 001",
+      "OEM Numbers OPEL:": "2098 275",
+      "OEM Numbers JOHN DEERE:": "57 M7 019",
+      "OEM Numbers FORD:": "96FG13009AA",
+      "OEM Numbers FIAT:": "83931521",
+      "OEM Numbers AUDI:": "N 017 761 2",
+      "OEM Numbers SEAT:": "N 017 761 2",
+      "OEM Numbers SKODA:": "N 017 761 2",
+      "OEM Numbers VW:": "N 017 761 2",
+      "OEM Numbers MERCEDES-BENZ:": "N 072 601 012 270",
+      "OEM Numbers MITSUBISHI:": "Z1719089"
+    }
+  }
+]

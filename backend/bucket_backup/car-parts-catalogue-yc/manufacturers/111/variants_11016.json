@@ -1,0 +1,18 @@
+[
+  {
+    "id": "58367",
+    "type": "3.5 (GSV50)",
+    "modelId": "11016",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2011-09-01",
+      "power": "200 KW / 272 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "839150",
+    "name": "Clutch Pedal Pad",
+    "partNo": "101011",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1630",
+    "productGroupId": "100712",
+    "categoryId": "100050",
+    "variantId": "18264",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/839150/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "12,3",
+      "Length [mm]": "69,4",
+      "Width [mm]": "55",
+      "Weight [kg]": "0,03",
+      "Colour": "Black",
+      "Material": "Elastomer",
+      "Article ID:": "839150",
+      "Article Number:": "101011",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422401011",
+      "OEM Numbers MERCEDES-BENZ:": "A201 291 00 82"
+    }
+  },
+  {
+    "id": "772439",
+    "name": "Clutch Pedal Pad",
+    "partNo": "10 10 1011",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1630",
+    "productGroupId": "100712",
+    "categoryId": "100050",
+    "variantId": "18264",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/772439/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "12,3",
+      "Length [mm]": "69,4",
+      "Width [mm]": "55",
+      "Weight [kg]": "0,03",
+      "Colour": "Black",
+      "Material": "Elastomer",
+      "Article ID:": "772439",
+      "Article Number:": "10 10 1011",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422801011",
+      "OEM Numbers MERCEDES-BENZ:": "A201 291 00 82"
+    }
+  }
+]

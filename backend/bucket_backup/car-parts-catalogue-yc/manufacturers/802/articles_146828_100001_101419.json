@@ -1,0 +1,32 @@
+[
+  {
+    "id": "9574943",
+    "name": "Bulb, stop light",
+    "partNo": "VBU382",
+    "manufacturer": "MOTAQUIP",
+    "supplierId": "4564",
+    "productsId": "111",
+    "productGroupId": "101419",
+    "categoryId": "100001",
+    "variantId": "146828",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9574943/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "21",
+      "Socket Type": "SCC",
+      "Glass": "Clear glass",
+      "Article ID:": "9574943",
+      "Article Number:": "VBU382",
+      "Manufacturer:": "MOTAQUIP",
+      "OEM Numbers CITROËN:": "6216 A4",
+      "OEM Numbers PEUGEOT:": "6216.A4",
+      "OEM Numbers AUDI:": "8X0 945 981",
+      "OEM Numbers SEAT:": "8X0 945 981",
+      "OEM Numbers SKODA:": "8X0 945 981",
+      "OEM Numbers VW:": "8X0 945 981",
+      "OEM Numbers VAUXHALL:": "93190466"
+    }
+  }
+]

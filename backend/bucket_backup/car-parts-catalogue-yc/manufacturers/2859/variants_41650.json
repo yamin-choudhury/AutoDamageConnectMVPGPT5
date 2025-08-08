@@ -1,0 +1,34 @@
+[
+  {
+    "id": "142873",
+    "type": "330TSI",
+    "modelId": "41650",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DPLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-12-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142874",
+    "type": "380TSI",
+    "modelId": "41650",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-12-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  }
+]

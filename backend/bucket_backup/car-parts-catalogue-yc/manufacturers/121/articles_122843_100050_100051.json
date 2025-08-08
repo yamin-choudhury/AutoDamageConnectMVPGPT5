@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4142772",
+    "name": "Clutch Kit",
+    "partNo": "626 3146 09",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "122843",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4142772/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "260",
+      "Adjustment": "with automatic adjustment",
+      "Article ID:": "4142772",
+      "Article Number:": "626 3146 09",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487057768",
+      "OEM Numbers VW:": "059141031Q"
+    }
+  },
+  {
+    "id": "2549715",
+    "name": "Clutch Kit",
+    "partNo": "3000 950 736",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "122843",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2549715/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "26",
+      "Diameter [mm]": "260",
+      "Adjustment": "with automatic adjustment",
+      "Supplementary Article/Info 2": "without clutch release bearing",
+      "Article ID:": "2549715",
+      "Article Number:": "3000 950 736",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "405992302772",
+      "OEM Numbers VW:": "059 141 031 Q"
+    }
+  }
+]

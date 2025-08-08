@@ -1,0 +1,103 @@
+[
+  {
+    "id": "5630138",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "ADN15808",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "106194",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5630138/model-series-id-8052/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "501",
+      "Weight [kg]": "0,27",
+      "Stroke [mm]": "185,5",
+      "Eject Force [N]": "350",
+      "Housing Diameter [mm]": "18",
+      "Piston Rod Diameter [mm]": "8",
+      "Article ID:": "5630138",
+      "Article Number:": "ADN15808",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006315046",
+      "OEM Numbers NISSAN:": "90453-1EA1C"
+    }
+  },
+  {
+    "id": "1496688",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "1615076780",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "106194",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1496688/model-series-id-8052/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle Tailgate",
+      "Length [mm]": "500",
+      "Stroke [mm]": "200",
+      "Eject Force [N]": "270",
+      "Housing Diameter [mm]": "18",
+      "Stanchion Tube Diameter [mm]": "8",
+      "Article ID:": "1496688",
+      "Article Number:": "1615076780",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers NISSAN:": "904531EA1C"
+    }
+  },
+  {
+    "id": "4941499",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "857538",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "106194",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4941499/model-series-id-8052/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "500,5",
+      "Stroke [mm]": "185,5",
+      "Eject Force [N]": "270",
+      "Article ID:": "4941499",
+      "Article Number:": "857538",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657749168",
+      "OEM Numbers NISSAN:": "90453-1EA1A"
+    }
+  },
+  {
+    "id": "4952155",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "861362",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "106194",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4952155/model-series-id-8052/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "500,5",
+      "Stroke [mm]": "185,5",
+      "Eject Force [N]": "350",
+      "Article ID:": "4952155",
+      "Article Number:": "861362",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657749142",
+      "OEM Numbers NISSAN:": "90453-1EA1C"
+    }
+  }
+]

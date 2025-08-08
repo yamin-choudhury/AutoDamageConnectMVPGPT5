@@ -1,0 +1,51 @@
+[
+  {
+    "id": "3744958",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0005 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "24161",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3744958/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Number of grooves": "5",
+      "for manufacturer number": "F-552699.XX",
+      "Distance to first groove [mm]": "5",
+      "Article ID:": "3744958",
+      "Article Number:": "535 0005 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510819300",
+      "OEM Numbers AUDI:": "074903018P",
+      "OEM Numbers SEAT:": "074903018P",
+      "OEM Numbers SKODA:": "074903018P",
+      "OEM Numbers VW:": "074903018P"
+    }
+  },
+  {
+    "id": "491427",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "05161",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "24161",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/491427/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "491427",
+      "Article Number:": "05161",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357305161",
+      "OEM Numbers VW:": "038 903 119 M"
+    }
+  }
+]

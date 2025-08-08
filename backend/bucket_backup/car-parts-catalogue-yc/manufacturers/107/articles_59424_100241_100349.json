@@ -1,0 +1,68 @@
+[
+  {
+    "id": "7893325",
+    "name": "Interior Blower",
+    "partNo": "LFh 2213",
+    "manufacturer": "LUZAR",
+    "supplierId": "4707",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "59424",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7893325/model-series-id-11267/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Current Strength from [A]": "17,4",
+      "Power [W]": "209",
+      "Article ID:": "7893325",
+      "Article Number:": "LFh 2213",
+      "Manufacturer:": "LUZAR",
+      "EAN Numbers:": "468029511221",
+      "OEM Numbers SUBARU:": "72223FJ001"
+    }
+  },
+  {
+    "id": "6584540",
+    "name": "Interior Blower",
+    "partNo": "DD7003TT",
+    "manufacturer": "THERMOTEC",
+    "supplierId": "4466",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "59424",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6584540/model-series-id-11267/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6584540",
+      "Article Number:": "DD7003TT",
+      "Manufacturer:": "THERMOTEC",
+      "EAN Numbers:": "590165513014",
+      "OEM Numbers SUBARU:": "92191993"
+    }
+  },
+  {
+    "id": "6584540",
+    "name": "Interior Blower",
+    "partNo": "DD7003TT",
+    "manufacturer": "THERMOTEC",
+    "supplierId": "4466",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "59424",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6584540/model-series-id-11267/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6584540",
+      "Article Number:": "DD7003TT",
+      "Manufacturer:": "THERMOTEC",
+      "EAN Numbers:": "590165513014",
+      "OEM Numbers SUBARU:": "92191993"
+    }
+  }
+]

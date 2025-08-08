@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3837436",
+    "name": "Cable Pull, parking brake",
+    "partNo": "554687",
+    "manufacturer": "SEIM",
+    "supplierId": "263",
+    "productsId": "124",
+    "productGroupId": "100635",
+    "categoryId": "100006",
+    "variantId": "122163",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3837436/model-series-id-38847/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Length 1/ Length 2 [mm]": "1455/1238",
+      "Required quantity": "1",
+      "Article ID:": "3837436",
+      "Article Number:": "554687",
+      "Manufacturer:": "SEIM",
+      "EAN Numbers:": "334980554687",
+      "OEM Numbers NISSAN:": "365314A00B",
+      "OEM Numbers SUZUKI:": "54402M68K00",
+      "OEM Numbers SANTANA:": "54402M68K00"
+    }
+  },
+  {
+    "id": "3837442",
+    "name": "Cable Pull, parking brake",
+    "partNo": "554688",
+    "manufacturer": "SEIM",
+    "supplierId": "263",
+    "productsId": "124",
+    "productGroupId": "100635",
+    "categoryId": "100006",
+    "variantId": "122163",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3837442/model-series-id-38847/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Length 1/ Length 2 [mm]": "1440/1224",
+      "Required quantity": "1",
+      "Article ID:": "3837442",
+      "Article Number:": "554688",
+      "Manufacturer:": "SEIM",
+      "EAN Numbers:": "334980554688",
+      "OEM Numbers NISSAN:": "365304A00C",
+      "OEM Numbers SUZUKI:": "54401M68K00",
+      "OEM Numbers SANTANA:": "54401M68K00"
+    }
+  }
+]

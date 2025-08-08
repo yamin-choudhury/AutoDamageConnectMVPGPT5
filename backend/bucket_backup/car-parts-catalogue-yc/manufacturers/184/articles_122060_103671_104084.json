@@ -1,0 +1,48 @@
+[
+  {
+    "id": "6864696",
+    "name": "Brake Caliper",
+    "partNo": "ETM5198",
+    "manufacturer": "DEPA",
+    "supplierId": "371",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "122060",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6864696/model-series-id-38180/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Left",
+      "Manufacturer Restriction": "TRW",
+      "Article ID:": "6864696",
+      "Article Number:": "ETM5198",
+      "Manufacturer:": "DEPA",
+      "EAN Numbers:": "366024366226",
+      "OEM Numbers AUDI:": "8W0615403"
+    }
+  },
+  {
+    "id": "6864697",
+    "name": "Brake Caliper",
+    "partNo": "ETM5199",
+    "manufacturer": "DEPA",
+    "supplierId": "371",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "122060",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6864697/model-series-id-38180/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Right",
+      "Manufacturer Restriction": "TRW",
+      "Article ID:": "6864697",
+      "Article Number:": "ETM5199",
+      "Manufacturer:": "DEPA",
+      "EAN Numbers:": "366024366228",
+      "OEM Numbers AUDI:": "8W0615404"
+    }
+  }
+]

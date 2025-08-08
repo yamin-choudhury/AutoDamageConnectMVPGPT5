@@ -1,0 +1,79 @@
+[
+  {
+    "id": "7802649",
+    "name": "Repair Kit, suspension strut support mount",
+    "partNo": "KM1275",
+    "manufacturer": "MGA",
+    "supplierId": "249",
+    "productsId": "1632",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7802649/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "paired article number": "KM1275",
+      "Article ID:": "7802649",
+      "Article Number:": "KM1275",
+      "Manufacturer:": "MGA",
+      "EAN Numbers:": "332958132251",
+      "OEM Numbers RENAULT:": "543A02310R",
+      "OEM Numbers NISSAN:": "543A02310R",
+      "OEM Numbers OPEL:": "543A02310R",
+      "OEM Numbers DACIA:": "543A02310R"
+    }
+  },
+  {
+    "id": "2688421",
+    "name": "Suspension Strut Support Mount",
+    "partNo": "31666",
+    "manufacturer": "ORIGINAL IMPERIUM",
+    "supplierId": "331",
+    "productsId": "1180",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2688421/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Weight [g]": "86",
+      "Article ID:": "2688421",
+      "Article Number:": "31666",
+      "Manufacturer:": "ORIGINAL IMPERIUM",
+      "EAN Numbers:": "803809247605",
+      "OEM Numbers RENAULT:": "8200218906"
+    }
+  },
+  {
+    "id": "2688877",
+    "name": "Repair Kit, suspension strut support mount",
+    "partNo": "31693",
+    "manufacturer": "ORIGINAL IMPERIUM",
+    "supplierId": "331",
+    "productsId": "1632",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2688877/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Weight [g]": "620",
+      "Component Number": "2",
+      "Bearing manufacturer": "IMPERGOM",
+      "Article ID:": "2688877",
+      "Article Number:": "31693",
+      "Manufacturer:": "ORIGINAL IMPERIUM",
+      "EAN Numbers:": "803995049463",
+      "OEM Numbers SMART:": "A4533210084",
+      "OEM Numbers RENAULT:": "543A02905R",
+      "OEM Numbers NISSAN:": "543A02310R",
+      "OEM Numbers OPEL:": "543A02310R",
+      "OEM Numbers DACIA:": "543A02310R"
+    }
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "5617853",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "ADG072114",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "833",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "129647",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5617853/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "39180-03000",
+      "Weight [kg]": "0,033",
+      "Number of connectors": "2",
+      "Article ID:": "5617853",
+      "Article Number:": "ADG072114",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327347",
+      "OEM Numbers HYUNDAI:": "39180-03000",
+      "OEM Numbers KIA:": "39180-03000"
+    }
+  },
+  {
+    "id": "5617938",
+    "name": "Sensor, camshaft position",
+    "partNo": "ADG07269",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "3946",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "129647",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5617938/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "39350-2B030",
+      "Weight [kg]": "0,05",
+      "Article ID:": "5617938",
+      "Article Number:": "ADG07269",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006315419",
+      "OEM Numbers HYUNDAI:": "39350-2B030",
+      "OEM Numbers KIA:": "39350-2B030"
+    }
+  },
+  {
+    "id": "5617938",
+    "name": "Sensor, camshaft position",
+    "partNo": "ADG07269",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "3946",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "129647",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5617938/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "39350-2B030",
+      "Weight [kg]": "0,05",
+      "Article ID:": "5617938",
+      "Article Number:": "ADG07269",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006315419",
+      "OEM Numbers HYUNDAI:": "39350-2B030",
+      "OEM Numbers KIA:": "39350-2B030"
+    }
+  },
+  {
+    "id": "932614",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "106813",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "833",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "129647",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/932614/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,033",
+      "Number of connectors": "2",
+      "Article ID:": "932614",
+      "Article Number:": "106813",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422406813",
+      "OEM Numbers HYUNDAI:": "39180-03000",
+      "OEM Numbers KIA:": "39180-03000"
+    }
+  },
+  {
+    "id": "5141219",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "90 10 6813",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "833",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "129647",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5141219/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,033",
+      "Number of connectors": "2",
+      "Article ID:": "5141219",
+      "Article Number:": "90 10 6813",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422806813",
+      "OEM Numbers HYUNDAI:": "39180-03000",
+      "OEM Numbers KIA:": "39180-03000"
+    }
+  }
+]

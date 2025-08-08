@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3946197",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "590096",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "58832",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3946197/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "344,5",
+      "Stroke [mm]": "89,5",
+      "Eject Force [N]": "480",
+      "Article ID:": "3946197",
+      "Article Number:": "590096",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657747284",
+      "OEM Numbers BENTLEY:": "3W7 827 550 E"
+    }
+  },
+  {
+    "id": "4750880",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "818342",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "58832",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4750880/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "344,5",
+      "Stroke [mm]": "89,5",
+      "Eject Force [N]": "560",
+      "Article ID:": "4750880",
+      "Article Number:": "818342",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657749542",
+      "OEM Numbers BENTLEY:": "3W7 827 550 F"
+    }
+  }
+]

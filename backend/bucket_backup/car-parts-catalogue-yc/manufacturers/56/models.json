@@ -1,0 +1,508 @@
+[
+  {
+    "id": "32184",
+    "name": "JAGUAR C-TYPE Saloon",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32184/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1950-09-01",
+      "toDate": "1953-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32185",
+    "name": "JAGUAR D-TYPE Saloon",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32185/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1953-09-01",
+      "toDate": "1956-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38078",
+    "name": "JAGUAR E-PACE (X540)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1712",
+    "name": "JAGUAR E-TYPE",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1712/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1961-04-01",
+      "toDate": "1975-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1713",
+    "name": "JAGUAR E-TYPE 2+2",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1713/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-01-01",
+      "toDate": "1975-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1714",
+    "name": "JAGUAR E-TYPE Convertible",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1714/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1961-04-01",
+      "toDate": "1975-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14864",
+    "name": "JAGUAR F-PACE (X761)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10822",
+    "name": "JAGUAR F-TYPE Convertible (X152)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10822/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11839",
+    "name": "JAGUAR F-TYPE Coupe (X152)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11839/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38533",
+    "name": "JAGUAR I-PACE (X590)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38533/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11319",
+    "name": "JAGUAR Mk I",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11319/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1955-09-01",
+      "toDate": "1959-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11023",
+    "name": "JAGUAR Mk II",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11023/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1955-09-01",
+      "toDate": "1970-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11327",
+    "name": "JAGUAR Mk IX",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11327/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1958-10-01",
+      "toDate": "1961-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32187",
+    "name": "JAGUAR Mk V Saloon",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32187/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1948-09-01",
+      "toDate": "1950-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11031",
+    "name": "JAGUAR Mk VII",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11031/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1950-05-01",
+      "toDate": "1958-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11908",
+    "name": "JAGUAR Mk VIII",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11908/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1956-05-01",
+      "toDate": "1958-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11033",
+    "name": "JAGUAR Mk X MK I",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11033/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1961-09-01",
+      "toDate": "1970-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11037",
+    "name": "JAGUAR S-TYPE I",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11037/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1963-05-01",
+      "toDate": "1968-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3953",
+    "name": "JAGUAR S-TYPE II (X200)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3953/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32195",
+    "name": "JAGUAR VANDEN PLAS Saloon",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32195/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4741",
+    "name": "JAGUAR X-TYPE I (X400)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4741/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-03-01",
+      "toDate": "2009-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5107",
+    "name": "JAGUAR X-TYPE I Estate (X400)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5107/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13223",
+    "name": "JAGUAR XE (X760)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13223/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6720",
+    "name": "JAGUAR XF I (X250)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6720/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-03-01",
+      "toDate": "2015-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14381",
+    "name": "JAGUAR XF II (X260)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14381/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10547",
+    "name": "JAGUAR XF SPORTBRAKE (X250)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10547/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37987",
+    "name": "JAGUAR XF SPORTBRAKE (X260)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37987/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "101",
+    "name": "JAGUAR XJ",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/101/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-07-01",
+      "toDate": "1993-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "105",
+    "name": "JAGUAR XJ (X300, X330)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/105/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-09-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4138",
+    "name": "JAGUAR XJ (X308)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4138/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "2003-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4977",
+    "name": "JAGUAR XJ (X350, X358)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4977/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-03-01",
+      "toDate": "2009-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8797",
+    "name": "JAGUAR XJ (X351)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8797/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "95",
+    "name": "JAGUAR XJ (XJ40, XJ81)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/95/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-10-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "111",
+    "name": "JAGUAR XJ Coupe",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/111/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-09-01",
+      "toDate": "1996-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13289",
+    "name": "JAGUAR XJ220 Coupe (X27)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13289/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-06-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "117",
+    "name": "JAGUAR XJSC Convertible (X27)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/117/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-07-01",
+      "toDate": "1997-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1577",
+    "name": "JAGUAR XK 8 Convertible (X100)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1577/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-03-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1576",
+    "name": "JAGUAR XK 8 Coupe (X100)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1576/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-03-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11407",
+    "name": "JAGUAR XK Convertible",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11407/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1957-09-01",
+      "toDate": "1960-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11404",
+    "name": "JAGUAR XK Convertible",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11404/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1954-10-01",
+      "toDate": "1957-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11045",
+    "name": "JAGUAR XK Convertible",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11045/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1950-01-01",
+      "toDate": "1954-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11405",
+    "name": "JAGUAR XK Coupe",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11405/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1957-09-01",
+      "toDate": "1960-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11403",
+    "name": "JAGUAR XK Coupe",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11403/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1954-10-01",
+      "toDate": "1957-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11046",
+    "name": "JAGUAR XK Coupe",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11046/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1948-09-01",
+      "toDate": "1954-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5481",
+    "name": "JAGUAR XK II Convertible (X150)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5481/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2014-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5480",
+    "name": "JAGUAR XK II Coupe (X150)",
+    "manufacturerId": "56",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5480/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  }
+]

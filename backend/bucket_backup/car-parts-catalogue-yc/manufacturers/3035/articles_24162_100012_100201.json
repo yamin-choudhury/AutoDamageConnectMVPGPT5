@@ -1,0 +1,58 @@
+[
+  {
+    "id": "4861467",
+    "name": "Bellow Kit, steering",
+    "partNo": "841 0056 30",
+    "manufacturer": "FAG",
+    "supplierId": "192",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "24162",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4861467/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "254",
+      "Material": "Elastomer",
+      "Inner diameter 1 [mm]": "20",
+      "Inner diameter 2 [mm]": "63",
+      "paired article number": "841 0057 30",
+      "Article ID:": "4861467",
+      "Article Number:": "841 0056 30",
+      "Manufacturer:": "FAG",
+      "EAN Numbers:": "401487044150",
+      "OEM Numbers AUDI:": "8D0419831J",
+      "OEM Numbers VW:": "8D0419831J"
+    }
+  },
+  {
+    "id": "2877714",
+    "name": "Bellow, steering",
+    "partNo": "34921 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "24162",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2877714/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "205",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "20",
+      "Inner diameter 2 [mm]": "54",
+      "Article ID:": "2877714",
+      "Article Number:": "34921 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743736243",
+      "OEM Numbers AUDI:": "4D0 419 831 E",
+      "OEM Numbers SKODA:": "4D0 419 831 E",
+      "OEM Numbers VW:": "4D0 419 831 E",
+      "OEM Numbers VW (SVW):": "4D0 419 831 E"
+    }
+  }
+]

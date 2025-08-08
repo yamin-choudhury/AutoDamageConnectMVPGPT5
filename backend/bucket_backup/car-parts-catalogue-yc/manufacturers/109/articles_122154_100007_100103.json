@@ -1,0 +1,34 @@
+[
+  {
+    "id": "8752472",
+    "name": "Cap, radiator",
+    "partNo": "RC127",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "548",
+    "productGroupId": "100103",
+    "categoryId": "100007",
+    "variantId": "122154",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8752472/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "15",
+      "Pressure [bar]": "0,9",
+      "Outer diameter [mm]": "44",
+      "Pressure [psi]": "13",
+      "Article ID:": "8752472",
+      "Article Number:": "RC127",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers TOYOTA:": "16401-7A470",
+      "OEM Numbers LEXUS:": "16401-72090",
+      "OEM Numbers SUZUKI:": "1792076G00",
+      "OEM Numbers STANDARD AUTOMOBILE:": "75274",
+      "OEM Numbers MAZDA:": "FF5215205",
+      "OEM Numbers FORD ASIA & OCEANIA:": "B3C715205",
+      "OEM Numbers MITSUBISHI:": "MR481267",
+      "OEM Numbers PROTON:": "MR481267",
+      "OEM Numbers CHRYSLER:": "MR481267"
+    }
+  }
+]

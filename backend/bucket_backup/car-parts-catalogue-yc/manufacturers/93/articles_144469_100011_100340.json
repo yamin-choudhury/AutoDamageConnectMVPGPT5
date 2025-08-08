@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1707214",
+    "name": "Shock Absorber",
+    "partNo": "19-243191",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1707214/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Absorber does not carry a spring",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "1707214",
+      "Article Number:": "19-243191",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525875447",
+      "OEM Numbers RENAULT:": "562105955R"
+    }
+  },
+  {
+    "id": "2028418",
+    "name": "Shock Absorber",
+    "partNo": "22-243188",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2028418/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Bottom Clamp",
+      "Article ID:": "2028418",
+      "Article Number:": "22-243188",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525875614",
+      "OEM Numbers RENAULT:": "543026734R"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "3171129",
+    "name": "Mounting, engine",
+    "partNo": "40799",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33303",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3171129/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Article ID:": "3171129",
+      "Article Number:": "40799",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843388906140",
+      "OEM Numbers AUDI:": "6Q0199555AR",
+      "OEM Numbers SEAT:": "6Q0199555AR",
+      "OEM Numbers SKODA:": "6Q0199555AR",
+      "OEM Numbers VW:": "6Q0199555AR"
+    }
+  },
+  {
+    "id": "1514966",
+    "name": "Mounting, engine",
+    "partNo": "16353",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33303",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1514966/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Weight [g]": "1080",
+      "Article ID:": "1514966",
+      "Article Number:": "16353",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539206576",
+      "OEM Numbers VAG:": "6Q0199851BA",
+      "OEM Numbers AUDI:": "6R0199851"
+    }
+  },
+  {
+    "id": "1514967",
+    "name": "Mounting, engine",
+    "partNo": "16353",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33303",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1514967/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Weight [g]": "1080",
+      "Article ID:": "1514967",
+      "Article Number:": "16353",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539206576",
+      "OEM Numbers VAG:": "6Q0199851BA",
+      "OEM Numbers AUDI:": "6R0199851"
+    }
+  }
+]

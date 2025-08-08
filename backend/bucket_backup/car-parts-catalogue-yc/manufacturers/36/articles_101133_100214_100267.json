@@ -1,0 +1,115 @@
+[
+  {
+    "id": "7177045",
+    "name": "Fuel Feed Unit",
+    "partNo": "G2569",
+    "manufacturer": "AUTOTEAM",
+    "supplierId": "4464",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "101133",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7177045/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7177045",
+      "Article Number:": "G2569",
+      "Manufacturer:": "AUTOTEAM",
+      "OEM Numbers FORD:": "AY119H307CE"
+    }
+  },
+  {
+    "id": "52365",
+    "name": "Fuel Feed Unit",
+    "partNo": "0 580 200 314",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "101133",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/52365/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Operating Mode": "Electric",
+      "Article ID:": "52365",
+      "Article Number:": "0 580 200 314",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702537056",
+      "OEM Numbers FORD:": "AY11 9H307 CE"
+    }
+  },
+  {
+    "id": "52365",
+    "name": "Fuel Feed Unit",
+    "partNo": "0 580 200 314",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "101133",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/52365/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Operating Mode": "Electric",
+      "Article ID:": "52365",
+      "Article Number:": "0 580 200 314",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702537056",
+      "OEM Numbers FORD:": "AY11 9H307 CE"
+    }
+  },
+  {
+    "id": "52365",
+    "name": "Fuel Feed Unit",
+    "partNo": "0 580 200 314",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "101133",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/52365/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Operating Mode": "Electric",
+      "Article ID:": "52365",
+      "Article Number:": "0 580 200 314",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702537056",
+      "OEM Numbers FORD:": "AY11 9H307 CE"
+    }
+  },
+  {
+    "id": "7043136",
+    "name": "Fuel Feed Unit",
+    "partNo": "FFU2032.00",
+    "manufacturer": "OPEN PARTS",
+    "supplierId": "378",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "101133",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7043136/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Pressure [bar]": "3",
+      "Operating Mode": "Electric",
+      "Number of pins": "4",
+      "Article ID:": "7043136",
+      "Article Number:": "FFU2032.00",
+      "Manufacturer:": "OPEN PARTS",
+      "OEM Numbers FORD:": "AY119H307CE"
+    }
+  }
+]

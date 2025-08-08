@@ -1,0 +1,68 @@
+[
+  {
+    "id": "69850",
+    "name": "Master Cylinder, clutch",
+    "partNo": "0 986 486 149",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "53070",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/69850/model-series-id-11444/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Piston Diameter [mm]": "15,9",
+      "Article ID:": "69850",
+      "Article Number:": "0 986 486 149",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702533332",
+      "OEM Numbers HONDA:": "46920-S7A-A03"
+    }
+  },
+  {
+    "id": "6338290",
+    "name": "Master Cylinder, clutch",
+    "partNo": "CL502",
+    "manufacturer": "Caliper EPB+ NAIBA",
+    "supplierId": "5418",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "53070",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6338290/model-series-id-11444/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "15,8",
+      "Thread Size": "11,2",
+      "Article ID:": "6338290",
+      "Article Number:": "CL502",
+      "Manufacturer:": "Caliper EPB+ NAIBA",
+      "OEM Numbers HONDA:": "46920S7AA03"
+    }
+  },
+  {
+    "id": "6338290",
+    "name": "Master Cylinder, clutch",
+    "partNo": "CL502",
+    "manufacturer": "Caliper EPB+ NAIBA",
+    "supplierId": "5418",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "53070",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6338290/model-series-id-11444/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "15,8",
+      "Thread Size": "11,2",
+      "Article ID:": "6338290",
+      "Article Number:": "CL502",
+      "Manufacturer:": "Caliper EPB+ NAIBA",
+      "OEM Numbers HONDA:": "46920S7AA03"
+    }
+  }
+]

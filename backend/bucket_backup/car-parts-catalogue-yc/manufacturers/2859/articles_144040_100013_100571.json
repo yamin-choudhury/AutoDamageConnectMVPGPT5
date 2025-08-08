@@ -1,0 +1,56 @@
+[
+  {
+    "id": "3313970",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "43482 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "144040",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3313970/model-series-id-41828/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Upper",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Article ID:": "3313970",
+      "Article Number:": "43482 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743754369",
+      "OEM Numbers AUDI:": "1EA 505 397 B",
+      "OEM Numbers SKODA:": "1EA 505 397 B",
+      "OEM Numbers VW:": "1EA 505 397 B",
+      "OEM Numbers CUPRA:": "1EA 505 397 B",
+      "OEM Numbers VW (SVW):": "1ED 505 397 B"
+    }
+  },
+  {
+    "id": "3313983",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "43483 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "144040",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3313983/model-series-id-41828/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Article ID:": "3313983",
+      "Article Number:": "43483 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743754371",
+      "OEM Numbers AUDI:": "1EA 505 323 A",
+      "OEM Numbers SKODA:": "1EA 505 323 A",
+      "OEM Numbers VW:": "1EA 505 323 A",
+      "OEM Numbers CUPRA:": "1EA 505 323 A",
+      "OEM Numbers VW (SVW):": "1ED 505 323 A"
+    }
+  }
+]

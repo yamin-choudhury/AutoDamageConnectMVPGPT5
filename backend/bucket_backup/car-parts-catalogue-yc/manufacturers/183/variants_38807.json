@@ -1,0 +1,50 @@
+[
+  {
+    "id": "131831",
+    "type": "1.4",
+    "modelId": "38807",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4LC",
+      "cylinder": "4",
+      "capacity": "1,368 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-07-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135326",
+    "type": "1.6",
+    "modelId": "38807",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FG",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2018-01-01",
+      "power": "97 KW / 132 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135596",
+    "type": "1.6 CRDI",
+    "modelId": "38807",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FB",
+      "cylinder": "4",
+      "capacity": "1,582 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2017-01-01",
+      "power": "94 KW / 128 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "4757707",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 15 6691",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "55105",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4757707/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4757707",
+      "Article Number:": "82 15 6691",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258868983",
+      "OEM Numbers FORD:": "(1.944.450)"
+    }
+  },
+  {
+    "id": "6706458",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "E255",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "55105",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6706458/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6706458",
+      "Article Number:": "E255",
+      "Manufacturer:": "LRT",
+      "OEM Numbers FORD:": "CV21-5E211-AH"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "10450365",
+    "name": "Wheel Stud",
+    "partNo": "ZM 42.012.50",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "58639",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10450365/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10450365",
+      "Article Number:": "ZM 42.012.50",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268402739",
+      "OEM Numbers VW:": "321/601.139C"
+    }
+  },
+  {
+    "id": "10450366",
+    "name": "Wheel Stud",
+    "partNo": "ZM 42.012.51",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "58639",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10450366/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10450366",
+      "Article Number:": "ZM 42.012.51",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268402740",
+      "OEM Numbers VW:": "ZBA601139A"
+    }
+  }
+]

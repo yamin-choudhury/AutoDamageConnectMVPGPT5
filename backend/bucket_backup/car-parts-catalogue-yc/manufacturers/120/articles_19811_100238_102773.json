@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3933984",
+    "name": "Mounting, manual transmission",
+    "partNo": "585183",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "19811",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3933984/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3933984",
+      "Article Number:": "585183",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975080539",
+      "OEM Numbers FORD:": "1682477",
+      "OEM Numbers VOLVO:": "31316498",
+      "OEM Numbers FORD USA:": "5N517M121KD"
+    }
+  },
+  {
+    "id": "4382455",
+    "name": "Mounting, manual transmission",
+    "partNo": "71-11303-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "19811",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4382455/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "4382455",
+      "Article Number:": "71-11303-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727625904",
+      "OEM Numbers FORD:": "AV616P082AF",
+      "OEM Numbers VOLVO:": "9487349",
+      "OEM Numbers MAZDA:": "BP4S39040B"
+    }
+  }
+]

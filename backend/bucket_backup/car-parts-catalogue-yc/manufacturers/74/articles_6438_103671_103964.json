@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3692666",
+    "name": "Alternator Regulator",
+    "partNo": "52260",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "288",
+    "productGroupId": "103964",
+    "categoryId": "103671",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3692666/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Article ID:": "3692666",
+      "Article Number:": "52260",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers MERCEDES-BENZ:": "A61548102",
+      "OEM Numbers VOLVO:": "1323467",
+      "OEM Numbers INTERNATIONAL:": "91448C2",
+      "OEM Numbers ALFA ROMEO:": "605576460",
+      "OEM Numbers FIAT:": "605576460",
+      "OEM Numbers LANCIA:": "605576460",
+      "OEM Numbers SAAB:": "8559585",
+      "OEM Numbers JOHN DEERE:": "AL35999"
+    }
+  },
+  {
+    "id": "3692663",
+    "name": "Alternator Regulator",
+    "partNo": "52260",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "288",
+    "productGroupId": "103964",
+    "categoryId": "103671",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3692663/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Article ID:": "3692663",
+      "Article Number:": "52260",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers MERCEDES-BENZ:": "A61548102",
+      "OEM Numbers VOLVO:": "1323467",
+      "OEM Numbers INTERNATIONAL:": "91448C2",
+      "OEM Numbers ALFA ROMEO:": "605576460",
+      "OEM Numbers FIAT:": "605576460",
+      "OEM Numbers LANCIA:": "605576460",
+      "OEM Numbers SAAB:": "8559585",
+      "OEM Numbers JOHN DEERE:": "AL35999"
+    }
+  }
+]

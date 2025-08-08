@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1286906",
+    "name": "Compressor, air conditioning",
+    "partNo": "133093",
+    "manufacturer": "ACR",
+    "supplierId": "4654",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "53160",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1286906/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "DELPHI/HARRISON",
+      "Connector type": "V-B",
+      "Fastening Type": "Fastening with ears",
+      "Belt Pulley Ø [mm]": "129",
+      "Component Number": "1141020",
+      "Compressor ID": "CVC",
+      "Number of grooves": "6",
+      "Refrigerant": "R 134a",
+      "Article ID:": "1286906",
+      "Article Number:": "133093",
+      "Manufacturer:": "ACR",
+      "EAN Numbers:": "843325314632",
+      "OEM Numbers FERRARI:": "263174"
+    }
+  },
+  {
+    "id": "1327130",
+    "name": "Compressor, air conditioning",
+    "partNo": "14-2074P",
+    "manufacturer": "AUTO AIR GLOUCESTER",
+    "supplierId": "476",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "53160",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1327130/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Quality": "OE Part",
+      "Manufacturer Restriction": "DELPHI/HARRISON",
+      "Belt Pulley Ø [mm]": "126",
+      "Number of grooves": "6",
+      "Article ID:": "1327130",
+      "Article Number:": "14-2074P",
+      "Manufacturer:": "AUTO AIR GLOUCESTER",
+      "OEM Numbers MASERATI:": "071952203523.B"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "109931",
+    "type": "230 TSI",
+    "modelId": "13616",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSTA,DJRA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-01-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109932",
+    "type": "280 TSI",
+    "modelId": "13616",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-01-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109933",
+    "type": "330 TSI",
+    "modelId": "13616",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUFA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2015-01-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123568",
+    "type": "2.0 GTS",
+    "modelId": "13616",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUGA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-08-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  }
+]

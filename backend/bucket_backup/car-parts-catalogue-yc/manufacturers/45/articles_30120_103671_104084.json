@@ -1,0 +1,54 @@
+[
+  {
+    "id": "6008163",
+    "name": "Brake Caliper",
+    "partNo": "BHN639E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "30120",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6008163/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Brake Caliper Type": "Brake Caliper with integrated parking brake",
+      "Material": "Cast Iron",
+      "paired article number": "BHN640E",
+      "Piston Diameter [mm]": "38",
+      "Article ID:": "6008163",
+      "Article Number:": "BHN639E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293756572",
+      "OEM Numbers HONDA:": "43013-SEA-E01"
+    }
+  },
+  {
+    "id": "6008164",
+    "name": "Brake Caliper",
+    "partNo": "BHN640E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "30120",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6008164/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Brake Caliper Type": "Brake Caliper with integrated parking brake",
+      "Material": "Cast Iron",
+      "paired article number": "BHN639E",
+      "Piston Diameter [mm]": "38",
+      "Article ID:": "6008164",
+      "Article Number:": "BHN640E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293756528",
+      "OEM Numbers HONDA:": "43012-SEA-E01"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "143386",
+    "type": "Electric (9AZ2CA)",
+    "modelId": "41794",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "Z2CA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-04-01",
+      "power": "6 KW / 8 PS"
+    },
+    "categories": []
+  }
+]

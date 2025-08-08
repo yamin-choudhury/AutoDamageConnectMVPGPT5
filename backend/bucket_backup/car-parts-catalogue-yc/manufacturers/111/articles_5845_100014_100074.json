@@ -1,0 +1,60 @@
+[
+  {
+    "id": "8117473",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "MF-2072",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "5845",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8117473/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Height [mm]": "88",
+      "Inner diameter 1 [mm]": "19",
+      "Inner diameter 2 [mm]": "65",
+      "Article ID:": "8117473",
+      "Article Number:": "MF-2072",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011680170",
+      "OEM Numbers TOYOTA:": "04439-12011",
+      "OEM Numbers DAIHATSU:": "04438-87224-000",
+      "OEM Numbers MAZDA:": "G081-22-540",
+      "OEM Numbers SUZUKI:": "44119-86041",
+      "OEM Numbers MITSUBISHI:": "MR534996"
+    }
+  },
+  {
+    "id": "8123902",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "MFs-2072",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "5845",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8123902/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Height [mm]": "88",
+      "Inner diameter 1 [mm]": "18",
+      "Inner diameter 2 [mm]": "65",
+      "Article ID:": "8123902",
+      "Article Number:": "MFs-2072",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011680170\n 456011680206",
+      "OEM Numbers TOYOTA:": "04439-12011",
+      "OEM Numbers DAIHATSU:": "04438-87224-000",
+      "OEM Numbers MAZDA:": "G081-22-540",
+      "OEM Numbers SUZUKI:": "44119-86041",
+      "OEM Numbers MITSUBISHI:": "MR534996"
+    }
+  }
+]

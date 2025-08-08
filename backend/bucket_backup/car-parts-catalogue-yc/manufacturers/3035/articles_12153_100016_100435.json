@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3735533",
+    "name": "Deflection/Guide Pulley, V-ribbed belt",
+    "partNo": "532 0346 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "312",
+    "productGroupId": "100435",
+    "categoryId": "100016",
+    "variantId": "12153",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3735533/model-series-id-6585/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "76,00",
+      "Width [mm]": "26,00",
+      "Article ID:": "3735533",
+      "Article Number:": "532 0346 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510835704",
+      "OEM Numbers AUDI:": "6QD145276",
+      "OEM Numbers SEAT:": "6QD145276",
+      "OEM Numbers SKODA:": "6QD145276",
+      "OEM Numbers VW:": "6QD145276",
+      "OEM Numbers VW (FAW):": "6QD145276B",
+      "OEM Numbers VW (SVW):": "6QD145276",
+      "OEM Numbers SKODA (SVW):": "6QD145276"
+    }
+  },
+  {
+    "id": "3659350",
+    "name": "Deflection/Guide Pulley, V-ribbed belt",
+    "partNo": "51633",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "312",
+    "productGroupId": "100435",
+    "categoryId": "100016",
+    "variantId": "12153",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3659350/model-series-id-6585/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3659350",
+      "Article Number:": "51633",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509351633",
+      "OEM Numbers VW:": "1JD 145 276 B"
+    }
+  }
+]

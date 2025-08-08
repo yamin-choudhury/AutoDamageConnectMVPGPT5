@@ -1,0 +1,50 @@
+[
+  {
+    "id": "10444050",
+    "name": "Fan, radiator",
+    "partNo": "ZD16825",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "23359",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10444050/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "13,5",
+      "Rated Power [W]": "150",
+      "Diameter [mm]": "292",
+      "Current Strength to [A]": "7,5",
+      "Article ID:": "10444050",
+      "Article Number:": "ZD16825",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW:": "6QD959455C"
+    }
+  },
+  {
+    "id": "10444152",
+    "name": "Fan, radiator",
+    "partNo": "ZD16838",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "23359",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10444152/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "13,5",
+      "Rated Power [W]": "250",
+      "Diameter [mm]": "348",
+      "Current Strength to [A]": "18,5",
+      "Article ID:": "10444152",
+      "Article Number:": "ZD16838",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW:": "6X0959455F"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2189919",
+    "name": "Inner Tie Rod",
+    "partNo": "24-04109",
+    "manufacturer": "DYS",
+    "supplierId": "4135",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2189919/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Weight [kg]": "0,753045",
+      "Thread Size 1": "M16x1.5",
+      "Thread Size 2": "M14x1.5",
+      "Axle Joint Length [mm]": "209",
+      "Article ID:": "2189919",
+      "Article Number:": "24-04109",
+      "Manufacturer:": "DYS",
+      "EAN Numbers:": "844352299525",
+      "OEM Numbers HONDA:": "53610TVAA11"
+    }
+  },
+  {
+    "id": "3327752",
+    "name": "Inner Tie Rod",
+    "partNo": "44-16307",
+    "manufacturer": "TALOSA",
+    "supplierId": "4758",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3327752/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Weight [kg]": "0,753045",
+      "Thread Size 1": "M16x1.5",
+      "Thread Size 2": "M14x1.5",
+      "Axle Joint Length [mm]": "209",
+      "Article ID:": "3327752",
+      "Article Number:": "44-16307",
+      "Manufacturer:": "TALOSA",
+      "EAN Numbers:": "844352299525",
+      "OEM Numbers HONDA:": "53610TVAA11"
+    }
+  }
+]

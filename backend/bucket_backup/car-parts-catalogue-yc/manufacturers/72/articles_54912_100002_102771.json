@@ -1,0 +1,88 @@
+[
+  {
+    "id": "7293296",
+    "name": "Mounting, engine",
+    "partNo": "GOM-3109",
+    "manufacturer": "ASHIKA",
+    "supplierId": "257",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "54912",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7293296/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "7293296",
+      "Article Number:": "GOM-3109",
+      "Manufacturer:": "ASHIKA",
+      "EAN Numbers:": "805255348672",
+      "OEM Numbers MAZDA:": "D65239060H"
+    }
+  },
+  {
+    "id": "2608108",
+    "name": "Mounting, engine",
+    "partNo": "30965",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "54912",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2608108/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2608108",
+      "Article Number:": "30965",
+      "Manufacturer:": "FARE-MX",
+      "OEM Numbers MAZDA:": "D651-39-060F"
+    }
+  },
+  {
+    "id": "8900060",
+    "name": "Mounting, engine",
+    "partNo": "RU-3109",
+    "manufacturer": "JAPANPARTS",
+    "supplierId": "156",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "54912",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8900060/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "8900060",
+      "Article Number:": "RU-3109",
+      "Manufacturer:": "JAPANPARTS",
+      "EAN Numbers:": "805255348671",
+      "OEM Numbers MAZDA:": "D65239060H"
+    }
+  },
+  {
+    "id": "7290424",
+    "name": "Mounting, engine",
+    "partNo": "GOJ3109",
+    "manufacturer": "JAPKO",
+    "supplierId": "481",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "54912",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7290424/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "7290424",
+      "Article Number:": "GOJ3109",
+      "Manufacturer:": "JAPKO",
+      "EAN Numbers:": "805255348673",
+      "OEM Numbers MAZDA:": "D65239060H"
+    }
+  }
+]

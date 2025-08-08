@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1356868",
+    "name": "Mount, exhaust system",
+    "partNo": "143-908",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "126020",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1356868/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Supplementary Article/Info 2": "with vulcanized-in fabric belt",
+      "Article ID:": "1356868",
+      "Article Number:": "143-908",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590207634627",
+      "OEM Numbers BMW:": "18308631988",
+      "OEM Numbers MERCEDES-BENZ:": "A2314920044"
+    }
+  },
+  {
+    "id": "4811894",
+    "name": "Bracket, muffler",
+    "partNo": "83 12 2089",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "126020",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4811894/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Supplementary Article/Info 2": "with vulcanized-in fabric belt",
+      "Article ID:": "4811894",
+      "Article Number:": "83 12 2089",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258842469",
+      "OEM Numbers BMW:": "8.657.332",
+      "OEM Numbers LAND ROVER:": "WCS50030",
+      "OEM Numbers JAGUAR:": "C2C41707",
+      "OEM Numbers ROVER:": "LR025064"
+    }
+  },
+  {
+    "id": "4811894",
+    "name": "Mount, exhaust system",
+    "partNo": "83 12 2089",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "126020",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4811894/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Supplementary Article/Info 2": "with vulcanized-in fabric belt",
+      "Article ID:": "4811894",
+      "Article Number:": "83 12 2089",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258842469",
+      "OEM Numbers BMW:": "8.657.332",
+      "OEM Numbers LAND ROVER:": "WCS50030",
+      "OEM Numbers JAGUAR:": "C2C41707",
+      "OEM Numbers ROVER:": "LR025064"
+    }
+  }
+]

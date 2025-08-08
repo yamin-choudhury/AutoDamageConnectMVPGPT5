@@ -1,0 +1,52 @@
+[
+  {
+    "id": "6184349",
+    "name": "Filter, interior air",
+    "partNo": "C30332-2",
+    "manufacturer": "1A FIRST AUTOMOTIVE",
+    "supplierId": "4814",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6184349/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "260",
+      "Width [mm]": "100",
+      "Height [mm]": "25",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "6184349",
+      "Article Number:": "C30332-2",
+      "Manufacturer:": "1A FIRST AUTOMOTIVE",
+      "EAN Numbers:": "803397700255",
+      "OEM Numbers NISSAN:": "27274-EA000"
+    }
+  },
+  {
+    "id": "7004761",
+    "name": "Filter, interior air",
+    "partNo": "FC332x2",
+    "manufacturer": "MULLER FILTER",
+    "supplierId": "490",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7004761/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "260",
+      "Width [mm]": "100",
+      "Height [mm]": "25",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "7004761",
+      "Article Number:": "FC332x2",
+      "Manufacturer:": "MULLER FILTER",
+      "EAN Numbers:": "803397750332",
+      "OEM Numbers NISSAN:": "27274-EA000"
+    }
+  }
+]

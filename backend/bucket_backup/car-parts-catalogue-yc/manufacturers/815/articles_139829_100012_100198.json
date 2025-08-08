@@ -1,0 +1,83 @@
+[
+  {
+    "id": "3050857",
+    "name": "Inner Tie Rod",
+    "partNo": "39472 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "139829",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3050857/model-series-id-39437/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Thread Size 1": "M16x1,5",
+      "Thread Size 2": "M16x1,5",
+      "Axle Joint Length [mm]": "171,4",
+      "Article ID:": "3050857",
+      "Article Number:": "39472 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743748276",
+      "OEM Numbers AUDI:": "971 423 810",
+      "OEM Numbers PORSCHE:": "971 423 810 B",
+      "OEM Numbers BENTLEY:": "971 423 810"
+    }
+  },
+  {
+    "id": "3050863",
+    "name": "Tie Rod End",
+    "partNo": "39473 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "139829",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3050863/model-series-id-39437/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "197",
+      "Thread Size 1": "M16x1,5",
+      "Thread Size 2": "M12x1,5",
+      "paired article number": "39474 01",
+      "Article ID:": "3050863",
+      "Article Number:": "39473 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743748482",
+      "OEM Numbers PORSCHE:": "971 423 811 B",
+      "OEM Numbers BENTLEY:": "971 423 811 B"
+    }
+  },
+  {
+    "id": "3050871",
+    "name": "Tie Rod End",
+    "partNo": "39474 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "139829",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3050871/model-series-id-39437/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "197",
+      "Thread Size 1": "M16x1,5",
+      "Thread Size 2": "M12x1,5",
+      "paired article number": "39473 01",
+      "Article ID:": "3050871",
+      "Article Number:": "39474 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743748484",
+      "OEM Numbers PORSCHE:": "971 423 812 B",
+      "OEM Numbers BENTLEY:": "971 423 812 B"
+    }
+  }
+]

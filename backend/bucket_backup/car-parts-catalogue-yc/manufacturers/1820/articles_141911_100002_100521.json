@@ -1,0 +1,60 @@
+[
+  {
+    "id": "4686319",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10396-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "141911",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686319/model-series-id-40000/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "9",
+      "Material": "Elastomer",
+      "Inner diameter [mm]": "92",
+      "Outer diameter [mm]": "109",
+      "Swirl Type": "Left-hand Twist",
+      "Article ID:": "4686319",
+      "Article Number:": "81-10396-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663512080",
+      "OEM Numbers OPEL:": "614 204",
+      "OEM Numbers JAGUAR:": "AJ8 14076",
+      "OEM Numbers LAND ROVER:": "LR122697"
+    }
+  },
+  {
+    "id": "9997666",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "WG1791474",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "141911",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9997666/model-series-id-40000/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "9",
+      "Material": "Elastomer",
+      "Inner diameter [mm]": "92",
+      "Outer diameter [mm]": "109",
+      "Swirl Type": "Left-hand Twist",
+      "Article ID:": "9997666",
+      "Article Number:": "WG1791474",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers OPEL:": "614204",
+      "OEM Numbers VAUXHALL:": "55571582",
+      "OEM Numbers GENERAL MOTORS:": "55571582",
+      "OEM Numbers JAGUAR:": "LR122697",
+      "OEM Numbers FORD:": "J6P36E300AA",
+      "OEM Numbers LAND ROVER:": "LR122697"
+    }
+  }
+]

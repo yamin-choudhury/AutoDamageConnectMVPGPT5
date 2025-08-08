@@ -1,0 +1,33 @@
+[
+  {
+    "id": "5271888",
+    "name": "Compressor, air conditioning",
+    "partNo": "930.52098",
+    "manufacturer": "FRIGAIR",
+    "supplierId": "313",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "101172",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5271888/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "Aftermarket",
+      "Connector type": "FLANGIA",
+      "Diameter 1 [mm]": "100",
+      "Number of ribs": "4",
+      "Inlet Ø [mm]": "20",
+      "Outlet Ø [mm]": "15",
+      "Oil Fill Quantity [ml]": "130",
+      "Compressor ID": "DKV10R",
+      "Refrigerant": "R 134a",
+      "Article ID:": "5271888",
+      "Article Number:": "930.52098",
+      "Manufacturer:": "FRIGAIR",
+      "EAN Numbers:": "405890311257",
+      "OEM Numbers SUBARU:": "73111SA010"
+    }
+  }
+]

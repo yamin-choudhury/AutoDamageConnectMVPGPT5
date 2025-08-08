@@ -1,0 +1,66 @@
+[
+  {
+    "id": "23363",
+    "type": "2.0",
+    "modelId": "6428",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJZ",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-06-01\n                            \n                            2008-04-01",
+      "power": "85 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23364",
+    "type": "1.8 TSI",
+    "modelId": "6428",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BYJ",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2007-06-01\n                            \n                            2011-07-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32563",
+    "type": "2.0 TSi",
+    "modelId": "6428",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CBLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-04-01\n                            \n                            2011-07-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33632",
+    "type": "1.4 TSI",
+    "modelId": "6428",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2011-07-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  }
+]

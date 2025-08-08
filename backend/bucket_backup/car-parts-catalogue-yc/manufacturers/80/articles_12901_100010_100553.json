@@ -1,0 +1,101 @@
+[
+  {
+    "id": "5630518",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "ADN17259",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "833",
+    "productGroupId": "100553",
+    "categoryId": "100010",
+    "variantId": "12901",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5630518/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "453",
+      "Weight [kg]": "0,040",
+      "Number of connectors": "2",
+      "Article ID:": "5630518",
+      "Article Number:": "ADN17259",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006326966",
+      "OEM Numbers NISSAN:": "23798-00QAD",
+      "OEM Numbers RENAULT:": "82 00 643 171",
+      "OEM Numbers DACIA:": "82 00 436 025"
+    }
+  },
+  {
+    "id": "2104326",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "22891",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "833",
+    "productGroupId": "100553",
+    "categoryId": "100010",
+    "variantId": "12901",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2104326/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "82 00 436 025",
+      "Length [mm]": "453",
+      "Weight [kg]": "0,040",
+      "Number of connectors": "2",
+      "Article ID:": "2104326",
+      "Article Number:": "22891",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781622891",
+      "OEM Numbers NISSAN:": "23798-00QAD",
+      "OEM Numbers RENAULT:": "82 00 643 171",
+      "OEM Numbers DACIA:": "82 00 436 025"
+    }
+  },
+  {
+    "id": "7362507",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "GS8384",
+    "manufacturer": "GAUSS",
+    "supplierId": "3894",
+    "productsId": "833",
+    "productGroupId": "100553",
+    "categoryId": "100010",
+    "variantId": "12901",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7362507/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7362507",
+      "Article Number:": "GS8384",
+      "Manufacturer:": "GAUSS",
+      "OEM Numbers RENAULT:": "7700875184B"
+    }
+  },
+  {
+    "id": "3983873",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "60 92 2891",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "833",
+    "productGroupId": "100553",
+    "categoryId": "100010",
+    "variantId": "12901",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3983873/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "453",
+      "Weight [kg]": "0,040",
+      "Number of connectors": "2",
+      "Article ID:": "3983873",
+      "Article Number:": "60 92 2891",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468822891",
+      "OEM Numbers NISSAN:": "23798-00QAD",
+      "OEM Numbers RENAULT:": "82 00 643 171",
+      "OEM Numbers DACIA:": "82 00 436 025"
+    }
+  }
+]

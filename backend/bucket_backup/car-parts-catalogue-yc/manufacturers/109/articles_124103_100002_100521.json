@@ -1,0 +1,56 @@
+[
+  {
+    "id": "3166286",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "40634",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "124103",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3166286/model-series-id-13286/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Timing End",
+      "Core Dimensions": "35×47×7",
+      "Article ID:": "3166286",
+      "Article Number:": "40634",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509340634",
+      "OEM Numbers VOLVO:": "68422732",
+      "OEM Numbers DACIA:": "77 01 349 626",
+      "OEM Numbers CITROËN:": "77 00 619 237",
+      "OEM Numbers RENAULT:": "77 01 349 629"
+    }
+  },
+  {
+    "id": "8264598",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "NA5016",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "124103",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8264598/model-series-id-13286/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "7,00",
+      "Material": "FPM (fluoride rubber)/ACM (polyacrylate rubber)",
+      "Inner diameter [mm]": "35,00",
+      "Outer diameter [mm]": "47,00",
+      "Swirl Type": "Right-hand Twist",
+      "Radial Shaft Seal Design": "827N RD W",
+      "Article ID:": "8264598",
+      "Article Number:": "NA5016",
+      "Manufacturer:": "PAYEN",
+      "EAN Numbers:": "069278001154",
+      "OEM Numbers VOLVO:": "68422732",
+      "OEM Numbers RENAULT:": "7700716923"
+    }
+  }
+]

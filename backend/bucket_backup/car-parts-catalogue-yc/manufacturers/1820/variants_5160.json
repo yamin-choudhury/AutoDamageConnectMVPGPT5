@@ -1,0 +1,130 @@
+[
+  {
+    "id": "3250",
+    "type": "4.0 V6 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "406PN",
+      "cylinder": "6",
+      "capacity": "4,009 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-10-01\n                            \n                            2009-09-01",
+      "power": "156 KW / 212 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11153",
+    "type": "4.0 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "40VSER",
+      "cylinder": "6",
+      "capacity": "3,999 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-02-01\n                            \n                            2009-09-01",
+      "power": "160 KW / 218 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18238",
+    "type": "4.4 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "448PN",
+      "cylinder": "8",
+      "capacity": "4,394 CCM / 4.4 L",
+      "fuelType": "Petrol",
+      "year": "2004-07-01\n                            \n                            2009-09-01",
+      "power": "220 KW / 299 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18239",
+    "type": "2.7 TD 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "276DT",
+      "cylinder": "6",
+      "capacity": "2,720 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2004-07-01\n                            \n                            2009-09-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24645",
+    "type": "4.0 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "406PN",
+      "cylinder": "6",
+      "capacity": "4,009 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-02-01\n                            \n                            2009-09-01",
+      "power": "161 KW / 219 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25392",
+    "type": "4.0 V6 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "406PN",
+      "cylinder": "6",
+      "capacity": "4,009 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-10-01\n                            \n                            2009-09-01",
+      "power": "160 KW / 218 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "45172",
+    "type": "4.4 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "448PN",
+      "cylinder": "8",
+      "capacity": "4,394 CCM / 4.4 L",
+      "fuelType": "Petrol",
+      "year": "2004-09-01\n                            \n                            2009-09-01",
+      "power": "224 KW / 305 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "101062",
+    "type": "2.7 TD 4x4",
+    "modelId": "5160",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "276DT",
+      "cylinder": "6",
+      "capacity": "2,720 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2004-09-01\n                            \n                            2009-08-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  }
+]

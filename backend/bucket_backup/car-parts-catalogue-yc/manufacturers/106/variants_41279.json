@@ -1,0 +1,82 @@
+[
+  {
+    "id": "142228",
+    "type": "50",
+    "modelId": "41279",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "EBJA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-10-01",
+      "power": "109 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142229",
+    "type": "60",
+    "modelId": "41279",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "EBJC",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-10-01",
+      "power": "132 KW / 179 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142230",
+    "type": "80",
+    "modelId": "41279",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "EBJA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-10-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145015",
+    "type": "80X 4x4",
+    "modelId": "41279",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "EBJA,EBRA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-05-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145613",
+    "type": "80X 4x4",
+    "modelId": "41279",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "EBJA,EBRA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-10-01",
+      "power": "195 KW / 265 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3090730",
+    "name": "Axle Bolt, drive shaft",
+    "partNo": "40000",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "2064",
+    "productGroupId": "100066",
+    "categoryId": "100014",
+    "variantId": "55334",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3090730/model-series-id-10342/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Thickness [mm]": "80",
+      "Weight [kg]": "0,171",
+      "Outer diameter [mm]": "42",
+      "Bolt Head-/Nut Design": "Male Torx",
+      "Screw length below head [mm]": "58",
+      "External Thread Size": "M16 x 1,5",
+      "Article ID:": "3090730",
+      "Article Number:": "40000",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781640000",
+      "OEM Numbers MERCEDES-BENZ:": "A002 990 13 03"
+    }
+  },
+  {
+    "id": "776230",
+    "name": "Axle Bolt, drive shaft",
+    "partNo": "10 94 0000",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "2064",
+    "productGroupId": "100066",
+    "categoryId": "100014",
+    "variantId": "55334",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/776230/model-series-id-10342/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Thickness [mm]": "80",
+      "Weight [kg]": "0,171",
+      "Outer diameter [mm]": "42",
+      "Bolt Head-/Nut Design": "Male Torx",
+      "Screw length below head [mm]": "58",
+      "External Thread Size": "M16 x 1,5",
+      "Article ID:": "776230",
+      "Article Number:": "10 94 0000",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468840000",
+      "OEM Numbers MERCEDES-BENZ:": "A002 990 13 03"
+    }
+  }
+]

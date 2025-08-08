@@ -1,0 +1,51 @@
+[
+  {
+    "id": "4068935",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "61058",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "128712",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4068935/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "22,2",
+      "Weight [kg]": "0,15",
+      "Material": "Plastic",
+      "Mounting Type": "Plugged",
+      "Number of mounting bores": "2",
+      "Article ID:": "4068935",
+      "Article Number:": "61058",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710972862",
+      "OEM Numbers BMW:": "21526854659",
+      "OEM Numbers MINI:": "21526854659"
+    }
+  },
+  {
+    "id": "2689214",
+    "name": "Master Cylinder, clutch",
+    "partNo": "317 02 066 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "234",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "128712",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2689214/model-series-id-11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "for manual transmission",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2689214",
+      "Article Number:": "317 02 066 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers BMW:": "21 52 6 865 168"
+    }
+  }
+]

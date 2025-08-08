@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1219446",
+    "name": "Ignition Coil",
+    "partNo": "12824",
+    "manufacturer": "INTERMOTOR",
+    "supplierId": "269",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "146828",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1219446/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Weight [kg]": "0,275",
+      "Number of pins": "4",
+      "Number of inlets/outlets": "1",
+      "Net weight [kg]": "0,2",
+      "Article ID:": "1219446",
+      "Article Number:": "12824",
+      "Manufacturer:": "INTERMOTOR",
+      "EAN Numbers:": "501222514313",
+      "OEM Numbers TOYOTA:": "90919-C2005"
+    }
+  },
+  {
+    "id": "6368207",
+    "name": "Ignition Coil",
+    "partNo": "CP321",
+    "manufacturer": "LEMARK",
+    "supplierId": "6518",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "146828",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6368207/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Weight [kg]": "0,275",
+      "Number of pins": "4",
+      "Number of inlets/outlets": "1",
+      "Net weight [kg]": "0,2",
+      "Article ID:": "6368207",
+      "Article Number:": "CP321",
+      "Manufacturer:": "LEMARK",
+      "EAN Numbers:": "501222532843",
+      "OEM Numbers TOYOTA:": "90919-C2005"
+    }
+  }
+]

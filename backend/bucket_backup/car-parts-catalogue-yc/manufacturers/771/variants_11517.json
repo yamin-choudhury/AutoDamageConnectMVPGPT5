@@ -1,0 +1,162 @@
+[
+  {
+    "id": "18237",
+    "type": "3.0 S Q4",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 B",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-08-01",
+      "power": "301 KW / 409 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "38882",
+    "type": "3.0 D",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "A630HP",
+      "cylinder": "6",
+      "capacity": "2,987 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2013-08-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "38888",
+    "type": "3.0",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "F160AM",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-08-01",
+      "power": "243 KW / 330 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "38893",
+    "type": "3.0 S",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 B,F160AM",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-08-01",
+      "power": "301 KW / 409 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "39221",
+    "type": "3.0 D",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 15746 D",
+      "cylinder": "6",
+      "capacity": "2,987 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2013-08-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107361",
+    "type": "3.0",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 D",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-08-01",
+      "power": "257 KW / 350 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129536",
+    "type": "3.0 S",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 B",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-07-01",
+      "power": "316 KW / 430 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129538",
+    "type": "3.0 S Q4",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 B",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-07-01",
+      "power": "316 KW / 430 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141285",
+    "type": "MHEV",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "670 05 31 15",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-07-01",
+      "power": "243 KW / 330 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "143003",
+    "type": "3.8 V8",
+    "modelId": "11517",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 A",
+      "cylinder": "8",
+      "capacity": "3,799 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2020-10-01",
+      "power": "427 KW / 581 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "7700891",
+    "name": "Tie Rod End",
+    "partNo": "JTE1194",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "145387",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7700891/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M10x1,25",
+      "paired article number": "JTE1195",
+      "Article ID:": "7700891",
+      "Article Number:": "JTE1194",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293797570",
+      "OEM Numbers RENAULT:": "82 01 108 339",
+      "OEM Numbers DACIA:": "82 01 108 339"
+    }
+  },
+  {
+    "id": "7700892",
+    "name": "Tie Rod End",
+    "partNo": "JTE1195",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "145387",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7700892/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M10x1,25",
+      "paired article number": "JTE1194",
+      "Article ID:": "7700892",
+      "Article Number:": "JTE1195",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293797571",
+      "OEM Numbers RENAULT:": "82 01 108 332",
+      "OEM Numbers DACIA:": "82 01 108 332"
+    }
+  }
+]

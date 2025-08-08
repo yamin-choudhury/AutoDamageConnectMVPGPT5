@@ -1,0 +1,281 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104736",
+        "name": "Marten Repellent",
+        "categoryId": "100733",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/104736/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102208",
+        "name": "Brake Fluid",
+        "categoryId": "100006",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/102208/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100030",
+        "name": "Disc Brake",
+        "categoryId": "100006",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100030/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100050",
+    "name": "Clutch/Attachment Parts",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104813",
+        "name": "Hydraulic Fluid",
+        "categoryId": "100050",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/104813/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100335",
+    "name": "Comfort Systems",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100618",
+        "name": "Parking Distance Control/Back-up Alarm",
+        "categoryId": "100335",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100618/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100007",
+    "name": "Cooling System",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102205",
+        "name": "Antifreeze",
+        "categoryId": "100007",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/102205/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100521",
+        "name": "Crankshaft Drive",
+        "categoryId": "100002",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100521/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100789",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100789/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100491",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100491/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100046/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100598",
+        "name": "Additional Repairs",
+        "categoryId": "100019",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100598/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100597/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "706537",
+        "name": "Braking System",
+        "categoryId": "103671",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/706537/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104080",
+        "name": "Cooling System",
+        "categoryId": "103671",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/104080/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104287",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/104287/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/103984/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100417",
+    "name": "Security Systems",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "706455",
+        "name": "Driver Assistance System",
+        "categoryId": "100417",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/706455/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100012",
+    "name": "Steering",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100199",
+        "name": "Steering Gear/ Pump",
+        "categoryId": "100012",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100199/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100018",
+    "name": "Window Cleaning",
+    "variantId": "128350",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100133",
+        "name": "Wiper Blade/-Rubber",
+        "categoryId": "100018",
+        "variantId": "128350",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/128350/100133/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

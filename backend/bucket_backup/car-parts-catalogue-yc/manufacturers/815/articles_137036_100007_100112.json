@@ -1,0 +1,60 @@
+[
+  {
+    "id": "5509967",
+    "name": "Cap, coolant tank",
+    "partNo": "A4211101",
+    "manufacturer": "BOGAP",
+    "supplierId": "5349",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "137036",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5509967/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [cm]": "9",
+      "Width [cm]": "8",
+      "Height [cm]": "3,5",
+      "Article ID:": "5509967",
+      "Article Number:": "A4211101",
+      "Manufacturer:": "BOGAP",
+      "EAN Numbers:": "425178910105",
+      "OEM Numbers AUDI:": "3C0121321",
+      "OEM Numbers SEAT:": "3C0121321",
+      "OEM Numbers SKODA:": "3C0121321",
+      "OEM Numbers VW:": "3C0121321"
+    }
+  },
+  {
+    "id": "8753779",
+    "name": "Cap, coolant tank",
+    "partNo": "RC252",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "137036",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8753779/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "29",
+      "Pressure [bar]": "1,6",
+      "Outer diameter [mm]": "85,2",
+      "Pressure [psi]": "23",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "8753779",
+      "Article Number:": "RC252",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "540060819957",
+      "OEM Numbers AUDI:": "2Q0 121 321 A",
+      "OEM Numbers SEAT:": "2Q0 121 321 A",
+      "OEM Numbers SKODA:": "2Q0 121 321 A",
+      "OEM Numbers VW:": "2Q0 121 321 A",
+      "OEM Numbers BENTLEY:": "2Q0 121 321 A",
+      "OEM Numbers CUPRA:": "2Q0 121 321 A"
+    }
+  }
+]

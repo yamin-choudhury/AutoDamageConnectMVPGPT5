@@ -1,0 +1,59 @@
+[
+  {
+    "id": "2813681",
+    "name": "Trailer Hitch",
+    "partNo": "335353600001",
+    "manufacturer": "WESTFALIA",
+    "supplierId": "51",
+    "productsId": "39",
+    "productGroupId": "100607",
+    "categoryId": "100015",
+    "variantId": "5803",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2813681/model-series-id-6226/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "D-Value [kN]": "8,6",
+      "Drawbar Load [kg]": "60",
+      "Towed Weight [kg]": "1500",
+      "Weight [kg]": "21,6",
+      "Trailer Hitch": "with removable ball head",
+      "Machined": "with invisible cutout for bumper",
+      "Mounting time of (minutes)": "60",
+      "Mounting time to [min]": "90",
+      "Article ID:": "2813681",
+      "Article Number:": "335353600001",
+      "Manufacturer:": "WESTFALIA",
+      "EAN Numbers:": "425014115552",
+      "OEM Numbers TOYOTA:": "PZ408E255300"
+    }
+  },
+  {
+    "id": "2813869",
+    "name": "Trailer Hitch",
+    "partNo": "335412600001",
+    "manufacturer": "WESTFALIA",
+    "supplierId": "51",
+    "productsId": "39",
+    "productGroupId": "100607",
+    "categoryId": "100015",
+    "variantId": "5803",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2813869/model-series-id-6226/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "D-Value [kN]": "8,6",
+      "Drawbar Load [kg]": "60",
+      "Towed Weight [kg]": "1500",
+      "Weight [kg]": "21,5",
+      "Trailer Hitch": "with rigid ball head",
+      "Mounting time of (minutes)": "60",
+      "Mounting time to [min]": "90",
+      "Article ID:": "2813869",
+      "Article Number:": "335412600001",
+      "Manufacturer:": "WESTFALIA",
+      "EAN Numbers:": "425014119139",
+      "OEM Numbers TOYOTA:": "PZ408E255200"
+    }
+  }
+]

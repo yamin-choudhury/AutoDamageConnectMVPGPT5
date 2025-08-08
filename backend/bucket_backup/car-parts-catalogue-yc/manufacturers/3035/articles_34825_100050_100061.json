@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1133673",
+    "name": "Master Cylinder, clutch",
+    "partNo": "1201110",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "34825",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1133673/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Diameter [mm]": "19,05",
+      "Article ID:": "1133673",
+      "Article Number:": "1201110",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293747708",
+      "OEM Numbers AUDI:": "8E1 721 401 K",
+      "OEM Numbers SKODA:": "8E1 721 401 K",
+      "OEM Numbers VW:": "8E1 721 401 K",
+      "OEM Numbers SEAT:": "8E1 721 401 AK"
+    }
+  },
+  {
+    "id": "8579084",
+    "name": "Master Cylinder, clutch",
+    "partNo": "PNA110",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "34825",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8579084/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Diameter [mm]": "19,05",
+      "Article ID:": "8579084",
+      "Article Number:": "PNA110",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293726691",
+      "OEM Numbers AUDI:": "8E1 721 401 K",
+      "OEM Numbers SKODA:": "8E1 721 401 K",
+      "OEM Numbers VW:": "8E1 721 401 K",
+      "OEM Numbers SEAT:": "8E1 721 401 AK"
+    }
+  }
+]

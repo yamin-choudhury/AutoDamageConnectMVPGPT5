@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1708950",
+    "name": "Shock Absorber",
+    "partNo": "19-309422",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "135996",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1708950/model-series-id-39499/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Absorber does not carry a spring",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "1708950",
+      "Article Number:": "19-309422",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525884913",
+      "OEM Numbers VW:": "2QD513049D",
+      "OEM Numbers VAG:": "2Q0 513 049 DC"
+    }
+  },
+  {
+    "id": "2029036",
+    "name": "Shock Absorber",
+    "partNo": "22-297587",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "135996",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2029036/model-series-id-39499/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "2029036",
+      "Article Number:": "22-297587",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525883428",
+      "OEM Numbers SEAT:": "2Q0 413 031 CP",
+      "OEM Numbers VAG:": "2Q0 413 031 DN",
+      "OEM Numbers SKODA:": "2Q0 413 031 DT",
+      "OEM Numbers VW:": "2QD413031G"
+    }
+  }
+]

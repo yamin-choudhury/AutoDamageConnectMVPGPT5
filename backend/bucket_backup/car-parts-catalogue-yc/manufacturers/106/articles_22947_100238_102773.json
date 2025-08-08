@@ -1,0 +1,76 @@
+[
+  {
+    "id": "3956284",
+    "name": "Mounting, manual transmission",
+    "partNo": "594526",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "22947",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3956284/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3956284",
+      "Article Number:": "594526",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975083616",
+      "OEM Numbers SEAT:": "6Q0199555AS",
+      "OEM Numbers SKODA:": "6Q0199555AS",
+      "OEM Numbers VW:": "6Q0199555AS",
+      "OEM Numbers AUDI:": "6Q0199555AS"
+    }
+  },
+  {
+    "id": "3956723",
+    "name": "Mounting, manual transmission",
+    "partNo": "594701",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "22947",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3956723/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3956723",
+      "Article Number:": "594701",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975085283",
+      "OEM Numbers AUDI:": "6Q0199555AT",
+      "OEM Numbers SEAT:": "6Q0199555AT",
+      "OEM Numbers SKODA:": "6Q0199555AT",
+      "OEM Numbers VW:": "6Q0199555AT"
+    }
+  },
+  {
+    "id": "4382447",
+    "name": "Mounting, manual transmission",
+    "partNo": "71-11295-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "22947",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4382447/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "4382447",
+      "Article Number:": "71-11295-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727625896",
+      "OEM Numbers VW:": "6Q0 199 555 T",
+      "OEM Numbers VAG:": "6Q0 199 555 T",
+      "OEM Numbers RENAULT:": "6Q0199555T",
+      "OEM Numbers RENAULT TRUCKS:": "6Q0199555T"
+    }
+  }
+]

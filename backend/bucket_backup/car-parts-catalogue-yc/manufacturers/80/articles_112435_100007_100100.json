@@ -1,0 +1,101 @@
+[
+  {
+    "id": "472751",
+    "name": "Radiator Hose",
+    "partNo": "05-3976",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/472751/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33",
+      "Inner diameter 2 [mm]": "32",
+      "Hose Length [mm]": "730",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "472751",
+      "Article Number:": "05-3976",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "540060836359",
+      "OEM Numbers NISSAN:": "215013TA0A"
+    }
+  },
+  {
+    "id": "472752",
+    "name": "Radiator Hose",
+    "partNo": "05-3976",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/472752/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33",
+      "Inner diameter 2 [mm]": "32",
+      "Hose Length [mm]": "730",
+      "Article ID:": "472752",
+      "Article Number:": "05-3976",
+      "Manufacturer:": "GATES-SEA",
+      "EAN Numbers:": "540060836359",
+      "OEM Numbers NISSAN:": "215013TA0A"
+    }
+  },
+  {
+    "id": "8298318",
+    "name": "Radiator Hose",
+    "partNo": "NSRDH-279",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8298318/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Lower",
+      "Article ID:": "8298318",
+      "Article Number:": "NSRDH-279",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers NISSAN:": "21503-JA000"
+    }
+  },
+  {
+    "id": "8724135",
+    "name": "Radiator Hose",
+    "partNo": "R41111",
+    "manufacturer": "RAPRO",
+    "supplierId": "4303",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8724135/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33",
+      "Inner diameter 2 [mm]": "32",
+      "Hose Length [mm]": "730",
+      "Article ID:": "8724135",
+      "Article Number:": "R41111",
+      "Manufacturer:": "RAPRO",
+      "OEM Numbers NISSAN:": "215013TA0A"
+    }
+  }
+]

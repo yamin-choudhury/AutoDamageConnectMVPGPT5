@@ -1,0 +1,44 @@
+[
+  {
+    "id": "7745581",
+    "name": "Sensor, throttle position",
+    "partNo": "K44-HYD-18010002",
+    "manufacturer": "NAKAMOTO",
+    "supplierId": "6388",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "8982",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7745581/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7745581",
+      "Article Number:": "K44-HYD-18010002",
+      "Manufacturer:": "NAKAMOTO",
+      "OEM Numbers HYUNDAI:": "35102-02000"
+    }
+  },
+  {
+    "id": "2376774",
+    "name": "Sensor, throttle position",
+    "partNo": "27712",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "8982",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2376774/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "2376774",
+      "Article Number:": "27712",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509327712",
+      "OEM Numbers KIA:": "35102-02000"
+    }
+  }
+]

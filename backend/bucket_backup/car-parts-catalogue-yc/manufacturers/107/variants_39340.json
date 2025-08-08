@@ -1,0 +1,18 @@
+[
+  {
+    "id": "135118",
+    "type": "2.4 AWD",
+    "modelId": "39340",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA24F",
+      "cylinder": "4",
+      "capacity": "2,387 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2019-01-01",
+      "power": "194 KW / 264 PS"
+    },
+    "categories": []
+  }
+]

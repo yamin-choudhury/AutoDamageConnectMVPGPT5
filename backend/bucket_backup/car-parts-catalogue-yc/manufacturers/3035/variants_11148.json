@@ -1,0 +1,98 @@
+[
+  {
+    "id": "58638",
+    "type": "1.4",
+    "modelId": "11148",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CKA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-12-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58639",
+    "type": "1.6",
+    "modelId": "11148",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CPD",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2012-12-01\n                            \n                            2018-12-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107699",
+    "type": "1.4 TSI",
+    "modelId": "11148",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CST",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-08-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120840",
+    "type": "1.6 CNG",
+    "modelId": "11148",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUC",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2013-05-01\n                            \n                            2016-12-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133551",
+    "type": "1.5",
+    "modelId": "11148",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DLXA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136515",
+    "type": "1.5",
+    "modelId": "11148",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DLFA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-06-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  }
+]

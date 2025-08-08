@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2970401",
+    "name": "Inner Tie Rod",
+    "partNo": "36710 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "115089",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2970401/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2970401",
+      "Article Number:": "36710 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743740713",
+      "OEM Numbers AUDI (FAW):": "1KD 423 810",
+      "OEM Numbers VW (FAW):": "1KD 423 810",
+      "OEM Numbers SEAT:": "561 423 810",
+      "OEM Numbers SKODA:": "561 423 810",
+      "OEM Numbers VW:": "561 423 810",
+      "OEM Numbers CUPRA:": "561 423 810"
+    }
+  },
+  {
+    "id": "7654953",
+    "name": "Inner Tie Rod",
+    "partNo": "JAR7657",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "115089",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7654953/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Overall Length [mm]": "351,2",
+      "Thread Size 1": "M16x1.5",
+      "Article ID:": "7654953",
+      "Article Number:": "JAR7657",
+      "Manufacturer:": "TRW",
+      "OEM Numbers AUDI (FAW):": "1KD 423 810",
+      "OEM Numbers VW (FAW):": "1KD 423 810",
+      "OEM Numbers SEAT:": "561 423 810",
+      "OEM Numbers SKODA:": "561 423 810",
+      "OEM Numbers VW:": "561 423 810",
+      "OEM Numbers CUPRA:": "561 423 810"
+    }
+  }
+]

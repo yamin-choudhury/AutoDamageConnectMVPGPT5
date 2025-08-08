@@ -1,0 +1,77 @@
+[
+  {
+    "id": "4756309",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 11 3287",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "15995",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756309/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with pipe connector",
+      "Article ID:": "4756309",
+      "Article Number:": "82 11 3287",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258846344",
+      "OEM Numbers SEAT:": "(1S0.254.500 BX)",
+      "OEM Numbers SKODA:": "(1S0.254.500 BX)",
+      "OEM Numbers VW:": "(1S0.254.500 BX)"
+    }
+  },
+  {
+    "id": "4756531",
+    "name": "Mounting Kit, exhaust system",
+    "partNo": "82 11 9218",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1127",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "15995",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756531/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with pipe connector",
+      "Exhaust System": "for centre muffler",
+      "Article ID:": "4756531",
+      "Article Number:": "82 11 9218",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258872969",
+      "OEM Numbers SEAT:": "(1S0.253.409 M)",
+      "OEM Numbers SKODA:": "(1S0.253.409 M)",
+      "OEM Numbers VW:": "(JZW.253.409 T)"
+    }
+  },
+  {
+    "id": "4756532",
+    "name": "Mounting Kit, exhaust system",
+    "partNo": "82 11 9219",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1127",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "15995",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756532/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with clamps",
+      "Exhaust System": "for centre muffler",
+      "Article ID:": "4756532",
+      "Article Number:": "82 11 9219",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258872972",
+      "OEM Numbers SEAT:": "(1S0.253.409 M)",
+      "OEM Numbers SKODA:": "(1S0.253.409 M)",
+      "OEM Numbers VW:": "(JZW.253.409 T)",
+      "OEM Numbers POLMO:": "(24.80)"
+    }
+  }
+]

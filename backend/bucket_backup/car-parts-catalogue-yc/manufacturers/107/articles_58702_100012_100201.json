@@ -1,0 +1,78 @@
+[
+  {
+    "id": "7602637",
+    "name": "Bellow Kit, steering",
+    "partNo": "J4107007",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "58702",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7602637/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "164",
+      "Inner diameter 1 [mm]": "14,5",
+      "Inner diameter 2 [mm]": "46,5",
+      "Article ID:": "7602637",
+      "Article Number:": "J4107007",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941638930",
+      "OEM Numbers SUBARU:": "34190-FE030"
+    }
+  },
+  {
+    "id": "8182965",
+    "name": "Bellow, steering",
+    "partNo": "MR-2088",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "58702",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8182965/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "165",
+      "Inner diameter 1 [mm]": "14",
+      "Inner diameter 2 [mm]": "45",
+      "Article ID:": "8182965",
+      "Article Number:": "MR-2088",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011699010",
+      "OEM Numbers SUBARU:": "34190FE030",
+      "OEM Numbers TOYOTA:": "45535-20190",
+      "OEM Numbers MITSUBISHI:": "MN103262"
+    }
+  },
+  {
+    "id": "8191602",
+    "name": "Bellow, steering",
+    "partNo": "MRs-2088",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "58702",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8191602/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "163",
+      "Inner diameter 1 [mm]": "14",
+      "Inner diameter 2 [mm]": "45",
+      "Article ID:": "8191602",
+      "Article Number:": "MRs-2088",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011699050",
+      "OEM Numbers SUBARU:": "34190FE030",
+      "OEM Numbers TOYOTA:": "45535-20190",
+      "OEM Numbers MITSUBISHI:": "MN103262"
+    }
+  }
+]

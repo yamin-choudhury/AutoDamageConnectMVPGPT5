@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3823074",
+    "name": "Bumper Cover, towing device",
+    "partNo": "5513-00-0045920P",
+    "manufacturer": "BLIC",
+    "supplierId": "4555",
+    "productsId": "943",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "9304",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3823074/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Article ID:": "3823074",
+      "Article Number:": "5513-00-0045920P",
+      "Manufacturer:": "BLIC",
+      "EAN Numbers:": "590165548769",
+      "OEM Numbers AUDI:": "8X0807241"
+    }
+  },
+  {
+    "id": "9516941",
+    "name": "Bracket, muffler",
+    "partNo": "V10-9610",
+    "manufacturer": "VAICO",
+    "supplierId": "162",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "9304",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9516941/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,151",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Exhaust System": "for rear muffler",
+      "Article ID:": "9516941",
+      "Article Number:": "V10-9610",
+      "Manufacturer:": "VAICO",
+      "EAN Numbers:": "404600166793",
+      "OEM Numbers VW:": "1J0 253 144 Q",
+      "OEM Numbers VAG:": "1J0 253 144 Q",
+      "OEM Numbers AUDI:": "1J0 253 144 Q",
+      "OEM Numbers SEAT:": "1J0 253 144",
+      "OEM Numbers SKODA:": "1J0 253 144"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "2065626",
+    "name": "Locking Knob",
+    "partNo": "22288",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1646",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "113223",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2065626/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,002",
+      "Article ID:": "2065626",
+      "Article Number:": "22288",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781622288",
+      "OEM Numbers SEAT:": "3B0 837 187 B",
+      "OEM Numbers VW:": "3B0 837 187 B"
+    }
+  },
+  {
+    "id": "2705102",
+    "name": "Locking Knob",
+    "partNo": "32 92 2288",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1646",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "113223",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2705102/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,002",
+      "Article ID:": "2705102",
+      "Article Number:": "32 92 2288",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468822288",
+      "OEM Numbers SEAT:": "3B0 837 187 B",
+      "OEM Numbers VW:": "3B0 837 187 B"
+    }
+  }
+]

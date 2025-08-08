@@ -1,0 +1,66 @@
+[
+  {
+    "id": "13973",
+    "type": "2.2 Td4 4x4 (L317)",
+    "modelId": "5034",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT224",
+      "cylinder": "4",
+      "capacity": "2,198 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2011-08-01\n                            \n                            2016-02-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17473",
+    "type": "2.5 Td5 4x4 (L316)",
+    "modelId": "5034",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "10 P,15 P",
+      "cylinder": "5",
+      "capacity": "2,495 CCM / 2.5 L",
+      "fuelType": "Diesel",
+      "year": "1998-06-01\n                            \n                            2016-02-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "29984",
+    "type": "2.4 Td4 4x4 (L317)",
+    "modelId": "5034",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT244",
+      "cylinder": "4",
+      "capacity": "2,402 CCM / 2.4 L",
+      "fuelType": "Diesel",
+      "year": "2007-05-01\n                            \n                            2016-02-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144640",
+    "type": "2.4 Td4 4x4",
+    "modelId": "5034",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT244",
+      "cylinder": "4",
+      "capacity": "2,402 CCM / 2.4 L",
+      "fuelType": "Diesel",
+      "year": "2009-10-01\n                            \n                            2016-05-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  }
+]

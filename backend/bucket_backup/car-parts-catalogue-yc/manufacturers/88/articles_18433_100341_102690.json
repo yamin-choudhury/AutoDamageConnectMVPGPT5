@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1098292",
+    "name": "Ashtray",
+    "partNo": "119 27 001 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "3693",
+    "productGroupId": "102690",
+    "categoryId": "100341",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1098292/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Shape": "round",
+      "Quantity Unit": "Piece",
+      "Article ID:": "1098292",
+      "Article Number:": "119 27 001 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "7589.05",
+      "OEM Numbers CITROËN/PEUGEOT:": "7589.05"
+    }
+  },
+  {
+    "id": "1127392",
+    "name": "Ashtray",
+    "partNo": "120 27 002 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "3693",
+    "productGroupId": "102690",
+    "categoryId": "100341",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1127392/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Chrome / Black",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Quantity Unit": "Piece",
+      "Supplementary Article/Info 2": "with lid",
+      "Article ID:": "1127392",
+      "Article Number:": "120 27 002 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "8211.F9",
+      "OEM Numbers CITROËN/PEUGEOT:": "8211.F9"
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "221308",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01060600",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "34844",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/221308/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,4",
+      "Inner diameter [mm]": "84",
+      "Outer diameter [mm]": "130",
+      "Article ID:": "221308",
+      "Article Number:": "01060600",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776974680",
+      "OEM Numbers VOLVO:": "8663796",
+      "OEM Numbers FORD:": "3M519451JA",
+      "OEM Numbers MAZDA:": "LF07-40-305A"
+    }
+  },
+  {
+    "id": "1240237",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "130-949",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "34844",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1240237/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "after catalytic converter",
+      "Article ID:": "1240237",
+      "Article Number:": "130-949",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513322705",
+      "OEM Numbers FORD:": "JV419451AA",
+      "OEM Numbers VOLVO:": "8663796",
+      "OEM Numbers MAZDA:": "LF0740305A"
+    }
+  },
+  {
+    "id": "7148044",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "FT84812",
+    "manufacturer": "FAST",
+    "supplierId": "4938",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "34844",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7148044/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Inlet",
+      "Article ID:": "7148044",
+      "Article Number:": "FT84812",
+      "Manufacturer:": "FAST",
+      "EAN Numbers:": "590179703380",
+      "OEM Numbers FORD:": "3M519451JB",
+      "OEM Numbers VOLVO:": "8663796",
+      "OEM Numbers MAZDA:": "LF0740305A"
+    }
+  },
+  {
+    "id": "9752462",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1158513",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "34844",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9752462/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,4",
+      "Inner diameter [mm]": "84",
+      "Outer diameter [mm]": "130",
+      "Article ID:": "9752462",
+      "Article Number:": "WG1158513",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VOLVO:": "8663796",
+      "OEM Numbers FORD:": "3M519451JA",
+      "OEM Numbers MAZDA:": "LF0740305A"
+    }
+  }
+]

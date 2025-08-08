@@ -1,0 +1,18 @@
+[
+  {
+    "id": "32155",
+    "type": "1.7 CDTi (L48)",
+    "modelId": "5148",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 17 DTJ,A 17 DTJ",
+      "cylinder": "4",
+      "capacity": "1,686 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "2004-01-01\n                            \n                            2011-03-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  }
+]

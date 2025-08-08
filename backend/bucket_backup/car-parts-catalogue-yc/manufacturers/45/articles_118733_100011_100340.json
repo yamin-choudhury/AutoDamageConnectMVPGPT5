@@ -1,0 +1,77 @@
+[
+  {
+    "id": "2886184",
+    "name": "Shock Absorber",
+    "partNo": "350 399",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "118733",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2886184/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Telescopic Shock Absorber",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "2886184",
+      "Article Number:": "350 399",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "405992305628",
+      "OEM Numbers HONDA:": "52610-TSE-T02"
+    }
+  },
+  {
+    "id": "2886190",
+    "name": "Shock Absorber",
+    "partNo": "350 418",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "118733",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2886190/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "2886190",
+      "Article Number:": "350 418",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "405992306054",
+      "OEM Numbers HONDA:": "51621-TSE-T02"
+    }
+  },
+  {
+    "id": "2886191",
+    "name": "Shock Absorber",
+    "partNo": "350 419",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "118733",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2886191/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Telescopic Shock Absorber",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "2886191",
+      "Article Number:": "350 419",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "405992306055",
+      "OEM Numbers HONDA:": "51611-TSE-T02"
+    }
+  }
+]

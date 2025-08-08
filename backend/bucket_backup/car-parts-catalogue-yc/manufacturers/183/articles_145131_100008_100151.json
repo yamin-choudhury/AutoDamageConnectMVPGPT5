@@ -1,0 +1,42 @@
+[
+  {
+    "id": "8315744",
+    "name": "Spark Plug",
+    "partNo": "OE248",
+    "manufacturer": "CHAMPION",
+    "supplierId": "43",
+    "productsId": "686",
+    "productGroupId": "100151",
+    "categoryId": "100008",
+    "variantId": "145131",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8315744/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Electrode Gap [mm]": "0,8",
+      "Connector type": "SAE",
+      "Thread Size": "M12x1.25",
+      "Spanner Size": "16 mm",
+      "Quality/ Grade": "Pt GE",
+      "Packing Type": "Box",
+      "Spark Plug": "Iridium Middle Electrode",
+      "Thread Length [mm]": "26,5",
+      "Technical Information Number": "RER3WYPB",
+      "Spark Position [mm]": "3",
+      "Tightening torque from [Nm]": "20",
+      "Tightening torque to [Nm]": "25",
+      "Packaging length [cm]": "8,85",
+      "Packaging width [cm]": "2,6",
+      "Packaging height [cm]": "2,35",
+      "Resistor from [kOhm]": "3",
+      "Resistor to [kOhm]": "7,5",
+      "Projection [mm]": "1,5",
+      "Article ID:": "8315744",
+      "Article Number:": "OE248",
+      "Manufacturer:": "CHAMPION",
+      "EAN Numbers:": "406042605445",
+      "OEM Numbers HYUNDAI:": "9803916",
+      "OEM Numbers KIA:": "18868 08115"
+    }
+  }
+]

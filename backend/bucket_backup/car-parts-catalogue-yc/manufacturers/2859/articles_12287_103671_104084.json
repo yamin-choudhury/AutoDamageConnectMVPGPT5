@@ -1,0 +1,62 @@
+[
+  {
+    "id": "6011735",
+    "name": "Brake Caliper",
+    "partNo": "BHW675E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "12287",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6011735/model-series-id-9793/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Brake Caliper Type": "Fist-type Caliper",
+      "Material": "Cast Iron",
+      "paired article number": "BHW676E",
+      "Piston Diameter [mm]": "54",
+      "Article ID:": "6011735",
+      "Article Number:": "BHW675E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293756823",
+      "OEM Numbers AUDI:": "8X0 615 123",
+      "OEM Numbers SEAT:": "1K0 615 123 M",
+      "OEM Numbers SKODA:": "1Z0 615 123",
+      "OEM Numbers VW:": "6R0 615 123",
+      "OEM Numbers VW (FAW):": "1KD 615 123"
+    }
+  },
+  {
+    "id": "6011736",
+    "name": "Brake Caliper",
+    "partNo": "BHW676E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "12287",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6011736/model-series-id-9793/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Brake Caliper Type": "Fist-type Caliper",
+      "Material": "Cast Iron",
+      "paired article number": "BHW675E",
+      "Piston Diameter [mm]": "54",
+      "Article ID:": "6011736",
+      "Article Number:": "BHW676E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293756854",
+      "OEM Numbers AUDI:": "8X0 615 124",
+      "OEM Numbers SEAT:": "1K0 615 124 M",
+      "OEM Numbers SKODA:": "1K0 615 124 M",
+      "OEM Numbers VW:": "6R0 615 124",
+      "OEM Numbers VW (FAW):": "1KD 615 124"
+    }
+  }
+]

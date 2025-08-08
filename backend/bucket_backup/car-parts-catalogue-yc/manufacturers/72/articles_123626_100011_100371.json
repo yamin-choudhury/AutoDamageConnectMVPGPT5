@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7013432",
+    "name": "Suspension Strut Support Mount",
+    "partNo": "FD-SB-14575",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "1180",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "123626",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7013432/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle both sides",
+      "Packing Type": "Box",
+      "Packaging length [cm]": "12,5",
+      "Packaging width [cm]": "9",
+      "Packaging height [cm]": "8",
+      "Article ID:": "7013432",
+      "Article Number:": "FD-SB-14575",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "406042616641",
+      "OEM Numbers FORD:": "1535299",
+      "OEM Numbers MAZDA:": "DR612870X"
+    }
+  },
+  {
+    "id": "3649521",
+    "name": "Suspension Strut Support Mount",
+    "partNo": "51472",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1180",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "123626",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3649521/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "3649521",
+      "Article Number:": "51472",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509351472",
+      "OEM Numbers FORD:": "D651-34-380XB",
+      "OEM Numbers MAZDA:": "D651-34-380XB"
+    }
+  }
+]

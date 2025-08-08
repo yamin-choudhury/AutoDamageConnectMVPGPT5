@@ -1,0 +1,74 @@
+[
+  {
+    "id": "768021",
+    "name": "Sensor, coolant temperature",
+    "partNo": "1.830.331",
+    "manufacturer": "EPS",
+    "supplierId": "4005",
+    "productsId": "2055",
+    "productGroupId": "100794",
+    "categoryId": "100243",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/768021/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M10x1,5",
+      "Spanner Size": "15",
+      "Article ID:": "768021",
+      "Article Number:": "1.830.331",
+      "Manufacturer:": "EPS",
+      "EAN Numbers:": "801251023562",
+      "OEM Numbers FORD:": "YC1F-6G004-BE",
+      "OEM Numbers LAND ROVER:": "LR039220"
+    }
+  },
+  {
+    "id": "4328903",
+    "name": "Sensor, coolant temperature",
+    "partNo": "7.3331",
+    "manufacturer": "FACET",
+    "supplierId": "159",
+    "productsId": "2055",
+    "productGroupId": "100794",
+    "categoryId": "100243",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4328903/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M10x1,5",
+      "Spanner Size": "15",
+      "Article ID:": "4328903",
+      "Article Number:": "7.3331",
+      "Manufacturer:": "FACET",
+      "EAN Numbers:": "801251003562",
+      "OEM Numbers FORD:": "YC1F-6G004-BE",
+      "OEM Numbers LAND ROVER:": "LR039220"
+    }
+  },
+  {
+    "id": "3718542",
+    "name": "Sensor, coolant temperature",
+    "partNo": "530 331",
+    "manufacturer": "KW",
+    "supplierId": "4006",
+    "productsId": "2055",
+    "productGroupId": "100794",
+    "categoryId": "100243",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3718542/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M10x1,5",
+      "Spanner Size": "15",
+      "Article ID:": "3718542",
+      "Article Number:": "530 331",
+      "Manufacturer:": "KW",
+      "EAN Numbers:": "801251013562",
+      "OEM Numbers FORD:": "YC1F-6G004-BE",
+      "OEM Numbers LAND ROVER:": "LR039220"
+    }
+  }
+]

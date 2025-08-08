@@ -1,0 +1,49 @@
+[
+  {
+    "id": "237743",
+    "name": "Seal, thermostat",
+    "partNo": "01187900",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "139",
+    "productGroupId": "100096",
+    "categoryId": "100007",
+    "variantId": "108942",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/237743/model-series-id-4415/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "81",
+      "Width [mm]": "64",
+      "Article ID:": "237743",
+      "Article Number:": "01187900",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776993765",
+      "OEM Numbers MAZDA:": "ZZC1-15-165",
+      "OEM Numbers VOLVO:": "31251248"
+    }
+  },
+  {
+    "id": "9915760",
+    "name": "Seal, thermostat",
+    "partNo": "WG1448658",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "139",
+    "productGroupId": "100096",
+    "categoryId": "100007",
+    "variantId": "108942",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9915760/model-series-id-4415/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "81",
+      "Width [mm]": "64",
+      "Article ID:": "9915760",
+      "Article Number:": "WG1448658",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers MAZDA:": "ZZC115165",
+      "OEM Numbers VOLVO:": "31251248"
+    }
+  }
+]

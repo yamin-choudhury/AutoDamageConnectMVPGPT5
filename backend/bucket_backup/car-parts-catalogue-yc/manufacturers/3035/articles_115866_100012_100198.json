@@ -1,0 +1,56 @@
+[
+  {
+    "id": "9368346",
+    "name": "Tie Rod End",
+    "partNo": "TA1667",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "115866",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9368346/model-series-id-11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M14x1.5",
+      "Cone Size [mm]": "13",
+      "Thread Type": "with right-hand thread",
+      "Article ID:": "9368346",
+      "Article Number:": "TA1667",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275923850",
+      "OEM Numbers AUDI:": "1J0422811D",
+      "OEM Numbers SEAT:": "1J0422811D",
+      "OEM Numbers SKODA:": "1J0422811D",
+      "OEM Numbers VW:": "1J0422811D"
+    }
+  },
+  {
+    "id": "9368348",
+    "name": "Tie Rod End",
+    "partNo": "TA1668",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "115866",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9368348/model-series-id-11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M14x1.5",
+      "Cone Size [mm]": "13",
+      "Thread Type": "with right-hand thread",
+      "Article ID:": "9368348",
+      "Article Number:": "TA1668",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275923851",
+      "OEM Numbers AUDI:": "6R0 423 812A",
+      "OEM Numbers SEAT:": "6R0 423 812A",
+      "OEM Numbers SKODA:": "6R0 423 812A",
+      "OEM Numbers VW:": "6R0 423 812A"
+    }
+  }
+]

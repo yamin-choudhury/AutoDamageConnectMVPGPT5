@@ -1,0 +1,73 @@
+[
+  {
+    "id": "3751631",
+    "name": "Water Pump, engine cooling",
+    "partNo": "538 0557 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "124411",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3751631/model-series-id-37376/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Pulleys": "without belt pulley",
+      "Number of thread bores": "3",
+      "Water Pump Type": "for v-ribbed belt use",
+      "Article ID:": "3751631",
+      "Article Number:": "538 0557 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487033561",
+      "OEM Numbers TOYOTA (FAW):": "1610009481",
+      "OEM Numbers TOYOTA:": "16100B9010",
+      "OEM Numbers LEXUS:": "16100B9010",
+      "OEM Numbers DAIHATSU:": "16100B9010"
+    }
+  },
+  {
+    "id": "3751712",
+    "name": "Water Pump, engine cooling",
+    "partNo": "538 0640 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "124411",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3751712/model-series-id-37376/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of thread bores": "4",
+      "Water Pump Type": "for v-ribbed belt use",
+      "Article ID:": "3751712",
+      "Article Number:": "538 0640 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487033644",
+      "OEM Numbers DAIHATSU:": "16100B9150"
+    }
+  },
+  {
+    "id": "554123",
+    "name": "Water Pump, engine cooling",
+    "partNo": "06628",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "124411",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/554123/model-series-id-37376/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "554123",
+      "Article Number:": "06628",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357306628",
+      "OEM Numbers TOYOTA:": "16100-B9010"
+    }
+  }
+]

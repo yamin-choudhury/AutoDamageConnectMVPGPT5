@@ -1,0 +1,121 @@
+[
+  {
+    "id": "2016375",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "218-998",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2016375/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2016375",
+      "Article Number:": "218-998",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513326273",
+      "OEM Numbers CITROËN:": "179744",
+      "OEM Numbers PEUGEOT:": "179744",
+      "OEM Numbers BMW:": "18307806012"
+    }
+  },
+  {
+    "id": "4758212",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 22 4821",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4758212/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Catalytic Converter Type": "for vehicles with soot filter",
+      "Article ID:": "4758212",
+      "Article Number:": "82 22 4821",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258835168",
+      "OEM Numbers CITROËN:": "1797.44",
+      "OEM Numbers PEUGEOT:": "1797.44",
+      "OEM Numbers MINI:": "(7.812.295)",
+      "OEM Numbers BMW:": "7.806.012"
+    }
+  },
+  {
+    "id": "6770214",
+    "name": "Mounting Kit, exhaust manifold",
+    "partNo": "EK812",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "3153",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6770214/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "K812",
+      "Article ID:": "6770214",
+      "Article Number:": "EK812",
+      "Manufacturer:": "LRT",
+      "OEM Numbers CITROËN:": "0341J2",
+      "OEM Numbers PEUGEOT:": "0341J2",
+      "OEM Numbers BMW:": "11627806007",
+      "OEM Numbers MINI:": "11627806007",
+      "OEM Numbers SUZUKI:": "1411069K00",
+      "OEM Numbers FORD:": "8M5Q-9431-A2A"
+    }
+  },
+  {
+    "id": "8546149",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "PGA-162",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8546149/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Catalytic Converter Type": "for vehicles with soot filter",
+      "Article ID:": "8546149",
+      "Article Number:": "PGA-162",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550318412",
+      "OEM Numbers PEUGEOT:": "179744",
+      "OEM Numbers BMW:": "18307806012"
+    }
+  },
+  {
+    "id": "5537462",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "AA97228",
+    "manufacturer": "VENEPORTE",
+    "supplierId": "357",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5537462/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5537462",
+      "Article Number:": "AA97228",
+      "Manufacturer:": "VENEPORTE",
+      "EAN Numbers:": "560518097228",
+      "OEM Numbers CITROËN/PEUGEOT:": "179744",
+      "OEM Numbers MINI:": "18307806012"
+    }
+  }
+]

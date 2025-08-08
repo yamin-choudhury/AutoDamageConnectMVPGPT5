@@ -1,0 +1,54 @@
+[
+  {
+    "id": "353360",
+    "name": "Brake Booster",
+    "partNo": "03.7848-5003.4",
+    "manufacturer": "ATE",
+    "supplierId": "3",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "31673",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/353360/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [in]": "8",
+      "Parameter": "T52",
+      "Operating Mode": "Pneumatic",
+      "Brake System": "ATE",
+      "Article ID:": "353360",
+      "Article Number:": "03.7848-5003.4",
+      "Manufacturer:": "ATE",
+      "EAN Numbers:": "400663334767",
+      "OEM Numbers BMW:": "34 33 6 779 721"
+    }
+  },
+  {
+    "id": "172509",
+    "name": "Repair Kit, brake booster",
+    "partNo": "00748698",
+    "manufacturer": "TEDGUM",
+    "supplierId": "4593",
+    "productsId": "662",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "31673",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/172509/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Required quantity": "1",
+      "Material": "PU (Polyurethane)",
+      "Supplementary Article/Info 2": "with grease cap",
+      "for manufacturer number": "03.7718-5018.1",
+      "Article ID:": "172509",
+      "Article Number:": "00748698",
+      "Manufacturer:": "TEDGUM",
+      "EAN Numbers:": "590822999442",
+      "OEM Numbers MERCEDES-BENZ:": "A1634300130",
+      "OEM Numbers VOLVO:": "30793673",
+      "OEM Numbers TOYOTA:": "4461005060"
+    }
+  }
+]

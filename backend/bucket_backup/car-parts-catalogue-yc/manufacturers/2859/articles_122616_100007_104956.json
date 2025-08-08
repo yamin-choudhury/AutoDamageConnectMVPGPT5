@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3751438",
+    "name": "Water Pump, engine cooling",
+    "partNo": "538 0360 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "122616",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3751438/model-series-id-36925/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Pulleys": "with belt pulley",
+      "Housing Type": "with housing",
+      "Supplementary Article/Supplementary Info": "with water pump",
+      "Supplementary Article/Info 2": "with thermal management module",
+      "Water Pump Type": "for toothed belt drive",
+      "Article ID:": "3751438",
+      "Article Number:": "538 0360 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487033364",
+      "OEM Numbers AUDI:": "06L121111P",
+      "OEM Numbers SEAT:": "06L121111P",
+      "OEM Numbers SKODA:": "06L121111P",
+      "OEM Numbers VW:": "06L121111P"
+    }
+  },
+  {
+    "id": "2375815",
+    "name": "Water Pump, engine cooling",
+    "partNo": "27674",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "122616",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2375815/model-series-id-36925/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2375815",
+      "Article Number:": "27674",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509327674",
+      "OEM Numbers VW:": "06L 121 111 N"
+    }
+  }
+]

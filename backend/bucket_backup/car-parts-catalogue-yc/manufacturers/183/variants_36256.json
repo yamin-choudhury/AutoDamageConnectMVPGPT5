@@ -1,0 +1,66 @@
+[
+  {
+    "id": "118780",
+    "type": "3.0 GDi",
+    "modelId": "36256",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DG",
+      "cylinder": "6",
+      "capacity": "2,999 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-06-01\n                            \n                            2016-08-01",
+      "power": "199 KW / 271 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118781",
+    "type": "3.3 GDi",
+    "modelId": "36256",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DH",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2014-06-01\n                            \n                            2016-08-01",
+      "power": "216 KW / 294 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130064",
+    "type": "3.0 GDi",
+    "modelId": "36256",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DG",
+      "cylinder": "6",
+      "capacity": "2,999 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-09-01",
+      "power": "196 KW / 266 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130065",
+    "type": "3.3 GDi",
+    "modelId": "36256",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DH",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2016-09-01",
+      "power": "213 KW / 290 PS"
+    },
+    "categories": []
+  }
+]

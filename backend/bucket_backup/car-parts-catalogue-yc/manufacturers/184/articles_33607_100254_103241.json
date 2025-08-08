@@ -1,0 +1,131 @@
+[
+  {
+    "id": "6765606",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "EGR343N",
+    "manufacturer": "DIPASPORT",
+    "supplierId": "4882",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "33607",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6765606/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6765606",
+      "Article Number:": "EGR343N",
+      "Manufacturer:": "DIPASPORT",
+      "OEM Numbers HYUNDAI:": "2843027400"
+    }
+  },
+  {
+    "id": "6765607",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "EGR343R",
+    "manufacturer": "DIPASPORT",
+    "supplierId": "4882",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "33607",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6765607/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6765607",
+      "Article Number:": "EGR343R",
+      "Manufacturer:": "DIPASPORT",
+      "OEM Numbers HYUNDAI:": "2843027400"
+    }
+  },
+  {
+    "id": "4052794",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "60C0520-OYO",
+    "manufacturer": "Oyodo",
+    "supplierId": "6984",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "33607",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4052794/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4052794",
+      "Article Number:": "60C0520-OYO",
+      "Manufacturer:": "Oyodo",
+      "OEM Numbers HYUNDAI:": "28416-27450",
+      "OEM Numbers KIA:": "28416-27450"
+    }
+  },
+  {
+    "id": "5023942",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "8813 43105",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "33607",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5023942/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without gaskets/seals",
+      "Article number of recommended accessories": "8813 99171",
+      "Article ID:": "5023942",
+      "Article Number:": "8813 43105",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "571047633987",
+      "OEM Numbers HYUNDAI:": "28416-27450",
+      "OEM Numbers KIA:": "28416-27450"
+    }
+  },
+  {
+    "id": "5023942",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "8813 43105",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "33607",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5023942/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without gaskets/seals",
+      "Article number of recommended accessories": "8813 99171",
+      "Article ID:": "5023942",
+      "Article Number:": "8813 43105",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "571047633987",
+      "OEM Numbers HYUNDAI:": "28416-27450",
+      "OEM Numbers KIA:": "28416-27450"
+    }
+  },
+  {
+    "id": "10019812",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "WG1822180",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "33607",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10019812/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10019812",
+      "Article Number:": "WG1822180",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers HYUNDAI:": "2843027400"
+    }
+  }
+]

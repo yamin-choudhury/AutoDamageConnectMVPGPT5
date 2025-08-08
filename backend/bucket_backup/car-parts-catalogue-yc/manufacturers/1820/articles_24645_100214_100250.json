@@ -1,0 +1,100 @@
+[
+  {
+    "id": "165615",
+    "name": "Cap, fuel tank",
+    "partNo": "00610",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "602",
+    "productGroupId": "100250",
+    "categoryId": "100214",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/165615/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Article ID:": "165615",
+      "Article Number:": "00610",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357300610",
+      "OEM Numbers VW:": "553 201 553 A"
+    }
+  },
+  {
+    "id": "237116",
+    "name": "Cap, fuel tank",
+    "partNo": "01173",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "602",
+    "productGroupId": "100250",
+    "categoryId": "100214",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/237116/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Article ID:": "237116",
+      "Article Number:": "01173",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357301173",
+      "OEM Numbers OPEL:": "08 08 211",
+      "OEM Numbers VW:": "6U0 201 553",
+      "OEM Numbers GENERAL MOTORS:": "91 17 533",
+      "OEM Numbers VOLVO:": "9142606"
+    }
+  },
+  {
+    "id": "2236120",
+    "name": "Cap, fuel tank",
+    "partNo": "247519",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "602",
+    "productGroupId": "100250",
+    "categoryId": "100214",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2236120/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,16",
+      "Colour": "Black",
+      "Lock System": "with key",
+      "Supplementary Article/Info 2": "with breather valve",
+      "Article ID:": "2236120",
+      "Article Number:": "247519",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642247519",
+      "OEM Numbers SEAT:": "191201551A",
+      "OEM Numbers VW:": "191201551A"
+    }
+  },
+  {
+    "id": "4505187",
+    "name": "Cap, fuel tank",
+    "partNo": "745378",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "602",
+    "productGroupId": "100250",
+    "categoryId": "100214",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4505187/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,112",
+      "Colour": "Black",
+      "Lock System": "without key",
+      "Article ID:": "4505187",
+      "Article Number:": "745378",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642745378",
+      "OEM Numbers SEAT:": "191201553A",
+      "OEM Numbers FORD:": "7145535"
+    }
+  }
+]

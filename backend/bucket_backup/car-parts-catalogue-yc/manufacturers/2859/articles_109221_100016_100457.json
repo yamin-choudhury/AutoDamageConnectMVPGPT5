@@ -1,0 +1,57 @@
+[
+  {
+    "id": "3735381",
+    "name": "Deflection/Guide Pulley, timing belt",
+    "partNo": "532 0111 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "313",
+    "productGroupId": "100457",
+    "categoryId": "100016",
+    "variantId": "109221",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3735381/model-series-id-5728/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "80,00",
+      "Width [mm]": "29,00",
+      "Height [mm]": "48,0",
+      "Article ID:": "3735381",
+      "Article Number:": "532 0111 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510814641",
+      "OEM Numbers AUDI:": "038109244R",
+      "OEM Numbers SEAT:": "038109244R",
+      "OEM Numbers SKODA:": "038109244R",
+      "OEM Numbers VW:": "038109244R"
+    }
+  },
+  {
+    "id": "3735416",
+    "name": "Deflection/Guide Pulley, timing belt",
+    "partNo": "532 0161 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "313",
+    "productGroupId": "100457",
+    "categoryId": "100016",
+    "variantId": "109221",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3735416/model-series-id-5728/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "28,50",
+      "Width [mm]": "29,00",
+      "Article ID:": "3735416",
+      "Article Number:": "532 0161 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510813129",
+      "OEM Numbers AUDI:": "058109244",
+      "OEM Numbers SEAT:": "058109244",
+      "OEM Numbers SKODA:": "058109244",
+      "OEM Numbers VW:": "058109244",
+      "OEM Numbers VW (SVW):": "03L109244D",
+      "OEM Numbers PORSCHE:": "95510524401"
+    }
+  }
+]

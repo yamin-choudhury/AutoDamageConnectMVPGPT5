@@ -1,0 +1,48 @@
+[
+  {
+    "id": "5924205",
+    "name": "Ignition Coil",
+    "partNo": "BBA106DLPN",
+    "manufacturer": "DIPASPORT",
+    "supplierId": "4882",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5924205/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Quality": "OE",
+      "Number of pins": "4",
+      "Number of inlets/outlets": "1",
+      "Number of used contacts": "3",
+      "Article ID:": "5924205",
+      "Article Number:": "BBA106DLPN",
+      "Manufacturer:": "DIPASPORT",
+      "OEM Numbers HONDA:": "30520R40007"
+    }
+  },
+  {
+    "id": "3478793",
+    "name": "Ignition Coil",
+    "partNo": "48818",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3478793/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "3478793",
+      "Article Number:": "48818",
+      "Manufacturer:": "OSSCA",
+      "OEM Numbers HONDA:": "30520-R40-007"
+    }
+  }
+]

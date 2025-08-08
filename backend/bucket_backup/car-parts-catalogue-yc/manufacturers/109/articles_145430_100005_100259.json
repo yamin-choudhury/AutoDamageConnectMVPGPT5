@@ -1,0 +1,36 @@
+[
+  {
+    "id": "10430520",
+    "name": "Oil Filter",
+    "partNo": "Z537",
+    "manufacturer": "GUD",
+    "supplierId": "6529",
+    "productsId": "7",
+    "productGroupId": "100259",
+    "categoryId": "100005",
+    "variantId": "145430",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10430520/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "68",
+      "Thread Size": "3/4 - 16UNF",
+      "Outer diameter [mm]": "68",
+      "Filter type": "Spin-on Filter",
+      "Supplementary Article/Info 2": "with one anti-return valve",
+      "Inner diameter 1 [mm]": "55",
+      "Opening pressure [kPa]": "100",
+      "Article ID:": "10430520",
+      "Article Number:": "Z537",
+      "Manufacturer:": "GUD",
+      "EAN Numbers:": "600228201431",
+      "OEM Numbers CHANGAN:": "1012010-01",
+      "OEM Numbers DAIHATSU:": "15601-97202",
+      "OEM Numbers TOYOTA:": "15601-BZ030",
+      "OEM Numbers SUZUKI:": "16510-M68K00",
+      "OEM Numbers GENERAL MOTORS:": "96570765",
+      "OEM Numbers CHERY:": "465Q-1017950",
+      "OEM Numbers MAZDA:": "ZZS1-14-302"
+    }
+  }
+]

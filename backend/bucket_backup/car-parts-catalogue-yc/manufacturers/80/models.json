@@ -1,0 +1,5557 @@
+[
+  {
+    "id": "1195",
+    "name": "NISSAN 100NX (B13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1195/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-03-01",
+      "toDate": "1996-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40518",
+    "name": "NISSAN 1200 Pickup (B120)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40518/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-02-01",
+      "toDate": "1989-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10505",
+    "name": "NISSAN 1400 BAKKIE (B140)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10505/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-08-01",
+      "toDate": "2008-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7035",
+    "name": "NISSAN 180SX Coupe (S13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7035/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1997-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1194",
+    "name": "NISSAN 200SX (S13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1194/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-07-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32895",
+    "name": "NISSAN 200SX Coupe",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32895/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-09-01",
+      "toDate": "1983-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7938",
+    "name": "NISSAN 200SX Coupe",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7938/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-01-01",
+      "toDate": "1983-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32896",
+    "name": "NISSAN 200SX Hatchback",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32896/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-09-01",
+      "toDate": "1983-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32897",
+    "name": "NISSAN 210 Hatchback",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32897/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-09-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13574",
+    "name": "NISSAN 240SX",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13574/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-01-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6870",
+    "name": "NISSAN 240SX",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6870/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-08-01",
+      "toDate": "2001-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13573",
+    "name": "NISSAN 240SX Convertible",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13573/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13579",
+    "name": "NISSAN 240SX Hatchback",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13579/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11163",
+    "name": "NISSAN 240Z (S30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11163/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-10-01",
+      "toDate": "1974-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11164",
+    "name": "NISSAN 260Z (S30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11164/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-05-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32907",
+    "name": "NISSAN 280Z Coupe (S30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1193",
+    "name": "NISSAN 280ZX,ZXT (HGS130)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1193/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-07-01",
+      "toDate": "1984-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6271",
+    "name": "NISSAN 300C (Y30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6271/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-10-01",
+      "toDate": "1997-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6420",
+    "name": "NISSAN 300C (Y30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6420/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-10-01",
+      "toDate": "1997-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3434",
+    "name": "NISSAN 300ZX (Z31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3434/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-01-01",
+      "toDate": "1990-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13575",
+    "name": "NISSAN 300ZX Convertible (Z32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13575/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39091",
+    "name": "NISSAN 300ZX Coupe (Z31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39091/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-01-01",
+      "toDate": "1990-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32911",
+    "name": "NISSAN 310 Coupe",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32911/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-09-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5018",
+    "name": "NISSAN 350Z Coupe (Z33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5018/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5203",
+    "name": "NISSAN 350Z Roadster (Z33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5203/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8052",
+    "name": "NISSAN 370Z Coupe (Z34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8052/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8862",
+    "name": "NISSAN 370Z Roadster (Z34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "32920",
+    "name": "NISSAN 510 Estate",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32920/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-09-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32918",
+    "name": "NISSAN 510 Hatchback",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32918/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-09-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32919",
+    "name": "NISSAN 510 Saloon",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32919/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-09-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32924",
+    "name": "NISSAN 610 Coupe",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32924/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-09-01",
+      "toDate": "1977-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32926",
+    "name": "NISSAN 610 Estate",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32926/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-09-01",
+      "toDate": "1977-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32923",
+    "name": "NISSAN 610 Saloon",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32923/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-09-01",
+      "toDate": "1977-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32929",
+    "name": "NISSAN 620 Pickup",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32929/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32933",
+    "name": "NISSAN 710 Estate",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32933/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32931",
+    "name": "NISSAN 710 Hardtop",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32931/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32934",
+    "name": "NISSAN 720 Cab & Chassis",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32934/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-09-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35764",
+    "name": "NISSAN 720 Extended Cab Pickup",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35764/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-09-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32939",
+    "name": "NISSAN 810 Estate",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32939/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-09-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32937",
+    "name": "NISSAN 810 Hardtop",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32937/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-10-01",
+      "toDate": "1980-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40536",
+    "name": "NISSAN 810 Saloon",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40536/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-10-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7036",
+    "name": "NISSAN AD Van (VB11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7036/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-10-01",
+      "toDate": "1990-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6249",
+    "name": "NISSAN AD Van (Y10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6249/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-10-01",
+      "toDate": "1999-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6913",
+    "name": "NISSAN AD Van (Y11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6913/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-05-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13898",
+    "name": "NISSAN AD Van (Y12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13898/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1475",
+    "name": "NISSAN ALMERA   Hatchback (N15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1475/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-07-01",
+      "toDate": "2001-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40526",
+    "name": "NISSAN ALMERA (N18_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40526/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9005",
+    "name": "NISSAN ALMERA Classic (B10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9005/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1476",
+    "name": "NISSAN ALMERA I (N15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1476/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-07-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4651",
+    "name": "NISSAN ALMERA Mk II (N16)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4607",
+    "name": "NISSAN ALMERA Mk II (N16)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4607/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4083",
+    "name": "NISSAN ALMERA TINO (V10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4083/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-12-01",
+      "toDate": "2006-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6871",
+    "name": "NISSAN ALTIMA (L30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6871/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-06-01",
+      "toDate": "2001-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7610",
+    "name": "NISSAN ALTIMA (L31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7610/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-08-01",
+      "toDate": "2007-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7040",
+    "name": "NISSAN ALTIMA (L32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7040/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": "2013-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11717",
+    "name": "NISSAN ALTIMA (L33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39489",
+    "name": "NISSAN ALTIMA (L34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39489/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7039",
+    "name": "NISSAN ALTIMA Coupe (CL32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7039/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32942",
+    "name": "NISSAN ALTRA Estate (N30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32942/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-11-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9907",
+    "name": "NISSAN APRIO",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41986",
+    "name": "NISSAN ARIYA (FE0)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41986/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7041",
+    "name": "NISSAN ARMADA (TA60)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7041/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-08-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36524",
+    "name": "NISSAN ARMADA (Y62)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36524/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42818",
+    "name": "NISSAN ATLAS I (F22, H40)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42818/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-01-01",
+      "toDate": "1993-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7042",
+    "name": "NISSAN ATLAS II (F23, H41, H42)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7042/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-07-01",
+      "toDate": "2007-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7043",
+    "name": "NISSAN AUSTER (T12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7043/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1989-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7044",
+    "name": "NISSAN AVENIR (W10, PW10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7044/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1997-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6914",
+    "name": "NISSAN AVENIR (W11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6914/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-11-01",
+      "toDate": "2006-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32947",
+    "name": "NISSAN B210 Coupe",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32947/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7136",
+    "name": "NISSAN BASSARA (JU30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7136/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-11-01",
+      "toDate": "2003-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7197",
+    "name": "NISSAN BE (BK10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7197/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-12-01",
+      "toDate": "1992-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1207",
+    "name": "NISSAN BLUEBIRD (910)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1207/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1983-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4013",
+    "name": "NISSAN BLUEBIRD (B610) (610)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4013/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-08-01",
+      "toDate": "1980-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1203",
+    "name": "NISSAN BLUEBIRD (T72 , T12, U12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1203/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-12-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1205",
+    "name": "NISSAN BLUEBIRD (U11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1205/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-11-01",
+      "toDate": "1990-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7308",
+    "name": "NISSAN BLUEBIRD (U13, U14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7308/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "2002-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38236",
+    "name": "NISSAN BLUEBIRD (U14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38236/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "2002-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37656",
+    "name": "NISSAN BLUEBIRD Coupe (910)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37656/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1983-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37966",
+    "name": "NISSAN BLUEBIRD Estate (510)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37966/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-08-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1211",
+    "name": "NISSAN BLUEBIRD Hatchback (T72, T12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1211/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-12-01",
+      "toDate": "1992-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37965",
+    "name": "NISSAN BLUEBIRD Saloon (510)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37965/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-08-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4012",
+    "name": "NISSAN BLUEBIRD Saloon (910)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4012/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1986-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1212",
+    "name": "NISSAN BLUEBIRD Station Wagon (WU11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1212/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-11-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11273",
+    "name": "NISSAN BLUEBIRD SYLPHY / SYLPHY III (B17)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11273/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6915",
+    "name": "NISSAN BLUEBIRD SYLPHY I (G10, N16)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6915/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2014-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6916",
+    "name": "NISSAN BLUEBIRD SYLPHY II (G11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6916/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1213",
+    "name": "NISSAN BLUEBIRD Traveller (W910)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1213/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1986-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7270",
+    "name": "NISSAN BOBBY Bus",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7270/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-11-01",
+      "toDate": "1994-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7269",
+    "name": "NISSAN BOBBY Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7269/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-11-01",
+      "toDate": "1994-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40551",
+    "name": "NISSAN CABALL Platform/Chassis (C240)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40551/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1976-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40552",
+    "name": "NISSAN CABALL Platform/Chassis (C340)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40552/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-05-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6263",
+    "name": "NISSAN CABSTAR (F22, H40)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6263/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-01-01",
+      "toDate": "1993-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6265",
+    "name": "NISSAN CABSTAR (F23, H41, H42)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6265/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-07-01",
+      "toDate": "2011-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "34634",
+    "name": "NISSAN CABSTAR (F24M, F24W)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/34634/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6264",
+    "name": "NISSAN CABSTAR E (TL_, VL_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6264/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-07-01",
+      "toDate": "2006-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7295",
+    "name": "NISSAN CARAVAN Bus (E25)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7295/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2012-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5825",
+    "name": "NISSAN CARAVAN Van (E25)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5825/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2012-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6273",
+    "name": "NISSAN CEDRIC (Y32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6273/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-06-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37611",
+    "name": "NISSAN CEDRIC (Y33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37611/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-11-01",
+      "toDate": "1999-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38073",
+    "name": "NISSAN CEDRIC Estate (230)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38073/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-08-01",
+      "toDate": "1972-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38072",
+    "name": "NISSAN CEDRIC Hardtop (230)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38072/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-08-01",
+      "toDate": "1978-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6272",
+    "name": "NISSAN CEDRIC Hardtop (Y31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6272/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-09-01",
+      "toDate": "1991-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38040",
+    "name": "NISSAN CEDRIC Saloon (230)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38040/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-08-01",
+      "toDate": "1978-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40544",
+    "name": "NISSAN CEDRIC Saloon (430)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40544/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1984-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37354",
+    "name": "NISSAN CEDRIC Saloon (Y31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37354/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-06-01",
+      "toDate": "2010-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6275",
+    "name": "NISSAN CEDRIC X (Y34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6275/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-05-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6917",
+    "name": "NISSAN CEFIRO I Saloon (A31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6917/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-06-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6918",
+    "name": "NISSAN CEFIRO II Saloon (A32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6918/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-08-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6919",
+    "name": "NISSAN CEFIRO III Saloon (A33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6919/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-01-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4014",
+    "name": "NISSAN CHERRY (E10) I",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4014/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-09-01",
+      "toDate": "1978-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1220",
+    "name": "NISSAN CHERRY II Coupe (N10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1220/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-08-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1221",
+    "name": "NISSAN CHERRY II Hatchback (N10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1221/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-08-01",
+      "toDate": "1983-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1209",
+    "name": "NISSAN CHERRY II Traveller (VN10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1209/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-08-01",
+      "toDate": "1983-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1197",
+    "name": "NISSAN CHERRY III (N12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1197/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-04-01",
+      "toDate": "1987-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8864",
+    "name": "NISSAN CHERRY III Saloon (N12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8864/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-11-01",
+      "toDate": "1987-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8870",
+    "name": "NISSAN CHERRY IV Hatchback (N13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8870/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-07-01",
+      "toDate": "1991-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8882",
+    "name": "NISSAN CHERRY IV Saloon (N13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8882/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-06-01",
+      "toDate": "1991-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7280",
+    "name": "NISSAN CIMA (F50, Y51)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7280/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7343",
+    "name": "NISSAN CIMA (WY31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7343/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-01-01",
+      "toDate": "1991-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7315",
+    "name": "NISSAN CIMA (WY32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7315/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1996-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7281",
+    "name": "NISSAN CIMA (WY33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7281/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-07-01",
+      "toDate": "2001-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7275",
+    "name": "NISSAN CLIPPER VAN (U71W)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7275/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7273",
+    "name": "NISSAN CREW (_K30_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7273/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-06-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7305",
+    "name": "NISSAN CUBE (Z10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7305/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7304",
+    "name": "NISSAN CUBE (Z11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7304/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-01-01",
+      "toDate": "2008-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8499",
+    "name": "NISSAN CUBE (Z12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8499/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1823",
+    "name": "NISSAN DATSUN 100A (E10, BLF10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1823/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-12-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43049",
+    "name": "NISSAN DATSUN 100A Coupe (F10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43049/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-12-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2086",
+    "name": "NISSAN DATSUN 100A Estate (WBLF10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2086/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-12-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43048",
+    "name": "NISSAN DATSUN 100A Saloon (F10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43048/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-01-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1824",
+    "name": "NISSAN DATSUN 120 Saloon (B210)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1824/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-04-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2087",
+    "name": "NISSAN DATSUN 120Y Coupe (KB210)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2087/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-04-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40533",
+    "name": "NISSAN DATSUN 120Y Estate Van (VB210)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40533/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-04-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40532",
+    "name": "NISSAN DATSUN 120Y Wagon (VB210)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40532/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-04-01",
+      "toDate": "1980-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4011",
+    "name": "NISSAN DATSUN 140J (710)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4011/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-01-01",
+      "toDate": "1977-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1825",
+    "name": "NISSAN DATSUN 140Y Estate (HLB310)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1825/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-02-01",
+      "toDate": "1983-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1826",
+    "name": "NISSAN DATSUN 160J (710, A10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1826/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-01-01",
+      "toDate": "1983-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1827",
+    "name": "NISSAN DATSUN 180B (PL810)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1827/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-05-01",
+      "toDate": "1981-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1828",
+    "name": "NISSAN DATSUN 240 Coupe (C210)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1828/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-03-01",
+      "toDate": "1981-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37955",
+    "name": "NISSAN DATSUN 280C Estate (330)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37955/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-06-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8900",
+    "name": "NISSAN DATSUN 280C Saloon (330)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8900/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-06-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40582",
+    "name": "NISSAN DAYZ",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40582/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13397",
+    "name": "NISSAN DAYZ (B21W)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13397/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13400",
+    "name": "NISSAN DAYZ ROOX (B21A)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13400/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7291",
+    "name": "NISSAN ELGRAND (E50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7291/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2002-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7292",
+    "name": "NISSAN ELGRAND (E51)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7292/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9619",
+    "name": "NISSAN ELGRAND (E52)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9619/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8905",
+    "name": "NISSAN EXA Coupe (N12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8905/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-04-01",
+      "toDate": "1987-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8904",
+    "name": "NISSAN EXA Targa (N13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8904/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-02-01",
+      "toDate": "1991-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7294",
+    "name": "NISSAN EXPERT I (W10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7294/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2000-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6308",
+    "name": "NISSAN EXPERT II (W11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6308/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2004-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32954",
+    "name": "NISSAN F10 Estate (F10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32954/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32952",
+    "name": "NISSAN F10 Hatchback (F10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32952/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32953",
+    "name": "NISSAN F10 Saloon (F10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32953/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37864",
+    "name": "NISSAN FAIRLADY Convertible (SP310)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37864/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1963-01-01",
+      "toDate": "1968-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7309",
+    "name": "NISSAN FAIRLADY Z (Z31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7309/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1225",
+    "name": "NISSAN FAIRLADY Z (Z32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1225/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-09-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42218",
+    "name": "NISSAN FAIRLADY Z (Z34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42218/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8920",
+    "name": "NISSAN FIGARO Coupe (FK10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8920/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-02-01",
+      "toDate": "1992-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37229",
+    "name": "NISSAN FUGA I (_Y50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37229/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-10-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13273",
+    "name": "NISSAN FUGA II (_Y51)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13273/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6315",
+    "name": "NISSAN GLORIA (Y32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6315/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-06-01",
+      "toDate": "1997-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6316",
+    "name": "NISSAN GLORIA (Y33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6316/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-11-01",
+      "toDate": "1999-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37959",
+    "name": "NISSAN GLORIA Coupe (330)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37959/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-01-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37963",
+    "name": "NISSAN GLORIA Estate (330)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37963/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-01-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7301",
+    "name": "NISSAN GLORIA Estate (Y30, Y31, Y32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7301/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-03-01",
+      "toDate": "1997-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37961",
+    "name": "NISSAN GLORIA Saloon (330)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37961/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-01-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6313",
+    "name": "NISSAN GLORIA VII (Y30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6313/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-10-01",
+      "toDate": "1987-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6314",
+    "name": "NISSAN GLORIA VIII (Y31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6314/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-09-01",
+      "toDate": "2004-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6317",
+    "name": "NISSAN GLORIA XI (Y34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6317/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-05-01",
+      "toDate": "2004-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7532",
+    "name": "NISSAN GT-R (R35)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7532/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7302",
+    "name": "NISSAN HOMY Platform/Chassis (E23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7302/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-08-01",
+      "toDate": "1992-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7303",
+    "name": "NISSAN HOMY Platform/Chassis (E24)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7303/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-05-01",
+      "toDate": "1997-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7306",
+    "name": "NISSAN HOMY Van (E23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7306/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-08-01",
+      "toDate": "1992-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7307",
+    "name": "NISSAN HOMY Van (E24)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7307/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-05-01",
+      "toDate": "1997-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13280",
+    "name": "NISSAN HYPERMINI (EA0)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13280/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7939",
+    "name": "NISSAN ICHI Bus",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7939/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-09-01",
+      "toDate": "2001-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7940",
+    "name": "NISSAN ICHI Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7940/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-09-01",
+      "toDate": "2001-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9049",
+    "name": "NISSAN INFINITI Q45 (G50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9049/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "1997-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4944",
+    "name": "NISSAN INTERSTAR Bus (X70)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4944/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42578",
+    "name": "NISSAN INTERSTAR Platform/Chassis (X62B)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42578/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6616",
+    "name": "NISSAN INTERSTAR Platform/Chassis (X70)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6616/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42577",
+    "name": "NISSAN INTERSTAR Van (X62B)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42577/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4945",
+    "name": "NISSAN INTERSTAR Van (X70)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4945/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8922",
+    "name": "NISSAN JUKE (F15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8922/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39878",
+    "name": "NISSAN JUKE (F16_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39878/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41645",
+    "name": "NISSAN JUKE Van (F15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41645/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37719",
+    "name": "NISSAN KICKS (P15_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37719/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39469",
+    "name": "NISSAN KICKS (P16)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39469/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13278",
+    "name": "NISSAN KIX (H59)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13278/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-11-01",
+      "toDate": "2012-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5122",
+    "name": "NISSAN KUBISTAR MPV (X76)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5122/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-08-01",
+      "toDate": "2009-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8531",
+    "name": "NISSAN KUBISTAR Van (X76)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8531/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10350",
+    "name": "NISSAN LAFESTA (B30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10350/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37218",
+    "name": "NISSAN LAFESTA (B35)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37218/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1229",
+    "name": "NISSAN LARGO (C23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1229/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-06-01",
+      "toDate": "2001-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13037",
+    "name": "NISSAN LARGO MPV (W30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13037/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-05-01",
+      "toDate": "1999-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37667",
+    "name": "NISSAN LATIO Hatchback",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37667/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6920",
+    "name": "NISSAN LATIO Saloon (C11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6920/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6921",
+    "name": "NISSAN LATIO Saloon (N17)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6921/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6922",
+    "name": "NISSAN LAUREL (C34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6922/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-07-01",
+      "toDate": "1997-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6923",
+    "name": "NISSAN LAUREL (C35)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6923/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-07-01",
+      "toDate": "2002-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1196",
+    "name": "NISSAN LAUREL (HLC230)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1196/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-03-01",
+      "toDate": "1983-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1198",
+    "name": "NISSAN LAUREL (JC31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1198/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-11-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1189",
+    "name": "NISSAN LAUREL (JC32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1189/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-11-01",
+      "toDate": "1990-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9010",
+    "name": "NISSAN LEAF (ZE0)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9010/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38202",
+    "name": "NISSAN LEAF (ZE1)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38202/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7297",
+    "name": "NISSAN LEOPARD (Y32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7297/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-10-01",
+      "toDate": "1995-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7268",
+    "name": "NISSAN LEOPARD (Y33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7268/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2001-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7278",
+    "name": "NISSAN LEOPARD Coupe (F30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7278/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-10-01",
+      "toDate": "1986-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7271",
+    "name": "NISSAN LEOPARD Estate (Y33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7271/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2001-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7299",
+    "name": "NISSAN LEOPARD I (F30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7299/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-10-01",
+      "toDate": "1986-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7363",
+    "name": "NISSAN LEOPARD II Coupe (F31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7363/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-04-01",
+      "toDate": "1991-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9623",
+    "name": "NISSAN LIVINA / GRAND LIVINA (L10, L11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9623/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39497",
+    "name": "NISSAN LIVINA / GRAND LIVINA II",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39497/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7624",
+    "name": "NISSAN LUCINO Hatchback (N14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7624/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7611",
+    "name": "NISSAN LUCINO Hatchback (N15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7611/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-11-01",
+      "toDate": "2000-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7609",
+    "name": "NISSAN LUCINO Saloon (B14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7609/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-09-01",
+      "toDate": "2000-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41505",
+    "name": "NISSAN MAGNITE SUV (DD0K)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41505/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4618",
+    "name": "NISSAN MAXIMA / MAXIMA QX IV Station Wagon (A32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4618/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-10-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4617",
+    "name": "NISSAN MAXIMA / MAXIMA QX V (A33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4617/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-04-01",
+      "toDate": "2003-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13528",
+    "name": "NISSAN MAXIMA I Estate (G910)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13528/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-09-01",
+      "toDate": "1984-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32958",
+    "name": "NISSAN MAXIMA I Saloon (G910)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32958/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-09-01",
+      "toDate": "1984-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6872",
+    "name": "NISSAN MAXIMA II (PU11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6872/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1988-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35758",
+    "name": "NISSAN MAXIMA II Estate (PU11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35758/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1988-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1192",
+    "name": "NISSAN MAXIMA III (J30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1192/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-10-01",
+      "toDate": "1995-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11322",
+    "name": "NISSAN MAXIMA VI (A34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11322/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-01-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10091",
+    "name": "NISSAN MAXIMA VII (A35)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10091/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14108",
+    "name": "NISSAN MAXIMA VIII (A36)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14108/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5458",
+    "name": "NISSAN MICRA C+C III (K12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5458/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1190",
+    "name": "NISSAN MICRA I (K10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1190/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-12-01",
+      "toDate": "1992-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1208",
+    "name": "NISSAN MICRA II (K11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1208/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-01-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4971",
+    "name": "NISSAN MICRA III (K12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4971/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-03-01",
+      "toDate": "2010-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9133",
+    "name": "NISSAN MICRA IV (K13K)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9133/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41955",
+    "name": "NISSAN MICRA IV (K13KK)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41955/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37261",
+    "name": "NISSAN MICRA V (K14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37261/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37305",
+    "name": "NISSAN MOCO I (MG21S)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37305/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-04-01",
+      "toDate": "2006-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13275",
+    "name": "NISSAN MOCO II (MG22S)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13275/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14353",
+    "name": "NISSAN MOCO III (MG33S)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14353/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5382",
+    "name": "NISSAN MURANO I (Z50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5382/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-04-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7870",
+    "name": "NISSAN MURANO II (Z51)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7870/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": "2014-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12803",
+    "name": "NISSAN MURANO II Convertible",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12803/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41725",
+    "name": "NISSAN MURANO II VAN (Z51)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41725/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": "2014-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36382",
+    "name": "NISSAN MURANO III (Z52_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36382/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41726",
+    "name": "NISSAN MURANO III VAN (Z52_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41726/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7814",
+    "name": "NISSAN NAVARA (D21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7814/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-09-01",
+      "toDate": "2008-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7813",
+    "name": "NISSAN NAVARA (D22)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7813/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8651",
+    "name": "NISSAN NAVARA Platform/Chassis (D21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-09-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8652",
+    "name": "NISSAN NAVARA Platform/Chassis (D22)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8652/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14046",
+    "name": "NISSAN NAVARA Platform/Chassis (D23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14046/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5482",
+    "name": "NISSAN NOTE (E11, NE11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5482/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": "2013-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11226",
+    "name": "NISSAN NOTE (E12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11226/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41818",
+    "name": "NISSAN NOTE (E13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41818/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41728",
+    "name": "NISSAN NOTE VAN (E11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41728/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": "2013-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10577",
+    "name": "NISSAN NP200",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10577/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5434",
+    "name": "NISSAN NP300 NAVARA (D40)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5434/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13324",
+    "name": "NISSAN NP300 NAVARA Pickup (D23, D23T)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13324/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8653",
+    "name": "NISSAN NP300 NAVARA Platform/Chassis (D40)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8653/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9016",
+    "name": "NISSAN NP300 PICKUP (D22)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9016/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37234",
+    "name": "NISSAN NT100 CLIPPER (DR16T)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37234/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37188",
+    "name": "NISSAN NT100 CLIPPER (U71T)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37188/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-04-01",
+      "toDate": "2013-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36484",
+    "name": "NISSAN NT400 CABSTAR (F24M)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36484/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37617",
+    "name": "NISSAN NV (Y10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37617/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-10-01",
+      "toDate": "1999-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35918",
+    "name": "NISSAN NV 1500 Standard Cargo Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35918/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36144",
+    "name": "NISSAN NV 2500 Standard Cargo Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36144/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36145",
+    "name": "NISSAN NV 3500 Standard Cargo Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36145/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11004",
+    "name": "NISSAN NV 3500 Standard Passenger Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11004/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14355",
+    "name": "NISSAN NV100 CLIPPER MPV (DR17V, DR64V)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14355/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37189",
+    "name": "NISSAN NV100 CLIPPER MPV (U71W, U72W)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37189/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-04-01",
+      "toDate": "2011-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14354",
+    "name": "NISSAN NV100 CLIPPER RIO MPV (DR17W, DR64W)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14354/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8660",
+    "name": "NISSAN NV200 / EVALIA Bus",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8660/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8659",
+    "name": "NISSAN NV200 Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8659/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40199",
+    "name": "NISSAN NV250 Bus (X61)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40199/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40198",
+    "name": "NISSAN NV250 Van (X61)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40198/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37038",
+    "name": "NISSAN NV300 Kombi (X82)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37038/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37814",
+    "name": "NISSAN NV300 Platform/Chassis (X82)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37814/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37028",
+    "name": "NISSAN NV300 Van (X82)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37028/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13246",
+    "name": "NISSAN NV350 / CARAVAN Bus (E26)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13246/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36891",
+    "name": "NISSAN NV350 Van (E26)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36891/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9842",
+    "name": "NISSAN NV400 Bus (X62, X62B)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9842/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9846",
+    "name": "NISSAN NV400 Platform/Chassis (X62, X62B)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9846/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9841",
+    "name": "NISSAN NV400 Van (X62, X62B)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9841/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13279",
+    "name": "NISSAN OTTI (H91, H92)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13279/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": "2013-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13281",
+    "name": "NISSAN PAO (PK10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13281/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-03-01",
+      "toDate": "1991-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7618",
+    "name": "NISSAN PATHFINDER I (WD21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7618/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-07-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5395",
+    "name": "NISSAN PATHFINDER III (R51)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5395/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41727",
+    "name": "NISSAN PATHFINDER III VAN (R51_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41727/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11002",
+    "name": "NISSAN PATHFINDER IV (R52)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11002/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43533",
+    "name": "NISSAN PATHFINDER V (R53)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43533/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3932",
+    "name": "NISSAN PATROL GR   (Y60, GR)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3932/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1998-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9081",
+    "name": "NISSAN PATROL GR IV Platform/Chassis (Y60)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9081/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-01-01",
+      "toDate": "2000-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3880",
+    "name": "NISSAN PATROL GR Mk II Wagon (Y61)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3880/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10540",
+    "name": "NISSAN PATROL GR V Pickup (Y61)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10540/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8812",
+    "name": "NISSAN PATROL GR V Platform/Chassis (Y61)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8812/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8917",
+    "name": "NISSAN PATROL II Closed Off-Road Vehicle (G60)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8917/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-01-01",
+      "toDate": "1980-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8915",
+    "name": "NISSAN PATROL II Open Off-Road Vehicle (G61)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8915/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-01-01",
+      "toDate": "1980-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2037",
+    "name": "NISSAN PATROL III/1 Hardtop (K160)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2037/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-11-01",
+      "toDate": "1989-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8909",
+    "name": "NISSAN PATROL III/1 Platform/Chassis (MQ, MK, GQ)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8909/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-06-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1228",
+    "name": "NISSAN PATROL III/1 Station Wagon (W160)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1228/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-11-01",
+      "toDate": "1989-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2038",
+    "name": "NISSAN PATROL III/2 Hardtop (K260)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2038/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-10-01",
+      "toDate": "1998-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1227",
+    "name": "NISSAN PATROL III/2 Station Wagon (W260)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1227/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-08-01",
+      "toDate": "1998-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8974",
+    "name": "NISSAN PATROL VI (Y62)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8974/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43110",
+    "name": "NISSAN PATROL VII",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43110/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4008",
+    "name": "NISSAN PICK UP (720)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4008/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1986-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3515",
+    "name": "NISSAN PICK UP (D21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3515/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-09-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3892",
+    "name": "NISSAN PICK UP (D22)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3892/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38553",
+    "name": "NISSAN PICK UP (D22G)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38553/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13285",
+    "name": "NISSAN PINO (HC24_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13285/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8918",
+    "name": "NISSAN PINTARA Estate (R31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8918/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1990-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8919",
+    "name": "NISSAN PINTARA Hatchback (U12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8919/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-11-01",
+      "toDate": "1992-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8916",
+    "name": "NISSAN PINTARA Saloon (R31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8916/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1990-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8921",
+    "name": "NISSAN PINTARA Saloon (U12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8921/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-11-01",
+      "toDate": "1992-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8053",
+    "name": "NISSAN PIXO (UA0)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8053/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13563",
+    "name": "NISSAN PLATINA",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13563/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-09-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6873",
+    "name": "NISSAN PLATINA",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6873/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-06-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1201",
+    "name": "NISSAN PRAIRIE (M10, NM10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1201/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-12-01",
+      "toDate": "1988-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36744",
+    "name": "NISSAN PRAIRIE LIBERTY (_M12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36744/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-11-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1219",
+    "name": "NISSAN PRAIRIE PRO (M11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1219/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-10-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13272",
+    "name": "NISSAN PRESAGE (U30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13272/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2003-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37118",
+    "name": "NISSAN PRESAGE (U31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37118/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13271",
+    "name": "NISSAN PRESEA (R11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13271/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-03-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13282",
+    "name": "NISSAN PRESIDENT (H252)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13282/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-03-01",
+      "toDate": "1990-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13283",
+    "name": "NISSAN PRESIDENT (JHG50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13283/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-03-01",
+      "toDate": "2002-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37409",
+    "name": "NISSAN PRESIDENT (PGF50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37409/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": "2010-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43524",
+    "name": "NISSAN PRIMASTAR Bus (X82)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43524/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10593",
+    "name": "NISSAN PRIMASTAR Platform/Chassis (X83)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10593/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42518",
+    "name": "NISSAN PRIMASTAR Van (X82)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42518/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4965",
+    "name": "NISSAN PRIMASTAR Van (X83)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4965/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4949",
+    "name": "NISSAN PRIMASTAR Van (X83)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4949/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1202",
+    "name": "NISSAN PRIMERA (P10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1202/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-06-01",
+      "toDate": "1996-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1899",
+    "name": "NISSAN PRIMERA (P11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1899/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4833",
+    "name": "NISSAN PRIMERA (P12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4833/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4834",
+    "name": "NISSAN PRIMERA Estate (WP12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4834/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1223",
+    "name": "NISSAN PRIMERA Hatchback (P10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1223/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-06-01",
+      "toDate": "1996-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1900",
+    "name": "NISSAN PRIMERA Hatchback (P11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1900/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "2002-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4941",
+    "name": "NISSAN PRIMERA Hatchback (P12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4941/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1224",
+    "name": "NISSAN PRIMERA Traveller (W10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1224/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-07-01",
+      "toDate": "1998-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3561",
+    "name": "NISSAN PRIMERA Traveller (WP11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3561/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "2002-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11365",
+    "name": "NISSAN PULSAR Hatchback (C13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11365/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11321",
+    "name": "NISSAN PULSAR Hatchback (N10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11321/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-01-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7620",
+    "name": "NISSAN PULSAR Hatchback (N12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7620/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-01-01",
+      "toDate": "1987-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37395",
+    "name": "NISSAN PULSAR Hatchback (N13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37395/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1990-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10740",
+    "name": "NISSAN PULSAR Hatchback (N14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10740/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32969",
+    "name": "NISSAN PULSAR NX Coupe",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32969/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-09-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11289",
+    "name": "NISSAN PULSAR Saloon (N12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11289/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-01-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37394",
+    "name": "NISSAN PULSAR Saloon (N13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37394/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1990-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5616",
+    "name": "NISSAN QASHQAI / QASHQAI +2 I (J10, NJ10, JJ10E)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5616/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-11-01",
+      "toDate": "2014-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41701",
+    "name": "NISSAN QASHQAI / QASHQAI +2 I VAN (J10, JJ10E)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41701/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-12-01",
+      "toDate": "2014-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11757",
+    "name": "NISSAN QASHQAI II SUV (J11, J11_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11757/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41702",
+    "name": "NISSAN QASHQAI II VAN (J11_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41702/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41987",
+    "name": "NISSAN QASHQAI III (J12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41987/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10840",
+    "name": "NISSAN QUEST (E52)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10840/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7522",
+    "name": "NISSAN QUEST (V40)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7522/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-05-01",
+      "toDate": "1998-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6874",
+    "name": "NISSAN QUEST (V42)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6874/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "35747",
+    "name": "NISSAN QUEST Mini Passenger Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35747/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-09-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1320",
+    "name": "NISSAN QX IV (A32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1320/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-03-01",
+      "toDate": "2000-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37380",
+    "name": "NISSAN R'NESSA (N30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37380/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-11-01",
+      "toDate": "2001-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10739",
+    "name": "NISSAN RASHEEN (NB14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10739/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-08-01",
+      "toDate": "2000-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10315",
+    "name": "NISSAN ROGUE",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10315/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-01-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40893",
+    "name": "NISSAN ROGUE (T33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40893/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40578",
+    "name": "NISSAN ROOX",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40578/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13284",
+    "name": "NISSAN ROOX (B21A)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13284/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8911",
+    "name": "NISSAN S-CARGO Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8911/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-01-01",
+      "toDate": "1994-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10541",
+    "name": "NISSAN SANI Closed Off-Road Vehicle",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10541/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10742",
+    "name": "NISSAN SANI Closed Off-Road Vehicle",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10742/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-07-01",
+      "toDate": "1992-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32975",
+    "name": "NISSAN SENTRA Hatchback",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32975/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13900",
+    "name": "NISSAN SENTRA III (B13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13900/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1994-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13899",
+    "name": "NISSAN SENTRA IV (B14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13899/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-01-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37256",
+    "name": "NISSAN SENTRA Saloon",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37256/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6875",
+    "name": "NISSAN SENTRA V (B15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6875/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-07-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7937",
+    "name": "NISSAN SENTRA VI (B16)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7937/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11513",
+    "name": "NISSAN SENTRA VII (B17)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11513/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40892",
+    "name": "NISSAN SENTRA VIII (B18X)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40892/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5823",
+    "name": "NISSAN SERENA (C24)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5823/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-06-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10016",
+    "name": "NISSAN SERENA (C25)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10016/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-04-01",
+      "toDate": "2012-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10017",
+    "name": "NISSAN SERENA (C26)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10017/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-11-01",
+      "toDate": "2016-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37219",
+    "name": "NISSAN SERENA (C27)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37219/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41729",
+    "name": "NISSAN SERENA VAN (C23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41729/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-06-01",
+      "toDate": "2001-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2034",
+    "name": "NISSAN SILVIA (S110)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2034/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-01-01",
+      "toDate": "1983-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1546",
+    "name": "NISSAN SILVIA (S12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1546/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-06-01",
+      "toDate": "1988-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8845",
+    "name": "NISSAN SILVIA (S15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8845/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-09-01",
+      "toDate": "2006-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7277",
+    "name": "NISSAN SILVIA Convertible (S13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7277/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-08-01",
+      "toDate": "1994-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39671",
+    "name": "NISSAN SILVIA Convertible (S15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39671/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-07-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7267",
+    "name": "NISSAN SILVIA Coupe (S13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7267/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-08-01",
+      "toDate": "1994-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4201",
+    "name": "NISSAN SILVIA Coupe (S14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4201/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-10-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36518",
+    "name": "NISSAN SILVIA Hatchback (S12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36518/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-06-01",
+      "toDate": "1988-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37356",
+    "name": "NISSAN SKYLINE (_V37)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37356/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6926",
+    "name": "NISSAN SKYLINE (R30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6926/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-03-01",
+      "toDate": "1986-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8894",
+    "name": "NISSAN SKYLINE (R31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8894/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-05-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6928",
+    "name": "NISSAN SKYLINE (R32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6928/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-03-01",
+      "toDate": "1993-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6930",
+    "name": "NISSAN SKYLINE (R33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6930/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8605",
+    "name": "NISSAN SKYLINE (R34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8605/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2006-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8898",
+    "name": "NISSAN SKYLINE (V35)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8898/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37285",
+    "name": "NISSAN SKYLINE (V36)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37285/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-12-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40540",
+    "name": "NISSAN SKYLINE Coupe (C110)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40540/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1978-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8897",
+    "name": "NISSAN SKYLINE Coupe (R31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8897/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-08-01",
+      "toDate": "1990-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6927",
+    "name": "NISSAN SKYLINE Coupe (R32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6927/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-03-01",
+      "toDate": "1995-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6929",
+    "name": "NISSAN SKYLINE Coupe (R33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6929/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8606",
+    "name": "NISSAN SKYLINE Coupe (R34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8606/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2008-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7279",
+    "name": "NISSAN SKYLINE Coupe (V35)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7279/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-01-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38328",
+    "name": "NISSAN SKYLINE Coupe (V36)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38328/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": "2015-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36230",
+    "name": "NISSAN SKYLINE CROSSOVER (_J50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36230/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6925",
+    "name": "NISSAN SKYLINE Estate (R30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6925/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-03-01",
+      "toDate": "1986-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8896",
+    "name": "NISSAN SKYLINE Estate (R31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8896/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-08-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38817",
+    "name": "NISSAN SKYLINE Hatchback (R30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38817/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-08-01",
+      "toDate": "1983-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40539",
+    "name": "NISSAN SKYLINE Saloon (C110)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40539/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1978-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8893",
+    "name": "NISSAN SKYLINE Saloon (C210)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8893/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-03-01",
+      "toDate": "1981-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8545",
+    "name": "NISSAN STAGEA (M35)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8545/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-10-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8546",
+    "name": "NISSAN STAGEA (WC34)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8546/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1450",
+    "name": "NISSAN STANZA (T11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1450/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-08-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1206",
+    "name": "NISSAN STANZA Hatchback (T11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1206/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-08-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6931",
+    "name": "NISSAN STANZA Hatchback (T12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6931/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6932",
+    "name": "NISSAN STANZA Saloon (T12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6932/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-09-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32979",
+    "name": "NISSAN STANZA Saloon (U12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32979/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-09-01",
+      "toDate": "1992-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14452",
+    "name": "NISSAN SUNNY",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14452/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1199",
+    "name": "NISSAN SUNNY   (B11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1199/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-03-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3607",
+    "name": "NISSAN SUNNY   Coupe (B11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3607/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-03-01",
+      "toDate": "1990-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3472",
+    "name": "NISSAN SUNNY   Traveller (B11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3472/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-03-01",
+      "toDate": "1990-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1191",
+    "name": "NISSAN SUNNY (140Y, 150Y)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1191/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-01-01",
+      "toDate": "1982-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11266",
+    "name": "NISSAN SUNNY (N17)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11266/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37970",
+    "name": "NISSAN SUNNY Coupe (B10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37970/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-06-01",
+      "toDate": "1970-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37967",
+    "name": "NISSAN SUNNY Coupe (KB110)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37967/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-06-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37969",
+    "name": "NISSAN SUNNY Estate (B110)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37969/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-06-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37972",
+    "name": "NISSAN SUNNY Estate (VB10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37972/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-06-01",
+      "toDate": "1970-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39046",
+    "name": "NISSAN SUNNY Estate Van (B11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39046/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-02-01",
+      "toDate": "1990-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3473",
+    "name": "NISSAN SUNNY III (N14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3473/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-05-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6933",
+    "name": "NISSAN SUNNY III Coupe",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6933/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-11-01",
+      "toDate": "2001-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4010",
+    "name": "NISSAN SUNNY III Estate Van (Y10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4010/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-11-01",
+      "toDate": "2000-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1215",
+    "name": "NISSAN SUNNY III Liftback (N14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1215/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-10-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6934",
+    "name": "NISSAN SUNNY IV Coupe (B15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6934/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-04-01",
+      "toDate": "2003-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6935",
+    "name": "NISSAN SUNNY IV Hatchback (N16)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6935/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-04-01",
+      "toDate": "2003-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6936",
+    "name": "NISSAN SUNNY IV Saloon (N16)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6936/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-07-01",
+      "toDate": "2003-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1200",
+    "name": "NISSAN SUNNY Mk II (N13, B12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1200/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1991-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1217",
+    "name": "NISSAN SUNNY Mk II Coupe (B12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1217/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1991-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1204",
+    "name": "NISSAN SUNNY Mk II Hatchback (N13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1204/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1991-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1216",
+    "name": "NISSAN SUNNY Mk II Traveller (B12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1216/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1991-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1214",
+    "name": "NISSAN SUNNY Mk III Hatchback (N14)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1214/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-08-01",
+      "toDate": "1995-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3474",
+    "name": "NISSAN SUNNY Mk III Traveller (Y10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3474/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-11-01",
+      "toDate": "2000-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37971",
+    "name": "NISSAN SUNNY Saloon (B10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37971/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-06-01",
+      "toDate": "1970-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37968",
+    "name": "NISSAN SUNNY Saloon (B110)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37968/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-06-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1210",
+    "name": "NISSAN SUNNY Traveller (140Y, 150Y)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1210/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-06-01",
+      "toDate": "1982-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14424",
+    "name": "NISSAN SYLPHY II Saloon (G15)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14424/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8623",
+    "name": "NISSAN TEANA I (J31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8623/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-02-01",
+      "toDate": "2008-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8624",
+    "name": "NISSAN TEANA II (J32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8624/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13057",
+    "name": "NISSAN TEANA III (J33, L33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13057/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39053",
+    "name": "NISSAN TERRA (JD23TT, JD23F)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39053/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1218",
+    "name": "NISSAN TERRANO   (WD21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1218/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-07-01",
+      "toDate": "1996-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13862",
+    "name": "NISSAN TERRANO (D10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1226",
+    "name": "NISSAN TERRANO II (R20)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1226/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-10-01",
+      "toDate": "2007-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3563",
+    "name": "NISSAN TERRANO II (R50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3563/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-09-01",
+      "toDate": "2005-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9837",
+    "name": "NISSAN TERRANO II Van (R20)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9837/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-06-01",
+      "toDate": "2007-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42723",
+    "name": "NISSAN TERRANO REGULUS (R50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42723/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-08-01",
+      "toDate": "2003-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6937",
+    "name": "NISSAN TIIDA Hatchback (C11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6937/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-05-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13517",
+    "name": "NISSAN TIIDA Hatchback (C12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13517/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6452",
+    "name": "NISSAN TIIDA Saloon (SC11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6452/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-05-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11514",
+    "name": "NISSAN TIIDA Saloon (SC12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11514/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6876",
+    "name": "NISSAN TITAN (A60)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6876/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14960",
+    "name": "NISSAN TITAN (H61)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14960/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42519",
+    "name": "NISSAN TOWNSTAR Box Body/MPV (XFK)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42519/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42520",
+    "name": "NISSAN TOWNSTAR MPV (XFK)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42520/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7612",
+    "name": "NISSAN TRADE Bus",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7612/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7616",
+    "name": "NISSAN TRADE Platform/Chassis",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7616/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7614",
+    "name": "NISSAN TRADE Platform/Chassis",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7614/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-11-01",
+      "toDate": "2004-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9538",
+    "name": "NISSAN TRADE Platform/Chassis",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9538/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-01-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7622",
+    "name": "NISSAN TRADE Platform/Chassis",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7622/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-11-01",
+      "toDate": "1994-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7619",
+    "name": "NISSAN TRADE Platform/Chassis",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7619/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-04-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7623",
+    "name": "NISSAN TRADE Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7623/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-04-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7621",
+    "name": "NISSAN TRADE Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7621/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-11-01",
+      "toDate": "1993-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9537",
+    "name": "NISSAN TRADE Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9537/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-01-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7617",
+    "name": "NISSAN TRADE Van",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7617/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11326",
+    "name": "NISSAN TSURU",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11326/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10770",
+    "name": "NISSAN TSURU Saloon",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10770/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10771",
+    "name": "NISSAN TSURU Saloon (B13)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10771/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1829",
+    "name": "NISSAN URVAN Bus (E23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1829/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-07-01",
+      "toDate": "1988-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1222",
+    "name": "NISSAN URVAN Bus (E24)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1222/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1997-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5824",
+    "name": "NISSAN URVAN Bus (E24)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5824/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2010-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2088",
+    "name": "NISSAN URVAN Van (E23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2088/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-07-01",
+      "toDate": "1998-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4009",
+    "name": "NISSAN URVAN Van (E24)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4009/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1997-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7285",
+    "name": "NISSAN URVAN Van (E24)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7285/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2000-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1230",
+    "name": "NISSAN VANETTE / LARGO VAN Bus (C22)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1230/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-10-01",
+      "toDate": "2013-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1231",
+    "name": "NISSAN VANETTE Bus (KC120)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1231/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-06-01",
+      "toDate": "1987-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37288",
+    "name": "NISSAN VANETTE Bus (S20)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37288/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-04-01",
+      "toDate": "1999-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37303",
+    "name": "NISSAN VANETTE Bus (S21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37303/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2017-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3545",
+    "name": "NISSAN VANETTE CARGO Bus (HC 23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3545/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-04-01",
+      "toDate": "2001-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3543",
+    "name": "NISSAN VANETTE CARGO Van (HC 23)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3543/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-09-01",
+      "toDate": "2002-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10756",
+    "name": "NISSAN VANETTE Platform/Chassis (C22)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10756/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-07-01",
+      "toDate": "2013-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37300",
+    "name": "NISSAN VANETTE Platform/Chassis (S20)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37300/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-04-01",
+      "toDate": "1999-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37228",
+    "name": "NISSAN VANETTE Platform/Chassis (S21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37228/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4030",
+    "name": "NISSAN VANETTE Van (_C22)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4030/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-10-01",
+      "toDate": "2013-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7615",
+    "name": "NISSAN VANETTE Van (C120)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7615/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-07-01",
+      "toDate": "1987-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37299",
+    "name": "NISSAN VANETTE Van (S20)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37299/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-04-01",
+      "toDate": "1999-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37302",
+    "name": "NISSAN VANETTE Van (S21)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37302/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2017-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11576",
+    "name": "NISSAN VERSA I",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11576/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11577",
+    "name": "NISSAN VERSA II (N17_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11577/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6250",
+    "name": "NISSAN WINGROAD / AD Wagon (_Y10)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6250/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-10-01",
+      "toDate": "1999-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13276",
+    "name": "NISSAN WINGROAD / AD Wagon (_Y11)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13276/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-03-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37235",
+    "name": "NISSAN WINGROAD / AD Wagon (_Y12)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37235/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4784",
+    "name": "NISSAN X-TRAIL I (T30)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4784/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-01-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6399",
+    "name": "NISSAN X-TRAIL II (T31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6399/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2018-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12857",
+    "name": "NISSAN X-TRAIL III (T32_, T32R, T32RR)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12857/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43503",
+    "name": "NISSAN X-TRAIL IV (T33)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43503/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41658",
+    "name": "NISSAN X-TRAIL VAN (T31)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41658/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2014-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41659",
+    "name": "NISSAN X-TRAIL VAN (T32)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41659/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8883",
+    "name": "NISSAN XFN Pickup",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8883/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-07-01",
+      "toDate": "1992-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9622",
+    "name": "NISSAN XTERRA (N50)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9622/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10896",
+    "name": "NISSAN XTERRA (WD22_)",
+    "manufacturerId": "80",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10896/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-01-01",
+      "toDate": "2008-08-01"
+    },
+    "variants": []
+  }
+]

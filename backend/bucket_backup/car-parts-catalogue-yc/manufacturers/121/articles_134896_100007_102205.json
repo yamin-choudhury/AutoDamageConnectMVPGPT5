@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1012423",
+    "name": "Antifreeze",
+    "partNo": "111 18 282 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "3356",
+    "productGroupId": "102205",
+    "categoryId": "100007",
+    "variantId": "134896",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1012423/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "1",
+      "Packing Type": "Bottle",
+      "Quantity Unit": "Piece",
+      "Temperature range to [°C]": "-35",
+      "Article ID:": "1012423",
+      "Article Number:": "111 18 282 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers VW:": "G 12E 100 A2",
+      "OEM Numbers VAG:": "G 12E 100 A2"
+    }
+  }
+]

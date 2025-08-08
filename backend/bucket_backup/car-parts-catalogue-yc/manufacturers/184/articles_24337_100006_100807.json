@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2377206",
+    "name": "Brake Caliper",
+    "partNo": "2774013",
+    "manufacturer": "EAI",
+    "supplierId": "391",
+    "productsId": "78",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "24337",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2377206/model-series-id-6673/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Brake Caliper Type": "Brake Caliper (1 piston)",
+      "Brake System": "KASCO/MOBIS",
+      "Brake caliper piston diameter [mm]": "60",
+      "Article ID:": "2377206",
+      "Article Number:": "2774013",
+      "Manufacturer:": "EAI",
+      "EAN Numbers:": "359640447400",
+      "OEM Numbers KIA:": "0K60A49990"
+    }
+  },
+  {
+    "id": "2377207",
+    "name": "Brake Caliper",
+    "partNo": "2774014",
+    "manufacturer": "EAI",
+    "supplierId": "391",
+    "productsId": "78",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "24337",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2377207/model-series-id-6673/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Brake Caliper Type": "Brake Caliper (1 piston)",
+      "Brake System": "KASCO/MOBIS",
+      "Brake caliper piston diameter [mm]": "60",
+      "Article ID:": "2377207",
+      "Article Number:": "2774014",
+      "Manufacturer:": "EAI",
+      "EAN Numbers:": "359640447410",
+      "OEM Numbers KIA:": "0K60A49980"
+    }
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "7402823",
+    "name": "Water Pump, engine cooling",
+    "partNo": "GWP-0216",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "100028",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7402823/model-series-id-11609/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Pulleys": "for v-ribbed belt pulley",
+      "Housing Type": "without housing",
+      "Article ID:": "7402823",
+      "Article Number:": "GWP-0216",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers PERODUA:": "16100-B9027",
+      "OEM Numbers DAIHATSU:": "16100-B9027",
+      "OEM Numbers TOYOTA:": "16100-B9027"
+    }
+  },
+  {
+    "id": "3751636",
+    "name": "Water Pump, engine cooling",
+    "partNo": "538 0562 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "100028",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3751636/model-series-id-11609/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Pulleys": "with belt pulley",
+      "Water Pump Type": "for v-ribbed belt use",
+      "Article ID:": "3751636",
+      "Article Number:": "538 0562 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487033566",
+      "OEM Numbers CITROËN:": "1201L3",
+      "OEM Numbers PEUGEOT:": "1201L3",
+      "OEM Numbers TOYOTA:": "1610080007",
+      "OEM Numbers LEXUS:": "1610080007",
+      "OEM Numbers DAIHATSU:": "1610097234"
+    }
+  }
+]

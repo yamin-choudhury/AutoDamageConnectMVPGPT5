@@ -1,0 +1,56 @@
+[
+  {
+    "id": "7670644",
+    "name": "Shock Absorber",
+    "partNo": "JGM1932T",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "59479",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7670644/model-series-id-7594/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Quantity per axle": "1",
+      "Article ID:": "7670644",
+      "Article Number:": "JGM1932T",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293749969",
+      "OEM Numbers ALFA ROMEO:": "909322289"
+    }
+  },
+  {
+    "id": "7671282",
+    "name": "Shock Absorber",
+    "partNo": "JGM4534T",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "59479",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7671282/model-series-id-7594/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top fork",
+      "Quantity per axle": "1",
+      "Article ID:": "7671282",
+      "Article Number:": "JGM4534T",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293749981",
+      "OEM Numbers ALFA ROMEO:": "720533"
+    }
+  }
+]

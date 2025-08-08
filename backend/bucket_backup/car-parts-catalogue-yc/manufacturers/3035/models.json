@@ -1,0 +1,508 @@
+[
+  {
+    "id": "14246",
+    "name": "VW (SVW) CROSS LAVIDA (183, 185)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14246/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38348",
+    "name": "VW (SVW) CROSS SANTANA (BR1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38348/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7990",
+    "name": "VW (SVW) GOL (5X1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7990/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-02-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38885",
+    "name": "VW (SVW) GRAN LAVIDA (0C3)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38885/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11511",
+    "name": "VW (SVW) GRAN LAVIDA (183, 185)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11511/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14376",
+    "name": "VW (SVW) GRAN SANTANA (BR1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14376/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42489",
+    "name": "VW (SVW) ID.3 (E91)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42489/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41840",
+    "name": "VW (SVW) ID.4 X (E41)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41840/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42126",
+    "name": "VW (SVW) ID.6 X (E51)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42126/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13616",
+    "name": "VW (SVW) LAMANDO (BM1, BM2)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13616/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42854",
+    "name": "VW (SVW) LAMANDO (DM1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42854/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38743",
+    "name": "VW (SVW) LAVIDA (0C1, 0E1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38743/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7853",
+    "name": "VW (SVW) LAVIDA (181)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7853/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-04-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11149",
+    "name": "VW (SVW) LAVIDA (182, 184)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6583",
+    "name": "VW (SVW) PASSAT B5 (9F8)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-04-01",
+      "toDate": "2009-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9881",
+    "name": "VW (SVW) PASSAT B7 (A42, A43)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9881/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39103",
+    "name": "VW (SVW) PASSAT B8 (C42, C43)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39103/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8598",
+    "name": "VW (SVW) PASSAT LINGYU (B5, 9F0, 9F9)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-11-01",
+      "toDate": "2012-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37478",
+    "name": "VW (SVW) PHIDEON (3E9, 3E8)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11937",
+    "name": "VW (SVW) POLO CROSS (621)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8629",
+    "name": "VW (SVW) POLO CROSS (9J3)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8629/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-12-01",
+      "toDate": "2012-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12842",
+    "name": "VW (SVW) POLO Hatchback (621)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12842/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8589",
+    "name": "VW (SVW) POLO Hatchback (9J1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8589/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2006-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6584",
+    "name": "VW (SVW) POLO JINQING (9J3)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6585",
+    "name": "VW (SVW) POLO JINQU (9J4)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6585/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39282",
+    "name": "VW (SVW) POLO PLUS (C31)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39282/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8590",
+    "name": "VW (SVW) POLO Saloon (9J2)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2006-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6586",
+    "name": "VW (SVW) SANTANA 2000 (332)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6586/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-04-01",
+      "toDate": "2004-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6587",
+    "name": "VW (SVW) SANTANA 3000 (345)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6587/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-01-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8482",
+    "name": "VW (SVW) SANTANA Estate (331, 334)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8482/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-03-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8063",
+    "name": "VW (SVW) SANTANA Saloon (330, 333)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11148",
+    "name": "VW (SVW) SANTANA Saloon (BR2, BR4)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8470",
+    "name": "VW (SVW) SANTANA VISTA (345)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39499",
+    "name": "VW (SVW) T-CROSS (C81)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39499/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37771",
+    "name": "VW (SVW) TERAMONT (0A1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37771/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42140",
+    "name": "VW (SVW) TERAMONT (CU1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42140/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39560",
+    "name": "VW (SVW) TERAMONT X (0PC)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39560/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42142",
+    "name": "VW (SVW) TERAMONT X (CVC)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42142/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39102",
+    "name": "VW (SVW) THARU (B21)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39102/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8704",
+    "name": "VW (SVW) TIGUAN (591, 592)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8704/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37588",
+    "name": "VW (SVW) TIGUAN L (0T1, 0T3)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37588/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41487",
+    "name": "VW (SVW) TIGUAN X Coupe (0T2, 0T4)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41487/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6588",
+    "name": "VW (SVW) TOURAN (9R1, 9R3)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6588/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14649",
+    "name": "VW (SVW) TOURAN (9R3)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14649/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36506",
+    "name": "VW (SVW) TOURAN L (0R1)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36506/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40838",
+    "name": "VW (SVW) VILORAN (C61)",
+    "manufacturerId": "3035",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40838/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-05-01",
+      "toDate": null
+    },
+    "variants": []
+  }
+]

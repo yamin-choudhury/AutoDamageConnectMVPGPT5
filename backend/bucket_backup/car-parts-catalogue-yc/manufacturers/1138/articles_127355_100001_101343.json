@@ -1,0 +1,83 @@
+[
+  {
+    "id": "6730944",
+    "name": "Bulb, front fog light",
+    "partNo": "EB0716SB",
+    "manufacturer": "ELTA AUTOMOTIVE",
+    "supplierId": "4344",
+    "productsId": "108",
+    "productGroupId": "101343",
+    "categoryId": "100001",
+    "variantId": "127355",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6730944/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "19",
+      "Lamp Type": "H16",
+      "Light Design": "Halogen",
+      "Socket Type": "PGJ19-3",
+      "Version": "Single Box",
+      "Specification": "Standard",
+      "Article ID:": "6730944",
+      "Article Number:": "EB0716SB",
+      "Manufacturer:": "ELTA AUTOMOTIVE",
+      "OEM Numbers PEUGEOT:": "1612116280"
+    }
+  },
+  {
+    "id": "7903863",
+    "name": "Bulb, front fog light",
+    "partNo": "LLB716",
+    "manufacturer": "LUCAS",
+    "supplierId": "4501",
+    "productsId": "108",
+    "productGroupId": "101343",
+    "categoryId": "100001",
+    "variantId": "127355",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7903863/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "19",
+      "Quality": "E",
+      "Lamp Type": "H16",
+      "Light Design": "Halogen",
+      "Socket Type": "PGJ19-3",
+      "Version": "Single Box",
+      "Specification": "Standard",
+      "Article ID:": "7903863",
+      "Article Number:": "LLB716",
+      "Manufacturer:": "LUCAS",
+      "OEM Numbers PEUGEOT:": "1612116280"
+    }
+  },
+  {
+    "id": "9495987",
+    "name": "Bulb, front fog light",
+    "partNo": "U671L01",
+    "manufacturer": "NPS",
+    "supplierId": "440",
+    "productsId": "108",
+    "productGroupId": "101343",
+    "categoryId": "100001",
+    "variantId": "127355",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9495987/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "60/55",
+      "Lamp Type": "H4",
+      "Socket Type": "P43t",
+      "Number of Parts [parts]": "1",
+      "Article ID:": "9495987",
+      "Article Number:": "U671L01",
+      "Manufacturer:": "NPS",
+      "EAN Numbers:": "366192920112",
+      "OEM Numbers TOYOTA:": "90981-13015"
+    }
+  }
+]

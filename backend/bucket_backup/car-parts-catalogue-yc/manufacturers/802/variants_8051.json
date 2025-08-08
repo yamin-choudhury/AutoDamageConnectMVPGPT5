@@ -1,0 +1,82 @@
+[
+  {
+    "id": "7843",
+    "type": "3.5 S",
+    "modelId": "8051",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2010-12-01\n                            \n                            2016-04-01",
+      "power": "258 KW / 351 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31209",
+    "type": "3.5",
+    "modelId": "8051",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2009-05-01\n                            \n                            2016-04-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117729",
+    "type": "3.5 400",
+    "modelId": "8051",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "298 KW / 405 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127088",
+    "type": "3.5 410",
+    "modelId": "8051",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2016-06-01",
+      "power": "306 KW / 416 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128430",
+    "type": "3.5 430",
+    "modelId": "8051",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-06-01",
+      "power": "321 KW / 436 PS"
+    },
+    "categories": []
+  }
+]

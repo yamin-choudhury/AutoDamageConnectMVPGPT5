@@ -1,0 +1,100 @@
+[
+  {
+    "id": "3850769",
+    "name": "Hose, crankcase ventilation",
+    "partNo": "55992",
+    "manufacturer": "AIC",
+    "supplierId": "1368",
+    "productsId": "1600",
+    "productGroupId": "105862",
+    "categoryId": "100002",
+    "variantId": "17932",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3850769/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "for cylinder 1-4",
+      "only in connection with": "1161 7 547 186",
+      "Article ID:": "3850769",
+      "Article Number:": "55992",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "0404628355992",
+      "OEM Numbers BMW:": "1161 7 563 476"
+    }
+  },
+  {
+    "id": "3850773",
+    "name": "Hose, crankcase ventilation",
+    "partNo": "55992",
+    "manufacturer": "AIC",
+    "supplierId": "6558",
+    "productsId": "1600",
+    "productGroupId": "105862",
+    "categoryId": "100002",
+    "variantId": "17932",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3850773/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "for cylinder 1-4",
+      "only in connection with": "1161 7 547 186",
+      "Article ID:": "3850773",
+      "Article Number:": "55992",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "404628355992",
+      "OEM Numbers BMW:": "1161 7 563 476"
+    }
+  },
+  {
+    "id": "5894194",
+    "name": "Hose, crankcase ventilation",
+    "partNo": "B1210107",
+    "manufacturer": "BOGAP",
+    "supplierId": "5349",
+    "productsId": "1600",
+    "productGroupId": "105862",
+    "categoryId": "100002",
+    "variantId": "17932",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5894194/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [cm]": "24",
+      "Width [cm]": "9",
+      "Height [cm]": "4",
+      "Material": "Plastic",
+      "Net weight [kg]": "0,07",
+      "Article ID:": "5894194",
+      "Article Number:": "B1210107",
+      "Manufacturer:": "BOGAP",
+      "EAN Numbers:": "425178910995",
+      "OEM Numbers BMW:": "11617547185"
+    }
+  },
+  {
+    "id": "5894218",
+    "name": "Hose, crankcase ventilation",
+    "partNo": "B1210131",
+    "manufacturer": "BOGAP",
+    "supplierId": "5349",
+    "productsId": "1600",
+    "productGroupId": "105862",
+    "categoryId": "100002",
+    "variantId": "17932",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5894218/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [cm]": "25",
+      "Width [cm]": "18",
+      "Height [cm]": "7",
+      "Material": "Plastic",
+      "Net weight [kg]": "0,17",
+      "Article ID:": "5894218",
+      "Article Number:": "B1210131",
+      "Manufacturer:": "BOGAP",
+      "EAN Numbers:": "425178910851",
+      "OEM Numbers BMW:": "11617563476"
+    }
+  }
+]

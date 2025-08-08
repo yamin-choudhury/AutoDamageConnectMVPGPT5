@@ -1,0 +1,54 @@
+[
+  {
+    "id": "10449150",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.012.18",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "10928",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449150/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "38",
+      "Thread Size": "M12",
+      "Quality/ Grade": "10.9",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "43",
+      "Article ID:": "10449150",
+      "Article Number:": "ZM 30.012.18",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268408500",
+      "OEM Numbers HONDA:": "90113-SM1-005"
+    }
+  },
+  {
+    "id": "10449151",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.012.19",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "10928",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449151/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "38",
+      "Thread Size": "M12",
+      "Quality/ Grade": "10.9",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "43",
+      "Article ID:": "10449151",
+      "Article Number:": "ZM 30.012.19",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268408501",
+      "OEM Numbers HONDA:": "90113-SM1-005"
+    }
+  }
+]

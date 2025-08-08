@@ -1,0 +1,145 @@
+[
+  {
+    "id": "12831",
+    "name": "MORGAN 3-WHEELER",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12831/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4639",
+    "name": "MORGAN AERO 8 Convertible",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38746",
+    "name": "MORGAN AERO 8 Convertible",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38746/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10219",
+    "name": "MORGAN AERO Coupe",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10219/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8955",
+    "name": "MORGAN AERO SUPERSPORTS",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8955/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11495",
+    "name": "MORGAN AEROMAX Coupe",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11495/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2009-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9562",
+    "name": "MORGAN EVA",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9562/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4414",
+    "name": "MORGAN FOUR FOUR",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4416",
+    "name": "MORGAN PLUS EIGHT",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4416/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4415",
+    "name": "MORGAN PLUS FOUR",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4415/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-01-01",
+      "toDate": "2020-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40651",
+    "name": "MORGAN PLUS FOUR",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40651/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40652",
+    "name": "MORGAN PLUS SIX",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40652/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8953",
+    "name": "MORGAN ROADSTER Convertible",
+    "manufacturerId": "803",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-01-01",
+      "toDate": null
+    },
+    "variants": []
+  }
+]

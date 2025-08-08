@@ -1,0 +1,55 @@
+[
+  {
+    "id": "162529",
+    "name": "Seal, thermostat",
+    "partNo": "00522800",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "139",
+    "productGroupId": "100096",
+    "categoryId": "100007",
+    "variantId": "34807",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/162529/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "3",
+      "Inner diameter [mm]": "51",
+      "Outer diameter [mm]": "59",
+      "Article ID:": "162529",
+      "Article Number:": "00522800",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776908705",
+      "OEM Numbers BMW:": "11537791071",
+      "OEM Numbers FIAT:": "16325-28010",
+      "OEM Numbers SCION:": "16325-0H030",
+      "OEM Numbers LEXUS:": "16325-62010"
+    }
+  },
+  {
+    "id": "9983334",
+    "name": "Seal, thermostat",
+    "partNo": "WG1751097",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "139",
+    "productGroupId": "100096",
+    "categoryId": "100007",
+    "variantId": "34807",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9983334/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "3",
+      "Inner diameter [mm]": "51",
+      "Outer diameter [mm]": "59",
+      "Article ID:": "9983334",
+      "Article Number:": "WG1751097",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers BMW:": "11 53 7 791 071",
+      "OEM Numbers FIAT:": "1632528010",
+      "OEM Numbers SCION:": "163250H030",
+      "OEM Numbers LEXUS:": "1632562010"
+    }
+  }
+]

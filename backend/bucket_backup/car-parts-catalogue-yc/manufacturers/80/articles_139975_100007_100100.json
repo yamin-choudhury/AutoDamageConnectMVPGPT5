@@ -1,0 +1,55 @@
+[
+  {
+    "id": "2085423",
+    "name": "Radiator Hose",
+    "partNo": "22519",
+    "manufacturer": "GATES-MX",
+    "supplierId": "6350",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "139975",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2085423/model-series-id-40526/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "25",
+      "Inner diameter 2 [mm]": "25",
+      "Hose Length [mm]": "147",
+      "Article ID:": "2085423",
+      "Article Number:": "22519",
+      "Manufacturer:": "GATES-MX",
+      "EAN Numbers:": "750016807643",
+      "OEM Numbers NISSAN:": "215023HU0A",
+      "OEM Numbers JAGUAR:": "NCC2238AC"
+    }
+  },
+  {
+    "id": "2224703",
+    "name": "Radiator Hose",
+    "partNo": "24345",
+    "manufacturer": "GATES-MX",
+    "supplierId": "6350",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "139975",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2224703/model-series-id-40526/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "25",
+      "Inner diameter 2 [mm]": "33",
+      "Hose Length [mm]": "277",
+      "Article ID:": "2224703",
+      "Article Number:": "24345",
+      "Manufacturer:": "GATES-MX",
+      "EAN Numbers:": "077007563756",
+      "OEM Numbers NISSAN:": "215013HC3A"
+    }
+  }
+]

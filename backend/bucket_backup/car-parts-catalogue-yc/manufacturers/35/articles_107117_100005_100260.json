@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5522985",
+    "name": "Air Filter",
+    "partNo": "A63513",
+    "manufacturer": "1A FIRST AUTOMOTIVE",
+    "supplierId": "4814",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5522985/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "240",
+      "Width [mm]": "170",
+      "Height [mm]": "32",
+      "Width 1 [mm]": "111",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5522985",
+      "Article Number:": "A63513",
+      "Manufacturer:": "1A FIRST AUTOMOTIVE",
+      "EAN Numbers:": "803397701528",
+      "OEM Numbers FIAT:": "51817839"
+    }
+  },
+  {
+    "id": "8455469",
+    "name": "Air Filter",
+    "partNo": "PA3513",
+    "manufacturer": "MULLER FILTER",
+    "supplierId": "490",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8455469/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "240",
+      "Width [mm]": "170",
+      "Height [mm]": "32",
+      "Width 1 [mm]": "111",
+      "Filter type": "Filter Insert",
+      "Article ID:": "8455469",
+      "Article Number:": "PA3513",
+      "Manufacturer:": "MULLER FILTER",
+      "EAN Numbers:": "803397783513",
+      "OEM Numbers FIAT:": "51817839"
+    }
+  }
+]

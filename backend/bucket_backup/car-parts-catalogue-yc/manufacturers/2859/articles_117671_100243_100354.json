@@ -1,0 +1,44 @@
+[
+  {
+    "id": "596650",
+    "name": "Compressor, air conditioning",
+    "partNo": "07812",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "117671",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/596650/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "596650",
+      "Article Number:": "07812",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357307812",
+      "OEM Numbers VW:": "1KD 820 803 H"
+    }
+  },
+  {
+    "id": "600223",
+    "name": "Compressor, air conditioning",
+    "partNo": "07942",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "117671",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/600223/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "600223",
+      "Article Number:": "07942",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357307942",
+      "OEM Numbers VW:": "1K0 820 859 S"
+    }
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "id": "19193",
+    "type": "1.6 All-wheel Drive (JB416)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "M16A",
+      "cylinder": "4",
+      "capacity": "1,586 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2005-04-01\n                            \n                            2015-02-01",
+      "power": "78 KW / 106 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19194",
+    "type": "2.0 All-wheel Drive (TD54, JB420)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-10-01\n                            \n                            2015-02-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19393",
+    "type": "1.9 DDiS All-wheel Drive (JT419, TD44, JB419WD, JB419XD)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "F9QB,F9QC",
+      "cylinder": "4",
+      "capacity": "1,870 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "2005-10-01\n                            \n                            2015-02-01",
+      "power": "95 KW / 129 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22327",
+    "type": "2.0 (JB420)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-10-01\n                            \n                            2015-02-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22449",
+    "type": "1.6 (JB416)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "M16A",
+      "cylinder": "4",
+      "capacity": "1,586 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2005-10-01",
+      "power": "78 KW / 106 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "28402",
+    "type": "1.3",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "M13A",
+      "cylinder": "4",
+      "capacity": "1,328 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2006-08-01\n                            \n                            2015-02-01",
+      "power": "61 KW / 83 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "29602",
+    "type": "1.6 All-wheel Drive (TA74, JB416)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "M16A",
+      "cylinder": "4",
+      "capacity": "1,586 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2005-09-01\n                            \n                            2015-02-01",
+      "power": "73 KW / 99 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30861",
+    "type": "3.2 All-wheel Drive (TDB4, JT632, JB632)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "N32A",
+      "cylinder": "6",
+      "capacity": "3,195 CCM / 3.2 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01\n                            \n                            2015-02-01",
+      "power": "171 KW / 233 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30862",
+    "type": "2.4 All-wheel Drive (JB424)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J24B",
+      "cylinder": "4",
+      "capacity": "2,393 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01",
+      "power": "124 KW / 169 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31383",
+    "type": "2.4 All-wheel Drive (JT424, JB424)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J24B",
+      "cylinder": "4",
+      "capacity": "2,393 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01",
+      "power": "122 KW / 166 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54794",
+    "type": "2.4 (JB424)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J24B",
+      "cylinder": "4",
+      "capacity": "2,393 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01",
+      "power": "124 KW / 169 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56178",
+    "type": "3.2 All-wheel Drive (JB632)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "N32A",
+      "cylinder": "6",
+      "capacity": "3,195 CCM / 3.2 L",
+      "fuelType": "Petrol",
+      "year": "2008-06-01\n                            \n                            2015-02-01",
+      "power": "165 KW / 224 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107608",
+    "type": "2.4 All-wheel Drive (JB424)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J24B",
+      "cylinder": "4",
+      "capacity": "2,393 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-09-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107609",
+    "type": "2.4 (JB424)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J24B",
+      "cylinder": "4",
+      "capacity": "2,393 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01",
+      "power": "122 KW / 166 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108556",
+    "type": "3.2 (JB632)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "N32A",
+      "cylinder": "6",
+      "capacity": "3,195 CCM / 3.2 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01\n                            \n                            2010-12-01",
+      "power": "171 KW / 233 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119280",
+    "type": "2.0 All-wheel Drive (JB420)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-07-01\n                            \n                            2010-02-01",
+      "power": "95 KW / 129 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122716",
+    "type": "2.0 (JB420)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "99 KW / 135 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122717",
+    "type": "2.0 (JB420)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-10-01",
+      "power": "101 KW / 137 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123025",
+    "type": "1.6 All-wheel Drive (JB416)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "M16A",
+      "cylinder": "4",
+      "capacity": "1,586 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123028",
+    "type": "2.4 (JB424)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J24B",
+      "cylinder": "4",
+      "capacity": "2,393 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-10-01",
+      "power": "121 KW / 164 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123029",
+    "type": "2.4 All-wheel Drive (JB424)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J24B",
+      "cylinder": "4",
+      "capacity": "2,393 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-10-01",
+      "power": "121 KW / 164 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124514",
+    "type": "2.0 (JB420)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-08-01",
+      "power": "107 KW / 146 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125729",
+    "type": "2.0 All-wheel Drive (JB420W)",
+    "modelId": "5489",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "J20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "101 KW / 137 PS"
+    },
+    "categories": []
+  }
+]

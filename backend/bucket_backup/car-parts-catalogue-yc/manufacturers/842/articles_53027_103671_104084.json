@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5970800",
+    "name": "Brake Caliper",
+    "partNo": "BCS730",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "53027",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5970800/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "paired article number": "BCS731",
+      "Piston Diameter [mm]": "63",
+      "Article ID:": "5970800",
+      "Article Number:": "BCS730",
+      "Manufacturer:": "TRW",
+      "OEM Numbers TOYOTA:": "47730-33340",
+      "OEM Numbers LEXUS:": "47730-33340"
+    }
+  },
+  {
+    "id": "5970801",
+    "name": "Brake Caliper",
+    "partNo": "BCS731",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "53027",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5970801/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Left",
+      "paired article number": "BCS730",
+      "Piston Diameter [mm]": "63",
+      "Article ID:": "5970801",
+      "Article Number:": "BCS731",
+      "Manufacturer:": "TRW",
+      "OEM Numbers TOYOTA:": "47750-33340",
+      "OEM Numbers LEXUS:": "47750-33340"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "5596280",
+    "name": "Wiper Blade",
+    "partNo": "AD14HY350",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "21640",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596280/model-series-id-5859/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "350",
+      "Length [in]": "14",
+      "Weight [kg]": "0,067",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Hybrid Wiper Blade",
+      "Article ID:": "5596280",
+      "Article Number:": "AD14HY350",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327928",
+      "OEM Numbers HONDA:": "76630-TF0-G01",
+      "OEM Numbers TOYOTA:": "85222-25160"
+    }
+  },
+  {
+    "id": "5596894",
+    "name": "Wiper Blade",
+    "partNo": "AD24CH600",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "21640",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596894/model-series-id-5859/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "24CH600",
+      "Length [mm]": "600",
+      "Length [in]": "24",
+      "Weight [kg]": "0,160",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "5596894",
+      "Article Number:": "AD24CH600",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327925",
+      "OEM Numbers MASSEY FERGUSON:": "38 08 788 M91"
+    }
+  }
+]

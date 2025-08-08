@@ -1,0 +1,18 @@
+[
+  {
+    "id": "140123",
+    "type": "2.0",
+    "modelId": "40651",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "B48 B20 B",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-03-01",
+      "power": "190 KW / 258 PS"
+    },
+    "categories": []
+  }
+]

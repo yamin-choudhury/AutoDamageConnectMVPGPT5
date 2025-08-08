@@ -1,1 +1,47 @@
+# Environment
 .env
+.env.*
+.envrc
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node / JS
+node_modules/
+dist/
+build/
+.npm/
+.yarn/
+.pnpm-store/
+
+# OS / System
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs / Temp
+*.log
+logs/
+tmp/
+temp/
+
+# Project-specific
+reports/
+storage/
+**/.supabase/

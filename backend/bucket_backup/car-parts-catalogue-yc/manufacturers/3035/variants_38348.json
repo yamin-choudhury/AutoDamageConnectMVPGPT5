@@ -1,0 +1,18 @@
+[
+  {
+    "id": "129600",
+    "type": "1.6",
+    "modelId": "38348",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CPDA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2016-09-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  }
+]

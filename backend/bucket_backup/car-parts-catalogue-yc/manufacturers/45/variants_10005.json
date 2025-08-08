@@ -1,0 +1,50 @@
+[
+  {
+    "id": "14020",
+    "type": "1.2 i-VTEC (DD1)",
+    "modelId": "10005",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B3",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2011-01-01",
+      "power": "65 KW / 88 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25895",
+    "type": "1.3 i-VTEC (DD2)",
+    "modelId": "10005",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L13Z5",
+      "cylinder": "4",
+      "capacity": "1,339 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2011-01-01",
+      "power": "73 KW / 99 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126742",
+    "type": "1.2 i-VTEC (DD1)",
+    "modelId": "10005",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B3",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2011-01-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "4337900",
+    "name": "Cap, coolant tank",
+    "partNo": "700 210",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "56",
+    "productGroupId": "104070",
+    "categoryId": "103671",
+    "variantId": "145387",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4337900/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Yellow/Black",
+      "Material": "Plastic",
+      "Mounting Type": "Screw Connection",
+      "Thread Type": "Internal Thread",
+      "Article ID:": "4337900",
+      "Article Number:": "700 210",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers NISSAN:": "2143 0AX 600",
+      "OEM Numbers MERCEDES-BENZ:": "A415 501 00 15",
+      "OEM Numbers OPEL:": "44 08 066",
+      "OEM Numbers RENAULT:": "8200 048 024",
+      "OEM Numbers DACIA:": "8200 048 024",
+      "OEM Numbers VAUXHALL:": "91166192"
+    }
+  },
+  {
+    "id": "4338179",
+    "name": "Cap, coolant tank",
+    "partNo": "700 431",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "56",
+    "productGroupId": "104070",
+    "categoryId": "103671",
+    "variantId": "145387",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4338179/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "White/Brown",
+      "Article ID:": "4338179",
+      "Article Number:": "700 431",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers VAUXHALL:": "09110429",
+      "OEM Numbers NISSAN:": "2151 600 QAB",
+      "OEM Numbers OPEL:": "44 02 429",
+      "OEM Numbers RENAULT:": "7700 808 836",
+      "OEM Numbers DACIA:": "7700 808 836"
+    }
+  }
+]

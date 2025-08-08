@@ -1,0 +1,94 @@
+[
+  {
+    "id": "6040952",
+    "name": "Catalytic Converter",
+    "partNo": "BM90110",
+    "manufacturer": "BM CATALYSTS",
+    "supplierId": "406",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "11244",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6040952/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "only in connection with": "FK90110",
+      "Warranty": "2 years warranty",
+      "Article ID:": "6040952",
+      "Article Number:": "BM90110",
+      "Manufacturer:": "BM CATALYSTS",
+      "EAN Numbers:": "0505274603379",
+      "OEM Numbers LAND ROVER:": "NTC7310"
+    }
+  },
+  {
+    "id": "4071926",
+    "name": "Catalytic Converter",
+    "partNo": "6110170R",
+    "manufacturer": "Henkel Parts",
+    "supplierId": "6349",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "11244",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4071926/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "Originalteil reman",
+      "Suited for engine type (CC)": "Diesel",
+      "Article ID:": "4071926",
+      "Article Number:": "6110170R",
+      "Manufacturer:": "Henkel Parts",
+      "EAN Numbers:": "406321437594",
+      "OEM Numbers LAND ROVER:": "NTC7310"
+    }
+  },
+  {
+    "id": "4071927",
+    "name": "Catalytic Converter",
+    "partNo": "6110170S",
+    "manufacturer": "Henkel Parts",
+    "supplierId": "6349",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "11244",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4071927/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "Standard Neuteil",
+      "Suited for engine type (CC)": "Diesel",
+      "Article ID:": "4071927",
+      "Article Number:": "6110170S",
+      "Manufacturer:": "Henkel Parts",
+      "EAN Numbers:": "406321430719",
+      "OEM Numbers LAND ROVER:": "NTC7310"
+    }
+  },
+  {
+    "id": "8661266",
+    "name": "Catalytic Converter",
+    "partNo": "QCAT90110",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "11244",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8661266/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with mounting kit",
+      "Warranty": "2 years warranty",
+      "Article ID:": "8661266",
+      "Article Number:": "QCAT90110",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043852156",
+      "OEM Numbers LAND ROVER:": "NTC7310"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2646713",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "312 28 317 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "135333",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2646713/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without gaskets/seals",
+      "Quantity Unit": "Piece",
+      "Supplementary Article/Info 2": "without EGR valve",
+      "Article ID:": "2646713",
+      "Article Number:": "312 28 317 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers RENAULT:": "82 00 577 965",
+      "OEM Numbers DACIA:": "8200 577 965"
+    }
+  },
+  {
+    "id": "4157089",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "630 155",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "135333",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4157089/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Cooling Type": "Water-cooled",
+      "Supplementary Article/Info 2": "without EGR valve",
+      "Article ID:": "4157089",
+      "Article Number:": "630 155",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers RENAULT:": "8200 577 965",
+      "OEM Numbers DACIA:": "8200 577 965"
+    }
+  }
+]

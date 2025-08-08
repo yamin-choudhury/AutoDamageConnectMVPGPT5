@@ -1,0 +1,82 @@
+[
+  {
+    "id": "23365",
+    "type": "1.8 TSI",
+    "modelId": "6429",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BYJ",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-07-01\n                            \n                            2012-12-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23367",
+    "type": "1.6",
+    "modelId": "6429",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BWH",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2006-02-01\n                            \n                            2012-12-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23368",
+    "type": "1.8 T",
+    "modelId": "6429",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BPL",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-04-01\n                            \n                            2008-04-01",
+      "power": "110 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24070",
+    "type": "2.0",
+    "modelId": "6429",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJZ",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-04-01\n                            \n                            2009-06-01",
+      "power": "85 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33633",
+    "type": "1.4 TSI",
+    "modelId": "6429",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CFB",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2012-12-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  }
+]

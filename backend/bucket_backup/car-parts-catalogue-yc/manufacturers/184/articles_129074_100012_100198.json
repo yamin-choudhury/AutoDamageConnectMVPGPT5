@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2564869",
+    "name": "Tie Rod End",
+    "partNo": "301191605500",
+    "manufacturer": "MAGNETI MARELLI",
+    "supplierId": "95",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "129074",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2564869/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Rod/Strut": "Camber Link",
+      "Article ID:": "2564869",
+      "Article Number:": "301191605500",
+      "Manufacturer:": "MAGNETI MARELLI",
+      "EAN Numbers:": "800106399933",
+      "OEM Numbers HYUNDAI:": "MB527650"
+    }
+  },
+  {
+    "id": "8221580",
+    "name": "Inner Tie Rod",
+    "partNo": "MTG040246",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "129074",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8221580/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Length [mm]": "198,5",
+      "Weight [kg]": "0,48",
+      "Outer diameter [mm]": "40",
+      "Thread Size 1": "M14*1,5",
+      "Thread Size 2": "M18*1,5",
+      "Article ID:": "8221580",
+      "Article Number:": "MTG040246",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880974713289",
+      "OEM Numbers KIA:": "0K60A32270A"
+    }
+  },
+  {
+    "id": "8221581",
+    "name": "Inner Tie Rod",
+    "partNo": "MTG040247",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "129074",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8221581/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Length [mm]": "327,7",
+      "Weight [kg]": "0,76",
+      "Outer diameter [mm]": "40",
+      "Thread Size 1": "M16*1,5",
+      "Thread Size 2": "M18*1,5",
+      "Article ID:": "8221581",
+      "Article Number:": "MTG040247",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880974713290",
+      "OEM Numbers KIA:": "577244E000"
+    }
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "id": "43639",
+    "name": "LAND ROVER 100/127 Pick-up (LDH)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43639/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-06-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4674",
+    "name": "LAND ROVER 110/127 (LDH)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4674/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-09-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40998",
+    "name": "LAND ROVER 80 MK I Closed Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40998/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1948-01-01",
+      "toDate": "1953-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41015",
+    "name": "LAND ROVER 80 MK I Open Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41015/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1948-01-01",
+      "toDate": "1953-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41000",
+    "name": "LAND ROVER 86/107 MK I Closed Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41000/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1954-01-01",
+      "toDate": "1958-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41014",
+    "name": "LAND ROVER 86/107 MK I Open Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41014/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1954-01-01",
+      "toDate": "1958-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41001",
+    "name": "LAND ROVER 88/109 MK I Closed Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41001/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1956-07-01",
+      "toDate": "1958-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41009",
+    "name": "LAND ROVER 88/109 MK I Open Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41009/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1956-07-01",
+      "toDate": "1958-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41002",
+    "name": "LAND ROVER 88/109 MK II Closed Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41002/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1958-09-01",
+      "toDate": "1961-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41010",
+    "name": "LAND ROVER 88/109 MK II Open Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41010/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1958-09-01",
+      "toDate": "1961-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41003",
+    "name": "LAND ROVER 88/109 MK IIA Closed Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41003/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1961-12-01",
+      "toDate": "1971-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41011",
+    "name": "LAND ROVER 88/109 MK IIA Open Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41011/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1961-12-01",
+      "toDate": "1971-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41004",
+    "name": "LAND ROVER 88/109 MK III Closed Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41004/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-11-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41012",
+    "name": "LAND ROVER 88/109 MK III Open Off-Road Vehicle",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41012/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-11-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38852",
+    "name": "LAND ROVER 90 I (LDV)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38852/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-01-01",
+      "toDate": "1990-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4672",
+    "name": "LAND ROVER DEFENDER Cabrio (L316)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4672/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-08-01",
+      "toDate": "2016-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5034",
+    "name": "LAND ROVER DEFENDER Pick Up (L316)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2016-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10595",
+    "name": "LAND ROVER DEFENDER Platform/Chassis (L316)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10595/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-09-01",
+      "toDate": "2016-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4673",
+    "name": "LAND ROVER DEFENDER Station Wagon (L316)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-05-01",
+      "toDate": "2016-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40000",
+    "name": "LAND ROVER DEFENDER Station Wagon (L663)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40000/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40590",
+    "name": "LAND ROVER DEFENDER Van (L663)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40590/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4671",
+    "name": "LAND ROVER DISCOVERY I (LJ)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4671/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-06-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5160",
+    "name": "LAND ROVER DISCOVERY III (L319)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-07-01",
+      "toDate": "2009-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38732",
+    "name": "LAND ROVER DISCOVERY III VAN (L319)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38732/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-01-01",
+      "toDate": "2009-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9015",
+    "name": "LAND ROVER DISCOVERY IV (L319)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9015/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-09-01",
+      "toDate": "2018-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38785",
+    "name": "LAND ROVER DISCOVERY IV VAN (L319)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38785/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-09-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4670",
+    "name": "LAND ROVER DISCOVERY Mk II (L318)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4670/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2004-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13104",
+    "name": "LAND ROVER DISCOVERY SPORT (L550)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13104/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41655",
+    "name": "LAND ROVER DISCOVERY SPORT VAN (L550)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41655/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37152",
+    "name": "LAND ROVER DISCOVERY V (L462)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37152/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41615",
+    "name": "LAND ROVER DISCOVERY V VAN (L462)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41615/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5603",
+    "name": "LAND ROVER FREELANDER 2 (L359)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5603/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38786",
+    "name": "LAND ROVER FREELANDER 2 VAN (L359)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38786/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": "2014-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4678",
+    "name": "LAND ROVER FREELANDER I (L314)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4678/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-02-01",
+      "toDate": "2006-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4677",
+    "name": "LAND ROVER FREELANDER I Soft Top (L314)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4677/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-02-01",
+      "toDate": "2006-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4669",
+    "name": "LAND ROVER RANGE ROVER",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4669/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-10-01",
+      "toDate": "1996-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9576",
+    "name": "LAND ROVER RANGE ROVER EVOQUE (L538)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9576/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-06-01",
+      "toDate": "2019-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39216",
+    "name": "LAND ROVER RANGE ROVER EVOQUE (L551)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39216/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14820",
+    "name": "LAND ROVER RANGE ROVER EVOQUE Convertible (L538)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14820/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-11-01",
+      "toDate": "2019-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41657",
+    "name": "LAND ROVER RANGE ROVER EVOQUE VAN (L538)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41657/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-06-01",
+      "toDate": "2019-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10810",
+    "name": "LAND ROVER RANGE ROVER IV (L405)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10810/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4668",
+    "name": "LAND ROVER RANGE ROVER Mk II (P38A)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4668/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "2002-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4869",
+    "name": "LAND ROVER RANGE ROVER Mk III (L322)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4869/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-03-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5437",
+    "name": "LAND ROVER RANGE ROVER SPORT I (L320)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5437/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-02-01",
+      "toDate": "2013-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11229",
+    "name": "LAND ROVER RANGE ROVER SPORT II (L494)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11229/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42925",
+    "name": "LAND ROVER RANGE ROVER SPORT III (L461)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42925/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42537",
+    "name": "LAND ROVER RANGE ROVER V (L460)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42537/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37713",
+    "name": "LAND ROVER RANGE ROVER VELAR (L560)",
+    "manufacturerId": "1820",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37713/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  }
+]

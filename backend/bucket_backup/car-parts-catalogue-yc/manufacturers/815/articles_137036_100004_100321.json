@@ -1,0 +1,51 @@
+[
+  {
+    "id": "259015",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01567200",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "137036",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/259015/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "5,5",
+      "Inner diameter [mm]": "163",
+      "Outer diameter [mm]": "170",
+      "Article ID:": "259015",
+      "Article Number:": "01567200",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357737069",
+      "OEM Numbers AUDI:": "8W0253115G"
+    }
+  },
+  {
+    "id": "10207253",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG2079809",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "137036",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10207253/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "5,5",
+      "Inner diameter [mm]": "163",
+      "Outer diameter [mm]": "170",
+      "Article ID:": "10207253",
+      "Article Number:": "WG2079809",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "8W0 253 115 G"
+    }
+  }
+]

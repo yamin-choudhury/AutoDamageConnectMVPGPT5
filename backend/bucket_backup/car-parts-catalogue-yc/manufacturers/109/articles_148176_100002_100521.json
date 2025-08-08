@@ -1,0 +1,55 @@
+[
+  {
+    "id": "4686297",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10372-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "148176",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686297/model-series-id-43071/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "6",
+      "Material": "FPM (fluoride rubber)/ACM (polyacrylate rubber)",
+      "Inner diameter [mm]": "41",
+      "Outer diameter [mm]": "53",
+      "Swirl Type": "Right-hand Twist",
+      "Article ID:": "4686297",
+      "Article Number:": "81-10372-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663510573",
+      "OEM Numbers SUZUKI:": "16141-M68PA0"
+    }
+  },
+  {
+    "id": "4686435",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10586-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "148176",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686435/model-series-id-43071/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "8",
+      "Material": "FPM (fluoride rubber)",
+      "Inner diameter [mm]": "76",
+      "Outer diameter [mm]": "90",
+      "Swirl Type": "Left-hand Twist",
+      "Radial Shaft Seal Design": "A SL",
+      "Article ID:": "4686435",
+      "Article Number:": "81-10586-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663520288",
+      "OEM Numbers SUZUKI:": "11342-84MC0"
+    }
+  }
+]

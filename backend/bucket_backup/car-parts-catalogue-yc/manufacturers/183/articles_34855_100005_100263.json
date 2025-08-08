@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3541912",
+    "name": "Filter, interior air",
+    "partNo": "50014772",
+    "manufacturer": "KOLBENSCHMIDT",
+    "supplierId": "432",
+    "productsId": "424",
+    "productGroupId": "100263",
+    "categoryId": "100005",
+    "variantId": "34855",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3541912/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "239",
+      "Width [mm]": "195",
+      "Height [mm]": "20",
+      "Filter type": "Filter Insert",
+      "Article ID:": "3541912",
+      "Article Number:": "50014772",
+      "Manufacturer:": "KOLBENSCHMIDT",
+      "EAN Numbers:": "402897787901",
+      "OEM Numbers HYUNDAI:": "97133-2H001",
+      "OEM Numbers KIA:": "97133-2H001",
+      "OEM Numbers MÜLLER MITTELTAL:": "FC366"
+    }
+  },
+  {
+    "id": "9453898",
+    "name": "Filter, interior air",
+    "partNo": "TQ-FK1256",
+    "manufacturer": "TQ",
+    "supplierId": "2235",
+    "productsId": "424",
+    "productGroupId": "100263",
+    "categoryId": "100005",
+    "variantId": "34855",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9453898/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "244",
+      "Width [mm]": "204",
+      "Height [mm]": "20",
+      "Filter type": "Filter Insert",
+      "Article ID:": "9453898",
+      "Article Number:": "TQ-FK1256",
+      "Manufacturer:": "TQ",
+      "EAN Numbers:": "0385601748303",
+      "OEM Numbers HYUNDAI:": "971331E100"
+    }
+  }
+]

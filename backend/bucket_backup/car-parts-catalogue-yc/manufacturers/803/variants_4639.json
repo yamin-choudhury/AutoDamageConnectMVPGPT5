@@ -1,0 +1,50 @@
+[
+  {
+    "id": "11824",
+    "type": "4.8",
+    "modelId": "4639",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "N62 B48 B",
+      "cylinder": "8",
+      "capacity": "4,799 CCM / 4.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-10-01",
+      "power": "270 KW / 367 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "14809",
+    "type": "4.4",
+    "modelId": "4639",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "M62448S2",
+      "cylinder": "8",
+      "capacity": "4,398 CCM / 4.4 L",
+      "fuelType": "Petrol",
+      "year": "2000-10-01",
+      "power": "210 KW / 286 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17932",
+    "type": "4.4",
+    "modelId": "4639",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "N62B44A",
+      "cylinder": "8",
+      "capacity": "4,398 CCM / 4.4 L",
+      "fuelType": "Petrol",
+      "year": "2004-04-01",
+      "power": "245 KW / 333 PS"
+    },
+    "categories": []
+  }
+]

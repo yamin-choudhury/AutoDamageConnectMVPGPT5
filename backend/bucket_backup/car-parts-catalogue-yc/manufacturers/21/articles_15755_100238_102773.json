@@ -1,0 +1,118 @@
+[
+  {
+    "id": "3955400",
+    "name": "Mounting, manual transmission",
+    "partNo": "594200",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "15755",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3955400/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3955400",
+      "Article Number:": "594200",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975078576",
+      "OEM Numbers CITROËN:": "1844-36",
+      "OEM Numbers PEUGEOT:": "1844-36"
+    }
+  },
+  {
+    "id": "3956492",
+    "name": "Mounting, manual transmission",
+    "partNo": "594605",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "15755",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3956492/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3956492",
+      "Article Number:": "594605",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975084506",
+      "OEM Numbers CITROËN:": "1844-68",
+      "OEM Numbers PEUGEOT:": "1844-68",
+      "OEM Numbers DS:": "1844-68"
+    }
+  },
+  {
+    "id": "4382435",
+    "name": "Mounting, manual transmission",
+    "partNo": "71-11283-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "15755",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4382435/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "4382435",
+      "Article Number:": "71-11283-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727625884",
+      "OEM Numbers CITROËN/PEUGEOT:": "184468"
+    }
+  },
+  {
+    "id": "4382463",
+    "name": "Mounting, manual transmission",
+    "partNo": "71-11311-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "15755",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4382463/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "4382463",
+      "Article Number:": "71-11311-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727625912",
+      "OEM Numbers CITROËN/PEUGEOT:": "184436"
+    }
+  },
+  {
+    "id": "4438891",
+    "name": "Mounting, manual transmission",
+    "partNo": "72-11394-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "15755",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4438891/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Weight [kg]": "0,283",
+      "Required quantity": "1",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "4438891",
+      "Article Number:": "72-11394-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727626076",
+      "OEM Numbers CITROËN/PEUGEOT:": "96068159"
+    }
+  }
+]

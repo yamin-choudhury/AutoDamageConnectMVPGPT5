@@ -1,0 +1,57 @@
+[
+  {
+    "id": "7048735",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "FHC6129",
+    "manufacturer": "FERODO",
+    "supplierId": "62",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "5862",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7048735/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "34",
+      "Centre Distance [mm]": "76",
+      "Thread Size": "10X1",
+      "Material": "Cast Aluminium",
+      "Packing Type": "Box",
+      "Packaging length [cm]": "22,1",
+      "Packaging width [cm]": "8,2",
+      "Packaging height [cm]": "8",
+      "Article ID:": "7048735",
+      "Article Number:": "FHC6129",
+      "Manufacturer:": "FERODO",
+      "EAN Numbers:": "404419754020",
+      "OEM Numbers OPEL:": "93186759",
+      "OEM Numbers SAAB:": "5443940",
+      "OEM Numbers CHEVROLET:": "55350431",
+      "OEM Numbers CADILLAC:": "55350431",
+      "OEM Numbers VAUXHALL:": "93186759"
+    }
+  },
+  {
+    "id": "474045",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "05-84216-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "5862",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/474045/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "474045",
+      "Article Number:": "05-84216-SX",
+      "Manufacturer:": "STELLOX",
+      "OEM Numbers HYUNDAI:": "4171023010",
+      "OEM Numbers KIA:": "4171023010",
+      "OEM Numbers INTERNATIONAL:": "QP206-21100"
+    }
+  }
+]

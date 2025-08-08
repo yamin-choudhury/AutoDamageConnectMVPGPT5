@@ -1,0 +1,71 @@
+[
+  {
+    "id": "3207147",
+    "name": "Brake Booster",
+    "partNo": "4110510",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "131583",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3207147/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "10",
+      "Article ID:": "3207147",
+      "Article Number:": "4110510",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293748430",
+      "OEM Numbers LAND ROVER:": "STC442"
+    }
+  },
+  {
+    "id": "8627857",
+    "name": "Brake Booster",
+    "partNo": "PSA228",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "131583",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627857/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "8 / 9",
+      "Article ID:": "8627857",
+      "Article Number:": "PSA228",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293813383",
+      "OEM Numbers LAND ROVER:": "SJG100240"
+    }
+  },
+  {
+    "id": "8629060",
+    "name": "Brake Booster",
+    "partNo": "PSA510",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "131583",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8629060/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "10",
+      "Article ID:": "8629060",
+      "Article Number:": "PSA510",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293706149",
+      "OEM Numbers LAND ROVER:": "STC442"
+    }
+  }
+]

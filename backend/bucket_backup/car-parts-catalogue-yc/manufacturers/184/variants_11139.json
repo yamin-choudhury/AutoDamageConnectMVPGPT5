@@ -1,0 +1,210 @@
+[
+  {
+    "id": "58619",
+    "type": "1.6 GDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FD",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "99 KW / 135 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58620",
+    "type": "2.0 GDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NC",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58621",
+    "type": "1.7 CRDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FD",
+      "cylinder": "4",
+      "capacity": "1,685 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "2013-03-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58622",
+    "type": "1.7 CRDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FD",
+      "cylinder": "4",
+      "capacity": "1,685 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "2013-03-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58894",
+    "type": "2.0 GDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NC",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "122 KW / 166 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118700",
+    "type": "1.7 CRDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FD",
+      "cylinder": "4",
+      "capacity": "1,685 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "2015-07-01",
+      "power": "104 KW / 141 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122209",
+    "type": "2.0 MPI",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-01-01",
+      "power": "112 KW / 152 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122210",
+    "type": "2.0 LPI",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NC",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2013-03-01\n                            \n                            2016-08-01",
+      "power": "113 KW / 154 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122257",
+    "type": "2.0 MPI",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NC",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125643",
+    "type": "1.7 CRDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FD",
+      "cylinder": "4",
+      "capacity": "1,685 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "2013-03-01",
+      "power": "99 KW / 135 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130106",
+    "type": "2.0 LPI",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NC",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2016-08-01",
+      "power": "109 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131929",
+    "type": "1.7 CRDi",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FD",
+      "cylinder": "4",
+      "capacity": "1,685 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "2018-07-01",
+      "power": "102 KW / 139 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142663",
+    "type": "2.0",
+    "modelId": "11139",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-01-01",
+      "power": "116 KW / 158 PS"
+    },
+    "categories": []
+  }
+]

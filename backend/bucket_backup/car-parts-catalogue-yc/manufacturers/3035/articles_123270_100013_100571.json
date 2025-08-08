@@ -1,0 +1,56 @@
+[
+  {
+    "id": "7699772",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "JTC357",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "123270",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7699772/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Control/Trailing Arm Type": "Control Arm",
+      "paired article number": "JTC359",
+      "Article ID:": "7699772",
+      "Article Number:": "JTC357",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293790453",
+      "OEM Numbers AUDI:": "893 407 147 C",
+      "OEM Numbers SEAT:": "857 505 353 B",
+      "OEM Numbers SKODA:": "857 505 353 B",
+      "OEM Numbers VW:": "893 407 147 C",
+      "OEM Numbers VW (SVW):": "893 407 147 C"
+    }
+  },
+  {
+    "id": "7699774",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "JTC359",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "123270",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7699774/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Control/Trailing Arm Type": "Control Arm",
+      "paired article number": "JTC357",
+      "Article ID:": "7699774",
+      "Article Number:": "JTC359",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293790454",
+      "OEM Numbers AUDI:": "893 407 148 C",
+      "OEM Numbers SEAT:": "857 505 354 B",
+      "OEM Numbers SKODA:": "857 505 354 B",
+      "OEM Numbers VW:": "893 407 148 C",
+      "OEM Numbers VW (SVW):": "857 407 148 A"
+    }
+  }
+]

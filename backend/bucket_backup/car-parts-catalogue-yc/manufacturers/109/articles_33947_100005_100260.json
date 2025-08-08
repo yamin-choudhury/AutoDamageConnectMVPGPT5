@@ -1,0 +1,76 @@
+[
+  {
+    "id": "5624771",
+    "name": "Air Filter",
+    "partNo": "ADK82247",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "33947",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5624771/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "315",
+      "Width [mm]": "158",
+      "Height [mm]": "73",
+      "Weight [kg]": "0,32",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5624771",
+      "Article Number:": "ADK82247",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006322632",
+      "OEM Numbers SUZUKI:": "13780-61J00"
+    }
+  },
+  {
+    "id": "5624771",
+    "name": "Air Filter",
+    "partNo": "ADK82247",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "33947",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5624771/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "315",
+      "Width [mm]": "158",
+      "Height [mm]": "73",
+      "Weight [kg]": "0,32",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5624771",
+      "Article Number:": "ADK82247",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006322632",
+      "OEM Numbers SUZUKI:": "13780-61J00"
+    }
+  },
+  {
+    "id": "8935772",
+    "name": "Air Filter",
+    "partNo": "S132I54",
+    "manufacturer": "NPS",
+    "supplierId": "440",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "33947",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8935772/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "8935772",
+      "Article Number:": "S132I54",
+      "Manufacturer:": "NPS",
+      "EAN Numbers:": "366192971044",
+      "OEM Numbers SUZUKI:": "13780-61J00"
+    }
+  }
+]

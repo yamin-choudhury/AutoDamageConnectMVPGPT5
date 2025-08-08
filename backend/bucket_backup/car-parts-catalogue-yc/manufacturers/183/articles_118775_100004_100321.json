@@ -1,0 +1,56 @@
+[
+  {
+    "id": "241350",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01231600",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "118775",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/241350/model-series-id-36253/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "1",
+      "Inner diameter [mm]": "73,5",
+      "Outer diameter [mm]": "123",
+      "Article ID:": "241350",
+      "Article Number:": "01231600",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776999261",
+      "OEM Numbers KIA:": "28751-2H000",
+      "OEM Numbers HYUNDAI:": "287512V000"
+    }
+  },
+  {
+    "id": "241373",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01231800",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "118775",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/241373/model-series-id-36253/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "1",
+      "Length [mm]": "116",
+      "Inner diameter [mm]": "61,50",
+      "Outer diameter [mm]": "73,50",
+      "Distance of fastening bolts [mm]": "92",
+      "Article ID:": "241373",
+      "Article Number:": "01231800",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776999238",
+      "OEM Numbers KIA:": "28751-2B200",
+      "OEM Numbers HYUNDAI:": "287513S000"
+    }
+  }
+]

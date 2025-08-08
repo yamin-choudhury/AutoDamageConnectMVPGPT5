@@ -1,0 +1,194 @@
+[
+  {
+    "id": "797",
+    "type": "2.7 TD 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "276DT",
+      "cylinder": "6",
+      "capacity": "2,720 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2009-09-01\n                            \n                            2018-12-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "800",
+    "type": "3.0 TD 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "306DT",
+      "cylinder": "6",
+      "capacity": "2,993 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2010-05-01\n                            \n                            2018-12-01",
+      "power": "155 KW / 211 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "2940",
+    "type": "5.0 V8 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "508PN",
+      "cylinder": "8",
+      "capacity": "4,999 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2018-12-01",
+      "power": "276 KW / 375 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "9312",
+    "type": "3.0 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-08-01\n                            \n                            2018-12-01",
+      "power": "250 KW / 340 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11157",
+    "type": "4.0 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "406PN",
+      "cylinder": "6",
+      "capacity": "4,009 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2018-12-01",
+      "power": "160 KW / 218 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11891",
+    "type": "3.0 SDV6 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "306DT",
+      "cylinder": "6",
+      "capacity": "2,993 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2009-11-01\n                            \n                            2018-12-01",
+      "power": "188 KW / 256 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "12169",
+    "type": "3.0 TD 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "306DT",
+      "cylinder": "6",
+      "capacity": "2,993 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2009-09-01\n                            \n                            2018-12-01",
+      "power": "200 KW / 272 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32050",
+    "type": "3.0 TD 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "306DT",
+      "cylinder": "6",
+      "capacity": "2,993 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2009-09-01\n                            \n                            2018-12-01",
+      "power": "180 KW / 245 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "50421",
+    "type": "5.0 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2018-12-01",
+      "power": "218 KW / 296 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56756",
+    "type": "3.0 TD 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "306DT",
+      "cylinder": "6",
+      "capacity": "2,993 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2012-07-01\n                            \n                            2018-12-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "101063",
+    "type": "5.0 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "508PN",
+      "cylinder": "8",
+      "capacity": "4,999 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2018-12-01",
+      "power": "280 KW / 381 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123230",
+    "type": "3.0 4x4",
+    "modelId": "9015",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01\n                            \n                            2018-12-01",
+      "power": "254 KW / 345 PS"
+    },
+    "categories": []
+  }
+]

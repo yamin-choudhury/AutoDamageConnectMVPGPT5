@@ -1,0 +1,114 @@
+[
+  {
+    "id": "16019",
+    "type": "1.9 D (SB0E)",
+    "modelId": "4790",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "F8Q 630",
+      "cylinder": "4",
+      "capacity": "1,870 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "1998-09-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "16020",
+    "type": "1.2 (SB0A, SB0F, SB1K, SB2D)",
+    "modelId": "4790",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "D7F 720,D7F 726,D7F 746",
+      "cylinder": "4",
+      "capacity": "1,149 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "1998-09-01",
+      "power": "43 KW / 58 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19178",
+    "type": "1.5 dCi (SB07)",
+    "modelId": "4790",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 700,K9K 704",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2001-06-01",
+      "power": "48 KW / 65 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25107",
+    "type": "1.6 (SB0H)",
+    "modelId": "4790",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K4M 746",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2003-11-01",
+      "power": "79 KW / 107 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "27313",
+    "type": "1.5 dCi",
+    "modelId": "4790",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 714",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2004-04-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "27977",
+    "type": "1.5 dCi",
+    "modelId": "4790",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 702,K9K 710,K9K 716",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2003-11-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145580",
+    "type": "1.5 dCi (SB3M)",
+    "modelId": "4790",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 740",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2005-06-01\n                            \n                            2010-12-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  }
+]

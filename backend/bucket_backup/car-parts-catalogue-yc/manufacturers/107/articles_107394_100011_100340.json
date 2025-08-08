@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1708320",
+    "name": "Shock Absorber",
+    "partNo": "19-278483",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "107394",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1708320/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Absorber does not carry a spring",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "1708320",
+      "Article Number:": "19-278483",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525881423",
+      "OEM Numbers SUBARU:": "20365 SG000"
+    }
+  },
+  {
+    "id": "2028853",
+    "name": "Shock Absorber",
+    "partNo": "22-278494",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "107394",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2028853/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Left",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "paired article number": "22-278500",
+      "Article ID:": "2028853",
+      "Article Number:": "22-278494",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525882709",
+      "OEM Numbers SUBARU:": "20310 SG030"
+    }
+  }
+]

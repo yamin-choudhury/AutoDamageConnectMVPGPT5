@@ -1,0 +1,50 @@
+[
+  {
+    "id": "106338",
+    "type": "1.0 VTi",
+    "modelId": "12825",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "CFB (1KR)",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-05-01",
+      "power": "51 KW / 69 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106339",
+    "type": "1.2",
+    "modelId": "12825",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "HMZ (EB2F),HMT (EB2D),HMZ (EB2)",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2014-05-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131568",
+    "type": "1.0 VTi 72",
+    "modelId": "12825",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "CFB (1KR)",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-05-01",
+      "power": "53 KW / 72 PS"
+    },
+    "categories": []
+  }
+]

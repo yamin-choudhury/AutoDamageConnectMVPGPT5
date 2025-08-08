@@ -1,0 +1,117 @@
+[
+  {
+    "id": "2160053",
+    "name": "Suspension Spring",
+    "partNo": "23243",
+    "manufacturer": "KILEN",
+    "supplierId": "176",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107857",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2160053/model-series-id-13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Spring Design": "Coil Spring",
+      "Article ID:": "2160053",
+      "Article Number:": "23243",
+      "Manufacturer:": "KILEN",
+      "EAN Numbers:": "739441015599",
+      "OEM Numbers SUZUKI:": "4111184M00"
+    }
+  },
+  {
+    "id": "3174216",
+    "name": "Suspension Spring",
+    "partNo": "4088943",
+    "manufacturer": "LESJÖFORS",
+    "supplierId": "175",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107857",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3174216/model-series-id-13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Spring Design": "Coil Spring",
+      "Article ID:": "3174216",
+      "Article Number:": "4088943",
+      "Manufacturer:": "LESJÖFORS",
+      "EAN Numbers:": "739441015599",
+      "OEM Numbers SUZUKI:": "4111184M00"
+    }
+  },
+  {
+    "id": "6414068",
+    "name": "Suspension Spring",
+    "partNo": "CS9077",
+    "manufacturer": "ROC",
+    "supplierId": "401",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107857",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6414068/model-series-id-13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Spring Design": "Coil Spring",
+      "Article ID:": "6414068",
+      "Article Number:": "CS9077",
+      "Manufacturer:": "ROC",
+      "EAN Numbers:": "739441015599",
+      "OEM Numbers SUZUKI:": "4111184M00"
+    }
+  },
+  {
+    "id": "5004480",
+    "name": "Suspension Spring",
+    "partNo": "8750 6968",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107857",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5004480/model-series-id-13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Spring Design": "Coil Spring",
+      "Article ID:": "5004480",
+      "Article Number:": "8750 6968",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "739441015599",
+      "OEM Numbers SUZUKI:": "4111184M00"
+    }
+  },
+  {
+    "id": "5004482",
+    "name": "Suspension Spring",
+    "partNo": "8750 6970",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107857",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5004482/model-series-id-13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Spring Design": "Coil Spring",
+      "Article ID:": "5004482",
+      "Article Number:": "8750 6970",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "739441015600",
+      "OEM Numbers SUZUKI:": "4131184M00"
+    }
+  }
+]

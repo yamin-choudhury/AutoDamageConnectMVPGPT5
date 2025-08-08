@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3230489",
+    "name": "Flywheel",
+    "partNo": "415 0732 09",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "577",
+    "productGroupId": "100057",
+    "categoryId": "100050",
+    "variantId": "129337",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3230489/model-series-id-37137/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "6-Speed Dual-Clutch Transmission",
+      "Supplementary Article/Supplementary Info": "with pilot bearing",
+      "Clutch Type": "for wet clutch",
+      "Number of mounting bores": "8",
+      "Article ID:": "3230489",
+      "Article Number:": "415 0732 09",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487013538",
+      "OEM Numbers AUDI:": "06J105266D",
+      "OEM Numbers SEAT:": "06J105266D",
+      "OEM Numbers SKODA:": "06J105266D",
+      "OEM Numbers VW:": "06J105266D"
+    }
+  },
+  {
+    "id": "3230493",
+    "name": "Flywheel",
+    "partNo": "415 0736 09",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "577",
+    "productGroupId": "100057",
+    "categoryId": "100050",
+    "variantId": "129337",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3230493/model-series-id-37137/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "6-Speed Dual-Clutch Transmission",
+      "Supplementary Article/Supplementary Info": "with pilot bearing",
+      "Clutch Type": "for wet clutch",
+      "Number of mounting bores": "8",
+      "Article ID:": "3230493",
+      "Article Number:": "415 0736 09",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487013534",
+      "OEM Numbers AUDI:": "06J105266AE",
+      "OEM Numbers SEAT:": "06J105266AE",
+      "OEM Numbers SKODA:": "06J105266AH",
+      "OEM Numbers VW:": "06J105266AH"
+    }
+  }
+]

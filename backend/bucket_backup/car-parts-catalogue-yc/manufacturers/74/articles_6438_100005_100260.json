@@ -1,0 +1,53 @@
+[
+  {
+    "id": "4372139",
+    "name": "Air Filter",
+    "partNo": "70856",
+    "manufacturer": "ASAM",
+    "supplierId": "4576",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4372139/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "219",
+      "Width [mm]": "174",
+      "Height [mm]": "50",
+      "Filter type": "Filter Insert",
+      "Article ID:": "4372139",
+      "Article Number:": "70856",
+      "Manufacturer:": "ASAM",
+      "EAN Numbers:": "642202670856",
+      "OEM Numbers MERCEDES-BENZ:": "A 266 094 00 04"
+    }
+  },
+  {
+    "id": "5749276",
+    "name": "Air Filter",
+    "partNo": "AR06.105",
+    "manufacturer": "FRIGAIR",
+    "supplierId": "313",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5749276/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "215",
+      "Height 1 [mm]": "60",
+      "Shape": "Tetragonal",
+      "Width 1 [mm]": "170",
+      "Filter type": "Dry Filter",
+      "Article ID:": "5749276",
+      "Article Number:": "AR06.105",
+      "Manufacturer:": "FRIGAIR",
+      "EAN Numbers:": "405890311288",
+      "OEM Numbers MERCEDES-BENZ:": "A2660940004"
+    }
+  }
+]

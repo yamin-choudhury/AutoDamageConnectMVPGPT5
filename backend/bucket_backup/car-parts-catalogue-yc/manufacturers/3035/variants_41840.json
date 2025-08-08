@@ -1,0 +1,50 @@
+[
+  {
+    "id": "143604",
+    "type": "EV All-wheel Drive",
+    "modelId": "41840",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "EBRA,EBNA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-01-01",
+      "power": "230 KW / 313 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144726",
+    "type": "EV",
+    "modelId": "41840",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "EBNA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-01-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144727",
+    "type": "EV",
+    "modelId": "41840",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "EBNA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-01-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  }
+]

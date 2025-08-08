@@ -1,0 +1,34 @@
+[
+  {
+    "id": "128345",
+    "type": "0.7 (LA600F)",
+    "modelId": "38167",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "KF",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2016-12-01\n                            \n                            2019-07-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128346",
+    "type": "0.7 4WD (LA610F)",
+    "modelId": "38167",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "KF",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2016-12-01\n                            \n                            2019-07-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  }
+]

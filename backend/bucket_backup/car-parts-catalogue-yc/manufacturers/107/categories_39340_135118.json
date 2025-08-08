@@ -1,0 +1,128 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "135118",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104736",
+        "name": "Marten Repellent",
+        "categoryId": "100733",
+        "variantId": "135118",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/135118/104736/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "135118",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100491",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "135118",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/135118/100491/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "135118",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "135118",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/135118/100046/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100005",
+    "name": "Filters",
+    "variantId": "135118",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "706725",
+        "name": "Hydraulic Filter",
+        "categoryId": "100005",
+        "variantId": "135118",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/135118/706725/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "135118",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "135118",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/135118/100597/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "135118",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "135118",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/135118/103984/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100238",
+    "name": "Transmission",
+    "variantId": "135118",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100776",
+        "name": "Automatic Transmission",
+        "categoryId": "100238",
+        "variantId": "135118",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/135118/100776/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

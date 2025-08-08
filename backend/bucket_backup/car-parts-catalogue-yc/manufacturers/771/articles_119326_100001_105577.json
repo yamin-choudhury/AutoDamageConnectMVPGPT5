@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5641873",
+    "name": "Electric Motor, tailgate",
+    "partNo": "AE-MA-000",
+    "manufacturer": "NTY",
+    "supplierId": "6355",
+    "productsId": "7413",
+    "productGroupId": "105577",
+    "categoryId": "100001",
+    "variantId": "119326",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5641873/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Operating Mode": "Electric",
+      "Vehicle Equipment": "for vehicles with automatically opening tailgate",
+      "Article ID:": "5641873",
+      "Article Number:": "AE-MA-000",
+      "Manufacturer:": "NTY",
+      "EAN Numbers:": "590204820777",
+      "OEM Numbers MASERATI:": "670109048"
+    }
+  },
+  {
+    "id": "5641874",
+    "name": "Electric Motor, tailgate",
+    "partNo": "AE-MA-001",
+    "manufacturer": "NTY",
+    "supplierId": "6355",
+    "productsId": "7413",
+    "productGroupId": "105577",
+    "categoryId": "100001",
+    "variantId": "119326",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5641874/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Operating Mode": "Electric",
+      "Vehicle Equipment": "for vehicles with automatically opening tailgate",
+      "Article ID:": "5641874",
+      "Article Number:": "AE-MA-001",
+      "Manufacturer:": "NTY",
+      "EAN Numbers:": "590204820778",
+      "OEM Numbers MASERATI:": "670109047"
+    }
+  }
+]

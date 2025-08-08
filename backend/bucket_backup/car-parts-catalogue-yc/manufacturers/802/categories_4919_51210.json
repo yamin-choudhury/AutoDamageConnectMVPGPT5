@@ -1,0 +1,272 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104736",
+        "name": "Marten Repellent",
+        "categoryId": "100733",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/104736/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100581",
+        "name": "Joints",
+        "categoryId": "100013",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100581/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "102733",
+        "name": "Track Widening",
+        "categoryId": "100013",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/102733/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100016",
+    "name": "Belt Drive",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100435",
+        "name": "V-Ribbed Belt/Set",
+        "categoryId": "100016",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100435/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100030",
+        "name": "Disc Brake",
+        "categoryId": "100006",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100030/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "102225",
+        "name": "High Performance Brakes",
+        "categoryId": "100006",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/102225/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104312",
+        "name": "Belt Drive",
+        "categoryId": "100002",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/104312/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100759",
+        "name": "Crankshaft Drive",
+        "categoryId": "100002",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100759/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "102778",
+        "name": "Cylinder Head/Attachment Parts",
+        "categoryId": "100002",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/102778/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104377",
+        "name": "Cylinders/Pistons",
+        "categoryId": "100002",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/104377/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100397",
+        "name": "Engine Timing",
+        "categoryId": "100002",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100397/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100684",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100684/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100470",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100470/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100046/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100005",
+    "name": "Filters",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100259",
+        "name": "Oil Filter",
+        "categoryId": "100005",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100259/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100598",
+        "name": "Additional Repairs",
+        "categoryId": "100019",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100598/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/100597/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "51210",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104083",
+        "name": "Braking System",
+        "categoryId": "103671",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/104083/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104284",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/104284/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/103984/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103779",
+        "name": "Filters",
+        "categoryId": "103671",
+        "variantId": "51210",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/51210/103779/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

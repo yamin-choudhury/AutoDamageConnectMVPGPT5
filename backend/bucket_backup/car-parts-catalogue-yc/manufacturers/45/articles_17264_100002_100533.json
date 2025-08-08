@@ -1,0 +1,88 @@
+[
+  {
+    "id": "3770503",
+    "name": "Gasket Set, crank case",
+    "partNo": "54111800",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "150",
+    "productGroupId": "100533",
+    "categoryId": "100002",
+    "variantId": "17264",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3770503/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [g]": "71,381",
+      "Article ID:": "3770503",
+      "Article Number:": "54111800",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776966373",
+      "OEM Numbers HONDA:": "06114-RBB-E01",
+      "OEM Numbers ACURA:": "06114-PRB-A03"
+    }
+  },
+  {
+    "id": "6762211",
+    "name": "Gasket Set, crank case",
+    "partNo": "EG5810",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "150",
+    "productGroupId": "100533",
+    "categoryId": "100002",
+    "variantId": "17264",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6762211/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6762211",
+      "Article Number:": "EG5810",
+      "Manufacturer:": "PAYEN",
+      "EAN Numbers:": "404419748970",
+      "OEM Numbers HONDA:": "06114RBA020"
+    }
+  },
+  {
+    "id": "9746147",
+    "name": "Gasket Set, crank case",
+    "partNo": "WG1151072",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "150",
+    "productGroupId": "100533",
+    "categoryId": "100002",
+    "variantId": "17264",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9746147/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [g]": "71,381",
+      "Article ID:": "9746147",
+      "Article Number:": "WG1151072",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers HONDA:": "06114RBBE01",
+      "OEM Numbers ACURA:": "06114PRBA03"
+    }
+  },
+  {
+    "id": "9768580",
+    "name": "Gasket Set, crank case",
+    "partNo": "WG1180015",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "150",
+    "productGroupId": "100533",
+    "categoryId": "100002",
+    "variantId": "17264",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9768580/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9768580",
+      "Article Number:": "WG1180015",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers HONDA:": "06114RBA020"
+    }
+  }
+]

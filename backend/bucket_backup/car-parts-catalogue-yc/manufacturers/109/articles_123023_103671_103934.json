@@ -1,0 +1,48 @@
+[
+  {
+    "id": "7611882",
+    "name": "Ignition Coil Unit",
+    "partNo": "J5378000",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "2284",
+    "productGroupId": "103934",
+    "categoryId": "103671",
+    "variantId": "123023",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7611882/model-series-id-37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "3",
+      "Article ID:": "7611882",
+      "Article Number:": "J5378000",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941637463",
+      "OEM Numbers SUBARU:": "33400-83E10",
+      "OEM Numbers SUZUKI:": "33400M83E10",
+      "OEM Numbers FIAT:": "71742420"
+    }
+  },
+  {
+    "id": "7522276",
+    "name": "Ignition Coil",
+    "partNo": "IGC806A",
+    "manufacturer": "YEC",
+    "supplierId": "6354",
+    "productsId": "689",
+    "productGroupId": "103934",
+    "categoryId": "103671",
+    "variantId": "123023",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7522276/model-series-id-37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [g]": "270",
+      "Article ID:": "7522276",
+      "Article Number:": "IGC806A",
+      "Manufacturer:": "YEC",
+      "OEM Numbers SUZUKI:": "33400-62J00"
+    }
+  }
+]

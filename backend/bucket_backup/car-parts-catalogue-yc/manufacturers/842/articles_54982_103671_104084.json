@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1948574",
+    "name": "Brake Caliper",
+    "partNo": "2114007",
+    "manufacturer": "EAI",
+    "supplierId": "391",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "54982",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1948574/model-series-id-10095/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Brake Caliper Type": "Brake Caliper (4 pistons)",
+      "Brake System": "ADVICS",
+      "Brake caliper piston diameter [mm]": "43",
+      "Article ID:": "1948574",
+      "Article Number:": "2114007",
+      "Manufacturer:": "EAI",
+      "EAN Numbers:": "359640400350",
+      "OEM Numbers LEXUS:": "4775022460"
+    }
+  },
+  {
+    "id": "1948576",
+    "name": "Brake Caliper",
+    "partNo": "2114008",
+    "manufacturer": "EAI",
+    "supplierId": "391",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "54982",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1948576/model-series-id-10095/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Brake Caliper Type": "Brake Caliper (4 pistons)",
+      "Brake System": "ADVICS",
+      "Brake caliper piston diameter [mm]": "43",
+      "Article ID:": "1948576",
+      "Article Number:": "2114008",
+      "Manufacturer:": "EAI",
+      "EAN Numbers:": "359640400360",
+      "OEM Numbers LEXUS:": "4773022460"
+    }
+  }
+]

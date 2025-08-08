@@ -1,0 +1,162 @@
+[
+  {
+    "id": "55641",
+    "type": "1.4",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FA",
+      "cylinder": "4",
+      "capacity": "1,396 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-11-01\n                            \n                            2017-12-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55642",
+    "type": "1.6",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FC",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-11-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55643",
+    "type": "1.4 CRDi",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FC",
+      "cylinder": "4",
+      "capacity": "1,396 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2010-11-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55644",
+    "type": "1.6",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FC",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-11-01",
+      "power": "91 KW / 123 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55645",
+    "type": "1.6 CRDi",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FB",
+      "cylinder": "4",
+      "capacity": "1,582 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-11-01\n                            \n                            2017-12-01",
+      "power": "94 KW / 128 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56664",
+    "type": "1.6 GDI",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FD",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-11-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106316",
+    "type": "1.4",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4LC",
+      "cylinder": "4",
+      "capacity": "1,368 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-11-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109977",
+    "type": "1.6 CRDI",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FB",
+      "cylinder": "4",
+      "capacity": "1,582 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2011-04-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129647",
+    "type": "1.4",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4LC",
+      "cylinder": "4",
+      "capacity": "1,368 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-04-01",
+      "power": "73 KW / 99 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138250",
+    "type": "1.4",
+    "modelId": "10468",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FA",
+      "cylinder": "4",
+      "capacity": "1,396 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-11-01\n                            \n                            2013-12-01",
+      "power": "79 KW / 107 PS"
+    },
+    "categories": []
+  }
+]

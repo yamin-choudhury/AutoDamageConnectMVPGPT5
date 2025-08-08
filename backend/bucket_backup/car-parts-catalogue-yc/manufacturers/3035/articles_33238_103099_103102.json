@@ -1,0 +1,121 @@
+[
+  {
+    "id": "10449204",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.014.02",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "33238",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449204/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "27",
+      "Thread Size": "M12",
+      "Spanner Size": "17",
+      "Quality/ Grade": "8.8",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "48",
+      "Article ID:": "10449204",
+      "Article Number:": "ZM 30.014.02",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268411887",
+      "OEM Numbers VW:": "WHT 002 437",
+      "OEM Numbers AUDI:": "WHT 002 437",
+      "OEM Numbers SEAT:": "WHT 002 437"
+    }
+  },
+  {
+    "id": "10449205",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.014.03",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "33238",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449205/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "27",
+      "Thread Size": "M12",
+      "Spanner Size": "17",
+      "Quality/ Grade": "8.8",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "48",
+      "Article ID:": "10449205",
+      "Article Number:": "ZM 30.014.03",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268411888",
+      "OEM Numbers VW:": "WHT/001812"
+    }
+  },
+  {
+    "id": "10450365",
+    "name": "Wheel Stud",
+    "partNo": "ZM 42.012.50",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "33238",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10450365/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10450365",
+      "Article Number:": "ZM 42.012.50",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268402739",
+      "OEM Numbers VW:": "321/601.139C"
+    }
+  },
+  {
+    "id": "10450367",
+    "name": "Wheel Stud",
+    "partNo": "ZM 42.012.52",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "33238",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10450367/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10450367",
+      "Article Number:": "ZM 42.012.52",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268402741",
+      "OEM Numbers VW:": "ZBA601139"
+    }
+  },
+  {
+    "id": "10450389",
+    "name": "Wheel Stud",
+    "partNo": "ZM 43.012.58",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "33238",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10450389/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10450389",
+      "Article Number:": "ZM 43.012.58",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268405321",
+      "OEM Numbers VW:": "ZBA601139"
+    }
+  }
+]

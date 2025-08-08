@@ -1,0 +1,100 @@
+[
+  {
+    "id": "4818624",
+    "name": "EGR Valve",
+    "partNo": "83.1312",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "122163",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4818624/model-series-id-38847/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "9833095880",
+      "Article ID:": "4818624",
+      "Article Number:": "83.1312",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320822171",
+      "OEM Numbers CITROËN:": "9833095880",
+      "OEM Numbers PEUGEOT:": "9833095880",
+      "OEM Numbers CITROËN/PEUGEOT:": "9833095880"
+    }
+  },
+  {
+    "id": "4818626",
+    "name": "EGR Valve",
+    "partNo": "83.1312R",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "122163",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4818626/model-series-id-38847/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "83.1312R",
+      "Version": "REBUILT",
+      "Article ID:": "4818626",
+      "Article Number:": "83.1312R",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320827676",
+      "OEM Numbers CITROËN:": "9833095880",
+      "OEM Numbers PEUGEOT:": "9833095880",
+      "OEM Numbers CITROËN/PEUGEOT:": "9833095880"
+    }
+  },
+  {
+    "id": "4818623",
+    "name": "EGR Valve",
+    "partNo": "83.1312",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "122163",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4818623/model-series-id-38847/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "9833095880",
+      "Article ID:": "4818623",
+      "Article Number:": "83.1312",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320822171",
+      "OEM Numbers CITROËN:": "9833095880",
+      "OEM Numbers PEUGEOT:": "9833095880",
+      "OEM Numbers CITROËN/PEUGEOT:": "9833095880"
+    }
+  },
+  {
+    "id": "4818625",
+    "name": "EGR Valve",
+    "partNo": "83.1312R",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "122163",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4818625/model-series-id-38847/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "83.1312R",
+      "Version": "REBUILT",
+      "Article ID:": "4818625",
+      "Article Number:": "83.1312R",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320827676",
+      "OEM Numbers CITROËN:": "9833095880",
+      "OEM Numbers PEUGEOT:": "9833095880",
+      "OEM Numbers CITROËN/PEUGEOT:": "9833095880"
+    }
+  }
+]

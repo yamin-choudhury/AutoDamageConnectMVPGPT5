@@ -1,0 +1,81 @@
+[
+  {
+    "id": "3600959",
+    "name": "Lambda Sensor",
+    "partNo": "50975",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "119135",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3600959/model-series-id-7982/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "620",
+      "Number of pins": "4",
+      "Lambda Sensor": "Lambda Sensor",
+      "Article ID:": "3600959",
+      "Article Number:": "50975",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509350975",
+      "OEM Numbers VW:": "0 258 010 058",
+      "OEM Numbers AUDI:": "03C 906 262 AG",
+      "OEM Numbers PEUGEOT:": "81655"
+    }
+  },
+  {
+    "id": "3696058",
+    "name": "Lambda Sensor",
+    "partNo": "52326",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "119135",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3696058/model-series-id-7982/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "750",
+      "Number of pins": "4",
+      "Lambda Sensor": "Lambda Sensor",
+      "Article ID:": "3696058",
+      "Article Number:": "52326",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509352326",
+      "OEM Numbers PORSCHE:": "95870",
+      "OEM Numbers VW:": "95870"
+    }
+  },
+  {
+    "id": "4321223",
+    "name": "Lambda Sensor",
+    "partNo": "7.05271.12.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "119135",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4321223/model-series-id-7982/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Cable Length [mm]": "800",
+      "Number of connectors": "4",
+      "Lambda Sensor": "Heated",
+      "Article ID:": "4321223",
+      "Article Number:": "7.05271.12.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897770989",
+      "OEM Numbers VW:": "33D 906 262 B",
+      "OEM Numbers AUDI:": "1K0 998 262 T",
+      "OEM Numbers SEAT:": "1K0 998 262 T",
+      "OEM Numbers SKODA:": "1K0 998 262 T"
+    }
+  }
+]

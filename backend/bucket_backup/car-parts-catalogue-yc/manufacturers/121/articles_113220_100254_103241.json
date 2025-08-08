@@ -1,0 +1,73 @@
+[
+  {
+    "id": "4322415",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "7.09730.05.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "113220",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4322415/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Stainless Steel",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Article ID:": "4322415",
+      "Article Number:": "7.09730.05.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897794906",
+      "OEM Numbers VW:": "03L 131 511 Q"
+    }
+  },
+  {
+    "id": "4323026",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "7.11237.06.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "113220",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4323026/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Article ID:": "4323026",
+      "Article Number:": "7.11237.06.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897793685",
+      "OEM Numbers VW:": "03L 131 512 DM"
+    }
+  },
+  {
+    "id": "4327864",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "7.24809.99.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "113220",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4327864/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Article ID:": "4327864",
+      "Article Number:": "7.24809.99.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897793653",
+      "OEM Numbers VW:": "03L 131 512 DL"
+    }
+  }
+]

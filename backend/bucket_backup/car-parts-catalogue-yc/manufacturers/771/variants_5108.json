@@ -1,0 +1,98 @@
+[
+  {
+    "id": "3826",
+    "type": "4.7 S",
+    "modelId": "5108",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 139 R",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2008-06-01",
+      "power": "317 KW / 431 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "4953",
+    "type": "4.7 GT S",
+    "modelId": "5108",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 139 S,M 139 L",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2008-06-01",
+      "power": "323 KW / 439 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17882",
+    "type": "4.2",
+    "modelId": "5108",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M139 A",
+      "cylinder": "8",
+      "capacity": "4,244 CCM / 4.2 L",
+      "fuelType": "Petrol",
+      "year": "2004-03-01",
+      "power": "295 KW / 400 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "53160",
+    "type": "4.7 GT S",
+    "modelId": "5108",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 145 T",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2011-11-01",
+      "power": "331 KW / 450 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108058",
+    "type": "4.2",
+    "modelId": "5108",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M139 A",
+      "cylinder": "8",
+      "capacity": "4,244 CCM / 4.2 L",
+      "fuelType": "Petrol",
+      "year": "2004-03-01",
+      "power": "294 KW / 400 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124175",
+    "type": "4.2",
+    "modelId": "5108",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 139 P",
+      "cylinder": "8",
+      "capacity": "4,244 CCM / 4.2 L",
+      "fuelType": "Petrol",
+      "year": "2004-09-01\n                            \n                            2012-12-01",
+      "power": "298 KW / 405 PS"
+    },
+    "categories": []
+  }
+]

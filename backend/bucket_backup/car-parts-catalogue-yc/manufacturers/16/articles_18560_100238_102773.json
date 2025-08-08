@@ -1,0 +1,49 @@
+[
+  {
+    "id": "2362446",
+    "name": "Mounting, manual transmission",
+    "partNo": "272931",
+    "manufacturer": "AKRON-MALÒ",
+    "supplierId": "317",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "18560",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2362446/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Thickness [mm]": "79",
+      "Weight [kg]": "0,090",
+      "External Thread [mm]": "M8 x 1,25",
+      "Outer diameter [mm]": "50",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "2362446",
+      "Article Number:": "272931",
+      "Manufacturer:": "AKRON-MALÒ",
+      "OEM Numbers BMW:": "22316799845"
+    }
+  },
+  {
+    "id": "3961040",
+    "name": "Mounting, manual transmission",
+    "partNo": "597102",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "18560",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3961040/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3961040",
+      "Article Number:": "597102",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975058141",
+      "OEM Numbers BMW:": "23 71 1 137 817"
+    }
+  }
+]

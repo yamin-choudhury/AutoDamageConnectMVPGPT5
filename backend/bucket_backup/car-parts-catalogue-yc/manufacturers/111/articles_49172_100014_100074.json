@@ -1,0 +1,53 @@
+[
+  {
+    "id": "8117549",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "MF-2805",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "49172",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8117549/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Height [mm]": "111",
+      "Inner diameter 1 [mm]": "28",
+      "Inner diameter 2 [mm]": "81",
+      "Article ID:": "8117549",
+      "Article Number:": "MF-2805",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011680182",
+      "OEM Numbers TOYOTA:": "04438-60040"
+    }
+  },
+  {
+    "id": "7199740",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "G62009PC",
+    "manufacturer": "PASCAL",
+    "supplierId": "4690",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "49172",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7199740/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Height [mm]": "113",
+      "Outer diameter [mm]": "79",
+      "Inner diameter 1 [mm]": "27,5",
+      "Inner diameter 2 [mm]": "79",
+      "Article ID:": "7199740",
+      "Article Number:": "G62009PC",
+      "Manufacturer:": "PASCAL",
+      "EAN Numbers:": "590042739004",
+      "OEM Numbers TOYOTA:": "04437-60040"
+    }
+  }
+]

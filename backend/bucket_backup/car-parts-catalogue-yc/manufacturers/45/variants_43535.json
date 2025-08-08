@@ -1,0 +1,18 @@
+[
+  {
+    "id": "149137",
+    "type": "1.5 i-VTEC",
+    "modelId": "43535",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L15ZF",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2021-12-01",
+      "power": "89 KW / 121 PS"
+    },
+    "categories": []
+  }
+]

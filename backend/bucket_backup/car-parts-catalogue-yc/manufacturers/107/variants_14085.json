@@ -1,0 +1,82 @@
+[
+  {
+    "id": "112867",
+    "type": "2.0 (YA4)",
+    "modelId": "14085",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ204",
+      "cylinder": "4",
+      "capacity": "1,994 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-05-01",
+      "power": "109 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112868",
+    "type": "2.0 AWD (YA5)",
+    "modelId": "14085",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ204",
+      "cylinder": "4",
+      "capacity": "1,994 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-05-01",
+      "power": "109 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112869",
+    "type": "2.5 AWD (YA9)",
+    "modelId": "14085",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ253",
+      "cylinder": "4",
+      "capacity": "2,457 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2009-12-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112870",
+    "type": "2.5 AWD (YAM)",
+    "modelId": "14085",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB25",
+      "cylinder": "4",
+      "capacity": "2,498 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01",
+      "power": "127 KW / 173 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123769",
+    "type": "2.0 GT AWD (YA5)",
+    "modelId": "14085",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ20 (Turbo)",
+      "cylinder": "4",
+      "capacity": "1,994 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-05-01",
+      "power": "165 KW / 224 PS"
+    },
+    "categories": []
+  }
+]

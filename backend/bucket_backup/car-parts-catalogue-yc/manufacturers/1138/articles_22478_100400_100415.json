@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3471206",
+    "name": "Shaft Seal, differential",
+    "partNo": "48272",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "22478",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3471206/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Thickness [mm]": "15",
+      "Height [mm]": "8",
+      "Weight [kg]": "0,020",
+      "Material": "ACM (Polyacrylate)",
+      "Inner diameter [mm]": "34,9",
+      "Outer diameter [mm]": "54,85",
+      "Article ID:": "3471206",
+      "Article Number:": "48272",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781648272",
+      "OEM Numbers SMART:": "A013 997 61 46"
+    }
+  },
+  {
+    "id": "1109447",
+    "name": "Shaft Seal, differential",
+    "partNo": "12 94 8272",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "22478",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1109447/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Thickness [mm]": "15",
+      "Height [mm]": "8",
+      "Weight [kg]": "0,020",
+      "Material": "ACM (Polyacrylate)",
+      "Inner diameter [mm]": "34,9",
+      "Outer diameter [mm]": "54,85",
+      "Article ID:": "1109447",
+      "Article Number:": "12 94 8272",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468848272",
+      "OEM Numbers SMART:": "A013 997 61 46"
+    }
+  }
+]

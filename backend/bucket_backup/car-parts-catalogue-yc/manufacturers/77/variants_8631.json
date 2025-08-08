@@ -1,0 +1,434 @@
+[
+  {
+    "id": "376",
+    "type": "1.8 DI-D (GA6W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4N13",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Diesel",
+      "year": "2010-06-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "378",
+    "type": "1.8 (GA3W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B10",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2010-02-01",
+      "power": "102 KW / 139 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "420",
+    "type": "1.8 4WD (GA3W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B10,4J10",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2010-02-01",
+      "power": "102 KW / 139 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "836",
+    "type": "1.8 DI-D 4WD (GA6W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4N13",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Diesel",
+      "year": "2010-06-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "5514",
+    "type": "2.0 MIVEC (GA2W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11,4J11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "5517",
+    "type": "2.0 MIVEC 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11,4J11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "12007",
+    "type": "1.6 MIVEC (GA1W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4A92",
+      "cylinder": "4",
+      "capacity": "1,590 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-05-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33436",
+    "type": "1.6 MIVEC (GA1W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4A92",
+      "cylinder": "4",
+      "capacity": "1,590 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01",
+      "power": "86 KW / 117 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33437",
+    "type": "1.8 DI-D (GA6W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4N13",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Diesel",
+      "year": "2010-06-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33438",
+    "type": "1.8 DI-D 4WD (GA6W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4N13",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Diesel",
+      "year": "2010-06-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "52539",
+    "type": "2.0",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-09-01\n                            \n                            2012-12-01",
+      "power": "108 KW / 147 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54898",
+    "type": "2.0 i",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54899",
+    "type": "2.0 i 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59588",
+    "type": "2.2 Di-D 4WD (GA8W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4N14",
+      "cylinder": "4",
+      "capacity": "2,268 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2013-04-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112961",
+    "type": "2.4",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B12",
+      "cylinder": "4",
+      "capacity": "2,360 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-09-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112962",
+    "type": "2.4 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B12",
+      "cylinder": "4",
+      "capacity": "2,360 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-09-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115706",
+    "type": "1.6 DI-D",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "9HD",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2015-07-01",
+      "power": "84 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115709",
+    "type": "1.6 DI-D 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "9HD",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2015-07-01",
+      "power": "84 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122036",
+    "type": "2.0 i 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "114 KW / 155 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126048",
+    "type": "2.0 i 4WD (GA2W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "112 KW / 152 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126680",
+    "type": "2.0 i 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-01-01",
+      "power": "109 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133090",
+    "type": "1.6 LPG",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4A92",
+      "cylinder": "4",
+      "capacity": "1,590 CCM / 1.6 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2010-06-01",
+      "power": "86 KW / 117 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134468",
+    "type": "2.0 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01",
+      "power": "108 KW / 147 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134563",
+    "type": "2.0 Flex",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2018-01-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134564",
+    "type": "2.0 Flex 4WD",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B11",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2018-01-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139072",
+    "type": "2.2 Di-D 4WD (GA8W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4N14",
+      "cylinder": "4",
+      "capacity": "2,268 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2014-06-01",
+      "power": "112 KW / 152 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142202",
+    "type": "2.4 i (GA5W)",
+    "modelId": "8631",
+    "manufacturerId": "77",
+    "url": "",
+    "specs": {
+      "engineCode": "4B12",
+      "cylinder": "4",
+      "capacity": "2,360 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2019-09-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  }
+]

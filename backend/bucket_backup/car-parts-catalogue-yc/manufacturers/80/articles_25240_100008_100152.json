@@ -1,0 +1,37 @@
+[
+  {
+    "id": "6311251",
+    "name": "Glow Plug",
+    "partNo": "CH613",
+    "manufacturer": "CHAMPION",
+    "supplierId": "43",
+    "productsId": "243",
+    "productGroupId": "100152",
+    "categoryId": "100008",
+    "variantId": "25240",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6311251/model-series-id-6913/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "11",
+      "Connector type": "M4 / 2 Nm",
+      "Cone Pitch": "123",
+      "Diameter [mm]": "5",
+      "Thread Size": "M10x1,25",
+      "Overall Length [mm]": "82,5",
+      "Spanner Size": "12 mm",
+      "Current Strength [A]": "16",
+      "Glow Plug Design": "Pencil-type Glow Plug",
+      "Packing Type": "Box",
+      "Fitting Depth [mm]": "19",
+      "Failure Moment [Nm]": "35",
+      "Tightening torque from [Nm]": "15",
+      "Tightening torque to [Nm]": "20",
+      "Article ID:": "6311251",
+      "Article Number:": "CH613",
+      "Manufacturer:": "CHAMPION",
+      "EAN Numbers:": "404419726439",
+      "OEM Numbers NISSAN:": "11065 G5501"
+    }
+  }
+]

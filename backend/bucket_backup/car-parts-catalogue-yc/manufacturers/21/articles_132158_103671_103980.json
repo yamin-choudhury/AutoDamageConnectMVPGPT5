@@ -1,0 +1,67 @@
+[
+  {
+    "id": "2674073",
+    "name": "Master Cylinder, clutch",
+    "partNo": "315 27 670 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "234",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "132158",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2674073/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2674073",
+      "Article Number:": "315 27 670 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers CITROËN/PEUGEOT:": "98 094 254 80"
+    }
+  },
+  {
+    "id": "2684937",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "316 27 561 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "132158",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2684937/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2684937",
+      "Article Number:": "316 27 561 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "98 129 761 80",
+      "OEM Numbers CITROËN/PEUGEOT:": "98 129 761 80"
+    }
+  },
+  {
+    "id": "2684954",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "316 27 579 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "132158",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2684954/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2684954",
+      "Article Number:": "316 27 579 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "98 094 685 80",
+      "OEM Numbers CITROËN/PEUGEOT:": "98 094 685 80"
+    }
+  }
+]

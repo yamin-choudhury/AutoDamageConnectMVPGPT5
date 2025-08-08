@@ -1,0 +1,322 @@
+[
+  {
+    "id": "58874",
+    "type": "1.2 VTi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "HMZ (EB2F),HMZ (EB2)",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01\n                            \n                            2018-12-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58875",
+    "type": "1.6 VTi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "5FS (EP6C)",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58876",
+    "type": "1.6 HDi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "9HP (DV6DTED)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2013-03-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58877",
+    "type": "1.6 HDi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "9HD (DV6C)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2013-03-01",
+      "power": "84 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59316",
+    "type": "1.4 HDi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "8HR (DV4C)",
+      "cylinder": "4",
+      "capacity": "1,398 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2013-06-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109331",
+    "type": "1.6 BlueHDi 120",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "BHZ (DV6FC)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2014-07-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111916",
+    "type": "1.2 THP 110 / PureTech 110",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "HNZ (EB2DT),HNV (EB2DTM),HNP (EB2ADT)",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2015-01-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111917",
+    "type": "1.2 THP 130 / PureTech 130",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "HNY (EB2DTS),HNS (EB2ADTS)",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2015-01-01",
+      "power": "96 KW / 130 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111920",
+    "type": "1.6 BlueHDi 100",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "BHY (DV6FD)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2015-01-01",
+      "power": "73 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113672",
+    "type": "1.6 BlueHDi 75",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "BHW (DV6FE)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2015-01-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113682",
+    "type": "1.6 Griffe Flex",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "5GY (EP6FDTM)",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2015-04-01",
+      "power": "127 KW / 173 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113683",
+    "type": "1.6 Flex",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "NFP (EC5)",
+      "cylinder": "4",
+      "capacity": "1,587 CCM / 1.6 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2015-04-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117333",
+    "type": "1.6 BlueHDi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "BHX (DV6FC)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2014-07-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121774",
+    "type": "1.6 VTi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "EC5F",
+      "cylinder": "4",
+      "capacity": "1,587 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121775",
+    "type": "1.6 THP 165",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "5GZ (EP6FDT),5GY (EP6FDTM)",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "121 KW / 165 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130999",
+    "type": "1.2 PureTech 82",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "HMR (EB2FA)",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-01-01\n                            \n                            2019-12-01",
+      "power": "61 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131563",
+    "type": "1.5 BlueHDI 120",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "YHX (DV5RC)",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2018-05-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131567",
+    "type": "1.5 BlueHDI 100",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "YHY (DV5RD)",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2018-05-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132523",
+    "type": "1.6 VTi",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "5FS (EP6C)",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2013-05-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138061",
+    "type": "1.6 Flex",
+    "modelId": "11219",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "NFP (EC5)",
+      "cylinder": "4",
+      "capacity": "1,587 CCM / 1.6 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2019-01-01",
+      "power": "87 KW / 118 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "8110366",
+    "name": "Starter",
+    "partNo": "MEE015017",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "2",
+    "productGroupId": "100359",
+    "categoryId": "100010",
+    "variantId": "129600",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8110366/model-series-id-38348/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of Teeth": "10",
+      "Rated Power [kW]": "1,1",
+      "Weight [kg]": "3,14",
+      "Number of Holes": "2",
+      "Position / Degree": "47",
+      "Clamp": "B+(M8)",
+      "Rotation Direction": "Anticlockwise rotation",
+      "Article ID:": "8110366",
+      "Article Number:": "MEE015017",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880975248181",
+      "OEM Numbers VW:": "2M911023MX",
+      "OEM Numbers VW (SVW):": "2M911023M",
+      "OEM Numbers AUDI:": "2M911023MX",
+      "OEM Numbers SEAT:": "2M911023MX",
+      "OEM Numbers SKODA:": "2M911023MX",
+      "OEM Numbers SKODA (SVW):": "2M911023M",
+      "OEM Numbers VW (FAW):": "L02M911023M"
+    }
+  },
+  {
+    "id": "3141495",
+    "name": "Starter",
+    "partNo": "40414",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "2",
+    "productGroupId": "100359",
+    "categoryId": "100010",
+    "variantId": "129600",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3141495/model-series-id-38348/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [kW]": "1,1",
+      "Article ID:": "3141495",
+      "Article Number:": "40414",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509340414",
+      "OEM Numbers VW:": "02M 911 024 RX"
+    }
+  }
+]

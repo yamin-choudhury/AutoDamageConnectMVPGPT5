@@ -1,0 +1,82 @@
+[
+  {
+    "id": "112958",
+    "type": "1.4",
+    "modelId": "14109",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K14B",
+      "cylinder": "4",
+      "capacity": "1,372 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122075",
+    "type": "1.4",
+    "modelId": "14109",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "KB-14M",
+      "cylinder": "4",
+      "capacity": "1,372 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123015",
+    "type": "1.4",
+    "modelId": "14109",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K14B",
+      "cylinder": "4",
+      "capacity": "1,372 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "69 KW / 94 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123016",
+    "type": "1.2",
+    "modelId": "14109",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K12B",
+      "cylinder": "4",
+      "capacity": "1,242 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "67 KW / 91 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145430",
+    "type": "1.5 VVT",
+    "modelId": "14109",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K15B",
+      "cylinder": "4",
+      "capacity": "1,462 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2020-04-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  }
+]

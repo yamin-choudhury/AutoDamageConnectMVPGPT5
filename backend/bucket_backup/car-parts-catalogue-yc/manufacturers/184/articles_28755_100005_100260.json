@@ -1,0 +1,79 @@
+[
+  {
+    "id": "5481120",
+    "name": "Air Filter",
+    "partNo": "A13427",
+    "manufacturer": "Azumi",
+    "supplierId": "6932",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "28755",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5481120/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "294",
+      "Width [mm]": "210",
+      "Height [mm]": "36",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5481120",
+      "Article Number:": "A13427",
+      "Manufacturer:": "Azumi",
+      "OEM Numbers HYUNDAI:": "281132J000",
+      "OEM Numbers KIA:": "281132J000"
+    }
+  },
+  {
+    "id": "5532032",
+    "name": "Air Filter",
+    "partNo": "A9427",
+    "manufacturer": "JS ASAKASHI",
+    "supplierId": "4378",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "28755",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5532032/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "294",
+      "Width [mm]": "210",
+      "Height [mm]": "36",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5532032",
+      "Article Number:": "A9427",
+      "Manufacturer:": "JS ASAKASHI",
+      "EAN Numbers:": "458240905877",
+      "OEM Numbers HYUNDAI:": "S281132J000",
+      "OEM Numbers KIA:": "S281132J000"
+    }
+  },
+  {
+    "id": "5421483",
+    "name": "Air Filter",
+    "partNo": "A-29980",
+    "manufacturer": "SAKURA Automotive",
+    "supplierId": "4630",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "28755",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5421483/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "295",
+      "Width [mm]": "210,5",
+      "Height [mm]": "37",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5421483",
+      "Article Number:": "A-29980",
+      "Manufacturer:": "SAKURA Automotive",
+      "EAN Numbers:": "899787903154",
+      "OEM Numbers HYUNDAI:": "S281132J000",
+      "OEM Numbers KIA:": "S281132J000"
+    }
+  }
+]

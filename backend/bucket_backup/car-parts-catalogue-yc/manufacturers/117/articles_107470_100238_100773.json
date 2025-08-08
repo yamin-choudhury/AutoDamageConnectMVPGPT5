@@ -1,0 +1,46 @@
+[
+  {
+    "id": "3501577",
+    "name": "Mounting, automatic transmission",
+    "partNo": "49430127",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "248",
+    "productGroupId": "100773",
+    "categoryId": "100238",
+    "variantId": "107470",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3501577/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3501577",
+      "Article Number:": "49430127",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896073128",
+      "OEM Numbers OPEL:": "6 82 086",
+      "OEM Numbers VAUXHALL:": "6 82 086"
+    }
+  },
+  {
+    "id": "3501581",
+    "name": "Mounting, automatic transmission",
+    "partNo": "49430155",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "248",
+    "productGroupId": "100773",
+    "categoryId": "100238",
+    "variantId": "107470",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3501581/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3501581",
+      "Article Number:": "49430155",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896073136",
+      "OEM Numbers OPEL:": "6 82 186",
+      "OEM Numbers VAUXHALL:": "6 82 186"
+    }
+  }
+]

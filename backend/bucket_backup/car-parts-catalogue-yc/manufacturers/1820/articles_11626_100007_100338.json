@@ -1,0 +1,94 @@
+[
+  {
+    "id": "886896",
+    "name": "Fan, radiator",
+    "partNo": "104230",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "11626",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/886896/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "2,336",
+      "Article ID:": "886896",
+      "Article Number:": "104230",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422404230",
+      "OEM Numbers LAND ROVER:": "PGG500340"
+    }
+  },
+  {
+    "id": "6297899",
+    "name": "Fan, radiator",
+    "partNo": "CFF 494 000P",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "11626",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6297899/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "475",
+      "Operating Mode": "Thermic",
+      "Number of fan blades": "11",
+      "Article ID:": "6297899",
+      "Article Number:": "CFF 494 000P",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "405763505978",
+      "OEM Numbers LAND ROVER:": "PGG500340"
+    }
+  },
+  {
+    "id": "6297899",
+    "name": "Fan, radiator",
+    "partNo": "CFF 494 000P",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "11626",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6297899/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "475",
+      "Operating Mode": "Thermic",
+      "Number of fan blades": "11",
+      "Article ID:": "6297899",
+      "Article Number:": "CFF 494 000P",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "405763505978",
+      "OEM Numbers LAND ROVER:": "PGG500340"
+    }
+  },
+  {
+    "id": "2024425",
+    "name": "Fan, radiator",
+    "partNo": "22 10 4230",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "11626",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2024425/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "2,336",
+      "Article ID:": "2024425",
+      "Article Number:": "22 10 4230",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422804230",
+      "OEM Numbers LAND ROVER:": "PGG500340"
+    }
+  }
+]

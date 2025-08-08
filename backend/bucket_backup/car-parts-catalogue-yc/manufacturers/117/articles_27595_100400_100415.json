@@ -1,0 +1,56 @@
+[
+  {
+    "id": "3494404",
+    "name": "Shaft Seal, differential",
+    "partNo": "49369513",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "27595",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3494404/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height 1 [mm]": "10",
+      "Material": "ACM (Polyacrylate)",
+      "Outer diameter 1 [mm]": "58",
+      "Inner diameter 1 [mm]": "40",
+      "Article ID:": "3494404",
+      "Article Number:": "49369513",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896033299",
+      "OEM Numbers SUZUKI:": "2743168L00",
+      "OEM Numbers OPEL:": "95508255",
+      "OEM Numbers VAUXHALL:": "95508225"
+    }
+  },
+  {
+    "id": "3494405",
+    "name": "Shaft Seal, differential",
+    "partNo": "49369664",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "27595",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3494405/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height 1 [mm]": "10",
+      "Material": "ACM (Polyacrylate)",
+      "Outer diameter 1 [mm]": "62",
+      "Inner diameter 1 [mm]": "40",
+      "Article ID:": "3494405",
+      "Article Number:": "49369664",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896033306",
+      "OEM Numbers SUZUKI:": "2743268L00",
+      "OEM Numbers OPEL:": "95508226",
+      "OEM Numbers VAUXHALL:": "95508226"
+    }
+  }
+]

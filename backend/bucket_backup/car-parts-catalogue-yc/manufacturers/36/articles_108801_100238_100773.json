@@ -1,0 +1,97 @@
+[
+  {
+    "id": "3494896",
+    "name": "Mounting, automatic transmission",
+    "partNo": "49382917",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "248",
+    "productGroupId": "100773",
+    "categoryId": "100238",
+    "variantId": "108801",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3494896/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3494896",
+      "Article Number:": "49382917",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896050756",
+      "OEM Numbers FORD:": "C1B1 7M121 BA"
+    }
+  },
+  {
+    "id": "898586",
+    "name": "Mounting, automatic transmission",
+    "partNo": "104689",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "248",
+    "productGroupId": "100773",
+    "categoryId": "100238",
+    "variantId": "108801",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/898586/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Weight [kg]": "1,230",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "898586",
+      "Article Number:": "104689",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422404689",
+      "OEM Numbers FORD:": "1 802 599",
+      "OEM Numbers FORD USA:": "C1B17M121BA"
+    }
+  },
+  {
+    "id": "3523464",
+    "name": "Mounting, automatic transmission",
+    "partNo": "50 10 4689",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "248",
+    "productGroupId": "100773",
+    "categoryId": "100238",
+    "variantId": "108801",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3523464/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Weight [kg]": "1,230",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "3523464",
+      "Article Number:": "50 10 4689",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422804689",
+      "OEM Numbers FORD:": "1 802 599",
+      "OEM Numbers FORD USA:": "C1B17M121BA"
+    }
+  },
+  {
+    "id": "10100128",
+    "name": "Mounting, automatic transmission",
+    "partNo": "WG1938608",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "248",
+    "productGroupId": "100773",
+    "categoryId": "100238",
+    "variantId": "108801",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10100128/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Weight [kg]": "1,230",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "10100128",
+      "Article Number:": "WG1938608",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers FORD:": "1802599",
+      "OEM Numbers FORD USA:": "C1B17M121BA"
+    }
+  }
+]

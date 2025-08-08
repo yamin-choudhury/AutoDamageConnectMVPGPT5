@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "5853",
+    "name": "FORD ACTIVA Hatchback",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5853/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-09-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5855",
+    "name": "FORD ACTIVA Hatchback",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5855/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5854",
+    "name": "FORD ACTIVA Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5854/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-09-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5856",
+    "name": "FORD ACTIVA Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5856/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10257",
+    "name": "FORD B-MAX (JK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13361",
+    "name": "FORD B-MAX Van (JK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12783",
+    "name": "FORD BELINA I",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12783/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-01-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9922",
+    "name": "FORD BELINA II",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9922/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-01-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6240",
+    "name": "FORD C-MAX (DM2)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6240/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-02-01",
+      "toDate": "2010-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8995",
+    "name": "FORD C-MAX II (DXA/CB7, DXA/CEU)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8995/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-04-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13360",
+    "name": "FORD C-MAX II Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13360/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-10-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "469",
+    "name": "FORD CAPRI I (ECJ)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/469/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-12-01",
+      "toDate": "1974-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "474",
+    "name": "FORD CAPRI Mk II (GECP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/474/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-02-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3958",
+    "name": "FORD CAPRI Mk III (GECP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3958/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-01-01",
+      "toDate": "1987-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1684",
+    "name": "FORD CONSUL (GGFL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1684/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1975-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1685",
+    "name": "FORD CONSUL Coupe (GGCL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1685/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1975-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1686",
+    "name": "FORD CONSUL Turnier (GGNL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1686/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1975-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11464",
+    "name": "FORD CORCEL I",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11464/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-01-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11465",
+    "name": "FORD CORCEL I Coupe",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11465/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-01-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9923",
+    "name": "FORD CORCEL II",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9923/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-01-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4697",
+    "name": "FORD CORSAIR",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4697/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1963-10-01",
+      "toDate": "1971-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4698",
+    "name": "FORD CORSAIR Estate Estate",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4698/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-10-01",
+      "toDate": "1971-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4699",
+    "name": "FORD CORTINA",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4699/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-10-01",
+      "toDate": "1972-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "360",
+    "name": "FORD CORTINA '80 Turnier (GBNS)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/360/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-07-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3492",
+    "name": "FORD CORTINA (GBFK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3492/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-08-01",
+      "toDate": "1976-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "346",
+    "name": "FORD CORTINA (GBTK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/346/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-01-01",
+      "toDate": "1976-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "351",
+    "name": "FORD CORTINA (GBTS, GBFS, CBTS)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/351/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-05-01",
+      "toDate": "1979-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4700",
+    "name": "FORD CORTINA Coach",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4700/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-10-01",
+      "toDate": "1972-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1681",
+    "name": "FORD CORTINA Coach Coupe (GBCK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1681/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-08-01",
+      "toDate": "1976-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4701",
+    "name": "FORD CORTINA Estate Estate",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4701/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-10-01",
+      "toDate": "1972-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1682",
+    "name": "FORD CORTINA Estate Turnier (GBNK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1682/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-08-01",
+      "toDate": "1976-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "355",
+    "name": "FORD CORTINA Estate Turnier (GBNS)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/355/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-05-01",
+      "toDate": "1979-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "341",
+    "name": "FORD CORTINA V (GBS, GBNS)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/341/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-07-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3556",
+    "name": "FORD COUGAR (EC_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3556/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-08-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3449",
+    "name": "FORD COURIER Box Body/MPV (F3L, F5L)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3449/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-04-01",
+      "toDate": "1996-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1517",
+    "name": "FORD COURIER Box Body/MPV (J5_, J3_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1517/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4051",
+    "name": "FORD COURIER Hatchback Van (JV_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4051/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-05-01",
+      "toDate": "2003-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7435",
+    "name": "FORD COURIER Pickup",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7435/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-03-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10535",
+    "name": "FORD COURIER Pickup",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10535/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-01-01",
+      "toDate": "2000-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9925",
+    "name": "FORD DEL REY",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9925/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-01-01",
+      "toDate": "1992-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11521",
+    "name": "FORD DEL REY Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11521/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-01-01",
+      "toDate": "1992-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10144",
+    "name": "FORD ECONOLINE Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10144/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-09-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1050",
+    "name": "FORD ECONOVAN (KBA, KCA)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1050/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-03-01",
+      "toDate": "1992-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4057",
+    "name": "FORD ECONOVAN Van (KAA)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4057/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-05-01",
+      "toDate": "1992-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9926",
+    "name": "FORD ECOSPORT",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9926/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-01-01",
+      "toDate": "2013-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11479",
+    "name": "FORD ECOSPORT",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11479/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "313",
+    "name": "FORD ESCORT   (AFH, ATH)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/313/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-01-01",
+      "toDate": "1976-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1643",
+    "name": "FORD ESCORT   Turnier (ADH, AF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1643/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-06-01",
+      "toDate": "1979-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4710",
+    "name": "FORD ESCORT CLASSIC (AAL, ABL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4710/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4711",
+    "name": "FORD ESCORT CLASSIC Turnier (ANL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4711/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36407",
+    "name": "FORD ESCORT Coupe",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36407/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-04-01",
+      "toDate": "1996-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36406",
+    "name": "FORD ESCORT Coupe",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36406/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-01-01",
+      "toDate": "2002-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36404",
+    "name": "FORD ESCORT Hatchback",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36404/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-04-01",
+      "toDate": "1996-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "322",
+    "name": "FORD ESCORT III (GAA)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/322/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-09-01",
+      "toDate": "1986-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1606",
+    "name": "FORD ESCORT III Express (AVA)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1606/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-01-01",
+      "toDate": "1986-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1603",
+    "name": "FORD ESCORT IV Express (AVF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1603/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-02-01",
+      "toDate": "1990-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "317",
+    "name": "FORD ESCORT Mk II (ATH)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/317/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-03-01",
+      "toDate": "1981-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3959",
+    "name": "FORD ESCORT Mk II Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3959/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-04-01",
+      "toDate": "1981-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "326",
+    "name": "FORD ESCORT Mk III Convertible (ALD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/326/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-09-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "330",
+    "name": "FORD ESCORT Mk III Turnier (AWA)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/330/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-09-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "335",
+    "name": "FORD ESCORT Mk IV (GAF, AWF, ABFT)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/335/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-03-01",
+      "toDate": "1994-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3444",
+    "name": "FORD ESCORT Mk IV Convertible (ALF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3444/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1990-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "344",
+    "name": "FORD ESCORT Mk IV Turnier (AWF, AVF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/344/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-10-01",
+      "toDate": "1990-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3960",
+    "name": "FORD ESCORT Mk V Convertible (ALL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3960/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-07-01",
+      "toDate": "1995-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "358",
+    "name": "FORD ESCORT Mk V Turnier (ANL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/358/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-07-01",
+      "toDate": "1995-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "349",
+    "name": "FORD ESCORT Mk VI (AAL, ABL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/349/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-07-01",
+      "toDate": "1996-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "372",
+    "name": "FORD ESCORT Mk VI Saloon (AFL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/372/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-08-01",
+      "toDate": "1995-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1463",
+    "name": "FORD ESCORT Mk VII (GAL, AAL, ABL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1463/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-01-01",
+      "toDate": "2002-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1466",
+    "name": "FORD ESCORT Mk VII Convertible (ALL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1466/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-03-01",
+      "toDate": "2000-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1464",
+    "name": "FORD ESCORT Mk VII Saloon (GAL, AFL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1464/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-01-01",
+      "toDate": "2002-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1465",
+    "name": "FORD ESCORT Mk VII Turnier (GAL, ANL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1465/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-01-01",
+      "toDate": "2002-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1604",
+    "name": "FORD ESCORT V Express (AVF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1604/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-07-01",
+      "toDate": "1994-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1605",
+    "name": "FORD ESCORT VI Estate Van (AVL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1605/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-01-01",
+      "toDate": "2001-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40605",
+    "name": "FORD EVEREST",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40605/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40604",
+    "name": "FORD EVEREST SUV (25N_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40604/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12748",
+    "name": "FORD F-100",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12748/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1960-01-01",
+      "toDate": "1979-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10855",
+    "name": "FORD F-250",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10855/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10854",
+    "name": "FORD F-250",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10854/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-09-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10746",
+    "name": "FORD F-250",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10746/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-10-01",
+      "toDate": "1997-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9927",
+    "name": "FORD F-550",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9927/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11483",
+    "name": "FORD F1000",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11483/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-01-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36950",
+    "name": "FORD F4000",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36950/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10568",
+    "name": "FORD FALCON Platform/Chassis",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10568/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36412",
+    "name": "FORD FALCON Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36412/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-02-01",
+      "toDate": "1991-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10858",
+    "name": "FORD FALCON Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10858/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-09-01",
+      "toDate": "2005-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10566",
+    "name": "FORD FALCON Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10566/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-04-01",
+      "toDate": "1996-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10567",
+    "name": "FORD FALCON Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10567/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "2002-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36413",
+    "name": "FORD FALCON Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36413/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-02-01",
+      "toDate": "1991-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "402",
+    "name": "FORD FIESTA   (GFBT)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/402/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-05-01",
+      "toDate": "1983-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3388",
+    "name": "FORD FIESTA Hatchback Van (FVD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3388/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-03-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2056",
+    "name": "FORD FIESTA Hatchback Van (WFVT)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2056/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-05-01",
+      "toDate": "1986-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "407",
+    "name": "FORD FIESTA Mk II (FBD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/407/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-09-01",
+      "toDate": "1989-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "411",
+    "name": "FORD FIESTA Mk III (GFJ)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/411/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-01-01",
+      "toDate": "1997-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1467",
+    "name": "FORD FIESTA Mk IV (JA_, JB_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1467/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-08-01",
+      "toDate": "2006-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9929",
+    "name": "FORD FIESTA Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9929/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9928",
+    "name": "FORD FIESTA Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9928/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-09-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4802",
+    "name": "FORD FIESTA V (JH_, JD_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4802/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-11-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7384",
+    "name": "FORD FIESTA V Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7384/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-05-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7585",
+    "name": "FORD FIESTA VI (CB1, CCN)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7585/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8611",
+    "name": "FORD FIESTA VI Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8611/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37787",
+    "name": "FORD FIESTA VII (HJ, HF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37787/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38818",
+    "name": "FORD FIESTA VII Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38818/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5056",
+    "name": "FORD FOCUS C-MAX (DM2)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5056/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": "2007-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3588",
+    "name": "FORD FOCUS I (DAW, DBW)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3588/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-09-01",
+      "toDate": "2009-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38849",
+    "name": "FORD FOCUS I Estate Van (DNW)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38849/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-08-01",
+      "toDate": "2005-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3590",
+    "name": "FORD FOCUS I Saloon (DFW)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3590/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": "2009-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3589",
+    "name": "FORD FOCUS I Turnier (DNW)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3589/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5210",
+    "name": "FORD FOCUS II (DA_, HCP, DP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5210/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-07-01",
+      "toDate": "2013-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5561",
+    "name": "FORD FOCUS II Convertible",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5561/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": "2010-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39233",
+    "name": "FORD FOCUS II Estate Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39233/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-07-01",
+      "toDate": "2011-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5454",
+    "name": "FORD FOCUS II Saloon (DB_, FCH, DH)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5454/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5397",
+    "name": "FORD FOCUS II Station Wagon (DA_, FFS, DS)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5397/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-07-01",
+      "toDate": "2012-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9155",
+    "name": "FORD FOCUS III",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9155/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36894",
+    "name": "FORD FOCUS III Estate Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36894/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36895",
+    "name": "FORD FOCUS III Hatchback Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36895/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9156",
+    "name": "FORD FOCUS III Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9156/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9157",
+    "name": "FORD FOCUS III Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9157/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14185",
+    "name": "FORD FOCUS III Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14185/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38611",
+    "name": "FORD FOCUS IV (HN)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38611/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39142",
+    "name": "FORD FOCUS IV Saloon (HM)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39142/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38774",
+    "name": "FORD FOCUS IV Turnier (HP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38774/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40674",
+    "name": "FORD FREESTYLE",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40674/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4885",
+    "name": "FORD FUSION (JU_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4885/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-08-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9931",
+    "name": "FORD FUSION Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9931/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-05-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11595",
+    "name": "FORD GALAXIE",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11595/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-01-01",
+      "toDate": "1983-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9932",
+    "name": "FORD GALAXIE",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9932/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-01-01",
+      "toDate": "1983-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11950",
+    "name": "FORD GALAXIE",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11950/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-01-01",
+      "toDate": "1975-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10173",
+    "name": "FORD GALAXY",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10173/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-05-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1317",
+    "name": "FORD GALAXY I (WGR)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1317/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-03-01",
+      "toDate": "2006-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5541",
+    "name": "FORD GALAXY II (WA6)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5541/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-05-01",
+      "toDate": "2015-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13969",
+    "name": "FORD GALAXY III (CK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13969/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41616",
+    "name": "FORD GALAXY MK I VAN (WGR)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41616/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-03-01",
+      "toDate": "2006-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41613",
+    "name": "FORD GALAXY MK II VAN (WA6)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41613/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-05-01",
+      "toDate": "2015-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39652",
+    "name": "FORD GALAXY MK III VAN (CK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39652/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "79",
+    "name": "FORD GRANADA (GGTL, GGFL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/79/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1977-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1687",
+    "name": "FORD GRANADA I Coupe (GGCL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1687/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1976-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "514",
+    "name": "FORD GRANADA II (GU)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/514/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-08-01",
+      "toDate": "1985-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "218",
+    "name": "FORD GRANADA Mk III  (GAE, GGE)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/218/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-04-01",
+      "toDate": "1994-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "223",
+    "name": "FORD GRANADA Mk III  Saloon (GGE)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/223/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1994-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3446",
+    "name": "FORD GRANADA Mk III  Turnier (GGE)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3446/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-05-01",
+      "toDate": "1994-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1688",
+    "name": "FORD GRANADA Turnier (GGNL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1688/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1977-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "518",
+    "name": "FORD GRANADA Turnier (GNU)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/518/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-08-01",
+      "toDate": "1985-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8996",
+    "name": "FORD GRAND C-MAX (DXA/CB7, DXA/CEU)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8996/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-12-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13359",
+    "name": "FORD GRAND C-MAX Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13359/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-12-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5146",
+    "name": "FORD GT",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5146/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37789",
+    "name": "FORD GT",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37789/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10531",
+    "name": "FORD IKON II Saloon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10531/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-10-01",
+      "toDate": "2011-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10201",
+    "name": "FORD KA",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10201/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1572",
+    "name": "FORD KA (RB_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1572/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "2008-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8000",
+    "name": "FORD KA (RU8)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8000/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-10-01",
+      "toDate": "2016-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9830",
+    "name": "FORD KA Van (RB)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9830/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-05-01",
+      "toDate": "2005-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13141",
+    "name": "FORD KA+ III (UK, FK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13141/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13140",
+    "name": "FORD KA+ III Saloon (TK, FK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13140/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7367",
+    "name": "FORD KUGA I",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7367/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-02-01",
+      "toDate": "2012-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41619",
+    "name": "FORD KUGA I VAN",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41619/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-02-01",
+      "toDate": "2012-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11097",
+    "name": "FORD KUGA II (DM2)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11097/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13357",
+    "name": "FORD KUGA II VAN",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13357/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39686",
+    "name": "FORD KUGA III (DFK)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39686/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10543",
+    "name": "FORD LASER Hatchback",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10543/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-07-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10143",
+    "name": "FORD LOBO Pickup",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10143/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-09-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4641",
+    "name": "FORD MAVERICK",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4641/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1310",
+    "name": "FORD MAVERICK (UDS, UNS)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1310/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-02-01",
+      "toDate": "1998-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9852",
+    "name": "FORD MAVERICK VAN",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9852/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-06-01",
+      "toDate": "1998-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10550",
+    "name": "FORD METEOR",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10550/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-03-01",
+      "toDate": "1995-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7004",
+    "name": "FORD METROSTAR",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7004/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2007-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "284",
+    "name": "FORD MONDEO   (GBP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/284/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-02-01",
+      "toDate": "1996-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3447",
+    "name": "FORD MONDEO   Saloon (GBP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3447/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-01-01",
+      "toDate": "1996-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "292",
+    "name": "FORD MONDEO   Turnier (BNP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/292/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-01-01",
+      "toDate": "1996-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4725",
+    "name": "FORD MONDEO III (B5Y)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4725/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2007-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4726",
+    "name": "FORD MONDEO III Turnier (BWY)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4726/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2007-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6238",
+    "name": "FORD MONDEO IV (BA7)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6238/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2015-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6237",
+    "name": "FORD MONDEO IV Saloon (BA7)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6237/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2015-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6239",
+    "name": "FORD MONDEO IV Turnier (BA7)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6239/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2015-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39189",
+    "name": "FORD MONDEO IV Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39189/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2015-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1573",
+    "name": "FORD MONDEO Mk II (BAP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1573/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-08-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3487",
+    "name": "FORD MONDEO Mk II Saloon (BFP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3487/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-08-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1574",
+    "name": "FORD MONDEO Mk II Turnier (BNP)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1574/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-08-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4721",
+    "name": "FORD MONDEO Mk III Saloon (B4Y)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4721/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2007-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13128",
+    "name": "FORD MONDEO V Hatchback (CE)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13128/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13129",
+    "name": "FORD MONDEO V Saloon (CD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13129/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13127",
+    "name": "FORD MONDEO V Turnier (CF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13127/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "368",
+    "name": "FORD ORION   (AFD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/368/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-07-01",
+      "toDate": "1986-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "378",
+    "name": "FORD ORION III (GAL)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/378/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1996-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "373",
+    "name": "FORD ORION Mk II (AFF)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/373/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-12-01",
+      "toDate": "1990-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4550",
+    "name": "FORD P 100",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4550/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-04-01",
+      "toDate": "1987-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4549",
+    "name": "FORD P 100 II",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4549/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-10-01",
+      "toDate": "1992-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3961",
+    "name": "FORD PUMA (EC_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3961/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-03-01",
+      "toDate": "2002-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39675",
+    "name": "FORD PUMA (J2K, CF7)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39675/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4509",
+    "name": "FORD RANGER (ER, EQ, R_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4509/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-04-01",
+      "toDate": "2011-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9028",
+    "name": "FORD RANGER (ET)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9028/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": "2012-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9853",
+    "name": "FORD RANGER (TKE)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9853/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13884",
+    "name": "FORD S-MAX (CJ, WA6)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13884/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5542",
+    "name": "FORD S-MAX (WA6)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5542/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-05-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41688",
+    "name": "FORD S-MAX VAN (WA6)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41688/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-05-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1315",
+    "name": "FORD SCORPIO Mk II (GFR, GGR)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1315/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-10-01",
+      "toDate": "1998-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1316",
+    "name": "FORD SCORPIO Mk II Turnier (GNR, GGR)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1316/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-10-01",
+      "toDate": "1998-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36948",
+    "name": "FORD SIERRA I Hatchback",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36948/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-02-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "251",
+    "name": "FORD SIERRA I Hatchback (GBC)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/251/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-08-01",
+      "toDate": "1987-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "241",
+    "name": "FORD SIERRA II Hatchback (GBC, GBG)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/241/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-01-01",
+      "toDate": "1993-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "246",
+    "name": "FORD SIERRA II Sapphire (GBG, GB4)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/246/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-01-01",
+      "toDate": "1993-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "260",
+    "name": "FORD SIERRA II Turnier (BNG)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/260/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-01-01",
+      "toDate": "1993-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36947",
+    "name": "FORD SIERRA Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36947/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-02-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "256",
+    "name": "FORD SIERRA Turnier (BNC)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/256/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-08-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4934",
+    "name": "FORD STREET KA (RL2)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4934/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-03-01",
+      "toDate": "2005-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36402",
+    "name": "FORD TAUNUS",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36402/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-02-01",
+      "toDate": "1985-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1645",
+    "name": "FORD TAUNUS 12M I",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1645/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1951-12-01",
+      "toDate": "1963-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1649",
+    "name": "FORD TAUNUS 12M II (11G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1649/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1650",
+    "name": "FORD TAUNUS 12M II (12G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1650/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1646",
+    "name": "FORD TAUNUS 12M II (P4)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1646/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-07-01",
+      "toDate": "1967-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1651",
+    "name": "FORD TAUNUS 12M II Coupe (13G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1651/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1647",
+    "name": "FORD TAUNUS 12M II Coupe (P4)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1647/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-12-01",
+      "toDate": "1967-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3583",
+    "name": "FORD TAUNUS 12M II Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3583/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1953-05-01",
+      "toDate": "1963-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3489",
+    "name": "FORD TAUNUS 12M II Turnier (15G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3489/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1648",
+    "name": "FORD TAUNUS 12M II Turnier (P4)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1648/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1963-04-01",
+      "toDate": "1967-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1652",
+    "name": "FORD TAUNUS 15M I",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1652/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1954-09-01",
+      "toDate": "1958-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1653",
+    "name": "FORD TAUNUS 15M II (21G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1653/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1654",
+    "name": "FORD TAUNUS 15M II (22G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1654/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3963",
+    "name": "FORD TAUNUS 15M II (28G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3963/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1656",
+    "name": "FORD TAUNUS 15M II (29G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1656/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1655",
+    "name": "FORD TAUNUS 15M II Coupe (23G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1655/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1971-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3962",
+    "name": "FORD TAUNUS 15M II Turnier (25G)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3962/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1971-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1662",
+    "name": "FORD TAUNUS 17M I",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1662/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1957-08-01",
+      "toDate": "1960-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1666",
+    "name": "FORD TAUNUS 17M II (21)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1666/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-09-01",
+      "toDate": "1968-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1667",
+    "name": "FORD TAUNUS 17M II (31F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1667/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1668",
+    "name": "FORD TAUNUS 17M II (32F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1668/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1664",
+    "name": "FORD TAUNUS 17M II (P3)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1664/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1960-09-01",
+      "toDate": "1965-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1669",
+    "name": "FORD TAUNUS 17M II Coupe (33F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1669/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1665",
+    "name": "FORD TAUNUS 17M II Coupe (P3)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1665/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1961-11-01",
+      "toDate": "1965-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1663",
+    "name": "FORD TAUNUS 17M II Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1663/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1957-08-01",
+      "toDate": "1960-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3964",
+    "name": "FORD TAUNUS 17M II Turnier (21)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3964/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-11-01",
+      "toDate": "1967-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1670",
+    "name": "FORD TAUNUS 17M II Turnier (35F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1670/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-09-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1671",
+    "name": "FORD TAUNUS 17M II Turnier (36F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1671/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-09-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3490",
+    "name": "FORD TAUNUS 17M II Turnier (P3)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3490/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1960-12-01",
+      "toDate": "1965-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1672",
+    "name": "FORD TAUNUS 20M II",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1672/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-11-01",
+      "toDate": "1968-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1674",
+    "name": "FORD TAUNUS 20M II (41F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1674/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1675",
+    "name": "FORD TAUNUS 20M II (42F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1675/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1676",
+    "name": "FORD TAUNUS 20M II Coupe (43F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1676/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1673",
+    "name": "FORD TAUNUS 20M II Turnier",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1673/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-11-01",
+      "toDate": "1968-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3965",
+    "name": "FORD TAUNUS 20M II Turnier (46F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3965/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3491",
+    "name": "FORD TAUNUS 20M II XL (51F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3491/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1677",
+    "name": "FORD TAUNUS 20M II XL (52F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1677/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1678",
+    "name": "FORD TAUNUS 20M II XL Coupe (53F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1678/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-07-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1679",
+    "name": "FORD TAUNUS 26M XL (52F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1679/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-10-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1680",
+    "name": "FORD TAUNUS 26M XL Coupe (53F)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1680/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-10-01",
+      "toDate": "1974-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37618",
+    "name": "FORD TAUNUS Coupe",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37618/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-05-01",
+      "toDate": "1979-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36403",
+    "name": "FORD TAUNUS Coupe",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36403/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-02-01",
+      "toDate": "1985-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1644",
+    "name": "FORD TAUNUS I",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1644/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1951-01-01",
+      "toDate": "1953-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10826",
+    "name": "FORD TELSTAR",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10826/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-01-01",
+      "toDate": "1992-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10774",
+    "name": "FORD TELSTAR",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10774/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-01-01",
+      "toDate": "1997-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10533",
+    "name": "FORD TERRITORY SUV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10533/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-04-01",
+      "toDate": "2011-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14117",
+    "name": "FORD TOPAZ",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14117/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-09-01",
+      "toDate": "1994-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14116",
+    "name": "FORD TOPAZ",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14116/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-09-01",
+      "toDate": "1987-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4933",
+    "name": "FORD TOURNEO CONNECT",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4933/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-06-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42737",
+    "name": "FORD TOURNEO CONNECT / GRAND TOURNEO CONNECT MPV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42737/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11574",
+    "name": "FORD TOURNEO CONNECT / GRAND TOURNEO CONNECT V408 MPV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11574/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11948",
+    "name": "FORD TOURNEO COURIER B460 MPV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11948/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11094",
+    "name": "FORD TOURNEO CUSTOM V362 Bus (F3)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11094/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1689",
+    "name": "FORD TRANSIT Bus",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1689/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1955-04-01",
+      "toDate": "1967-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "432",
+    "name": "FORD TRANSIT Bus (72E, 73E)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/432/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-11-01",
+      "toDate": "1978-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1483",
+    "name": "FORD TRANSIT Bus (E_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1483/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-06-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3969",
+    "name": "FORD TRANSIT Bus (E_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3969/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-01-01",
+      "toDate": "1994-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5571",
+    "name": "FORD TRANSIT Bus (FD_ _, FB_ _, FS_ _, FZ_ _, FC_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5571/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-04-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4620",
+    "name": "FORD TRANSIT Bus (FD_ _, FB_ _, FS_ _, FZ_ _, FC_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4620/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2006-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "444",
+    "name": "FORD TRANSIT Bus (T_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/444/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-10-01",
+      "toDate": "1992-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1690",
+    "name": "FORD TRANSIT Bus (V_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1690/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-11-01",
+      "toDate": "1986-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4948",
+    "name": "FORD TRANSIT CONNECT (P65_, P70_, P80_)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4948/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11619",
+    "name": "FORD TRANSIT CONNECT MPV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11619/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11573",
+    "name": "FORD TRANSIT CONNECT V408 Box Body/MPV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11573/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11946",
+    "name": "FORD TRANSIT COURIER B460 Box Body/MPV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11946/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11947",
+    "name": "FORD TRANSIT COURIER B460 MPV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11947/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11096",
+    "name": "FORD TRANSIT CUSTOM V362 Bus (F3)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11096/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11095",
+    "name": "FORD TRANSIT CUSTOM V362 Van (FY, FZ)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11095/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4066",
+    "name": "FORD TRANSIT Platform/Chassis (74E)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4066/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-12-01",
+      "toDate": "1978-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2044",
+    "name": "FORD TRANSIT Platform/Chassis (E_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2044/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-08-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2024",
+    "name": "FORD TRANSIT Platform/Chassis (E_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2024/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-04-01",
+      "toDate": "1994-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5573",
+    "name": "FORD TRANSIT Platform/Chassis (FM_ _, FN_ _, FF_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5573/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-04-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4622",
+    "name": "FORD TRANSIT Platform/Chassis (FM_ _, FN_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4622/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2006-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2022",
+    "name": "FORD TRANSIT Platform/Chassis (T_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2022/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-10-01",
+      "toDate": "1992-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2023",
+    "name": "FORD TRANSIT Platform/Chassis (V_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2023/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-11-01",
+      "toDate": "1986-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7590",
+    "name": "FORD TRANSIT TOURNEO Bus",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7590/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-08-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5574",
+    "name": "FORD TRANSIT TOURNEO Bus",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5574/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-07-01",
+      "toDate": "2014-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38762",
+    "name": "FORD TRANSIT TOURNEO Bus (FC_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38762/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-06-01",
+      "toDate": "2006-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11952",
+    "name": "FORD TRANSIT V363 Bus (FAD, FBD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11952/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11954",
+    "name": "FORD TRANSIT V363 Platform/Chassis (FED, FFD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11954/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11953",
+    "name": "FORD TRANSIT V363 Van (FCD, FDD)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11953/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1752",
+    "name": "FORD TRANSIT Van",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1752/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1955-04-01",
+      "toDate": "1967-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1747",
+    "name": "FORD TRANSIT Van (72E, 71E)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1747/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-11-01",
+      "toDate": "1978-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1748",
+    "name": "FORD TRANSIT Van (81E)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1748/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-11-01",
+      "toDate": "1973-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1751",
+    "name": "FORD TRANSIT Van (E_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1751/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-05-01",
+      "toDate": "1994-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2043",
+    "name": "FORD TRANSIT Van (E_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2043/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-06-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5572",
+    "name": "FORD TRANSIT Van (FA_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5572/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-04-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4621",
+    "name": "FORD TRANSIT Van (FA_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4621/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2006-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1750",
+    "name": "FORD TRANSIT Van (T_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1750/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-09-01",
+      "toDate": "1992-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1776",
+    "name": "FORD TRANSIT Van (V_ _)",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1776/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-01-01",
+      "toDate": "1986-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4715",
+    "name": "FORD ZEPHYR III",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4715/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-03-01",
+      "toDate": "1968-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4717",
+    "name": "FORD ZEPHYR IV",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4717/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-03-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4716",
+    "name": "FORD ZEPHYR Mk III Station Wagon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4716/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-03-01",
+      "toDate": "1968-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4718",
+    "name": "FORD ZEPHYR Mk IV Station Wagon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4718/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-03-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4706",
+    "name": "FORD ZODIAC",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4706/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-03-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4714",
+    "name": "FORD ZODIAK Station Wagon",
+    "manufacturerId": "36",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4714/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-03-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  }
+]

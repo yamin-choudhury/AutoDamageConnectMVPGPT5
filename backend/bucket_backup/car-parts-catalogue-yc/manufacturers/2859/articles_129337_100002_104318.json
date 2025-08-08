@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2954958",
+    "name": "Timing Belt",
+    "partNo": "36227",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "306",
+    "productGroupId": "104318",
+    "categoryId": "100002",
+    "variantId": "129337",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2954958/model-series-id-37137/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "54",
+      "Width [mm]": "12",
+      "Weight [kg]": "0,010",
+      "Surface": "Coated",
+      "Belts": "with rounded tooth profile",
+      "Article ID:": "2954958",
+      "Article Number:": "36227",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781636227",
+      "OEM Numbers AUDI:": "6H 121 605 E",
+      "OEM Numbers SEAT:": "6H 121 605 E",
+      "OEM Numbers SKODA:": "6H 121 605 E",
+      "OEM Numbers VW:": "6H 121 605 E"
+    }
+  },
+  {
+    "id": "2105708",
+    "name": "Timing Belt",
+    "partNo": "22918",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "306",
+    "productGroupId": "104318",
+    "categoryId": "100002",
+    "variantId": "129337",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2105708/model-series-id-37137/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "0",
+      "Width [mm]": "0",
+      "Article ID:": "2105708",
+      "Article Number:": "22918",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509322918",
+      "OEM Numbers VW:": "06H 121 605 E"
+    }
+  },
+  {
+    "id": "2527535",
+    "name": "Timing Belt",
+    "partNo": "30 93 6227",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "306",
+    "productGroupId": "104318",
+    "categoryId": "100002",
+    "variantId": "129337",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2527535/model-series-id-37137/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "54",
+      "Width [mm]": "12",
+      "Weight [kg]": "0,010",
+      "Surface": "PTFE (Polytetrafluorethylene) coated",
+      "Belts": "with rounded tooth profile",
+      "Article ID:": "2527535",
+      "Article Number:": "30 93 6227",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468836227",
+      "OEM Numbers AUDI:": "6H 121 605 E",
+      "OEM Numbers SEAT:": "6H 121 605 E",
+      "OEM Numbers SKODA:": "6H 121 605 E",
+      "OEM Numbers VW:": "6H 121 605 E"
+    }
+  }
+]

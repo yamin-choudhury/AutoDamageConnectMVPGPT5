@@ -1,0 +1,97 @@
+[
+  {
+    "id": "3736834",
+    "name": "Mounting, axle beam",
+    "partNo": "532151",
+    "manufacturer": "AKRON-MALÒ",
+    "supplierId": "317",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3736834/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Upper",
+      "Height 1 [mm]": "64,5",
+      "Height 2 [mm]": "70,5",
+      "Inner diameter [mm]": "15",
+      "Outer diameter [mm]": "53",
+      "Article ID:": "3736834",
+      "Article Number:": "532151",
+      "Manufacturer:": "AKRON-MALÒ",
+      "OEM Numbers LAND ROVER:": "RGX500121"
+    }
+  },
+  {
+    "id": "9193986",
+    "name": "Mounting, axle beam",
+    "partNo": "SS10374",
+    "manufacturer": "FAI AutoParts",
+    "supplierId": "267",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9193986/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Required quantity": "2",
+      "Article ID:": "9193986",
+      "Article Number:": "SS10374",
+      "Manufacturer:": "FAI AutoParts",
+      "OEM Numbers LAND ROVER:": "RHF500100"
+    }
+  },
+  {
+    "id": "3715938",
+    "name": "Mounting, axle beam",
+    "partNo": "53-14 710 0001",
+    "manufacturer": "MEYLE",
+    "supplierId": "144",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3715938/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Lower",
+      "Height [mm]": "65",
+      "Required quantity": "2",
+      "Inner diameter [mm]": "16",
+      "Outer diameter [mm]": "54",
+      "Article ID:": "3715938",
+      "Article Number:": "53-14 710 0001",
+      "Manufacturer:": "MEYLE",
+      "EAN Numbers:": "404007425317",
+      "OEM Numbers LAND ROVER:": "RBK500220"
+    }
+  },
+  {
+    "id": "2878873",
+    "name": "Mounting, axle beam",
+    "partNo": "34987",
+    "manufacturer": "ORIGINAL IMPERIUM",
+    "supplierId": "331",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2878873/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Article ID:": "2878873",
+      "Article Number:": "34987",
+      "Manufacturer:": "ORIGINAL IMPERIUM",
+      "EAN Numbers:": "803398966505",
+      "OEM Numbers LAND ROVER:": "RGX500121",
+      "OEM Numbers ROVER:": "RGX500121"
+    }
+  }
+]

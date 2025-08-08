@@ -1,0 +1,50 @@
+[
+  {
+    "id": "55122",
+    "type": "2.0 (ZC6)",
+    "modelId": "10265",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA20D",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121166",
+    "type": "2.0",
+    "modelId": "10265",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA20D",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-06-01",
+      "power": "153 KW / 208 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124014",
+    "type": "2.0 (ZC6)",
+    "modelId": "10265",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA20C",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-08-01",
+      "power": "152 KW / 207 PS"
+    },
+    "categories": []
+  }
+]

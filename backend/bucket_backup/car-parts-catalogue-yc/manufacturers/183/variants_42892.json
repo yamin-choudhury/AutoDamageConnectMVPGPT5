@@ -1,0 +1,34 @@
+[
+  {
+    "id": "147395",
+    "type": "1.0",
+    "modelId": "42892",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G3LC",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-09-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "147396",
+    "type": "1.0",
+    "modelId": "42892",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G3LD",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-09-01",
+      "power": "56 KW / 76 PS"
+    },
+    "categories": []
+  }
+]

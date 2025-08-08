@@ -1,0 +1,50 @@
+[
+  {
+    "id": "106353",
+    "type": "2.0",
+    "modelId": "12831",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "X121E",
+      "cylinder": "2",
+      "capacity": "1,983 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-05-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106391",
+    "type": "2.0",
+    "modelId": "12831",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "X121E",
+      "cylinder": "2",
+      "capacity": "1,983 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-05-01",
+      "power": "61 KW / 83 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132957",
+    "type": "2.0",
+    "modelId": "12831",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "2",
+      "capacity": "1,983 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-09-01",
+      "power": "51 KW / 69 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "119226",
+    "type": "3.0 S Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 E",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-06-01",
+      "power": "316 KW / 430 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119227",
+    "type": "3.0 D Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "B630WM",
+      "cylinder": "6",
+      "capacity": "2,987 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2016-06-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119326",
+    "type": "3.0 Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 156 D",
+      "cylinder": "6",
+      "capacity": "2,979 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-06-01",
+      "power": "257 KW / 350 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120566",
+    "type": "3.0 D Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "B630WM",
+      "cylinder": "6",
+      "capacity": "2,987 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2016-06-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137042",
+    "type": "3.8 GTS Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "F154AS",
+      "cylinder": "8",
+      "capacity": "3,799 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2019-08-01",
+      "power": "390 KW / 530 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138092",
+    "type": "3.8 Trofeo Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "F154AQ",
+      "cylinder": "8",
+      "capacity": "3,799 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2019-10-01",
+      "power": "427 KW / 580 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138094",
+    "type": "3.8 Trofeo Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "F154AQ",
+      "cylinder": "8",
+      "capacity": "3,799 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2019-10-01",
+      "power": "441 KW / 600 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138231",
+    "type": "3.8 GTS Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "F154AS",
+      "cylinder": "8",
+      "capacity": "3,799 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2019-08-01",
+      "power": "404 KW / 550 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145291",
+    "type": "2.0 GT Mild Hybrid Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "670 05 31 15",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2021-08-01",
+      "power": "243 KW / 330 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "149116",
+    "type": "GTS Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M161A",
+      "cylinder": "8",
+      "capacity": "3,799 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2018-11-01",
+      "power": "405 KW / 550 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "149122",
+    "type": "Trofeo Q4",
+    "modelId": "36390",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M161A",
+      "cylinder": "8",
+      "capacity": "3,799 CCM / 3.8 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "434 KW / 590 PS"
+    },
+    "categories": []
+  }
+]

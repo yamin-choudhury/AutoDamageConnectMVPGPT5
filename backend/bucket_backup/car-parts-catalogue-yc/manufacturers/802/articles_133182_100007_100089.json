@@ -1,0 +1,49 @@
+[
+  {
+    "id": "237578",
+    "name": "Gasket, water pump",
+    "partNo": "01182000",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "314",
+    "productGroupId": "100089",
+    "categoryId": "100007",
+    "variantId": "133182",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/237578/model-series-id-38102/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "2,45",
+      "Length [mm]": "344",
+      "Width [mm]": "175",
+      "Article ID:": "237578",
+      "Article Number:": "01182000",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776994555",
+      "OEM Numbers NISSAN:": "16271-31030"
+    }
+  },
+  {
+    "id": "9983635",
+    "name": "Gasket, water pump",
+    "partNo": "WG1751399",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "314",
+    "productGroupId": "100089",
+    "categoryId": "100007",
+    "variantId": "133182",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9983635/model-series-id-38102/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "2,45",
+      "Length [mm]": "344",
+      "Width [mm]": "175",
+      "Article ID:": "9983635",
+      "Article Number:": "WG1751399",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers NISSAN:": "1627131030"
+    }
+  }
+]

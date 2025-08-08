@@ -1,0 +1,82 @@
+[
+  {
+    "id": "19126",
+    "type": "2.0 Turbo (L35)",
+    "modelId": "5475",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 20 LEL",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-08-01\n                            \n                            2010-10-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19128",
+    "type": "2.0 Turbo (L35)",
+    "modelId": "5475",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 20 LER",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-08-01\n                            \n                            2010-10-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "28842",
+    "type": "1.6 (L35)",
+    "modelId": "5475",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 16 XER",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2004-08-01\n                            \n                            2011-03-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31982",
+    "type": "1.8 (L35)",
+    "modelId": "5475",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 18 XER,A 18 XER",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2005-12-01\n                            \n                            2010-10-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32156",
+    "type": "1.7 CDTi (L35)",
+    "modelId": "5475",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 17 DTJ,A 17 DTJ",
+      "cylinder": "4",
+      "capacity": "1,686 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "2004-08-01\n                            \n                            2012-10-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  }
+]

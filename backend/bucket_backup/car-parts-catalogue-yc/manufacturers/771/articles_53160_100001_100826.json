@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4435231",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "7195WN",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100826",
+    "categoryId": "100001",
+    "variantId": "53160",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4435231/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "276",
+      "Stroke [mm]": "92",
+      "Eject Force [N]": "340",
+      "Article ID:": "4435231",
+      "Article Number:": "7195WN",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657721400",
+      "OEM Numbers MASERATI:": "67726100"
+    }
+  },
+  {
+    "id": "3490225",
+    "name": "Gas Spring, bonnet",
+    "partNo": "4916SN",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "514",
+    "productGroupId": "100826",
+    "categoryId": "100001",
+    "variantId": "53160",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3490225/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "399",
+      "Stroke [mm]": "139",
+      "Eject Force [N]": "260",
+      "Article ID:": "3490225",
+      "Article Number:": "4916SN",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657717260",
+      "OEM Numbers MASERATI:": "67726000"
+    }
+  }
+]

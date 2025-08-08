@@ -1,0 +1,48 @@
+[
+  {
+    "id": "2977593",
+    "name": "Suspension Spring",
+    "partNo": "37-148102",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "127405",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2977593/model-series-id-6434/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2977593",
+      "Article Number:": "37-148102",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525862601",
+      "OEM Numbers VW:": "RH3551",
+      "OEM Numbers SKODA:": "1K0 411 105 CM"
+    }
+  },
+  {
+    "id": "2977594",
+    "name": "Suspension Spring",
+    "partNo": "37-148119",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "127405",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2977594/model-series-id-6434/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2977594",
+      "Article Number:": "37-148119",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525862602",
+      "OEM Numbers VAG:": "1K0 411 105 EF",
+      "OEM Numbers VW:": "1K0 411 105 JR"
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "3848634",
+    "name": "Holder, control arm mounting",
+    "partNo": "55823Set",
+    "manufacturer": "AIC",
+    "supplierId": "1368",
+    "productsId": "3238",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "24167",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3848634/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Left",
+      "Supplementary Article/Info 2": "with bolts/screws",
+      "paired article number": "55824Set",
+      "Article ID:": "3848634",
+      "Article Number:": "55823Set",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "0404628355823",
+      "OEM Numbers SEAT:": "6Q0 199 293J",
+      "OEM Numbers SKODA:": "6Q0 199 293J",
+      "OEM Numbers VW:": "6Q0 199 293J",
+      "OEM Numbers VAG:": "6Q0 199 293J"
+    }
+  },
+  {
+    "id": "804663",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "100 407 0094",
+    "manufacturer": "MEYLE",
+    "supplierId": "144",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "24167",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/804663/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Height [mm]": "54",
+      "Inner diameter [mm]": "12",
+      "Outer diameter [mm]": "34",
+      "Article ID:": "804663",
+      "Article Number:": "100 407 0094",
+      "Manufacturer:": "MEYLE",
+      "EAN Numbers:": "404007439503",
+      "OEM Numbers VW (SVW):": "6Q0 407 151 L",
+      "OEM Numbers SEAT:": "6Q0 407 182 A",
+      "OEM Numbers SKODA:": "6Q0 407 182 A",
+      "OEM Numbers VW:": "6Q0 407 182 A"
+    }
+  },
+  {
+    "id": "504730",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "05451",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "24167",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/504730/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Height [mm]": "54",
+      "Inner diameter [mm]": "12",
+      "Outer diameter [mm]": "33,5",
+      "Article ID:": "504730",
+      "Article Number:": "05451",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357305451",
+      "OEM Numbers VAG:": "6Q0 407 182 A"
+    }
+  }
+]

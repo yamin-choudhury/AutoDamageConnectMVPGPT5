@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2159901",
+    "name": "Cable Repair Set, brake servo pressure sensor",
+    "partNo": "2324099",
+    "manufacturer": "METZGER",
+    "supplierId": "94",
+    "productsId": "9317",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "136146",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2159901/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "CuSn (copper-tin)",
+      "Cable Length [mm]": "250",
+      "Supplementary Article/Supplementary Info": "with shrink squeeze connector",
+      "Number of pins": "4",
+      "Plug Type": "Female",
+      "Number of circuits": "4",
+      "Cable insulation material": "Silicone",
+      "Cable cross-section from [mm²]": "0,5",
+      "Cable cross-section to [mm²]": "0,5",
+      "Article ID:": "2159901",
+      "Article Number:": "2324099",
+      "Manufacturer:": "METZGER",
+      "EAN Numbers:": "406210109989",
+      "OEM Numbers AUDI:": "1J0973704",
+      "OEM Numbers SEAT:": "1J0973704",
+      "OEM Numbers SKODA:": "1J0973704",
+      "OEM Numbers VW:": "1J0973704"
+    }
+  }
+]

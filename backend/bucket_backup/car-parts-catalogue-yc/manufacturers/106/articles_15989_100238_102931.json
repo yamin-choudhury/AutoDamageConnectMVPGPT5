@@ -1,0 +1,80 @@
+[
+  {
+    "id": "9514587",
+    "name": "RPM Sensor, automatic transmission",
+    "partNo": "V10-72-1278",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "4113",
+    "productGroupId": "102931",
+    "categoryId": "100238",
+    "variantId": "15989",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9514587/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,014",
+      "Number of pins": "3",
+      "Article ID:": "9514587",
+      "Article Number:": "V10-72-1278",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "404600164026",
+      "OEM Numbers AUDI:": "02T 906 207 D",
+      "OEM Numbers SEAT:": "2T906207D",
+      "OEM Numbers SKODA:": "2T906207D",
+      "OEM Numbers VW:": "02T906207D",
+      "OEM Numbers VAG:": "2T 906 207 D",
+      "OEM Numbers STANDARD AUTOMOBILE:": "17229"
+    }
+  },
+  {
+    "id": "9514587",
+    "name": "RPM Sensor, automatic transmission",
+    "partNo": "V10-72-1278",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "4113",
+    "productGroupId": "102931",
+    "categoryId": "100238",
+    "variantId": "15989",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9514587/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,014",
+      "Number of pins": "3",
+      "Article ID:": "9514587",
+      "Article Number:": "V10-72-1278",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "404600164026",
+      "OEM Numbers AUDI:": "02T 906 207 D",
+      "OEM Numbers SEAT:": "2T906207D",
+      "OEM Numbers SKODA:": "2T906207D",
+      "OEM Numbers VW:": "02T906207D",
+      "OEM Numbers VAG:": "2T 906 207 D",
+      "OEM Numbers STANDARD AUTOMOBILE:": "17229"
+    }
+  },
+  {
+    "id": "9942171",
+    "name": "RPM Sensor, automatic transmission",
+    "partNo": "WG1493860",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "4113",
+    "productGroupId": "102931",
+    "categoryId": "100238",
+    "variantId": "15989",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9942171/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of connectors": "3",
+      "Fitting Depth [mm]": "24",
+      "Article ID:": "9942171",
+      "Article Number:": "WG1493860",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "02T 906 207 D"
+    }
+  }
+]

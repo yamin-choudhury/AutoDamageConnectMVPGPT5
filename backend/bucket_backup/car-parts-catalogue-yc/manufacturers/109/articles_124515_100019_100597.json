@@ -1,0 +1,35 @@
+[
+  {
+    "id": "5596822",
+    "name": "Wiper Blade",
+    "partNo": "AD16CH400",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100597",
+    "categoryId": "100019",
+    "variantId": "124515",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596822/model-series-id-37072/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "400",
+      "Length [in]": "16",
+      "Weight [kg]": "0,088",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "5596822",
+      "Article Number:": "AD16CH400",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327918",
+      "OEM Numbers DEUTZ-FAHR:": "0442 2321",
+      "OEM Numbers CASE IH:": "K262711",
+      "OEM Numbers LANDINI:": "3620123M91",
+      "OEM Numbers MASSEY FERGUSON:": "42 75 053 M1",
+      "OEM Numbers AGCO:": "72442664",
+      "OEM Numbers JCB:": "714/24300",
+      "OEM Numbers FENDT:": "72442664",
+      "OEM Numbers JOHN DEERE:": "AT51778"
+    }
+  }
+]

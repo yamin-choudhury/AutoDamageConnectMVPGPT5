@@ -1,0 +1,119 @@
+[
+  {
+    "id": "5620352",
+    "name": "Fuel Filter",
+    "partNo": "ADH22350",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "55234",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5620352/model-series-id-7468/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Height [mm]": "345",
+      "Weight [kg]": "0,4",
+      "Pipe Ø [mm]": "10",
+      "Material": "Plastic",
+      "Outer diameter [mm]": "122",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "5620352",
+      "Article Number:": "ADH22350",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006323495",
+      "OEM Numbers HONDA:": "17048-TA0-000"
+    }
+  },
+  {
+    "id": "7582764",
+    "name": "Fuel Filter",
+    "partNo": "J1334047",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "55234",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7582764/model-series-id-7468/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Long-life Filter",
+      "Article ID:": "7582764",
+      "Article Number:": "J1334047",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941641424",
+      "OEM Numbers HONDA:": "17048-TA0-000"
+    }
+  },
+  {
+    "id": "2610766",
+    "name": "Fuel Filter",
+    "partNo": "30F4022-JPN",
+    "manufacturer": "JPN",
+    "supplierId": "6985",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "55234",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2610766/model-series-id-7468/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "2610766",
+      "Article Number:": "30F4022-JPN",
+      "Manufacturer:": "JPN",
+      "OEM Numbers HONDA:": "17048TA0000"
+    }
+  },
+  {
+    "id": "3931520",
+    "name": "Fuel Filter",
+    "partNo": "58436",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "55234",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3931520/model-series-id-7468/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Lowered rear axle from [mm]": "9",
+      "Article ID:": "3931520",
+      "Article Number:": "58436",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509358436",
+      "OEM Numbers BMW:": "16 14 7 186 454"
+    }
+  },
+  {
+    "id": "1026327",
+    "name": "Fuel Filter",
+    "partNo": "11171",
+    "manufacturer": "WXQP",
+    "supplierId": "6347",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "55234",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1026327/model-series-id-7468/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "1026327",
+      "Article Number:": "11171",
+      "Manufacturer:": "WXQP",
+      "OEM Numbers HONDA:": "17048-TA0-000"
+    }
+  }
+]

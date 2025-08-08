@@ -1,0 +1,137 @@
+[
+  {
+    "id": "2200624",
+    "name": "Cable Pull, clutch control",
+    "partNo": "24.3728-0728.2",
+    "manufacturer": "ATE",
+    "supplierId": "3",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "34878",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2200624/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "716",
+      "Article ID:": "2200624",
+      "Article Number:": "24.3728-0728.2",
+      "Manufacturer:": "ATE",
+      "EAN Numbers:": "400663337018",
+      "OEM Numbers OPEL:": "93195010",
+      "OEM Numbers VAUXHALL:": "93195010"
+    }
+  },
+  {
+    "id": "6023906",
+    "name": "Cable Pull, clutch control",
+    "partNo": "BKC1501",
+    "manufacturer": "BORG & BECK",
+    "supplierId": "475",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "34878",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6023906/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6023906",
+      "Article Number:": "BKC1501",
+      "Manufacturer:": "BORG & BECK",
+      "OEM Numbers GENERAL MOTORS:": "93195011"
+    }
+  },
+  {
+    "id": "7071881",
+    "name": "Cable Pull, clutch control",
+    "partNo": "FKC1501",
+    "manufacturer": "FIRST LINE",
+    "supplierId": "407",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "34878",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7071881/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7071881",
+      "Article Number:": "FKC1501",
+      "Manufacturer:": "FIRST LINE",
+      "OEM Numbers GENERAL MOTORS:": "93195011"
+    }
+  },
+  {
+    "id": "7588949",
+    "name": "Cable Pull, clutch control",
+    "partNo": "J2308029",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "34878",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7588949/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7588949",
+      "Article Number:": "J2308029",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941638406",
+      "OEM Numbers SUBARU:": "23710-51K00",
+      "OEM Numbers SUZUKI:": "23710-51K00-000",
+      "OEM Numbers OPEL:": "93195010",
+      "OEM Numbers VAUXHALL:": "93195010",
+      "OEM Numbers CHEVROLET:": "93195010"
+    }
+  },
+  {
+    "id": "2599810",
+    "name": "Cable Pull, clutch control",
+    "partNo": "3074 600 146",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "34878",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2599810/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Sleeve Length [mm]": "432",
+      "Length [mm]": "716",
+      "Article ID:": "2599810",
+      "Article Number:": "3074 600 146",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387287209",
+      "OEM Numbers SUZUKI:": "23710-51K00-000",
+      "OEM Numbers OPEL:": "93195010",
+      "OEM Numbers VAUXHALL:": "93195010"
+    }
+  },
+  {
+    "id": "1900591",
+    "name": "Cable Pull, clutch control",
+    "partNo": "208 583",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "34878",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1900591/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Article ID:": "1900591",
+      "Article Number:": "208 583",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers OPEL:": "47 09 651",
+      "OEM Numbers VAUXHALL:": "93195010"
+    }
+  }
+]

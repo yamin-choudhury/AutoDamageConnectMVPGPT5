@@ -1,0 +1,91 @@
+[
+  {
+    "id": "6370165",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "CPD.HON205",
+    "manufacturer": "AUTO CYLINDERS",
+    "supplierId": "6531",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "118734",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6370165/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "19,05",
+      "Thread Size": "1x M10x1.0",
+      "Material": "Aluminium",
+      "Number of mounting bores": "2",
+      "Mounting bores distance [mm]": "30",
+      "Article ID:": "6370165",
+      "Article Number:": "CPD.HON205",
+      "Manufacturer:": "AUTO CYLINDERS",
+      "OEM Numbers HONDA:": "46930-SNA-A41"
+    }
+  },
+  {
+    "id": "4151305",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "6283 600 529",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "118734",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4151305/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4151305",
+      "Article Number:": "6283 600 529",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387273695\n 401387297912",
+      "OEM Numbers HONDA:": "46930-SNA-A41"
+    }
+  },
+  {
+    "id": "4151305",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "6283 600 529",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "118734",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4151305/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4151305",
+      "Article Number:": "6283 600 529",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387273695\n 401387297912",
+      "OEM Numbers HONDA:": "46930-SNA-A41"
+    }
+  },
+  {
+    "id": "8559689",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "PJD737",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "118734",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8559689/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "19,05",
+      "Article ID:": "8559689",
+      "Article Number:": "PJD737",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293759657",
+      "OEM Numbers HONDA:": "46930-SNA-A41"
+    }
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "5608218",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "ADBP720026",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "833",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "108589",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5608218/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,025",
+      "Number of connectors": "3",
+      "Article ID:": "5608218",
+      "Article Number:": "ADBP720026",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774627558",
+      "OEM Numbers HONDA:": "37500-R60-U01"
+    }
+  },
+  {
+    "id": "1605280",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "176233",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "833",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "108589",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1605280/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,025",
+      "Number of connectors": "3",
+      "Article ID:": "1605280",
+      "Article Number:": "176233",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422476233",
+      "OEM Numbers HONDA:": "37500-R60-U01"
+    }
+  },
+  {
+    "id": "2767490",
+    "name": "Sensor, crankshaft pulse",
+    "partNo": "33 10 6741",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "833",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "108589",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2767490/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,025",
+      "Number of connectors": "3",
+      "Article ID:": "2767490",
+      "Article Number:": "33 10 6741",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422876233",
+      "OEM Numbers HONDA:": "37500-R60-U01"
+    }
+  }
+]

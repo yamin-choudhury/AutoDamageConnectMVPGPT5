@@ -1,0 +1,83 @@
+[
+  {
+    "id": "8110479",
+    "name": "Alternator",
+    "partNo": "MEE035050",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "119677",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8110479/model-series-id-36506/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Alternator Charge Current [A]": "140",
+      "Fitting Position": "Alternator",
+      "Weight [kg]": "6,855",
+      "Number of ribs": "6",
+      "Position / Degree": "70",
+      "Belt Pulley Ø [mm]": "56,0",
+      "Clamp": "B+(M8)",
+      "Rotation Direction": "Clockwise rotation",
+      "Article ID:": "8110479",
+      "Article Number:": "MEE035050",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880975248292",
+      "OEM Numbers AUDI:": "6F903023N",
+      "OEM Numbers SEAT:": "6F903023N",
+      "OEM Numbers SKODA:": "6F903023N",
+      "OEM Numbers VW:": "6F903023N",
+      "OEM Numbers VW (SVW):": "6F903023F",
+      "OEM Numbers SKODA (SVW):": "6F903023F"
+    }
+  },
+  {
+    "id": "2843184",
+    "name": "Alternator",
+    "partNo": "34115",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "119677",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2843184/model-series-id-36506/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Alternator Charge Current [A]": "110",
+      "Article ID:": "2843184",
+      "Article Number:": "34115",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509334115",
+      "OEM Numbers VW:": "06F 903 023 A"
+    }
+  },
+  {
+    "id": "3459667",
+    "name": "Alternator",
+    "partNo": "47787",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "119677",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3459667/model-series-id-36506/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Alternator Charge Current [A]": "140",
+      "Article ID:": "3459667",
+      "Article Number:": "47787",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509347787",
+      "OEM Numbers AUDI:": "06F903023HX"
+    }
+  }
+]

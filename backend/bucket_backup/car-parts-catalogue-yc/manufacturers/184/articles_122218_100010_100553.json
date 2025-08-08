@@ -1,0 +1,28 @@
+[
+  {
+    "id": "4308180",
+    "name": "Sensor, speed/RPM",
+    "partNo": "6PU 009 145-331",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "1190",
+    "productGroupId": "100553",
+    "categoryId": "100010",
+    "variantId": "122218",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4308180/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Mounting Type": "Ring Nut",
+      "Sensor Type": "Hall Sensor",
+      "Number of pins": "3",
+      "Article ID:": "4308180",
+      "Article Number:": "6PU 009 145-331",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230085048",
+      "OEM Numbers HYUNDAI:": "964204A600",
+      "OEM Numbers KIA:": "964204A600"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "7757173",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "KA859.46",
+    "manufacturer": "SNR",
+    "supplierId": "110",
+    "productsId": "542",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "145516",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7757173/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1042",
+      "Number of ribs": "6",
+      "Number of belts": "1",
+      "Number of track rollers": "1",
+      "Article ID:": "7757173",
+      "Article Number:": "KA859.46",
+      "Manufacturer:": "SNR",
+      "EAN Numbers:": "341352198853",
+      "OEM Numbers VAG:": "028903137B",
+      "OEM Numbers SEAT:": "06F260849E",
+      "OEM Numbers VW:": "06F260849E",
+      "OEM Numbers AUDI:": "06F260849E",
+      "OEM Numbers SKODA:": "06F260849E",
+      "OEM Numbers FORD:": "7198532",
+      "OEM Numbers CITROËN:": "9819833380",
+      "OEM Numbers OPEL:": "9819833380",
+      "OEM Numbers PEUGEOT:": "9819833380",
+      "OEM Numbers VAUXHALL:": "9819833380",
+      "OEM Numbers CHRYSLER:": "4612669",
+      "OEM Numbers DODGE:": "4612669",
+      "OEM Numbers ALFA ROMEO:": "71753677",
+      "OEM Numbers FIAT:": "9633010480",
+      "OEM Numbers LANCIA:": "71753677",
+      "OEM Numbers ISUZU:": "8943627320",
+      "OEM Numbers MAZDA:": "N3A1-15-908"
+    }
+  }
+]

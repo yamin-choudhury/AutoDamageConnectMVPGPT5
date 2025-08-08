@@ -1,0 +1,46 @@
+[
+  {
+    "id": "7461480",
+    "name": "Shock Absorber",
+    "partNo": "HG 31166",
+    "manufacturer": "NAKATA",
+    "supplierId": "4831",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "101126",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7461480/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [kg]": "1,399",
+      "Article ID:": "7461480",
+      "Article Number:": "HG 31166",
+      "Manufacturer:": "NAKATA",
+      "EAN Numbers:": "789090302775",
+      "OEM Numbers KIA:": "0K60A3470A"
+    }
+  },
+  {
+    "id": "7461899",
+    "name": "Shock Absorber",
+    "partNo": "HG 41269",
+    "manufacturer": "NAKATA",
+    "supplierId": "4831",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "101126",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7461899/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "7461899",
+      "Article Number:": "HG 41269",
+      "Manufacturer:": "NAKATA",
+      "OEM Numbers KIA:": "543004E100"
+    }
+  }
+]

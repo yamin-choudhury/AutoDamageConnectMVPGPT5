@@ -1,0 +1,560 @@
+[
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100572",
+        "name": "Control Arm/Swing Arm Joint",
+        "categoryId": "100013",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100572/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100735",
+        "name": "Mounting, suspension strut",
+        "categoryId": "100013",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100735/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100213",
+        "name": "Wheel/Wheel Fastening",
+        "categoryId": "100013",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100213/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100016",
+    "name": "Belt Drive",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "101971",
+        "name": "Belt Pulley",
+        "categoryId": "100016",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/101971/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100435",
+        "name": "V-Ribbed Belt/Set",
+        "categoryId": "100016",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100435/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100001",
+    "name": "Body",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104959",
+        "name": "Body Parts/Wing/Bumper",
+        "categoryId": "100001",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/104959/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100740",
+        "name": "Trim/Protection/Decorative Strips/Emblems",
+        "categoryId": "100001",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100740/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100806",
+        "name": "Brake Caliper",
+        "categoryId": "100006",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100806/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100630",
+        "name": "Disc Brake",
+        "categoryId": "100006",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100630/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100007",
+    "name": "Cooling System",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100105",
+        "name": "Radiator/Oil Cooler",
+        "categoryId": "100007",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100105/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100010",
+    "name": "Electrics",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100352",
+        "name": "Alternator/Parts",
+        "categoryId": "100010",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100352/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104329",
+        "name": "Belt Drive",
+        "categoryId": "100002",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/104329/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100379",
+        "name": "Cylinder Head/Attachment Parts",
+        "categoryId": "100002",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100379/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104695",
+        "name": "Engine Timing",
+        "categoryId": "100002",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/104695/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100682",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100682/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100478",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100478/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100316",
+        "name": "Assembly Parts",
+        "categoryId": "100004",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100316/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100254",
+    "name": "Fuel Mixture Formation",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102795",
+        "name": "Mixture Formation",
+        "categoryId": "100254",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/102795/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100214",
+    "name": "Fuel Supply System",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100250",
+        "name": "Fuel Tank/Accessories",
+        "categoryId": "100214",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100250/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100341",
+    "name": "Interior Equipment",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104958",
+        "name": "Fastening Clips",
+        "categoryId": "100341",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/104958/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "102706",
+        "name": "Panelling",
+        "categoryId": "100341",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/102706/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104068",
+        "name": "Cooling System",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/104068/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103965",
+        "name": "Electrics",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/103965/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103836",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/103836/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104007",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/104007/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104011",
+        "name": "Frame",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/104011/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103845",
+        "name": "Fuel Mixture Formation",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/103845/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103933",
+        "name": "Spark Ignition",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/103933/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103897",
+        "name": "Suspension/Damping",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/103897/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103972",
+        "name": "Wheels/Tyres",
+        "categoryId": "103671",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/103972/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100008",
+    "name": "Spark/Glow Ignition",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100148",
+        "name": "Ignition Distributor/Parts",
+        "categoryId": "100008",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100148/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100012",
+    "name": "Steering",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100201",
+        "name": "Bellow/Seal",
+        "categoryId": "100012",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100201/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100198",
+        "name": "Joints",
+        "categoryId": "100012",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100198/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100199",
+        "name": "Steering Gear/ Pump",
+        "categoryId": "100012",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100199/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100594",
+        "name": "Steering Linkage",
+        "categoryId": "100012",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100594/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100593",
+        "name": "Steering Mounting",
+        "categoryId": "100012",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100593/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100603",
+        "name": "Tie Rod Assembly/ Parts",
+        "categoryId": "100012",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100603/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100011",
+    "name": "Suspension/Damping",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100121",
+        "name": "Shock Absorber",
+        "categoryId": "100011",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100121/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100372",
+        "name": "Suspension Parts",
+        "categoryId": "100011",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100372/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100371",
+        "name": "Suspension Strut/Shock Absorber Mount",
+        "categoryId": "100011",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100371/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100238",
+    "name": "Transmission",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100770",
+        "name": "Automatic Transmission",
+        "categoryId": "100238",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100770/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100769",
+        "name": "Manual Transmission",
+        "categoryId": "100238",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100769/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100014",
+    "name": "Wheel Drive",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100062",
+        "name": "Drive Shaft",
+        "categoryId": "100014",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/100062/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103099",
+    "name": "Wheels/Tyres",
+    "variantId": "149137",
+    "manufacturerId": "45",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103102",
+        "name": "Accessories",
+        "categoryId": "103099",
+        "variantId": "149137",
+        "manufacturerId": "45",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149137/103102/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

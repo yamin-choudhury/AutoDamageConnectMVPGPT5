@@ -1,0 +1,371 @@
+[
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100571",
+        "name": "Control Arm/Swing Arm Joint",
+        "categoryId": "100013",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100571/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100579",
+        "name": "Wheel Hub/Mounting",
+        "categoryId": "100013",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100579/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100016",
+    "name": "Belt Drive",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100441",
+        "name": "V-Ribbed Belt/Set",
+        "categoryId": "100016",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100441/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100001",
+    "name": "Body",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "101655",
+        "name": "Vehicle Front",
+        "categoryId": "100001",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/101655/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100567",
+        "name": "Windows/Mirrors",
+        "categoryId": "100001",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100567/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100806",
+        "name": "Brake Caliper",
+        "categoryId": "100006",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100806/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100630",
+        "name": "Disc Brake",
+        "categoryId": "100006",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100630/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100631",
+        "name": "Wear Indicator",
+        "categoryId": "100006",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100631/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100007",
+    "name": "Cooling System",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100108",
+        "name": "Radiator/Oil Cooler",
+        "categoryId": "100007",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100108/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104314",
+        "name": "Belt Drive",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/104314/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "105862",
+        "name": "Crankcase",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/105862/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100529",
+        "name": "Crankshaft Drive",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100529/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100375",
+        "name": "Cylinder Head/Attachment Parts",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100375/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104377",
+        "name": "Cylinders/Pistons",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/104377/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100391",
+        "name": "Engine Air Supply",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100391/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100399",
+        "name": "Engine Timing",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100399/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100233",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100233/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100488",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100488/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100321",
+        "name": "Assembly Parts",
+        "categoryId": "100004",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100321/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100872",
+        "name": "Charger",
+        "categoryId": "100004",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100872/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100046/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100318",
+        "name": "Soot/Particulate Filter",
+        "categoryId": "100004",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100318/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100598",
+        "name": "Additional Repairs",
+        "categoryId": "100019",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100598/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100597/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104082",
+        "name": "Braking System",
+        "categoryId": "103671",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/104082/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104069",
+        "name": "Cooling System",
+        "categoryId": "103671",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/104069/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104286",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/104286/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/103984/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100015",
+    "name": "Towbar/Attachment Parts",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100607",
+        "name": "Trailer Hitch",
+        "categoryId": "100015",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100607/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100018",
+    "name": "Window Cleaning",
+    "variantId": "145119",
+    "manufacturerId": "56",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100133",
+        "name": "Wiper Blade/-Rubber",
+        "categoryId": "100018",
+        "variantId": "145119",
+        "manufacturerId": "56",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/145119/100133/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

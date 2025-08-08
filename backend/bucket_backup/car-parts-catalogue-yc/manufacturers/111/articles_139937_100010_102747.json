@@ -1,0 +1,83 @@
+[
+  {
+    "id": "5637212",
+    "name": "Sensor, intake manifold pressure",
+    "partNo": "ADT374215",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "3947",
+    "productGroupId": "102747",
+    "categoryId": "100010",
+    "variantId": "139937",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5637212/model-series-id-14314/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "89421-26030",
+      "Weight [kg]": "0,017",
+      "Number of connectors": "3",
+      "Article ID:": "5637212",
+      "Article Number:": "ADT374215",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774612050",
+      "OEM Numbers SUBARU:": "22012AA230",
+      "OEM Numbers DAIHATSU:": "89421-26030",
+      "OEM Numbers TOYOTA:": "89421-26030",
+      "OEM Numbers LEXUS:": "89421-26030"
+    }
+  },
+  {
+    "id": "929292",
+    "name": "Sensor, intake manifold pressure",
+    "partNo": "106483",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "3947",
+    "productGroupId": "102747",
+    "categoryId": "100010",
+    "variantId": "139937",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/929292/model-series-id-14314/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "89421-26030",
+      "Weight [kg]": "0,017",
+      "Number of connectors": "3",
+      "Article ID:": "929292",
+      "Article Number:": "106483",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422406483",
+      "OEM Numbers SUBARU:": "22012AA230",
+      "OEM Numbers DAIHATSU:": "89421-26030",
+      "OEM Numbers TOYOTA:": "89421-26030",
+      "OEM Numbers LEXUS:": "89421-26030"
+    }
+  },
+  {
+    "id": "2767552",
+    "name": "Sensor, intake manifold pressure",
+    "partNo": "33 10 6810",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "3947",
+    "productGroupId": "102747",
+    "categoryId": "100010",
+    "variantId": "139937",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2767552/model-series-id-14314/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "89421-26030",
+      "Weight [kg]": "0,017",
+      "Number of connectors": "3",
+      "Article ID:": "2767552",
+      "Article Number:": "33 10 6810",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422806483",
+      "OEM Numbers SUBARU:": "22012AA230",
+      "OEM Numbers DAIHATSU:": "89421-26030",
+      "OEM Numbers TOYOTA:": "89421-26030",
+      "OEM Numbers LEXUS:": "89421-26030"
+    }
+  }
+]

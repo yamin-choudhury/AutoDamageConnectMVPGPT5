@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9418295",
+    "name": "Thermostat, coolant",
+    "partNo": "TH10981G1",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "25240",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9418295/model-series-id-6913/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "77",
+      "Housing Type": "without housing",
+      "Article ID:": "9418295",
+      "Article Number:": "TH10981G1",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers TALBOT:": "131731",
+      "OEM Numbers MAZDA:": "083915171A",
+      "OEM Numbers PEUGEOT:": "1337.53",
+      "OEM Numbers VOLVO:": "467015",
+      "OEM Numbers FORD:": "PP133301",
+      "OEM Numbers NISSAN:": "2120896002",
+      "OEM Numbers VW:": "2TA121113",
+      "OEM Numbers ALFA ROMEO:": "7656567",
+      "OEM Numbers SAAB:": "9336835",
+      "OEM Numbers STANDARD AUTOMOBILE:": "75621",
+      "OEM Numbers FIAT:": "7656567",
+      "OEM Numbers LANCIA:": "7656567",
+      "OEM Numbers DAIMLER:": "EBC3576",
+      "OEM Numbers JAGUAR:": "EBC3576",
+      "OEM Numbers MITSUBISHI:": "MD997606"
+    }
+  },
+  {
+    "id": "362309",
+    "name": "Thermostat, coolant",
+    "partNo": "03035",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "25240",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/362309/model-series-id-6913/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "82",
+      "Article ID:": "362309",
+      "Article Number:": "03035",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357303035",
+      "OEM Numbers MITSUBISHI:": "MD 997606",
+      "OEM Numbers VOLVO:": "273342",
+      "OEM Numbers SAAB:": "467015"
+    }
+  }
+]

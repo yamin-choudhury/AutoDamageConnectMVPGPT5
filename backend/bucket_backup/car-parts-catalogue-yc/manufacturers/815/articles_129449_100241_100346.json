@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2011240",
+    "name": "Filter, interior air",
+    "partNo": "21653031",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "129449",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2011240/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "345",
+      "Width [mm]": "221",
+      "Height [mm]": "30",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "2011240",
+      "Article Number:": "21653031",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896653031",
+      "OEM Numbers VW:": "3D0 898 644"
+    }
+  },
+  {
+    "id": "6572500",
+    "name": "Filter, interior air",
+    "partNo": "DCF231K",
+    "manufacturer": "DENSO",
+    "supplierId": "66",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "129449",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6572500/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "172",
+      "Width [mm]": "221",
+      "Height [mm]": "30",
+      "Weight [g]": "550",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "6572500",
+      "Article Number:": "DCF231K",
+      "Manufacturer:": "DENSO",
+      "EAN Numbers:": "0871761301170",
+      "OEM Numbers JAGUAR:": "3D0898644",
+      "OEM Numbers VW:": "3D2819620A",
+      "OEM Numbers BENTLEY:": "3D2819620A"
+    }
+  },
+  {
+    "id": "9971984",
+    "name": "Filter, interior air",
+    "partNo": "WG1735463",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "129449",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9971984/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "172",
+      "Width [mm]": "221",
+      "Height [mm]": "30",
+      "Weight [g]": "550",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "9971984",
+      "Article Number:": "WG1735463",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "3D2 819 620 A",
+      "OEM Numbers JAGUAR:": "3D0898644",
+      "OEM Numbers BENTLEY:": "3D2819620A"
+    }
+  }
+]

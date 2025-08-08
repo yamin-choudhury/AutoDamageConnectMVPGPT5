@@ -1,0 +1,50 @@
+[
+  {
+    "id": "30685",
+    "type": "3.5 (GSV40)",
+    "modelId": "7950",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-03-01\n                            \n                            2011-09-01",
+      "power": "200 KW / 272 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32138",
+    "type": "3.5 (GSV40)",
+    "modelId": "7950",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-03-01\n                            \n                            2011-09-01",
+      "power": "235 KW / 320 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128234",
+    "type": "3.5 TRD (GSV40)",
+    "modelId": "7950",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2011-09-01",
+      "power": "241 KW / 328 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "247090",
+    "name": "Gasket, fuel pump",
+    "partNo": "01337900",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "143",
+    "productGroupId": "100718",
+    "categoryId": "100214",
+    "variantId": "140124",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/247090/model-series-id-40652/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "8",
+      "Length [mm]": "114",
+      "Width [mm]": "66",
+      "Article ID:": "247090",
+      "Article Number:": "01337900",
+      "Manufacturer:": "AJUSA",
+      "OEM Numbers BMW:": "11128618520"
+    }
+  },
+  {
+    "id": "10205660",
+    "name": "Gasket, fuel pump",
+    "partNo": "WG2078216",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "143",
+    "productGroupId": "100718",
+    "categoryId": "100214",
+    "variantId": "140124",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10205660/model-series-id-40652/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "8",
+      "Length [mm]": "114",
+      "Width [mm]": "66",
+      "Article ID:": "10205660",
+      "Article Number:": "WG2078216",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers BMW:": "11 12 8 618 520"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "189958",
+    "name": "Clamp, exhaust system",
+    "partNo": "01.10.63",
+    "manufacturer": "IMASAF",
+    "supplierId": "191",
+    "productsId": "1056",
+    "productGroupId": "100329",
+    "categoryId": "100004",
+    "variantId": "836",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/189958/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,2",
+      "Diameter 1 [mm]": "63",
+      "Diameter 2 [mm]": "10",
+      "Article ID:": "189958",
+      "Article Number:": "01.10.63",
+      "Manufacturer:": "IMASAF",
+      "OEM Numbers FORD:": "5016051",
+      "OEM Numbers MERCEDES-BENZ:": "6394900041"
+    }
+  },
+  {
+    "id": "516762",
+    "name": "Clamp, exhaust system",
+    "partNo": "0596 6000 124",
+    "manufacturer": "NORMA",
+    "supplierId": "4923",
+    "productsId": "1056",
+    "productGroupId": "100329",
+    "categoryId": "100004",
+    "variantId": "836",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/516762/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Stainless Steel",
+      "Pipe Connector": "Spring band clamp",
+      "Technical Information Number": "W3",
+      "Clamping range from [mm]": "122",
+      "Clamping range to [mm]": "124",
+      "Article ID:": "516762",
+      "Article Number:": "0596 6000 124",
+      "Manufacturer:": "NORMA",
+      "OEM Numbers DAIMLER:": "A0019951910",
+      "OEM Numbers EVOBUS:": "A0019951910"
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "133641",
+    "type": "330 TSI",
+    "modelId": "39081",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DKVB,DBFC,DPLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133642",
+    "type": "330 TSI All-wheel Drive",
+    "modelId": "39081",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DKVB,DBFC",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133643",
+    "type": "380 TSI All-wheel Drive",
+    "modelId": "39081",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CUGA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134676",
+    "type": "280 TSI",
+    "modelId": "39081",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138874",
+    "type": "380 TSI All-wheel Drive",
+    "modelId": "39081",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-05-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140371",
+    "type": "GTE PHEV",
+    "modelId": "39081",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DUKA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-04-01",
+      "power": "155 KW / 211 PS"
+    },
+    "categories": []
+  }
+]

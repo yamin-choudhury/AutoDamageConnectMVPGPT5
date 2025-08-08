@@ -1,0 +1,117 @@
+[
+  {
+    "id": "9445632",
+    "name": "Tie Rod End",
+    "partNo": "TOTRE-008",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9445632/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "9445632",
+      "Article Number:": "TOTRE-008",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers TOYOTA:": "45046-59205",
+      "OEM Numbers SUBARU:": "45046-59205"
+    }
+  },
+  {
+    "id": "9445682",
+    "name": "Tie Rod End",
+    "partNo": "TOTRE-058",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9445682/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Article ID:": "9445682",
+      "Article Number:": "TOTRE-058",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers TOYOTA:": "45047-59145",
+      "OEM Numbers SUBARU:": "45047-59145"
+    }
+  },
+  {
+    "id": "7701683",
+    "name": "Tie Rod End",
+    "partNo": "JTE683",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7701683/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cone Pitch": "1:6",
+      "Length [mm]": "103",
+      "Cone Size [mm]": "12,5",
+      "Thread Type": "with right-hand thread",
+      "Supplementary Article/Supplementary Info": "with accessories",
+      "Thread Size 1": "M12x1,25",
+      "Thread Size 2": "M15x1,5",
+      "Article ID:": "7701683",
+      "Article Number:": "JTE683",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293757537",
+      "OEM Numbers TOYOTA:": "45046-29255",
+      "OEM Numbers LEXUS:": "45046-29255"
+    }
+  },
+  {
+    "id": "3640119",
+    "name": "Inner Tie Rod",
+    "partNo": "51266",
+    "manufacturer": "WXQP",
+    "supplierId": "6347",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3640119/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "3640119",
+      "Article Number:": "51266",
+      "Manufacturer:": "WXQP",
+      "OEM Numbers TOYOTA:": "45503-19265"
+    }
+  },
+  {
+    "id": "3640119",
+    "name": "Inner Tie Rod",
+    "partNo": "51266",
+    "manufacturer": "WXQP",
+    "supplierId": "6347",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3640119/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "3640119",
+      "Article Number:": "51266",
+      "Manufacturer:": "WXQP",
+      "OEM Numbers TOYOTA:": "45503-19265"
+    }
+  }
+]

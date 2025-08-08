@@ -1,0 +1,67 @@
+[
+  {
+    "id": "2937427",
+    "name": "Suspension Spring",
+    "partNo": "36-216215",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "119099",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2937427/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2937427",
+      "Article Number:": "36-216215",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525870099",
+      "OEM Numbers MAZDA:": "DH57-34-011D"
+    }
+  },
+  {
+    "id": "2937428",
+    "name": "Suspension Spring",
+    "partNo": "36-216222",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "119099",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2937428/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2937428",
+      "Article Number:": "36-216222",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525870100",
+      "OEM Numbers MAZDA:": "DF71-28-011B"
+    }
+  },
+  {
+    "id": "7604266",
+    "name": "Suspension Spring",
+    "partNo": "J4403033",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "119099",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7604266/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7604266",
+      "Article Number:": "J4403033",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941639284",
+      "OEM Numbers MAZDA:": "D656-34-011E"
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "5139771",
+    "name": "Interior Blower",
+    "partNo": "9.2244",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "127446",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5139771/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5139771",
+      "Article Number:": "9.2244",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320836073",
+      "OEM Numbers OPEL:": "4803882",
+      "OEM Numbers CHEVROLET:": "96440877"
+    }
+  },
+  {
+    "id": "5139772",
+    "name": "Interior Blower",
+    "partNo": "9.2244",
+    "manufacturer": "KRIOS",
+    "supplierId": "4399",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "127446",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5139772/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5139772",
+      "Article Number:": "9.2244",
+      "Manufacturer:": "KRIOS",
+      "EAN Numbers:": "803320836073",
+      "OEM Numbers OPEL:": "4803882",
+      "OEM Numbers CHEVROLET:": "96440877"
+    }
+  },
+  {
+    "id": "5139770",
+    "name": "Interior Blower",
+    "partNo": "9.2244",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "127446",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5139770/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5139770",
+      "Article Number:": "9.2244",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320836073",
+      "OEM Numbers OPEL:": "4803882",
+      "OEM Numbers CHEVROLET:": "96440877"
+    }
+  }
+]

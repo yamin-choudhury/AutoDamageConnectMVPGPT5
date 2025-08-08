@@ -1,0 +1,38 @@
+[
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "148029",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "148029",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148029/100046/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "148029",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "148029",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148029/103984/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

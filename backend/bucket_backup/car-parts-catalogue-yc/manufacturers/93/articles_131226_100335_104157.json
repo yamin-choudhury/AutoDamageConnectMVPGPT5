@@ -1,0 +1,96 @@
+[
+  {
+    "id": "3704794",
+    "name": "Switch, window regulator",
+    "partNo": "5253,215,1",
+    "manufacturer": "BINDER",
+    "supplierId": "4202",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "131226",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3704794/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Article ID:": "3704794",
+      "Article Number:": "5253,215,1",
+      "Manufacturer:": "BINDER",
+      "EAN Numbers:": "0803353354993\n0805208089443",
+      "OEM Numbers RENAULT:": "254118044R"
+    }
+  },
+  {
+    "id": "9188706",
+    "name": "Switch, window regulator",
+    "partNo": "SRN109",
+    "manufacturer": "MaxSrl",
+    "supplierId": "3937",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "131226",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9188706/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Number of connectors": "1",
+      "Number of pins": "7",
+      "Article ID:": "9188706",
+      "Article Number:": "SRN109",
+      "Manufacturer:": "MaxSrl",
+      "EAN Numbers:": "0805208089443",
+      "OEM Numbers RENAULT:": "254118044R"
+    }
+  },
+  {
+    "id": "9188722",
+    "name": "Switch, window regulator",
+    "partNo": "SRN121",
+    "manufacturer": "MaxSrl",
+    "supplierId": "3937",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "131226",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9188722/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Number of connectors": "1",
+      "Number of pins": "7",
+      "Article ID:": "9188722",
+      "Article Number:": "SRN121",
+      "Manufacturer:": "MaxSrl",
+      "EAN Numbers:": "0805208089455",
+      "OEM Numbers RENAULT:": "254113300R"
+    }
+  },
+  {
+    "id": "9188724",
+    "name": "Switch, window regulator",
+    "partNo": "SRN122",
+    "manufacturer": "MaxSrl",
+    "supplierId": "3937",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "131226",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9188724/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Number of connectors": "1",
+      "Number of pins": "7",
+      "Article ID:": "9188724",
+      "Article Number:": "SRN122",
+      "Manufacturer:": "MaxSrl",
+      "EAN Numbers:": "0805208089456",
+      "OEM Numbers RENAULT:": "254118722R"
+    }
+  }
+]

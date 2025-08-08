@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1539973",
+    "name": "Water Pump, engine cooling",
+    "partNo": "1673338380",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "133734",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1539973/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "28",
+      "Hub Length [mm]": "18",
+      "Operating Mode": "Mechanical",
+      "Shape": "Flat",
+      "Material": "Aluminium",
+      "Belt Pulley Ø [mm]": "43,4",
+      "Pulleys": "with Toothed Belt Pulley",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Water Pump Pulley Ø [mm]": "63",
+      "Seal Material": "NBR (nitrile butadiene rubber)",
+      "Article ID:": "1539973",
+      "Article Number:": "1673338380",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers VW (SVW):": "04E121600BC",
+      "OEM Numbers SKODA (SVW):": "04E121600BC",
+      "OEM Numbers AUDI:": "04E121600AL",
+      "OEM Numbers VW:": "04E121600AL",
+      "OEM Numbers AUDI (FAW):": "04E121600AL"
+    }
+  }
+]

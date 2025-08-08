@@ -1,0 +1,44 @@
+[
+  {
+    "id": "6739680",
+    "name": "Catalytic Converter",
+    "partNo": "ECDN1070TA",
+    "manufacturer": "EuroFlo",
+    "supplierId": "4941",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "34552",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6739680/model-series-id-8862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "6739680",
+      "Article Number:": "ECDN1070TA",
+      "Manufacturer:": "EuroFlo",
+      "OEM Numbers NISSAN:": "B08B21EM0B"
+    }
+  },
+  {
+    "id": "6739681",
+    "name": "Catalytic Converter",
+    "partNo": "ECDN1071TA",
+    "manufacturer": "EuroFlo",
+    "supplierId": "4941",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "34552",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6739681/model-series-id-8862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Article ID:": "6739681",
+      "Article Number:": "ECDN1071TA",
+      "Manufacturer:": "EuroFlo",
+      "OEM Numbers NISSAN:": "B08B31EM0B"
+    }
+  }
+]

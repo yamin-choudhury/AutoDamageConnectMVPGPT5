@@ -1,0 +1,34 @@
+[
+  {
+    "id": "138542",
+    "type": "0.7 AWD",
+    "modelId": "40163",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138543",
+    "type": "0.7",
+    "modelId": "40163",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  }
+]

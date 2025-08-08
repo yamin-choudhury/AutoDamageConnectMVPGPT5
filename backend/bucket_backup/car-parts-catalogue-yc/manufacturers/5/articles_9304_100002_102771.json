@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1462103",
+    "name": "Mounting, engine",
+    "partNo": "15722",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "9304",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1462103/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Weight [g]": "1642",
+      "Article ID:": "1462103",
+      "Article Number:": "15722",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205722",
+      "OEM Numbers VAG:": "6R0199555C"
+    }
+  },
+  {
+    "id": "1462105",
+    "name": "Mounting, engine",
+    "partNo": "15722",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "9304",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1462105/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Weight [g]": "1642",
+      "Article ID:": "1462105",
+      "Article Number:": "15722",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205722",
+      "OEM Numbers VAG:": "6R0199555C"
+    }
+  }
+]

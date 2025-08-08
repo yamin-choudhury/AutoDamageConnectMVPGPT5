@@ -1,0 +1,66 @@
+[
+  {
+    "id": "25894",
+    "type": "1.2 i-VTEC",
+    "modelId": "11411",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B3",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2013-04-01\n                            \n                            2018-04-01",
+      "power": "65 KW / 88 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25915",
+    "type": "1.5 i-DTEC",
+    "modelId": "11411",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "N15A1",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2013-04-01\n                            \n                            2018-04-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115463",
+    "type": "1.2 i-VTEC CNG",
+    "modelId": "11411",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B1",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2015-02-01\n                            \n                            2018-02-01",
+      "power": "64 KW / 87 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130303",
+    "type": "1.2 iVtec",
+    "modelId": "11411",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B3",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2016-04-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  }
+]

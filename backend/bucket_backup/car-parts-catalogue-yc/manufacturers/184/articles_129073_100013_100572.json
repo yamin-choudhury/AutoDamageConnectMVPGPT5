@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2978540",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "37-26544",
+    "manufacturer": "DYS",
+    "supplierId": "4135",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "129073",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2978540/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [kg]": "0,311018",
+      "Control/Trailing Arm Type": "for control arm",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "2978540",
+      "Article Number:": "37-26544",
+      "Manufacturer:": "DYS",
+      "EAN Numbers:": "843545716684",
+      "OEM Numbers KIA:": "OS08334820"
+    }
+  },
+  {
+    "id": "2565165",
+    "name": "Fastening Bolt, control arm",
+    "partNo": "301191619000",
+    "manufacturer": "MAGNETI MARELLI",
+    "supplierId": "95",
+    "productsId": "3240",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "129073",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2565165/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Article ID:": "2565165",
+      "Article Number:": "301191619000",
+      "Manufacturer:": "MAGNETI MARELLI",
+      "EAN Numbers:": "800106371317",
+      "OEM Numbers HYUNDAI:": "MB527383"
+    }
+  },
+  {
+    "id": "2565166",
+    "name": "Fastening Bolt, control arm",
+    "partNo": "301191619010",
+    "manufacturer": "MAGNETI MARELLI",
+    "supplierId": "95",
+    "productsId": "3240",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "129073",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2565166/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Article ID:": "2565166",
+      "Article Number:": "301191619010",
+      "Manufacturer:": "MAGNETI MARELLI",
+      "EAN Numbers:": "800106377718",
+      "OEM Numbers HYUNDAI:": "MR241623"
+    }
+  },
+  {
+    "id": "8631098",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "PSE10655",
+    "manufacturer": "PATRON",
+    "supplierId": "4558",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "129073",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8631098/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Upper Front Axle",
+      "Weight [kg]": "0,145",
+      "Article ID:": "8631098",
+      "Article Number:": "PSE10655",
+      "Manufacturer:": "PATRON",
+      "EAN Numbers:": "481425518719",
+      "OEM Numbers HYUNDAI:": "54453-4E000",
+      "OEM Numbers MAZDA:": "S47S-34-710"
+    }
+  },
+  {
+    "id": "3886249",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "57-11974",
+    "manufacturer": "TALOSA",
+    "supplierId": "4758",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "129073",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3886249/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [kg]": "0,311018",
+      "Control/Trailing Arm Type": "for control arm",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "3886249",
+      "Article Number:": "57-11974",
+      "Manufacturer:": "TALOSA",
+      "EAN Numbers:": "843545716684",
+      "OEM Numbers KIA:": "OS08334820"
+    }
+  }
+]

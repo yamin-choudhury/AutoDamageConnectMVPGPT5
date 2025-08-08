@@ -1,0 +1,52 @@
+[
+  {
+    "id": "959474",
+    "name": "Parts Kit, automatic transmission oil change",
+    "partNo": "1090.298.126",
+    "manufacturer": "ZF",
+    "supplierId": "68",
+    "productsId": "4921",
+    "productGroupId": "103475",
+    "categoryId": "100238",
+    "variantId": "122843",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/959474/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without oil",
+      "Alternative Repair Kit": "1090.298.127",
+      "Additionally required articles (article numbers)": "S671.090.312",
+      "Oil - manufacturer recommendation": "ZF LifeguardFluid 8",
+      "Article ID:": "959474",
+      "Article Number:": "1090.298.126",
+      "Manufacturer:": "ZF",
+      "EAN Numbers:": "405320226797",
+      "OEM Numbers VW:": "0CM 301 519"
+    }
+  },
+  {
+    "id": "959475",
+    "name": "Parts Kit, automatic transmission oil change",
+    "partNo": "1090.298.127",
+    "manufacturer": "ZF",
+    "supplierId": "68",
+    "productsId": "4921",
+    "productGroupId": "103475",
+    "categoryId": "100238",
+    "variantId": "122843",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/959475/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "7",
+      "Supplementary Article/Supplementary Info": "contains entire oil change set",
+      "Alternative Repair Kit": "1090.298.126",
+      "Specification": "ZF LifeguardFluid 8",
+      "Article ID:": "959475",
+      "Article Number:": "1090.298.127",
+      "Manufacturer:": "ZF",
+      "EAN Numbers:": "405320226798",
+      "OEM Numbers VW:": "0CM 301 519"
+    }
+  }
+]

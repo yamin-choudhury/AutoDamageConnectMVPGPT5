@@ -1,0 +1,43 @@
+[
+  {
+    "id": "5737585",
+    "name": "Fan, radiator",
+    "partNo": "APELVW5081",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "132224",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5737585/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5737585",
+      "Article Number:": "APELVW5081",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers VW:": "1K0959455EF"
+    }
+  },
+  {
+    "id": "5737584",
+    "name": "Fan, radiator",
+    "partNo": "APELVW5081",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "132224",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5737584/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "AFTERMARKET",
+      "Article ID:": "5737584",
+      "Article Number:": "APELVW5081",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers VW:": "1K0959455EF"
+    }
+  }
+]

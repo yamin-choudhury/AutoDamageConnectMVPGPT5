@@ -1,0 +1,53 @@
+[
+  {
+    "id": "7396373",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "GT359.29",
+    "manufacturer": "SNR",
+    "supplierId": "110",
+    "productsId": "308",
+    "productGroupId": "104320",
+    "categoryId": "100002",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7396373/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width 1 [mm]": "34",
+      "Outer diameter 1 [mm]": "69",
+      "Article ID:": "7396373",
+      "Article Number:": "GT359.29",
+      "Manufacturer:": "SNR",
+      "EAN Numbers:": "341352063269",
+      "OEM Numbers CITROËN:": "1926-67",
+      "OEM Numbers PEUGEOT:": "1926-67",
+      "OEM Numbers LAND ROVER:": "LR0065026",
+      "OEM Numbers FORD:": "9X2Q6K254BB"
+    }
+  },
+  {
+    "id": "7396379",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "GT359.35",
+    "manufacturer": "SNR",
+    "supplierId": "110",
+    "productsId": "308",
+    "productGroupId": "104320",
+    "categoryId": "100002",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7396379/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width 1 [mm]": "26",
+      "Outer diameter 1 [mm]": "60",
+      "Article ID:": "7396379",
+      "Article Number:": "GT359.35",
+      "Manufacturer:": "SNR",
+      "EAN Numbers:": "341352106323",
+      "OEM Numbers CITROËN:": "0829-G0",
+      "OEM Numbers PEUGEOT:": "0829-G0",
+      "OEM Numbers LAND ROVER:": "LR006526"
+    }
+  }
+]

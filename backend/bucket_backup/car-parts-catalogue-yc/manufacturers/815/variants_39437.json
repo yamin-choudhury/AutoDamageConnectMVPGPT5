@@ -1,0 +1,50 @@
+[
+  {
+    "id": "135656",
+    "type": "6.0 AWD",
+    "modelId": "39437",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DDBD",
+      "cylinder": "12",
+      "capacity": "5,950 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-12-01",
+      "power": "467 KW / 635 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139829",
+    "type": "4.0 V8 AWD",
+    "modelId": "39437",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVDA",
+      "cylinder": "8",
+      "capacity": "3,996 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-06-01",
+      "power": "404 KW / 549 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "146778",
+    "type": "6.0 GT SPEED AWD",
+    "modelId": "39437",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DDBA",
+      "cylinder": "12",
+      "capacity": "5,950 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-07-01",
+      "power": "485 KW / 659 PS"
+    },
+    "categories": []
+  }
+]

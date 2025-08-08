@@ -1,0 +1,57 @@
+[
+  {
+    "id": "2995334",
+    "name": "Bellow, steering",
+    "partNo": "37563 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "58832",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2995334/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2995334",
+      "Article Number:": "37563 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743742960",
+      "OEM Numbers AUDI:": "4E0 419 831",
+      "OEM Numbers SEAT:": "4E0 419 831",
+      "OEM Numbers SKODA:": "4E0 419 831",
+      "OEM Numbers VW:": "4E0 419 831",
+      "OEM Numbers BENTLEY:": "4E0 419 831"
+    }
+  },
+  {
+    "id": "4860933",
+    "name": "Bellow, steering",
+    "partNo": "84076",
+    "manufacturer": "SPIDAN",
+    "supplierId": "1",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "58832",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4860933/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "196",
+      "Material": "Thermoplast",
+      "Supplementary Article/Info 2": "for stainless steel cable tie",
+      "Inner diameter 1 [mm]": "22",
+      "Inner diameter 2 [mm]": "63",
+      "Article ID:": "4860933",
+      "Article Number:": "84076",
+      "Manufacturer:": "SPIDAN",
+      "EAN Numbers:": "401906442197",
+      "OEM Numbers AUDI:": "4E0419831",
+      "OEM Numbers SEAT:": "4E0419831",
+      "OEM Numbers SKODA:": "4E0419831",
+      "OEM Numbers VW:": "4E0419831"
+    }
+  }
+]

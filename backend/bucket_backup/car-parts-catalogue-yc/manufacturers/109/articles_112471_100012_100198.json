@@ -1,0 +1,48 @@
+[
+  {
+    "id": "4856760",
+    "name": "Tie Rod End",
+    "partNo": "840 0666 10",
+    "manufacturer": "FAG",
+    "supplierId": "192",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "112471",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4856760/model-series-id-14034/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M14x1,5",
+      "Cone Size [mm]": "12,6",
+      "Article ID:": "4856760",
+      "Article Number:": "840 0666 10",
+      "Manufacturer:": "FAG",
+      "EAN Numbers:": "401487042741",
+      "OEM Numbers SUZUKI:": "4881079000"
+    }
+  },
+  {
+    "id": "4856761",
+    "name": "Tie Rod End",
+    "partNo": "840 0667 10",
+    "manufacturer": "FAG",
+    "supplierId": "192",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "112471",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4856761/model-series-id-14034/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M14x1,5",
+      "Cone Size [mm]": "12,6",
+      "Article ID:": "4856761",
+      "Article Number:": "840 0667 10",
+      "Manufacturer:": "FAG",
+      "EAN Numbers:": "401487043920",
+      "OEM Numbers SUZUKI:": "4882079000"
+    }
+  }
+]

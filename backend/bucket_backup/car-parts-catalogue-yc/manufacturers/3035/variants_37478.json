@@ -1,0 +1,34 @@
+[
+  {
+    "id": "125086",
+    "type": "3.0 All-wheel Drive",
+    "modelId": "37478",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CREB",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-10-01",
+      "power": "220 KW / 299 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125087",
+    "type": "2.0",
+    "modelId": "37478",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUHA,DMJA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-10-01",
+      "power": "165 KW / 224 PS"
+    },
+    "categories": []
+  }
+]

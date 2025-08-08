@@ -1,0 +1,67 @@
+[
+  {
+    "id": "620636",
+    "name": "Mounting, engine",
+    "partNo": "0812-G11F",
+    "manufacturer": "ASVA",
+    "supplierId": "4631",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "30814",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/620636/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Article ID:": "620636",
+      "Article Number:": "0812-G11F",
+      "Manufacturer:": "ASVA",
+      "OEM Numbers SUBARU:": "41022-FA001"
+    }
+  },
+  {
+    "id": "620639",
+    "name": "Mounting, engine",
+    "partNo": "0812-G11R",
+    "manufacturer": "ASVA",
+    "supplierId": "4631",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "30814",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/620639/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Article ID:": "620639",
+      "Article Number:": "0812-G11R",
+      "Manufacturer:": "ASVA",
+      "OEM Numbers SUBARU:": "41040-FE000"
+    }
+  },
+  {
+    "id": "620640",
+    "name": "Mounting, engine",
+    "partNo": "0812-G11RAT",
+    "manufacturer": "ASVA",
+    "supplierId": "4631",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "30814",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/620640/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Fully Automatic",
+      "for OE number": "41022-AE121",
+      "Fitting Position": "Rear",
+      "Article ID:": "620640",
+      "Article Number:": "0812-G11RAT",
+      "Manufacturer:": "ASVA",
+      "OEM Numbers SUBARU:": "41022-AE121"
+    }
+  }
+]

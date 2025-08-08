@@ -1,0 +1,46 @@
+[
+  {
+    "id": "2684932",
+    "name": "Cover, bumper",
+    "partNo": "316 27 556 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "20",
+    "productGroupId": "100187",
+    "categoryId": "100001",
+    "variantId": "143386",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2684932/model-series-id-41794/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front and Rear",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2684932",
+      "Article Number:": "316 27 556 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers CITROËN/PEUGEOT:": "16 776 050 XT"
+    }
+  },
+  {
+    "id": "2684935",
+    "name": "Cover, bumper",
+    "partNo": "316 27 559 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "20",
+    "productGroupId": "100187",
+    "categoryId": "100001",
+    "variantId": "143386",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2684935/model-series-id-41794/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2684935",
+      "Article Number:": "316 27 559 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers CITROËN/PEUGEOT:": "16 776 049 XT"
+    }
+  }
+]

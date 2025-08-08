@@ -1,0 +1,178 @@
+[
+  {
+    "id": "5862",
+    "type": "2.2 CDTi FWD",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 22 DM",
+      "cylinder": "4",
+      "capacity": "2,231 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2010-12-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "5863",
+    "type": "2.2 CDTi 4x4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 22 DM",
+      "cylinder": "4",
+      "capacity": "2,231 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2010-12-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "5864",
+    "type": "2.2 CDTi 4x4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 22 DMH",
+      "cylinder": "4",
+      "capacity": "2,231 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2010-12-01",
+      "power": "135 KW / 184 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "7214",
+    "type": "2.4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 24 XE,A 24 XF",
+      "cylinder": "4",
+      "capacity": "2,384 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-12-01\n                            \n                            2015-04-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "7217",
+    "type": "2.4 4x4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 24 XE,A 24 XF",
+      "cylinder": "4",
+      "capacity": "2,384 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-12-01\n                            \n                            2015-04-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19911",
+    "type": "2.4 4x4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 24 XE",
+      "cylinder": "4",
+      "capacity": "2,405 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-08-01\n                            \n                            2015-04-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19913",
+    "type": "2.0 CDTI 4x4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 20 DMH",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-08-01\n                            \n                            2015-04-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126263",
+    "type": "2.4 LPG 4x4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 24 XE",
+      "cylinder": "4",
+      "capacity": "2,405 CCM / 2.4 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2006-08-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126264",
+    "type": "2.4",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 24 XE",
+      "cylinder": "4",
+      "capacity": "2,405 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-08-01\n                            \n                            2015-04-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127445",
+    "type": "2.0 CDTi",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 20 DM",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-08-01\n                            \n                            2015-04-01",
+      "power": "93 KW / 126 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127446",
+    "type": "2.0 CDTI",
+    "modelId": "5624",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 20 DMH",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-08-01\n                            \n                            2015-04-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

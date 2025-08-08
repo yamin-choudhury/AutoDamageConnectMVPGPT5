@@ -1,0 +1,56 @@
+[
+  {
+    "id": "5632754",
+    "name": "Filter, interior air",
+    "partNo": "ADR162514",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "138192",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5632754/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "215",
+      "Width [mm]": "213",
+      "Height [mm]": "25",
+      "Weight [kg]": "0,17",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "5632754",
+      "Article Number:": "ADR162514",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006324467",
+      "OEM Numbers RENAULT:": "27 27 799 86R",
+      "OEM Numbers SMART:": "A453 835 07 00"
+    }
+  },
+  {
+    "id": "3475140",
+    "name": "Filter, interior air",
+    "partNo": "48511",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "138192",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3475140/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "215",
+      "Width [mm]": "213",
+      "Height [mm]": "25",
+      "Weight [kg]": "0,17",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "3475140",
+      "Article Number:": "48511",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781648511",
+      "OEM Numbers RENAULT:": "27 27 799 86R",
+      "OEM Numbers SMART:": "A453 835 07 00"
+    }
+  }
+]

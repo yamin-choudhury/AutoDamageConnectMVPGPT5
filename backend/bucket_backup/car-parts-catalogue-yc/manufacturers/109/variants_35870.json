@@ -1,0 +1,50 @@
+[
+  {
+    "id": "54454",
+    "type": "2.5",
+    "modelId": "35870",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "QR25DE",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01\n                            \n                            2012-12-01",
+      "power": "113 KW / 154 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54455",
+    "type": "4.0",
+    "modelId": "35870",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ40DE",
+      "cylinder": "6",
+      "capacity": "3,954 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01\n                            \n                            2011-12-01",
+      "power": "195 KW / 265 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54456",
+    "type": "4.0 4WD",
+    "modelId": "35870",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ40DE",
+      "cylinder": "6",
+      "capacity": "3,954 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-09-01\n                            \n                            2011-12-01",
+      "power": "195 KW / 265 PS"
+    },
+    "categories": []
+  }
+]

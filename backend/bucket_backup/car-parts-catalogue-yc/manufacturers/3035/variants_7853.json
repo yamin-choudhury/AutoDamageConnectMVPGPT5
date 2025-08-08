@@ -1,0 +1,50 @@
+[
+  {
+    "id": "29857",
+    "type": "1.6",
+    "modelId": "7853",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CPJA,CLSA,CFNA,CDEA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2008-04-01\n                            \n                            2012-08-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "29858",
+    "type": "2.0",
+    "modelId": "7853",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CENA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-04-01\n                            \n                            2012-08-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32979",
+    "type": "1.4 TSI",
+    "modelId": "7853",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CFB,CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01\n                            \n                            2013-12-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  }
+]

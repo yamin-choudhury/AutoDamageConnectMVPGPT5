@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1595873",
+    "name": "Shaft Seal, differential",
+    "partNo": "174323",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "127977",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1595873/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Height [mm]": "9,4",
+      "Weight [kg]": "0,019",
+      "Material": "ACM (Polyacrylate)",
+      "Inner diameter [mm]": "48",
+      "Outer diameter [mm]": "65",
+      "Article ID:": "1595873",
+      "Article Number:": "174323",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422474323",
+      "OEM Numbers VOLVO:": "9143879",
+      "OEM Numbers JAGUAR:": "J9C 7797",
+      "OEM Numbers LAND ROVER:": "LR003154"
+    }
+  },
+  {
+    "id": "2763505",
+    "name": "Shaft Seal, differential",
+    "partNo": "33 10 2128",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "127977",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2763505/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Height [mm]": "9,4",
+      "Weight [kg]": "0,019",
+      "Material": "ACM (Polyacrylate)",
+      "Inner diameter [mm]": "48",
+      "Outer diameter [mm]": "65",
+      "Article ID:": "2763505",
+      "Article Number:": "33 10 2128",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422874323",
+      "OEM Numbers VOLVO:": "9143879",
+      "OEM Numbers JAGUAR:": "J9C 7797",
+      "OEM Numbers LAND ROVER:": "LR003154"
+    }
+  }
+]

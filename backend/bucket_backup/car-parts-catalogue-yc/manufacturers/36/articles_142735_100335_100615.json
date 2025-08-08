@@ -1,0 +1,83 @@
+[
+  {
+    "id": "767780",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "1.810.221",
+    "manufacturer": "EPS",
+    "supplierId": "4005",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "142735",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/767780/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "767780",
+      "Article Number:": "1.810.221",
+      "Manufacturer:": "EPS",
+      "EAN Numbers:": "801251022554",
+      "OEM Numbers FORD:": "4M5T-7C534-AA",
+      "OEM Numbers FORD USA:": "4M5T-7C534-AA",
+      "OEM Numbers VOLVO:": "8691593",
+      "OEM Numbers ASTON MARTIN:": "4G43-37-10016",
+      "OEM Numbers MAZDA:": "BS1A-66-49Y",
+      "OEM Numbers LAND ROVER:": "LR000369"
+    }
+  },
+  {
+    "id": "4323347",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "7.1221",
+    "manufacturer": "FACET",
+    "supplierId": "159",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "142735",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4323347/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "4323347",
+      "Article Number:": "7.1221",
+      "Manufacturer:": "FACET",
+      "EAN Numbers:": "801251002554",
+      "OEM Numbers FORD:": "4M5T-7C534-AA",
+      "OEM Numbers FORD USA:": "4M5T-7C534-AA",
+      "OEM Numbers VOLVO:": "8691593",
+      "OEM Numbers ASTON MARTIN:": "4G43-37-10016",
+      "OEM Numbers MAZDA:": "BS1A-66-49Y",
+      "OEM Numbers LAND ROVER:": "LR000369"
+    }
+  },
+  {
+    "id": "3612385",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "510 221",
+    "manufacturer": "KW",
+    "supplierId": "4006",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "142735",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3612385/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "3612385",
+      "Article Number:": "510 221",
+      "Manufacturer:": "KW",
+      "EAN Numbers:": "801251012554",
+      "OEM Numbers FORD:": "4M5T-7C534-AA",
+      "OEM Numbers FORD USA:": "4M5T-7C534-AA",
+      "OEM Numbers VOLVO:": "8691593",
+      "OEM Numbers ASTON MARTIN:": "4G43-37-10016",
+      "OEM Numbers MAZDA:": "BS1A-66-49Y",
+      "OEM Numbers LAND ROVER:": "LR000369"
+    }
+  }
+]

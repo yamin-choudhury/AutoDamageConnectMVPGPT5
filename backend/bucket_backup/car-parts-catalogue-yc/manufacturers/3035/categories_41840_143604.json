@@ -1,0 +1,335 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100857",
+        "name": "Floor Mats",
+        "categoryId": "100733",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100857/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100571",
+        "name": "Control Arm/Swing Arm Joint",
+        "categoryId": "100013",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100571/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100581",
+        "name": "Joints",
+        "categoryId": "100013",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100581/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100577",
+        "name": "Stabiliser Bar/Fastening Parts",
+        "categoryId": "100013",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100577/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100031",
+        "name": "Drum Brake",
+        "categoryId": "100006",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100031/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100010",
+    "name": "Electrics",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100444",
+        "name": "Additional Headlight/Parts",
+        "categoryId": "100010",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100444/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100384",
+        "name": "Engine Air Supply",
+        "categoryId": "100002",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100384/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100470",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100046/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100005",
+    "name": "Filters",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100260",
+        "name": "Air Filter",
+        "categoryId": "100005",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100260/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100263",
+        "name": "Cabin Air Filter",
+        "categoryId": "100005",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100263/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100261",
+        "name": "Fuel Filter",
+        "categoryId": "100005",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100261/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100259",
+        "name": "Oil Filter",
+        "categoryId": "100005",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100259/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100214",
+    "name": "Fuel Supply System",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100253",
+        "name": "Fuel Filter/Housing",
+        "categoryId": "100214",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100253/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100241",
+    "name": "Heating/Ventilation",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100346",
+        "name": "Cabin Air Filter",
+        "categoryId": "100241",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100346/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100341",
+    "name": "Interior Equipment",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102692",
+        "name": "Floor Mats",
+        "categoryId": "100341",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/102692/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100598",
+        "name": "Additional Repairs",
+        "categoryId": "100019",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100597/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104083",
+        "name": "Braking System",
+        "categoryId": "103671",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/104083/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/103984/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103780",
+        "name": "Filters",
+        "categoryId": "103671",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/103780/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100012",
+    "name": "Steering",
+    "variantId": "143604",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100198",
+        "name": "Joints",
+        "categoryId": "100012",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100198/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100594",
+        "name": "Steering Linkage",
+        "categoryId": "100012",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100594/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100603",
+        "name": "Tie Rod Assembly/ Parts",
+        "categoryId": "100012",
+        "variantId": "143604",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/143604/100603/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "7783427",
+    "name": "Inner Tie Rod",
+    "partNo": "KI-AX-10103",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "21841",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7783427/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Left",
+      "Thread Type": "with right-hand thread",
+      "Packing Type": "Box",
+      "Packaging length [cm]": "31,5",
+      "Packaging width [cm]": "5",
+      "Packaging height [cm]": "5",
+      "Article ID:": "7783427",
+      "Article Number:": "KI-AX-10103",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "404419759933",
+      "OEM Numbers KIA:": "577242G010"
+    }
+  },
+  {
+    "id": "7783542",
+    "name": "Tie Rod End",
+    "partNo": "KI-ES-8925",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "21841",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7783542/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Left",
+      "Packing Type": "Box",
+      "paired article number": "KI-ES-8926",
+      "Packaging length [cm]": "26,5",
+      "Packaging width [cm]": "15,5",
+      "Packaging height [cm]": "8,5",
+      "Article ID:": "7783542",
+      "Article Number:": "KI-ES-8925",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "404419757429",
+      "OEM Numbers KIA:": "568202G000"
+    }
+  },
+  {
+    "id": "7783543",
+    "name": "Tie Rod End",
+    "partNo": "KI-ES-8926",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "21841",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7783543/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Packing Type": "Box",
+      "paired article number": "KI-ES-8925",
+      "Packaging length [cm]": "26,5",
+      "Packaging width [cm]": "15,5",
+      "Packaging height [cm]": "8,5",
+      "Article ID:": "7783543",
+      "Article Number:": "KI-ES-8926",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "404419757430",
+      "OEM Numbers KIA:": "568202G900"
+    }
+  }
+]

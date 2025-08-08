@@ -1,0 +1,254 @@
+[
+  {
+    "id": "100400",
+    "name": "Axle Drive",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100415",
+        "name": "Differential",
+        "categoryId": "100400",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100415/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100416",
+        "name": "Transfer Case",
+        "categoryId": "100400",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100416/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100533",
+        "name": "Crankcase",
+        "categoryId": "100002",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100533/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100374",
+        "name": "Cylinder Head/Attachment Parts",
+        "categoryId": "100002",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100374/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100384",
+        "name": "Engine Air Supply",
+        "categoryId": "100002",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100384/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100401",
+        "name": "Engine Timing",
+        "categoryId": "100002",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100401/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100225",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100225/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100470",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100470/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100046/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100005",
+    "name": "Filters",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100260",
+        "name": "Air Filter",
+        "categoryId": "100005",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100260/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100263",
+        "name": "Cabin Air Filter",
+        "categoryId": "100005",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100263/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100261",
+        "name": "Fuel Filter",
+        "categoryId": "100005",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100261/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100259",
+        "name": "Oil Filter",
+        "categoryId": "100005",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100259/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100214",
+    "name": "Fuel Supply System",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100253",
+        "name": "Fuel Filter/Housing",
+        "categoryId": "100214",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100253/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100241",
+    "name": "Heating/Ventilation",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100346",
+        "name": "Cabin Air Filter",
+        "categoryId": "100241",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100346/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100598",
+        "name": "Additional Repairs",
+        "categoryId": "100019",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100598/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/100597/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "144658",
+    "manufacturerId": "2859",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104291",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/104291/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/103984/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103780",
+        "name": "Filters",
+        "categoryId": "103671",
+        "variantId": "144658",
+        "manufacturerId": "2859",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144658/103780/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "7751656",
+    "name": "Brake Shoe Set",
+    "partNo": "K9000",
+    "manufacturer": "MK Kashiyama",
+    "supplierId": "6103",
+    "productsId": "70",
+    "productGroupId": "104083",
+    "categoryId": "103671",
+    "variantId": "140720",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7751656/model-series-id-40864/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "5320060K00",
+      "Fitting Position": "Rear Axle",
+      "Width [mm]": "40",
+      "Radius [mm]": "127",
+      "Article ID:": "7751656",
+      "Article Number:": "K9000",
+      "Manufacturer:": "MK Kashiyama",
+      "OEM Numbers SUZUKI:": "5320060K00000"
+    }
+  },
+  {
+    "id": "8288790",
+    "name": "Brake Pad Set, disc brake",
+    "partNo": "NP1084",
+    "manufacturer": "NISSHINBO",
+    "supplierId": "4990",
+    "productsId": "402",
+    "productGroupId": "104083",
+    "categoryId": "103671",
+    "variantId": "140720",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8288790/model-series-id-40864/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "14,6",
+      "Width [mm]": "126,9",
+      "Height [mm]": "49,4",
+      "Wear Warning Contact": "prepared for wear indicator",
+      "WVA Number": "22297",
+      "Packaging length [cm]": "15,2",
+      "Packaging width [cm]": "8,8",
+      "Packaging height [cm]": "8,4",
+      "Article ID:": "8288790",
+      "Article Number:": "NP1084",
+      "Manufacturer:": "NISSHINBO",
+      "EAN Numbers:": "426048092469",
+      "OEM Numbers TOYOTA:": "04465BZ190",
+      "OEM Numbers DAIHATSU:": "0449187Z01001",
+      "OEM Numbers SUZUKI:": "5520061J10000"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1637299",
+    "name": "V-Ribbed Belt",
+    "partNo": "180755",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "305",
+    "productGroupId": "104309",
+    "categoryId": "100002",
+    "variantId": "142718",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1637299/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1102",
+      "Weight [kg]": "0,102",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Number of ribs": "6",
+      "Alternator type": "For Starter-Generators",
+      "Article ID:": "1637299",
+      "Article Number:": "180755",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422480755",
+      "OEM Numbers LAND ROVER:": "LR125406"
+    }
+  },
+  {
+    "id": "2768428",
+    "name": "V-Ribbed Belt",
+    "partNo": "33 10 7899",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "305",
+    "productGroupId": "104309",
+    "categoryId": "100002",
+    "variantId": "142718",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2768428/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1102",
+      "Weight [kg]": "0,102",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Number of ribs": "6",
+      "Alternator type": "For Starter-Generators",
+      "Article ID:": "2768428",
+      "Article Number:": "33 10 7899",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422880755",
+      "OEM Numbers LAND ROVER:": "LR125406"
+    }
+  }
+]

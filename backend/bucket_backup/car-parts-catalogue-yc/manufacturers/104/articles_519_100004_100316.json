@@ -1,0 +1,48 @@
+[
+  {
+    "id": "4756290",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 11 3264",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "519",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756290/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4756290",
+      "Article Number:": "82 11 3264",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258838032",
+      "OEM Numbers VW:": "(7N0.254.200 X)",
+      "OEM Numbers SEAT:": "(7N0.254.200 X)"
+    }
+  },
+  {
+    "id": "4756500",
+    "name": "Mounting Kit, exhaust pipe",
+    "partNo": "82 11 9181",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1395",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "519",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756500/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4756500",
+      "Article Number:": "82 11 9181",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258834002",
+      "OEM Numbers VW:": "(7N0.253.095 C)",
+      "OEM Numbers AUDI:": "(1K0.254.307 K)",
+      "OEM Numbers SEAT:": "(7N0.253.095 C)",
+      "OEM Numbers SKODA:": "(1K0.254.307 K)"
+    }
+  }
+]

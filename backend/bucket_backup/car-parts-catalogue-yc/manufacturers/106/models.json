@@ -1,0 +1,651 @@
+[
+  {
+    "id": "268",
+    "name": "SKODA 100",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/268/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-01-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1814",
+    "name": "SKODA 1000MB (710, 990)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1814/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-09-01",
+      "toDate": "1970-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3992",
+    "name": "SKODA 105,120 (744)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3992/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-02-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1816",
+    "name": "SKODA 110",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1816/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-12-01",
+      "toDate": "1982-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2085",
+    "name": "SKODA 110 Coupe",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2085/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-07-01",
+      "toDate": "1982-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3993",
+    "name": "SKODA 1100MB (715)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3993/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-01-01",
+      "toDate": "1970-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10126",
+    "name": "SKODA CITIGO (NF1)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-10-01",
+      "toDate": "2019-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40839",
+    "name": "SKODA E-CITIGO (NE1)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40839/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42681",
+    "name": "SKODA ENYAQ iV Coupe (5AC)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42681/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41279",
+    "name": "SKODA ENYAQ iV SUV (5AZ)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41279/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1817",
+    "name": "SKODA ESTELLE",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1817/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-02-01",
+      "toDate": "1991-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "272",
+    "name": "SKODA ESTELLE (742)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/272/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-08-01",
+      "toDate": "1990-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4383",
+    "name": "SKODA FABIA I (6Y2)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-08-01",
+      "toDate": "2008-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4727",
+    "name": "SKODA FABIA I Combi (6Y5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4727/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-04-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5009",
+    "name": "SKODA FABIA I Praktik (6Y5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5009/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4777",
+    "name": "SKODA FABIA I Saloon (6Y3)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4777/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-10-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6363",
+    "name": "SKODA FABIA II (542)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-12-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6395",
+    "name": "SKODA FABIA II Combi (545)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6395/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13331",
+    "name": "SKODA FABIA III (NJ3)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13331/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": "2021-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13332",
+    "name": "SKODA FABIA III Estate (NJ5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13332/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42133",
+    "name": "SKODA FABIA IV (PJ3)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42133/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "398",
+    "name": "SKODA FAVORIT (781)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/398/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-05-01",
+      "toDate": "1994-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41769",
+    "name": "SKODA FAVORIT Estate Van (135GK)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41769/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-01-01",
+      "toDate": "1995-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "426",
+    "name": "SKODA FAVORIT Forman (785)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/426/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-06-01",
+      "toDate": "1995-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4074",
+    "name": "SKODA FAVORIT Pickup (787)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4074/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-06-01",
+      "toDate": "1997-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1319",
+    "name": "SKODA FELICIA   (6U1)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1319/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-10-01",
+      "toDate": "1998-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1480",
+    "name": "SKODA FELICIA   Estate (6U5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1480/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-07-01",
+      "toDate": "1998-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3994",
+    "name": "SKODA FELICIA   Pickup (6UF, 6U7)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3994/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2002-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38756",
+    "name": "SKODA FELICIA Cube Van (6U5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38756/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-11-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4075",
+    "name": "SKODA FELICIA Mk II (6U1)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4075/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2001-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4076",
+    "name": "SKODA FELICIA Mk II Estate (6U5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4076/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2001-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39796",
+    "name": "SKODA KAMIQ (NW4)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39796/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38149",
+    "name": "SKODA KAROQ (NU7, ND7)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38149/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37164",
+    "name": "SKODA KODIAQ (NS7, NV7, NS6)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37164/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42384",
+    "name": "SKODA KUSHAQ SUV (PA1)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42384/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1815",
+    "name": "SKODA OCTAVIA",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1815/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1959-04-01",
+      "toDate": "1971-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1904",
+    "name": "SKODA OCTAVIA I (1U2)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1904/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3560",
+    "name": "SKODA OCTAVIA I Combi (1U5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3560/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-07-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39014",
+    "name": "SKODA OCTAVIA I Estate Van (1U5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39014/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2010-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5120",
+    "name": "SKODA OCTAVIA II (1Z3)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5120/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-02-01",
+      "toDate": "2013-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5162",
+    "name": "SKODA OCTAVIA II Combi (1Z5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5162/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-02-01",
+      "toDate": "2013-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11195",
+    "name": "SKODA OCTAVIA III (5E3, NL3, NR3)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11195/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-11-01",
+      "toDate": "2021-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11196",
+    "name": "SKODA OCTAVIA III Combi (5E5, 5E6)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11196/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-11-01",
+      "toDate": "2020-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40538",
+    "name": "SKODA OCTAVIA IV (NX3, NN3)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40538/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40412",
+    "name": "SKODA OCTAVIA IV Combi (NX5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40412/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "23",
+    "name": "SKODA RAPID (120G, 130G, 135G)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/23/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-02-01",
+      "toDate": "1991-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10006",
+    "name": "SKODA RAPID (NA2)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10006/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10587",
+    "name": "SKODA RAPID (NH3, NK3, NK6)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10587/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11519",
+    "name": "SKODA RAPID Spaceback (NH1)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11519/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": "2019-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5507",
+    "name": "SKODA ROOMSTER (5J7)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5507/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2015-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6412",
+    "name": "SKODA ROOMSTER Praktik (5J)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6412/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2015-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39378",
+    "name": "SKODA SCALA (NW1)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39378/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42789",
+    "name": "SKODA SLAVIA Saloon (PB2)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42789/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4837",
+    "name": "SKODA SUPERB I (3U4)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4837/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-12-01",
+      "toDate": "2008-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7588",
+    "name": "SKODA SUPERB II (3T4)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7588/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-03-01",
+      "toDate": "2015-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8495",
+    "name": "SKODA SUPERB II Estate (3T5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8495/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-10-01",
+      "toDate": "2015-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14018",
+    "name": "SKODA SUPERB III (3V3)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14018/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14382",
+    "name": "SKODA SUPERB III Estate (3V5)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14382/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8486",
+    "name": "SKODA YETI (5L)",
+    "manufacturerId": "106",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8486/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-05-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  }
+]

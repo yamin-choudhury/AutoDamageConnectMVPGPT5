@@ -1,0 +1,66 @@
+[
+  {
+    "id": "122723",
+    "type": "0.7",
+    "modelId": "37072",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124515",
+    "type": "0.7 All-wheel Drive",
+    "modelId": "37072",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124516",
+    "type": "0.7 All-wheel Drive",
+    "modelId": "37072",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A-T",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124517",
+    "type": "0.7",
+    "modelId": "37072",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A-T",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "758255",
+    "name": "Condenser, air conditioning",
+    "partNo": "1.31.3747.PD",
+    "manufacturer": "REACH",
+    "supplierId": "4020",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "420",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/758255/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "12,8",
+      "Outer diameter [mm]": "8,6",
+      "Supplementary Article/Info 2": "with dryer",
+      "Core Length [mm]": "638",
+      "Core Width [mm]": "408",
+      "Core Depth [mm]": "16",
+      "Article ID:": "758255",
+      "Article Number:": "1.31.3747.PD",
+      "Manufacturer:": "REACH",
+      "OEM Numbers MITSUBISHI:": "7812A030"
+    }
+  },
+  {
+    "id": "758256",
+    "name": "Condenser, air conditioning",
+    "partNo": "1.31.3747.PDH",
+    "manufacturer": "REACH",
+    "supplierId": "4020",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "420",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/758256/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "13",
+      "Outer diameter [mm]": "8,5",
+      "Supplementary Article/Info 2": "with dryer",
+      "Core Length [mm]": "635",
+      "Core Width [mm]": "408",
+      "Core Depth [mm]": "16",
+      "Article ID:": "758256",
+      "Article Number:": "1.31.3747.PDH",
+      "Manufacturer:": "REACH",
+      "OEM Numbers CITROËN:": "6455HP",
+      "OEM Numbers PEUGEOT:": "6455HP",
+      "OEM Numbers MITSUBISHI:": "7812A030"
+    }
+  },
+  {
+    "id": "5728656",
+    "name": "Condenser, air conditioning",
+    "partNo": "APCDCI5050",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "420",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5728656/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "AFTERMARKET",
+      "Article ID:": "5728656",
+      "Article Number:": "APCDCI5050",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers CITROËN:": "7812A204"
+    }
+  }
+]

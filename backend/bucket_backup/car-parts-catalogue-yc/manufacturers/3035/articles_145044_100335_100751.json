@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9193315",
+    "name": "Window Regulator",
+    "partNo": "SS064334H-FL",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "145044",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9193315/model-series-id-42140/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Left",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "with comfort function",
+      "Window Regulator": "Double Rail Window Lift",
+      "Number of pins": "0",
+      "Article ID:": "9193315",
+      "Article Number:": "SS064334H-FL",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW (SVW):": "3CG837461"
+    }
+  },
+  {
+    "id": "9193316",
+    "name": "Window Regulator",
+    "partNo": "SS064334H-FR",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "145044",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9193316/model-series-id-42140/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "with comfort function",
+      "Window Regulator": "Double Rail Window Lift",
+      "Number of pins": "0",
+      "Article ID:": "9193316",
+      "Article Number:": "SS064334H-FR",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW (SVW):": "3CG837462"
+    }
+  }
+]

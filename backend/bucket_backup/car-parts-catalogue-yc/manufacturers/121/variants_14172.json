@@ -1,0 +1,162 @@
+[
+  {
+    "id": "113217",
+    "type": "2.0 TSI",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CFPA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-09-01\n                            \n                            2016-10-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113218",
+    "type": "2.0 TDI",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CDBA,CNFA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2013-10-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113219",
+    "type": "2.0 TDI",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CNFB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2016-10-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113220",
+    "type": "2.0 TDI",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CDCA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2012-08-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113221",
+    "type": "2.0 TDI 4motion",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CDCA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2012-08-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113222",
+    "type": "2.0 BiTDI",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CNEA,CSHA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2019-07-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113223",
+    "type": "2.0 BiTDI 4motion",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CNEA,CSHA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2019-07-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117767",
+    "type": "2.0 TDI 4motion",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "CNFB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2016-10-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134896",
+    "type": "3.0 TDI 4motion",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "DDXE",
+      "cylinder": "6",
+      "capacity": "2,967 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2018-05-01",
+      "power": "190 KW / 258 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136903",
+    "type": "3.0 TDI 4motion",
+    "modelId": "14172",
+    "manufacturerId": "121",
+    "url": "",
+    "specs": {
+      "engineCode": "DDXB",
+      "cylinder": "6",
+      "capacity": "2,967 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2016-06-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  }
+]

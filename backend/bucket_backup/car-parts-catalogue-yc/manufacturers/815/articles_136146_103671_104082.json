@@ -1,0 +1,53 @@
+[
+  {
+    "id": "9588364",
+    "name": "Brake Disc",
+    "partNo": "VFX47361",
+    "manufacturer": "SHW Performance",
+    "supplierId": "6933",
+    "productsId": "82",
+    "productGroupId": "104082",
+    "categoryId": "103671",
+    "variantId": "136146",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9588364/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Brake Disc Type": "Internally Vented",
+      "Brake Disc Thickness [mm]": "38",
+      "Outer diameter [mm]": "399,4",
+      "Article ID:": "9588364",
+      "Article Number:": "VFX47361",
+      "Manufacturer:": "SHW Performance",
+      "EAN Numbers:": "004854488657",
+      "OEM Numbers BENTLEY:": "4M0615301AR"
+    }
+  },
+  {
+    "id": "9640527",
+    "name": "Brake Disc",
+    "partNo": "VRX47362",
+    "manufacturer": "SHW Performance",
+    "supplierId": "6933",
+    "productsId": "82",
+    "productGroupId": "104082",
+    "categoryId": "103671",
+    "variantId": "136146",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9640527/model-series-id-14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Brake Disc Type": "Internally Vented",
+      "Brake Disc Thickness [mm]": "30",
+      "Outer diameter [mm]": "380",
+      "Article ID:": "9640527",
+      "Article Number:": "VRX47362",
+      "Manufacturer:": "SHW Performance",
+      "EAN Numbers:": "004854488658",
+      "OEM Numbers BENTLEY:": "4M0615601N",
+      "OEM Numbers AUDI:": "4M0615601N"
+    }
+  }
+]

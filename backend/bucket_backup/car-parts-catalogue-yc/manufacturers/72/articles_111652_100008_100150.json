@@ -1,0 +1,138 @@
+[
+  {
+    "id": "5503083",
+    "name": "Ignition Coil",
+    "partNo": "A32-70-0033",
+    "manufacturer": "ACKOJA",
+    "supplierId": "4364",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "111652",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5503083/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Weight [kg]": "0,225",
+      "Number of pins": "4",
+      "Article ID:": "5503083",
+      "Article Number:": "A32-70-0033",
+      "Manufacturer:": "ACKOJA",
+      "EAN Numbers:": "406237503433",
+      "OEM Numbers MAZDA:": "PE20-18100-A"
+    }
+  },
+  {
+    "id": "5503083",
+    "name": "Ignition Coil",
+    "partNo": "A32-70-0033",
+    "manufacturer": "ACKOJA",
+    "supplierId": "4364",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "111652",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5503083/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Weight [kg]": "0,225",
+      "Number of pins": "4",
+      "Article ID:": "5503083",
+      "Article Number:": "A32-70-0033",
+      "Manufacturer:": "ACKOJA",
+      "EAN Numbers:": "406237503433",
+      "OEM Numbers MAZDA:": "PE20-18100-A"
+    }
+  },
+  {
+    "id": "5626384",
+    "name": "Ignition Coil",
+    "partNo": "ADM51498",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "111652",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5626384/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,229",
+      "Number of connectors": "4",
+      "Article ID:": "5626384",
+      "Article Number:": "ADM51498",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327340",
+      "OEM Numbers MAZDA:": "PE20-18-100A"
+    }
+  },
+  {
+    "id": "5626384",
+    "name": "Ignition Coil",
+    "partNo": "ADM51498",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "111652",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5626384/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,229",
+      "Number of connectors": "4",
+      "Article ID:": "5626384",
+      "Article Number:": "ADM51498",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327340",
+      "OEM Numbers MAZDA:": "PE20-18-100A"
+    }
+  },
+  {
+    "id": "8148478",
+    "name": "Ignition Coil",
+    "partNo": "MIC-408",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "111652",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8148478/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8148478",
+      "Article Number:": "MIC-408",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011691421",
+      "OEM Numbers MAZDA:": "PE20-18-100A"
+    }
+  },
+  {
+    "id": "8148479",
+    "name": "Ignition Coil",
+    "partNo": "MIC-415",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "111652",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8148479/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8148479",
+      "Article Number:": "MIC-415",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011691562",
+      "OEM Numbers MAZDA:": "P51R-18-100"
+    }
+  }
+]

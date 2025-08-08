@@ -1,0 +1,50 @@
+[
+  {
+    "id": "136870",
+    "type": "0.7 (LA650F)",
+    "modelId": "39676",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "KF-DE",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136871",
+    "type": "0.7 4WD (LA660F)",
+    "modelId": "39676",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "KF-DE",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136873",
+    "type": "0.7 (LA650F)",
+    "modelId": "39676",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "KF-DET",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  }
+]

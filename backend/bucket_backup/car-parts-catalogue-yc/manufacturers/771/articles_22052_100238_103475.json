@@ -1,0 +1,53 @@
+[
+  {
+    "id": "932504",
+    "name": "Parts Kit, automatic transmission oil change",
+    "partNo": "1068.298.062",
+    "manufacturer": "ZF",
+    "supplierId": "68",
+    "productsId": "4921",
+    "productGroupId": "103475",
+    "categoryId": "100238",
+    "variantId": "22052",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/932504/model-series-id-6023/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "7",
+      "Supplementary Article/Supplementary Info": "contains entire oil change set",
+      "Alternative Repair Kit": "1068.298.083",
+      "Specification": "ZF LifeguardFluid 6",
+      "Additionally required articles (article numbers)": "1068.298.090",
+      "Article ID:": "932504",
+      "Article Number:": "1068.298.062",
+      "Manufacturer:": "ZF",
+      "EAN Numbers:": "405320224571",
+      "OEM Numbers BMW:": "24 15 2 333 903"
+    }
+  },
+  {
+    "id": "932505",
+    "name": "Parts Kit, automatic transmission oil change",
+    "partNo": "1068.298.083",
+    "manufacturer": "ZF",
+    "supplierId": "68",
+    "productsId": "4921",
+    "productGroupId": "103475",
+    "categoryId": "100238",
+    "variantId": "22052",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/932505/model-series-id-6023/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without oil",
+      "Alternative Repair Kit": "1068.298.062",
+      "Additionally required articles (article numbers)": "S671.090.255",
+      "Oil - manufacturer recommendation": "ZF LifeguardFluid 6",
+      "Article ID:": "932505",
+      "Article Number:": "1068.298.083",
+      "Manufacturer:": "ZF",
+      "EAN Numbers:": "405320225582",
+      "OEM Numbers BMW:": "24 15 2 333 903"
+    }
+  }
+]

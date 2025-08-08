@@ -1,0 +1,72 @@
+[
+  {
+    "id": "6042416",
+    "name": "Catalytic Converter",
+    "partNo": "BM91268H",
+    "manufacturer": "BM CATALYSTS",
+    "supplierId": "406",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "25103",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6042416/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "Warranty": "2 years warranty",
+      "for manufacturer exhaust norm": "Up to Euro 4",
+      "Article ID:": "6042416",
+      "Article Number:": "BM91268H",
+      "Manufacturer:": "BM CATALYSTS",
+      "EAN Numbers:": "0505274610411",
+      "OEM Numbers LOTUS:": "D120S0002F"
+    }
+  },
+  {
+    "id": "6230842",
+    "name": "Catalytic Converter",
+    "partNo": "CAK11120",
+    "manufacturer": "NAP",
+    "supplierId": "2456",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "25103",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6230842/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "Warranty": "2 years warranty",
+      "Article ID:": "6230842",
+      "Article Number:": "CAK11120",
+      "Manufacturer:": "NAP",
+      "EAN Numbers:": "0406455805199",
+      "OEM Numbers LOTUS:": "D120S0002F"
+    }
+  },
+  {
+    "id": "8662669",
+    "name": "Catalytic Converter",
+    "partNo": "QCAT91268H",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "25103",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8662669/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "Warranty": "2 years warranty",
+      "Article ID:": "8662669",
+      "Article Number:": "QCAT91268H",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043853587",
+      "OEM Numbers LOTUS:": "D120S0002F"
+    }
+  }
+]

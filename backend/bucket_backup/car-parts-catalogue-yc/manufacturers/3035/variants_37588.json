@@ -1,0 +1,98 @@
+[
+  {
+    "id": "125671",
+    "type": "380 TSI 4motion",
+    "modelId": "37588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUGA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-01-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125672",
+    "type": "330 TSI",
+    "modelId": "37588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUFA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2017-01-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130362",
+    "type": "330 TSI",
+    "modelId": "37588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DBFC,DKVB,DPLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-01-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132132",
+    "type": "280 TSI",
+    "modelId": "37588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-07-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138867",
+    "type": "380 TSI 4motion",
+    "modelId": "37588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-06-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140623",
+    "type": "430 PHEV",
+    "modelId": "37588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DJZA,DUKA,EBB,DXJA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2018-11-01",
+      "power": "155 KW / 211 PS"
+    },
+    "categories": []
+  }
+]

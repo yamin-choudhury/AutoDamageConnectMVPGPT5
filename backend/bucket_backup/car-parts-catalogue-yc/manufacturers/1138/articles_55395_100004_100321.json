@@ -1,0 +1,51 @@
+[
+  {
+    "id": "241512",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01237400",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "55395",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/241512/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "17",
+      "Inner diameter [mm]": "38,5",
+      "Outer diameter [mm]": "50",
+      "Article ID:": "241512",
+      "Article Number:": "01237400",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776999350",
+      "OEM Numbers MITSUBISHI:": "MR571852"
+    }
+  },
+  {
+    "id": "9916008",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1448907",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "55395",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9916008/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "17",
+      "Inner diameter [mm]": "38,5",
+      "Outer diameter [mm]": "50",
+      "Article ID:": "9916008",
+      "Article Number:": "WG1448907",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers MITSUBISHI:": "MR571852"
+    }
+  }
+]

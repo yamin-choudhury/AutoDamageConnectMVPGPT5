@@ -1,0 +1,116 @@
+[
+  {
+    "id": "7360946",
+    "name": "charger, charging (supercharged/turbocharged)",
+    "partNo": "GS500469",
+    "manufacturer": "GM",
+    "supplierId": "5356",
+    "productsId": "2234",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "38882",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7360946/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Charge Type": "Exhaust Turbocharger",
+      "Article ID:": "7360946",
+      "Article Number:": "GS500469",
+      "Manufacturer:": "GM",
+      "OEM Numbers MASERATI:": "673001145"
+    }
+  },
+  {
+    "id": "3631295",
+    "name": "charger, charging (supercharged/turbocharged)",
+    "partNo": "5113696N",
+    "manufacturer": "Henkel Parts",
+    "supplierId": "6349",
+    "productsId": "2234",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "38882",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3631295/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "Original Neuteil",
+      "Charge Type": "Exhaust Turbocharger",
+      "Article ID:": "3631295",
+      "Article Number:": "5113696N",
+      "Manufacturer:": "Henkel Parts",
+      "EAN Numbers:": "406321409980",
+      "OEM Numbers MASERATI:": "35242186F"
+    }
+  },
+  {
+    "id": "3631296",
+    "name": "charger, charging (supercharged/turbocharged)",
+    "partNo": "5113696R",
+    "manufacturer": "Henkel Parts",
+    "supplierId": "6349",
+    "productsId": "2234",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "38882",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3631296/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "REMAN",
+      "Charge Type": "Exhaust Turbocharger",
+      "Article ID:": "3631296",
+      "Article Number:": "5113696R",
+      "Manufacturer:": "Henkel Parts",
+      "EAN Numbers:": "406321403695",
+      "OEM Numbers MASERATI:": "35242186F"
+    }
+  },
+  {
+    "id": "7568937",
+    "name": "charger, charging (supercharged/turbocharged)",
+    "partNo": "IT-822222",
+    "manufacturer": "INTER-TURBO",
+    "supplierId": "6475",
+    "productsId": "2234",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "38882",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7568937/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "REMANUFACTURED",
+      "Charge Type": "Exhaust Turbocharger",
+      "Supplementary Article/Supplementary Info": "Incl. Gasket Set",
+      "Warranty": "2 years warranty",
+      "Article ID:": "7568937",
+      "Article Number:": "IT-822222",
+      "Manufacturer:": "INTER-TURBO",
+      "OEM Numbers MASERATI:": "35242186F"
+    }
+  },
+  {
+    "id": "1581372",
+    "name": "charger, charging (supercharged/turbocharged)",
+    "partNo": "172-06280",
+    "manufacturer": "SCHLÜTTER TURBOLADER",
+    "supplierId": "182",
+    "productsId": "2234",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "38882",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1581372/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Charge Type": "Exhaust Turbocharger",
+      "Supplementary Article/Supplementary Info": "without attachment material",
+      "Article ID:": "1581372",
+      "Article Number:": "172-06280",
+      "Manufacturer:": "SCHLÜTTER TURBOLADER",
+      "EAN Numbers:": "404457816280",
+      "OEM Numbers MASERATI:": "35242186F"
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "4573547",
+    "name": "Gasket Set, oil cooler",
+    "partNo": "77010400",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "557",
+    "productGroupId": "100108",
+    "categoryId": "100007",
+    "variantId": "140124",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4573547/model-series-id-40652/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "11428583897",
+      "Article ID:": "4573547",
+      "Article Number:": "77010400",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357737936",
+      "OEM Numbers BMW:": "11428583897"
+    }
+  },
+  {
+    "id": "10211102",
+    "name": "Gasket Set, oil cooler",
+    "partNo": "WG2083696",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "557",
+    "productGroupId": "100108",
+    "categoryId": "100007",
+    "variantId": "140124",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10211102/model-series-id-40652/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "11428583897",
+      "Article ID:": "10211102",
+      "Article Number:": "WG2083696",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers BMW:": "11 42 8 583 897"
+    }
+  }
+]

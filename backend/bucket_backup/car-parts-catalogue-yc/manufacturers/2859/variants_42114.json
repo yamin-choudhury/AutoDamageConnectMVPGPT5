@@ -1,0 +1,50 @@
+[
+  {
+    "id": "144793",
+    "type": "EV",
+    "modelId": "42114",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "EBPA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-07-01",
+      "power": "132 KW / 179 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144794",
+    "type": "EV",
+    "modelId": "42114",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "EBPA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-07-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144795",
+    "type": "EV",
+    "modelId": "42114",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "EBRA,EBPA",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-07-01",
+      "power": "230 KW / 313 PS"
+    },
+    "categories": []
+  }
+]

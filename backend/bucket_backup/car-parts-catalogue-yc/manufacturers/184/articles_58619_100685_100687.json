@@ -1,0 +1,48 @@
+[
+  {
+    "id": "2624530",
+    "name": "Door Lock",
+    "partNo": "3100878",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "1361",
+    "productGroupId": "100687",
+    "categoryId": "100685",
+    "variantId": "58619",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2624530/model-series-id-11139/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "81230-2W000",
+      "Fitting Position": "Boot",
+      "Article ID:": "2624530",
+      "Article Number:": "3100878",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers HYUNDAI:": "81230-2W000",
+      "OEM Numbers KIA:": "81230-2W000"
+    }
+  },
+  {
+    "id": "2696795",
+    "name": "Door Lock",
+    "partNo": "31878",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "1361",
+    "productGroupId": "100687",
+    "categoryId": "100685",
+    "variantId": "58619",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2696795/model-series-id-11139/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "81230-2W000",
+      "Fitting Position": "Boot",
+      "Article ID:": "2696795",
+      "Article Number:": "31878",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers HYUNDAI:": "81230-2W000",
+      "OEM Numbers KIA:": "81230-2W000"
+    }
+  }
+]

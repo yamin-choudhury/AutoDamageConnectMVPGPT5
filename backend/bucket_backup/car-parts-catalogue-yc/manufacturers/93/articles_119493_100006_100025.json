@@ -1,0 +1,79 @@
+[
+  {
+    "id": "7048760",
+    "name": "Brake Booster",
+    "partNo": "FHC6186",
+    "manufacturer": "FERODO",
+    "supplierId": "62",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7048760/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "30,00",
+      "Thread Size": "innesto r.",
+      "Material": "Plastic",
+      "Packing Type": "Box",
+      "Packaging length [cm]": "22,5",
+      "Packaging width [cm]": "15,6",
+      "Packaging height [cm]": "11",
+      "Article ID:": "7048760",
+      "Article Number:": "FHC6186",
+      "Manufacturer:": "FERODO",
+      "EAN Numbers:": "404419777481",
+      "OEM Numbers NISSAN:": "3215000QAD",
+      "OEM Numbers DACIA:": "8200842575",
+      "OEM Numbers RENAULT:": "8200842575",
+      "OEM Numbers RENAULT TRUCKS:": "8200842575"
+    }
+  },
+  {
+    "id": "8627909",
+    "name": "Brake Booster",
+    "partNo": "PSA282",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627909/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "10",
+      "Article ID:": "8627909",
+      "Article Number:": "PSA282",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293818738",
+      "OEM Numbers RENAULT:": "47 21 090 56R"
+    }
+  },
+  {
+    "id": "8627910",
+    "name": "Brake Booster",
+    "partNo": "PSA283",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627910/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "10",
+      "Article ID:": "8627910",
+      "Article Number:": "PSA283",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293818739",
+      "OEM Numbers RENAULT:": "47 21 029 10R"
+    }
+  }
+]

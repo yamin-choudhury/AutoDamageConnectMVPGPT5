@@ -1,0 +1,39 @@
+[
+  {
+    "id": "8144234",
+    "name": "Wiper Blade",
+    "partNo": "MH89159R",
+    "manufacturer": "MEHA AUTOMOTIVE",
+    "supplierId": "6924",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "138231",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8144234/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "450",
+      "Length [in]": "18",
+      "Shape": "Flat",
+      "Quantity": "1",
+      "Styling": "with spoiler",
+      "Packing Type": "Blister Pack",
+      "Article ID:": "8144234",
+      "Article Number:": "MH89159R",
+      "Manufacturer:": "MEHA AUTOMOTIVE",
+      "EAN Numbers:": "85129090001",
+      "OEM Numbers FORD:": "1714323",
+      "OEM Numbers CITROËN:": "6426 YQ",
+      "OEM Numbers VW:": "6X0955425D",
+      "OEM Numbers ALFA ROMEO:": "50516543",
+      "OEM Numbers FIAT:": "51757532",
+      "OEM Numbers BMW:": "61612158220",
+      "OEM Numbers OPEL:": "6272279",
+      "OEM Numbers PEUGEOT:": "6423H9",
+      "OEM Numbers SEAT:": "6X0955425D",
+      "OEM Numbers RENAULT:": "7711421793",
+      "OEM Numbers AUDI:": "8V1955426"
+    }
+  }
+]

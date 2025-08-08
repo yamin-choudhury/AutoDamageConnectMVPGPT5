@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1485694",
+    "name": "Gasket, fuel pump",
+    "partNo": "16022000",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "143",
+    "productGroupId": "100718",
+    "categoryId": "100214",
+    "variantId": "142721",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1485694/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "2",
+      "Width [mm]": "31,5",
+      "Article ID:": "1485694",
+      "Article Number:": "16022000",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776910618",
+      "OEM Numbers FORD:": "1226258",
+      "OEM Numbers ALFA ROMEO:": "60507327",
+      "OEM Numbers FIAT:": "60507327"
+    }
+  },
+  {
+    "id": "9918351",
+    "name": "Gasket, fuel pump",
+    "partNo": "WG1451721",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "143",
+    "productGroupId": "100718",
+    "categoryId": "100214",
+    "variantId": "142721",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9918351/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "2",
+      "Width [mm]": "31,5",
+      "Article ID:": "9918351",
+      "Article Number:": "WG1451721",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers FORD:": "1226258",
+      "OEM Numbers ALFA ROMEO:": "60507327",
+      "OEM Numbers FIAT:": "60507327"
+    }
+  }
+]

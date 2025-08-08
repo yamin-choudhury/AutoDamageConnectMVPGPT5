@@ -1,0 +1,49 @@
+[
+  {
+    "id": "9313139",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "T41319",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "308",
+    "productGroupId": "100455",
+    "categoryId": "100016",
+    "variantId": "132249",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9313139/model-series-id-38842/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "28",
+      "Outer diameter [mm]": "51",
+      "Surface": "Smooth",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "9313139",
+      "Article Number:": "T41319",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "541446582386",
+      "OEM Numbers SUZUKI:": "12810M76G20",
+      "OEM Numbers MARUTI:": "12810M76G20"
+    }
+  },
+  {
+    "id": "9313140",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "T41319",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "308",
+    "productGroupId": "100455",
+    "categoryId": "100016",
+    "variantId": "132249",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9313140/model-series-id-38842/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9313140",
+      "Article Number:": "T41319",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers SUZUKI:": "12810M76G20",
+      "OEM Numbers MARUTI:": "12810M76G20"
+    }
+  }
+]

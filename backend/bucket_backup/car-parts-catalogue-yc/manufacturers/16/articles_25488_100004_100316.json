@@ -1,0 +1,65 @@
+[
+  {
+    "id": "4756871",
+    "name": "Mounting Kit, exhaust pipe",
+    "partNo": "82 12 9130",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1395",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "25488",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756871/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Inlet",
+      "Exhaust System": "for catalytic converter",
+      "Article ID:": "4756871",
+      "Article Number:": "82 12 9130",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258844185",
+      "OEM Numbers BMW:": "(7.574.916)"
+    }
+  },
+  {
+    "id": "6771258",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "EKK301",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "25488",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6771258/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6771258",
+      "Article Number:": "EKK301",
+      "Manufacturer:": "LRT",
+      "OEM Numbers BMW:": "18407581067"
+    }
+  },
+  {
+    "id": "6771258",
+    "name": "Mounting Kit, exhaust manifold",
+    "partNo": "EKK301",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "3153",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "25488",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6771258/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6771258",
+      "Article Number:": "EKK301",
+      "Manufacturer:": "LRT",
+      "OEM Numbers BMW:": "18407581067"
+    }
+  }
+]

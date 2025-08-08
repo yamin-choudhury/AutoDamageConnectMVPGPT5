@@ -1,0 +1,102 @@
+[
+  {
+    "id": "771986",
+    "name": "Lambda Sensor",
+    "partNo": "1.998.558",
+    "manufacturer": "EPS",
+    "supplierId": "4005",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/771986/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "400",
+      "Conductor Number": "4",
+      "Lambda Sensor": "Thread pre-greased",
+      "Available as universal article as well, see article no.": "1.997.008",
+      "Article ID:": "771986",
+      "Article Number:": "1.998.558",
+      "Manufacturer:": "EPS",
+      "EAN Numbers:": "801251070024",
+      "OEM Numbers RENAULT:": "22 6A 05T A0A"
+    }
+  },
+  {
+    "id": "800605",
+    "name": "Lambda Sensor",
+    "partNo": "10.8558",
+    "manufacturer": "FACET",
+    "supplierId": "159",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/800605/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "400",
+      "Conductor Number": "4",
+      "Lambda Sensor": "Thread pre-greased",
+      "Available as universal article as well, see article no.": "10.7008",
+      "Article ID:": "800605",
+      "Article Number:": "10.8558",
+      "Manufacturer:": "FACET",
+      "EAN Numbers:": "801251030024",
+      "OEM Numbers RENAULT:": "22 6A 05T A0A"
+    }
+  },
+  {
+    "id": "3506438",
+    "name": "Lambda Sensor",
+    "partNo": "498 558",
+    "manufacturer": "KW",
+    "supplierId": "4006",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3506438/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "400",
+      "Conductor Number": "4",
+      "Lambda Sensor": "Thread pre-greased",
+      "Available as universal article as well, see article no.": "497 008",
+      "Article ID:": "3506438",
+      "Article Number:": "498 558",
+      "Manufacturer:": "KW",
+      "EAN Numbers:": "801251050024",
+      "OEM Numbers RENAULT:": "22 6A 05T A0A"
+    }
+  },
+  {
+    "id": "6799982",
+    "name": "Lambda Sensor",
+    "partNo": "EPS-1998 558",
+    "manufacturer": "MDR",
+    "supplierId": "4773",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6799982/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "1,27",
+      "Cable Length [mm]": "400",
+      "Conductor Number": "4",
+      "Lambda Sensor": "Thread pre-greased",
+      "Available as universal article as well, see article no.": "1.997.008",
+      "Article ID:": "6799982",
+      "Article Number:": "EPS-1998 558",
+      "Manufacturer:": "MDR",
+      "OEM Numbers RENAULT:": "22 6A 05T A0A"
+    }
+  }
+]

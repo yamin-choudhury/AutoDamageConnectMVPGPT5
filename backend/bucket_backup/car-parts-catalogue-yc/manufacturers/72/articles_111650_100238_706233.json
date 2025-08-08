@@ -1,0 +1,35 @@
+[
+  {
+    "id": "249482",
+    "name": "Automatic Transmission Fluid",
+    "partNo": "014 019 2300",
+    "manufacturer": "MEYLE",
+    "supplierId": "144",
+    "productsId": "3069",
+    "productGroupId": "706233",
+    "categoryId": "100238",
+    "variantId": "111650",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/249482/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "1",
+      "Colour": "Red",
+      "Packing Type": "Bottle",
+      "Specification": "ZF TE-ML 17C, 02F",
+      "Article ID:": "249482",
+      "Article Number:": "014 019 2300",
+      "Manufacturer:": "MEYLE",
+      "EAN Numbers:": "404007430154",
+      "OEM Numbers MERCEDES-BENZ:": "A 001 989 22 03",
+      "OEM Numbers VOLVO:": "1161640",
+      "OEM Numbers FORD:": "WSS-M2C938-A",
+      "OEM Numbers BMW:": "9 407 858",
+      "OEM Numbers CITROËN:": "9736.22",
+      "OEM Numbers PEUGEOT:": "9736.22",
+      "OEM Numbers GENERAL MOTORS:": "9986195",
+      "OEM Numbers VW:": "G 055 025 A2",
+      "OEM Numbers JAGUAR:": "JLM21044"
+    }
+  }
+]

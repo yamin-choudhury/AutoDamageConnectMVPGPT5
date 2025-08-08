@@ -1,0 +1,81 @@
+[
+  {
+    "id": "5523287",
+    "name": "Air Filter",
+    "partNo": "A63805",
+    "manufacturer": "1A FIRST AUTOMOTIVE",
+    "supplierId": "4814",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "107361",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5523287/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "235",
+      "Width [mm]": "136",
+      "Height [mm]": "170",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5523287",
+      "Article Number:": "A63805",
+      "Manufacturer:": "1A FIRST AUTOMOTIVE",
+      "EAN Numbers:": "803397702207",
+      "OEM Numbers MASERATI:": "670001545"
+    }
+  },
+  {
+    "id": "7964559",
+    "name": "Air Filter",
+    "partNo": "LX 2966",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "107361",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7964559/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "238",
+      "Width [mm]": "138",
+      "Height [mm]": "168,5",
+      "Filter type": "Filter Insert",
+      "Packaging length [cm]": "24,5",
+      "Packaging width [cm]": "14,50",
+      "Packaging height [cm]": "17,50",
+      "Seal Material": "Foam/Rigid Foam",
+      "Net Weight [g]": "324,0",
+      "Article ID:": "7964559",
+      "Article Number:": "LX 2966",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "405763501218",
+      "OEM Numbers MASERATI:": "670001545"
+    }
+  },
+  {
+    "id": "8455909",
+    "name": "Air Filter",
+    "partNo": "PA3805",
+    "manufacturer": "MULLER FILTER",
+    "supplierId": "490",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "107361",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8455909/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "235",
+      "Width [mm]": "136",
+      "Height [mm]": "170",
+      "Filter type": "Filter Insert",
+      "Article ID:": "8455909",
+      "Article Number:": "PA3805",
+      "Manufacturer:": "MULLER FILTER",
+      "OEM Numbers MASERATI:": "670001545"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "4649196",
+    "name": "Ignition Coil",
+    "partNo": "8010859",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "133818",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4649196/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "4649196",
+      "Article Number:": "8010859",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers SUBARU:": "22433AA682"
+    }
+  },
+  {
+    "id": "952097",
+    "name": "Ignition Coil",
+    "partNo": "10859",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "133818",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/952097/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "952097",
+      "Article Number:": "10859",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers SUBARU:": "22433AA682"
+    }
+  },
+  {
+    "id": "6325029",
+    "name": "Ignition Coil",
+    "partNo": "CJ-42",
+    "manufacturer": "MOBILETRON",
+    "supplierId": "4705",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "133818",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6325029/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Number of inlets/outlets": "1",
+      "Article ID:": "6325029",
+      "Article Number:": "CJ-42",
+      "Manufacturer:": "MOBILETRON",
+      "OEM Numbers SUBARU:": "22433-AA681"
+    }
+  }
+]

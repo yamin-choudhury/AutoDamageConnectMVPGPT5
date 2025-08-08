@@ -1,0 +1,58 @@
+[
+  {
+    "id": "5980193",
+    "name": "Bracket, brake caliper",
+    "partNo": "BDA1180",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "1009",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "109933",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5980193/model-series-id-13616/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Material": "Cast Iron",
+      "paired article number": "BDA1181",
+      "Article ID:": "5980193",
+      "Article Number:": "BDA1180",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293817961",
+      "OEM Numbers AUDI:": "8V0 615 125 A",
+      "OEM Numbers SEAT:": "8V0 615 125 A",
+      "OEM Numbers SKODA:": "8V0 615 125 A",
+      "OEM Numbers VW:": "8V0 615 125 A",
+      "OEM Numbers CUPRA:": "8V0 615 125 A"
+    }
+  },
+  {
+    "id": "5980194",
+    "name": "Bracket, brake caliper",
+    "partNo": "BDA1181",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "1009",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "109933",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5980194/model-series-id-13616/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Material": "Cast Iron",
+      "paired article number": "BDA1180",
+      "Article ID:": "5980194",
+      "Article Number:": "BDA1181",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293817962",
+      "OEM Numbers AUDI:": "8V0 615 126 A",
+      "OEM Numbers SEAT:": "8V0 615 126 A",
+      "OEM Numbers SKODA:": "8V0 615 126 A",
+      "OEM Numbers VW:": "8V0 615 126 A",
+      "OEM Numbers CUPRA:": "8V0 615 126 A"
+    }
+  }
+]

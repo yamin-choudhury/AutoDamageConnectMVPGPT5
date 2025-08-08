@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1717927",
+    "name": "Shaft Seal, differential",
+    "partNo": "19027910B",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "18277",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1717927/model-series-id-5203/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height 1 [mm]": "12",
+      "Height 2 [mm]": "19,3",
+      "Material": "ACM (Polyacrylate)",
+      "Outer diameter 1 [mm]": "75",
+      "Inner diameter 1 [mm]": "45",
+      "Article ID:": "1717927",
+      "Article Number:": "19027910B",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896043806",
+      "OEM Numbers NISSAN:": "39189P0116",
+      "OEM Numbers INFINITI:": "38189P0117"
+    }
+  },
+  {
+    "id": "8284805",
+    "name": "Shaft Seal, differential",
+    "partNo": "NJ382",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "18277",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8284805/model-series-id-5203/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "12,00",
+      "Material": "ACM (Polyacrylate)",
+      "Inner diameter [mm]": "45,00",
+      "Outer diameter [mm]": "75,00",
+      "Radial Shaft Seal Design": "822S",
+      "Article ID:": "8284805",
+      "Article Number:": "NJ382",
+      "Manufacturer:": "PAYEN",
+      "OEM Numbers NISSAN:": "38189P0101"
+    }
+  },
+  {
+    "id": "9769731",
+    "name": "Shaft Seal, differential",
+    "partNo": "WG1183851",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "18277",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9769731/model-series-id-5203/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "12,00",
+      "Material": "ACM (Polyacrylate)",
+      "Inner diameter [mm]": "45,00",
+      "Outer diameter [mm]": "75,00",
+      "Radial Shaft Seal Design": "822S",
+      "Article ID:": "9769731",
+      "Article Number:": "WG1183851",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers NISSAN:": "38189P0101"
+    }
+  }
+]

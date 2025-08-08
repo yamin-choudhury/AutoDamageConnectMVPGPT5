@@ -1,0 +1,81 @@
+[
+  {
+    "id": "3733688",
+    "name": "Mounting, axle beam",
+    "partNo": "53145",
+    "manufacturer": "BIRTH",
+    "supplierId": "208",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "56127",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3733688/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle both sides",
+      "Width [mm]": "59,2",
+      "Height [mm]": "45",
+      "Inner diameter [mm]": "12,2",
+      "Weight [g]": "250",
+      "Shore-A hardness value, base body": "65",
+      "Article ID:": "3733688",
+      "Article Number:": "53145",
+      "Manufacturer:": "BIRTH",
+      "EAN Numbers:": "100000126733",
+      "OEM Numbers HYUNDAI:": "55541-02001"
+    }
+  },
+  {
+    "id": "7507492",
+    "name": "Mounting, axle beam",
+    "partNo": "HYAB-ATMX",
+    "manufacturer": "FEBEST",
+    "supplierId": "4674",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "56127",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7507492/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Weight [kg]": "0,281",
+      "Packaging length [cm]": "5,9",
+      "Packaging width [cm]": "5,9",
+      "Packaging height [cm]": "4,5",
+      "Article ID:": "7507492",
+      "Article Number:": "HYAB-ATMX",
+      "Manufacturer:": "FEBEST",
+      "EAN Numbers:": "405611110008",
+      "OEM Numbers HYUNDAI:": "55541-02001"
+    }
+  },
+  {
+    "id": "7507492",
+    "name": "Mounting, axle beam",
+    "partNo": "HYAB-ATMX",
+    "manufacturer": "FEBEST",
+    "supplierId": "4674",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "56127",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7507492/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Weight [kg]": "0,281",
+      "Packaging length [cm]": "5,9",
+      "Packaging width [cm]": "5,9",
+      "Packaging height [cm]": "4,5",
+      "Article ID:": "7507492",
+      "Article Number:": "HYAB-ATMX",
+      "Manufacturer:": "FEBEST",
+      "EAN Numbers:": "405611110008",
+      "OEM Numbers HYUNDAI:": "55541-02001"
+    }
+  }
+]

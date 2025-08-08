@@ -1,0 +1,48 @@
+[
+  {
+    "id": "3206383",
+    "name": "Brake Booster",
+    "partNo": "4110133",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3206383/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "9 / 10",
+      "Article ID:": "3206383",
+      "Article Number:": "4110133",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293794200",
+      "OEM Numbers LAND ROVER:": "SJJ500090"
+    }
+  },
+  {
+    "id": "8627790",
+    "name": "Brake Booster",
+    "partNo": "PSA133",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627790/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "9 / 10",
+      "Article ID:": "8627790",
+      "Article Number:": "PSA133",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293794028",
+      "OEM Numbers LAND ROVER:": "SJJ500090"
+    }
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "7695163",
+    "name": "Hydraulic Filter, automatic transmission",
+    "partNo": "JT28475",
+    "manufacturer": "Azumi",
+    "supplierId": "6932",
+    "productsId": "416",
+    "productGroupId": "100776",
+    "categoryId": "100238",
+    "variantId": "100317",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7695163/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "161",
+      "Width [mm]": "126",
+      "Height [mm]": "55",
+      "Filter type": "Screen Filter",
+      "Article ID:": "7695163",
+      "Article Number:": "JT28475",
+      "Manufacturer:": "Azumi",
+      "EAN Numbers:": "458048207573",
+      "OEM Numbers HONDA:": "25420RXH003"
+    }
+  },
+  {
+    "id": "7695168",
+    "name": "Hydraulic Filter, automatic transmission",
+    "partNo": "JT28495",
+    "manufacturer": "Azumi",
+    "supplierId": "6932",
+    "productsId": "416",
+    "productGroupId": "100776",
+    "categoryId": "100238",
+    "variantId": "100317",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7695168/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "123",
+      "Height [mm]": "55",
+      "Filter type": "Screen Filter",
+      "Inlet Ø [mm]": "11",
+      "Outlet Ø [mm]": "11",
+      "Article ID:": "7695168",
+      "Article Number:": "JT28495",
+      "Manufacturer:": "Azumi",
+      "EAN Numbers:": "458048207290",
+      "OEM Numbers HONDA:": "25430R5L003"
+    }
+  }
+]

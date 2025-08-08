@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2924987",
+    "name": "Interior Blower",
+    "partNo": "357215",
+    "manufacturer": "KALE OTO RADYATÖR",
+    "supplierId": "469",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "145123",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2924987/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "150",
+      "Article ID:": "2924987",
+      "Article Number:": "357215",
+      "Manufacturer:": "KALE OTO RADYATÖR",
+      "OEM Numbers HYUNDAI:": "97126C8000"
+    }
+  },
+  {
+    "id": "5006368",
+    "name": "Interior Blower",
+    "partNo": "87568",
+    "manufacturer": "NISSENS",
+    "supplierId": "123",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "145123",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5006368/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Diameter [mm]": "140",
+      "Supplementary Article/Supplementary Info": "without integrated regulator",
+      "Number of pins": "2",
+      "Power [W]": "180",
+      "Article ID:": "5006368",
+      "Article Number:": "87568",
+      "Manufacturer:": "NISSENS",
+      "EAN Numbers:": "570728643367",
+      "OEM Numbers HYUNDAI:": "97126C8000"
+    }
+  }
+]

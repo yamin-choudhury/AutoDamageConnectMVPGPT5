@@ -1,0 +1,49 @@
+[
+  {
+    "id": "243998",
+    "name": "Seal, EGR valve",
+    "partNo": "01292500",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3507",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "30816",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/243998/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,2",
+      "Length [mm]": "54",
+      "Width [mm]": "34",
+      "Article ID:": "243998",
+      "Article Number:": "01292500",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357706946",
+      "OEM Numbers SUBARU:": "14719AA033"
+    }
+  },
+  {
+    "id": "9916133",
+    "name": "Seal, EGR valve",
+    "partNo": "WG1449032",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "3507",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "30816",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9916133/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,2",
+      "Length [mm]": "54",
+      "Width [mm]": "34",
+      "Article ID:": "9916133",
+      "Article Number:": "WG1449032",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers SUBARU:": "14719AA033"
+    }
+  }
+]

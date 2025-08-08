@@ -1,0 +1,90 @@
+[
+  {
+    "id": "3647859",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "514296",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "22983",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3647859/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "48655-33010",
+      "Article ID:": "3647859",
+      "Article Number:": "514296",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692263792104",
+      "OEM Numbers TOYOTA:": "4865558011",
+      "OEM Numbers LEXUS:": "4806933060"
+    }
+  },
+  {
+    "id": "3660336",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "516708",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "22983",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3660336/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "48654-28060",
+      "Article ID:": "3660336",
+      "Article Number:": "516708",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692263793390",
+      "OEM Numbers TOYOTA:": "4865448020",
+      "OEM Numbers LEXUS:": "4806933060"
+    }
+  },
+  {
+    "id": "9609191",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "VKDS 831043",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "22983",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9609191/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9609191",
+      "Article Number:": "VKDS 831043",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731658135643",
+      "OEM Numbers TOYOTA:": "48069-58010"
+    }
+  },
+  {
+    "id": "9609192",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "VKDS 831044",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "22983",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9609192/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9609192",
+      "Article Number:": "VKDS 831044",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731658135645",
+      "OEM Numbers TOYOTA:": "48069-58010"
+    }
+  }
+]

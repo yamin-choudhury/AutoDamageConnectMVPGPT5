@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5008510",
+    "name": "Mounting, axle beam",
+    "partNo": "877305",
+    "manufacturer": "SIDEM",
+    "supplierId": "135",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "107857",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5008510/model-series-id-13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle both sides",
+      "Height [mm]": "85",
+      "Inner diameter [mm]": "12,2",
+      "Outer diameter [mm]": "65",
+      "Mounting Type": "Rubber Bush",
+      "Article ID:": "5008510",
+      "Article Number:": "877305",
+      "Manufacturer:": "SIDEM",
+      "EAN Numbers:": "541397827255",
+      "OEM Numbers SUZUKI:": "46221 84M00"
+    }
+  },
+  {
+    "id": "3197101",
+    "name": "Mounting, axle beam",
+    "partNo": "410203",
+    "manufacturer": "SPIDAN CHASSIS PARTS",
+    "supplierId": "6363",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "107857",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3197101/model-series-id-13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle both sides",
+      "Height [mm]": "85",
+      "Inner diameter [mm]": "12,2",
+      "Outer diameter [mm]": "65",
+      "Mounting Type": "Rubber Bush",
+      "Article ID:": "3197101",
+      "Article Number:": "410203",
+      "Manufacturer:": "SPIDAN CHASSIS PARTS",
+      "EAN Numbers:": "541397886126",
+      "OEM Numbers SUZUKI:": "46221 84M00"
+    }
+  }
+]

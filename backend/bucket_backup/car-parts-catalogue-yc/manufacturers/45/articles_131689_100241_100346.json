@@ -1,0 +1,77 @@
+[
+  {
+    "id": "6184373",
+    "name": "Filter, interior air",
+    "partNo": "C30356",
+    "manufacturer": "1A FIRST AUTOMOTIVE",
+    "supplierId": "4814",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6184373/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "225",
+      "Width [mm]": "235",
+      "Height [mm]": "30",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "6184373",
+      "Article Number:": "C30356",
+      "Manufacturer:": "1A FIRST AUTOMOTIVE",
+      "EAN Numbers:": "803397700275",
+      "OEM Numbers HONDA:": "80292-TV1-E01"
+    }
+  },
+  {
+    "id": "8058334",
+    "name": "Filter, interior air",
+    "partNo": "MC-1004",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8058334/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "236",
+      "Width [mm]": "225",
+      "Height [mm]": "30",
+      "Filter type": "Pollen Filter",
+      "Article ID:": "8058334",
+      "Article Number:": "MC-1004",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011676088",
+      "OEM Numbers HONDA:": "80292-T0G-A01"
+    }
+  },
+  {
+    "id": "7004873",
+    "name": "Filter, interior air",
+    "partNo": "FC356",
+    "manufacturer": "MULLER FILTER",
+    "supplierId": "490",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7004873/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "225",
+      "Width [mm]": "235",
+      "Height [mm]": "30",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "7004873",
+      "Article Number:": "FC356",
+      "Manufacturer:": "MULLER FILTER",
+      "EAN Numbers:": "803397750356",
+      "OEM Numbers HONDA:": "80292-TV1-E01"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "4954258",
+    "name": "Fan, radiator",
+    "partNo": "8623510",
+    "manufacturer": "DIEDERICHS",
+    "supplierId": "253",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "30814",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4954258/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Vehicle Equipment": "for vehicles without exhaust turbocharger",
+      "Heating/Cooling": "Double Fan",
+      "Article ID:": "4954258",
+      "Article Number:": "8623510",
+      "Manufacturer:": "DIEDERICHS",
+      "EAN Numbers:": "405235524209",
+      "OEM Numbers SUBARU:": "45121AG000"
+    }
+  },
+  {
+    "id": "7893628",
+    "name": "Fan, radiator",
+    "partNo": "LFK 2212",
+    "manufacturer": "LUZAR",
+    "supplierId": "4707",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "30814",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7893628/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Power [W]": "96",
+      "Article ID:": "7893628",
+      "Article Number:": "LFK 2212",
+      "Manufacturer:": "LUZAR",
+      "EAN Numbers:": "468029509035",
+      "OEM Numbers SUBARU:": "45122AG001"
+    }
+  }
+]

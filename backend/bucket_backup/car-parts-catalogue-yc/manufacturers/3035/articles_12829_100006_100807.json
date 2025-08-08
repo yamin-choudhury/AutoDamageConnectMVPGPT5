@@ -1,0 +1,57 @@
+[
+  {
+    "id": "5981320",
+    "name": "Bracket, brake caliper",
+    "partNo": "BDA989",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "1009",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "12829",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5981320/model-series-id-9881/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "for brake disc thickness [mm]": "16",
+      "paired article number": "BDA990",
+      "Article ID:": "5981320",
+      "Article Number:": "BDA989",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293779628",
+      "OEM Numbers AUDI:": "3AA 615 425",
+      "OEM Numbers SEAT:": "3AA 615 425",
+      "OEM Numbers VW:": "3AA 615 425",
+      "OEM Numbers AUDI (FAW):": "3AA615425",
+      "OEM Numbers SKODA:": "3C0 698 425"
+    }
+  },
+  {
+    "id": "5981321",
+    "name": "Bracket, brake caliper",
+    "partNo": "BDA990",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "1009",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "12829",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5981321/model-series-id-9881/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "for brake disc thickness [mm]": "16",
+      "paired article number": "BDA989",
+      "Article ID:": "5981321",
+      "Article Number:": "BDA990",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293779641",
+      "OEM Numbers AUDI:": "3AA 615 426",
+      "OEM Numbers SEAT:": "3AA 615 426",
+      "OEM Numbers VW:": "3AA 615 426",
+      "OEM Numbers AUDI (FAW):": "3AA615426"
+    }
+  }
+]

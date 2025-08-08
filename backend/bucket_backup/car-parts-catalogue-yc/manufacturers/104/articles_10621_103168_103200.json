@@ -1,0 +1,47 @@
+[
+  {
+    "id": "9513391",
+    "name": "Non-Return Valve",
+    "partNo": "V10-6619",
+    "manufacturer": "VAICO",
+    "supplierId": "162",
+    "productsId": "1324",
+    "productGroupId": "103200",
+    "categoryId": "103168",
+    "variantId": "10621",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9513391/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9513391",
+      "Article Number:": "V10-6619",
+      "Manufacturer:": "VAICO",
+      "EAN Numbers:": "406237525888",
+      "OEM Numbers VAG:": "N 907 94 401",
+      "OEM Numbers VW:": "1K0121086AR"
+    }
+  },
+  {
+    "id": "1036377",
+    "name": "Non-Return Valve",
+    "partNo": "11221779501",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "1324",
+    "productGroupId": "103200",
+    "categoryId": "103168",
+    "variantId": "10621",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1036377/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "1036377",
+      "Article Number:": "11221779501",
+      "Manufacturer:": "vika",
+      "OEM Numbers AUDI:": "1J0122351",
+      "OEM Numbers SEAT:": "1J0122351",
+      "OEM Numbers SKODA:": "1J0122351",
+      "OEM Numbers VW:": "1J0122351"
+    }
+  }
+]

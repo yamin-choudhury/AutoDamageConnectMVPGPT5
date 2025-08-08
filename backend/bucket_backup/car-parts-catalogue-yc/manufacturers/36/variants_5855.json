@@ -1,0 +1,50 @@
+[
+  {
+    "id": "21630",
+    "type": "1.6 GX",
+    "modelId": "5855",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2000-10-01",
+      "power": "78 KW / 106 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "21631",
+    "type": "2.0 GLS",
+    "modelId": "5855",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "FSFE",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2000-10-01",
+      "power": "121 KW / 165 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "21632",
+    "type": "2.0 GLS 4x4",
+    "modelId": "5855",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "FSFE",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2000-10-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  }
+]

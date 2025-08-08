@@ -1,0 +1,49 @@
+[
+  {
+    "id": "4321735",
+    "name": "Oil Pump, automatic transmission",
+    "partNo": "7.06623.47.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "5204",
+    "productGroupId": "105494",
+    "categoryId": "100238",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4321735/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "85",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Pump Type": "Rotor Pump",
+      "Article ID:": "4321735",
+      "Article Number:": "7.06623.47.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897793747",
+      "OEM Numbers RENAULT:": "31 36 060 32R"
+    }
+  },
+  {
+    "id": "10246333",
+    "name": "Oil Pump, automatic transmission",
+    "partNo": "WG2136326",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "5204",
+    "productGroupId": "105494",
+    "categoryId": "100238",
+    "variantId": "140525",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10246333/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "85",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Pump Type": "Rotor Pump",
+      "Article ID:": "10246333",
+      "Article Number:": "WG2136326",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers RENAULT:": "313606032R"
+    }
+  }
+]

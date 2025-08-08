@@ -1,0 +1,136 @@
+[
+  {
+    "id": "470662",
+    "name": "Radiator Hose",
+    "partNo": "05-2075",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "127212",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/470662/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "27",
+      "Inner diameter 2 [mm]": "27",
+      "Hose Length [mm]": "445",
+      "Article ID:": "470662",
+      "Article Number:": "05-2075",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers MAZDA:": "ZJ38-15-186C"
+    }
+  },
+  {
+    "id": "470664",
+    "name": "Radiator Hose",
+    "partNo": "05-2076",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "127212",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/470664/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "27",
+      "Inner diameter 2 [mm]": "27",
+      "Hose Length [mm]": "450",
+      "Article ID:": "470664",
+      "Article Number:": "05-2076",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers MAZDA:": "ZJ38-15-185C"
+    }
+  },
+  {
+    "id": "8234704",
+    "name": "Radiator Hose",
+    "partNo": "MZBPH-040",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "127212",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8234704/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "A/T, M/T",
+      "Article ID:": "8234704",
+      "Article Number:": "MZBPH-040",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers MAZDA:": "ZJ38-13-680A"
+    }
+  },
+  {
+    "id": "8234705",
+    "name": "Radiator Hose",
+    "partNo": "MZBPH-041",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "127212",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8234705/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "A/T, M/T",
+      "Article ID:": "8234705",
+      "Article Number:": "MZBPH-041",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers MAZDA:": "ZJ38-13-682"
+    }
+  },
+  {
+    "id": "8234706",
+    "name": "Radiator Hose",
+    "partNo": "MZBPH-042",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "127212",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8234706/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "A/T, M/T",
+      "Article ID:": "8234706",
+      "Article Number:": "MZBPH-042",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers MAZDA:": "ZJ38-13-691"
+    }
+  },
+  {
+    "id": "8234707",
+    "name": "Radiator Hose",
+    "partNo": "MZBPH-043",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "127212",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8234707/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "A/T, M/T",
+      "Article ID:": "8234707",
+      "Article Number:": "MZBPH-043",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers MAZDA:": "ZJ38-13-692"
+    }
+  }
+]

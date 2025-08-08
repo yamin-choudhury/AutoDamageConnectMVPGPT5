@@ -1,0 +1,50 @@
+[
+  {
+    "id": "56127",
+    "type": "1.1",
+    "modelId": "3511",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4HG",
+      "cylinder": "4",
+      "capacity": "1,086 CCM / 1.1 L",
+      "fuelType": "Petrol",
+      "year": "2003-06-01\n                            \n                            2010-12-01",
+      "power": "45 KW / 61 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119229",
+    "type": "1.1 LPG",
+    "modelId": "3511",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4HG",
+      "cylinder": "4",
+      "capacity": "1,086 CCM / 1.1 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2008-09-01\n                            \n                            2015-01-01",
+      "power": "46 KW / 63 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139094",
+    "type": "1.1 CNG",
+    "modelId": "3511",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,086 CCM / 1.1 L",
+      "fuelType": "CNG",
+      "year": "2007-07-01\n                            \n                            2015-01-01",
+      "power": "46 KW / 63 PS"
+    },
+    "categories": []
+  }
+]

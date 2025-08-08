@@ -1,0 +1,114 @@
+[
+  {
+    "id": "39456",
+    "type": "2.7 D All-wheel Drive",
+    "modelId": "10509",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "J2",
+      "cylinder": "4",
+      "capacity": "2,665 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01\n                            \n                            2012-12-01",
+      "power": "61 KW / 83 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55762",
+    "type": "2.5 TDCi",
+    "modelId": "10509",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4BH",
+      "cylinder": "4",
+      "capacity": "2,476 CCM / 2.5 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "69 KW / 94 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "101126",
+    "type": "2.7 D",
+    "modelId": "10509",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "J2",
+      "cylinder": "4",
+      "capacity": "2,665 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2004-03-01\n                            \n                            2012-12-01",
+      "power": "61 KW / 83 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122218",
+    "type": "2.5 CRDI",
+    "modelId": "10509",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4CB",
+      "cylinder": "4",
+      "capacity": "2,497 CCM / 2.5 L",
+      "fuelType": "Diesel",
+      "year": "2012-01-01",
+      "power": "98 KW / 133 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129073",
+    "type": "2.9 TDiC",
+    "modelId": "10509",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "HJ3",
+      "cylinder": "4",
+      "capacity": "2,902 CCM / 2.9 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129074",
+    "type": "2.9 TDiC All-wheel Drive",
+    "modelId": "10509",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "HJ3",
+      "cylinder": "4",
+      "capacity": "2,902 CCM / 2.9 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129313",
+    "type": "2.7 D",
+    "modelId": "10509",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "J2",
+      "cylinder": "4",
+      "capacity": "2,665 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "59 KW / 80 PS"
+    },
+    "categories": []
+  }
+]

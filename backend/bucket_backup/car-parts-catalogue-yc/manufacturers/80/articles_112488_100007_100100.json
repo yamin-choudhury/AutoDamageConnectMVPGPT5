@@ -1,0 +1,56 @@
+[
+  {
+    "id": "472625",
+    "name": "Radiator Hose",
+    "partNo": "05-3751",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112488",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/472625/model-series-id-8862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "34",
+      "Inner diameter 2 [mm]": "34",
+      "Hose Length [mm]": "371",
+      "Article ID:": "472625",
+      "Article Number:": "05-3751",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007534072",
+      "OEM Numbers NISSAN:": "21501JK200",
+      "OEM Numbers INFINITI:": "21501JK200"
+    }
+  },
+  {
+    "id": "472626",
+    "name": "Radiator Hose",
+    "partNo": "05-3752",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112488",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/472626/model-series-id-8862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "34",
+      "Inner diameter 2 [mm]": "34",
+      "Hose Length [mm]": "478",
+      "Article ID:": "472626",
+      "Article Number:": "05-3752",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007534077",
+      "OEM Numbers NISSAN:": "21503JK200",
+      "OEM Numbers INFINITI:": "21503JK200"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1604357",
+    "name": "Resistor, interior blower",
+    "partNo": "176042",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "113217",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1604357/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "7L0 907 521 B",
+      "Weight [kg]": "0,194",
+      "Number of connectors": "4",
+      "Article ID:": "1604357",
+      "Article Number:": "176042",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422476042",
+      "OEM Numbers AUDI:": "7L0 907 521 B",
+      "OEM Numbers SEAT:": "7L0 907 521 B",
+      "OEM Numbers VW:": "7L0 907 521 B",
+      "OEM Numbers PORSCHE:": "955 572 341 02"
+    }
+  },
+  {
+    "id": "1605517",
+    "name": "Resistor, interior blower",
+    "partNo": "176299",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "113217",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1605517/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,056",
+      "Number of connectors": "4",
+      "Article ID:": "1605517",
+      "Article Number:": "176299",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422476299",
+      "OEM Numbers VW:": "7E0 959 263 C"
+    }
+  },
+  {
+    "id": "2764656",
+    "name": "Resistor, interior blower",
+    "partNo": "33 10 3460",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "113217",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2764656/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,056",
+      "Number of connectors": "4",
+      "Article ID:": "2764656",
+      "Article Number:": "33 10 3460",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422876299",
+      "OEM Numbers VW:": "7E0 959 263 C"
+    }
+  }
+]

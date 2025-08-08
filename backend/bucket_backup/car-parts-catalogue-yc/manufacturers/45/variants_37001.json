@@ -1,0 +1,34 @@
+[
+  {
+    "id": "122304",
+    "type": "0.7",
+    "modelId": "37001",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "E07Z",
+      "cylinder": "3",
+      "capacity": "656 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "1997-09-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124165",
+    "type": "0.7 (HH5)",
+    "modelId": "37001",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "E07Z",
+      "cylinder": "3",
+      "capacity": "656 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "33 KW / 45 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "14779",
+    "type": "1.2 16V",
+    "modelId": "4633",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 12 XE",
+      "cylinder": "4",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2000-09-01\n                            \n                            2008-03-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "20044",
+    "type": "1.0 12V",
+    "modelId": "4633",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 10 XEP",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2000-02-01\n                            \n                            2006-11-01",
+      "power": "44 KW / 60 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "20046",
+    "type": "1.2 16V Twinport",
+    "modelId": "4633",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 12 XEP",
+      "cylinder": "4",
+      "capacity": "1,229 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2004-07-01\n                            \n                            2006-11-01",
+      "power": "59 KW / 80 PS"
+    },
+    "categories": []
+  }
+]

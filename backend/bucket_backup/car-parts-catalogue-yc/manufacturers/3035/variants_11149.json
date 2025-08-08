@@ -1,0 +1,130 @@
+[
+  {
+    "id": "22610",
+    "type": "1.6",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSRA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01\n                            \n                            2019-02-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58640",
+    "type": "1.4 TSI",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01\n                            \n                            2013-12-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58641",
+    "type": "1.6",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CPJA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2012-08-01\n                            \n                            2014-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115866",
+    "type": "1.2 TSI",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CYAA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2015-07-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121920",
+    "type": "280 TSI",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121921",
+    "type": "1.4 TSI",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSTA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-10-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136848",
+    "type": "1.5",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DLFA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "148013",
+    "type": "CNG",
+    "modelId": "11149",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUCA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2015-02-01\n                            \n                            2019-09-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  }
+]

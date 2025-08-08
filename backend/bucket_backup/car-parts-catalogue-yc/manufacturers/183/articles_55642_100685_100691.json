@@ -1,0 +1,50 @@
+[
+  {
+    "id": "8384903",
+    "name": "Door Handle",
+    "partNo": "P20-0188L",
+    "manufacturer": "PATRON",
+    "supplierId": "4558",
+    "productsId": "1373",
+    "productGroupId": "100691",
+    "categoryId": "100685",
+    "variantId": "55642",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8384903/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Surface": "Primed",
+      "Article ID:": "8384903",
+      "Article Number:": "P20-0188L",
+      "Manufacturer:": "PATRON",
+      "EAN Numbers:": "481425542340",
+      "OEM Numbers HYUNDAI:": "82652-1R050"
+    }
+  },
+  {
+    "id": "7473331",
+    "name": "Door Handle",
+    "partNo": "HN1008004",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "1373",
+    "productGroupId": "100691",
+    "categoryId": "100685",
+    "variantId": "55642",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7473331/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Surface": "Primed",
+      "Article ID:": "7473331",
+      "Article Number:": "HN1008004",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353332215",
+      "OEM Numbers HYUNDAI:": "82652-1R050"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3207539",
+    "name": "Brake Booster",
+    "partNo": "4110911",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "24162",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3207539/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "7 / 8",
+      "Article ID:": "3207539",
+      "Article Number:": "4110911",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293748391",
+      "OEM Numbers AUDI:": "4B3 612 107 C",
+      "OEM Numbers VW:": "4B3 612 107 C",
+      "OEM Numbers SEAT:": "4B3 612 107 B",
+      "OEM Numbers SKODA:": "4B3 612 107 B"
+    }
+  },
+  {
+    "id": "8629325",
+    "name": "Brake Booster",
+    "partNo": "PSA911",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "24162",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8629325/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "7 / 8",
+      "Article ID:": "8629325",
+      "Article Number:": "PSA911",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293723033",
+      "OEM Numbers AUDI:": "4B3 612 107 C",
+      "OEM Numbers VW:": "4B3 612 107 C",
+      "OEM Numbers SEAT:": "4B3 612 107 B",
+      "OEM Numbers SKODA:": "4B3 612 107 B"
+    }
+  }
+]

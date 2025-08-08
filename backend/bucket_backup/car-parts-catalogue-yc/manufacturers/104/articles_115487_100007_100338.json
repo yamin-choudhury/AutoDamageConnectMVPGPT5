@@ -1,0 +1,48 @@
+[
+  {
+    "id": "5398950",
+    "name": "Fan, radiator",
+    "partNo": "99591808401",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "115487",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5398950/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "300",
+      "Outer diameter [mm]": "360",
+      "Article ID:": "5398950",
+      "Article Number:": "99591808401",
+      "Manufacturer:": "vika",
+      "OEM Numbers SEAT:": "7N0959455M",
+      "OEM Numbers VW:": "7N0959455M"
+    }
+  },
+  {
+    "id": "5398951",
+    "name": "Fan, radiator",
+    "partNo": "99591808501",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "115487",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5398951/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "200",
+      "Outer diameter [mm]": "328",
+      "Article ID:": "5398951",
+      "Article Number:": "99591808501",
+      "Manufacturer:": "vika",
+      "OEM Numbers SEAT:": "7N0959455N",
+      "OEM Numbers VW:": "7N0959455N"
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "3823074",
+    "name": "Bumper Cover, towing device",
+    "partNo": "5513-00-0045920P",
+    "manufacturer": "BLIC",
+    "supplierId": "4555",
+    "productsId": "943",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "33304",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3823074/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Article ID:": "3823074",
+      "Article Number:": "5513-00-0045920P",
+      "Manufacturer:": "BLIC",
+      "EAN Numbers:": "590165548769",
+      "OEM Numbers AUDI:": "8X0807241"
+    }
+  },
+  {
+    "id": "9509731",
+    "name": "Bracket, muffler",
+    "partNo": "V10-2420",
+    "manufacturer": "VAICO",
+    "supplierId": "162",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "33304",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9509731/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Weight [kg]": "0,195",
+      "Article ID:": "9509731",
+      "Article Number:": "V10-2420",
+      "Manufacturer:": "VAICO",
+      "EAN Numbers:": "404600157140",
+      "OEM Numbers SEAT:": "7H0 253 144 E",
+      "OEM Numbers SKODA:": "7H0 253 144 E",
+      "OEM Numbers VAG:": "7H0 253 144 E",
+      "OEM Numbers AUDI:": "6Q0 253 144 D",
+      "OEM Numbers VW:": "6Q0 253 144 D"
+    }
+  },
+  {
+    "id": "9516947",
+    "name": "Bracket, muffler",
+    "partNo": "V10-9619",
+    "manufacturer": "VAICO",
+    "supplierId": "162",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "33304",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9516947/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,214",
+      "Material": "Steel Elastomer",
+      "Exhaust System": "for rear muffler",
+      "Article ID:": "9516947",
+      "Article Number:": "V10-9619",
+      "Manufacturer:": "VAICO",
+      "EAN Numbers:": "404600167903",
+      "OEM Numbers AUDI:": "6Q0 253 144 G",
+      "OEM Numbers SEAT:": "6Q0 253 144 G",
+      "OEM Numbers SKODA:": "6Q0 253 144 G",
+      "OEM Numbers VW:": "6Q0 253 144 G",
+      "OEM Numbers VAG:": "6Q0 253 144 G"
+    }
+  }
+]

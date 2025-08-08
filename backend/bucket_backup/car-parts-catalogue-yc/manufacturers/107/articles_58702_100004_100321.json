@@ -1,0 +1,95 @@
+[
+  {
+    "id": "243990",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01292000",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "58702",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/243990/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Width [mm]": "81",
+      "Height [mm]": "0,8",
+      "Article ID:": "243990",
+      "Article Number:": "01292000",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357706930",
+      "OEM Numbers SUBARU:": "44022AA131"
+    }
+  },
+  {
+    "id": "4445713",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "720-909",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "58702",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4445713/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Inlet",
+      "Article ID:": "4445713",
+      "Article Number:": "720-909",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513321574",
+      "OEM Numbers SUBARU:": "44022AA020",
+      "OEM Numbers TOYOTA:": "SU00301111"
+    }
+  },
+  {
+    "id": "4378281",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "70U7001-JPN",
+    "manufacturer": "JPN",
+    "supplierId": "6985",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "58702",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4378281/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "1,5",
+      "Length [mm]": "135",
+      "Width [mm]": "90",
+      "Article ID:": "4378281",
+      "Article Number:": "70U7001-JPN",
+      "Manufacturer:": "JPN",
+      "OEM Numbers SUBARU:": "44022AA160"
+    }
+  },
+  {
+    "id": "9916131",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1449030",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "58702",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9916131/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Width [mm]": "81",
+      "Height [mm]": "0,8",
+      "Article ID:": "9916131",
+      "Article Number:": "WG1449030",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers SUBARU:": "44022AA131"
+    }
+  }
+]

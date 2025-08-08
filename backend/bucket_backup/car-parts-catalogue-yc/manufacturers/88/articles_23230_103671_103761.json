@@ -1,0 +1,46 @@
+[
+  {
+    "id": "987939",
+    "name": "Cable Pull, clutch control",
+    "partNo": "11.3007",
+    "manufacturer": "CABOR",
+    "supplierId": "473",
+    "productsId": "478",
+    "productGroupId": "103761",
+    "categoryId": "103671",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/987939/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "625",
+      "Length 1 [mm]": "392",
+      "Article ID:": "987939",
+      "Article Number:": "11.3007",
+      "Manufacturer:": "CABOR",
+      "OEM Numbers PEUGEOT:": "2150A8"
+    }
+  },
+  {
+    "id": "7227241",
+    "name": "Cable Pull, clutch control",
+    "partNo": "GCC1472",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "478",
+    "productGroupId": "103761",
+    "categoryId": "103671",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7227241/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "630",
+      "Article ID:": "7227241",
+      "Article Number:": "GCC1472",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293723860",
+      "OEM Numbers PEUGEOT:": "2150 A8"
+    }
+  }
+]

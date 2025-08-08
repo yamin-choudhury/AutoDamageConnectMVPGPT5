@@ -1,0 +1,76 @@
+[
+  {
+    "id": "2300676",
+    "name": "Sensor, throttle position",
+    "partNo": "25840",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "19904",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2300676/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "2300676",
+      "Article Number:": "25840",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509325840",
+      "OEM Numbers KIA:": "35170-26900"
+    }
+  },
+  {
+    "id": "9642133",
+    "name": "Sensor, throttle position",
+    "partNo": "VS-TP 0801",
+    "manufacturer": "STARTVOLT",
+    "supplierId": "4771",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "19904",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9642133/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rotation Direction": "Clockwise rotation",
+      "Number of pins": "3",
+      "Supplementary Article/Info 2": "without cable",
+      "Connector Shape": "rectangular",
+      "Number of mounting bores": "2",
+      "Article ID:": "9642133",
+      "Article Number:": "VS-TP 0801",
+      "Manufacturer:": "STARTVOLT",
+      "EAN Numbers:": "468029513538",
+      "OEM Numbers HYUNDAI:": "3517026900"
+    }
+  },
+  {
+    "id": "9642133",
+    "name": "Sensor, throttle position",
+    "partNo": "VS-TP 0801",
+    "manufacturer": "STARTVOLT",
+    "supplierId": "4771",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "19904",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9642133/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rotation Direction": "Clockwise rotation",
+      "Number of pins": "3",
+      "Supplementary Article/Info 2": "without cable",
+      "Connector Shape": "rectangular",
+      "Number of mounting bores": "2",
+      "Article ID:": "9642133",
+      "Article Number:": "VS-TP 0801",
+      "Manufacturer:": "STARTVOLT",
+      "EAN Numbers:": "468029513538",
+      "OEM Numbers HYUNDAI:": "3517026900"
+    }
+  }
+]

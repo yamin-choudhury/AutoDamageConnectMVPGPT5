@@ -1,0 +1,194 @@
+[
+  {
+    "id": "55695",
+    "type": "2.4",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KE,G4KC",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55696",
+    "type": "2.7",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6BA",
+      "cylinder": "6",
+      "capacity": "2,656 CCM / 2.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55697",
+    "type": "2.7 BiFuel",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6HA",
+      "cylinder": "6",
+      "capacity": "2,656 CCM / 2.7 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "121 KW / 165 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55698",
+    "type": "3.0 GDI",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "L6DB",
+      "cylinder": "6",
+      "capacity": "2,999 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "175 KW / 238 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55699",
+    "type": "3.0 GDI",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DG",
+      "cylinder": "6",
+      "capacity": "2,999 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "199 KW / 271 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55700",
+    "type": "3.3 GDI",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DH",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "216 KW / 294 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55701",
+    "type": "3.5 CVVT",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DC",
+      "cylinder": "6",
+      "capacity": "3,470 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "213 KW / 290 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107336",
+    "type": "3.3 GDI",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DH",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2013-09-01",
+      "power": "218 KW / 296 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111475",
+    "type": "2.4",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KE",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-06-01\n                            \n                            2017-12-01",
+      "power": "127 KW / 173 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122262",
+    "type": "2.4",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KJ",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "148 KW / 201 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129199",
+    "type": "3.0 LPG",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "L6DB",
+      "cylinder": "6",
+      "capacity": "2,999 CCM / 3.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2010-01-01\n                            \n                            2015-12-01",
+      "power": "175 KW / 238 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129457",
+    "type": "2.4 700h",
+    "modelId": "10493",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KK",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2013-06-01\n                            \n                            2015-12-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3022841",
+    "name": "Bellow Kit, steering",
+    "partNo": "3844700310",
+    "manufacturer": "JP GROUP",
+    "supplierId": "268",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "5839",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3022841/model-series-id-8862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Article ID:": "3022841",
+      "Article Number:": "3844700310",
+      "Manufacturer:": "JP GROUP",
+      "EAN Numbers:": "571041258889",
+      "OEM Numbers HONDA:": "53537TL1G01",
+      "OEM Numbers MAZDA:": "S47P32125"
+    }
+  },
+  {
+    "id": "4866158",
+    "name": "Bellow, steering",
+    "partNo": "84224",
+    "manufacturer": "SPIDAN",
+    "supplierId": "1",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "5839",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4866158/model-series-id-8862/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "162",
+      "Material": "Thermoplast",
+      "Supplementary Article/Info 2": "for stainless steel cable tie",
+      "Inner diameter 1 [mm]": "12,5",
+      "Inner diameter 2 [mm]": "50,5",
+      "Article ID:": "4866158",
+      "Article Number:": "84224",
+      "Manufacturer:": "SPIDAN",
+      "EAN Numbers:": "401906433463",
+      "OEM Numbers HONDA:": "53537TL1G01",
+      "OEM Numbers MAZDA:": "GS1D32125"
+    }
+  }
+]

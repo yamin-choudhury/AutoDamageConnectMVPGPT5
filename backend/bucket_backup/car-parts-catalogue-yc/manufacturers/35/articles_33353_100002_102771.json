@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1469402",
+    "name": "Mounting, engine",
+    "partNo": "15899",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33353",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1469402/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Weight [g]": "651",
+      "Article ID:": "1469402",
+      "Article Number:": "15899",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205899",
+      "OEM Numbers FIAT:": "51854036"
+    }
+  },
+  {
+    "id": "1488326",
+    "name": "Mounting, engine",
+    "partNo": "16063",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33353",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1488326/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Weight [g]": "1350",
+      "Article ID:": "1488326",
+      "Article Number:": "16063",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539206260",
+      "OEM Numbers FIAT:": "51929082"
+    }
+  },
+  {
+    "id": "1469403",
+    "name": "Mounting, engine",
+    "partNo": "15899",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33353",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1469403/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Weight [g]": "651",
+      "Article ID:": "1469403",
+      "Article Number:": "15899",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205899",
+      "OEM Numbers FIAT:": "51854036"
+    }
+  },
+  {
+    "id": "1488327",
+    "name": "Mounting, engine",
+    "partNo": "16063",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33353",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1488327/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Weight [g]": "1350",
+      "Article ID:": "1488327",
+      "Article Number:": "16063",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539206260",
+      "OEM Numbers FIAT:": "51929082"
+    }
+  }
+]

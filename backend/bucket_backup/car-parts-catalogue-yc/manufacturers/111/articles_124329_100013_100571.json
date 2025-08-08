@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7699584",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "JTC2512",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "124329",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7699584/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter 1 [mm]": "14,3",
+      "Diameter 2 [mm]": "14,6",
+      "Control/Trailing Arm Type": "Control Arm",
+      "paired article number": "JTC2513",
+      "Article ID:": "7699584",
+      "Article Number:": "JTC2512",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293823726",
+      "OEM Numbers TOYOTA:": "48068-47040"
+    }
+  },
+  {
+    "id": "7699585",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "JTC2513",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "124329",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7699585/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter 1 [mm]": "14,3",
+      "Diameter 2 [mm]": "14,6",
+      "Control/Trailing Arm Type": "Control Arm",
+      "paired article number": "JTC2512",
+      "Article ID:": "7699585",
+      "Article Number:": "JTC2513",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293823727",
+      "OEM Numbers TOYOTA:": "48069-47040"
+    }
+  }
+]

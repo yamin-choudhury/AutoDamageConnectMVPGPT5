@@ -1,0 +1,56 @@
+[
+  {
+    "id": "5596879",
+    "name": "Wiper Blade",
+    "partNo": "AD21CH530",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "108344",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596879/model-series-id-13258/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "530",
+      "Length [in]": "21",
+      "Weight [kg]": "0,128",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "5596879",
+      "Article Number:": "AD21CH530",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327923",
+      "OEM Numbers FENDT:": "H816810170020"
+    }
+  },
+  {
+    "id": "4499748",
+    "name": "Wiper Blade",
+    "partNo": "7418-20210",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "108344",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4499748/model-series-id-13258/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4499748",
+      "Article Number:": "7418-20210",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers SUZUKI:": "38340M76M10",
+      "OEM Numbers PROTON:": "PW893454",
+      "OEM Numbers MARUTI:": "38340M76M10",
+      "OEM Numbers TOYOTA:": "85212--YZZAM",
+      "OEM Numbers PERODUA:": "85212-BZ040",
+      "OEM Numbers LEXUS:": "85212--YZZAM",
+      "OEM Numbers ISUZU:": "8-97349-900-0",
+      "OEM Numbers CHEVROLET:": "8-97349-900-0",
+      "OEM Numbers KIA:": "MDX5067330"
+    }
+  }
+]

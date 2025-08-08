@@ -1,0 +1,43 @@
+[
+  {
+    "id": "5729319",
+    "name": "Condenser, air conditioning",
+    "partNo": "APCDHY0033",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "138752",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5729319/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5729319",
+      "Article Number:": "APCDHY0033",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers HYUNDAI:": "9760625800"
+    }
+  },
+  {
+    "id": "5729318",
+    "name": "Condenser, air conditioning",
+    "partNo": "APCDHY0033",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "138752",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5729318/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5729318",
+      "Article Number:": "APCDHY0033",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers HYUNDAI:": "9760625800"
+    }
+  }
+]

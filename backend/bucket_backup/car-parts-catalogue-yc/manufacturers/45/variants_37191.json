@@ -1,0 +1,34 @@
+[
+  {
+    "id": "123497",
+    "type": "0.7 (HA8)",
+    "modelId": "37191",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "E07Z",
+      "cylinder": "3",
+      "capacity": "656 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-12-01",
+      "power": "33 KW / 45 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123504",
+    "type": "0.7 4WD (HA9)",
+    "modelId": "37191",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "E07Z",
+      "cylinder": "3",
+      "capacity": "656 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-12-01",
+      "power": "33 KW / 45 PS"
+    },
+    "categories": []
+  }
+]

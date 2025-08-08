@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1459228",
+    "name": "Mounting, engine",
+    "partNo": "15671",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "109331",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1459228/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Weight [g]": "1630",
+      "Article ID:": "1459228",
+      "Article Number:": "15671",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205671",
+      "OEM Numbers CITROËN/PEUGEOT:": "9806658980",
+      "OEM Numbers DS:": "9806658980"
+    }
+  },
+  {
+    "id": "1459230",
+    "name": "Mounting, engine",
+    "partNo": "15671",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "109331",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1459230/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Weight [g]": "1630",
+      "Article ID:": "1459230",
+      "Article Number:": "15671",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205671",
+      "OEM Numbers CITROËN/PEUGEOT:": "9806658980",
+      "OEM Numbers DS:": "9806658980"
+    }
+  }
+]

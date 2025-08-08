@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1520413",
+    "name": "Filter, interior air",
+    "partNo": "1640550780",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "125087",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1520413/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "256",
+      "Width [mm]": "253",
+      "Height [mm]": "35",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "1520413",
+      "Article Number:": "1640550780",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "4H0819439",
+      "OEM Numbers BENTLEY:": "4H0819439"
+    }
+  },
+  {
+    "id": "6707288",
+    "name": "Filter, interior air",
+    "partNo": "E2996LB",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "125087",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6707288/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "255",
+      "Width [mm]": "251",
+      "Height [mm]": "35",
+      "Filter type": "with antibacterial action",
+      "Article ID:": "6707288",
+      "Article Number:": "E2996LB",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077604711",
+      "OEM Numbers VAG:": "4H0 819 439"
+    }
+  },
+  {
+    "id": "6707289",
+    "name": "Filter, interior air",
+    "partNo": "E2996LC",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "125087",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6707289/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "250",
+      "Width [mm]": "255",
+      "Height [mm]": "36",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "6707289",
+      "Article Number:": "E2996LC",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077604046",
+      "OEM Numbers VW (SVW):": "L4H0 819 439",
+      "OEM Numbers VAG:": "4H0 819 439",
+      "OEM Numbers AUDI (FAW):": "L4 GD 819 439"
+    }
+  }
+]

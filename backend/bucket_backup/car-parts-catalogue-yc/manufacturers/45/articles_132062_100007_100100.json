@@ -1,0 +1,54 @@
+[
+  {
+    "id": "473668",
+    "name": "Radiator Hose",
+    "partNo": "05-5009",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "132062",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/473668/model-series-id-38825/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "26",
+      "Inner diameter 2 [mm]": "26",
+      "Hose Length [mm]": "280",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "473668",
+      "Article Number:": "05-5009",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "540060853080",
+      "OEM Numbers HONDA:": "19501-RB0-000"
+    }
+  },
+  {
+    "id": "8723789",
+    "name": "Radiator Hose",
+    "partNo": "R40147",
+    "manufacturer": "RAPRO",
+    "supplierId": "4303",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "132062",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8723789/model-series-id-38825/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "26",
+      "Inner diameter 2 [mm]": "26",
+      "Hose Length [mm]": "280",
+      "Article ID:": "8723789",
+      "Article Number:": "R40147",
+      "Manufacturer:": "RAPRO",
+      "OEM Numbers HONDA:": "19501-RB0-000"
+    }
+  }
+]

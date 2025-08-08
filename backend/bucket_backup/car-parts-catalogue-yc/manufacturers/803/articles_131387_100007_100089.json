@@ -1,0 +1,68 @@
+[
+  {
+    "id": "224617",
+    "name": "Gasket, water pump",
+    "partNo": "01099900",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "314",
+    "productGroupId": "100089",
+    "categoryId": "100007",
+    "variantId": "131387",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/224617/model-series-id-38746/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "135",
+      "Width [mm]": "117",
+      "Article ID:": "224617",
+      "Article Number:": "01099900",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776980966",
+      "OEM Numbers BMW:": "11517508535"
+    }
+  },
+  {
+    "id": "4574826",
+    "name": "Gasket Set, water pump",
+    "partNo": "77043100",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "315",
+    "productGroupId": "100089",
+    "categoryId": "100007",
+    "variantId": "131387",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4574826/model-series-id-38746/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4574826",
+      "Article Number:": "77043100",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357792048",
+      "OEM Numbers BMW:": "11517508535"
+    }
+  },
+  {
+    "id": "10115455",
+    "name": "Gasket, water pump",
+    "partNo": "WG1956393",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "314",
+    "productGroupId": "100089",
+    "categoryId": "100007",
+    "variantId": "131387",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10115455/model-series-id-38746/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "135",
+      "Width [mm]": "117",
+      "Article ID:": "10115455",
+      "Article Number:": "WG1956393",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers BMW:": "11 51 7 508 535"
+    }
+  }
+]

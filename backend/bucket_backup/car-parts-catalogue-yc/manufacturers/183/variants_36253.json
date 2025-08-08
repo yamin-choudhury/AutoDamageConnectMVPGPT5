@@ -1,0 +1,146 @@
+[
+  {
+    "id": "118775",
+    "type": "1.4 CRDi",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FC",
+      "cylinder": "4",
+      "capacity": "1,396 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2016-01-01\n                            \n                            2021-01-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118776",
+    "type": "1.6 CRDi",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FB",
+      "cylinder": "4",
+      "capacity": "1,582 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2016-01-01\n                            \n                            2021-01-01",
+      "power": "94 KW / 128 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118777",
+    "type": "1.6",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FG",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01\n                            \n                            2021-01-01",
+      "power": "90 KW / 123 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121109",
+    "type": "2.0",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01\n                            \n                            2021-01-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121110",
+    "type": "2.0 4WD",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4NA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01\n                            \n                            2021-01-01",
+      "power": "110 KW / 149 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126305",
+    "type": "2.0 Prestige, Pulse, Sport Flex",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "F4NA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2017-01-01\n                            \n                            2021-01-01",
+      "power": "122 KW / 166 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126306",
+    "type": "1.6 Attitude, Pulse, Flex",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "F4FG,F4FA",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2017-01-01\n                            \n                            2021-01-01",
+      "power": "96 KW / 130 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128827",
+    "type": "1.6 4WD",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FG",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2016-08-01\n                            \n                            2021-01-01",
+      "power": "90 KW / 123 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131888",
+    "type": "1.6",
+    "modelId": "36253",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4FG",
+      "cylinder": "4",
+      "capacity": "1,591 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2018-07-01\n                            \n                            2021-01-01",
+      "power": "89 KW / 121 PS"
+    },
+    "categories": []
+  }
+]

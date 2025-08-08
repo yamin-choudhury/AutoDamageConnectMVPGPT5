@@ -1,0 +1,30 @@
+[
+  {
+    "id": "6529668",
+    "name": "Alternator",
+    "partNo": "DAN1484",
+    "manufacturer": "DENSO",
+    "supplierId": "66",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "55005",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6529668/model-series-id-11332/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Alternator Charge Current [A]": "150",
+      "Quality": "OE",
+      "Number of ribs": "7",
+      "Belt Pulley Ø [mm]": "52,5",
+      "Pulleys": "with freewheel belt pulley",
+      "Vehicle Main Current": "for vehicles with 12V main current",
+      "Article ID:": "6529668",
+      "Article Number:": "DAN1484",
+      "Manufacturer:": "DENSO",
+      "EAN Numbers:": "0871761311571",
+      "OEM Numbers TOYOTA:": "27060-31230"
+    }
+  }
+]

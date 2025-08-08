@@ -1,0 +1,128 @@
+[
+  {
+    "id": "100007",
+    "name": "Cooling System",
+    "variantId": "148227",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100089",
+        "name": "Water Pump/Gasket",
+        "categoryId": "100007",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/100089/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "148227",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100531",
+        "name": "Crankshaft Drive",
+        "categoryId": "100002",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/100531/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100375",
+        "name": "Cylinder Head/Attachment Parts",
+        "categoryId": "100002",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/100375/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104377",
+        "name": "Cylinders/Pistons",
+        "categoryId": "100002",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/104377/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100386",
+        "name": "Engine Air Supply",
+        "categoryId": "100002",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/100386/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100683",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/100683/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100491",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/100491/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "148227",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/100597/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "148227",
+    "manufacturerId": "802",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104058",
+        "name": "Cooling System",
+        "categoryId": "103671",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/104058/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104286",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "148227",
+        "manufacturerId": "802",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148227/104286/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "54954",
+    "type": "4.7",
+    "modelId": "10221",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 139 S",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01",
+      "power": "323 KW / 439 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56218",
+    "type": "4.7",
+    "modelId": "10221",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 145 S",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2011-01-01",
+      "power": "331 KW / 450 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57113",
+    "type": "4.7",
+    "modelId": "10221",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-09-01",
+      "power": "268 KW / 364 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59480",
+    "type": "4.7",
+    "modelId": "10221",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 145 B",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2013-02-01",
+      "power": "338 KW / 460 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108057",
+    "type": "4.7",
+    "modelId": "10221",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "M 139 S",
+      "cylinder": "8",
+      "capacity": "4,691 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01",
+      "power": "324 KW / 440 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2955100",
+    "name": "Connector, compressed air line",
+    "partNo": "3623-01-6751",
+    "manufacturer": "MiesslerAutomotive",
+    "supplierId": "2888",
+    "productsId": "373",
+    "productGroupId": "103197",
+    "categoryId": "103168",
+    "variantId": "54454",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2955100/model-series-id-35870/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "4Z7616052A",
+      "Manufactured in": "Germany",
+      "Gross weight [kg]": "0,1",
+      "Article ID:": "2955100",
+      "Article Number:": "3623-01-6751",
+      "Manufacturer:": "MiesslerAutomotive",
+      "EAN Numbers:": "0425141985649",
+      "OEM Numbers TESLA:": "110886600A",
+      "OEM Numbers JAGUAR:": "C2C9930",
+      "OEM Numbers AUDI:": "4B0616751",
+      "OEM Numbers PORSCHE:": "971616751"
+    }
+  },
+  {
+    "id": "2967134",
+    "name": "Connector, compressed air line",
+    "partNo": "3651-01-4100",
+    "manufacturer": "MiesslerAutomotive",
+    "supplierId": "2888",
+    "productsId": "373",
+    "productGroupId": "103197",
+    "categoryId": "103168",
+    "variantId": "54454",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2967134/model-series-id-35870/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufactured in": "Germany",
+      "Gross weight [kg]": "0,2",
+      "Article ID:": "2967134",
+      "Article Number:": "3651-01-4100",
+      "Manufacturer:": "MiesslerAutomotive",
+      "EAN Numbers:": "0425141985650",
+      "OEM Numbers TESLA:": "105137300A",
+      "OEM Numbers MERCEDES-BENZ:": "A2213280065",
+      "OEM Numbers JAGUAR:": "C2C9931",
+      "OEM Numbers VW:": "7L0616758",
+      "OEM Numbers PORSCHE:": "95535854100"
+    }
+  }
+]

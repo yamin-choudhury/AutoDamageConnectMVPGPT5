@@ -1,0 +1,50 @@
+[
+  {
+    "id": "921413",
+    "name": "Floor Mat Set",
+    "partNo": "106 31 054 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "215",
+    "productGroupId": "102692",
+    "categoryId": "100341",
+    "variantId": "142228",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/921413/model-series-id-41279/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black/Grey",
+      "Material": "Elastomer",
+      "Quantity Unit": "Set",
+      "Multi-piece": "four-piece",
+      "Article ID:": "921413",
+      "Article Number:": "106 31 054 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers SKODA:": "5LA 061 500"
+    }
+  },
+  {
+    "id": "921414",
+    "name": "Floor Mat Set",
+    "partNo": "106 31 055 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "215",
+    "productGroupId": "102692",
+    "categoryId": "100341",
+    "variantId": "142228",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/921414/model-series-id-41279/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black/Red",
+      "Material": "Elastomer",
+      "Quantity Unit": "Set",
+      "Multi-piece": "four-piece",
+      "Article ID:": "921414",
+      "Article Number:": "106 31 055 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers SKODA:": "5LA 061 500 B"
+    }
+  }
+]

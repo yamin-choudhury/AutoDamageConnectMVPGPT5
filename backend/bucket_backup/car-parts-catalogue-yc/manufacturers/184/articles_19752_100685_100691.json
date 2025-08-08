@@ -1,0 +1,73 @@
+[
+  {
+    "id": "7786352",
+    "name": "Door Handle",
+    "partNo": "KI7328003",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "1373",
+    "productGroupId": "100691",
+    "categoryId": "100685",
+    "variantId": "19752",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7786352/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Front",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Surface": "Primed",
+      "Article ID:": "7786352",
+      "Article Number:": "KI7328003",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353332262",
+      "OEM Numbers KIA:": "826601D220"
+    }
+  },
+  {
+    "id": "7786353",
+    "name": "Door Handle",
+    "partNo": "KI7328004",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "1373",
+    "productGroupId": "100691",
+    "categoryId": "100685",
+    "variantId": "19752",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7786353/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Surface": "Primed",
+      "Article ID:": "7786353",
+      "Article Number:": "KI7328004",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353332261",
+      "OEM Numbers KIA:": "826501D200"
+    }
+  },
+  {
+    "id": "7786354",
+    "name": "Door Handle",
+    "partNo": "KI7328113",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "1373",
+    "productGroupId": "100691",
+    "categoryId": "100685",
+    "variantId": "19752",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7786354/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Surface": "Primed",
+      "Article ID:": "7786354",
+      "Article Number:": "KI7328113",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353332263",
+      "OEM Numbers KIA:": "836501D200"
+    }
+  }
+]

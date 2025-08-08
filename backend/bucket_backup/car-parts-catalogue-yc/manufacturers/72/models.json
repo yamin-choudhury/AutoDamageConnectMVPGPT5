@@ -1,0 +1,2268 @@
+[
+  {
+    "id": "4026",
+    "name": "MAZDA 1000 (FA3)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4026/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-01-01",
+      "toDate": "1977-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41945",
+    "name": "MAZDA 1000 Pickup",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41945/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40570",
+    "name": "MAZDA 1200 Coupe (FA3)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40570/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40571",
+    "name": "MAZDA 1200 Estate (FA3)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40571/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32481",
+    "name": "MAZDA 1200 Saloon (FA3)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32481/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40568",
+    "name": "MAZDA 121 Coupe (CD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40568/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-01-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "88",
+    "name": "MAZDA 121 I (DA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/88/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-03-01",
+      "toDate": "1991-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "92",
+    "name": "MAZDA 121 II (DB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/92/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-11-01",
+      "toDate": "1997-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1510",
+    "name": "MAZDA 121 III (JASM, JBSM)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1510/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-03-01",
+      "toDate": "2003-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43061",
+    "name": "MAZDA 121 III Hatchback Van (JASM, JBSM)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43061/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-01-01",
+      "toDate": "2002-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4027",
+    "name": "MAZDA 1300 (FA3)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4027/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-02-01",
+      "toDate": "1977-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6436",
+    "name": "MAZDA 2 (DE_, DH_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-07-01",
+      "toDate": "2015-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13240",
+    "name": "MAZDA 2 (DL, DJ)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4958",
+    "name": "MAZDA 2 (DY)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4958/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-02-01",
+      "toDate": "2007-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42729",
+    "name": "MAZDA 2 Hatchback (KB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42729/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9579",
+    "name": "MAZDA 2 Saloon (DE_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9579/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-05-01",
+      "toDate": "2015-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13907",
+    "name": "MAZDA 2 Saloon (DL)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13907/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5062",
+    "name": "MAZDA 3 (BK)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5062/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8036",
+    "name": "MAZDA 3 (BL)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8036/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-12-01",
+      "toDate": "2014-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11526",
+    "name": "MAZDA 3 (BM, BN)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11526/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39275",
+    "name": "MAZDA 3 Hatchback (BP)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39275/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39001",
+    "name": "MAZDA 3 Hatchback Van (BM)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39001/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-04-01",
+      "toDate": "2016-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5063",
+    "name": "MAZDA 3 Saloon (BK)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5063/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8037",
+    "name": "MAZDA 3 Saloon (BL)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8037/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-12-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11527",
+    "name": "MAZDA 3 Saloon (BM_, BN_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11527/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": "2019-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39276",
+    "name": "MAZDA 3 Saloon (BP_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39276/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "324",
+    "name": "MAZDA 323   Station Wagon (FA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/324/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-05-01",
+      "toDate": "1986-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "356",
+    "name": "MAZDA 323 C Mk IV (BG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/356/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-06-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "311",
+    "name": "MAZDA 323 C Mk V (BA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/311/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-08-01",
+      "toDate": "2001-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "352",
+    "name": "MAZDA 323 F Mk IV (BG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/352/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-04-01",
+      "toDate": "1994-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "315",
+    "name": "MAZDA 323 F Mk V (BA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/315/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "1998-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3853",
+    "name": "MAZDA 323 F/P Mk VI (BJ)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3853/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-09-01",
+      "toDate": "2004-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "320",
+    "name": "MAZDA 323 I (FA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/320/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-01-01",
+      "toDate": "1982-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "347",
+    "name": "MAZDA 323 III (BF)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/347/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-08-01",
+      "toDate": "1991-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "338",
+    "name": "MAZDA 323 III Hatchback (BF)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/338/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-08-01",
+      "toDate": "1993-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "333",
+    "name": "MAZDA 323 Mk II (BD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/333/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-10-01",
+      "toDate": "1989-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3461",
+    "name": "MAZDA 323 Mk II Hatchback (BD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3461/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-06-01",
+      "toDate": "1989-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "342",
+    "name": "MAZDA 323 Mk III Station Wagon (BW)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/342/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3855",
+    "name": "MAZDA 323 P Mk V (BA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3855/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-10-01",
+      "toDate": "1998-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "361",
+    "name": "MAZDA 323 S Mk IV (BG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/361/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-06-01",
+      "toDate": "1996-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "365",
+    "name": "MAZDA 323 S Mk V (BA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/365/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-09-01",
+      "toDate": "2003-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3852",
+    "name": "MAZDA 323 S Mk VI (BJ)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3852/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-05-01",
+      "toDate": "2004-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5410",
+    "name": "MAZDA 5 (CR19)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5410/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-02-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9571",
+    "name": "MAZDA 5 (CW)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9571/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7571",
+    "name": "MAZDA 6 Estate (GH)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7571/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-12-01",
+      "toDate": "2013-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10888",
+    "name": "MAZDA 6 Estate (GJ, GL)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10888/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38998",
+    "name": "MAZDA 6 Estate Van (GJ)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38998/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-01-01",
+      "toDate": "2016-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4887",
+    "name": "MAZDA 6 Hatchback (GG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4887/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-08-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6986",
+    "name": "MAZDA 6 Hatchback (GH)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6986/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-08-01",
+      "toDate": "2013-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4886",
+    "name": "MAZDA 6 Saloon (GG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4886/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-06-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6987",
+    "name": "MAZDA 6 Saloon (GH)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6987/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-08-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10884",
+    "name": "MAZDA 6 Saloon (GJ, GL)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10884/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4888",
+    "name": "MAZDA 6 Station Wagon (GY)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4888/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2008-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4028",
+    "name": "MAZDA 616 (SNA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4028/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-09-01",
+      "toDate": "1978-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "491",
+    "name": "MAZDA 626 / CRONOS / MS6 Mk IV (GE)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/491/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-08-01",
+      "toDate": "1998-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "525",
+    "name": "MAZDA 626 / CRONOS / MS6 Mk IV Hatchback (GE)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/525/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-08-01",
+      "toDate": "1998-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "521",
+    "name": "MAZDA 626 / EUNOS 300 Mk III (GD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/521/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-06-01",
+      "toDate": "1992-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "508",
+    "name": "MAZDA 626 / MONTROSE Mk III Coupe (GD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/508/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-06-01",
+      "toDate": "1992-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37341",
+    "name": "MAZDA 626 I Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37341/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-09-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8375",
+    "name": "MAZDA 626 II Coupe (GC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8375/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-09-01",
+      "toDate": "1987-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "503",
+    "name": "MAZDA 626 Mk II (GC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/503/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-11-01",
+      "toDate": "1990-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3462",
+    "name": "MAZDA 626 Mk II Hatchback (GC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3462/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-11-01",
+      "toDate": "1987-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3931",
+    "name": "MAZDA 626 Mk III Hatchback (GD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3931/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-06-01",
+      "toDate": "1992-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "516",
+    "name": "MAZDA 626 Mk III Station Wagon (GV)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/516/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-09-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1979",
+    "name": "MAZDA 626 Mk V (GF)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1979/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-05-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1980",
+    "name": "MAZDA 626 Mk V Hatchback (GF)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1980/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-05-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3400",
+    "name": "MAZDA 626 Mk V Station Wagon (GW)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3400/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32499",
+    "name": "MAZDA 808 Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32499/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-03-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37629",
+    "name": "MAZDA 808 Estate",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37629/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32498",
+    "name": "MAZDA 808 Saloon",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32498/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37627",
+    "name": "MAZDA 818 Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37627/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4029",
+    "name": "MAZDA 818 Estate",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4029/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1978-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40580",
+    "name": "MAZDA 818 Saloon",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40580/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "173",
+    "name": "MAZDA 929   (LA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/173/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-10-01",
+      "toDate": "1986-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37342",
+    "name": "MAZDA 929 I Estate (LA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37342/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-10-01",
+      "toDate": "1988-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8608",
+    "name": "MAZDA 929 IV (HD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8608/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1996-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "180",
+    "name": "MAZDA 929 Mk II (HB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/180/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-12-01",
+      "toDate": "1987-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "177",
+    "name": "MAZDA 929 Mk II Coupe (HB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/177/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-12-01",
+      "toDate": "1987-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "183",
+    "name": "MAZDA 929 Mk II Estate (HV)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/183/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-01-01",
+      "toDate": "1987-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "188",
+    "name": "MAZDA 929 Mk III (HC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/188/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-05-01",
+      "toDate": "1991-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7822",
+    "name": "MAZDA 929 V (HE)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7822/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-06-01",
+      "toDate": "1999-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42721",
+    "name": "MAZDA ANFRA MPV (CBM)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42721/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-10-01",
+      "toDate": "2005-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13509",
+    "name": "MAZDA AZ OFFROAD (JB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13509/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37359",
+    "name": "MAZDA AZ WAGON (CY_, CZ_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37359/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-01-01",
+      "toDate": "1998-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37207",
+    "name": "MAZDA AZ WAGON (MJ21_, MJ22_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37207/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": "2008-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37192",
+    "name": "MAZDA AZ WAGON (MJ23_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37192/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-07-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37399",
+    "name": "MAZDA AZ1",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37399/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-10-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35570",
+    "name": "MAZDA B Pickup",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35570/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8637",
+    "name": "MAZDA B-SERIE (MJ)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8637/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-11-01",
+      "toDate": "2006-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4913",
+    "name": "MAZDA B-SERIE (PE)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4913/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-02-01",
+      "toDate": "1982-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4914",
+    "name": "MAZDA B-SERIE (UD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4914/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-01-01",
+      "toDate": "1985-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4581",
+    "name": "MAZDA B-SERIE (UF)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4581/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-01-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4200",
+    "name": "MAZDA B-SERIE (UN)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4200/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-11-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8638",
+    "name": "MAZDA B-SERIE Platform/Chassis (MJ)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8638/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-11-01",
+      "toDate": "2006-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8634",
+    "name": "MAZDA B-SERIE Platform/Chassis (UF)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8634/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-05-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8635",
+    "name": "MAZDA B-SERIE Platform/Chassis (UN)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8635/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": "2006-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13241",
+    "name": "MAZDA BIANTE (CC_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13241/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "301",
+    "name": "MAZDA BONGO Bus (SR1)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/301/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-01-01",
+      "toDate": "2004-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8633",
+    "name": "MAZDA BONGO FRIENDEE Bus (SG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8633/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-06-01",
+      "toDate": "1999-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6911",
+    "name": "MAZDA BONGO FRIENDEE Bus (SG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6911/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13896",
+    "name": "MAZDA BONGO TRUCK Platform/Chassis (SKF_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13896/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13895",
+    "name": "MAZDA BONGO VAN Bus (SK_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13895/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37343",
+    "name": "MAZDA BONGO VAN Van (SK_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37343/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10542",
+    "name": "MAZDA BT-50 II Pickup (B22, B32, UP, UR)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10542/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41341",
+    "name": "MAZDA BT-50 III",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41341/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41269",
+    "name": "MAZDA BT-50 III Pickup",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41269/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6246",
+    "name": "MAZDA BT-50 Pickup (CD, UN)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6246/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-08-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11265",
+    "name": "MAZDA BT-50 Platform/Chassis (B22, B32, UP, UR)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11265/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8639",
+    "name": "MAZDA BT-50 Platform/Chassis (CD, UN)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8639/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40574",
+    "name": "MAZDA CAPELLA Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40574/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-05-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40573",
+    "name": "MAZDA CAPELLA Saloon",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40573/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-05-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37225",
+    "name": "MAZDA CAROL (AC6_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37225/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-10-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37226",
+    "name": "MAZDA CAROL (HB12_, HB22_, HB23_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37226/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-11-01",
+      "toDate": "2004-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37195",
+    "name": "MAZDA CAROL (HB24)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37195/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-04-01",
+      "toDate": "2010-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13249",
+    "name": "MAZDA CAROL (HB25_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13249/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13893",
+    "name": "MAZDA CAROL (HB36_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13893/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41691",
+    "name": "MAZDA COSMO Coupe (FC_, FD_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41691/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-06-01",
+      "toDate": "1996-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39821",
+    "name": "MAZDA COSMO Coupe (JC_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39821/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-02-01",
+      "toDate": "1995-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13892",
+    "name": "MAZDA CX-3 (DK)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13892/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39795",
+    "name": "MAZDA CX-30 (DM)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39795/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10207",
+    "name": "MAZDA CX-5 (KE, GH)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10207/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": "2017-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37884",
+    "name": "MAZDA CX-5 (KF)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37884/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41562",
+    "name": "MAZDA CX-5 Van (KE_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41562/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": "2017-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42967",
+    "name": "MAZDA CX-50",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42967/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42677",
+    "name": "MAZDA CX-60 (KH_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42677/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6435",
+    "name": "MAZDA CX-7 (ER)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6435/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-06-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38207",
+    "name": "MAZDA CX-8 (KG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38207/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8556",
+    "name": "MAZDA CX-9 (TB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8556/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36349",
+    "name": "MAZDA CX-9 (TC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36349/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3883",
+    "name": "MAZDA DEMIO (DW)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3883/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-01-01",
+      "toDate": "2003-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8640",
+    "name": "MAZDA E Bus",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8640/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-03-01",
+      "toDate": "2004-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8641",
+    "name": "MAZDA E Platform/Chassis",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8641/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-01-01",
+      "toDate": "1984-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8511",
+    "name": "MAZDA E Platform/Chassis (SD1, SL)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8511/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-08-01",
+      "toDate": "2006-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8507",
+    "name": "MAZDA E Platform/Chassis (SD1)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8507/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-01-01",
+      "toDate": "1999-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4495",
+    "name": "MAZDA E Van",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4495/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-04-01",
+      "toDate": "1984-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8512",
+    "name": "MAZDA E Van (SG)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8512/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-01-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2058",
+    "name": "MAZDA E Van (SR2)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2058/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-10-01",
+      "toDate": "2004-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "82",
+    "name": "MAZDA EUNOS 500 (CA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/82/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-01-01",
+      "toDate": "1999-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39315",
+    "name": "MAZDA FAMILIA VAN (NCP_M)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39315/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39888",
+    "name": "MAZDA FAMILIA VAN (Y12)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39888/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-01-01",
+      "toDate": "2018-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6427",
+    "name": "MAZDA FESTIVA",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6427/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-04-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10744",
+    "name": "MAZDA FESTIVA",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10744/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-01-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6309",
+    "name": "MAZDA FIGHTER Pickup",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6309/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-06-01",
+      "toDate": "2006-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13244",
+    "name": "MAZDA FLAIR (MJ34S_, MJ44S_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13244/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": "2017-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38224",
+    "name": "MAZDA FLAIR (MJ55S_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38224/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13248",
+    "name": "MAZDA FLAIR CROSSOVER (MS31S_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13248/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13245",
+    "name": "MAZDA FLAIR WAGON",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13245/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": "2017-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6322",
+    "name": "MAZDA J80 Bus",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6322/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-10-01",
+      "toDate": "1989-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37379",
+    "name": "MAZDA LAPUTA",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37379/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-06-01",
+      "toDate": "2006-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32528",
+    "name": "MAZDA MIZER Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32528/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32529",
+    "name": "MAZDA MIZER Saloon",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32529/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-09-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "495",
+    "name": "MAZDA MONTROSE   (CB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/495/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-09-01",
+      "toDate": "1982-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1582",
+    "name": "MAZDA MPV I (LV)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1582/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1999-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10263",
+    "name": "MAZDA MPV III (LY)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10263/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4417",
+    "name": "MAZDA MPV Mk II (LW)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4417/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-08-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32532",
+    "name": "MAZDA MPV Van",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32532/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "331",
+    "name": "MAZDA MX-3 / AZ-3 / PRESSO (EC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/331/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-05-01",
+      "toDate": "1998-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40050",
+    "name": "MAZDA MX-30 (DR)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40050/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "336",
+    "name": "MAZDA MX-5   (NA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/336/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-09-01",
+      "toDate": "1998-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14059",
+    "name": "MAZDA MX-5 IV (ND)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14059/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3553",
+    "name": "MAZDA MX-5 Mk II (NB)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3553/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2005-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5448",
+    "name": "MAZDA MX-5 Mk III (NC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5448/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-03-01",
+      "toDate": "2014-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37466",
+    "name": "MAZDA MX-5 RF Targa (ND)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37466/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8642",
+    "name": "MAZDA MX-6 (GD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8642/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-10-01",
+      "toDate": "1997-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "340",
+    "name": "MAZDA MX-6 (GE)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/340/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-07-01",
+      "toDate": "1997-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32538",
+    "name": "MAZDA NAVAJO Closed Off-Road Vehicle",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32538/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-09-01",
+      "toDate": "1994-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40589",
+    "name": "MAZDA PARKWAY Bus",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40589/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-01-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40588",
+    "name": "MAZDA PARKWAY Bus",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40588/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4233",
+    "name": "MAZDA PREMACY (CP)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4233/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-01-01",
+      "toDate": "2005-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41608",
+    "name": "MAZDA PREMACY Van (CP_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41608/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-01-01",
+      "toDate": "2005-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40569",
+    "name": "MAZDA R100 Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40569/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-07-01",
+      "toDate": "1972-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41696",
+    "name": "MAZDA ROTARY Pickup (XP822)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41696/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-01-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10510",
+    "name": "MAZDA RUSTLER",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10510/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-06-01",
+      "toDate": "2004-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38038",
+    "name": "MAZDA RX-2 Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38038/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-05-01",
+      "toDate": "1976-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40575",
+    "name": "MAZDA RX-2 Saloon",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40575/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-05-01",
+      "toDate": "1976-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32547",
+    "name": "MAZDA RX-3 Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32547/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32548",
+    "name": "MAZDA RX-3 Estate",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32548/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1976-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32546",
+    "name": "MAZDA RX-3 Saloon",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32546/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-09-01",
+      "toDate": "1975-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32550",
+    "name": "MAZDA RX-4 Coupe",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32550/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32553",
+    "name": "MAZDA RX-4 Estate",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32553/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32551",
+    "name": "MAZDA RX-4 Hardtop",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32551/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-09-01",
+      "toDate": "1976-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "32549",
+    "name": "MAZDA RX-4 Saloon",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32549/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-09-01",
+      "toDate": "1978-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4922",
+    "name": "MAZDA RX-5",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4922/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-06-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "175",
+    "name": "MAZDA RX-7   (SA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/175/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-03-01",
+      "toDate": "1986-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7895",
+    "name": "MAZDA RX-7 II Convertible",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7895/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-01-01",
+      "toDate": "1992-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "179",
+    "name": "MAZDA RX-7 Mk II (FC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/179/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-11-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "182",
+    "name": "MAZDA RX-7 Mk III (FD)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/182/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-07-01",
+      "toDate": "2002-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4980",
+    "name": "MAZDA RX-8 (SE, FE)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4980/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": "2012-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41695",
+    "name": "MAZDA RX-9 (LA_)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41695/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-01-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13254",
+    "name": "MAZDA SCRUM Truck (DG1_T)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13254/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37246",
+    "name": "MAZDA SCRUM Truck (DG6_T)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37246/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-05-01",
+      "toDate": "2015-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13894",
+    "name": "MAZDA SCRUM Van (DG1_V)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13894/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13253",
+    "name": "MAZDA SCRUM Van (DG6_V)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13253/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-07-01",
+      "toDate": "2015-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6426",
+    "name": "MAZDA SPECTRON",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6426/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-10-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37333",
+    "name": "MAZDA SPIANO (HF21)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37333/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37252",
+    "name": "MAZDA TITAN 1,15 t - 1,5 t",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37252/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37251",
+    "name": "MAZDA TITAN 1,75 t - 4,6 t",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37251/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40132",
+    "name": "MAZDA TITAN DASH 1,0 t - 1,5 t",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40132/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2010-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40587",
+    "name": "MAZDA TITAN Platform/Chassis",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40587/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2004-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40586",
+    "name": "MAZDA TITAN Platform/Chassis",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40586/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-09-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40585",
+    "name": "MAZDA TITAN Platform/Chassis",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40585/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35964",
+    "name": "MAZDA TRIBUTE",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35964/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-09-01",
+      "toDate": "2011-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4615",
+    "name": "MAZDA TRIBUTE (EP)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4615/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-03-01",
+      "toDate": "2008-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10475",
+    "name": "MAZDA VERISA (DC)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10475/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-07-01",
+      "toDate": "2015-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13594",
+    "name": "MAZDA VX-1",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13594/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "87",
+    "name": "MAZDA XEDOS 9 (TA)",
+    "manufacturerId": "72",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/87/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "2002-09-01"
+    },
+    "variants": []
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "4102200",
+    "name": "Master Cylinder, clutch",
+    "partNo": "61482",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4102200/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "15,9",
+      "Weight [kg]": "0,57",
+      "Material": "Aluminium",
+      "Mounting Type": "Plugged",
+      "Number of mounting bores": "2",
+      "Distance of fastening bolts [mm]": "80",
+      "Article ID:": "4102200",
+      "Article Number:": "61482",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710967845",
+      "OEM Numbers HONDA:": "46925TA0A03"
+    }
+  },
+  {
+    "id": "6981176",
+    "name": "Master Cylinder, clutch",
+    "partNo": "F94008ABE",
+    "manufacturer": "ABE",
+    "supplierId": "4426",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6981176/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "15,87",
+      "Thread Size": "plug-in connect.sys.",
+      "Material": "Aluminium",
+      "for article number": "2222",
+      "Mounting bores distance [mm]": "80",
+      "Article ID:": "6981176",
+      "Article Number:": "F94008ABE",
+      "Manufacturer:": "ABE",
+      "EAN Numbers:": "590042727767",
+      "OEM Numbers HONDA:": "46925-TA0-A02"
+    }
+  },
+  {
+    "id": "6981176",
+    "name": "Master Cylinder, clutch",
+    "partNo": "F94008ABE",
+    "manufacturer": "ABE",
+    "supplierId": "4426",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6981176/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "15,87",
+      "Thread Size": "plug-in connect.sys.",
+      "Material": "Aluminium",
+      "for article number": "2222",
+      "Mounting bores distance [mm]": "80",
+      "Article ID:": "6981176",
+      "Article Number:": "F94008ABE",
+      "Manufacturer:": "ABE",
+      "EAN Numbers:": "590042727767",
+      "OEM Numbers HONDA:": "46925-TA0-A02"
+    }
+  },
+  {
+    "id": "7906696",
+    "name": "Master Cylinder, clutch",
+    "partNo": "LM80355",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7906696/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "16",
+      "Article ID:": "7906696",
+      "Article Number:": "LM80355",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275953726",
+      "OEM Numbers HONDA:": "46925TA0A03"
+    }
+  },
+  {
+    "id": "5887986",
+    "name": "Master Cylinder, clutch",
+    "partNo": "B05-ACU-21030001",
+    "manufacturer": "NAKAMOTO",
+    "supplierId": "6388",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5887986/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5887986",
+      "Article Number:": "B05-ACU-21030001",
+      "Manufacturer:": "NAKAMOTO",
+      "OEM Numbers ACURA:": "46920-SNA-A02"
+    }
+  },
+  {
+    "id": "10478042",
+    "name": "Master Cylinder, clutch",
+    "partNo": "ZVCC009",
+    "manufacturer": "ZZVF",
+    "supplierId": "6274",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10478042/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10478042",
+      "Article Number:": "ZVCC009",
+      "Manufacturer:": "ZZVF",
+      "OEM Numbers HONDA:": "46925TA0A03"
+    }
+  }
+]

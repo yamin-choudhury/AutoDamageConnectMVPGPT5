@@ -1,0 +1,34 @@
+[
+  {
+    "id": "128117",
+    "type": "3.5 Road",
+    "modelId": "38102",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "306 KW / 416 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133182",
+    "type": "3.5",
+    "modelId": "38102",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "321 KW / 436 PS"
+    },
+    "categories": []
+  }
+]

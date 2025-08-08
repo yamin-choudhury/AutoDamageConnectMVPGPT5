@@ -1,0 +1,80 @@
+[
+  {
+    "id": "6720291",
+    "name": "Filter, interior air",
+    "partNo": "E998LB",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "138803",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6720291/model-series-id-40194/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "286",
+      "Width [mm]": "215",
+      "Height [mm]": "57",
+      "Filter type": "with antibacterial action",
+      "Article ID:": "6720291",
+      "Article Number:": "E998LB",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077604700",
+      "OEM Numbers VAG:": "1K1 819 669"
+    }
+  },
+  {
+    "id": "6720293",
+    "name": "Filter, interior air",
+    "partNo": "E998LC",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "138803",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6720293/model-series-id-40194/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "271",
+      "Width [mm]": "213",
+      "Height [mm]": "58",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "6720293",
+      "Article Number:": "E998LC",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077604028",
+      "OEM Numbers VAG:": "JZW 819 653 B",
+      "OEM Numbers VW (SVW):": "1KD 819 653 C",
+      "OEM Numbers VW (FAW):": "L3AD819653"
+    }
+  },
+  {
+    "id": "6720296",
+    "name": "Filter, interior air",
+    "partNo": "E998LI",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "138803",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6720296/model-series-id-40194/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "271",
+      "Width [mm]": "213",
+      "Height [mm]": "58",
+      "Filter type": "Pollen Filter",
+      "Article ID:": "6720296",
+      "Article Number:": "E998LI",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077604067",
+      "OEM Numbers VAG:": "1K0 819 644 B",
+      "OEM Numbers VW (FAW):": "L 1KD 819 644 B"
+    }
+  }
+]

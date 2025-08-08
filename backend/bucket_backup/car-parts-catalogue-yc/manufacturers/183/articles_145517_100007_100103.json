@@ -1,0 +1,41 @@
+[
+  {
+    "id": "7585252",
+    "name": "Cap, radiator",
+    "partNo": "J1543002",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "548",
+    "productGroupId": "100103",
+    "categoryId": "100007",
+    "variantId": "145517",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7585252/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "45",
+      "Height [mm]": "24",
+      "Pressure [bar]": "1,1",
+      "Article ID:": "7585252",
+      "Article Number:": "J1543002",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941602361",
+      "OEM Numbers OPEL:": "97104194",
+      "OEM Numbers VAUXHALL:": "97104194",
+      "OEM Numbers FORD:": "YL84-8100H-AA",
+      "OEM Numbers TOYOTA:": "16401-67150A",
+      "OEM Numbers LEXUS:": "16401-67150",
+      "OEM Numbers DAIHATSU:": "16401-87402-000",
+      "OEM Numbers SUZUKI:": "17920-83E00-000",
+      "OEM Numbers HONDA:": "19045-PV3-005",
+      "OEM Numbers HYUNDAI:": "25340-5H000",
+      "OEM Numbers KIA:": "25330-C7000",
+      "OEM Numbers NISSAN:": "21430-D999C",
+      "OEM Numbers SUBARU:": "45137-AE00B",
+      "OEM Numbers ISUZU:": "97104194",
+      "OEM Numbers MAZDA:": "YF47-15-205",
+      "OEM Numbers FORD USA:": "XM34-81-00EB",
+      "OEM Numbers VW:": "J16 401 630 10"
+    }
+  }
+]

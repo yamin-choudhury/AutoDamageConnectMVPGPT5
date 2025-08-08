@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1433478",
+    "name": "Ignition Coil",
+    "partNo": "15309",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "122154",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1433478/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "1433478",
+      "Article Number:": "15309",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509315309",
+      "OEM Numbers SUZUKI:": "33400-81A00"
+    }
+  },
+  {
+    "id": "4194115",
+    "name": "Ignition Coil",
+    "partNo": "64929",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "122154",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4194115/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "4194115",
+      "Article Number:": "64929",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509364929",
+      "OEM Numbers SUZUKI:": "33400-62L00"
+    }
+  }
+]

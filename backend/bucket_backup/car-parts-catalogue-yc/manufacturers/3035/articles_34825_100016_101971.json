@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2730047",
+    "name": "Belt Pulley, crankshaft",
+    "partNo": "32197",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "3213",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "34825",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2730047/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "43,5",
+      "Weight [kg]": "1,979",
+      "Parameter": "4PK + 5PK",
+      "Number of ribs": "7",
+      "Inner diameter [mm]": "30",
+      "Outer diameter [mm]": "143",
+      "Supplementary Article/Info 2": "for crankshaft",
+      "Article ID:": "2730047",
+      "Article Number:": "32197",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781632197",
+      "OEM Numbers AUDI:": "6B 105 243 D",
+      "OEM Numbers SKODA:": "6B 105 243 D",
+      "OEM Numbers VW:": "6B 105 243 D"
+    }
+  },
+  {
+    "id": "2527085",
+    "name": "Belt Pulley, crankshaft",
+    "partNo": "30 93 2197",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "3213",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "34825",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2527085/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "43,5",
+      "Weight [kg]": "1,979",
+      "Parameter": "4PK + 5PK",
+      "Number of ribs": "7",
+      "Inner diameter [mm]": "30",
+      "Outer diameter [mm]": "143",
+      "Supplementary Article/Info 2": "for crankshaft",
+      "Article ID:": "2527085",
+      "Article Number:": "30 93 2197",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468832197",
+      "OEM Numbers AUDI:": "6B 105 243 D",
+      "OEM Numbers SKODA:": "6B 105 243 D",
+      "OEM Numbers VW:": "6B 105 243 D"
+    }
+  }
+]

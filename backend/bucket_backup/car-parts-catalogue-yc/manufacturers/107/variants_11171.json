@@ -1,0 +1,146 @@
+[
+  {
+    "id": "58700",
+    "type": "2.0 i AWD (SJ5)",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58701",
+    "type": "2.0 D AWD (SJD)",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EE20Z",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2013-03-01",
+      "power": "108 KW / 147 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58702",
+    "type": "2.0 XT AWD (SJG)",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA20",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "177 KW / 241 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107394",
+    "type": "2.5 AWD",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB25",
+      "cylinder": "4",
+      "capacity": "2,498 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2014-07-01",
+      "power": "127 KW / 173 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107395",
+    "type": "2.0 XT AWD",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA20F",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01",
+      "power": "186 KW / 253 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112813",
+    "type": "2.0 AWD (SJG)",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA20",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-04-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120784",
+    "type": "2.5 AWD (SJ9)",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB25",
+      "cylinder": "4",
+      "capacity": "2,498 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-11-01",
+      "power": "126 KW / 171 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128037",
+    "type": "2.0 i AWD (SJ5)",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-11-01",
+      "power": "109 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133818",
+    "type": "2.0 BiFuel AWD (S13, SJ5)",
+    "modelId": "11171",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20B",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2013-03-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

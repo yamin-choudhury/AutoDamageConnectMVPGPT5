@@ -1,0 +1,173 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104736",
+        "name": "Marten Repellent",
+        "categoryId": "100733",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/104736/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100006",
+    "name": "Braking System",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102208",
+        "name": "Brake Fluid",
+        "categoryId": "100006",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/102208/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100050",
+    "name": "Clutch/Attachment Parts",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104813",
+        "name": "Hydraulic Fluid",
+        "categoryId": "100050",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/104813/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100521",
+        "name": "Crankshaft Drive",
+        "categoryId": "100002",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/100521/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100789",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/100789/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/100046/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/100597/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "706537",
+        "name": "Braking System",
+        "categoryId": "103671",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/706537/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104287",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/104287/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/103984/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100018",
+    "name": "Window Cleaning",
+    "variantId": "136876",
+    "manufacturerId": "107",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100133",
+        "name": "Wiper Blade/-Rubber",
+        "categoryId": "100018",
+        "variantId": "136876",
+        "manufacturerId": "107",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/136876/100133/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

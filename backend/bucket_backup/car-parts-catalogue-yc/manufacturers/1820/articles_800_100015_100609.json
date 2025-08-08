@@ -1,0 +1,73 @@
+[
+  {
+    "id": "4349389",
+    "name": "Bracket, muffler",
+    "partNo": "70103",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "800",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4349389/model-series-id-9015/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4349389",
+      "Article Number:": "70103",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843381904166",
+      "OEM Numbers BMW:": "18207811797"
+    }
+  },
+  {
+    "id": "4811894",
+    "name": "Bracket, muffler",
+    "partNo": "83 12 2089",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "800",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4811894/model-series-id-9015/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Supplementary Article/Info 2": "with vulcanized-in fabric belt",
+      "Article ID:": "4811894",
+      "Article Number:": "83 12 2089",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258842469",
+      "OEM Numbers BMW:": "8.657.332",
+      "OEM Numbers LAND ROVER:": "WCS50030",
+      "OEM Numbers JAGUAR:": "C2C41707",
+      "OEM Numbers ROVER:": "LR025064"
+    }
+  },
+  {
+    "id": "4812737",
+    "name": "Bracket, muffler",
+    "partNo": "83 34 7419",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "800",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4812737/model-series-id-9015/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4812737",
+      "Article Number:": "83 34 7419",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258826637",
+      "OEM Numbers BMW:": "7.811.797",
+      "OEM Numbers LAND ROVER:": "WCS 000150"
+    }
+  }
+]

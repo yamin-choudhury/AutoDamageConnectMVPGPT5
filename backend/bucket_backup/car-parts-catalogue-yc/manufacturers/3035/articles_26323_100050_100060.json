@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1004899",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "1104229",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "26323",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1004899/model-series-id-11511/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "19",
+      "Article ID:": "1004899",
+      "Article Number:": "1104229",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293747617",
+      "OEM Numbers AUDI:": "1J0 721 261 L",
+      "OEM Numbers SEAT:": "1J0 721 261 L",
+      "OEM Numbers SKODA:": "1J0 721 261 L",
+      "OEM Numbers VW:": "1J0 721 261 L"
+    }
+  },
+  {
+    "id": "8559605",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "PJD229",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "26323",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8559605/model-series-id-11511/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "19",
+      "Article ID:": "8559605",
+      "Article Number:": "PJD229",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293721058",
+      "OEM Numbers AUDI:": "1J0 721 261 L",
+      "OEM Numbers SEAT:": "1J0 721 261 L",
+      "OEM Numbers SKODA:": "1J0 721 261 L",
+      "OEM Numbers VW:": "1J0 721 261 L"
+    }
+  },
+  {
+    "id": "8559766",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "PJD912",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "26323",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8559766/model-series-id-11511/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8559766",
+      "Article Number:": "PJD912",
+      "Manufacturer:": "TRW",
+      "OEM Numbers VW (SVW):": "6RD 721 261 A",
+      "OEM Numbers SKODA (SVW):": "6RD 721 261 A"
+    }
+  }
+]

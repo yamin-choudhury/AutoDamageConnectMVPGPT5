@@ -1,0 +1,82 @@
+[
+  {
+    "id": "132206",
+    "type": "1.5",
+    "modelId": "38924",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DJMA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-06-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132207",
+    "type": "1.4 280TSI",
+    "modelId": "38924",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA,DSBA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-06-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136702",
+    "type": "1.5",
+    "modelId": "38924",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DMBA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-05-01",
+      "power": "83 KW / 113 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138379",
+    "type": "EV",
+    "modelId": "38924",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "EBD",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2019-10-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142727",
+    "type": "1.2 200TSI",
+    "modelId": "38924",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DLSA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2020-11-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  }
+]

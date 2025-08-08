@@ -1,0 +1,115 @@
+[
+  {
+    "id": "4102200",
+    "name": "Master Cylinder, clutch",
+    "partNo": "61482",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "34928",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4102200/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "15,9",
+      "Weight [kg]": "0,57",
+      "Material": "Aluminium",
+      "Mounting Type": "Plugged",
+      "Number of mounting bores": "2",
+      "Distance of fastening bolts [mm]": "80",
+      "Article ID:": "4102200",
+      "Article Number:": "61482",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710967845",
+      "OEM Numbers HONDA:": "46925TA0A03"
+    }
+  },
+  {
+    "id": "6981174",
+    "name": "Master Cylinder, clutch",
+    "partNo": "F94006ABE",
+    "manufacturer": "ABE",
+    "supplierId": "4426",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "34928",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6981174/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "15,9",
+      "Article ID:": "6981174",
+      "Article Number:": "F94006ABE",
+      "Manufacturer:": "ABE",
+      "EAN Numbers:": "590042727759",
+      "OEM Numbers HONDA:": "46920 S7A A03"
+    }
+  },
+  {
+    "id": "6981174",
+    "name": "Master Cylinder, clutch",
+    "partNo": "F94006ABE",
+    "manufacturer": "ABE",
+    "supplierId": "4426",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "34928",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6981174/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "15,9",
+      "Article ID:": "6981174",
+      "Article Number:": "F94006ABE",
+      "Manufacturer:": "ABE",
+      "EAN Numbers:": "590042727759",
+      "OEM Numbers HONDA:": "46920 S7A A03"
+    }
+  },
+  {
+    "id": "5887986",
+    "name": "Master Cylinder, clutch",
+    "partNo": "B05-ACU-21030001",
+    "manufacturer": "NAKAMOTO",
+    "supplierId": "6388",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "34928",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5887986/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5887986",
+      "Article Number:": "B05-ACU-21030001",
+      "Manufacturer:": "NAKAMOTO",
+      "OEM Numbers ACURA:": "46920-SNA-A02"
+    }
+  },
+  {
+    "id": "4718454",
+    "name": "Master Cylinder, clutch",
+    "partNo": "8130 40202",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "34928",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4718454/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "15,87",
+      "Article ID:": "4718454",
+      "Article Number:": "8130 40202",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "571047621216",
+      "OEM Numbers HONDA:": "46920-SNA-A02"
+    }
+  }
+]

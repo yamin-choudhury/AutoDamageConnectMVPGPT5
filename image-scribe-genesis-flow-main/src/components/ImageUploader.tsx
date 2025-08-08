@@ -59,33 +59,29 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
 
     // Compose an object key inside the bucket, namespaced by document
     const key = `${documentId}/${Date.now()}_${img.file.name}`;
+    
+    // Upload the file to Supabase Storage (images bucket)
+    const { error: uploadErr } = await supabase.storage
+      .from('images')
+      .upload(key, img.file, { contentType: img.file.type, upsert: false });
 
-    // 1. Ask our Edge Function for a signed upload URL
-    const { data: presignData, error: presignErr } = await supabase.functions.invoke("gcs-presign", {
-      body: { key, contentType: img.file.type },
-    }) as { data: { url: string; publicUrl: string }; error: any };
-
-    if (presignErr || !presignData?.url) {
-      toast({ title: "Presign failed", description: presignErr?.message || "no url", variant: "destructive" });
+    if (uploadErr) {
+      toast({ title: "Upload failed", description: uploadErr.message, variant: "destructive" });
       return false;
     }
 
-    // 2. Upload the file directly to Google Cloud Storage
-    const uploadResp = await fetch(presignData.url, {
-      method: "PUT",
-      headers: { "Content-Type": img.file.type },
-      body: img.file,
-    });
-
-    if (!uploadResp.ok) {
-      toast({ title: "Upload failed", description: `GCS responded ${uploadResp.status}` , variant: "destructive" });
+    // Get the public URL for the uploaded image
+    const { data: pub } = supabase.storage.from('images').getPublicUrl(key);
+    const publicUrl = pub?.publicUrl;
+    if (!publicUrl) {
+      toast({ title: "URL error", description: "Could not get public URL", variant: "destructive" });
       return false;
     }
 
-    // 3. Record the public URL in the Supabase document_images table
+    // Record the public URL in the Supabase document_images table
     const { error: dbErr } = await (supabase as any).from("document_images").insert({
       document_id: documentId,
-      image_url: presignData.publicUrl,
+      image_url: publicUrl,
       image_name: img.file.name,
       file_size: img.file.size,
     });

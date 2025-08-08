@@ -1,0 +1,98 @@
+[
+  {
+    "id": "7116239",
+    "name": "Filter, fuel pump",
+    "partNo": "FS206",
+    "manufacturer": "AIRTEX",
+    "supplierId": "220",
+    "productsId": "3407",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "17127",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7116239/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "11",
+      "Weight [kg]": "0,01",
+      "Article ID:": "7116239",
+      "Article Number:": "FS206",
+      "Manufacturer:": "AIRTEX",
+      "EAN Numbers:": "843541710462",
+      "OEM Numbers HONDA:": "17516-SDC-E00"
+    }
+  },
+  {
+    "id": "7134714",
+    "name": "Filter, fuel pump",
+    "partNo": "FST28011",
+    "manufacturer": "Azumi",
+    "supplierId": "6932",
+    "productsId": "3407",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "17127",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7134714/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Height [mm]": "144",
+      "Inner diameter [mm]": "42",
+      "Outer diameter [mm]": "91,2",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "7134714",
+      "Article Number:": "FST28011",
+      "Manufacturer:": "Azumi",
+      "EAN Numbers:": "458048208346",
+      "OEM Numbers HONDA:": "16010SEA010"
+    }
+  },
+  {
+    "id": "7134724",
+    "name": "Filter, fuel pump",
+    "partNo": "FST28300",
+    "manufacturer": "Azumi",
+    "supplierId": "6932",
+    "productsId": "3407",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "17127",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7134724/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Height [mm]": "160",
+      "Outer diameter [mm]": "107",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "7134724",
+      "Article Number:": "FST28300",
+      "Manufacturer:": "Azumi",
+      "EAN Numbers:": "458048208460",
+      "OEM Numbers HONDA:": "16010SDGH00"
+    }
+  },
+  {
+    "id": "5620355",
+    "name": "Filter, fuel pump",
+    "partNo": "ADH22403",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "3407",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "17127",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5620355/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,054",
+      "Article ID:": "5620355",
+      "Article Number:": "ADH22403",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006322403",
+      "OEM Numbers HONDA:": "17516-S2A-930"
+    }
+  }
+]

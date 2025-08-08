@@ -1,0 +1,258 @@
+[
+  {
+    "id": "519",
+    "type": "1.4 TSI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CAVA,CNWB,CTHA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01\n                            \n                            2015-04-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "520",
+    "type": "2.0 TDI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CFFB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2010-06-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "521",
+    "type": "2.0 TDI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CFGB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2010-06-01\n                            \n                            2013-02-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "6029",
+    "type": "2.0 TSI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CCZA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-11-01\n                            \n                            2012-05-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "10615",
+    "type": "2.0 TDI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CFFE,CUVA,DFLD,DLTC",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-05-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "10621",
+    "type": "2.0 TDI 4Drive",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CFFB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-05-01\n                            \n                            2015-04-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "10625",
+    "type": "2.0 TDI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CFFA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2010-06-01\n                            \n                            2011-05-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58359",
+    "type": "2.0 TDI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CFGC,DLUB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2012-11-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59056",
+    "type": "1.8 TSI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CDAA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2012-11-01\n                            \n                            2015-04-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115487",
+    "type": "2.0 TDI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CUVC,DFLA,DLTA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2015-05-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115490",
+    "type": "2.0 TDI 4Drive",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CUVC,DFLA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2015-05-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115493",
+    "type": "2.0 TDI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CUWA,DFMA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2015-05-01",
+      "power": "135 KW / 184 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115495",
+    "type": "2.0 TSI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "DEDA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117453",
+    "type": "1.4 TSI",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "CZDA,DJKA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120179",
+    "type": "2.0 TDI 4Drive",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "DFMA",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2016-05-01",
+      "power": "135 KW / 184 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134276",
+    "type": "2.0 TDi 4Drive",
+    "modelId": "9009",
+    "manufacturerId": "104",
+    "url": "",
+    "specs": {
+      "engineCode": "DLUB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2018-11-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  }
+]

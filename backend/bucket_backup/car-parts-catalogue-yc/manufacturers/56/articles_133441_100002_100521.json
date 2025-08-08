@@ -1,0 +1,52 @@
+[
+  {
+    "id": "4686415",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10518-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "133441",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686415/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "PTFE (polytetrafluoroethylene)",
+      "Supplementary Article/Info 2": "with carrier frame",
+      "Article ID:": "4686415",
+      "Article Number:": "81-10518-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663522667",
+      "OEM Numbers FORD:": "8W93 6700 AA",
+      "OEM Numbers JAGUAR:": "AJ8 11449",
+      "OEM Numbers LAND ROVER:": "LR010706"
+    }
+  },
+  {
+    "id": "4686531",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10654-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "133441",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686531/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "FPM (fluoride rubber)",
+      "Supplementary Article/Info 2": "with carrier frame",
+      "Article ID:": "4686531",
+      "Article Number:": "81-10654-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663522722",
+      "OEM Numbers FORD:": "8W93 6M052 CA",
+      "OEM Numbers JAGUAR:": "C2Z 27888",
+      "OEM Numbers LAND ROVER:": "LR043721"
+    }
+  }
+]

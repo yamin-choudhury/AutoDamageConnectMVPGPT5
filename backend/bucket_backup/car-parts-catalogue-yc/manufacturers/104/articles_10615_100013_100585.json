@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2996401",
+    "name": "Repair Kit, axle beam",
+    "partNo": "37614",
+    "manufacturer": "ORIGINAL IMPERIUM",
+    "supplierId": "331",
+    "productsId": "1281",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "10615",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2996401/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Material": "Steel Elastomer",
+      "Weight [g]": "1096",
+      "Article ID:": "2996401",
+      "Article Number:": "37614",
+      "Manufacturer:": "ORIGINAL IMPERIUM",
+      "EAN Numbers:": "803668946202",
+      "OEM Numbers AUDI:": "1K0505145J",
+      "OEM Numbers SEAT:": "1K0505145J",
+      "OEM Numbers SKODA:": "1K0505145J",
+      "OEM Numbers VW:": "1K0505145J"
+    }
+  },
+  {
+    "id": "2996472",
+    "name": "Repair Kit, axle beam",
+    "partNo": "37616",
+    "manufacturer": "ORIGINAL IMPERIUM",
+    "supplierId": "331",
+    "productsId": "1281",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "10615",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2996472/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Material": "Steel Elastomer",
+      "Weight [g]": "1020",
+      "Article ID:": "2996472",
+      "Article Number:": "37616",
+      "Manufacturer:": "ORIGINAL IMPERIUM",
+      "EAN Numbers:": "803669146204",
+      "OEM Numbers AUDI:": "1K0505145K",
+      "OEM Numbers SEAT:": "1K0505145K",
+      "OEM Numbers SKODA:": "1K0505145K",
+      "OEM Numbers VW:": "1K0505145K"
+    }
+  }
+]

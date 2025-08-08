@@ -1,0 +1,66 @@
+[
+  {
+    "id": "34514",
+    "type": "2.4 Vtec E (CM5)",
+    "modelId": "11444",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24A4,K24A8",
+      "cylinder": "4",
+      "capacity": "2,354 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-06-01\n                            \n                            2008-01-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "44220",
+    "type": "3.0 Hybrid",
+    "modelId": "11444",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "JNA1",
+      "cylinder": "6",
+      "capacity": "2,997 CCM / 3.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2004-09-01\n                            \n                            2007-12-01",
+      "power": "190 KW / 258 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "53070",
+    "type": "3.0 (CM6)",
+    "modelId": "11444",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J30A5",
+      "cylinder": "6",
+      "capacity": "2,997 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-09-01\n                            \n                            2007-12-01",
+      "power": "182 KW / 248 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122602",
+    "type": "2.0 Vtec (CM4)",
+    "modelId": "11444",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K20A7",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2003-01-01\n                            \n                            2006-06-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

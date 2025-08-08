@@ -1,0 +1,58 @@
+[
+  {
+    "id": "9418853",
+    "name": "Thermostat, coolant",
+    "partNo": "TH24782G1",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "123626",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9418853/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "82",
+      "Housing Type": "without housing",
+      "Article ID:": "9418853",
+      "Article Number:": "TH24782G1",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "541446523460",
+      "OEM Numbers SUZUKI:": "1767077E11",
+      "OEM Numbers FORD:": "XM348575AB",
+      "OEM Numbers EUNOS:": "3599763",
+      "OEM Numbers FORD USA:": "KL0115171A",
+      "OEM Numbers FORD ASIA & OCEANIA:": "KL0115171A",
+      "OEM Numbers MAZDA:": "PE0115171",
+      "OEM Numbers FORD AUSTRALIA:": "KL0115171A"
+    }
+  },
+  {
+    "id": "9418854",
+    "name": "Thermostat, coolant",
+    "partNo": "TH24782G1",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "123626",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9418854/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "82",
+      "Housing Type": "without housing",
+      "Article ID:": "9418854",
+      "Article Number:": "TH24782G1",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers SUZUKI:": "1767077E11",
+      "OEM Numbers FORD:": "XM348575AB",
+      "OEM Numbers FORD USA:": "KL0115171A",
+      "OEM Numbers FORD ASIA & OCEANIA:": "PE01-15-171",
+      "OEM Numbers MAZDA:": "PE01-15-171",
+      "OEM Numbers EUNOS:": "KL0115171A"
+    }
+  }
+]

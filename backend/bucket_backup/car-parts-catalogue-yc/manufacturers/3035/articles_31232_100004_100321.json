@@ -1,0 +1,96 @@
+[
+  {
+    "id": "7668499",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "JE5087",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "31232",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7668499/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Manifold",
+      "Article ID:": "7668499",
+      "Article Number:": "JE5087",
+      "Manufacturer:": "PAYEN",
+      "EAN Numbers:": "406042628521",
+      "OEM Numbers AUDI:": "433253115",
+      "OEM Numbers SEAT:": "433253115",
+      "OEM Numbers SKODA:": "433253115",
+      "OEM Numbers VW:": "433253115"
+    }
+  },
+  {
+    "id": "7668547",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "JE904",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "31232",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7668547/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "inner",
+      "Article ID:": "7668547",
+      "Article Number:": "JE904",
+      "Manufacturer:": "PAYEN",
+      "OEM Numbers VW:": "841253115B"
+    }
+  },
+  {
+    "id": "4384355",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "71-23465-10",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "31232",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4384355/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "1",
+      "Article ID:": "4384355",
+      "Article Number:": "71-23465-10",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663437814",
+      "OEM Numbers AUDI:": "841 253 115 B",
+      "OEM Numbers VW:": "841 253 115 B",
+      "OEM Numbers VAG:": "841 253 115 B"
+    }
+  },
+  {
+    "id": "4384395",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "71-24057-20",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "31232",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4384395/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,95",
+      "Article ID:": "4384395",
+      "Article Number:": "71-24057-20",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663437819",
+      "OEM Numbers AUDI:": "431 253 115 A",
+      "OEM Numbers VW:": "431 253 115 A",
+      "OEM Numbers VAG:": "431 253 115 A"
+    }
+  }
+]

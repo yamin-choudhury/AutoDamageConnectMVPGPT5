@@ -1,0 +1,114 @@
+[
+  {
+    "id": "12828",
+    "type": "1.4 TSI",
+    "modelId": "9881",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2011-09-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "12829",
+    "type": "1.8 TSI",
+    "modelId": "9881",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CEAA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2011-04-01\n                            \n                            2018-12-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "12830",
+    "type": "2.0 TSI",
+    "modelId": "9881",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CGMA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-04-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22607",
+    "type": "3.0",
+    "modelId": "9881",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CNGA",
+      "cylinder": "6",
+      "capacity": "2,975 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-11-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118840",
+    "type": "280 TSI",
+    "modelId": "9881",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118841",
+    "type": "330 TSI",
+    "modelId": "9881",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DBHA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118843",
+    "type": "380 TSI",
+    "modelId": "9881",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DBJA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  }
+]

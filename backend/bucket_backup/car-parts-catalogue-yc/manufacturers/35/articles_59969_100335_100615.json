@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3501772",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "49439",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "59969",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3501772/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,025",
+      "Number of connectors": "2",
+      "Control Type": "Push control",
+      "Article ID:": "3501772",
+      "Article Number:": "49439",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781649439",
+      "OEM Numbers PEUGEOT:": "4534.38",
+      "OEM Numbers ALFA ROMEO:": "60816945",
+      "OEM Numbers FIAT:": "60816945",
+      "OEM Numbers LANCIA:": "60816945",
+      "OEM Numbers ABARTH:": "46840511"
+    }
+  },
+  {
+    "id": "4334375",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "70 94 9439",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "59969",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4334375/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,025",
+      "Number of connectors": "2",
+      "Control Type": "Push control",
+      "Article ID:": "4334375",
+      "Article Number:": "70 94 9439",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468849439",
+      "OEM Numbers PEUGEOT:": "4534.38",
+      "OEM Numbers ALFA ROMEO:": "60816945",
+      "OEM Numbers FIAT:": "60816945",
+      "OEM Numbers LANCIA:": "60816945",
+      "OEM Numbers ABARTH:": "46840511"
+    }
+  }
+]

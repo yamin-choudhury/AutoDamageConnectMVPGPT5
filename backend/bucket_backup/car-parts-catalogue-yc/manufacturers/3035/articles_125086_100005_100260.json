@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1539556",
+    "name": "Air Filter",
+    "partNo": "1672357780",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "125086",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1539556/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "186,5",
+      "Shape": "Cylindrical",
+      "Inner diameter [mm]": "90",
+      "Outer diameter [mm]": "160",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1539556",
+      "Article Number:": "1672357780",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "4G0133843",
+      "OEM Numbers VW (SVW):": "4GD133843"
+    }
+  },
+  {
+    "id": "6699143",
+    "name": "Air Filter",
+    "partNo": "E1054L",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "125086",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6699143/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "187",
+      "Outer diameter [mm]": "162",
+      "Filter type": "Filter Insert",
+      "Inner diameter 1 [mm]": "91",
+      "Inner diameter 2 [mm]": "31",
+      "Article ID:": "6699143",
+      "Article Number:": "E1054L",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077602611",
+      "OEM Numbers VAG:": "4G0 133 843",
+      "OEM Numbers VW (SVW):": "4GD 133 843",
+      "OEM Numbers AUDI (FAW):": "L4GD 133 843"
+    }
+  },
+  {
+    "id": "7964993",
+    "name": "Air Filter",
+    "partNo": "LX 3550",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "125086",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7964993/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "186,9",
+      "Outer diameter [mm]": "161,0",
+      "Filter type": "Filter Insert",
+      "Inner diameter 1 [mm]": "90",
+      "Article ID:": "7964993",
+      "Article Number:": "LX 3550",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "695753510766",
+      "OEM Numbers VW:": "4GD133843"
+    }
+  }
+]

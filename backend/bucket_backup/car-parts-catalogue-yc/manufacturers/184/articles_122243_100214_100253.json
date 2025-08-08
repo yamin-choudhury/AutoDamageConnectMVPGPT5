@@ -1,0 +1,49 @@
+[
+  {
+    "id": "5615542",
+    "name": "Fuel Filter",
+    "partNo": "ADG02388",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "122243",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5615542/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "31911-2G000",
+      "Height [mm]": "145",
+      "Weight [kg]": "0,2",
+      "Outer diameter [mm]": "86",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "5615542",
+      "Article Number:": "ADG02388",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006323774",
+      "OEM Numbers KIA:": "31911-2G000"
+    }
+  },
+  {
+    "id": "6044329",
+    "name": "Fuel Filter",
+    "partNo": "BME205-006",
+    "manufacturer": "BTAP",
+    "supplierId": "5486",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "122243",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6044329/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "6044329",
+      "Article Number:": "BME205-006",
+      "Manufacturer:": "BTAP",
+      "OEM Numbers MERCEDES-BENZ:": "2514700090"
+    }
+  }
+]

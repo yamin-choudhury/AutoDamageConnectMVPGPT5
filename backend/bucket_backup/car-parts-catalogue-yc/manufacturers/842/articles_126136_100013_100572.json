@@ -1,0 +1,68 @@
+[
+  {
+    "id": "3642768",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "513034",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "126136",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3642768/model-series-id-11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3642768",
+      "Article Number:": "513034",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692263794204",
+      "OEM Numbers TOYOTA:": "4878012020"
+    }
+  },
+  {
+    "id": "3650180",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "514932",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "126136",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3650180/model-series-id-11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Lower",
+      "Article ID:": "3650180",
+      "Article Number:": "514932",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692263792657",
+      "OEM Numbers TOYOTA:": "4871033050",
+      "OEM Numbers LEXUS:": "4871033051"
+    }
+  },
+  {
+    "id": "3664147",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "517771",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "126136",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3664147/model-series-id-11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Upper",
+      "Article ID:": "3664147",
+      "Article Number:": "517771",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692263794234",
+      "OEM Numbers TOYOTA:": "4878012140"
+    }
+  }
+]

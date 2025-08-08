@@ -1,0 +1,74 @@
+[
+  {
+    "id": "7594808",
+    "name": "Guide Sleeve Kit, brake caliper",
+    "partNo": "J3270300",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "1165",
+    "productGroupId": "100806",
+    "categoryId": "100006",
+    "variantId": "145129",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7594808/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity": "8",
+      "Article ID:": "7594808",
+      "Article Number:": "J3270300",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941630126",
+      "OEM Numbers HYUNDAI:": "58222-4D500",
+      "OEM Numbers KIA:": "58222-4D500"
+    }
+  },
+  {
+    "id": "7595050",
+    "name": "Piston, brake caliper",
+    "partNo": "J3290301",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "2248",
+    "productGroupId": "100806",
+    "categoryId": "100006",
+    "variantId": "145129",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7595050/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "34",
+      "Height [mm]": "47",
+      "Brake System": "Mando",
+      "Article ID:": "7595050",
+      "Article Number:": "J3290301",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941640861",
+      "OEM Numbers HYUNDAI:": "58213-G2500",
+      "OEM Numbers KIA:": "58213-G2500"
+    }
+  },
+  {
+    "id": "7595068",
+    "name": "Piston, brake caliper",
+    "partNo": "J3290512",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "2248",
+    "productGroupId": "100806",
+    "categoryId": "100006",
+    "variantId": "145129",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7595068/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "54",
+      "Height [mm]": "51",
+      "Article ID:": "7595068",
+      "Article Number:": "J3290512",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941633641",
+      "OEM Numbers HYUNDAI:": "58112-28300",
+      "OEM Numbers KIA:": "58112-28300"
+    }
+  }
+]

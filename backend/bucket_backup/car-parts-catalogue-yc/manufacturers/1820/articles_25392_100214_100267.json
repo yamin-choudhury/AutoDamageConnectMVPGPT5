@@ -1,0 +1,95 @@
+[
+  {
+    "id": "7044319",
+    "name": "Fuel Feed Unit",
+    "partNo": "FG1041-12B1",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7044319/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "187",
+      "Width [mm]": "108",
+      "Height [mm]": "108",
+      "Fuel Type": "Petrol",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Supplementary Article/Info 2": "without pressure sensor",
+      "Article ID:": "7044319",
+      "Article Number:": "FG1041-12B1",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275947233",
+      "OEM Numbers LAND ROVER:": "WGS500051"
+    }
+  },
+  {
+    "id": "7257933",
+    "name": "Fuel Feed Unit",
+    "partNo": "GFPS-187A",
+    "manufacturer": "GMB",
+    "supplierId": "6375",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7257933/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7257933",
+      "Article Number:": "GFPS-187A",
+      "Manufacturer:": "GMB",
+      "OEM Numbers LAND ROVER:": "WGS500051"
+    }
+  },
+  {
+    "id": "7257933",
+    "name": "Fuel Feed Unit",
+    "partNo": "GFPS-187A",
+    "manufacturer": "GMB",
+    "supplierId": "6375",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7257933/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7257933",
+      "Article Number:": "GFPS-187A",
+      "Manufacturer:": "GMB",
+      "OEM Numbers LAND ROVER:": "WGS500051"
+    }
+  },
+  {
+    "id": "9945563",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG1498678",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9945563/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "187",
+      "Width [mm]": "108",
+      "Height [mm]": "108",
+      "Fuel Type": "Petrol",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Supplementary Article/Info 2": "without pressure sensor",
+      "Article ID:": "9945563",
+      "Article Number:": "WG1498678",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers LAND ROVER:": "WGS500051"
+    }
+  }
+]

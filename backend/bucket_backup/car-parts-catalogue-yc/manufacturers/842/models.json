@@ -1,0 +1,464 @@
+[
+  {
+    "id": "9014",
+    "name": "LEXUS CT (ZWA10_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9014/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9630",
+    "name": "LEXUS ES (_V4_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11183",
+    "name": "LEXUS ES (_V6_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11183/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": "2018-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39145",
+    "name": "LEXUS ES (_Z10_, _A10_, _H10_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39145/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5812",
+    "name": "LEXUS ES (MCV_, VZV_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5812/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-08-01",
+      "toDate": "2008-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4245",
+    "name": "LEXUS ES (VCV10_, VZV21_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4245/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-09-01",
+      "toDate": "1997-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10095",
+    "name": "LEXUS GS (_L1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10095/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4690",
+    "name": "LEXUS GS (_S16_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4690/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-08-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5433",
+    "name": "LEXUS GS (_S19_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5433/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4246",
+    "name": "LEXUS GS (JZS147_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4246/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-01-01",
+      "toDate": "1997-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10018",
+    "name": "LEXUS GX (_J12_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10018/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-11-01",
+      "toDate": "2009-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9578",
+    "name": "LEXUS GX (URJ15_, GRJ15_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9578/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9050",
+    "name": "LEXUS HS (ANF10)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9050/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-07-01",
+      "toDate": "2018-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8175",
+    "name": "LEXUS IS C (GSE2_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8175/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4247",
+    "name": "LEXUS IS I (_E1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4247/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-04-01",
+      "toDate": "2005-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5465",
+    "name": "LEXUS IS II (_E2_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5465/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-08-01",
+      "toDate": "2013-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11227",
+    "name": "LEXUS IS III (_E3_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11227/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4839",
+    "name": "LEXUS IS SportCross (_E1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4839/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-10-01",
+      "toDate": "2005-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42135",
+    "name": "LEXUS LC Convertible (_Z10_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42135/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37348",
+    "name": "LEXUS LC Coupe (_Z10_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37348/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8961",
+    "name": "LEXUS LFA (LFA10_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8961/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-12-01",
+      "toDate": "2012-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40471",
+    "name": "LEXUS LM (_H3_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40471/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4248",
+    "name": "LEXUS LS (_F1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4248/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-09-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4691",
+    "name": "LEXUS LS (_F2_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4691/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-10-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4738",
+    "name": "LEXUS LS (_F3_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4738/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2006-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6742",
+    "name": "LEXUS LS (_F4_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6742/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38365",
+    "name": "LEXUS LS (_F5_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38365/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "35450",
+    "name": "LEXUS LX",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35450/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-09-01",
+      "toDate": "1997-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9079",
+    "name": "LEXUS LX (_J2_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9079/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42623",
+    "name": "LEXUS LX (_J3_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42623/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9078",
+    "name": "LEXUS LX (UZJ100)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9078/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-09-01",
+      "toDate": "2008-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12998",
+    "name": "LEXUS NX (_Z1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12998/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42515",
+    "name": "LEXUS NX II (_A2_, _H2_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42515/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11956",
+    "name": "LEXUS RC (_C1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11956/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8136",
+    "name": "LEXUS RX (_L1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8136/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-12-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14797",
+    "name": "LEXUS RX (_L2_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14797/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43525",
+    "name": "LEXUS RX (_L3_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43525/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5001",
+    "name": "LEXUS RX (_U3_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5001/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-02-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4347",
+    "name": "LEXUS RX (MCU15)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4347/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2003-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4765",
+    "name": "LEXUS SC Convertible (UZZ40_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4765/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-01-01",
+      "toDate": "2010-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11667",
+    "name": "LEXUS SC Coupe (_ZZ3_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11667/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-08-01",
+      "toDate": "2000-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39223",
+    "name": "LEXUS UX (_AA1_, _AH1_, _MA1_)",
+    "manufacturerId": "842",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39223/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-10-01",
+      "toDate": null
+    },
+    "variants": []
+  }
+]

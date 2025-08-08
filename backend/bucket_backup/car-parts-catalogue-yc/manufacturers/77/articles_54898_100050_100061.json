@@ -1,0 +1,142 @@
+[
+  {
+    "id": "5611775",
+    "name": "Master Cylinder, clutch",
+    "partNo": "ADC43454",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5611775/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,190",
+      "Fill Medium": "Brake Fluid",
+      "Article ID:": "5611775",
+      "Article Number:": "ADC43454",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006305631",
+      "OEM Numbers CITROËN:": "MN100486",
+      "OEM Numbers PEUGEOT:": "MN100486",
+      "OEM Numbers MITSUBISHI:": "MN100487"
+    }
+  },
+  {
+    "id": "1574654",
+    "name": "Master Cylinder, clutch",
+    "partNo": "171190",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1574654/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,190",
+      "Fill Medium": "Brake Fluid",
+      "Article ID:": "1574654",
+      "Article Number:": "171190",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422471190",
+      "OEM Numbers CITROËN:": "MN100486",
+      "OEM Numbers PEUGEOT:": "MN100486",
+      "OEM Numbers MITSUBISHI:": "MN100487"
+    }
+  },
+  {
+    "id": "3620865",
+    "name": "Master Cylinder, clutch",
+    "partNo": "511 0301 10",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3620865/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3620865",
+      "Article Number:": "511 0301 10",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487012751",
+      "OEM Numbers MITSUBISHI:": "MN100486"
+    }
+  },
+  {
+    "id": "4151911",
+    "name": "Master Cylinder, clutch",
+    "partNo": "6284 600 774",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4151911/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "without sensor",
+      "Article ID:": "4151911",
+      "Article Number:": "6284 600 774",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387292707",
+      "OEM Numbers MITSUBISHI:": "MN100486"
+    }
+  },
+  {
+    "id": "4151911",
+    "name": "Master Cylinder, clutch",
+    "partNo": "6284 600 774",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4151911/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "without sensor",
+      "Article ID:": "4151911",
+      "Article Number:": "6284 600 774",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387292707",
+      "OEM Numbers MITSUBISHI:": "MN100486"
+    }
+  },
+  {
+    "id": "2763847",
+    "name": "Master Cylinder, clutch",
+    "partNo": "33 10 2550",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2763847/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,190",
+      "Fill Medium": "Brake Fluid",
+      "Article ID:": "2763847",
+      "Article Number:": "33 10 2550",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422871190",
+      "OEM Numbers CITROËN:": "MN100486",
+      "OEM Numbers PEUGEOT:": "MN100486",
+      "OEM Numbers MITSUBISHI:": "MN100487"
+    }
+  }
+]

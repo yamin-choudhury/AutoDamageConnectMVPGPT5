@@ -1,0 +1,70 @@
+[
+  {
+    "id": "243048",
+    "name": "Seal, oil cooler",
+    "partNo": "01263400",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "131",
+    "productGroupId": "100108",
+    "categoryId": "100007",
+    "variantId": "9584",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/243048/model-series-id-9562/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "130",
+      "Width [mm]": "53",
+      "Article ID:": "243048",
+      "Article Number:": "01263400",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357702648",
+      "OEM Numbers BMW:": "11428637820"
+    }
+  },
+  {
+    "id": "5905943",
+    "name": "Seal, oil cooler",
+    "partNo": "B4227100",
+    "manufacturer": "BOGAP",
+    "supplierId": "5349",
+    "productsId": "131",
+    "productGroupId": "100108",
+    "categoryId": "100007",
+    "variantId": "9584",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5905943/model-series-id-9562/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5905943",
+      "Article Number:": "B4227100",
+      "Manufacturer:": "BOGAP",
+      "EAN Numbers:": "425178915859",
+      "OEM Numbers BMW:": "11427525335"
+    }
+  },
+  {
+    "id": "4351790",
+    "name": "Seal Ring, oil cooler",
+    "partNo": "7015478",
+    "manufacturer": "ELWIS ROYAL",
+    "supplierId": "237",
+    "productsId": "3305",
+    "productGroupId": "100108",
+    "categoryId": "100007",
+    "variantId": "9584",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4351790/model-series-id-9562/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Required quantity": "1",
+      "Material": "ACM (Polyacrylate)",
+      "Gasket Design": "Soft Material Gasket",
+      "Article ID:": "4351790",
+      "Article Number:": "7015478",
+      "Manufacturer:": "ELWIS ROYAL",
+      "EAN Numbers:": "570329612298",
+      "OEM Numbers BMW:": "11428637820"
+    }
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "149811",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103485",
+        "name": "Snow Chains",
+        "categoryId": "100733",
+        "variantId": "149811",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149811/103485/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "149811",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100834",
+        "name": "Tyre-Pressure Monitoring System",
+        "categoryId": "100013",
+        "variantId": "149811",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149811/100834/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100010",
+    "name": "Electrics",
+    "variantId": "149811",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102747",
+        "name": "Sensors",
+        "categoryId": "100010",
+        "variantId": "149811",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149811/102747/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "149811",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104264",
+        "name": "Electrics",
+        "categoryId": "103671",
+        "variantId": "149811",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149811/104264/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103973",
+        "name": "Wheels/Tyres",
+        "categoryId": "103671",
+        "variantId": "149811",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149811/103973/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100015",
+    "name": "Towbar/Attachment Parts",
+    "variantId": "149811",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100608",
+        "name": "Electric Parts",
+        "categoryId": "100015",
+        "variantId": "149811",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149811/100608/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103099",
+    "name": "Wheels/Tyres",
+    "variantId": "149811",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103479",
+        "name": "Tyre-Pressure Monitoring System",
+        "categoryId": "103099",
+        "variantId": "149811",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/149811/103479/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

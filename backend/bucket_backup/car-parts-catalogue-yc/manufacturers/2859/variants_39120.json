@@ -1,0 +1,50 @@
+[
+  {
+    "id": "133929",
+    "type": "330TSI",
+    "modelId": "39120",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DKVB,DBFC,DPLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133931",
+    "type": "380TSI",
+    "modelId": "39120",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CUGA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138870",
+    "type": "380TSI",
+    "modelId": "39120",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-05-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  }
+]

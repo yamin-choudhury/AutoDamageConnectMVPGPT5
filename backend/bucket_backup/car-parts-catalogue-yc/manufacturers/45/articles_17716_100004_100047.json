@@ -1,0 +1,120 @@
+[
+  {
+    "id": "2050262",
+    "name": "Catalytic Converter",
+    "partNo": "22111",
+    "manufacturer": "AS",
+    "supplierId": "274",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17716",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2050262/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "450",
+      "Weight [kg]": "3,50",
+      "Fuel Type": "Petrol",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Article ID:": "2050262",
+      "Article Number:": "22111",
+      "Manufacturer:": "AS",
+      "EAN Numbers:": "843524775133",
+      "OEM Numbers HONDA:": "18160RBAG00"
+    }
+  },
+  {
+    "id": "6042567",
+    "name": "Catalytic Converter",
+    "partNo": "BM91407H",
+    "manufacturer": "BM CATALYSTS",
+    "supplierId": "406",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17716",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6042567/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "only in connection with": "FK91407",
+      "Warranty": "2 years warranty",
+      "for manufacturer exhaust norm": "Up to Euro 4",
+      "Article ID:": "6042567",
+      "Article Number:": "BM91407H",
+      "Manufacturer:": "BM CATALYSTS",
+      "EAN Numbers:": "0505274605319",
+      "OEM Numbers HONDA:": "18160RBAG00"
+    }
+  },
+  {
+    "id": "7448024",
+    "name": "Catalytic Converter",
+    "partNo": "HA6005T",
+    "manufacturer": "EEC",
+    "supplierId": "488",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17716",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7448024/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "450",
+      "Emission Standard": "Euro 3 (D3)",
+      "Article ID:": "7448024",
+      "Article Number:": "HA6005T",
+      "Manufacturer:": "EEC",
+      "OEM Numbers HONDA:": "18160RBAG00"
+    }
+  },
+  {
+    "id": "972126",
+    "name": "Catalytic Converter",
+    "partNo": "10N0085-OYO",
+    "manufacturer": "Oyodo",
+    "supplierId": "6984",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17716",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/972126/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "450",
+      "Supplementary Article/Info 2": "with mounting parts",
+      "Article ID:": "972126",
+      "Article Number:": "10N0085-OYO",
+      "Manufacturer:": "Oyodo",
+      "OEM Numbers HONDA:": "18160RBAG00"
+    }
+  },
+  {
+    "id": "8662814",
+    "name": "Catalytic Converter",
+    "partNo": "QCAT91407H",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17716",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8662814/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "Supplementary Article/Info 2": "with mounting kit",
+      "Warranty": "2 years warranty",
+      "Article ID:": "8662814",
+      "Article Number:": "QCAT91407H",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043853739",
+      "OEM Numbers HONDA:": "18160RBAG00"
+    }
+  }
+]

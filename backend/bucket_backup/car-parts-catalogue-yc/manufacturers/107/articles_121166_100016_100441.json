@@ -1,0 +1,49 @@
+[
+  {
+    "id": "9301915",
+    "name": "Belt Tensioner, V-ribbed belt",
+    "partNo": "T39359",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "541",
+    "productGroupId": "100441",
+    "categoryId": "100016",
+    "variantId": "121166",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9301915/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "26",
+      "Outer diameter [mm]": "70",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "9301915",
+      "Article Number:": "T39359",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "540060817578",
+      "OEM Numbers SUBARU:": "23769AA05A"
+    }
+  },
+  {
+    "id": "3742861",
+    "name": "Belt Tensioner, V-ribbed belt",
+    "partNo": "534 0711 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "541",
+    "productGroupId": "100441",
+    "categoryId": "100016",
+    "variantId": "121166",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3742861/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "26,00",
+      "Outer diameter [mm]": "70,00",
+      "Article ID:": "3742861",
+      "Article Number:": "534 0711 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487054467",
+      "OEM Numbers SUBARU:": "23769AA040"
+    }
+  }
+]

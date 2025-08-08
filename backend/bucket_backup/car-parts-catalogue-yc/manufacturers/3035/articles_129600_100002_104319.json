@@ -1,0 +1,59 @@
+[
+  {
+    "id": "3718226",
+    "name": "Timing Belt Kit",
+    "partNo": "530 0592 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "307",
+    "productGroupId": "104319",
+    "categoryId": "100002",
+    "variantId": "129600",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3718226/model-series-id-38348/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth 1": "163",
+      "Width 1 [mm]": "20,00",
+      "Article ID:": "3718226",
+      "Article Number:": "530 0592 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510889081",
+      "OEM Numbers AUDI:": "05C109479A",
+      "OEM Numbers SEAT:": "05C109479A",
+      "OEM Numbers SKODA:": "05C109479A",
+      "OEM Numbers VW:": "05C109479A",
+      "OEM Numbers VW (SVW):": "04C109479G",
+      "OEM Numbers VW (FAW):": "04E109244E"
+    }
+  },
+  {
+    "id": "3718227",
+    "name": "Timing Belt Kit",
+    "partNo": "530 0592 11",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "307",
+    "productGroupId": "104319",
+    "categoryId": "100002",
+    "variantId": "129600",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3718227/model-series-id-38348/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "with accessories",
+      "Number of Teeth 1": "163",
+      "Width 1 [mm]": "20,00",
+      "Article ID:": "3718227",
+      "Article Number:": "530 0592 11",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487062802",
+      "OEM Numbers AUDI:": "05C109479A",
+      "OEM Numbers SEAT:": "05C109479A",
+      "OEM Numbers SKODA:": "05C109479A",
+      "OEM Numbers VW:": "05C109479A",
+      "OEM Numbers VW (SVW):": "04C109479G",
+      "OEM Numbers VW (FAW):": "04E109244E"
+    }
+  }
+]

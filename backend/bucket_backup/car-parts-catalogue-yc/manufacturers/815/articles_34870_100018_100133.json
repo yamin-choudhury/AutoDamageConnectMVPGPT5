@@ -1,0 +1,56 @@
+[
+  {
+    "id": "6142397",
+    "name": "Wiper Blade",
+    "partNo": "BW24C",
+    "manufacturer": "BORG & BECK",
+    "supplierId": "475",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "34870",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6142397/model-series-id-8963/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [in]": "24",
+      "Quantity": "1",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "6142397",
+      "Article Number:": "BW24C",
+      "Manufacturer:": "BORG & BECK",
+      "OEM Numbers DAF:": "1405388",
+      "OEM Numbers RENAULT TRUCKS:": "5001865594",
+      "OEM Numbers BMW:": "61618217706",
+      "OEM Numbers OPEL:": "6272548",
+      "OEM Numbers CITROËN:": "6426SS",
+      "OEM Numbers TOYOTA:": "8521213010",
+      "OEM Numbers MERCEDES-BENZ:": "A1248201145"
+    }
+  },
+  {
+    "id": "6142398",
+    "name": "Wiper Blade",
+    "partNo": "BW24C.10",
+    "manufacturer": "BORG & BECK",
+    "supplierId": "475",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "34870",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6142398/model-series-id-8963/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [in]": "24",
+      "Quantity": "10",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "6142398",
+      "Article Number:": "BW24C.10",
+      "Manufacturer:": "BORG & BECK",
+      "OEM Numbers RENAULT TRUCKS:": "5001865594",
+      "OEM Numbers OPEL:": "6272548",
+      "OEM Numbers TOYOTA:": "8521213010"
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "3252672",
+    "name": "Axle Beam",
+    "partNo": "4205419",
+    "manufacturer": "DIEDERICHS",
+    "supplierId": "253",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59316",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3252672/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Brake Type": "Drum Brake",
+      "Article ID:": "3252672",
+      "Article Number:": "4205419",
+      "Manufacturer:": "DIEDERICHS",
+      "EAN Numbers:": "405235572746",
+      "OEM Numbers CITROËN:": "5148V6",
+      "OEM Numbers PEUGEOT:": "5148V6"
+    }
+  },
+  {
+    "id": "7569568",
+    "name": "Axle Beam",
+    "partNo": "IT1783",
+    "manufacturer": "PROTECH",
+    "supplierId": "6337",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59316",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7569568/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Brake Type": "Drum Brake",
+      "Braking / Drive Dynamics": "for vehicles with ABS pro",
+      "Article ID:": "7569568",
+      "Article Number:": "IT1783",
+      "Manufacturer:": "PROTECH",
+      "OEM Numbers CITROËN/PEUGEOT:": "5148W2"
+    }
+  },
+  {
+    "id": "8695809",
+    "name": "Axle Beam",
+    "partNo": "QXL130R",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59316",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8695809/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8695809",
+      "Article Number:": "QXL130R",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043850392",
+      "OEM Numbers CITROËN/PEUGEOT:": "5148 W2*"
+    }
+  },
+  {
+    "id": "2684721",
+    "name": "Axle Beam",
+    "partNo": "316 27 199 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59316",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2684721/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2684721",
+      "Article Number:": "316 27 199 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "98 080 117 80",
+      "OEM Numbers CITROËN/PEUGEOT:": "98 080 117 80"
+    }
+  }
+]

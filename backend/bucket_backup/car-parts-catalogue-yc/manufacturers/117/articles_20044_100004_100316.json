@@ -1,0 +1,96 @@
+[
+  {
+    "id": "6771234",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "EKK125",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "20044",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6771234/model-series-id-4633/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Specification": "für LRT K7125",
+      "Article ID:": "6771234",
+      "Article Number:": "EKK125",
+      "Manufacturer:": "LRT",
+      "EAN Numbers:": "425019360410",
+      "OEM Numbers GENERAL MOTORS:": "55351943",
+      "OEM Numbers OPEL:": "849170",
+      "OEM Numbers VAUXHALL:": "849170"
+    }
+  },
+  {
+    "id": "6771239",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "EKK134",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "20044",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6771239/model-series-id-4633/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Specification": "für LRT K7134",
+      "Article ID:": "6771239",
+      "Article Number:": "EKK134",
+      "Manufacturer:": "LRT",
+      "EAN Numbers:": "425019361542",
+      "OEM Numbers GENERAL MOTORS:": "55559169",
+      "OEM Numbers OPEL:": "849415"
+    }
+  },
+  {
+    "id": "6771234",
+    "name": "Mounting Kit, exhaust manifold",
+    "partNo": "EKK125",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "3153",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "20044",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6771234/model-series-id-4633/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Specification": "für LRT K7125",
+      "Article ID:": "6771234",
+      "Article Number:": "EKK125",
+      "Manufacturer:": "LRT",
+      "EAN Numbers:": "425019360410",
+      "OEM Numbers GENERAL MOTORS:": "55351943",
+      "OEM Numbers OPEL:": "849170",
+      "OEM Numbers VAUXHALL:": "849170"
+    }
+  },
+  {
+    "id": "6771239",
+    "name": "Mounting Kit, exhaust manifold",
+    "partNo": "EKK134",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "3153",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "20044",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6771239/model-series-id-4633/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Specification": "für LRT K7134",
+      "Article ID:": "6771239",
+      "Article Number:": "EKK134",
+      "Manufacturer:": "LRT",
+      "EAN Numbers:": "425019361542",
+      "OEM Numbers GENERAL MOTORS:": "55559169",
+      "OEM Numbers OPEL:": "849415"
+    }
+  }
+]

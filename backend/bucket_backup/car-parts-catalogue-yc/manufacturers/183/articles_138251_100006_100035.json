@@ -1,0 +1,51 @@
+[
+  {
+    "id": "740148",
+    "name": "Brake Hose",
+    "partNo": "1 987 476 236",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "138251",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/740148/model-series-id-4903/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "10,2",
+      "Length [mm]": "505",
+      "Internal Thread [mm]": "M10x1",
+      "Article ID:": "740148",
+      "Article Number:": "1 987 476 236",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702411701",
+      "OEM Numbers HYUNDAI:": "58731 25000"
+    }
+  },
+  {
+    "id": "741598",
+    "name": "Brake Hose",
+    "partNo": "1 987 481 321",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "138251",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/741598/model-series-id-4903/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "10",
+      "Length [mm]": "510",
+      "Internal Thread [mm]": "M10x1",
+      "Article ID:": "741598",
+      "Article Number:": "1 987 481 321",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702459236",
+      "OEM Numbers HYUNDAI:": "58737 25000",
+      "OEM Numbers KIA:": "58732 1A000"
+    }
+  }
+]

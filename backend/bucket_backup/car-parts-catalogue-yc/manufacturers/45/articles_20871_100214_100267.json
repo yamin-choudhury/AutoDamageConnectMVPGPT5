@@ -1,0 +1,47 @@
+[
+  {
+    "id": "7116239",
+    "name": "Filter, fuel pump",
+    "partNo": "FS206",
+    "manufacturer": "AIRTEX",
+    "supplierId": "220",
+    "productsId": "3407",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "20871",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7116239/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "11",
+      "Weight [kg]": "0,01",
+      "Article ID:": "7116239",
+      "Article Number:": "FS206",
+      "Manufacturer:": "AIRTEX",
+      "EAN Numbers:": "843541710462",
+      "OEM Numbers HONDA:": "17516-SDC-E00"
+    }
+  },
+  {
+    "id": "5620355",
+    "name": "Filter, fuel pump",
+    "partNo": "ADH22403",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "3407",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "20871",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5620355/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,054",
+      "Article ID:": "5620355",
+      "Article Number:": "ADH22403",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006322403",
+      "OEM Numbers HONDA:": "17516-S2A-930"
+    }
+  }
+]

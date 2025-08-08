@@ -1,0 +1,43 @@
+[
+  {
+    "id": "8752559",
+    "name": "Cap, radiator",
+    "partNo": "RC134",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "548",
+    "productGroupId": "100103",
+    "categoryId": "100007",
+    "variantId": "123022",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8752559/model-series-id-37069/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "14",
+      "Pressure [bar]": "1,1",
+      "Outer diameter [mm]": "44",
+      "Pressure [psi]": "16",
+      "Article ID:": "8752559",
+      "Article Number:": "RC134",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers CITROËN:": "1306.F4",
+      "OEM Numbers PEUGEOT:": "1306F4",
+      "OEM Numbers TOYOTA:": "16401-7A530",
+      "OEM Numbers LEXUS:": "16401-75440",
+      "OEM Numbers SUZUKI:": "17920M79F11",
+      "OEM Numbers MARUTI:": "17920M79F11",
+      "OEM Numbers HONDA:": "19045RAA003",
+      "OEM Numbers PROTON:": "19045RAA003",
+      "OEM Numbers ACURA:": "19045RAA003",
+      "OEM Numbers SUBARU:": "45137AE012",
+      "OEM Numbers OPEL:": "97180014",
+      "OEM Numbers VAUXHALL:": "93194271",
+      "OEM Numbers FIAT:": "71742152",
+      "OEM Numbers MAZDA:": "ZM4315205",
+      "OEM Numbers CHRYSLER:": "MR597126",
+      "OEM Numbers DODGE:": "MR597126",
+      "OEM Numbers MITSUBISHI:": "MR597126",
+      "OEM Numbers FORD ASIA & OCEANIA:": "ZM4315205"
+    }
+  }
+]

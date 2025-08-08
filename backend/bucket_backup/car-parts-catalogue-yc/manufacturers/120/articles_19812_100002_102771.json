@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1438262",
+    "name": "Mounting, engine",
+    "partNo": "15398",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "19812",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1438262/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Weight [g]": "1480",
+      "Article ID:": "1438262",
+      "Article Number:": "15398",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205398",
+      "OEM Numbers FORD:": "1509976",
+      "OEM Numbers VOLVO:": "31262676",
+      "OEM Numbers FORD USA:": "3M516F012FH"
+    }
+  },
+  {
+    "id": "1438264",
+    "name": "Mounting, engine",
+    "partNo": "15398",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "19812",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1438264/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Weight [g]": "1480",
+      "Article ID:": "1438264",
+      "Article Number:": "15398",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205398",
+      "OEM Numbers FORD:": "1509976",
+      "OEM Numbers VOLVO:": "31262676",
+      "OEM Numbers FORD USA:": "3M516F012FH"
+    }
+  }
+]

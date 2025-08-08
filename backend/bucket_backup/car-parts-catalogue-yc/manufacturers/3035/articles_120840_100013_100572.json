@@ -1,0 +1,60 @@
+[
+  {
+    "id": "804626",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "100 407 0043",
+    "manufacturer": "MEYLE",
+    "supplierId": "144",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "120840",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/804626/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Height [mm]": "41",
+      "Inner diameter [mm]": "13",
+      "Outer diameter [mm]": "60",
+      "Article ID:": "804626",
+      "Article Number:": "100 407 0043",
+      "Manufacturer:": "MEYLE",
+      "EAN Numbers:": "404007408996",
+      "OEM Numbers VW (SVW):": "180 407 181",
+      "OEM Numbers SKODA (SVW):": "180 407 181",
+      "OEM Numbers AUDI:": "1J0 407 181 A",
+      "OEM Numbers SEAT:": "1J0 407 181 A",
+      "OEM Numbers SKODA:": "1J0 407 181 A",
+      "OEM Numbers VW:": "1J0 407 181 A",
+      "OEM Numbers VW (FAW):": "L1J0 407 181"
+    }
+  },
+  {
+    "id": "372589",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "03191",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "120840",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/372589/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Height [mm]": "41",
+      "Inner diameter [mm]": "13",
+      "Outer diameter [mm]": "60",
+      "Control/Trailing Arm Type": "for triangular control arm (CV)",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "372589",
+      "Article Number:": "03191",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357303191",
+      "OEM Numbers SKODA:": "1J0 407 181 A"
+    }
+  }
+]

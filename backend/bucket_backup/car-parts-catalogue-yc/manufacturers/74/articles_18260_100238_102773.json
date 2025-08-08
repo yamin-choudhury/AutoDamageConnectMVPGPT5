@@ -1,0 +1,68 @@
+[
+  {
+    "id": "3956234",
+    "name": "Mounting, manual transmission",
+    "partNo": "594507",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "18260",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3956234/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3956234",
+      "Article Number:": "594507",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975082945",
+      "OEM Numbers MERCEDES-BENZ:": "A1692400518"
+    }
+  },
+  {
+    "id": "3956235",
+    "name": "Mounting, manual transmission",
+    "partNo": "594508",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "18260",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3956235/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3956235",
+      "Article Number:": "594508",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975082946",
+      "OEM Numbers MERCEDES-BENZ:": "A1692401218"
+    }
+  },
+  {
+    "id": "4382492",
+    "name": "Mounting, manual transmission",
+    "partNo": "71-11335-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "18260",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4382492/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "A1692400518",
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "4382492",
+      "Article Number:": "71-11335-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727652047",
+      "OEM Numbers MERCEDES-BENZ:": "169 240 05 18"
+    }
+  }
+]

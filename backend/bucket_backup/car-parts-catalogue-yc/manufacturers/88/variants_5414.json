@@ -1,0 +1,34 @@
+[
+  {
+    "id": "18586",
+    "type": "1.0",
+    "modelId": "5414",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "CFA (384F),CFB (1KR)",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-06-01\n                            \n                            2014-05-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18587",
+    "type": "1.4 HDi",
+    "modelId": "5414",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "8HT (DV4TD)",
+      "cylinder": "4",
+      "capacity": "1,398 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2005-06-01\n                            \n                            2014-05-01",
+      "power": "40 KW / 54 PS"
+    },
+    "categories": []
+  }
+]

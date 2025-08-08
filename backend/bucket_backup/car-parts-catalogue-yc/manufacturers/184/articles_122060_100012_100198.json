@@ -1,0 +1,59 @@
+[
+  {
+    "id": "6665329",
+    "name": "Inner Tie Rod",
+    "partNo": "DSA020261",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "122060",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6665329/model-series-id-38180/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Length [mm]": "251",
+      "Weight [kg]": "0,64",
+      "Outer diameter [mm]": "41",
+      "Thread Size 1": "M16*1,5",
+      "Thread Size 2": "M16*1,5",
+      "Article ID:": "6665329",
+      "Article Number:": "DSA020261",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880974719477",
+      "OEM Numbers HYUNDAI:": "57724C1000",
+      "OEM Numbers KIA:": "57724C1000"
+    }
+  },
+  {
+    "id": "7503100",
+    "name": "Inner Tie Rod",
+    "partNo": "HY-AX-15858",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "122060",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7503100/model-series-id-38180/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Packing Type": "Box",
+      "Thread Size 1": "M16X1.5",
+      "Thread Size 2": "M16X1.5",
+      "Packaging length [cm]": "31,5",
+      "Packaging width [cm]": "5",
+      "Packaging height [cm]": "5",
+      "Article ID:": "7503100",
+      "Article Number:": "HY-AX-15858",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "406042625294",
+      "OEM Numbers HYUNDAI:": "577242T000",
+      "OEM Numbers KIA:": "577242T000"
+    }
+  }
+]

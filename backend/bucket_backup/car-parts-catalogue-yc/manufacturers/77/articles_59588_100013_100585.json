@@ -1,0 +1,92 @@
+[
+  {
+    "id": "2939235",
+    "name": "Axle Beam",
+    "partNo": "36-SF-0003",
+    "manufacturer": "Amity AP",
+    "supplierId": "6525",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2939235/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2939235",
+      "Article Number:": "36-SF-0003",
+      "Manufacturer:": "Amity AP",
+      "OEM Numbers MITSUBISHI:": "4100A037"
+    }
+  },
+  {
+    "id": "2939235",
+    "name": "Axle Beam",
+    "partNo": "36-SF-0003",
+    "manufacturer": "Amity AP",
+    "supplierId": "6525",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2939235/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2939235",
+      "Article Number:": "36-SF-0003",
+      "Manufacturer:": "Amity AP",
+      "OEM Numbers MITSUBISHI:": "4100A037"
+    }
+  },
+  {
+    "id": "3235129",
+    "name": "Axle Beam",
+    "partNo": "4166,285,1",
+    "manufacturer": "BINDER",
+    "supplierId": "4202",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3235129/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "3235129",
+      "Article Number:": "4166,285,1",
+      "Manufacturer:": "BINDER",
+      "EAN Numbers:": "0405235565299\n0571427033233",
+      "OEM Numbers CITROËN:": "3502FZ",
+      "OEM Numbers MITSUBISHI:": "MN100292"
+    }
+  },
+  {
+    "id": "3921432",
+    "name": "Axle Beam",
+    "partNo": "5808119",
+    "manufacturer": "DIEDERICHS",
+    "supplierId": "253",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3921432/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Section": "Front Section",
+      "Panel Type": "Support",
+      "Article ID:": "3921432",
+      "Article Number:": "5808119",
+      "Manufacturer:": "DIEDERICHS",
+      "EAN Numbers:": "405235566828",
+      "OEM Numbers PEUGEOT:": "350877",
+      "OEM Numbers MITSUBISHI:": "4000A239"
+    }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "2021794",
+    "name": "Bellow, steering",
+    "partNo": "21959",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "21631",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2021794/model-series-id-5855/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "6 182 818",
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "190",
+      "Weight [kg]": "0,050",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "12",
+      "Inner diameter 2 [mm]": "47",
+      "Article ID:": "2021794",
+      "Article Number:": "21959",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781621959",
+      "OEM Numbers FORD:": "6 182 818",
+      "OEM Numbers FORD USA:": "98AG6K661AA",
+      "OEM Numbers MG:": "QFW 000060",
+      "OEM Numbers ROVER:": "QFW 000060"
+    }
+  },
+  {
+    "id": "3524861",
+    "name": "Bellow, steering",
+    "partNo": "50 92 1959",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "21631",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3524861/model-series-id-5855/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "190",
+      "Weight [kg]": "0,050",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "12",
+      "Inner diameter 2 [mm]": "47",
+      "Article ID:": "3524861",
+      "Article Number:": "50 92 1959",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468821959",
+      "OEM Numbers FORD:": "6 182 818",
+      "OEM Numbers FORD USA:": "98AG6K661AA",
+      "OEM Numbers MG:": "QFW 000060",
+      "OEM Numbers ROVER:": "QFW 000060"
+    }
+  }
+]

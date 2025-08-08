@@ -1,0 +1,52 @@
+[
+  {
+    "id": "803003",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "100 1503",
+    "manufacturer": "AutoTechteile",
+    "supplierId": "3720",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "19911",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/803003/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,469",
+      "Article ID:": "803003",
+      "Article Number:": "100 1503",
+      "Manufacturer:": "AutoTechteile",
+      "EAN Numbers:": "0425115090102",
+      "OEM Numbers MERCEDES-BENZ:": "A604 150 05 60"
+    }
+  },
+  {
+    "id": "7218004",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "GA751.01",
+    "manufacturer": "SNR",
+    "supplierId": "110",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "19911",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7218004/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width 1 [mm]": "35",
+      "Outer diameter 1 [mm]": "61",
+      "Article number of the recommended special tool": "Clas : OM 3789",
+      "Article ID:": "7218004",
+      "Article Number:": "GA751.01",
+      "Manufacturer:": "SNR",
+      "EAN Numbers:": "341352050622",
+      "OEM Numbers DAEWOO:": "211242",
+      "OEM Numbers OPEL:": "4805492",
+      "OEM Numbers MERCEDES-BENZ:": "6041500560",
+      "OEM Numbers VAUXHALL:": "93743440",
+      "OEM Numbers CHEVROLET:": "93743440"
+    }
+  }
+]

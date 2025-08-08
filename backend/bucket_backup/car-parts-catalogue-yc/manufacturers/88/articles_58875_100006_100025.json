@@ -1,0 +1,118 @@
+[
+  {
+    "id": "1375704",
+    "name": "Pressure Sensor, brake booster",
+    "partNo": "1474900",
+    "manufacturer": "EFI AUTOMOTIVE",
+    "supplierId": "211",
+    "productsId": "4144",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "58875",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1375704/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "1375704",
+      "Article Number:": "1474900",
+      "Manufacturer:": "EFI AUTOMOTIVE",
+      "OEM Numbers CITROËN/PEUGEOT:": "9811110080"
+    }
+  },
+  {
+    "id": "4365392",
+    "name": "Pressure Sensor, brake booster",
+    "partNo": "70606500",
+    "manufacturer": "HERTH+BUSS ELPARTS",
+    "supplierId": "72",
+    "productsId": "4144",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "58875",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4365392/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Voltage [V]": "12",
+      "Article ID:": "4365392",
+      "Article Number:": "70606500",
+      "Manufacturer:": "HERTH+BUSS ELPARTS",
+      "EAN Numbers:": "402673646613",
+      "OEM Numbers CITROËN:": "98 009 840 80",
+      "OEM Numbers PEUGEOT:": "98 009 840 80"
+    }
+  },
+  {
+    "id": "4365392",
+    "name": "Pressure Sensor, brake booster",
+    "partNo": "70606500",
+    "manufacturer": "HERTH+BUSS ELPARTS",
+    "supplierId": "72",
+    "productsId": "4144",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "58875",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4365392/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Voltage [V]": "12",
+      "Article ID:": "4365392",
+      "Article Number:": "70606500",
+      "Manufacturer:": "HERTH+BUSS ELPARTS",
+      "EAN Numbers:": "402673646613",
+      "OEM Numbers CITROËN:": "98 009 840 80",
+      "OEM Numbers PEUGEOT:": "98 009 840 80"
+    }
+  },
+  {
+    "id": "8627789",
+    "name": "Brake Booster",
+    "partNo": "PSA131",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "58875",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627789/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "9,5",
+      "Article ID:": "8627789",
+      "Article Number:": "PSA131",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293792593",
+      "OEM Numbers CITROËN:": "4535 CE",
+      "OEM Numbers PEUGEOT:": "4535 CE"
+    }
+  },
+  {
+    "id": "8627903",
+    "name": "Brake Booster",
+    "partNo": "PSA276",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "58875",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627903/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "9,5",
+      "Article ID:": "8627903",
+      "Article Number:": "PSA276",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293818732",
+      "OEM Numbers CITROËN:": "4535 CE",
+      "OEM Numbers PEUGEOT:": "4535 CE",
+      "OEM Numbers CITROËN (DF-PSA):": "1609895680",
+      "OEM Numbers PEUGEOT (DF-PSA):": "1609895680"
+    }
+  }
+]

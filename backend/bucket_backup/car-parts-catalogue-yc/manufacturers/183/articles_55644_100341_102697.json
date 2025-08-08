@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1547062",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "1682366480",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "219",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "55644",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1547062/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle Tailgate",
+      "Length [mm]": "468",
+      "Stroke [mm]": "185",
+      "Eject Force [N]": "280",
+      "Housing Diameter [mm]": "18",
+      "Stanchion Tube Diameter [mm]": "8",
+      "Article ID:": "1547062",
+      "Article Number:": "1682366480",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers HYUNDAI:": "817800U200"
+    }
+  },
+  {
+    "id": "7354404",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "GS 0831",
+    "manufacturer": "TRIALLI",
+    "supplierId": "4772",
+    "productsId": "219",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "55644",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7354404/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,3",
+      "Eject Force [N]": "286",
+      "Quantity": "1",
+      "Max. Length [mm]": "287",
+      "Min. Length [mm]": "474",
+      "Article ID:": "7354404",
+      "Article Number:": "GS 0831",
+      "Manufacturer:": "TRIALLI",
+      "EAN Numbers:": "468029511962",
+      "OEM Numbers HYUNDAI:": "817800U200"
+    }
+  }
+]

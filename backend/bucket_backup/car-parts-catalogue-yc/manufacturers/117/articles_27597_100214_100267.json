@@ -1,0 +1,27 @@
+[
+  {
+    "id": "9992055",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG1778704",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "27597",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9992055/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Pressure [bar]": "3,5",
+      "Operating Mode": "Electric",
+      "Number of connectors": "4",
+      "Flow rate [l/h]": "110",
+      "Article ID:": "9992055",
+      "Article Number:": "WG1778704",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers OPEL:": "4708793",
+      "OEM Numbers GENERAL MOTORS:": "93193619"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1898120",
+    "name": "Ignition Coil",
+    "partNo": "20728",
+    "manufacturer": "BREMI",
+    "supplierId": "47",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1898120/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "3",
+      "Ignition Coil": "Flush-Fitting Pencil Ignition Coils",
+      "Article ID:": "1898120",
+      "Article Number:": "20728",
+      "Manufacturer:": "BREMI",
+      "EAN Numbers:": "401753421183",
+      "OEM Numbers FIAT:": "68081914AC",
+      "OEM Numbers DODGE:": "68081914AC"
+    }
+  },
+  {
+    "id": "6265623",
+    "name": "Ignition Coil",
+    "partNo": "CC-39",
+    "manufacturer": "MOBILETRON",
+    "supplierId": "4705",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6265623/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Number of inlets/outlets": "1",
+      "Article ID:": "6265623",
+      "Article Number:": "CC-39",
+      "Manufacturer:": "MOBILETRON",
+      "OEM Numbers CHRYSLER:": "68081914AC"
+    }
+  }
+]

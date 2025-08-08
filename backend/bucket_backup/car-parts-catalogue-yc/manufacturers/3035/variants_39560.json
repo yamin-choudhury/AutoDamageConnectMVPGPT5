@@ -1,0 +1,50 @@
+[
+  {
+    "id": "136289",
+    "type": "380 TSI All-wheel Drive",
+    "modelId": "39560",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-05-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136328",
+    "type": "330 TSI",
+    "modelId": "39560",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DKVB,DPLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-05-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136329",
+    "type": "530 V6 All-wheel Drive",
+    "modelId": "39560",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DPKA",
+      "cylinder": "6",
+      "capacity": "2,492 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-05-01",
+      "power": "220 KW / 299 PS"
+    },
+    "categories": []
+  }
+]

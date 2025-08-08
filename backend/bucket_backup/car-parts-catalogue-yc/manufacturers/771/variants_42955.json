@@ -1,0 +1,18 @@
+[
+  {
+    "id": "147795",
+    "type": "Cielo",
+    "modelId": "42955",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "670 05 33 50",
+      "cylinder": "6",
+      "capacity": "2,992 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2022-05-01",
+      "power": "463 KW / 630 PS"
+    },
+    "categories": []
+  }
+]

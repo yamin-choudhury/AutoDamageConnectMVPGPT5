@@ -1,0 +1,49 @@
+[
+  {
+    "id": "2730425",
+    "name": "Clutch Disc",
+    "partNo": "322 0406 10",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "262",
+    "productGroupId": "100053",
+    "categoryId": "100050",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2730425/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "24",
+      "Diameter [mm]": "215",
+      "Technical Information Number": "TSFV",
+      "Article ID:": "2730425",
+      "Article Number:": "322 0406 10",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510872304",
+      "OEM Numbers VW:": "026141034H"
+    }
+  },
+  {
+    "id": "507999",
+    "name": "Clutch Disc",
+    "partNo": "05595",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "262",
+    "productGroupId": "100053",
+    "categoryId": "100050",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/507999/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "24",
+      "Belt Pulley Ø [mm]": "215",
+      "Article ID:": "507999",
+      "Article Number:": "05595",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357305595",
+      "OEM Numbers VW:": "026 141 034 H"
+    }
+  }
+]

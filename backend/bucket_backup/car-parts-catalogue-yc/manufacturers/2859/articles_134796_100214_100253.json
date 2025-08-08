@@ -1,0 +1,31 @@
+[
+  {
+    "id": "7423199",
+    "name": "Fuel Filter",
+    "partNo": "H104WK",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "134796",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7423199/model-series-id-5728/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Overall Length [mm]": "136",
+      "Outer diameter [mm]": "36",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "7423199",
+      "Article Number:": "H104WK",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077600242",
+      "OEM Numbers VAG:": "803 210 151 C",
+      "OEM Numbers BOMAG:": "5821218",
+      "OEM Numbers SAAB:": "728 4417",
+      "OEM Numbers SCANIA:": "728 4417",
+      "OEM Numbers MASSEY FERGUSON:": "800 848 M91",
+      "OEM Numbers KAYSER:": "AK01-8A"
+    }
+  }
+]

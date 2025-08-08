@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1321982",
+    "name": "V-Belt",
+    "partNo": "13AV1525L",
+    "manufacturer": "LUCAS",
+    "supplierId": "4501",
+    "productsId": "3568",
+    "productGroupId": "102438",
+    "categoryId": "100016",
+    "variantId": "414",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1321982/model-series-id-9005/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1525",
+      "Width [mm]": "13",
+      "Number of ribs": "13",
+      "Article ID:": "1321982",
+      "Article Number:": "13AV1525L",
+      "Manufacturer:": "LUCAS",
+      "EAN Numbers:": "327559156987",
+      "OEM Numbers LEYLAND:": "13H2126",
+      "OEM Numbers ROVER:": "13H2096",
+      "OEM Numbers SAAB:": "814207",
+      "OEM Numbers OPEL:": "8941464230",
+      "OEM Numbers VAUXHALL:": "1854716",
+      "OEM Numbers GENERAL MOTORS:": "94434926",
+      "OEM Numbers HYUNDAI:": "197811524",
+      "OEM Numbers MERCEDES-BENZ:": "A007753112513",
+      "OEM Numbers ALFA ROMEO:": "4761774000",
+      "OEM Numbers FIAT:": "4761774000",
+      "OEM Numbers RENAULT:": "5000787739",
+      "OEM Numbers DACIA:": "5000787739",
+      "OEM Numbers RENAULT TRUCKS:": "5010437130",
+      "OEM Numbers FORD:": "82PF10N003AA",
+      "OEM Numbers ISUZU:": "94434926",
+      "OEM Numbers VOLVO:": "9522774",
+      "OEM Numbers IVECO:": "9966451",
+      "OEM Numbers JAGUAR:": "C36123"
+    }
+  }
+]

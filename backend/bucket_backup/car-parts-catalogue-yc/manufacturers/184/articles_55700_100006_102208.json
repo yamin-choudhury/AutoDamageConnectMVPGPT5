@@ -1,0 +1,39 @@
+[
+  {
+    "id": "3124357",
+    "name": "Brake Fluid",
+    "partNo": "402403",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "3357",
+    "productGroupId": "102208",
+    "categoryId": "100006",
+    "variantId": "55700",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124357/model-series-id-10493/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "1,15",
+      "Content [litre]": "1",
+      "Chemical Properties": "Synthetic",
+      "Packing Type": "Bottle",
+      "Dry Boiling Point [°C]": "245",
+      "DOT specification": "DOT 4",
+      "Article ID:": "3124357",
+      "Article Number:": "402403",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642402403",
+      "OEM Numbers FIAT:": "955597",
+      "OEM Numbers RENAULT:": "CdG4102001C",
+      "OEM Numbers DAIMLER:": "DBL776030",
+      "OEM Numbers MAN:": "FMVSS116",
+      "OEM Numbers HYUNDAI:": "MS51706BF4",
+      "OEM Numbers KIA:": "MS51706BF4",
+      "OEM Numbers CHRYSLER:": "MS9971s",
+      "OEM Numbers NISSAN:": "NESM50554",
+      "OEM Numbers CITROËN:": "NVB712430",
+      "OEM Numbers PEUGEOT:": "NVB712430",
+      "OEM Numbers VW:": "TL766X"
+    }
+  }
+]

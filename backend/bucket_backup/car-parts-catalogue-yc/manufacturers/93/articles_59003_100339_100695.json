@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1042580",
+    "name": "Aerial",
+    "partNo": "113 28 054 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "59003",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1042580/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "1042580",
+      "Article Number:": "113 28 054 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers RENAULT:": "82 01 684 054"
+    }
+  },
+  {
+    "id": "1042583",
+    "name": "Aerial",
+    "partNo": "113 28 057 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "59003",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1042583/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "1042583",
+      "Article Number:": "113 28 057 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers RENAULT:": "28 21 584 77R"
+    }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "4499741",
+    "name": "Wiper Blade",
+    "partNo": "7418-20140",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "129785",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4499741/model-series-id-13251/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4499741",
+      "Article Number:": "7418-20140",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers NISSAN:": "AY00AUK13R",
+      "OEM Numbers SUZUKI:": "38350M60M02",
+      "OEM Numbers PROTON:": "PC542503",
+      "OEM Numbers MARUTI:": "38350M60M02",
+      "OEM Numbers TATA:": "542782400118",
+      "OEM Numbers HONDA:": "76630TM0T01",
+      "OEM Numbers TOYOTA:": "85222-BZ220",
+      "OEM Numbers DAIHATSU:": "85242-BZ030",
+      "OEM Numbers PERODUA:": "85242-BZ030",
+      "OEM Numbers DAEWOO:": "96380628",
+      "OEM Numbers HYUNDAI:": "98820-17000",
+      "OEM Numbers KIA:": "98360-A5000",
+      "OEM Numbers INOKOM:": "98820-17000",
+      "OEM Numbers MITSUBISHI:": "MB885837"
+    }
+  },
+  {
+    "id": "4499748",
+    "name": "Wiper Blade",
+    "partNo": "7418-20210",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "129785",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4499748/model-series-id-13251/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4499748",
+      "Article Number:": "7418-20210",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers SUZUKI:": "38340M76M10",
+      "OEM Numbers PROTON:": "PW893454",
+      "OEM Numbers MARUTI:": "38340M76M10",
+      "OEM Numbers TOYOTA:": "85212--YZZAM",
+      "OEM Numbers PERODUA:": "85212-BZ040",
+      "OEM Numbers LEXUS:": "85212--YZZAM",
+      "OEM Numbers ISUZU:": "8-97349-900-0",
+      "OEM Numbers CHEVROLET:": "8-97349-900-0",
+      "OEM Numbers KIA:": "MDX5067330"
+    }
+  }
+]

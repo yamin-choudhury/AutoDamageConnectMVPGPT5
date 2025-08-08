@@ -1,0 +1,48 @@
+[
+  {
+    "id": "3823495",
+    "name": "Bumper Cover, towing device",
+    "partNo": "5513-00-2539920P",
+    "manufacturer": "BLIC",
+    "supplierId": "4555",
+    "productsId": "943",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "113165",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3823495/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Article ID:": "3823495",
+      "Article Number:": "5513-00-2539920P",
+      "Manufacturer:": "BLIC",
+      "EAN Numbers:": "590165537703",
+      "OEM Numbers FORD:": "1 814 694"
+    }
+  },
+  {
+    "id": "4812337",
+    "name": "Bracket, muffler",
+    "partNo": "83 15 7141",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "113165",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4812337/model-series-id-10257/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4812337",
+      "Article Number:": "83 15 7141",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258822637",
+      "OEM Numbers FORD:": "2.037.993",
+      "OEM Numbers MAZDA:": "Y401-40-061",
+      "OEM Numbers LAND ROVER:": "WCS500010"
+    }
+  }
+]

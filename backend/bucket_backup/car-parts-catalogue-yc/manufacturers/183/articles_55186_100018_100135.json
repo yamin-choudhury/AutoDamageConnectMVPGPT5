@@ -1,0 +1,57 @@
+[
+  {
+    "id": "8695741",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "QWP050",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "55186",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8695741/model-series-id-4903/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "2",
+      "Pump Type": "Mono Pump",
+      "Article ID:": "8695741",
+      "Article Number:": "QWP050",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043843568",
+      "OEM Numbers TOYOTA:": "85330-60140",
+      "OEM Numbers DAEWOO:": "96318238",
+      "OEM Numbers CHEVROLET:": "96397517",
+      "OEM Numbers HYUNDAI:": "98510-3B000",
+      "OEM Numbers KIA:": "98510-3B000"
+    }
+  },
+  {
+    "id": "4770017",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "820 443",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "55186",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4770017/model-series-id-4903/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Number of pins": "2",
+      "Rated Voltage [V]": "12",
+      "Supplementary Article/Info 2": "for windscreen cleaning",
+      "Pump Type": "Mono Pump",
+      "Connector Shape": "rectangular",
+      "Article ID:": "4770017",
+      "Article Number:": "820 443",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers HYUNDAI:": "98510 25000",
+      "OEM Numbers KIA:": "98510 25000"
+    }
+  }
+]

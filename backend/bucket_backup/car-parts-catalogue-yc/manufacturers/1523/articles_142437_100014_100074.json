@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5966963",
+    "name": "Bellow, drive shaft",
+    "partNo": "BCB1002",
+    "manufacturer": "BORG & BECK",
+    "supplierId": "475",
+    "productsId": "193",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "142437",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5966963/model-series-id-12860/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "105",
+      "Diameter to [mm]": "102",
+      "Joint Diameter [mm]": "71",
+      "for shaft diameter [mm]": "21",
+      "to shaft diameter [mm]": "29",
+      "Length to [mm]": "127",
+      "Article ID:": "5966963",
+      "Article Number:": "BCB1002",
+      "Manufacturer:": "BORG & BECK",
+      "OEM Numbers OPEL:": "9201993"
+    }
+  },
+  {
+    "id": "7008068",
+    "name": "Bellow, drive shaft",
+    "partNo": "FCB1002",
+    "manufacturer": "FIRST LINE",
+    "supplierId": "407",
+    "productsId": "193",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "142437",
+    "manufacturerId": "1523",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7008068/model-series-id-12860/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "105",
+      "Diameter to [mm]": "102",
+      "Joint Diameter [mm]": "71",
+      "for shaft diameter [mm]": "21",
+      "to shaft diameter [mm]": "29",
+      "Length to [mm]": "127",
+      "Article ID:": "7008068",
+      "Article Number:": "FCB1002",
+      "Manufacturer:": "FIRST LINE",
+      "OEM Numbers OPEL:": "9201993"
+    }
+  }
+]

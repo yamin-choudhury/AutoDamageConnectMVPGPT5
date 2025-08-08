@@ -1,0 +1,102 @@
+[
+  {
+    "id": "4431362",
+    "name": "EGR Valve",
+    "partNo": "717720399",
+    "manufacturer": "DRI",
+    "supplierId": "460",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "58318",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4431362/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "Continental",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with gaskets/seals",
+      "Net weight [kg]": "0,7",
+      "Article ID:": "4431362",
+      "Article Number:": "717720399",
+      "Manufacturer:": "DRI",
+      "EAN Numbers:": "570811452960",
+      "OEM Numbers HONDA:": "18011-R1A-A00"
+    }
+  },
+  {
+    "id": "4436797",
+    "name": "EGR Valve",
+    "partNo": "72-0399",
+    "manufacturer": "ELSTOCK",
+    "supplierId": "226",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "58318",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4436797/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "Continental",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with gaskets/seals",
+      "Net weight [kg]": "0,7",
+      "Article ID:": "4436797",
+      "Article Number:": "72-0399",
+      "Manufacturer:": "ELSTOCK",
+      "EAN Numbers:": "570465160962",
+      "OEM Numbers HONDA:": "18011-R1A-A00"
+    }
+  },
+  {
+    "id": "7889805",
+    "name": "EGR Valve",
+    "partNo": "LEV3800",
+    "manufacturer": "LUCAS",
+    "supplierId": "4501",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "58318",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7889805/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "Continental",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with gaskets/seals",
+      "Net weight [kg]": "0,7",
+      "Article ID:": "7889805",
+      "Article Number:": "LEV3800",
+      "Manufacturer:": "LUCAS",
+      "EAN Numbers:": "570827951279",
+      "OEM Numbers HONDA:": "18011-R1A-A00"
+    }
+  },
+  {
+    "id": "6761253",
+    "name": "EGR Valve",
+    "partNo": "EG00421",
+    "manufacturer": "TMI",
+    "supplierId": "4830",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "58318",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6761253/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "Continental",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with gaskets/seals",
+      "Net weight [kg]": "0,7",
+      "Article ID:": "6761253",
+      "Article Number:": "EG00421",
+      "Manufacturer:": "TMI",
+      "EAN Numbers:": "571519622792",
+      "OEM Numbers HONDA:": "18011-R1A-A00"
+    }
+  }
+]

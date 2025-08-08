@@ -1,0 +1,80 @@
+[
+  {
+    "id": "374001",
+    "name": "Tie Rod End",
+    "partNo": "0321-GJ4",
+    "manufacturer": "FEBEST",
+    "supplierId": "4674",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "122304",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/374001/model-series-id-37001/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [kg]": "0,351",
+      "Packaging length [cm]": "9,4",
+      "Packaging width [cm]": "6,5",
+      "Packaging height [cm]": "3,8",
+      "Article ID:": "374001",
+      "Article Number:": "0321-GJ4",
+      "Manufacturer:": "FEBEST",
+      "EAN Numbers:": "405611111772",
+      "OEM Numbers HONDA:": "53540-S3A-003"
+    }
+  },
+  {
+    "id": "374001",
+    "name": "Tie Rod End",
+    "partNo": "0321-GJ4",
+    "manufacturer": "FEBEST",
+    "supplierId": "4674",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "122304",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/374001/model-series-id-37001/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [kg]": "0,351",
+      "Packaging length [cm]": "9,4",
+      "Packaging width [cm]": "6,5",
+      "Packaging height [cm]": "3,8",
+      "Article ID:": "374001",
+      "Article Number:": "0321-GJ4",
+      "Manufacturer:": "FEBEST",
+      "EAN Numbers:": "405611111772",
+      "OEM Numbers HONDA:": "53540-S3A-003"
+    }
+  },
+  {
+    "id": "9610723",
+    "name": "Tie Rod End",
+    "partNo": "VKDY 813019",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "122304",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9610723/model-series-id-37001/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "73",
+      "Thread Size": "M12 x 1,25",
+      "Supplementary Article/Supplementary Info": "with synthetic grease",
+      "Thread Size 1": "M10 x 1,25",
+      "paired article number": "VKDY 813019",
+      "Article ID:": "9610723",
+      "Article Number:": "VKDY 813019",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657951513",
+      "OEM Numbers HONDA:": "53540-SB2-003"
+    }
+  }
+]

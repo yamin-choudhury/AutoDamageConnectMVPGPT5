@@ -1,0 +1,45 @@
+[
+  {
+    "id": "7906696",
+    "name": "Master Cylinder, clutch",
+    "partNo": "LM80355",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "9357",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7906696/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "16",
+      "Article ID:": "7906696",
+      "Article Number:": "LM80355",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275953726",
+      "OEM Numbers HONDA:": "46925TA0A03"
+    }
+  },
+  {
+    "id": "4151741",
+    "name": "Master Cylinder, clutch",
+    "partNo": "6284 600 589",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "9357",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4151741/model-series-id-7803/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4151741",
+      "Article Number:": "6284 600 589",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387271613\n 405320340167",
+      "OEM Numbers HONDA:": "46925-TA0-A02"
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "117942",
+    "type": "0.7",
+    "modelId": "14948",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117943",
+    "type": "0.7 Turbo RS",
+    "modelId": "14948",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A-T",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117944",
+    "type": "0.7 4WD",
+    "modelId": "14948",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117945",
+    "type": "0.7 Turbo RS 4WD",
+    "modelId": "14948",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A-T",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123635",
+    "type": "0.7 (HA36S, HA36V)",
+    "modelId": "14948",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123636",
+    "type": "0.7 4WD (HA36V, HA36S)",
+    "modelId": "14948",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  }
+]

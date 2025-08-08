@@ -1,0 +1,76 @@
+[
+  {
+    "id": "6807892",
+    "name": "Lambda Sensor",
+    "partNo": "ES20135-12B1",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "33633",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6807892/model-series-id-6429/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "400",
+      "Lambda Sensor": "Planar probe",
+      "Article ID:": "6807892",
+      "Article Number:": "ES20135-12B1",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275938779",
+      "OEM Numbers VAUXHALL:": "97224011",
+      "OEM Numbers CHEVROLET:": "96394004",
+      "OEM Numbers GENERAL MOTORS:": "97224011",
+      "OEM Numbers OPEL:": "97224011",
+      "OEM Numbers ISUZU:": "8-97224-011-0",
+      "OEM Numbers DAEWOO:": "96394004"
+    }
+  },
+  {
+    "id": "462177",
+    "name": "Lambda Sensor",
+    "partNo": "04821",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "33633",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/462177/model-series-id-6429/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Lambda Sensor": "Lambda Sensor",
+      "Article ID:": "462177",
+      "Article Number:": "04821",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357304821",
+      "OEM Numbers CHEVROLET:": "25312200",
+      "OEM Numbers ISUZU:": "8-25312-184-0",
+      "OEM Numbers DAEWOO:": "96335927"
+    }
+  },
+  {
+    "id": "3229157",
+    "name": "Lambda Sensor",
+    "partNo": "41476",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "33633",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3229157/model-series-id-6429/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Lambda Sensor": "Lambda Sensor",
+      "Article ID:": "3229157",
+      "Article Number:": "41476",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509341476",
+      "OEM Numbers CHEVROLET:": "25327985"
+    }
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "181575",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "00973700",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "25590",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/181575/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "14,5",
+      "Length [mm]": "77",
+      "Width [mm]": "60",
+      "Article ID:": "181575",
+      "Article Number:": "00973700",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776969333",
+      "OEM Numbers CITROËN:": "1712.C6",
+      "OEM Numbers TOYOTA:": "17451-0R010",
+      "OEM Numbers SCION:": "17451-74040",
+      "OEM Numbers SUBARU:": "44022AA123"
+    }
+  },
+  {
+    "id": "1714703",
+    "name": "Seal Ring, exhaust pipe",
+    "partNo": "19005000",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "204",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "25590",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1714703/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "5",
+      "Inner diameter [mm]": "55,5",
+      "Article ID:": "1714703",
+      "Article Number:": "19005000",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776978899",
+      "OEM Numbers LEXUS:": "90917-06057"
+    }
+  },
+  {
+    "id": "8178641",
+    "name": "Seal Ring, exhaust pipe",
+    "partNo": "MOS-124",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "204",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "25590",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8178641/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8178641",
+      "Article Number:": "MOS-124",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011671024",
+      "OEM Numbers SUZUKI:": "14184-67D00",
+      "OEM Numbers TOYOTA:": "90917-T6002",
+      "OEM Numbers MAZDA:": "AJ17-40-305"
+    }
+  },
+  {
+    "id": "8178743",
+    "name": "Seal Ring, exhaust pipe",
+    "partNo": "MOS-203",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "204",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "25590",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8178743/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8178743",
+      "Article Number:": "MOS-203",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011671039",
+      "OEM Numbers MITSUBISHI:": "MR450710",
+      "OEM Numbers TOYOTA:": "17451-74051",
+      "OEM Numbers SUBARU:": "44022AA123"
+    }
+  },
+  {
+    "id": "8178745",
+    "name": "Seal Ring, exhaust pipe",
+    "partNo": "MOS-204",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "204",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "25590",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8178745/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8178745",
+      "Article Number:": "MOS-204",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011671035",
+      "OEM Numbers TOYOTA:": "17451-64010",
+      "OEM Numbers MITSUBISHI:": "MR450701"
+    }
+  }
+]

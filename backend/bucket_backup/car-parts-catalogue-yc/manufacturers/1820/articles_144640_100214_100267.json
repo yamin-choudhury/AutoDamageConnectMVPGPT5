@@ -1,0 +1,26 @@
+[
+  {
+    "id": "10154367",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG2008460",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10154367/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Pressure [bar]": "8",
+      "Fuel Type": "Diesel",
+      "Temperature range from [°C]": "-40",
+      "Temperature range to [°C]": "80",
+      "Article ID:": "10154367",
+      "Article Number:": "WG2008460",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers LAND ROVER:": "LR030039"
+    }
+  }
+]

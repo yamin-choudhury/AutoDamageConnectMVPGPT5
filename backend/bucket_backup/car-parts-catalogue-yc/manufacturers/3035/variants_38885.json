@@ -1,0 +1,34 @@
+[
+  {
+    "id": "132474",
+    "type": "1.2 200TSI",
+    "modelId": "38885",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DJNB",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132475",
+    "type": "1.4 280TSI",
+    "modelId": "38885",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

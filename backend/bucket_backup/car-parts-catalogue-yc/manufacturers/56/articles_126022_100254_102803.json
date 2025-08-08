@@ -1,0 +1,79 @@
+[
+  {
+    "id": "4395840",
+    "name": "Plunger, high pressure pump",
+    "partNo": "711 0308 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "4662",
+    "productGroupId": "102803",
+    "categoryId": "100254",
+    "variantId": "126022",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4395840/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "26,00",
+      "Height [mm]": "19,00",
+      "Article ID:": "4395840",
+      "Article Number:": "711 0308 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510895353",
+      "OEM Numbers JAGUAR:": "2JDE28731",
+      "OEM Numbers VOLVO:": "31316629",
+      "OEM Numbers FORD:": "AG9E6C287AA",
+      "OEM Numbers LAND ROVER:": "LR038311"
+    }
+  },
+  {
+    "id": "3372640",
+    "name": "Plunger, high pressure pump",
+    "partNo": "45-4332",
+    "manufacturer": "IPD",
+    "supplierId": "262",
+    "productsId": "4662",
+    "productGroupId": "102803",
+    "categoryId": "100254",
+    "variantId": "126022",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3372640/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "26",
+      "Height [mm]": "19",
+      "Article ID:": "3372640",
+      "Article Number:": "45-4332",
+      "Manufacturer:": "IPD",
+      "EAN Numbers:": "404775330345",
+      "OEM Numbers JAGUAR:": "2JDE28731",
+      "OEM Numbers VOLVO:": "31316629",
+      "OEM Numbers FORD:": "AG9E-6C287-AA",
+      "OEM Numbers LAND ROVER:": "LR0 38311"
+    }
+  },
+  {
+    "id": "8644266",
+    "name": "High Pressure Pump",
+    "partNo": "PTA441-0048",
+    "manufacturer": "PartsTec",
+    "supplierId": "6457",
+    "productsId": "3918",
+    "productGroupId": "102803",
+    "categoryId": "100254",
+    "variantId": "126022",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8644266/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Article ID:": "8644266",
+      "Article Number:": "PTA441-0048",
+      "Manufacturer:": "PartsTec",
+      "EAN Numbers:": "425104554653",
+      "OEM Numbers FORD USA:": "BR2E-9D376-AA",
+      "OEM Numbers JAGUAR:": "C2Z 21985",
+      "OEM Numbers LAND ROVER:": "LR057504"
+    }
+  }
+]

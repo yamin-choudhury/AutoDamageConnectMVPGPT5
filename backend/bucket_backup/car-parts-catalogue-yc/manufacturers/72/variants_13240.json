@@ -1,0 +1,242 @@
+[
+  {
+    "id": "108278",
+    "type": "1.3 (DJ3FS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P3-VPS",
+      "cylinder": "4",
+      "capacity": "1,298 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108279",
+    "type": "1.3 4WD (DJ3AS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P3-VPS",
+      "cylinder": "4",
+      "capacity": "1,298 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108280",
+    "type": "1.5 D (DJ5FS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "S5Y5,S5Y2,S5Y7,S5Y6,S5Y8",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2014-08-01\n                            \n                            2018-02-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108281",
+    "type": "1.5 D 4WD (DJ5AS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "S5Y5,S5Y2,S5Y7,S5Y6,S5Y8",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2014-08-01\n                            \n                            2017-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108282",
+    "type": "1.5 SKYACTIV-G (DJLFS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5Y5,P5X0,P5X2,P5Z7,P5Z8,P5Z9,P5Z3",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2014-08-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109546",
+    "type": "1.5",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5Y5,P5Y8,P5X0,P5X2,P5Z7,P5Z8,P5Z9",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2014-08-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109547",
+    "type": "1.5 SKYACTIV-G",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5Y5,P5Y8,P5Y6,P5X0,P5X2,P5Z7,P5Z8,P5Z9,P5Z2,P5Z3",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2014-08-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111650",
+    "type": "1.5",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5Y6,P5Y4",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01",
+      "power": "79 KW / 107 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111652",
+    "type": "1.5 (DJLFS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5Y6,P5Y4,P5-VPS",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135030",
+    "type": "1.5 AWD (DJLAS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5-VPS",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137956",
+    "type": "1.5 (DJLFS)",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5Z7,P5Z8",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-09-01",
+      "power": "82 KW / 111 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138223",
+    "type": "1.5 SKYACTIV-G M Hybrid",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5XB,P5XC",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2019-08-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138224",
+    "type": "1.5 SKYACTIV-G M Hybrid",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5XB,P5XC",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2019-08-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "146106",
+    "type": "1.5 E-SKYACTIV G",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "P5Z7,P5X9,P5ZE",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2021-10-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "149612",
+    "type": "1.5 MEHV",
+    "modelId": "13240",
+    "manufacturerId": "72",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2022-09-01",
+      "power": "82 KW / 111 PS"
+    },
+    "categories": []
+  }
+]

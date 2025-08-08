@@ -1,0 +1,63 @@
+[
+  {
+    "id": "3022594",
+    "name": "Inner Tie Rod",
+    "partNo": "38423 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "133734",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3022594/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Overall Length [mm]": "335",
+      "Left-/right-hand drive vehicles": "for left-hand/right-hand drive vehicles",
+      "Thread Size 1": "M16x1,5",
+      "Thread Size 2": "M14x1,5",
+      "Axle Joint Length [mm]": "314",
+      "Article ID:": "3022594",
+      "Article Number:": "38423 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743746516",
+      "OEM Numbers VW:": "6RU 423 810",
+      "OEM Numbers VW (SVW):": "6RD 423 810",
+      "OEM Numbers AUDI:": "6RU 423 810",
+      "OEM Numbers SEAT:": "6RU 423 810",
+      "OEM Numbers SKODA:": "6RU 423 810"
+    }
+  },
+  {
+    "id": "7654342",
+    "name": "Inner Tie Rod",
+    "partNo": "JAR1228",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "133734",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7654342/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Overall Length [mm]": "335",
+      "Thread Size 1": "M16x1,5",
+      "Thread Size 2": "M14x1,5",
+      "Axle Joint Length [mm]": "314",
+      "Article ID:": "7654342",
+      "Article Number:": "JAR1228",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293814901",
+      "OEM Numbers VW:": "6RU 423 810",
+      "OEM Numbers VW (SVW):": "6RD 423 810",
+      "OEM Numbers AUDI:": "6RU 423 810",
+      "OEM Numbers SEAT:": "6RU 423 810",
+      "OEM Numbers SKODA:": "6RU 423 810"
+    }
+  }
+]

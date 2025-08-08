@@ -1,0 +1,66 @@
+[
+  {
+    "id": "25784",
+    "type": "2.5 Hybrid (CL32HV)",
+    "modelId": "7039",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QR25DE",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2007-04-01\n                            \n                            2013-06-01",
+      "power": "148 KW / 201 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54701",
+    "type": "2.5",
+    "modelId": "7039",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QR25DE",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2013-06-01",
+      "power": "131 KW / 178 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57707",
+    "type": "3.5",
+    "modelId": "7039",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2007-04-01\n                            \n                            2013-06-01",
+      "power": "201 KW / 273 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133839",
+    "type": "3.5 CVTC",
+    "modelId": "7039",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2013-12-01",
+      "power": "210 KW / 286 PS"
+    },
+    "categories": []
+  }
+]

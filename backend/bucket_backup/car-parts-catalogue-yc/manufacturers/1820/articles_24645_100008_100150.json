@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1892953",
+    "name": "Ignition Coil",
+    "partNo": "20638",
+    "manufacturer": "BREMI",
+    "supplierId": "47",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1892953/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Ignition Coil": "Distributer Coil",
+      "Article ID:": "1892953",
+      "Article Number:": "20638",
+      "Manufacturer:": "BREMI",
+      "EAN Numbers:": "401753419874",
+      "OEM Numbers LAND ROVER:": "LR002427"
+    }
+  },
+  {
+    "id": "2230468",
+    "name": "Ignition Coil",
+    "partNo": "245348",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2230468/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,342",
+      "Number of pins": "4",
+      "Coil Ignition System": "Full Electronic Ignition (FI)",
+      "Number of pins (output) [-pin connector]": "1",
+      "Article ID:": "2230468",
+      "Article Number:": "245348",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642245348",
+      "OEM Numbers LAND ROVER:": "LR002427"
+    }
+  },
+  {
+    "id": "2230468",
+    "name": "Ignition Coil",
+    "partNo": "245348",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2230468/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,342",
+      "Number of pins": "4",
+      "Coil Ignition System": "Full Electronic Ignition (FI)",
+      "Number of pins (output) [-pin connector]": "1",
+      "Article ID:": "2230468",
+      "Article Number:": "245348",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642245348",
+      "OEM Numbers LAND ROVER:": "LR002427"
+    }
+  }
+]

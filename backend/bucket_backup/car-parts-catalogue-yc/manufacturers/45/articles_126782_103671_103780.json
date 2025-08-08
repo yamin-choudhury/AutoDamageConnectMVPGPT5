@@ -1,0 +1,52 @@
+[
+  {
+    "id": "5523239",
+    "name": "Air Filter",
+    "partNo": "A63760",
+    "manufacturer": "1A FIRST AUTOMOTIVE",
+    "supplierId": "4814",
+    "productsId": "8",
+    "productGroupId": "103780",
+    "categoryId": "103671",
+    "variantId": "126782",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5523239/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "308",
+      "Width [mm]": "188",
+      "Height [mm]": "52",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5523239",
+      "Article Number:": "A63760",
+      "Manufacturer:": "1A FIRST AUTOMOTIVE",
+      "EAN Numbers:": "803397702113",
+      "OEM Numbers HONDA:": "17220-5G0-A00"
+    }
+  },
+  {
+    "id": "8455821",
+    "name": "Air Filter",
+    "partNo": "PA3760",
+    "manufacturer": "MULLER FILTER",
+    "supplierId": "490",
+    "productsId": "8",
+    "productGroupId": "103780",
+    "categoryId": "103671",
+    "variantId": "126782",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8455821/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "308",
+      "Width [mm]": "188",
+      "Height [mm]": "52",
+      "Filter type": "Filter Insert",
+      "Article ID:": "8455821",
+      "Article Number:": "PA3760",
+      "Manufacturer:": "MULLER FILTER",
+      "EAN Numbers:": "803397783760",
+      "OEM Numbers HONDA:": "17220-5G0-A00"
+    }
+  }
+]

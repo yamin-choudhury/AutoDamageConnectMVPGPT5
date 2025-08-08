@@ -1,0 +1,61 @@
+[
+  {
+    "id": "8203894",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "MSA015440",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "127490",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8203894/model-series-id-11511/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Article ID:": "8203894",
+      "Article Number:": "MSA015440",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880975241010",
+      "OEM Numbers VW (SVW):": "4D0 407 151 P",
+      "OEM Numbers AUDI:": "8D0 498 998 B",
+      "OEM Numbers VW:": "8D0 498 998 B",
+      "OEM Numbers AUDI (FAW):": "4D0 407 151 P",
+      "OEM Numbers SKODA:": "8D0 498 998 B",
+      "OEM Numbers SEAT:": "8D0 498 998 B"
+    }
+  },
+  {
+    "id": "7699760",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "JTC343",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "127490",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7699760/model-series-id-11511/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cone Size [mm]": "24,5",
+      "Material": "Aluminium",
+      "Control/Trailing Arm Type": "Control Arm",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Supplementary Article/Supplementary Info": "with accessories",
+      "Article ID:": "7699760",
+      "Article Number:": "JTC343",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293790442",
+      "OEM Numbers AUDI:": "8D0 498 998 B",
+      "OEM Numbers VW:": "8D0 498 998 B",
+      "OEM Numbers AUDI (FAW):": "4D0 407 151 P",
+      "OEM Numbers SKODA:": "8D0 498 998 B",
+      "OEM Numbers VW (SVW):": "4D0 407 151 P",
+      "OEM Numbers SEAT:": "8D0 498 998 B"
+    }
+  }
+]

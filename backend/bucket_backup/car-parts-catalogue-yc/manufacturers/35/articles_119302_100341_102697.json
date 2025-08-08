@@ -1,0 +1,46 @@
+[
+  {
+    "id": "802569",
+    "name": "Boot-/Cargo Area Tub",
+    "partNo": "100 08 052 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "2444",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "119302",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/802569/model-series-id-36387/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Quantity Unit": "Piece",
+      "Article ID:": "802569",
+      "Article Number:": "100 08 052 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers FIAT:": "71804387"
+    }
+  },
+  {
+    "id": "802571",
+    "name": "Boot-/Cargo Area Tub",
+    "partNo": "100 08 054 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "2444",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "119302",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/802571/model-series-id-36387/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Red",
+      "Quantity Unit": "Piece",
+      "Article ID:": "802571",
+      "Article Number:": "100 08 054 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers FIAT:": "71804386"
+    }
+  }
+]

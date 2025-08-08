@@ -1,0 +1,51 @@
+[
+  {
+    "id": "632629",
+    "name": "EGR Valve",
+    "partNo": "08427",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "34824",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/632629/model-series-id-8945/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "632629",
+      "Article Number:": "08427",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357308427",
+      "OEM Numbers VW:": "06A 131 501 G"
+    }
+  },
+  {
+    "id": "4327354",
+    "name": "EGR Valve",
+    "partNo": "7.22785.18.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "34824",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4327354/model-series-id-8945/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Valve type": "Solenoid Valve",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Technical Information Number": "SI 1830",
+      "Article ID:": "4327354",
+      "Article Number:": "7.22785.18.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897756595",
+      "OEM Numbers AUDI:": "06A 131 501 G",
+      "OEM Numbers SEAT:": "06A 131 501 G",
+      "OEM Numbers VW:": "06A 131 501 G"
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "3744966",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0012 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "24165",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3744966/model-series-id-8589/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Number of grooves": "6",
+      "for manufacturer number": "F-553470.XX",
+      "Distance to first groove [mm]": "14,55",
+      "Article ID:": "3744966",
+      "Article Number:": "535 0012 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510819306",
+      "OEM Numbers MERCEDES-BENZ:": "A0001540202",
+      "OEM Numbers AUDI:": "L038903119S",
+      "OEM Numbers SEAT:": "L038903119S",
+      "OEM Numbers SKODA:": "L038903119S",
+      "OEM Numbers VW:": "L038903119S",
+      "OEM Numbers VW (FAW):": "038903024G",
+      "OEM Numbers VW (SVW):": "038903119T",
+      "OEM Numbers DODGE:": "05033757AB",
+      "OEM Numbers JEEP:": "05033757AB",
+      "OEM Numbers CHRYSLER:": "05033757AB",
+      "OEM Numbers FORD:": "YM2110300CA",
+      "OEM Numbers MITSUBISHI:": "1800A066",
+      "OEM Numbers CHEVROLET:": "J23865781",
+      "OEM Numbers VM:": "38522321F",
+      "OEM Numbers HITACHI:": "LR1120701"
+    }
+  },
+  {
+    "id": "331217",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "02766",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "24165",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/331217/model-series-id-8589/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "331217",
+      "Article Number:": "02766",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357302766",
+      "OEM Numbers VW:": "038 903 119 T"
+    }
+  }
+]

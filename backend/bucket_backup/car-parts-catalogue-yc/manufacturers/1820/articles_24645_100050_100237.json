@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1245363",
+    "name": "Central Slave Cylinder, clutch",
+    "partNo": "1301127",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "47",
+    "productGroupId": "100237",
+    "categoryId": "100050",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1245363/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "FTE",
+      "Diameter [mm]": "36",
+      "Article ID:": "1245363",
+      "Article Number:": "1301127",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293793974",
+      "OEM Numbers FORD:": "4R83-7A564-AA",
+      "OEM Numbers JAGUAR:": "XR832967",
+      "OEM Numbers LAND ROVER:": "UUB000160",
+      "OEM Numbers MG:": "UUB 000160",
+      "OEM Numbers ROVER:": "UUB000160"
+    }
+  },
+  {
+    "id": "8560289",
+    "name": "Central Slave Cylinder, clutch",
+    "partNo": "PJQ127",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "47",
+    "productGroupId": "100237",
+    "categoryId": "100050",
+    "variantId": "24645",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8560289/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "FTE",
+      "Diameter [mm]": "36",
+      "Article ID:": "8560289",
+      "Article Number:": "PJQ127",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293793809",
+      "OEM Numbers FORD:": "4R83-7A564-AA",
+      "OEM Numbers JAGUAR:": "XR832967",
+      "OEM Numbers LAND ROVER:": "UUB000160",
+      "OEM Numbers MG:": "UUB 000160",
+      "OEM Numbers ROVER:": "UUB000160"
+    }
+  }
+]

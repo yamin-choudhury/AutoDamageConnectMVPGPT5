@@ -1,0 +1,99 @@
+[
+  {
+    "id": "5596280",
+    "name": "Wiper Blade",
+    "partNo": "AD14HY350",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "130973",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596280/model-series-id-38646/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "350",
+      "Length [in]": "14",
+      "Weight [kg]": "0,067",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Hybrid Wiper Blade",
+      "Article ID:": "5596280",
+      "Article Number:": "AD14HY350",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327928",
+      "OEM Numbers HONDA:": "76630-TF0-G01",
+      "OEM Numbers TOYOTA:": "85222-25160"
+    }
+  },
+  {
+    "id": "5596879",
+    "name": "Wiper Blade",
+    "partNo": "AD21CH530",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "130973",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596879/model-series-id-38646/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "530",
+      "Length [in]": "21",
+      "Weight [kg]": "0,128",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "5596879",
+      "Article Number:": "AD21CH530",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327923",
+      "OEM Numbers FENDT:": "H816810170020"
+    }
+  },
+  {
+    "id": "2513517",
+    "name": "Wiper Blade",
+    "partNo": "3 397 011 429",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "130973",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2513517/model-series-id-38646/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length 1 [mm]": "300",
+      "Article ID:": "2513517",
+      "Article Number:": "3 397 011 429",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702508314",
+      "OEM Numbers SUZUKI:": "38340-58J00"
+    }
+  },
+  {
+    "id": "2513517",
+    "name": "Wiper Blade",
+    "partNo": "3 397 011 429",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "130973",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2513517/model-series-id-38646/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length 1 [mm]": "300",
+      "Article ID:": "2513517",
+      "Article Number:": "3 397 011 429",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702508314",
+      "OEM Numbers SUZUKI:": "38340-58J00"
+    }
+  }
+]

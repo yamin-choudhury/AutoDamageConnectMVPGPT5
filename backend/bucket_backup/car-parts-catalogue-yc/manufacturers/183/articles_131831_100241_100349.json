@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5006375",
+    "name": "Interior Blower",
+    "partNo": "87569",
+    "manufacturer": "NISSENS",
+    "supplierId": "123",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "131831",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5006375/model-series-id-38807/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Diameter [mm]": "151",
+      "Supplementary Article/Supplementary Info": "without integrated regulator",
+      "Number of pins": "2",
+      "Power [W]": "180",
+      "Article ID:": "5006375",
+      "Article Number:": "87569",
+      "Manufacturer:": "NISSENS",
+      "EAN Numbers:": "570728643368",
+      "OEM Numbers HYUNDAI:": "97113M0000",
+      "OEM Numbers KIA:": "97113M0000"
+    }
+  },
+  {
+    "id": "10445012",
+    "name": "Interior Blower",
+    "partNo": "ZD172490",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "131831",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10445012/model-series-id-38807/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "13,5",
+      "Rated Power [W]": "250",
+      "Diameter [mm]": "153",
+      "Number of pins": "2",
+      "Article ID:": "10445012",
+      "Article Number:": "ZD172490",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers HYUNDAI:": "97113M0000",
+      "OEM Numbers KIA:": "97113M0000"
+    }
+  }
+]

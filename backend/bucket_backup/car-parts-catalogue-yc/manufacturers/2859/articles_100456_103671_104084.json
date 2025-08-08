@@ -1,0 +1,62 @@
+[
+  {
+    "id": "6012259",
+    "name": "Brake Caliper",
+    "partNo": "BHX583E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "100456",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6012259/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Brake Caliper Type": "Fist-type Caliper",
+      "Material": "Cast Iron",
+      "paired article number": "BHX584E",
+      "Piston Diameter [mm]": "57",
+      "Article ID:": "6012259",
+      "Article Number:": "BHX583E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293813202",
+      "OEM Numbers AUDI:": "8V0 615 123",
+      "OEM Numbers SEAT:": "8V0 615 123",
+      "OEM Numbers SKODA:": "8V0 615 123",
+      "OEM Numbers VW:": "8V0 615 123",
+      "OEM Numbers AUDI (FAW):": "8V0 615 123",
+      "OEM Numbers VW (FAW):": "8V0 615 123"
+    }
+  },
+  {
+    "id": "6012260",
+    "name": "Brake Caliper",
+    "partNo": "BHX584E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "100456",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6012260/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Brake Caliper Type": "Fist-type Caliper",
+      "Material": "Cast Iron",
+      "paired article number": "BHX583E",
+      "Piston Diameter [mm]": "57",
+      "Article ID:": "6012260",
+      "Article Number:": "BHX584E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293813203",
+      "OEM Numbers AUDI:": "8V0 615 124",
+      "OEM Numbers SEAT:": "8V0 615 124",
+      "OEM Numbers SKODA:": "8V0 615 124",
+      "OEM Numbers VW:": "8V0 615 124"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "17263",
+    "type": "2.0 (CM1)",
+    "modelId": "4985",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K20A6,K20Z2",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2003-04-01\n                            \n                            2008-05-01",
+      "power": "114 KW / 155 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17264",
+    "type": "2.4 (CM2)",
+    "modelId": "4985",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24A3",
+      "cylinder": "4",
+      "capacity": "2,354 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2003-04-01\n                            \n                            2008-05-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17486",
+    "type": "2.2 i-CTDi (CN2)",
+    "modelId": "4985",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "N22A1",
+      "cylinder": "4",
+      "capacity": "2,204 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2004-01-01\n                            \n                            2008-05-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "20871",
+    "type": "2.4 Vtec T (CM2)",
+    "modelId": "4985",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24A1",
+      "cylinder": "4",
+      "capacity": "2,354 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2003-09-01\n                            \n                            2008-05-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  }
+]

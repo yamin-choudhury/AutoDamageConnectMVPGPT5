@@ -1,0 +1,66 @@
+[
+  {
+    "id": "33236",
+    "type": "1.8 T",
+    "modelId": "8598",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BGC",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2005-11-01\n                            \n                            2012-10-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33237",
+    "type": "2.0",
+    "modelId": "8598",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BNL",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-04-01\n                            \n                            2012-10-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33238",
+    "type": "2.8",
+    "modelId": "8598",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BBG",
+      "cylinder": "6",
+      "capacity": "2,771 CCM / 2.8 L",
+      "fuelType": "Petrol",
+      "year": "2005-11-01\n                            \n                            2012-10-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34825",
+    "type": "1.8",
+    "modelId": "8598",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CEDA",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2007-08-01\n                            \n                            2012-10-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  }
+]

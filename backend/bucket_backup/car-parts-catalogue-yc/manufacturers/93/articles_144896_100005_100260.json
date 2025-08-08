@@ -1,0 +1,79 @@
+[
+  {
+    "id": "5606764",
+    "name": "Air Filter",
+    "partNo": "ADBP220096",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "144896",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5606764/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "226",
+      "Width [mm]": "100",
+      "Height [mm]": "38",
+      "Weight [kg]": "0,08",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5606764",
+      "Article Number:": "ADBP220096",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774633649",
+      "OEM Numbers RENAULT:": "16 54 689 57R"
+    }
+  },
+  {
+    "id": "1619402",
+    "name": "Air Filter",
+    "partNo": "179740",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "144896",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1619402/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "226",
+      "Width [mm]": "100",
+      "Height [mm]": "38",
+      "Weight [kg]": "0,08",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1619402",
+      "Article Number:": "179740",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422479740",
+      "OEM Numbers RENAULT:": "16 54 689 57R"
+    }
+  },
+  {
+    "id": "8439406",
+    "name": "Air Filter",
+    "partNo": "P810",
+    "manufacturer": "MISFAT",
+    "supplierId": "4470",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "144896",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8439406/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "226",
+      "Width [mm]": "100",
+      "Height [mm]": "37",
+      "Filter type": "Filter Insert",
+      "Article ID:": "8439406",
+      "Article Number:": "P810",
+      "Manufacturer:": "MISFAT",
+      "EAN Numbers:": "619300253366",
+      "OEM Numbers RENAULT:": "165468957R"
+    }
+  }
+]

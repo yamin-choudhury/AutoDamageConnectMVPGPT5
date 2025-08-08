@@ -1,0 +1,18 @@
+[
+  {
+    "id": "15967",
+    "type": "1.5 Hybrid (NHP10)",
+    "modelId": "10111",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1NZ-FXE",
+      "cylinder": "4",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2011-12-01",
+      "power": "54 KW / 73 PS"
+    },
+    "categories": []
+  }
+]

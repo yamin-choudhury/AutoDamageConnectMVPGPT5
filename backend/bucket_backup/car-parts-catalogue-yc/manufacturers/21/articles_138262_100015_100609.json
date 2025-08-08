@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1592591",
+    "name": "Bracket, muffler",
+    "partNo": "173633",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "138262",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1592591/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "1755.Q3",
+      "Fitting Position": "Centre",
+      "Weight [kg]": "0,278",
+      "Material": "Steel Elastomer",
+      "Article ID:": "1592591",
+      "Article Number:": "173633",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422473633",
+      "OEM Numbers CITROËN:": "1755.Q3",
+      "OEM Numbers PEUGEOT:": "1755.Q3",
+      "OEM Numbers DS:": "1755.Q3"
+    }
+  },
+  {
+    "id": "2763287",
+    "name": "Bracket, muffler",
+    "partNo": "33 10 1887",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "138262",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2763287/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Centre",
+      "Weight [kg]": "0,278",
+      "Material": "Steel Elastomer",
+      "Article ID:": "2763287",
+      "Article Number:": "33 10 1887",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422873633",
+      "OEM Numbers CITROËN:": "1755.Q3",
+      "OEM Numbers PEUGEOT:": "1755.Q3",
+      "OEM Numbers DS:": "1755.Q3"
+    }
+  }
+]

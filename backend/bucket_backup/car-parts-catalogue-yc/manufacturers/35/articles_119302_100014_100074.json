@@ -1,0 +1,75 @@
+[
+  {
+    "id": "4192933",
+    "name": "Bellow, drive shaft",
+    "partNo": "6484",
+    "manufacturer": "AKRON-MALÒ",
+    "supplierId": "317",
+    "productsId": "193",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "119302",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4192933/model-series-id-36387/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Wheel Side",
+      "Diameter 1/ Diameter 2 [mm]": "26/77",
+      "Height [mm]": "86",
+      "Article ID:": "4192933",
+      "Article Number:": "6484",
+      "Manufacturer:": "AKRON-MALÒ",
+      "OEM Numbers FIAT:": "6000612237"
+    }
+  },
+  {
+    "id": "6532363",
+    "name": "Bellow, drive shaft",
+    "partNo": "DB-0831",
+    "manufacturer": "GOOM",
+    "supplierId": "6443",
+    "productsId": "193",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "119302",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6532363/model-series-id-36387/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Wheel Side",
+      "Diameter 1/ Diameter 2 [mm]": "26/77",
+      "Height [mm]": "86",
+      "Article ID:": "6532363",
+      "Article Number:": "DB-0831",
+      "Manufacturer:": "GOOM",
+      "EAN Numbers:": "805413207713",
+      "OEM Numbers FIAT:": "6000612237"
+    }
+  },
+  {
+    "id": "1721900",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "1904037",
+    "manufacturer": "SASIC",
+    "supplierId": "260",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "119302",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1721900/model-series-id-36387/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "7701209472",
+      "Fitting Position": "Front Axle",
+      "Article ID:": "1721900",
+      "Article Number:": "1904037",
+      "Manufacturer:": "SASIC",
+      "EAN Numbers:": "366087240765",
+      "OEM Numbers TOYOTA:": "044370D050",
+      "OEM Numbers ALFA ROMEO:": "71750887",
+      "OEM Numbers FIAT:": "71750887",
+      "OEM Numbers RENAULT:": "7701209472"
+    }
+  }
+]

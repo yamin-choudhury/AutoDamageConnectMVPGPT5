@@ -1,0 +1,61 @@
+[
+  {
+    "id": "2877714",
+    "name": "Bellow, steering",
+    "partNo": "34921 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "33236",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2877714/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "205",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "20",
+      "Inner diameter 2 [mm]": "54",
+      "Article ID:": "2877714",
+      "Article Number:": "34921 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743736243",
+      "OEM Numbers AUDI:": "4D0 419 831 E",
+      "OEM Numbers SKODA:": "4D0 419 831 E",
+      "OEM Numbers VW:": "4D0 419 831 E",
+      "OEM Numbers VW (SVW):": "4D0 419 831 E"
+    }
+  },
+  {
+    "id": "2877783",
+    "name": "Bellow, steering",
+    "partNo": "34923 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "33236",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2877783/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "255",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "20",
+      "Inner diameter 2 [mm]": "63",
+      "Article ID:": "2877783",
+      "Article Number:": "34923 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743736245",
+      "OEM Numbers AUDI:": "8D0 419 831 K",
+      "OEM Numbers SEAT:": "8D0 419 831 K",
+      "OEM Numbers SKODA:": "8D0 419 831 K",
+      "OEM Numbers VW:": "8D0 419 831 K",
+      "OEM Numbers VW (SVW):": "8D0 419 831 K"
+    }
+  }
+]

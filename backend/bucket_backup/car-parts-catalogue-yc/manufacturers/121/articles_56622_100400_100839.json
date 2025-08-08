@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1603040",
+    "name": "Mounting, propshaft",
+    "partNo": "175755",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1420",
+    "productGroupId": "100839",
+    "categoryId": "100400",
+    "variantId": "56622",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1603040/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "193",
+      "Weight [kg]": "0,817",
+      "Inner diameter [mm]": "30",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Bearing Type": "Ball Bearing",
+      "Supplementary Article/Info 2": "with rolling bearing",
+      "Article ID:": "1603040",
+      "Article Number:": "175755",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422475755",
+      "OEM Numbers VW:": "2H0 598 351 C"
+    }
+  },
+  {
+    "id": "2764319",
+    "name": "Mounting, propshaft",
+    "partNo": "33 10 3070",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1420",
+    "productGroupId": "100839",
+    "categoryId": "100400",
+    "variantId": "56622",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2764319/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "193",
+      "Weight [kg]": "0,817",
+      "Inner diameter [mm]": "30",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Bearing Type": "Ball Bearing",
+      "Supplementary Article/Info 2": "with rolling bearing",
+      "Article ID:": "2764319",
+      "Article Number:": "33 10 3070",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422875755",
+      "OEM Numbers VW:": "2H0 598 351 C"
+    }
+  }
+]

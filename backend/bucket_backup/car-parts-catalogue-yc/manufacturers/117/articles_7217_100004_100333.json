@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1127368",
+    "name": "Bolt, exhaust manifold",
+    "partNo": "120 084",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "3981",
+    "productGroupId": "100333",
+    "categoryId": "100004",
+    "variantId": "7217",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1127368/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M 8",
+      "DIN / ISO": "DIN 835",
+      "Thread Pitch [mm]": "1,25",
+      "Thread Length 1 [mm]": "16",
+      "Thread Length 2 [mm]": "28",
+      "Strength class": "10.9",
+      "Article ID:": "1127368",
+      "Article Number:": "120 084",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers OPEL:": "8 50 923",
+      "OEM Numbers VAUXHALL:": "11589054",
+      "OEM Numbers MERCEDES-BENZ:": "A166 990 00 05",
+      "OEM Numbers SMART:": "A166 990 00 05",
+      "OEM Numbers TOYOTA:": "90126 08043",
+      "OEM Numbers AUDI:": "N   044 408 7",
+      "OEM Numbers PORSCHE:": "N   044 408 7",
+      "OEM Numbers SEAT:": "N   044 408 7",
+      "OEM Numbers SKODA:": "N   044 408 7",
+      "OEM Numbers VW:": "N   044 408 7"
+    }
+  }
+]

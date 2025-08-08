@@ -1,0 +1,30 @@
+[
+  {
+    "id": "521116",
+    "name": "Pressure Switch",
+    "partNo": "06-03001-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "2440",
+    "productGroupId": "706494",
+    "categoryId": "103168",
+    "variantId": "18431",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/521116/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Supplementary Article/Info 2": "with integrated air temperature sensor",
+      "Pressure from [kPA]": "10",
+      "Pressure to [kPA]": "115",
+      "Article ID:": "521116",
+      "Article Number:": "06-03001-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727650433",
+      "OEM Numbers CITROËN/PEUGEOT:": "9639391480",
+      "OEM Numbers FIAT:": "9639381480",
+      "OEM Numbers FERRARI:": "9639381480"
+    }
+  }
+]

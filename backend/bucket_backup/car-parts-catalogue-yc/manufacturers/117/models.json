@@ -1,0 +1,1784 @@
+[
+  {
+    "id": "10640",
+    "name": "VAUXHALL ADAM (M13)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-10-01",
+      "toDate": "2019-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4633",
+    "name": "VAUXHALL AGILA Mk I (A) (H00)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4633/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-02-01",
+      "toDate": "2008-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7542",
+    "name": "VAUXHALL AGILA Mk II (B) (H08)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": "2014-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9551",
+    "name": "VAUXHALL AMPERA (R12)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9551/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5624",
+    "name": "VAUXHALL ANTARA A (L07)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4763",
+    "name": "VAUXHALL ARENA Combi (A97)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4763/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-01-01",
+      "toDate": "2001-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3415",
+    "name": "VAUXHALL ARENA Van (A97)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3415/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-01-01",
+      "toDate": "2001-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7668",
+    "name": "VAUXHALL ASTRA",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7668/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-10-01",
+      "toDate": "1984-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1519",
+    "name": "VAUXHALL ASTRA Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1519/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-09-01",
+      "toDate": "1986-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1518",
+    "name": "VAUXHALL ASTRA Hatchback",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1518/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-09-01",
+      "toDate": "1986-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1523",
+    "name": "VAUXHALL ASTRA Mk II Belmont (T85)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1523/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-09-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4400",
+    "name": "VAUXHALL ASTRA Mk II Convertible (T85)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4400/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-01-01",
+      "toDate": "1993-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3486",
+    "name": "VAUXHALL ASTRA Mk II Estate (T85)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3486/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1991-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1520",
+    "name": "VAUXHALL ASTRA Mk II Hatchback (T85)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1520/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1991-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3980",
+    "name": "VAUXHALL ASTRA Mk III (F) Convertible (T92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3980/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "2001-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1522",
+    "name": "VAUXHALL ASTRA Mk III (F) Estate (T92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1522/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-03-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1521",
+    "name": "VAUXHALL ASTRA Mk III (F) Hatchback (T92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1521/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1998-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3979",
+    "name": "VAUXHALL ASTRA Mk III (F) Saloon (T92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3979/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1998-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4798",
+    "name": "VAUXHALL ASTRA Mk IV (G) Convertible (T98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4798/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-03-01",
+      "toDate": "2005-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4204",
+    "name": "VAUXHALL ASTRA Mk IV (G) Coupe (T98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4204/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-03-01",
+      "toDate": "2005-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3978",
+    "name": "VAUXHALL ASTRA Mk IV (G) Estate (T98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3978/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-02-01",
+      "toDate": "2005-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3976",
+    "name": "VAUXHALL ASTRA Mk IV (G) Hatchback (T98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3976/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-02-01",
+      "toDate": "2005-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3977",
+    "name": "VAUXHALL ASTRA Mk IV (G) Saloon (T98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3977/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-02-01",
+      "toDate": "2005-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5148",
+    "name": "VAUXHALL ASTRA Mk V (H) (A04)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5148/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-01-01",
+      "toDate": "2011-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5475",
+    "name": "VAUXHALL ASTRA Mk V (H) Estate (A04)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-08-01",
+      "toDate": "2012-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5531",
+    "name": "VAUXHALL ASTRA Mk V (H) Sport Hatch (A04)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5531/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-02-01",
+      "toDate": "2010-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5519",
+    "name": "VAUXHALL ASTRA Mk V (H) TwinTop (A04)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5519/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-09-01",
+      "toDate": "2011-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8301",
+    "name": "VAUXHALL ASTRA Mk VI (J) (P10)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8301/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-12-01",
+      "toDate": "2015-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9036",
+    "name": "VAUXHALL ASTRA Mk VI (J) Estate (P10)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9036/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-10-01",
+      "toDate": "2015-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9709",
+    "name": "VAUXHALL ASTRA Mk VI (J) GTC (P10)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9709/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-10-01",
+      "toDate": "2015-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10352",
+    "name": "VAUXHALL ASTRA Mk VI (J) Saloon (P10)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10352/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": "2015-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14526",
+    "name": "VAUXHALL ASTRA Mk VII (K) (B16)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14526/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14895",
+    "name": "VAUXHALL ASTRA Mk VII (K) Estate (B16)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14895/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42685",
+    "name": "VAUXHALL ASTRA Mk VIII (L)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42685/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42686",
+    "name": "VAUXHALL ASTRA Mk VIII (L) Sports Tourer",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42686/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4439",
+    "name": "VAUXHALL ASTRAMAX (T85)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4439/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-08-01",
+      "toDate": "1994-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4440",
+    "name": "VAUXHALL ASTRAVAN Mk III (F) Estate Van (T92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4440/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-01-01",
+      "toDate": "1998-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4441",
+    "name": "VAUXHALL ASTRAVAN Mk IV (G) Estate Van (T98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4441/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-01-01",
+      "toDate": "2006-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7600",
+    "name": "VAUXHALL ASTRAVAN Mk V (H) Estate Van (A04)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7600/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1524",
+    "name": "VAUXHALL BRAVA Pickup (TF0, TF1)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1524/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-12-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1525",
+    "name": "VAUXHALL CALIBRA (C89)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1525/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-06-01",
+      "toDate": "1997-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1527",
+    "name": "VAUXHALL CARLTON Mk II Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1527/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-09-01",
+      "toDate": "1986-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1526",
+    "name": "VAUXHALL CARLTON Mk II Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1526/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-10-01",
+      "toDate": "1986-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1529",
+    "name": "VAUXHALL CARLTON Mk III Estate (V87)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1529/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-09-01",
+      "toDate": "1994-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1528",
+    "name": "VAUXHALL CARLTON Mk III Saloon (V87)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1528/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-09-01",
+      "toDate": "1994-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10971",
+    "name": "VAUXHALL CASCADA Convertible (W13)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10971/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1530",
+    "name": "VAUXHALL CAVALIER",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1530/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-03-01",
+      "toDate": "1981-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4412",
+    "name": "VAUXHALL CAVALIER CC",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4412/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-03-01",
+      "toDate": "1981-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1533",
+    "name": "VAUXHALL CAVALIER Coupe",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1533/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-08-01",
+      "toDate": "1981-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4426",
+    "name": "VAUXHALL CAVALIER Mk II Convertible (J82)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4426/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-08-01",
+      "toDate": "1988-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1534",
+    "name": "VAUXHALL CAVALIER Mk II Estate (J82)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1534/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "1988-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2030",
+    "name": "VAUXHALL CAVALIER Mk II Hatchback (J82)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2030/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "1988-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1531",
+    "name": "VAUXHALL CAVALIER Mk II Saloon (J82)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1531/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "1988-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2031",
+    "name": "VAUXHALL CAVALIER Mk III Hatchback (J89)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2031/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1995-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1532",
+    "name": "VAUXHALL CAVALIER Mk III Saloon (J89)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1532/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-08-01",
+      "toDate": "1995-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7545",
+    "name": "VAUXHALL CAVALIER Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7545/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-08-01",
+      "toDate": "1981-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1535",
+    "name": "VAUXHALL CHEVETTE Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1535/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-03-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1942",
+    "name": "VAUXHALL CHEVETTE Hatchback",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1942/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-03-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3949",
+    "name": "VAUXHALL CHEVETTE Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3949/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-09-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1938",
+    "name": "VAUXHALL COMBO Mk I (B) (S93)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1938/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4819",
+    "name": "VAUXHALL COMBO Mk II (C) Box Body/MPV (F25)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4819/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-09-01",
+      "toDate": "2012-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9743",
+    "name": "VAUXHALL COMBO Mk III (D) Box Body/MPV (X12)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9743/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39441",
+    "name": "VAUXHALL COMBO Mk IV (E) Box Body/MPV (K9)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39441/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38891",
+    "name": "VAUXHALL COMBO Mk IV (E) Life (K9)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38891/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10202",
+    "name": "VAUXHALL COMBO TOUR Mk II (C) (F25)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10202/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-09-01",
+      "toDate": "2012-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1929",
+    "name": "VAUXHALL CORSA Mk I (B) (S93)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1929/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-12-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4658",
+    "name": "VAUXHALL CORSA Mk II (C) (X01)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4658/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2007-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6413",
+    "name": "VAUXHALL CORSA Mk III (D) (S07)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6413/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-07-01",
+      "toDate": "2014-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13083",
+    "name": "VAUXHALL CORSA Mk IV (E) (X15)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13083/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40189",
+    "name": "VAUXHALL CORSA Mk V (F)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40189/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4445",
+    "name": "VAUXHALL CORSAVAN Mk I (B) Hatchback Van (S93)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4445/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-01-01",
+      "toDate": "2000-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4815",
+    "name": "VAUXHALL CORSAVAN Mk II (C) Hatchback Van (X01)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4815/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-09-01",
+      "toDate": "2006-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8759",
+    "name": "VAUXHALL CORSAVAN Mk III (D) Hatchback Van (S07)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8759/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13559",
+    "name": "VAUXHALL CORSAVAN Mk IV (E) Hatchback Van (X15)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13559/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4428",
+    "name": "VAUXHALL CRESTA Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4428/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-01-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4427",
+    "name": "VAUXHALL CRESTA Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4427/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-01-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37716",
+    "name": "VAUXHALL CRESTA Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37716/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-08-01",
+      "toDate": "1965-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37779",
+    "name": "VAUXHALL CROSSLAND X / CROSSLAND (P17)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37779/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4420",
+    "name": "VAUXHALL FIRENZA Coupe",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4420/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-01-01",
+      "toDate": "1978-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1936",
+    "name": "VAUXHALL FRONTERA Mk I (A) (U92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1936/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1935",
+    "name": "VAUXHALL FRONTERA Mk I (A) Sport (U92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1935/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-03-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3947",
+    "name": "VAUXHALL FRONTERA Mk II (B) (U99)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3947/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2004-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38108",
+    "name": "VAUXHALL GRANDLAND X / GRANDLAND (A18)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38108/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38230",
+    "name": "VAUXHALL INSIGNIA Mk I (A) Country Tourer (G09)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38230/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-07-01",
+      "toDate": "2017-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7862",
+    "name": "VAUXHALL INSIGNIA Mk I (A) Hatchback (G09)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7862/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-07-01",
+      "toDate": "2017-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7599",
+    "name": "VAUXHALL INSIGNIA Mk I (A) Saloon (G09)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7599/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-07-01",
+      "toDate": "2017-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7863",
+    "name": "VAUXHALL INSIGNIA Mk I (A) Sports Tourer (G09)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7863/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-07-01",
+      "toDate": "2017-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38231",
+    "name": "VAUXHALL INSIGNIA Mk II (B) Country Tourer (Z18)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38231/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37812",
+    "name": "VAUXHALL INSIGNIA Mk II (B) Hatchback (Z18)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37812/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37813",
+    "name": "VAUXHALL INSIGNIA Mk II (B) Sports Tourer (Z18)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37813/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4429",
+    "name": "VAUXHALL MAGNUM Coupe",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4429/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-01-01",
+      "toDate": "1978-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1538",
+    "name": "VAUXHALL MAGNUM Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1538/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-01-01",
+      "toDate": "1981-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1537",
+    "name": "VAUXHALL MAGNUM Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1537/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-01-01",
+      "toDate": "1981-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5008",
+    "name": "VAUXHALL MERIVA A (X03)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5008/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-01-01",
+      "toDate": "2010-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8754",
+    "name": "VAUXHALL MERIVA Mk II (B) (S10)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8754/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5155",
+    "name": "VAUXHALL MIDI Bus (MID)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5155/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1988-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5156",
+    "name": "VAUXHALL MIDI Mk II Bus (MID)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5156/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-06-01",
+      "toDate": "1997-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13595",
+    "name": "VAUXHALL MIDI Van (MID)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13595/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1997-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40943",
+    "name": "VAUXHALL MOKKA",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40943/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10325",
+    "name": "VAUXHALL MOKKA / MOKKA X (J13)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10325/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7543",
+    "name": "VAUXHALL MONARO (VY, VZ)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7543/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-01-01",
+      "toDate": "2007-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1937",
+    "name": "VAUXHALL MONTEREY (M92)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1937/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1998-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3948",
+    "name": "VAUXHALL MONTEREY Mk II (M98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3948/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-07-01",
+      "toDate": "1999-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4593",
+    "name": "VAUXHALL MOVANO Mk I (A) Chassis/Cab (X70)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4593/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4592",
+    "name": "VAUXHALL MOVANO Mk I (A) Combi (X70)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4592/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2010-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4442",
+    "name": "VAUXHALL MOVANO Mk I (A) Van (X70)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4442/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8976",
+    "name": "VAUXHALL MOVANO Mk II (B) Chassis/Cab (X62)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8976/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9597",
+    "name": "VAUXHALL MOVANO Mk II (B) Combi (X62)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9597/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8760",
+    "name": "VAUXHALL MOVANO Mk II (B) VAN (X62)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8760/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42631",
+    "name": "VAUXHALL MOVANO Mk III (C) Chassis/Cab (U9)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42631/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42630",
+    "name": "VAUXHALL MOVANO Mk III (C) VAN (U9)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42630/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1536",
+    "name": "VAUXHALL NOVA Hatchback (S83)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1536/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-05-01",
+      "toDate": "1993-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1928",
+    "name": "VAUXHALL NOVA Saloon (S83)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1928/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-09-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4444",
+    "name": "VAUXHALL NOVAVAN Hatchback Van (S83)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4444/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1994-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1931",
+    "name": "VAUXHALL OMEGA (B) Estate (V94)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1931/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-12-01",
+      "toDate": "2003-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1930",
+    "name": "VAUXHALL OMEGA (B) Saloon (V94)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1930/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-12-01",
+      "toDate": "2003-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7642",
+    "name": "VAUXHALL RASCAL Bus (RAS)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7642/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-07-01",
+      "toDate": "1993-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7886",
+    "name": "VAUXHALL RASCAL Platform/Chassis (RAS)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7886/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-07-01",
+      "toDate": "1993-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1933",
+    "name": "VAUXHALL ROYALE",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1933/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-02-01",
+      "toDate": "1987-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2032",
+    "name": "VAUXHALL ROYALE Coupe",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2032/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-02-01",
+      "toDate": "1986-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4411",
+    "name": "VAUXHALL SENATOR",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4411/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-02-01",
+      "toDate": "1987-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1932",
+    "name": "VAUXHALL SENATOR Mk II (B) (V88)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1932/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-09-01",
+      "toDate": "1993-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5006",
+    "name": "VAUXHALL SIGNUM (Z03)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5006/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-03-01",
+      "toDate": "2008-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3384",
+    "name": "VAUXHALL SINTRA (APV)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3384/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "1999-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1934",
+    "name": "VAUXHALL TIGRA Mk I (S93)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1934/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5154",
+    "name": "VAUXHALL TIGRA TwinTop (X04)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5154/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-06-01",
+      "toDate": "2009-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3383",
+    "name": "VAUXHALL VECTRA (B) Estate (J96)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3383/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-08-01",
+      "toDate": "2002-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3382",
+    "name": "VAUXHALL VECTRA (B) Hatchback (J96)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3382/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-08-01",
+      "toDate": "2003-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3381",
+    "name": "VAUXHALL VECTRA (B) Saloon (J96)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3381/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-08-01",
+      "toDate": "2002-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4872",
+    "name": "VAUXHALL VECTRA Mk II (C) (Z02)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4872/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2008-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5152",
+    "name": "VAUXHALL VECTRA Mk II (C) Estate (Z02)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5152/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": "2009-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4873",
+    "name": "VAUXHALL VECTRA Mk II (C) GTS (Z02)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4873/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-08-01",
+      "toDate": "2009-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4431",
+    "name": "VAUXHALL VELOX Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4431/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-03-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4430",
+    "name": "VAUXHALL VELOX Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4430/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-03-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37717",
+    "name": "VAUXHALL VENTORA Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37717/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-07-01",
+      "toDate": "1976-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4432",
+    "name": "VAUXHALL VENTORA Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4432/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-03-01",
+      "toDate": "1976-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4433",
+    "name": "VAUXHALL VICEROY Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4433/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1982-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4434",
+    "name": "VAUXHALL VICTOR",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4434/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-01-01",
+      "toDate": "1976-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4435",
+    "name": "VAUXHALL VICTOR Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4435/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-03-01",
+      "toDate": "1976-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4436",
+    "name": "VAUXHALL VISCOUNT",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4436/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-01-01",
+      "toDate": "1972-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4421",
+    "name": "VAUXHALL VIVA",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4421/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1963-01-01",
+      "toDate": "1979-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13820",
+    "name": "VAUXHALL VIVA (C16)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13820/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": "2019-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4423",
+    "name": "VAUXHALL VIVA Coupe",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4423/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1975-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4422",
+    "name": "VAUXHALL VIVA Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4422/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-01-01",
+      "toDate": "1979-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4761",
+    "name": "VAUXHALL VIVARO A Bus (X83)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4761/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-08-01",
+      "toDate": "2014-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7526",
+    "name": "VAUXHALL VIVARO A Platform/Chassis (X83)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7526/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-04-01",
+      "toDate": "2014-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4762",
+    "name": "VAUXHALL VIVARO A Van (X83)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4762/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-08-01",
+      "toDate": "2014-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12810",
+    "name": "VAUXHALL VIVARO B Bus (X82)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12810/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12811",
+    "name": "VAUXHALL VIVARO B Platform/Chassis (X82)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12811/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12809",
+    "name": "VAUXHALL VIVARO B Van (X82)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12809/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39895",
+    "name": "VAUXHALL VIVARO C Platform Cabin (K0)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39895/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39893",
+    "name": "VAUXHALL VIVARO C Van (K0)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39893/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39825",
+    "name": "VAUXHALL VIVARO LIFE Bus (K0)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39825/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4425",
+    "name": "VAUXHALL VX Estate",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4425/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-01-01",
+      "toDate": "1978-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4424",
+    "name": "VAUXHALL VX Saloon",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4424/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-01-01",
+      "toDate": "1978-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4679",
+    "name": "VAUXHALL VX220 Convertible (E01)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4679/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-09-01",
+      "toDate": "2005-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10529",
+    "name": "VAUXHALL VXR8 Estate (E)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10529/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10525",
+    "name": "VAUXHALL VXR8 MALOO (E)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10525/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7544",
+    "name": "VAUXHALL VXR8 Saloon (E)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7544/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4192",
+    "name": "VAUXHALL ZAFIRA A (T98)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4192/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-11-01",
+      "toDate": "2005-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5518",
+    "name": "VAUXHALL ZAFIRA Mk II (B) (A05)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5518/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-04-01",
+      "toDate": "2014-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9738",
+    "name": "VAUXHALL ZAFIRA Mk III (P12)",
+    "manufacturerId": "117",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9738/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-10-01",
+      "toDate": "2018-08-01"
+    },
+    "variants": []
+  }
+]

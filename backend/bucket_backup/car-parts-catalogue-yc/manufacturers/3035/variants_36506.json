@@ -1,0 +1,50 @@
+[
+  {
+    "id": "119676",
+    "type": "280 TSI",
+    "modelId": "36506",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-03-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119677",
+    "type": "330 TSI",
+    "modelId": "36506",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUFA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2016-03-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128876",
+    "type": "1.6",
+    "modelId": "36506",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSRA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2017-10-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  }
+]

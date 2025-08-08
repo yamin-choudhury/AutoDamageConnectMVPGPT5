@@ -1,0 +1,130 @@
+[
+  {
+    "id": "30294",
+    "type": "2.7 (TRN280_)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2TR-FE",
+      "cylinder": "4",
+      "capacity": "2,694 CCM / 2.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "116 KW / 158 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "51290",
+    "type": "2.7 4WD (TRN285_)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2TR-FE",
+      "cylinder": "4",
+      "capacity": "2,694 CCM / 2.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2010-12-01",
+      "power": "117 KW / 159 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55003",
+    "type": "4.0 4WD (GRN285_)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "201 KW / 273 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55005",
+    "type": "4.0 (GRN280_)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122402",
+    "type": "4.0 (GRN280_)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2016-12-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126653",
+    "type": "4.0 4WD (GRN285)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126654",
+    "type": "4.0 4WD (GRN285)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-08-01",
+      "power": "199 KW / 271 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132972",
+    "type": "4.0 4WD (GRN285)",
+    "modelId": "11332",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-08-01",
+      "power": "198 KW / 269 PS"
+    },
+    "categories": []
+  }
+]

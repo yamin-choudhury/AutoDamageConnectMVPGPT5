@@ -1,0 +1,82 @@
+[
+  {
+    "id": "56419",
+    "type": "1.2",
+    "modelId": "10640",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 12 XEL,B 12 XEL,D 12 XEL",
+      "cylinder": "4",
+      "capacity": "1,229 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01\n                            \n                            2019-04-01",
+      "power": "51 KW / 69 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56420",
+    "type": "1.4",
+    "modelId": "10640",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 14 XEL,B 14 XEL,D 14 XEL",
+      "cylinder": "4",
+      "capacity": "1,398 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01\n                            \n                            2019-02-01",
+      "power": "64 KW / 87 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56421",
+    "type": "1.4",
+    "modelId": "10640",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 14 XER,B 14 XER",
+      "cylinder": "4",
+      "capacity": "1,398 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01\n                            \n                            2019-02-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107470",
+    "type": "1.0",
+    "modelId": "10640",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "B 10 XFT,D 10 XFT",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-07-01\n                            \n                            2018-11-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109361",
+    "type": "1.4 S",
+    "modelId": "10640",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "B 14 NEH",
+      "cylinder": "4",
+      "capacity": "1,364 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01\n                            \n                            2019-01-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

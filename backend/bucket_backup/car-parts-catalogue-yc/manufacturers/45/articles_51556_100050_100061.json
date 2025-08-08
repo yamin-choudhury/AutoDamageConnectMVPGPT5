@@ -1,0 +1,43 @@
+[
+  {
+    "id": "7589720",
+    "name": "Master Cylinder, clutch",
+    "partNo": "J2504038",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "51556",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7589720/model-series-id-8809/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7589720",
+      "Article Number:": "J2504038",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941640102",
+      "OEM Numbers HONDA:": "46925-TR0-A41"
+    }
+  },
+  {
+    "id": "5887986",
+    "name": "Master Cylinder, clutch",
+    "partNo": "B05-ACU-21030001",
+    "manufacturer": "NAKAMOTO",
+    "supplierId": "6388",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "51556",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5887986/model-series-id-8809/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5887986",
+      "Article Number:": "B05-ACU-21030001",
+      "Manufacturer:": "NAKAMOTO",
+      "OEM Numbers ACURA:": "46920-SNA-A02"
+    }
+  }
+]

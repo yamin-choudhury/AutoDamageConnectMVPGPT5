@@ -1,0 +1,51 @@
+[
+  {
+    "id": "8232312",
+    "name": "Door Handle",
+    "partNo": "MZ3098054",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "1373",
+    "productGroupId": "100691",
+    "categoryId": "100685",
+    "variantId": "123903",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8232312/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Vehicle Equipment": "for vehicles with keyless Entry/Go system",
+      "Surface": "Primed",
+      "Lock System": "with key hole",
+      "Article ID:": "8232312",
+      "Article Number:": "MZ3098054",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353336152",
+      "OEM Numbers MAZDA:": "DF7359415GPZ"
+    }
+  },
+  {
+    "id": "8232595",
+    "name": "Door Handle",
+    "partNo": "MZ3318043",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "1373",
+    "productGroupId": "100691",
+    "categoryId": "100685",
+    "variantId": "123903",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8232595/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Front",
+      "Vehicle Equipment": "for vehicles with keyless Entry/Go system",
+      "Surface": "Primed",
+      "Article ID:": "8232595",
+      "Article Number:": "MZ3318043",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353336153",
+      "OEM Numbers MAZDA:": "DF7558415FPZ"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1520346",
+    "name": "Filter, interior air",
+    "partNo": "1640544080",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "55695",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1520346/model-series-id-10493/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "253,5",
+      "Width [mm]": "226",
+      "Height [mm]": "19,5",
+      "Filter type": "Pollen Filter",
+      "Article ID:": "1520346",
+      "Article Number:": "1640544080",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers HYUNDAI:": "971333SAA0",
+      "OEM Numbers KIA:": "971333SAA0",
+      "OEM Numbers HYUNDAI (BEIJING):": "971333SAA0",
+      "OEM Numbers KIA (DYK):": "971333SAA0"
+    }
+  },
+  {
+    "id": "1520407",
+    "name": "Filter, interior air",
+    "partNo": "1640550180",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "55695",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1520407/model-series-id-10493/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "253,5",
+      "Width [mm]": "226",
+      "Height [mm]": "19,5",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "1520407",
+      "Article Number:": "1640550180",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers HYUNDAI:": "971333SAA0",
+      "OEM Numbers KIA:": "971333SAA0",
+      "OEM Numbers HYUNDAI (BEIJING):": "971333SAA0",
+      "OEM Numbers KIA (DYK):": "971333SAA0"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1403294",
+    "name": "Compressor, air conditioning",
+    "partNo": "1501K701",
+    "manufacturer": "VAN WEZEL",
+    "supplierId": "36",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "139212",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1403294/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "Type Zexel",
+      "Fastening Type": "Three-point mounting",
+      "Belt Pulley Ø [mm]": "100",
+      "Pulleys": "with v-ribbed belt pulley",
+      "Connector Shape": "rectangular",
+      "Inlet Ø [mm]": "21,4",
+      "Outlet Ø [mm]": "15,5",
+      "Oil Fill Quantity [ml]": "110",
+      "Compressor Oil": "PAG 46 YF",
+      "Compressor ID": "DKV",
+      "Number of grooves": "7",
+      "Refrigerant": "R 1234yf",
+      "Article ID:": "1403294",
+      "Article Number:": "1501K701",
+      "Manufacturer:": "VAN WEZEL",
+      "EAN Numbers:": "541090965765",
+      "OEM Numbers NISSAN:": "9260000Q0F",
+      "OEM Numbers RENAULT:": "926008116R"
+    }
+  }
+]

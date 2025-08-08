@@ -1,0 +1,53 @@
+[
+  {
+    "id": "249169",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01391800",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "128832",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/249169/model-series-id-38239/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,25",
+      "Inner diameter [mm]": "83",
+      "Outer diameter [mm]": "138",
+      "Article ID:": "249169",
+      "Article Number:": "01391800",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357721542",
+      "OEM Numbers NISSAN:": "20692-65J00",
+      "OEM Numbers INFINITI:": "20692-8H30A"
+    }
+  },
+  {
+    "id": "9983728",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1751492",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "128832",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9983728/model-series-id-38239/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,25",
+      "Inner diameter [mm]": "83",
+      "Outer diameter [mm]": "138",
+      "Article ID:": "9983728",
+      "Article Number:": "WG1751492",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers NISSAN:": "2069265J00",
+      "OEM Numbers INFINITI:": "206928H30A"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "7254050",
+    "name": "Brake Shoe Set, parking brake",
+    "partNo": "GF0133",
+    "manufacturer": "BREMSI",
+    "supplierId": "4872",
+    "productsId": "1419",
+    "productGroupId": "102964",
+    "categoryId": "100006",
+    "variantId": "18266",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7254050/model-series-id-5166/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Diameter [mm]": "180",
+      "Width [mm]": "25",
+      "Braking System": "for parking brake",
+      "Brake System": "BREMBO",
+      "Article ID:": "7254050",
+      "Article Number:": "GF0133",
+      "Manufacturer:": "BREMSI",
+      "EAN Numbers:": "805014145043",
+      "OEM Numbers MASERATI:": "248418"
+    }
+  },
+  {
+    "id": "9027343",
+    "name": "Brake Shoe Set, parking brake",
+    "partNo": "SFA133",
+    "manufacturer": "SIGMAUTO",
+    "supplierId": "6331",
+    "productsId": "1419",
+    "productGroupId": "102964",
+    "categoryId": "100006",
+    "variantId": "18266",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9027343/model-series-id-5166/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Diameter [mm]": "180",
+      "Width [mm]": "25",
+      "Braking System": "for parking brake",
+      "Brake System": "BREMBO",
+      "Article ID:": "9027343",
+      "Article Number:": "SFA133",
+      "Manufacturer:": "SIGMAUTO",
+      "EAN Numbers:": "805014195307",
+      "OEM Numbers MASERATI:": "248418"
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1897801",
+    "name": "Ignition Coil",
+    "partNo": "20715",
+    "manufacturer": "BREMI",
+    "supplierId": "47",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "101172",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1897801/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Ignition Coil": "Block Ignition Coil",
+      "Supplementary Article/Info 2": "with bolts/screws",
+      "Article ID:": "1897801",
+      "Article Number:": "20715",
+      "Manufacturer:": "BREMI",
+      "EAN Numbers:": "401753420766",
+      "OEM Numbers SUBARU:": "22433-AA590"
+    }
+  },
+  {
+    "id": "6324902",
+    "name": "Ignition Coil",
+    "partNo": "CJ-02",
+    "manufacturer": "MOBILETRON",
+    "supplierId": "4705",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "101172",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6324902/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Number of inlets/outlets": "1",
+      "Article ID:": "6324902",
+      "Article Number:": "CJ-02",
+      "Manufacturer:": "MOBILETRON",
+      "OEM Numbers SUBARU:": "22433-AA640"
+    }
+  },
+  {
+    "id": "6324983",
+    "name": "Ignition Coil",
+    "partNo": "CJ-31",
+    "manufacturer": "MOBILETRON",
+    "supplierId": "4705",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "101172",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6324983/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "4",
+      "Number of inlets/outlets": "4",
+      "Article ID:": "6324983",
+      "Article Number:": "CJ-31",
+      "Manufacturer:": "MOBILETRON",
+      "OEM Numbers SUBARU:": "22433-AA590"
+    }
+  },
+  {
+    "id": "6325035",
+    "name": "Ignition Coil",
+    "partNo": "CJ-48",
+    "manufacturer": "MOBILETRON",
+    "supplierId": "4705",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "101172",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6325035/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Number of inlets/outlets": "1",
+      "Article ID:": "6325035",
+      "Article Number:": "CJ-48",
+      "Manufacturer:": "MOBILETRON",
+      "OEM Numbers SUBARU:": "22433-AA602"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "3559943",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "5020",
+    "manufacturer": "DEPA",
+    "supplierId": "371",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "34815",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3559943/model-series-id-4919/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3559943",
+      "Article Number:": "5020",
+      "Manufacturer:": "DEPA",
+      "EAN Numbers:": "366024302924",
+      "OEM Numbers FORD:": "4106350",
+      "OEM Numbers OPEL:": "1603278",
+      "OEM Numbers NISSAN:": "3924171J25"
+    }
+  },
+  {
+    "id": "8308953",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "OBK53.004",
+    "manufacturer": "SNR",
+    "supplierId": "110",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "34815",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8308953/model-series-id-4919/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "28",
+      "Inner diameter 2 [mm]": "84",
+      "Article ID:": "8308953",
+      "Article Number:": "OBK53.004",
+      "Manufacturer:": "SNR",
+      "EAN Numbers:": "341352182083",
+      "OEM Numbers OPEL:": "9201992",
+      "OEM Numbers VAUXHALL:": "9201992",
+      "OEM Numbers LOTUS:": "A120D6002S"
+    }
+  }
+]

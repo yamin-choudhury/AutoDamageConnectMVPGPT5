@@ -1,0 +1,72 @@
+[
+  {
+    "id": "4600586",
+    "name": "Mount, exhaust system",
+    "partNo": "783-914",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "138223",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4600586/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4600586",
+      "Article Number:": "783-914",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590207634633",
+      "OEM Numbers MAZDA:": "PE7040061"
+    }
+  },
+  {
+    "id": "4812935",
+    "name": "Bracket, muffler",
+    "partNo": "83 44 7460",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1057",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "138223",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4812935/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4812935",
+      "Article Number:": "83 44 7460",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258864443",
+      "OEM Numbers MAZDA:": "PY1D-40-061"
+    }
+  },
+  {
+    "id": "4813011",
+    "name": "Mount, exhaust system",
+    "partNo": "83 48 7516",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "138223",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4813011/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4813011",
+      "Article Number:": "83 48 7516",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258816549",
+      "OEM Numbers SUZUKI:": "14281-84A00-000",
+      "OEM Numbers TOYOTA:": "17565-74280",
+      "OEM Numbers RENAULT:": "20.65.1EN.20A",
+      "OEM Numbers NISSAN:": "20651-JD00A",
+      "OEM Numbers MAZDA:": "N3H2-40-061A"
+    }
+  }
+]

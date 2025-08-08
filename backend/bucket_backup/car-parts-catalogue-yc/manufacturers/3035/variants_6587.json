@@ -1,0 +1,66 @@
+[
+  {
+    "id": "12833",
+    "type": "2.0",
+    "modelId": "6587",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BTL",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-05-01\n                            \n                            2007-10-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24172",
+    "type": "1.8",
+    "modelId": "6587",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "AYJ",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2004-03-01\n                            \n                            2007-10-01",
+      "power": "71 KW / 97 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24173",
+    "type": "1.8",
+    "modelId": "6587",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BKT,BSA",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2005-06-01\n                            \n                            2008-12-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121572",
+    "type": "1.8 LPG",
+    "modelId": "6587",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BKU",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2005-01-01\n                            \n                            2007-12-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  }
+]

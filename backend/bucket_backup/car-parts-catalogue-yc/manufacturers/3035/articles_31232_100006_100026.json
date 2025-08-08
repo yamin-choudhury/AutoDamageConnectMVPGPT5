@@ -1,0 +1,56 @@
+[
+  {
+    "id": "3111628",
+    "name": "Brake Master Cylinder",
+    "partNo": "4007561",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "258",
+    "productGroupId": "100026",
+    "categoryId": "100006",
+    "variantId": "31232",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3111628/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Diameter 1 [mm]": "23,8",
+      "Number of connectors": "2",
+      "Thread Size 1": "M12x1",
+      "Article ID:": "3111628",
+      "Article Number:": "4007561",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293741701",
+      "OEM Numbers FORD:": "95VW-2140-CA",
+      "OEM Numbers SEAT:": "7M0 611 019",
+      "OEM Numbers VW:": "7M0 611 019"
+    }
+  },
+  {
+    "id": "8575005",
+    "name": "Brake Master Cylinder",
+    "partNo": "PMK561",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "258",
+    "productGroupId": "100026",
+    "categoryId": "100006",
+    "variantId": "31232",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8575005/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Diameter 1 [mm]": "23,8",
+      "Number of connectors": "2",
+      "Thread Size 1": "M12x1",
+      "Article ID:": "8575005",
+      "Article Number:": "PMK561",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293727657",
+      "OEM Numbers FORD:": "95VW-2140-CA",
+      "OEM Numbers SEAT:": "7M0 611 019",
+      "OEM Numbers VW:": "7M0 611 019"
+    }
+  }
+]

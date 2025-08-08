@@ -1,0 +1,71 @@
+[
+  {
+    "id": "2905836",
+    "name": "Interior Mirror",
+    "partNo": "351990401820",
+    "manufacturer": "MAGNETI MARELLI",
+    "supplierId": "95",
+    "productsId": "849",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "23176",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2905836/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "O.E. (Original)",
+      "Colour": "Grey",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Article ID:": "2905836",
+      "Article Number:": "351990401820",
+      "Manufacturer:": "MAGNETI MARELLI",
+      "EAN Numbers:": "800106357188",
+      "OEM Numbers FIAT:": "735491017"
+    }
+  },
+  {
+    "id": "2812430",
+    "name": "Interior Mirror",
+    "partNo": "335020082",
+    "manufacturer": "MCS",
+    "supplierId": "5422",
+    "productsId": "3861",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "23176",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2812430/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Housing Colour": "Grey",
+      "Article ID:": "2812430",
+      "Article Number:": "335020082",
+      "Manufacturer:": "MCS",
+      "EAN Numbers:": "803208906864",
+      "OEM Numbers FIAT:": "0735451561"
+    }
+  },
+  {
+    "id": "2829036",
+    "name": "Interior Mirror",
+    "partNo": "339007563",
+    "manufacturer": "MCS",
+    "supplierId": "5422",
+    "productsId": "3861",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "23176",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2829036/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Article ID:": "2829036",
+      "Article Number:": "339007563",
+      "Manufacturer:": "MCS",
+      "EAN Numbers:": "803208906311",
+      "OEM Numbers FIAT:": "0735451561"
+    }
+  }
+]

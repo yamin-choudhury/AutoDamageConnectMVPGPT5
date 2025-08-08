@@ -1,0 +1,53 @@
+[
+  {
+    "id": "7739508",
+    "name": "Cable Pull, clutch control",
+    "partNo": "K27750",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "126950",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7739508/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,23",
+      "Length 1 [mm]": "665",
+      "Length 2 [mm]": "420",
+      "Article ID:": "7739508",
+      "Article Number:": "K27750",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710958473",
+      "OEM Numbers SUZUKI:": "23710-M68K01",
+      "OEM Numbers NISSAN:": "306804A00D"
+    }
+  },
+  {
+    "id": "5788949",
+    "name": "Cable Pull, clutch control",
+    "partNo": "ASH3-1836",
+    "manufacturer": "ASHUKI by Palidium",
+    "supplierId": "442",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "126950",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5788949/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Weight [kg]": "0,23",
+      "Outer Length [mm]": "420",
+      "Inner Length [mm]": "665",
+      "Article ID:": "5788949",
+      "Article Number:": "ASH3-1836",
+      "Manufacturer:": "ASHUKI by Palidium",
+      "EAN Numbers:": "871899307806",
+      "OEM Numbers SUZUKI:": "23710-M68K01",
+      "OEM Numbers NISSAN:": "306804A00D"
+    }
+  }
+]

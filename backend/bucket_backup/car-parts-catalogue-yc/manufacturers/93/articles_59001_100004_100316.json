@@ -1,0 +1,72 @@
+[
+  {
+    "id": "4758664",
+    "name": "Mounting Kit, exhaust system",
+    "partNo": "82 23 9058",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1127",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "59001",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4758664/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with clamp",
+      "Exhaust System": "for rear muffler",
+      "Article ID:": "4758664",
+      "Article Number:": "82 23 9058",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258872856",
+      "OEM Numbers RENAULT:": "(20.01.093.90R)",
+      "OEM Numbers POLMO:": "(21.90)"
+    }
+  },
+  {
+    "id": "4758665",
+    "name": "Mounting Kit, exhaust pipe",
+    "partNo": "82 23 9059",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1395",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "59001",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4758665/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without rubberised metal bearings",
+      "Supplementary Article/Info 2": "with clamp",
+      "Additionally required articles (article numbers)": "82.01.142.258",
+      "Article ID:": "4758665",
+      "Article Number:": "82 23 9059",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258872863",
+      "OEM Numbers RENAULT:": "(20.01.082.69R)"
+    }
+  },
+  {
+    "id": "4758666",
+    "name": "Mounting Kit, exhaust pipe",
+    "partNo": "82 23 9060",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1395",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "59001",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4758666/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with clamps",
+      "Article ID:": "4758666",
+      "Article Number:": "82 23 9060",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258872883",
+      "OEM Numbers RENAULT:": "(20.01.035.35R)"
+    }
+  }
+]

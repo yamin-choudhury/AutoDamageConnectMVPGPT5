@@ -1,0 +1,274 @@
+[
+  {
+    "id": "5798",
+    "type": "1.8 (ZRE152_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FAE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2009-02-01\n                            \n                            2012-09-01",
+      "power": "106 KW / 144 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "5800",
+    "type": "1.5 (NZE151_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1NZ-FE",
+      "cylinder": "4",
+      "capacity": "1,497 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-08-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "5803",
+    "type": "1.5 4WD (NZE154_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1NZ-FE",
+      "cylinder": "4",
+      "capacity": "1,497 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-09-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22465",
+    "type": "2.2 D (ADE157_, ADE151_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AD-FHV",
+      "cylinder": "4",
+      "capacity": "2,231 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2006-11-01\n                            \n                            2012-09-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22466",
+    "type": "2.0 D-4D (ADE150_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1AD-FTV",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-10-01\n                            \n                            2012-09-01",
+      "power": "93 KW / 126 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22467",
+    "type": "1.4 D-4D (NDE150_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1ND-TV",
+      "cylinder": "4",
+      "capacity": "1,364 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2007-03-01\n                            \n                            2012-09-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22469",
+    "type": "1.6 (ZRE151_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1ZR-FE",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2007-03-01\n                            \n                            2012-09-01",
+      "power": "91 KW / 124 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22470",
+    "type": "1.4 (ZZE150_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "4ZZ-FE",
+      "cylinder": "4",
+      "capacity": "1,398 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2007-03-01\n                            \n                            2012-09-01",
+      "power": "71 KW / 97 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24667",
+    "type": "1.8 (ZRE152_, ZZE122)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FE,2ZR-FAE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-09-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31115",
+    "type": "1.33 Dual-VVTi (NRE150_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1NR-FE",
+      "cylinder": "4",
+      "capacity": "1,329 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2009-05-01\n                            \n                            2012-09-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31116",
+    "type": "1.6 (ZRE151_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1ZR-FAE",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2009-05-01\n                            \n                            2012-09-01",
+      "power": "97 KW / 132 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31147",
+    "type": "1.8 (ZRE152_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FAE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2009-02-01\n                            \n                            2012-09-01",
+      "power": "108 KW / 147 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34783",
+    "type": "1.8 Hybrid (ZWE150_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FXE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2010-09-01\n                            \n                            2012-09-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34982",
+    "type": "1.33 Dual-VVTi (NRE150_)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1NR-FE",
+      "cylinder": "4",
+      "capacity": "1,329 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2012-09-01",
+      "power": "73 KW / 99 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123647",
+    "type": "2.4 (AZE156H)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-11-01\n                            \n                            2012-04-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123648",
+    "type": "2.4 4WD (AZE154H)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-11-01\n                            \n                            2012-04-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124333",
+    "type": "3.5 4WD (GRE156H)",
+    "modelId": "6226",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-04-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  }
+]

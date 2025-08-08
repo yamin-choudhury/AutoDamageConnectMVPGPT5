@@ -1,0 +1,18 @@
+[
+  {
+    "id": "9408",
+    "type": "EV 150 (D1JOI)",
+    "modelId": "9551",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "A 14 XFL,4ET50",
+      "cylinder": "4",
+      "capacity": "1,398 CCM / 1.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2012-03-01",
+      "power": "111 KW / 151 PS"
+    },
+    "categories": []
+  }
+]

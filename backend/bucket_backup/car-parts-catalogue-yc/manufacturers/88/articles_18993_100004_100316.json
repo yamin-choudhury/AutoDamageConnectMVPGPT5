@@ -1,0 +1,46 @@
+[
+  {
+    "id": "6770252",
+    "name": "Mounting Kit, exhaust manifold",
+    "partNo": "EK922",
+    "manufacturer": "LRT",
+    "supplierId": "117",
+    "productsId": "3153",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "18993",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6770252/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6770252",
+      "Article Number:": "EK922",
+      "Manufacturer:": "LRT",
+      "EAN Numbers:": "425019360902",
+      "OEM Numbers CITROËN:": "0341G2",
+      "OEM Numbers PEUGEOT:": "0341G2"
+    }
+  },
+  {
+    "id": "2693965",
+    "name": "Mounting Kit, exhaust pipe",
+    "partNo": "318 27 316 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "1395",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "18993",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2693965/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2693965",
+      "Article Number:": "318 27 316 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "1797.74",
+      "OEM Numbers CITROËN/PEUGEOT:": "1797.74"
+    }
+  }
+]

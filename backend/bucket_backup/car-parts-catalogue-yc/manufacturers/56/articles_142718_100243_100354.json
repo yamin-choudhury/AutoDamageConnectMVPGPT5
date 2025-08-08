@@ -1,0 +1,43 @@
+[
+  {
+    "id": "5733316",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCOJG0019",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "142718",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5733316/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5733316",
+      "Article Number:": "APCOJG0019",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers JAGUAR:": "PXC16-1643E"
+    }
+  },
+  {
+    "id": "5733315",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCOJG0019",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "142718",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5733315/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5733315",
+      "Article Number:": "APCOJG0019",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers JAGUAR:": "PXC16-1643E"
+    }
+  }
+]

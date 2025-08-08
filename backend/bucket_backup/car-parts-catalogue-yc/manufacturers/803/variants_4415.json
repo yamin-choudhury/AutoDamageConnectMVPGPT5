@@ -1,0 +1,50 @@
+[
+  {
+    "id": "54919",
+    "type": "2.0 i",
+    "modelId": "4415",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "AODA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-01-01\n                            \n                            2014-06-01",
+      "power": "106 KW / 144 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108942",
+    "type": "2.0 i",
+    "modelId": "4415",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "XQDA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-06-01\n                            \n                            2020-02-01",
+      "power": "115 KW / 155 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135206",
+    "type": "2.0 i",
+    "modelId": "4415",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "XQDA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-09-01\n                            \n                            2020-02-01",
+      "power": "121 KW / 165 PS"
+    },
+    "categories": []
+  }
+]

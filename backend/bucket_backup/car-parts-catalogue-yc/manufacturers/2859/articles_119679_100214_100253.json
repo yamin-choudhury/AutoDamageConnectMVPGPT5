@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1524823",
+    "name": "Fuel Filter",
+    "partNo": "1646459980",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "119679",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1524823/model-series-id-36507/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "164,3",
+      "Outer diameter [mm]": "61,2",
+      "Filter type": "Filter Insert",
+      "Inlet Ø [mm]": "7,9",
+      "Outlet Ø [mm]": "7,9",
+      "Article ID:": "1524823",
+      "Article Number:": "1646459980",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "1K0201051K",
+      "OEM Numbers SEAT:": "1K0201051K",
+      "OEM Numbers VW:": "1K0201051K",
+      "OEM Numbers VW (SVW):": "1K0201051K",
+      "OEM Numbers SKODA (SVW):": "1K0201051K"
+    }
+  },
+  {
+    "id": "7430554",
+    "name": "Fuel Filter",
+    "partNo": "H280WK",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "119679",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7430554/model-series-id-36507/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Overall Length [mm]": "165",
+      "Outer diameter [mm]": "56",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "7430554",
+      "Article Number:": "H280WK",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077602425",
+      "OEM Numbers VAG:": "1K0 201 051 K"
+    }
+  }
+]

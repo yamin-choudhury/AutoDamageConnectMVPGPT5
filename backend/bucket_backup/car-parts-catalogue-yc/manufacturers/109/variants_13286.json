@@ -1,0 +1,18 @@
+[
+  {
+    "id": "124103",
+    "type": "0.7 (HG21S)",
+    "modelId": "13286",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K6A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2006-11-01\n                            \n                            2010-03-01",
+      "power": "40 KW / 54 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "100318",
+    "type": "3.5",
+    "modelId": "11717",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-08-01",
+      "power": "201 KW / 273 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100319",
+    "type": "2.5",
+    "modelId": "11717",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QR25DE",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-05-01",
+      "power": "134 KW / 182 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100858",
+    "type": "2.5",
+    "modelId": "11717",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QR25DE",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-11-01",
+      "power": "127 KW / 173 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100860",
+    "type": "3.5",
+    "modelId": "11717",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-11-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107381",
+    "type": "2.5",
+    "modelId": "11717",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QR25DE",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-08-01",
+      "power": "136 KW / 185 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112435",
+    "type": "2.5",
+    "modelId": "11717",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QR25DE",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-01-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126905",
+    "type": "3.5",
+    "modelId": "11717",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ35DE",
+      "cylinder": "6",
+      "capacity": "3,498 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-11-01",
+      "power": "199 KW / 271 PS"
+    },
+    "categories": []
+  }
+]

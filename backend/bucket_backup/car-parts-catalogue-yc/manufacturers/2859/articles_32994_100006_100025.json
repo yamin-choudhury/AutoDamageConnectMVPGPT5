@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3207188",
+    "name": "Brake Booster",
+    "partNo": "4110543",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "32994",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3207188/model-series-id-7427/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [in]": "10",
+      "Article ID:": "3207188",
+      "Article Number:": "4110543",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293751486",
+      "OEM Numbers AUDI:": "1J1 614 106 E",
+      "OEM Numbers SEAT:": "1J1 614 106 K",
+      "OEM Numbers SKODA:": "1J1 614 106 E",
+      "OEM Numbers VW:": "1J1 614 106 K"
+    }
+  },
+  {
+    "id": "8629091",
+    "name": "Brake Booster",
+    "partNo": "PSA543",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "32994",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8629091/model-series-id-7427/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [in]": "10",
+      "Article ID:": "8629091",
+      "Article Number:": "PSA543",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293749271",
+      "OEM Numbers AUDI:": "1J1 614 106 E",
+      "OEM Numbers SEAT:": "1J1 614 106 K",
+      "OEM Numbers SKODA:": "1J1 614 106 E",
+      "OEM Numbers VW:": "1J1 614 106 K"
+    }
+  }
+]

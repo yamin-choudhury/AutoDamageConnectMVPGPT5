@@ -1,0 +1,66 @@
+[
+  {
+    "id": "57484",
+    "type": "0.7 4WD",
+    "modelId": "10874",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K6A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2012-05-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57485",
+    "type": "0.7",
+    "modelId": "10874",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K6A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2012-05-01",
+      "power": "36 KW / 49 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122157",
+    "type": "0.7",
+    "modelId": "10874",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K6A-T",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2005-08-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123494",
+    "type": "0.7 4WD",
+    "modelId": "10874",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K6A-T",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2005-08-01\n                            \n                            2015-01-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  }
+]

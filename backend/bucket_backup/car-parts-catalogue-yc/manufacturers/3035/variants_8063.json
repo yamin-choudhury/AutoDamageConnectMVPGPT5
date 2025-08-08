@@ -1,0 +1,66 @@
+[
+  {
+    "id": "31231",
+    "type": "1.6",
+    "modelId": "8063",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "AYF",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "1996-08-01\n                            \n                            2011-12-01",
+      "power": "64 KW / 87 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31232",
+    "type": "1.8",
+    "modelId": "8063",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "JV,BSA",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "1996-08-01\n                            \n                            2012-12-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31233",
+    "type": "1.8",
+    "modelId": "8063",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "AFE",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "1996-08-01\n                            \n                            2011-12-01",
+      "power": "72 KW / 97 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123269",
+    "type": "1.8 CNG",
+    "modelId": "8063",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "AFE",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2005-01-01\n                            \n                            2014-12-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  }
+]

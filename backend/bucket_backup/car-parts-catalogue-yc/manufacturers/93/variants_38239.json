@@ -1,0 +1,50 @@
+[
+  {
+    "id": "128831",
+    "type": "2.3 dCi 190 4x4 (U3MD)",
+    "modelId": "38239",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "M9T 260",
+      "cylinder": "4",
+      "capacity": "2,298 CCM / 2.3 L",
+      "fuelType": "Diesel",
+      "year": "2017-09-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128832",
+    "type": "2.3 dCi 163 4x4 (U3MB)",
+    "modelId": "38239",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "M9T 260",
+      "cylinder": "4",
+      "capacity": "2,298 CCM / 2.3 L",
+      "fuelType": "Diesel",
+      "year": "2017-09-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129053",
+    "type": "2.5 dCi 190 4x4 (U3MA)",
+    "modelId": "38239",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "YD2 700",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Diesel",
+      "year": "2016-10-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  }
+]

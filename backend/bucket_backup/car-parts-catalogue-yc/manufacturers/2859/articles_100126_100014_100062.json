@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2283166",
+    "name": "Drive Shaft",
+    "partNo": "254004",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "13",
+    "productGroupId": "100062",
+    "categoryId": "100014",
+    "variantId": "100126",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2283166/model-series-id-10349/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "881",
+      "Outer gearing wheel side": "36",
+      "Outer teething differential side": "26",
+      "Article ID:": "2283166",
+      "Article Number:": "254004",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692894733240",
+      "OEM Numbers AUDI:": "1K0407272HF"
+    }
+  },
+  {
+    "id": "2321054",
+    "name": "Drive Shaft",
+    "partNo": "261108",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "13",
+    "productGroupId": "100062",
+    "categoryId": "100014",
+    "variantId": "100126",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2321054/model-series-id-10349/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "585",
+      "Outer gearing wheel side": "36",
+      "Outer teething differential side": "26",
+      "Article ID:": "2321054",
+      "Article Number:": "261108",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692894733312",
+      "OEM Numbers VW:": "1K0407271DL"
+    }
+  }
+]

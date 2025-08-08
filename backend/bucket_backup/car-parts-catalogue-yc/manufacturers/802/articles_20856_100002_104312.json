@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3735841",
+    "name": "Deflection/Guide Pulley, V-ribbed belt",
+    "partNo": "532 0799 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "312",
+    "productGroupId": "104312",
+    "categoryId": "100002",
+    "variantId": "20856",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3735841/model-series-id-4919/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "85,00",
+      "Width [mm]": "29,00",
+      "Material": "Metal",
+      "Number of ribs": "6",
+      "Article ID:": "3735841",
+      "Article Number:": "532 0799 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510897795",
+      "OEM Numbers TOYOTA:": "1357022010",
+      "OEM Numbers LEXUS:": "1357022010",
+      "OEM Numbers LOTUS:": "A120E6403S"
+    }
+  },
+  {
+    "id": "1185945",
+    "name": "Deflection/Guide Pulley, V-ribbed belt",
+    "partNo": "12301",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "312",
+    "productGroupId": "104312",
+    "categoryId": "100002",
+    "variantId": "20856",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1185945/model-series-id-4919/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "29",
+      "Outer diameter [mm]": "85",
+      "Article ID:": "1185945",
+      "Article Number:": "12301",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509312301",
+      "OEM Numbers TOYOTA:": "13570-22010"
+    }
+  }
+]

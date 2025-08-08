@@ -1,0 +1,242 @@
+[
+  {
+    "id": "10288",
+    "type": "1.8",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "QQDC",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11894",
+    "type": "2.0 TDCi",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DC,G6DE,G6DF",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "98 KW / 133 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11895",
+    "type": "1.6 TDCi",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "G8DC,MTDA",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22524",
+    "type": "1.6",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "HWDA,HWDB,SHDA,SHDB,SHDC",
+      "cylinder": "4",
+      "capacity": "1,596 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22525",
+    "type": "1.8",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "QQDB,QQDA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22526",
+    "type": "1.8 Flexifuel",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "Q7DA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22527",
+    "type": "2.0",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "AODA,AODB,SYDA,AODE",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22528",
+    "type": "1.6 TDCi",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "HHDA,HHDB,GPDA",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22529",
+    "type": "1.6 TDCi",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "G8DA,G8DB,G8DD",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22530",
+    "type": "2.0 TDCi",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DA,G6DB,G6DD,G6DG",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "26570",
+    "type": "2.0 TDCi",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "IXDA",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2008-02-01\n                            \n                            2010-09-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30403",
+    "type": "1.8 TDCi",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "KKDA,KKDB",
+      "cylinder": "4",
+      "capacity": "1,753 CCM / 1.8 L",
+      "fuelType": "Diesel",
+      "year": "2007-02-01\n                            \n                            2010-09-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33331",
+    "type": "2.0 CNG",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "SYDA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2009-04-01\n                            \n                            2010-09-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33332",
+    "type": "2.0 LPG",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "SYDA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2008-06-01\n                            \n                            2010-09-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113250",
+    "type": "1.6",
+    "modelId": "6240",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "HXDA,HXDB,SIDA",
+      "cylinder": "4",
+      "capacity": "1,596 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2007-04-01\n                            \n                            2010-09-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  }
+]

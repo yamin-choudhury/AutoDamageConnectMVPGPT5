@@ -1,0 +1,56 @@
+[
+  {
+    "id": "6768317",
+    "name": "Fan, radiator",
+    "partNo": "EHO027",
+    "manufacturer": "DOGA",
+    "supplierId": "4585",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "10652",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6768317/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "100-180",
+      "Plug Type ID": "HDK-0403D-1",
+      "Diameter [mm]": "300",
+      "Heating/Cooling": "Double Fan",
+      "Supplementary Article/Info 2": "with radiator fan shroud",
+      "Article ID:": "6768317",
+      "Article Number:": "EHO027",
+      "Manufacturer:": "DOGA",
+      "EAN Numbers:": "843528100885",
+      "OEM Numbers HONDA:": "38616RAAA01"
+    }
+  },
+  {
+    "id": "6768318",
+    "name": "Fan, radiator",
+    "partNo": "EHO028",
+    "manufacturer": "DOGA",
+    "supplierId": "4585",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "10652",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6768318/model-series-id-4963/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "100-120",
+      "Plug Type ID": "HDK-0403D-1",
+      "Diameter [mm]": "300",
+      "Heating/Cooling": "Double Fan",
+      "Supplementary Article/Info 2": "with radiator fan shroud",
+      "Article ID:": "6768318",
+      "Article Number:": "EHO028",
+      "Manufacturer:": "DOGA",
+      "EAN Numbers:": "843528100886",
+      "OEM Numbers HONDA:": "38616RAAA02"
+    }
+  }
+]

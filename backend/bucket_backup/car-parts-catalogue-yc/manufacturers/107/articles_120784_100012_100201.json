@@ -1,0 +1,51 @@
+[
+  {
+    "id": "7602637",
+    "name": "Bellow Kit, steering",
+    "partNo": "J4107007",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "120784",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7602637/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "164",
+      "Inner diameter 1 [mm]": "14,5",
+      "Inner diameter 2 [mm]": "46,5",
+      "Article ID:": "7602637",
+      "Article Number:": "J4107007",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941638930",
+      "OEM Numbers SUBARU:": "34190-FE030"
+    }
+  },
+  {
+    "id": "4903535",
+    "name": "Bellow Kit, steering",
+    "partNo": "8500 68017",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "120784",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4903535/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "170",
+      "Required quantity": "1",
+      "Inner diameter 1 [mm]": "14,5",
+      "Inner diameter 2 [mm]": "44",
+      "Article ID:": "4903535",
+      "Article Number:": "8500 68017",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "571047635719",
+      "OEM Numbers SUBARU:": "34137-AE000"
+    }
+  }
+]

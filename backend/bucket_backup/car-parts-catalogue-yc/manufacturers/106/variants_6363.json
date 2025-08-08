@@ -1,0 +1,306 @@
+[
+  {
+    "id": "9409",
+    "type": "1.2 12V",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CGPB",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2011-11-01\n                            \n                            2014-12-01",
+      "power": "44 KW / 60 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "14021",
+    "type": "1.2 12V",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CJLA",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2010-10-01\n                            \n                            2014-12-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22944",
+    "type": "1.2",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BBM,CHFA",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2006-12-01\n                            \n                            2014-12-01",
+      "power": "44 KW / 60 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22945",
+    "type": "1.2",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BZG,CEVA,CGPA,CHTA",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2007-01-01\n                            \n                            2014-12-01",
+      "power": "51 KW / 70 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22946",
+    "type": "1.4",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BXW,CGGB",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2007-01-01\n                            \n                            2014-12-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22947",
+    "type": "1.6",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BTS,CFNA,CLSA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2007-04-01\n                            \n                            2014-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22948",
+    "type": "1.4 TDI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BNM",
+      "cylinder": "3",
+      "capacity": "1,422 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2007-02-01\n                            \n                            2010-03-01",
+      "power": "51 KW / 70 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22949",
+    "type": "1.4 TDI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BNV,BMS",
+      "cylinder": "3",
+      "capacity": "1,422 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2007-01-01\n                            \n                            2010-03-01",
+      "power": "59 KW / 80 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22950",
+    "type": "1.9 TDI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BLS,BSW",
+      "cylinder": "4",
+      "capacity": "1,896 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "2007-04-01\n                            \n                            2010-03-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33243",
+    "type": "1.2 TSI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CBZB",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01\n                            \n                            2014-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33311",
+    "type": "1.2 TSI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CBZA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01\n                            \n                            2014-12-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33314",
+    "type": "1.6 TDI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CAYB",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-03-01\n                            \n                            2014-12-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33315",
+    "type": "1.6 TDI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CAYC",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-03-01\n                            \n                            2014-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33679",
+    "type": "1.6 TDI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CAYA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-04-01\n                            \n                            2014-12-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33681",
+    "type": "1.4 TSI RS",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CAVE,CTHE",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-05-01\n                            \n                            2014-12-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33876",
+    "type": "1.2 TDI",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CFWA",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Diesel",
+      "year": "2010-05-01\n                            \n                            2014-12-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133135",
+    "type": "1.2 LPG",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CGPA",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2007-07-01\n                            \n                            2014-11-01",
+      "power": "51 KW / 69 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133148",
+    "type": "1.4 LPG",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "BXW,CGGB",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2007-01-01\n                            \n                            2014-11-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133226",
+    "type": "1.2 LPG",
+    "modelId": "6363",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CHFA",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2009-03-01\n                            \n                            2011-11-01",
+      "power": "44 KW / 60 PS"
+    },
+    "categories": []
+  }
+]

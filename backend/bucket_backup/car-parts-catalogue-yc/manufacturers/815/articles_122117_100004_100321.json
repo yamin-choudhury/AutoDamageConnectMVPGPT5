@@ -1,0 +1,53 @@
+[
+  {
+    "id": "239732",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01204500",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "122117",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/239732/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,9",
+      "Inner diameter [mm]": "112",
+      "Outer diameter [mm]": "119",
+      "Article ID:": "239732",
+      "Article Number:": "01204500",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776998897",
+      "OEM Numbers VW:": "3D0253115A"
+    }
+  },
+  {
+    "id": "1629051",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "180-909",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "122117",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1629051/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Inlet",
+      "Article ID:": "1629051",
+      "Article Number:": "180-909",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513328340",
+      "OEM Numbers AUDI:": "7L5253115C",
+      "OEM Numbers SEAT:": "7L5253115C",
+      "OEM Numbers SKODA:": "7L5253115C",
+      "OEM Numbers VW:": "7L5253115C",
+      "OEM Numbers PORSCHE:": "95511111330"
+    }
+  }
+]

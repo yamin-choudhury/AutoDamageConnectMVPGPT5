@@ -1,0 +1,56 @@
+[
+  {
+    "id": "5633871",
+    "name": "Brake Hose",
+    "partNo": "ADS75371",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "15967",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5633871/model-series-id-10111/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "90947-02G35",
+      "Fitting Position": "Front Axle Left",
+      "Length [mm]": "196",
+      "Weight [kg]": "0,160",
+      "paired article number": "ADT353341",
+      "Internal Thread Size": "M10 x 1",
+      "Article ID:": "5633871",
+      "Article Number:": "ADS75371",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006325776",
+      "OEM Numbers TOYOTA:": "90947-02G35"
+    }
+  },
+  {
+    "id": "5633872",
+    "name": "Brake Hose",
+    "partNo": "ADS75372",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "15967",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5633872/model-series-id-10111/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "90947-02G34",
+      "Fitting Position": "Front Axle Right",
+      "Length [mm]": "466",
+      "Weight [kg]": "0,160",
+      "paired article number": "ADT353340",
+      "Internal Thread Size": "M10 x 1",
+      "Article ID:": "5633872",
+      "Article Number:": "ADS75372",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006325777",
+      "OEM Numbers TOYOTA:": "90947-02G34"
+    }
+  }
+]

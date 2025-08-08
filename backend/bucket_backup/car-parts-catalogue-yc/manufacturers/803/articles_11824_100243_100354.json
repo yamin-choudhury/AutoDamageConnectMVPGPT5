@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1251210",
+    "name": "Compressor, air conditioning",
+    "partNo": "130220",
+    "manufacturer": "ACR",
+    "supplierId": "4654",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "11824",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1251210/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "24",
+      "Manufacturer Restriction": "SANDEN",
+      "Connector type": "H-O'R",
+      "Fastening Type": "Fastening with ears",
+      "Belt Pulley Ø [mm]": "123",
+      "Pulleys": "with v-ribbed belt pulley",
+      "Component Number": "QP7H15-8162",
+      "Oil Fill Quantity [ml]": "150",
+      "Compressor Oil": "PAG 46",
+      "Compressor ID": "7H15",
+      "Number of grooves": "8",
+      "Refrigerant": "R 134a",
+      "Cylinder Head ID (Compressor)": "KH",
+      "Article ID:": "1251210",
+      "Article Number:": "130220",
+      "Manufacturer:": "ACR",
+      "EAN Numbers:": "843325313394",
+      "OEM Numbers MAN:": "51779707026",
+      "OEM Numbers VOLVO:": "51779707026"
+    }
+  }
+]

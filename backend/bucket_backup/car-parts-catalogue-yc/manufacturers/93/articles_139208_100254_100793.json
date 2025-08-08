@@ -1,0 +1,121 @@
+[
+  {
+    "id": "7982225",
+    "name": "Lambda Sensor",
+    "partNo": "M0635",
+    "manufacturer": "AUTOTEAM",
+    "supplierId": "4464",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "139208",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7982225/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Lambda Sensor": "Planar probe",
+      "Number of circuits": "4",
+      "Article ID:": "7982225",
+      "Article Number:": "M0635",
+      "Manufacturer:": "AUTOTEAM",
+      "OEM Numbers RENAULT:": "226908543R",
+      "OEM Numbers DACIA:": "226908543R"
+    }
+  },
+  {
+    "id": "5187171",
+    "name": "Lambda Sensor",
+    "partNo": "90635",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "139208",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5187171/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Lambda Sensor": "Planar probe",
+      "Number of circuits": "4",
+      "Article ID:": "5187171",
+      "Article Number:": "90635",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320844103",
+      "OEM Numbers RENAULT:": "226908543R",
+      "OEM Numbers DACIA:": "226908543R"
+    }
+  },
+  {
+    "id": "4509188",
+    "name": "Lambda Sensor",
+    "partNo": "74811037",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "139208",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4509188/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "290",
+      "Lambda Sensor": "Planar probe",
+      "Number of circuits": "4",
+      "Article ID:": "4509188",
+      "Article Number:": "74811037",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers RENAULT:": "226908543R",
+      "OEM Numbers DACIA:": "226908543R"
+    }
+  },
+  {
+    "id": "4706138",
+    "name": "Lambda Sensor",
+    "partNo": "811037",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "139208",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4706138/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "290",
+      "Lambda Sensor": "Planar probe",
+      "Number of circuits": "4",
+      "Article ID:": "4706138",
+      "Article Number:": "811037",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers RENAULT:": "226908543R",
+      "OEM Numbers DACIA:": "226908543R"
+    }
+  },
+  {
+    "id": "5187167",
+    "name": "Lambda Sensor",
+    "partNo": "90635",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "139208",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5187167/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Lambda Sensor": "Planar probe",
+      "Number of circuits": "4",
+      "Article ID:": "5187167",
+      "Article Number:": "90635",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320844103",
+      "OEM Numbers RENAULT:": "226908543R",
+      "OEM Numbers DACIA:": "226908543R"
+    }
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "5634418",
+    "name": "Interior Blower",
+    "partNo": "ADT314129",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "10484",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5634418/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "for OE number": "87103-33090",
+      "Weight [kg]": "1,46",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with electric motor",
+      "Number of connectors": "3",
+      "Article ID:": "5634418",
+      "Article Number:": "ADT314129",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774611966",
+      "OEM Numbers TOYOTA:": "87103-33090",
+      "OEM Numbers LEXUS:": "87103-33090"
+    }
+  },
+  {
+    "id": "929052",
+    "name": "Interior Blower",
+    "partNo": "106451",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "10484",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/929052/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "for OE number": "87103-33090",
+      "Weight [kg]": "1,46",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with electric motor",
+      "Number of connectors": "3",
+      "Article ID:": "929052",
+      "Article Number:": "106451",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422406451",
+      "OEM Numbers TOYOTA:": "87103-33090",
+      "OEM Numbers LEXUS:": "87103-33090"
+    }
+  },
+  {
+    "id": "8539205",
+    "name": "Interior Blower",
+    "partNo": "PFN308",
+    "manufacturer": "PATRON",
+    "supplierId": "4558",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "10484",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8539205/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8539205",
+      "Article Number:": "PFN308",
+      "Manufacturer:": "PATRON",
+      "EAN Numbers:": "481425500145",
+      "OEM Numbers TOYOTA:": "87103-48080"
+    }
+  },
+  {
+    "id": "4352785",
+    "name": "Interior Blower",
+    "partNo": "70183",
+    "manufacturer": "WXQP",
+    "supplierId": "6347",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "10484",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4352785/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4352785",
+      "Article Number:": "70183",
+      "Manufacturer:": "WXQP",
+      "OEM Numbers TOYOTA:": "87103-48080"
+    }
+  },
+  {
+    "id": "4352785",
+    "name": "Interior Blower",
+    "partNo": "70183",
+    "manufacturer": "WXQP",
+    "supplierId": "6347",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "10484",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4352785/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4352785",
+      "Article Number:": "70183",
+      "Manufacturer:": "WXQP",
+      "OEM Numbers TOYOTA:": "87103-48080"
+    }
+  },
+  {
+    "id": "4352785",
+    "name": "Interior Blower",
+    "partNo": "70183",
+    "manufacturer": "WXQP",
+    "supplierId": "6347",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "10484",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4352785/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4352785",
+      "Article Number:": "70183",
+      "Manufacturer:": "WXQP",
+      "OEM Numbers TOYOTA:": "87103-48080"
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "471199",
+    "name": "Radiator Hose",
+    "partNo": "05-2521",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "15967",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/471199/model-series-id-10111/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "30",
+      "Inner diameter 2 [mm]": "30",
+      "Hose Length [mm]": "261",
+      "Article ID:": "471199",
+      "Article Number:": "05-2521",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007557072",
+      "OEM Numbers TOYOTA:": "1657221070"
+    }
+  },
+  {
+    "id": "471200",
+    "name": "Radiator Hose",
+    "partNo": "05-2522",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "15967",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/471200/model-series-id-10111/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "30",
+      "Inner diameter 2 [mm]": "30",
+      "Hose Length [mm]": "249",
+      "Article ID:": "471200",
+      "Article Number:": "05-2522",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007556804",
+      "OEM Numbers TOYOTA:": "1657321100"
+    }
+  },
+  {
+    "id": "471201",
+    "name": "Radiator Hose",
+    "partNo": "05-2523",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "15967",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/471201/model-series-id-10111/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "31",
+      "Inner diameter 2 [mm]": "31",
+      "Hose Length [mm]": "323",
+      "Article ID:": "471201",
+      "Article Number:": "05-2523",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007556805",
+      "OEM Numbers TOYOTA:": "1657121100"
+    }
+  }
+]

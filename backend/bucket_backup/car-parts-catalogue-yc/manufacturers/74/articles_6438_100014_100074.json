@@ -1,0 +1,98 @@
+[
+  {
+    "id": "5967936",
+    "name": "Bellow, drive shaft",
+    "partNo": "BCB6428",
+    "manufacturer": "BORG & BECK",
+    "supplierId": "475",
+    "productsId": "193",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5967936/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "111",
+      "Material": "Thermoplast",
+      "Joint Diameter [mm]": "81",
+      "for shaft diameter [mm]": "30",
+      "Article ID:": "5967936",
+      "Article Number:": "BCB6428",
+      "Manufacturer:": "BORG & BECK",
+      "OEM Numbers MERCEDES-BENZ:": "A1693600668"
+    }
+  },
+  {
+    "id": "7009040",
+    "name": "Bellow, drive shaft",
+    "partNo": "FCB6428",
+    "manufacturer": "FIRST LINE",
+    "supplierId": "407",
+    "productsId": "193",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7009040/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "111",
+      "Material": "Thermoplast",
+      "Joint Diameter [mm]": "81",
+      "for shaft diameter [mm]": "30",
+      "Article ID:": "7009040",
+      "Article Number:": "FCB6428",
+      "Manufacturer:": "FIRST LINE",
+      "OEM Numbers MERCEDES-BENZ:": "A1693600668"
+    }
+  },
+  {
+    "id": "1723363",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "1906135",
+    "manufacturer": "SASIC",
+    "supplierId": "260",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1723363/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "1693600468",
+      "Fitting Position": "Wheel Side",
+      "Material": "Thermoplast",
+      "Article ID:": "1723363",
+      "Article Number:": "1906135",
+      "Manufacturer:": "SASIC",
+      "EAN Numbers:": "366087245734",
+      "OEM Numbers MERCEDES-BENZ:": "A495951F400"
+    }
+  },
+  {
+    "id": "1723364",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "1906137",
+    "manufacturer": "SASIC",
+    "supplierId": "260",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1723364/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "1693600868",
+      "Fitting Position": "transmission side",
+      "Material": "Thermoplast",
+      "Article ID:": "1723364",
+      "Article Number:": "1906137",
+      "Manufacturer:": "SASIC",
+      "EAN Numbers:": "366087245801",
+      "OEM Numbers MERCEDES-BENZ:": "A1693600868"
+    }
+  }
+]

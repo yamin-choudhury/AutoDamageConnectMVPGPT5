@@ -1,0 +1,50 @@
+[
+  {
+    "id": "132062",
+    "type": "1.2 i-VTEC (DF5)",
+    "modelId": "38825",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B4",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-04-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133467",
+    "type": "1.5 i-DTEC",
+    "modelId": "38825",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "N15A1",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2018-04-01",
+      "power": "59 KW / 80 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133997",
+    "type": "1.5 i-DTEC",
+    "modelId": "38825",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "N15A1",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2018-04-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  }
+]

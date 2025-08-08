@@ -1,0 +1,71 @@
+[
+  {
+    "id": "2200709",
+    "name": "Cable Pull, clutch control",
+    "partNo": "24.3728-3100.2",
+    "manufacturer": "ATE",
+    "supplierId": "3",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "56127",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2200709/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "795",
+      "Article ID:": "2200709",
+      "Article Number:": "24.3728-3100.2",
+      "Manufacturer:": "ATE",
+      "EAN Numbers:": "400663330730",
+      "OEM Numbers HYUNDAI:": "41510-02010"
+    }
+  },
+  {
+    "id": "5616185",
+    "name": "Cable Pull, clutch control",
+    "partNo": "ADG03808",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "56127",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5616185/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "41510-02010",
+      "Weight [kg]": "0,596",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Outer Length [mm]": "795",
+      "Inner Length [mm]": "595",
+      "Article ID:": "5616185",
+      "Article Number:": "ADG03808",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006303808",
+      "OEM Numbers HYUNDAI:": "41510-02010"
+    }
+  },
+  {
+    "id": "7430923",
+    "name": "Cable Pull, clutch control",
+    "partNo": "H294I01",
+    "manufacturer": "NPS",
+    "supplierId": "440",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "56127",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7430923/model-series-id-3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7430923",
+      "Article Number:": "H294I01",
+      "Manufacturer:": "NPS",
+      "EAN Numbers:": "366192907587",
+      "OEM Numbers HYUNDAI:": "4151002010"
+    }
+  }
+]

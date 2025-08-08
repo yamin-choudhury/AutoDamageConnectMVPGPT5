@@ -1,0 +1,46 @@
+[
+  {
+    "id": "2095353",
+    "name": "Washer-jet Pipe",
+    "partNo": "2269",
+    "manufacturer": "RESTAGRAF",
+    "supplierId": "6225",
+    "productsId": "171",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "58876",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2095353/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2095353",
+      "Article Number:": "2269",
+      "Manufacturer:": "RESTAGRAF",
+      "EAN Numbers:": "317040002269",
+      "OEM Numbers MERCEDES-BENZ:": "A6389841261",
+      "OEM Numbers VW:": "N90681301"
+    }
+  },
+  {
+    "id": "1100983",
+    "name": "Washer Fluid Jet, window cleaning",
+    "partNo": "119020",
+    "manufacturer": "SEIM",
+    "supplierId": "263",
+    "productsId": "303",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "58876",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1100983/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Article ID:": "1100983",
+      "Article Number:": "119020",
+      "Manufacturer:": "SEIM",
+      "EAN Numbers:": "334980119020",
+      "OEM Numbers PEUGEOT:": "9810392880"
+    }
+  }
+]

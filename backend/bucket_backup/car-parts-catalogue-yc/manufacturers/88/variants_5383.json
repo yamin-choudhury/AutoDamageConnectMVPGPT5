@@ -1,0 +1,82 @@
+[
+  {
+    "id": "18431",
+    "type": "1.4",
+    "modelId": "5383",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "KFV (TU3JP),KFV (TU3A)",
+      "cylinder": "4",
+      "capacity": "1,360 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2005-04-01",
+      "power": "54 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18432",
+    "type": "1.6 16V",
+    "modelId": "5383",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "NFU (TU5JP4)",
+      "cylinder": "4",
+      "capacity": "1,587 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2005-04-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18433",
+    "type": "1.4 HDi",
+    "modelId": "5383",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "8HX (DV4TD),8HZ (DV4TD)",
+      "cylinder": "4",
+      "capacity": "1,398 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2005-04-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18993",
+    "type": "1.4 16V",
+    "modelId": "5383",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "KFU (ET3J4)",
+      "cylinder": "4",
+      "capacity": "1,360 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2005-10-01",
+      "power": "65 KW / 88 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23230",
+    "type": "1.6 HDi",
+    "modelId": "5383",
+    "manufacturerId": "88",
+    "url": "",
+    "specs": {
+      "engineCode": "9HZ (DV6TED4)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2007-06-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  }
+]

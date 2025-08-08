@@ -1,0 +1,114 @@
+[
+  {
+    "id": "22983",
+    "type": "2.4 Hybrid (ATH10W)",
+    "modelId": "6253",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FXE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2003-09-01\n                            \n                            2008-04-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22984",
+    "type": "2.4 Hybrid 4WD (ANH15W)",
+    "modelId": "6253",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FXE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2003-09-01\n                            \n                            2008-04-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22986",
+    "type": "2.4 Hybrid 4WD (ATH10W)",
+    "modelId": "6253",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FXE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2003-09-01\n                            \n                            2008-04-01",
+      "power": "117 KW / 159 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22987",
+    "type": "3.0 (MNH10)",
+    "modelId": "6253",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1MZ-FE",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2003-04-01\n                            \n                            2008-04-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22988",
+    "type": "3.0 4WD (MNH15W)",
+    "modelId": "6253",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1MZ-FE",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2003-04-01\n                            \n                            2008-04-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25589",
+    "type": "2.4 (ANH10W)",
+    "modelId": "6253",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2003-09-01\n                            \n                            2008-04-01",
+      "power": "117 KW / 159 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25590",
+    "type": "2.4 4WD (ANH15W)",
+    "modelId": "6253",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2003-09-01\n                            \n                            2008-04-01",
+      "power": "117 KW / 159 PS"
+    },
+    "categories": []
+  }
+]

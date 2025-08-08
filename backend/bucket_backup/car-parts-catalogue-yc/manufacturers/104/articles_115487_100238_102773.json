@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3955844",
+    "name": "Mounting, manual transmission",
+    "partNo": "594396",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "115487",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3955844/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3955844",
+      "Article Number:": "594396",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975080430",
+      "OEM Numbers AUDI:": "1K0199555R",
+      "OEM Numbers SEAT:": "1K0199555R",
+      "OEM Numbers SKODA:": "1K0199555R",
+      "OEM Numbers VW:": "1K0199555R"
+    }
+  },
+  {
+    "id": "3955878",
+    "name": "Mounting, manual transmission",
+    "partNo": "594405",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "115487",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3955878/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3955878",
+      "Article Number:": "594405",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975080437",
+      "OEM Numbers AUDI:": "1K0199555T",
+      "OEM Numbers SEAT:": "1K0199555T",
+      "OEM Numbers SKODA:": "1K0199555T",
+      "OEM Numbers VW:": "1K0199555T"
+    }
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "11928",
+    "type": "6.0 AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAB,CKHB",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-11-01",
+      "power": "423 KW / 575 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11945",
+    "type": "6.0 CS ISR",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CKHE,CVAC",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2011-03-01",
+      "power": "471 KW / 641 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "20892",
+    "type": "4.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMC,CYCB",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2012-04-01",
+      "power": "373 KW / 507 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23287",
+    "type": "6.0 AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "BEB,BWR,CKHD",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-06-01\n                            \n                            2011-04-01",
+      "power": "412 KW / 560 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23287",
+    "type": "6.0 AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "BEB,BWR,CKHD",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2012-04-01",
+      "power": "412 KW / 560 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "26835",
+    "type": "6.0 GTC Speed All-wheel Drive",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "BWRA,CKHC",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-08-01\n                            \n                            2011-04-01",
+      "power": "448 KW / 610 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34872",
+    "type": "6.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CKHA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2010-03-01\n                            \n                            2013-12-01",
+      "power": "463 KW / 630 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58427",
+    "type": "6.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2012-09-01",
+      "power": "459 KW / 624 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58428",
+    "type": "6.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CKHB",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2011-09-01\n                            \n                            2015-12-01",
+      "power": "423 KW / 575 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58832",
+    "type": "6.0 GTC Speed AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01\n                            \n                            2019-01-01",
+      "power": "460 KW / 626 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100537",
+    "type": "4.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMD,CYCA",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2013-12-01",
+      "power": "388 KW / 528 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106277",
+    "type": "6.0 GTC Speed AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAC,DBDE",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-05-01\n                            \n                            2016-05-01",
+      "power": "467 KW / 635 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107057",
+    "type": "6.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CVAC",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2014-05-01",
+      "power": "467 KW / 635 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115817",
+    "type": "6.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2015-05-01",
+      "power": "434 KW / 590 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122117",
+    "type": "6.0 FLEX AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDD",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2016-01-01",
+      "power": "472 KW / 642 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122120",
+    "type": "4.0 AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMD,CYCA",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-09-01",
+      "power": "389 KW / 529 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129448",
+    "type": "6.0 AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01\n                            \n                            2018-07-01",
+      "power": "434 KW / 590 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129449",
+    "type": "6.0 AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DBDD",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01\n                            \n                            2018-07-01",
+      "power": "472 KW / 642 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129450",
+    "type": "6.0 AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DJLA",
+      "cylinder": "12",
+      "capacity": "5,998 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01\n                            \n                            2018-05-01",
+      "power": "522 KW / 710 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141525",
+    "type": "4.0 GTC AWD",
+    "modelId": "6415",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CMMC,CYCB",
+      "cylinder": "8",
+      "capacity": "3,993 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-04-01\n                            \n                            2019-01-01",
+      "power": "373 KW / 507 PS"
+    },
+    "categories": []
+  }
+]

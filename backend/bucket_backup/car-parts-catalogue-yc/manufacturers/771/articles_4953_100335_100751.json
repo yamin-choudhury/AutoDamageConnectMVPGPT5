@@ -1,0 +1,98 @@
+[
+  {
+    "id": "3473644",
+    "name": "Window Regulator",
+    "partNo": "4843040",
+    "manufacturer": "opzional",
+    "supplierId": "4394",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "4953",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3473644/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Left Front",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with electric motor",
+      "Article ID:": "3473644",
+      "Article Number:": "4843040",
+      "Manufacturer:": "opzional",
+      "OEM Numbers MASERATI:": "84934200"
+    }
+  },
+  {
+    "id": "3473645",
+    "name": "Window Regulator",
+    "partNo": "4843045",
+    "manufacturer": "opzional",
+    "supplierId": "4394",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "4953",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3473645/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Left Rear",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with electric motor",
+      "Article ID:": "3473645",
+      "Article Number:": "4843045",
+      "Manufacturer:": "opzional",
+      "OEM Numbers MASERATI:": "84934500"
+    }
+  },
+  {
+    "id": "3501596",
+    "name": "Window Regulator",
+    "partNo": "4943040",
+    "manufacturer": "opzional",
+    "supplierId": "4394",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "4953",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3501596/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Right Front",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with electric motor",
+      "Article ID:": "3501596",
+      "Article Number:": "4943040",
+      "Manufacturer:": "opzional",
+      "OEM Numbers MASERATI:": "84934000"
+    }
+  },
+  {
+    "id": "3501604",
+    "name": "Window Regulator",
+    "partNo": "4943045",
+    "manufacturer": "opzional",
+    "supplierId": "4394",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "4953",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3501604/model-series-id-5108/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Right Rear",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with electric motor",
+      "Article ID:": "3501604",
+      "Article Number:": "4943045",
+      "Manufacturer:": "opzional",
+      "OEM Numbers MASERATI:": "84934400"
+    }
+  }
+]

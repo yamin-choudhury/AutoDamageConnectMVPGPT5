@@ -1,0 +1,62 @@
+[
+  {
+    "id": "6511079",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "D8000E",
+    "manufacturer": "AUTOFREN SEINSA",
+    "supplierId": "351",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "34808",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6511079/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Wheel Side",
+      "Height [mm]": "130",
+      "Inner diameter 1 [mm]": "22",
+      "Inner diameter 2 [mm]": "81",
+      "Specification": "UNIVERSAL BOOT KIT",
+      "Article ID:": "6511079",
+      "Article Number:": "D8000E",
+      "Manufacturer:": "AUTOFREN SEINSA",
+      "EAN Numbers:": "843032004623",
+      "OEM Numbers TOYOTA:": "044380D020",
+      "OEM Numbers CITROËN:": "3293.C1",
+      "OEM Numbers PEUGEOT:": "3293.C1",
+      "OEM Numbers ALFA ROMEO:": "51704102",
+      "OEM Numbers FIAT:": "51704102"
+    }
+  },
+  {
+    "id": "3544743",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "500284E",
+    "manufacturer": "ERT",
+    "supplierId": "4512",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "34808",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3544743/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Wheel Side",
+      "Height [mm]": "130",
+      "Inner diameter 1 [mm]": "22",
+      "Inner diameter 2 [mm]": "81",
+      "Specification": "UNIVERSAL BOOT KIT",
+      "Article ID:": "3544743",
+      "Article Number:": "500284E",
+      "Manufacturer:": "ERT",
+      "EAN Numbers:": "843512303651",
+      "OEM Numbers TOYOTA:": "044380D020",
+      "OEM Numbers CITROËN:": "3293.C1",
+      "OEM Numbers PEUGEOT:": "3293.C1",
+      "OEM Numbers ALFA ROMEO:": "51704102",
+      "OEM Numbers FIAT:": "51704102"
+    }
+  }
+]

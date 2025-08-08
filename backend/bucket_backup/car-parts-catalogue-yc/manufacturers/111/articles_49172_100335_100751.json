@@ -1,0 +1,54 @@
+[
+  {
+    "id": "204033",
+    "name": "Window Regulator",
+    "partNo": "01.7308",
+    "manufacturer": "Ac Rolcar",
+    "supplierId": "4849",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "49172",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/204033/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Right Front",
+      "Weight [kg]": "1,482",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Article ID:": "204033",
+      "Article Number:": "01.7308",
+      "Manufacturer:": "Ac Rolcar",
+      "EAN Numbers:": "805274081808",
+      "OEM Numbers TOYOTA:": "6980158010"
+    }
+  },
+  {
+    "id": "204034",
+    "name": "Window Regulator",
+    "partNo": "01.7309",
+    "manufacturer": "Ac Rolcar",
+    "supplierId": "4849",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "49172",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/204034/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Left Front",
+      "Weight [kg]": "1,482",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Article ID:": "204034",
+      "Article Number:": "01.7309",
+      "Manufacturer:": "Ac Rolcar",
+      "EAN Numbers:": "805274081809",
+      "OEM Numbers TOYOTA:": "6980258010"
+    }
+  }
+]

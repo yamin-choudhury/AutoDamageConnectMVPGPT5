@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7893577",
+    "name": "Fan, radiator",
+    "partNo": "LFK 1410",
+    "manufacturer": "LUZAR",
+    "supplierId": "4707",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "414",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7893577/model-series-id-9005/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Power [W]": "144",
+      "Article ID:": "7893577",
+      "Article Number:": "LFK 1410",
+      "Manufacturer:": "LUZAR",
+      "EAN Numbers:": "468029510833",
+      "OEM Numbers NISSAN:": "22510-31700"
+    }
+  },
+  {
+    "id": "10444460",
+    "name": "Fan, radiator",
+    "partNo": "ZD168723",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "414",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10444460/model-series-id-9005/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "110",
+      "Diameter 1 [mm]": "318",
+      "Diameter 2 [mm]": "317",
+      "Service Speed [1/min]": "2200",
+      "Supplementary Article/Info 2": "without load resistor",
+      "Rated current [A]": "12",
+      "Article ID:": "10444460",
+      "Article Number:": "ZD168723",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers NISSAN:": "22510-31700"
+    }
+  }
+]

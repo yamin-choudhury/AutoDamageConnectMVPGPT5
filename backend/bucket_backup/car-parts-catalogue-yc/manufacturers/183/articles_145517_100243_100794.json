@@ -1,0 +1,77 @@
+[
+  {
+    "id": "768045",
+    "name": "Sensor, coolant temperature",
+    "partNo": "1.830.367",
+    "manufacturer": "EPS",
+    "supplierId": "4005",
+    "productsId": "2055",
+    "productGroupId": "100794",
+    "categoryId": "100243",
+    "variantId": "145517",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/768045/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "3/8 GAS",
+      "Spanner Size": "19",
+      "Article ID:": "768045",
+      "Article Number:": "1.830.367",
+      "Manufacturer:": "EPS",
+      "EAN Numbers:": "801251023480",
+      "OEM Numbers KIA:": "39230-26700",
+      "OEM Numbers HYUNDAI:": "39230-26700",
+      "OEM Numbers GENESIS:": "39230-26700"
+    }
+  },
+  {
+    "id": "4328927",
+    "name": "Sensor, coolant temperature",
+    "partNo": "7.3367",
+    "manufacturer": "FACET",
+    "supplierId": "159",
+    "productsId": "2055",
+    "productGroupId": "100794",
+    "categoryId": "100243",
+    "variantId": "145517",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4328927/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "3/8 GAS",
+      "Spanner Size": "19",
+      "Article ID:": "4328927",
+      "Article Number:": "7.3367",
+      "Manufacturer:": "FACET",
+      "EAN Numbers:": "801251003480",
+      "OEM Numbers KIA:": "39230-26700",
+      "OEM Numbers HYUNDAI:": "39230-26700",
+      "OEM Numbers GENESIS:": "39230-26700"
+    }
+  },
+  {
+    "id": "3718566",
+    "name": "Sensor, coolant temperature",
+    "partNo": "530 367",
+    "manufacturer": "KW",
+    "supplierId": "4006",
+    "productsId": "2055",
+    "productGroupId": "100794",
+    "categoryId": "100243",
+    "variantId": "145517",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3718566/model-series-id-42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "3/8 GAS",
+      "Spanner Size": "19",
+      "Article ID:": "3718566",
+      "Article Number:": "530 367",
+      "Manufacturer:": "KW",
+      "EAN Numbers:": "801251013480",
+      "OEM Numbers KIA:": "39230-26700",
+      "OEM Numbers HYUNDAI:": "39230-26700",
+      "OEM Numbers GENESIS:": "39230-26700"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "9473495",
+    "name": "Condenser, air conditioning",
+    "partNo": "TSP0225638",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "25787",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9473495/model-series-id-7040/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inlet Ø [mm]": "16",
+      "Outlet Ø [mm]": "10",
+      "Core Length [mm]": "690",
+      "Core Width [mm]": "360",
+      "Core Depth [mm]": "16",
+      "Article ID:": "9473495",
+      "Article Number:": "TSP0225638",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275941119",
+      "OEM Numbers RENAULT:": "9211 000 02R",
+      "OEM Numbers NISSAN:": "92110-0002R"
+    }
+  },
+  {
+    "id": "757406",
+    "name": "Condenser, air conditioning",
+    "partNo": "1.30.0844.PD",
+    "manufacturer": "REACH",
+    "supplierId": "4020",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "25787",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/757406/model-series-id-7040/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "15,4",
+      "Outer diameter [mm]": "10,2",
+      "Supplementary Article/Info 2": "with dryer",
+      "Core Length [mm]": "705",
+      "Core Width [mm]": "348",
+      "Core Depth [mm]": "16",
+      "Article ID:": "757406",
+      "Article Number:": "1.30.0844.PD",
+      "Manufacturer:": "REACH",
+      "OEM Numbers RENAULT:": "921100002R"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "5632715",
+    "name": "Air Filter",
+    "partNo": "ADR162220",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "138192",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5632715/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "212",
+      "Width [mm]": "133",
+      "Height [mm]": "55",
+      "Weight [kg]": "0,15",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5632715",
+      "Article Number:": "ADR162220",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006324722",
+      "OEM Numbers RENAULT:": "16 54 693 77R",
+      "OEM Numbers SMART:": "A281 094 00 00"
+    }
+  },
+  {
+    "id": "5632715",
+    "name": "Air Filter",
+    "partNo": "ADR162220",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "138192",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5632715/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "212",
+      "Width [mm]": "133",
+      "Height [mm]": "55",
+      "Weight [kg]": "0,15",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5632715",
+      "Article Number:": "ADR162220",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006324722",
+      "OEM Numbers RENAULT:": "16 54 693 77R",
+      "OEM Numbers SMART:": "A281 094 00 00"
+    }
+  },
+  {
+    "id": "3475420",
+    "name": "Air Filter",
+    "partNo": "48521",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "138192",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3475420/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "212",
+      "Width [mm]": "133",
+      "Height [mm]": "55",
+      "Weight [kg]": "0,15",
+      "Filter type": "Filter Insert",
+      "Article ID:": "3475420",
+      "Article Number:": "48521",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781648521",
+      "OEM Numbers RENAULT:": "16 54 693 77R",
+      "OEM Numbers SMART:": "A281 094 00 00"
+    }
+  }
+]

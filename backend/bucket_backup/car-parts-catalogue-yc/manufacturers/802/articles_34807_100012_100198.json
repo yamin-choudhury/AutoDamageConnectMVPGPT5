@@ -1,0 +1,102 @@
+[
+  {
+    "id": "2122122",
+    "name": "Tie Rod End",
+    "partNo": "230880",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "34807",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2122122/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "79",
+      "Weight [kg]": "0,339",
+      "Thread Size": "FM12X1.25 RHT",
+      "Cone Size [mm]": "11,8",
+      "Article ID:": "2122122",
+      "Article Number:": "230880",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710951482",
+      "OEM Numbers LOTUS:": "A117H0009F"
+    }
+  },
+  {
+    "id": "9199692",
+    "name": "Tie Rod End",
+    "partNo": "SS7339",
+    "manufacturer": "FAI AutoParts",
+    "supplierId": "267",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "34807",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9199692/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "A117H0009F",
+      "Weight [kg]": "0,3",
+      "Required quantity": "2",
+      "Article ID:": "9199692",
+      "Article Number:": "SS7339",
+      "Manufacturer:": "FAI AutoParts",
+      "EAN Numbers:": "0502704930471",
+      "OEM Numbers LOTUS:": "A117H0009F"
+    }
+  },
+  {
+    "id": "9200457",
+    "name": "Tie Rod End",
+    "partNo": "SS818",
+    "manufacturer": "FAI AutoParts",
+    "supplierId": "267",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "34807",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9200457/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "A111C6015F",
+      "Required quantity": "2",
+      "Article ID:": "9200457",
+      "Article Number:": "SS818",
+      "Manufacturer:": "FAI AutoParts",
+      "EAN Numbers:": "0502704916669",
+      "OEM Numbers ROVER:": "GSJ732",
+      "OEM Numbers LOTUS:": "A111C6015F"
+    }
+  },
+  {
+    "id": "9555270",
+    "name": "Tie Rod End",
+    "partNo": "V49-9507",
+    "manufacturer": "VAICO",
+    "supplierId": "162",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "34807",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9555270/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [kg]": "0,285",
+      "Cone Size [mm]": "11,8",
+      "Internal Thread [mm]": "M12 x 1,25",
+      "Thread Type": "with right-hand thread",
+      "for tyre size": "185",
+      "Article ID:": "9555270",
+      "Article Number:": "V49-9507",
+      "Manufacturer:": "VAICO",
+      "EAN Numbers:": "404600141092",
+      "OEM Numbers ROVER:": "GSJ 732"
+    }
+  }
+]

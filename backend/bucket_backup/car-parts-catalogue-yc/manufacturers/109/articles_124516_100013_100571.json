@@ -1,0 +1,58 @@
+[
+  {
+    "id": "6404610",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "CS-721L",
+    "manufacturer": "CTE",
+    "supplierId": "4880",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "124516",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6404610/model-series-id-37072/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "45202-64P00",
+      "Fitting Position": "Lower Front Axle",
+      "Length [mm]": "0",
+      "Width [mm]": "0",
+      "Height [mm]": "0",
+      "Weight [kg]": "0",
+      "Control/Trailing Arm Type": "for control arm",
+      "Serial Number": "CS-721L",
+      "Article ID:": "6404610",
+      "Article Number:": "CS-721L",
+      "Manufacturer:": "CTE",
+      "OEM Numbers SUZUKI:": "45202-64P00"
+    }
+  },
+  {
+    "id": "6404611",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "CS-721R",
+    "manufacturer": "CTE",
+    "supplierId": "4880",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "124516",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6404611/model-series-id-37072/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "45201-64P00",
+      "Fitting Position": "Lower Front Axle",
+      "Length [mm]": "0",
+      "Width [mm]": "0",
+      "Height [mm]": "0",
+      "Weight [kg]": "0",
+      "Control/Trailing Arm Type": "for control arm",
+      "Serial Number": "CS-721R",
+      "Article ID:": "6404611",
+      "Article Number:": "CS-721R",
+      "Manufacturer:": "CTE",
+      "OEM Numbers SUZUKI:": "45201-64P00"
+    }
+  }
+]

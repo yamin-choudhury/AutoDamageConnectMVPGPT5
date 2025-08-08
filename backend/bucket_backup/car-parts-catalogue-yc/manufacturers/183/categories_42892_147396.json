@@ -1,0 +1,110 @@
+[
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "147396",
+    "manufacturerId": "183",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100521",
+        "name": "Crankshaft Drive",
+        "categoryId": "100002",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/100521/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100375",
+        "name": "Cylinder Head/Attachment Parts",
+        "categoryId": "100002",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/100375/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100233",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/100233/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100491",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/100491/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "147396",
+    "manufacturerId": "183",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/100046/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "147396",
+    "manufacturerId": "183",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/100597/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "147396",
+    "manufacturerId": "183",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104287",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/104287/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "147396",
+        "manufacturerId": "183",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147396/103984/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

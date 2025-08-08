@@ -1,0 +1,33 @@
+[
+  {
+    "id": "817933",
+    "name": "Cable Repair Set, interior heating fan, (eng. preheat sys.)",
+    "partNo": "10004",
+    "manufacturer": "SenCom",
+    "supplierId": "2188",
+    "productsId": "7302",
+    "productGroupId": "102736",
+    "categoryId": "100335",
+    "variantId": "109262",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/817933/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "inner",
+      "Material": "CuSn (copper-tin)",
+      "Cable Length [mm]": "195",
+      "Plug Type": "Shrink Connector",
+      "Connector Shape": "angular",
+      "Number of circuits": "5",
+      "Temperature range from [°C]": "-35",
+      "Temperature range to [°C]": "180",
+      "Cable insulation material": "Silicone",
+      "Cable cross-section from [mm²]": "2,50",
+      "Cable cross-section to [mm²]": "4,00",
+      "Article ID:": "817933",
+      "Article Number:": "10004",
+      "Manufacturer:": "SenCom",
+      "OEM Numbers FIAT:": "46723713"
+    }
+  }
+]

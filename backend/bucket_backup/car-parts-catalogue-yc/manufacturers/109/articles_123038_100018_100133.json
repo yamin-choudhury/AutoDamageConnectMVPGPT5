@@ -1,0 +1,58 @@
+[
+  {
+    "id": "4499746",
+    "name": "Wiper Blade",
+    "partNo": "7418-20190",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "123038",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4499746/model-series-id-37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4499746",
+      "Article Number:": "7418-20190",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers MAHINDRA:": "0116AU300021N",
+      "OEM Numbers TOYOTA:": "85222-OKO10",
+      "OEM Numbers NISSAN:": "28890-VB205",
+      "OEM Numbers SUZUKI:": "38340-74G00",
+      "OEM Numbers MARUTI:": "38350M74L10",
+      "OEM Numbers ISUZU:": "8-97349-903-0",
+      "OEM Numbers CHEVROLET:": "8-97349-903-0",
+      "OEM Numbers MAZDA:": "BHS3-67-330",
+      "OEM Numbers MITSUBISHI:": "MB929957"
+    }
+  },
+  {
+    "id": "4499748",
+    "name": "Wiper Blade",
+    "partNo": "7418-20210",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "123038",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4499748/model-series-id-37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4499748",
+      "Article Number:": "7418-20210",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers SUZUKI:": "38340M76M10",
+      "OEM Numbers PROTON:": "PW893454",
+      "OEM Numbers MARUTI:": "38340M76M10",
+      "OEM Numbers TOYOTA:": "85212--YZZAM",
+      "OEM Numbers PERODUA:": "85212-BZ040",
+      "OEM Numbers LEXUS:": "85212--YZZAM",
+      "OEM Numbers ISUZU:": "8-97349-900-0",
+      "OEM Numbers CHEVROLET:": "8-97349-900-0",
+      "OEM Numbers KIA:": "MDX5067330"
+    }
+  }
+]

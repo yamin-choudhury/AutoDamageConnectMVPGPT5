@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1595634",
+    "name": "Sensor, exterior temperature",
+    "partNo": "174273",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1186",
+    "productGroupId": "100553",
+    "categoryId": "100010",
+    "variantId": "126460",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1595634/model-series-id-37771/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "8Z0 820 535 B",
+      "Fitting Position": "Front",
+      "Weight [kg]": "0,004",
+      "Colour": "Black",
+      "Number of connectors": "2",
+      "Article ID:": "1595634",
+      "Article Number:": "174273",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422474273",
+      "OEM Numbers VW:": "8Z0 820 535 B",
+      "OEM Numbers VW (FAW):": "5QD 820 535",
+      "OEM Numbers VW (SVW):": "5QD 820 535",
+      "OEM Numbers AUDI:": "8Z0 820 535 B",
+      "OEM Numbers SEAT:": "8Z0 820 535 B",
+      "OEM Numbers SKODA:": "8Z0 820 535 B"
+    }
+  },
+  {
+    "id": "2763483",
+    "name": "Sensor, exterior temperature",
+    "partNo": "33 10 2106",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1186",
+    "productGroupId": "100553",
+    "categoryId": "100010",
+    "variantId": "126460",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2763483/model-series-id-37771/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Weight [kg]": "0,004",
+      "Colour": "Black",
+      "Number of connectors": "2",
+      "Article ID:": "2763483",
+      "Article Number:": "33 10 2106",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422874273",
+      "OEM Numbers VW:": "8Z0 820 535 B",
+      "OEM Numbers VW (FAW):": "5QD 820 535",
+      "OEM Numbers VW (SVW):": "5QD 820 535",
+      "OEM Numbers AUDI:": "8Z0 820 535 B",
+      "OEM Numbers SEAT:": "8Z0 820 535 B",
+      "OEM Numbers SKODA:": "8Z0 820 535 B"
+    }
+  }
+]

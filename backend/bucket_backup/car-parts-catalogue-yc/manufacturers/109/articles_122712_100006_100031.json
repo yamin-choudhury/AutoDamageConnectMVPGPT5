@@ -1,0 +1,75 @@
+[
+  {
+    "id": "7068707",
+    "name": "Brake Shoe Set",
+    "partNo": "FK9980",
+    "manufacturer": "FBK",
+    "supplierId": "6543",
+    "productsId": "70",
+    "productGroupId": "100031",
+    "categoryId": "100006",
+    "variantId": "122712",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7068707/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E1190R02B01109/21854",
+      "Width [mm]": "40",
+      "Radius [mm]": "110",
+      "Thickness 1 [mm]": "3,2",
+      "Thickness 2 [mm]": "2",
+      "Article ID:": "7068707",
+      "Article Number:": "FK9980",
+      "Manufacturer:": "FBK",
+      "OEM Numbers SUZUKI:": "53200-61J10-000"
+    }
+  },
+  {
+    "id": "7751656",
+    "name": "Brake Shoe Set",
+    "partNo": "K9000",
+    "manufacturer": "MK Kashiyama",
+    "supplierId": "6103",
+    "productsId": "70",
+    "productGroupId": "100031",
+    "categoryId": "100006",
+    "variantId": "122712",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7751656/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "5320060K00",
+      "Fitting Position": "Rear Axle",
+      "Width [mm]": "40",
+      "Radius [mm]": "127",
+      "Article ID:": "7751656",
+      "Article Number:": "K9000",
+      "Manufacturer:": "MK Kashiyama",
+      "OEM Numbers SUZUKI:": "5320060K00000"
+    }
+  },
+  {
+    "id": "7755096",
+    "name": "Brake Shoe Set",
+    "partNo": "K9980",
+    "manufacturer": "MK Kashiyama",
+    "supplierId": "6103",
+    "productsId": "70",
+    "productGroupId": "100031",
+    "categoryId": "100006",
+    "variantId": "122712",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7755096/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "5320061J00",
+      "Fitting Position": "Rear Axle",
+      "Width [mm]": "40",
+      "Radius [mm]": "110",
+      "Article ID:": "7755096",
+      "Article Number:": "K9980",
+      "Manufacturer:": "MK Kashiyama",
+      "OEM Numbers SUZUKI:": "5320061J10000"
+    }
+  }
+]

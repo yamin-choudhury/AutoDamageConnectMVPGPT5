@@ -1,0 +1,48 @@
+[
+  {
+    "id": "4758907",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 32 6978",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "23175",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4758907/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with clamp",
+      "Article ID:": "4758907",
+      "Article Number:": "82 32 6978",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258835612",
+      "OEM Numbers FORD:": "(1.846.107)",
+      "OEM Numbers FIAT:": "(55.199.316)"
+    }
+  },
+  {
+    "id": "4758824",
+    "name": "Mounting Kit, muffler",
+    "partNo": "82 32 3574",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "519",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "23175",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4758824/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Exhaust System": "for rear muffler",
+      "Article ID:": "4758824",
+      "Article Number:": "82 32 3574",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258841412",
+      "OEM Numbers FORD:": "(1.806.227)",
+      "OEM Numbers FIAT:": "51.915.462"
+    }
+  }
+]

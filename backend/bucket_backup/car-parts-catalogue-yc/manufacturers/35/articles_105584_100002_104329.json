@@ -1,0 +1,82 @@
+[
+  {
+    "id": "3711386",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "529 0013 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "542",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "105584",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3711386/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "5",
+      "Length 1 [mm]": "1148",
+      "Supplementary Article/Info 2": "Check alternator freewheel clutch & replace if necessary",
+      "Article ID:": "3711386",
+      "Article Number:": "529 0013 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510889369",
+      "OEM Numbers OPEL:": "55242399",
+      "OEM Numbers VAUXHALL:": "55242399",
+      "OEM Numbers FORD:": "9S516K228AA",
+      "OEM Numbers FIAT:": "73502730",
+      "OEM Numbers LANCIA:": "71732350",
+      "OEM Numbers ALFA ROMEO:": "55191970"
+    }
+  },
+  {
+    "id": "3781208",
+    "name": "Belt Pulley, crankshaft",
+    "partNo": "544 0030 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "3213",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "105584",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3781208/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "40,00",
+      "Outer diameter [mm]": "150,00",
+      "Vibration": "with vibration damper",
+      "Number of grooves": "5",
+      "Article ID:": "3781208",
+      "Article Number:": "544 0030 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510848551",
+      "OEM Numbers FIAT:": "55217836"
+    }
+  },
+  {
+    "id": "3781213",
+    "name": "Belt Pulley, crankshaft",
+    "partNo": "544 0036 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "3213",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "105584",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3781213/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "38,00",
+      "Outer diameter [mm]": "150,00",
+      "Vibration": "with vibration damper",
+      "Number of grooves": "4",
+      "Article ID:": "3781213",
+      "Article Number:": "544 0036 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510848557",
+      "OEM Numbers FIAT:": "55192966",
+      "OEM Numbers LANCIA:": "55192966"
+    }
+  }
+]

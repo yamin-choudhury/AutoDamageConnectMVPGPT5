@@ -1,0 +1,48 @@
+[
+  {
+    "id": "3717847",
+    "name": "Timing Belt Kit",
+    "partNo": "530 0322 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "307",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "50869",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3717847/model-series-id-10218/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth 1": "97",
+      "Width 1 [mm]": "25,40",
+      "Article ID:": "3717847",
+      "Article Number:": "530 0322 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510830830",
+      "OEM Numbers SUZUKI:": "1281071C02"
+    }
+  },
+  {
+    "id": "3729080",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "531 0169 20",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "308",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "50869",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3729080/model-series-id-10218/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "28",
+      "Outer diameter [mm]": "51",
+      "Article ID:": "3729080",
+      "Article Number:": "531 0169 20",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510804174",
+      "OEM Numbers SUZUKI:": "1281071C02"
+    }
+  }
+]

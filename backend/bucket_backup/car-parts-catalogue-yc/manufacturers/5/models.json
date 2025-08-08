@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "48",
+    "name": "AUDI 100 C1 Coupe (817)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/48/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-01-01",
+      "toDate": "1976-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "53",
+    "name": "AUDI 100 C1 Saloon (801, 803, 805, 807, 811, 813, F104)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/53/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-11-01",
+      "toDate": "1976-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "25",
+    "name": "AUDI 100 C2 Avant (435, 436)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/25/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-07-01",
+      "toDate": "1983-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10",
+    "name": "AUDI 100 C2 Saloon (431, 433, 434)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-06-01",
+      "toDate": "1984-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "30",
+    "name": "AUDI 100 C3 Avant (445, 446)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-08-01",
+      "toDate": "1990-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13",
+    "name": "AUDI 100 C3 Saloon (443, 444)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-08-01",
+      "toDate": "1991-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36",
+    "name": "AUDI 100 C4 Avant (4A5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-12-01",
+      "toDate": "1994-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "19",
+    "name": "AUDI 100 C4 Saloon (4A2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/19/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-12-01",
+      "toDate": "1994-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "172",
+    "name": "AUDI 200 C2 Saloon (437, 438)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/172/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-10-01",
+      "toDate": "1982-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1940",
+    "name": "AUDI 200 C3 Avant (447, 448)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1940/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-09-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "176",
+    "name": "AUDI 200 C3 Saloon (447, 448)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/176/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-06-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "433",
+    "name": "AUDI 50 (863)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/433/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-08-01",
+      "toDate": "1978-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1500",
+    "name": "AUDI 60 (613, 615)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1500/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-09-01",
+      "toDate": "1972-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1501",
+    "name": "AUDI 60 Variant (613, 615)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1501/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-09-01",
+      "toDate": "1972-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1502",
+    "name": "AUDI 75 (613, 615)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1502/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-09-01",
+      "toDate": "1972-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4553",
+    "name": "AUDI 75 Variant (615)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4553/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-09-01",
+      "toDate": "1972-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8554",
+    "name": "AUDI 80 (613)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8554/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1968-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37935",
+    "name": "AUDI 80 B1 Avant (331)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37935/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-09-01",
+      "toDate": "1978-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14",
+    "name": "AUDI 80 B1 Saloon (80, 82)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-05-01",
+      "toDate": "1978-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "26",
+    "name": "AUDI 80 B2 Saloon (811, 813, 814, 819, 853)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/26/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-08-01",
+      "toDate": "1987-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "31",
+    "name": "AUDI 80 B3 Saloon (893, 894, 8A2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/31/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-06-01",
+      "toDate": "1991-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6",
+    "name": "AUDI 80 B4 Avant (8C5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1996-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1",
+    "name": "AUDI 80 B4 Saloon (8C2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1995-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8555",
+    "name": "AUDI 80 Variant",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8555/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1968-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "78",
+    "name": "AUDI 90 B2 (813, 814, 853)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/78/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-08-01",
+      "toDate": "1988-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "84",
+    "name": "AUDI 90 B3 (893, 894, 8A2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/84/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-04-01",
+      "toDate": "1991-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8604",
+    "name": "AUDI A1 (8X1, 8XK)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-05-01",
+      "toDate": "2018-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43038",
+    "name": "AUDI A1 Allstreet (GBH)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43038/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40147",
+    "name": "AUDI A1 City Carver (GBH)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40147/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9730",
+    "name": "AUDI A1 Sportback (8XA, 8XF)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9730/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": "2018-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38933",
+    "name": "AUDI A1 Sportback (GBA)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38933/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4382",
+    "name": "AUDI A2 (8Z0)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4382/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-02-01",
+      "toDate": "2005-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1557",
+    "name": "AUDI A3 (8L1)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1557/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "2006-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4955",
+    "name": "AUDI A3 (8P1)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4955/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-05-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10253",
+    "name": "AUDI A3 (8V1, 8VK)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10253/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-04-01",
+      "toDate": "2020-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43124",
+    "name": "AUDI A3 Allstreet (8YH)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43124/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6724",
+    "name": "AUDI A3 Convertible (8P7)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6724/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-04-01",
+      "toDate": "2013-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11611",
+    "name": "AUDI A3 Convertible (8V7, 8VE)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11611/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11282",
+    "name": "AUDI A3 Limousine (8VS, 8VM)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11282/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40796",
+    "name": "AUDI A3 Limousine (8YS)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40796/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5143",
+    "name": "AUDI A3 Sportback (8PA)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5143/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-09-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10459",
+    "name": "AUDI A3 Sportback (8VA, 8VF)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10459/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40531",
+    "name": "AUDI A3 Sportback (8YA)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40531/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8031",
+    "name": "AUDI A4 Allroad B8 (8KH)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8031/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-04-01",
+      "toDate": "2016-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36378",
+    "name": "AUDI A4 Allroad B9 (8WH, 8WJ)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36378/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "253",
+    "name": "AUDI A4 B5 (8D2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/253/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-11-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3485",
+    "name": "AUDI A4 B5 Avant (8D5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3485/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-11-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4731",
+    "name": "AUDI A4 B6 (8E2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4731/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-11-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4797",
+    "name": "AUDI A4 B6 Avant (8E5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4797/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-02-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4840",
+    "name": "AUDI A4 B6 Convertible (8H7)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4840/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5376",
+    "name": "AUDI A4 B7 (8EC)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5376/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-11-01",
+      "toDate": "2008-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5377",
+    "name": "AUDI A4 B7 Avant (8ED)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5377/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-11-01",
+      "toDate": "2008-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41689",
+    "name": "AUDI A4 B7 Convertible (8HE)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41689/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6418",
+    "name": "AUDI A4 B8 (8K2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6418/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-08-01",
+      "toDate": "2016-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6988",
+    "name": "AUDI A4 B8 Avant (8K5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6988/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-11-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14695",
+    "name": "AUDI A4 B9 (8W2, 8WC)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14695/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14696",
+    "name": "AUDI A4 B9 Avant (8W5, 8WD)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14696/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6243",
+    "name": "AUDI A5 (8T3)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6243/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-06-01",
+      "toDate": "2017-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36928",
+    "name": "AUDI A5 (F53, F5P)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36928/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8030",
+    "name": "AUDI A5 Convertible (8F7)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8030/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-02-01",
+      "toDate": "2017-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37293",
+    "name": "AUDI A5 Convertible (F57, F5E)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37293/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8159",
+    "name": "AUDI A5 Sportback (8TA)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8159/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-07-01",
+      "toDate": "2017-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37116",
+    "name": "AUDI A5 Sportback (F5A, F5F)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37116/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5546",
+    "name": "AUDI A6 Allroad C6 (4FH)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5546/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2011-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10161",
+    "name": "AUDI A6 Allroad C7 (4GH, 4GJ)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10161/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-01-01",
+      "toDate": "2018-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39591",
+    "name": "AUDI A6 Allroad C8 (4AH)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39591/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "258",
+    "name": "AUDI A6 C4 (4A2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/258/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-06-01",
+      "toDate": "1997-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3468",
+    "name": "AUDI A6 C4 Avant (4A5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3468/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-06-01",
+      "toDate": "1997-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1891",
+    "name": "AUDI A6 C5 (4B2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1891/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-01-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3395",
+    "name": "AUDI A6 C5 Avant (4B5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3395/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-11-01",
+      "toDate": "2005-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5110",
+    "name": "AUDI A6 C6 (4F2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5110/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-04-01",
+      "toDate": "2011-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5381",
+    "name": "AUDI A6 C6 Avant (4F5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5381/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-11-01",
+      "toDate": "2011-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9154",
+    "name": "AUDI A6 C7 (4G2, 4GC)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9154/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-11-01",
+      "toDate": "2018-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9627",
+    "name": "AUDI A6 C7 Avant (4G5, 4GD)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9627/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-05-01",
+      "toDate": "2018-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38843",
+    "name": "AUDI A6 C8 (4A2)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38843/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38844",
+    "name": "AUDI A6 C8 Avant (4A5)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38844/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8986",
+    "name": "AUDI A7 Sportback (4GA, 4GF)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8986/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-07-01",
+      "toDate": "2018-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38471",
+    "name": "AUDI A7 Sportback (4KA)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38471/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "265",
+    "name": "AUDI A8 D2 (4D2, 4D8)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/265/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-03-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4935",
+    "name": "AUDI A8 D3 (4E2, 4E8)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4935/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-10-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8627",
+    "name": "AUDI A8 D4 (4H2, 4H8, 4HC, 4HL)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8627/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-11-01",
+      "toDate": "2018-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38219",
+    "name": "AUDI A8 D5 (4N2, 4N8, 4NC, 4NL)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38219/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4632",
+    "name": "AUDI ALLROAD C5 (4BH)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4632/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-05-01",
+      "toDate": "2005-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "438",
+    "name": "AUDI CABRIOLET B3 (8G7)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/438/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-05-01",
+      "toDate": "2000-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "194",
+    "name": "AUDI COUPE B2 (81, 855, 856)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/194/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-07-01",
+      "toDate": "1988-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "202",
+    "name": "AUDI COUPE B3 (89, 8B3)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/202/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-10-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39213",
+    "name": "AUDI E-TRON (GEN)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39213/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41812",
+    "name": "AUDI E-TRON GT Saloon (F83)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41812/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40160",
+    "name": "AUDI E-TRON Sportback (GEA)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40160/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8552",
+    "name": "AUDI F103 (613, 615)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8552/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-08-01",
+      "toDate": "1968-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8553",
+    "name": "AUDI F103 Variant (613, 615)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8553/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-04-01",
+      "toDate": "1968-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36543",
+    "name": "AUDI Q2 (GAB, GAG)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36543/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9731",
+    "name": "AUDI Q3 (8UB, 8UG)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9731/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-06-01",
+      "toDate": "2020-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38997",
+    "name": "AUDI Q3 (F3B)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38997/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40155",
+    "name": "AUDI Q3 Sportback (F3N)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40155/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42202",
+    "name": "AUDI Q4 Sportback (F4N)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42202/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41930",
+    "name": "AUDI Q4 SUV (F4B)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41930/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7534",
+    "name": "AUDI Q5 (8RB)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7534/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-11-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37161",
+    "name": "AUDI Q5 (FYB, FYG)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37161/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41715",
+    "name": "AUDI Q5 Sportback (FYT)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41715/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41507",
+    "name": "AUDI Q5 Van (8RB)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41507/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-11-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41520",
+    "name": "AUDI Q5 Van (FYB, FYG)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41520/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5461",
+    "name": "AUDI Q7 (4LB)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5461/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2016-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14159",
+    "name": "AUDI Q7 (4MB, 4MG)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14159/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41521",
+    "name": "AUDI Q7 Van (4LB)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41521/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2016-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41522",
+    "name": "AUDI Q7 Van (4MB, 4MG)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41522/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38836",
+    "name": "AUDI Q8 (4MN)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38836/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3910",
+    "name": "AUDI QUATTRO (85)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3910/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-07-01",
+      "toDate": "1991-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6244",
+    "name": "AUDI R8 (422, 423)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6244/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-04-01",
+      "toDate": "2015-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14514",
+    "name": "AUDI R8 (4S3, 4SP)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14514/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8262",
+    "name": "AUDI R8 Spyder (427, 429)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8262/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-02-01",
+      "toDate": "2015-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36765",
+    "name": "AUDI R8 Spyder (4S9, 4SR)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36765/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4554",
+    "name": "AUDI SUPER 90",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4554/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-09-01",
+      "toDate": "1971-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5544",
+    "name": "AUDI TT (8J3)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5544/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-07-01",
+      "toDate": "2015-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3851",
+    "name": "AUDI TT (8N3)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3851/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12912",
+    "name": "AUDI TT (FV3, FVP)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12912/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5608",
+    "name": "AUDI TT Roadster (8J9)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5608/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-03-01",
+      "toDate": "2014-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4089",
+    "name": "AUDI TT Roadster (8N9)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4089/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-10-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13274",
+    "name": "AUDI TT Roadster (FV9, FVR)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13274/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "485",
+    "name": "AUDI V8 (441, 442, 4C2, 4C8)",
+    "manufacturerId": "5",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/485/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-10-01",
+      "toDate": "1994-02-01"
+    },
+    "variants": []
+  }
+]

@@ -1,0 +1,1839 @@
+[
+  {
+    "id": "9046",
+    "name": "HYUNDAI ACCENT Hatchback Van (X-2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9046/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-10-01",
+      "toDate": "1995-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1294",
+    "name": "HYUNDAI ACCENT I (X-3)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1294/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-05-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4597",
+    "name": "HYUNDAI ACCENT II (LC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4597/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-09-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4903",
+    "name": "HYUNDAI ACCENT II Saloon (LC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4903/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-09-01",
+      "toDate": "2017-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5622",
+    "name": "HYUNDAI ACCENT III (MC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5622/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-08-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5623",
+    "name": "HYUNDAI ACCENT III Saloon (MC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-11-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9145",
+    "name": "HYUNDAI ACCENT IV (RB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10468",
+    "name": "HYUNDAI ACCENT IV Saloon (RB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3864",
+    "name": "HYUNDAI ACCENT Saloon (X-3)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3864/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-04-01",
+      "toDate": "2000-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38455",
+    "name": "HYUNDAI ACCENT V Hatchback (HC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38455/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38807",
+    "name": "HYUNDAI ACCENT V Saloon (HC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38807/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42138",
+    "name": "HYUNDAI ALCAZAR SUV (SU2LWB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42138/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3511",
+    "name": "HYUNDAI AMICA / ATOZ (MX)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3511/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36256",
+    "name": "HYUNDAI ASLAN",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36256/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42211",
+    "name": "HYUNDAI BAYON (BC3)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42211/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42892",
+    "name": "HYUNDAI CASPER (AX1)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42892/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38320",
+    "name": "HYUNDAI CHORUS II (GA17)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38320/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-03-01",
+      "toDate": "1998-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1575",
+    "name": "HYUNDAI COUPE I (RD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1575/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-05-01",
+      "toDate": "2002-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4849",
+    "name": "HYUNDAI COUPE II (GK)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4849/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-01-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36253",
+    "name": "HYUNDAI CRETA",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36253/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-01-01",
+      "toDate": "2021-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40545",
+    "name": "HYUNDAI CRETA (SU2_)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40545/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13377",
+    "name": "HYUNDAI DYNASTY",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13377/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-05-01",
+      "toDate": "2005-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37032",
+    "name": "HYUNDAI ELANTRA Estate",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37032/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2002-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4688",
+    "name": "HYUNDAI ELANTRA III (XD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4688/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-03-01",
+      "toDate": "2006-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "34822",
+    "name": "HYUNDAI ELANTRA IV Estate",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/34822/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-09-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7471",
+    "name": "HYUNDAI ELANTRA IV Saloon (HD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7471/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10704",
+    "name": "HYUNDAI ELANTRA V Coupe (JK)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10704/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36000",
+    "name": "HYUNDAI ELANTRA V Estate",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36000/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10165",
+    "name": "HYUNDAI ELANTRA V Saloon (MD, UD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10165/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36491",
+    "name": "HYUNDAI ELANTRA VI Saloon (AD, ADA)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36491/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40567",
+    "name": "HYUNDAI ELANTRA VII Saloon (CN7)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40567/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "32126",
+    "name": "HYUNDAI ENTOURAGE Mini Passenger Van",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/32126/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10007",
+    "name": "HYUNDAI EON",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10007/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6850",
+    "name": "HYUNDAI EQUUS / CENTENNIAL (JS)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6850/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-10-01",
+      "toDate": "2009-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9144",
+    "name": "HYUNDAI EQUUS / CENTENNIAL (VI)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9144/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36951",
+    "name": "HYUNDAI EXCEL Hatchback",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36951/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1995-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36952",
+    "name": "HYUNDAI EXCEL Saloon",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36952/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1995-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4942",
+    "name": "HYUNDAI GALLOPER I",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4942/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-08-01",
+      "toDate": "1998-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4694",
+    "name": "HYUNDAI GALLOPER II (JK-01)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4694/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-02-01",
+      "toDate": "2003-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9142",
+    "name": "HYUNDAI GENESIS (BH)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9142/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13121",
+    "name": "HYUNDAI GENESIS (DH)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13121/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9143",
+    "name": "HYUNDAI GENESIS Coupe",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9143/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4901",
+    "name": "HYUNDAI GETZ (TB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4901/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-06-01",
+      "toDate": "2011-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7472",
+    "name": "HYUNDAI GRACE Bus",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7472/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "2004-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10890",
+    "name": "HYUNDAI GRACE Van",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10890/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13375",
+    "name": "HYUNDAI GRAND AVEGA",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13375/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11508",
+    "name": "HYUNDAI GRAND SANTA FÉ",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11508/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7935",
+    "name": "HYUNDAI GRANDEUR",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7935/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-04-01",
+      "toDate": "1992-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9626",
+    "name": "HYUNDAI GRANDEUR (HG)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9626/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38100",
+    "name": "HYUNDAI GRANDEUR (IG)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38100/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14830",
+    "name": "HYUNDAI GRANDEUR (LX)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14830/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-08-01",
+      "toDate": "1999-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5485",
+    "name": "HYUNDAI GRANDEUR (TG)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5485/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-06-01",
+      "toDate": "2012-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1988",
+    "name": "HYUNDAI H-1 / STAREX Bus (A1)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1988/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6028",
+    "name": "HYUNDAI H-1 Platform/Chassis",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6028/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-06-01",
+      "toDate": "2006-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4623",
+    "name": "HYUNDAI H-1 Van (A1)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-10-01",
+      "toDate": "2008-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1941",
+    "name": "HYUNDAI H100 Bus (P)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1941/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "2004-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6851",
+    "name": "HYUNDAI H100 Platform/Chassis",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6851/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-05-01",
+      "toDate": "2001-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7640",
+    "name": "HYUNDAI H100 Platform/Chassis",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7640/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "1998-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10467",
+    "name": "HYUNDAI H100 Platform/Chassis (HR)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10467/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4001",
+    "name": "HYUNDAI H100 Van",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4001/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-07-01",
+      "toDate": "2007-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14148",
+    "name": "HYUNDAI H350 Bus",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14148/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14150",
+    "name": "HYUNDAI H350 Platform/Chassis",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14150/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14151",
+    "name": "HYUNDAI H350 Van",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14151/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11707",
+    "name": "HYUNDAI HB20",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11707/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40009",
+    "name": "HYUNDAI HB20 / HB20X (BR2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40009/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11708",
+    "name": "HYUNDAI HB20S Saloon",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11708/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40010",
+    "name": "HYUNDAI HB20S Saloon (BR2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40010/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4689",
+    "name": "HYUNDAI HIGHWAY VAN",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4689/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-03-01",
+      "toDate": "2004-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7368",
+    "name": "HYUNDAI i10 I (PA)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7368/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11774",
+    "name": "HYUNDAI i10 II (BA, IA)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11774/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40003",
+    "name": "HYUNDAI i10 II Cargo (BA, IA)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40003/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14488",
+    "name": "HYUNDAI i10 II Saloon",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14488/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40259",
+    "name": "HYUNDAI i10 III (AC3, AI3)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40259/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40417",
+    "name": "HYUNDAI i10 III Saloon (AI3)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40417/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36989",
+    "name": "HYUNDAI i20 ACTIVE (IB, GB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36989/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8009",
+    "name": "HYUNDAI i20 I (PB, PBT)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8009/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13362",
+    "name": "HYUNDAI i20 II (GB, IB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13362/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14317",
+    "name": "HYUNDAI i20 II Coupe (GB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14317/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39664",
+    "name": "HYUNDAI i20 II Hatchback Van (GB, IB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39664/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41340",
+    "name": "HYUNDAI i20 III (BC3, BI3)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41340/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6442",
+    "name": "HYUNDAI i30 (FD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6442/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": "2012-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10445",
+    "name": "HYUNDAI i30 (GD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10445/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37426",
+    "name": "HYUNDAI i30 (PDE, PD, PDEN)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37426/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11261",
+    "name": "HYUNDAI i30 Coupe",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11261/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6985",
+    "name": "HYUNDAI i30 Estate (FD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6985/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": "2012-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10736",
+    "name": "HYUNDAI i30 Estate (GD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10736/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37929",
+    "name": "HYUNDAI i30 Estate (PDE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37929/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38363",
+    "name": "HYUNDAI i30 FASTBACK (PDE, PDEN)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38363/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40141",
+    "name": "HYUNDAI i30 Hatchback Van (GDE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40141/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41034",
+    "name": "HYUNDAI i30 Hatchback Van (PDE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41034/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40140",
+    "name": "HYUNDAI i30 Kombi Van (GDE, GD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40140/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39665",
+    "name": "HYUNDAI i30 Kombi Van (PDE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39665/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10446",
+    "name": "HYUNDAI i40 I (VF)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10446/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-03-01",
+      "toDate": "2019-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9650",
+    "name": "HYUNDAI i40 I CW (VF)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9650/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-07-01",
+      "toDate": "2019-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40157",
+    "name": "HYUNDAI i40 I Kombi Van (VF)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40157/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-07-01",
+      "toDate": "2019-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8043",
+    "name": "HYUNDAI i800 Travel (TQ)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8043/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7377",
+    "name": "HYUNDAI iLOAD Cargo (TQ)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7377/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36715",
+    "name": "HYUNDAI IONIQ (AE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36715/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41919",
+    "name": "HYUNDAI IONIQ 5 (NE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41919/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9045",
+    "name": "HYUNDAI ix20 (JC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9045/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-11-01",
+      "toDate": "2019-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8260",
+    "name": "HYUNDAI ix35 (LM, EL, ELH)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8260/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41617",
+    "name": "HYUNDAI ix35 Van",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41617/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-08-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8056",
+    "name": "HYUNDAI ix55",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8056/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38087",
+    "name": "HYUNDAI KONA (OS, OSE, OSI)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38087/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41036",
+    "name": "HYUNDAI KONA SUV Van (OS, OSE, OSI)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41036/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1295",
+    "name": "HYUNDAI LANTRA   (J-1)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1295/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-10-01",
+      "toDate": "1995-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4687",
+    "name": "HYUNDAI LANTRA III Saloon (XD)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4687/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-03-01",
+      "toDate": "2006-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3484",
+    "name": "HYUNDAI LANTRA Mk II (J-2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3484/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-06-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1545",
+    "name": "HYUNDAI LANTRA Mk II Estate (J-2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1545/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-06-01",
+      "toDate": "2000-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13380",
+    "name": "HYUNDAI MARCIA",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13380/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-05-01",
+      "toDate": "1998-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4789",
+    "name": "HYUNDAI MATRIX (FC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4789/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-06-01",
+      "toDate": "2010-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38752",
+    "name": "HYUNDAI NEXO",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38752/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39252",
+    "name": "HYUNDAI PALISADE (LX2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39252/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4503",
+    "name": "HYUNDAI PONY",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4503/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-06-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2016",
+    "name": "HYUNDAI PONY (X-1)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2016/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-09-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1296",
+    "name": "HYUNDAI PONY (X-2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1296/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-10-01",
+      "toDate": "1995-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1297",
+    "name": "HYUNDAI PONY / EXCEL Saloon (X-2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1297/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-04-01",
+      "toDate": "1995-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2017",
+    "name": "HYUNDAI PONY Saloon (X-1)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2017/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-10-01",
+      "toDate": "1989-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4508",
+    "name": "HYUNDAI PONY Wagon",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4508/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-02-01",
+      "toDate": "1986-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7473",
+    "name": "HYUNDAI PORTER Bus",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7473/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "2004-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11593",
+    "name": "HYUNDAI PORTER Platform/Chassis",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11593/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7474",
+    "name": "HYUNDAI PORTER Platform/Chassis",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7474/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7475",
+    "name": "HYUNDAI PORTER Van",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7475/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "2004-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7476",
+    "name": "HYUNDAI PORTER Van",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7476/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39429",
+    "name": "HYUNDAI REINA (CB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39429/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1298",
+    "name": "HYUNDAI S COUPE (SLC)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1298/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-02-01",
+      "toDate": "1996-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42743",
+    "name": "HYUNDAI SANTA CRUZ (NX4A OB)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42743/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4712",
+    "name": "HYUNDAI SANTA FÉ I (SM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4712/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-11-01",
+      "toDate": "2006-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41623",
+    "name": "HYUNDAI SANTA FÉ I SUV Van (SM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2006-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5600",
+    "name": "HYUNDAI SANTA FÉ II (CM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5600/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": "2015-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41624",
+    "name": "HYUNDAI SANTA FÉ II SUV Van (CM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41624/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-10-01",
+      "toDate": "2015-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10515",
+    "name": "HYUNDAI SANTA FÉ III (DM, DMA)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10515/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41625",
+    "name": "HYUNDAI SANTA FÉ III SUV Van (DM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41625/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38591",
+    "name": "HYUNDAI SANTA FE IV (TM, TMA)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38591/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41039",
+    "name": "HYUNDAI SANTA FE IV SUV Van (TM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41039/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4740",
+    "name": "HYUNDAI SANTAMO",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4740/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39085",
+    "name": "HYUNDAI SANTRO (AH2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39085/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41038",
+    "name": "HYUNDAI SANTRO I",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41038/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-04-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38099",
+    "name": "HYUNDAI SOLARIS Saloon (HCR)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38099/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1299",
+    "name": "HYUNDAI SONATA   (Y-2)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1299/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1300",
+    "name": "HYUNDAI SONATA Mk II (Y-3)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1300/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-07-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3682",
+    "name": "HYUNDAI SONATA Mk III (EF)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3682/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5426",
+    "name": "HYUNDAI SONATA V (NF)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5426/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-08-01",
+      "toDate": "2014-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4847",
+    "name": "HYUNDAI SONATA VI (YF)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4847/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-06-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14965",
+    "name": "HYUNDAI SONATA VII (LF)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14965/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39857",
+    "name": "HYUNDAI SONATA VIII (DN8)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39857/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43375",
+    "name": "HYUNDAI STARGAZER (KS)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43375/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41997",
+    "name": "HYUNDAI STARIA Bus (US4)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41997/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42228",
+    "name": "HYUNDAI STARIA Van (US4)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42228/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "2018",
+    "name": "HYUNDAI STELLAR (F31_, SF2_)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2018/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-10-01",
+      "toDate": "1991-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41052",
+    "name": "HYUNDAI TERRACAN (HP)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41052/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-06-01",
+      "toDate": "2008-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4836",
+    "name": "HYUNDAI TERRACAN (HP)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4836/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-02-01",
+      "toDate": "2008-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11212",
+    "name": "HYUNDAI TIBURON Coupe",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11212/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-01-01",
+      "toDate": "2001-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7479",
+    "name": "HYUNDAI TIBURON Coupe",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7479/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-01-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4627",
+    "name": "HYUNDAI TRAJET (FO)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4627/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-01-01",
+      "toDate": "2008-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41626",
+    "name": "HYUNDAI TRAJET Box Body/MPV (FO)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41626/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-09-01",
+      "toDate": "2008-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5157",
+    "name": "HYUNDAI TUCSON (JM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5157/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41629",
+    "name": "HYUNDAI TUCSON (NX4E, NX4A)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41629/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14316",
+    "name": "HYUNDAI TUCSON (TL, TLE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14316/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41627",
+    "name": "HYUNDAI TUCSON SUV Van (JM)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41627/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-06-01",
+      "toDate": "2010-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41037",
+    "name": "HYUNDAI TUCSON SUV Van (TLE)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41037/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "9575",
+    "name": "HYUNDAI VELOSTER (FS)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9575/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-03-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38418",
+    "name": "HYUNDAI VELOSTER (JS, JSN)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38418/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39874",
+    "name": "HYUNDAI VENUE (QX, QXI)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39874/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7480",
+    "name": "HYUNDAI VISTO",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7480/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-11-01",
+      "toDate": "2000-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4096",
+    "name": "HYUNDAI XG (XG)",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4096/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-12-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35625",
+    "name": "HYUNDAI XG Saloon",
+    "manufacturerId": "183",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35625/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-09-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  }
+]

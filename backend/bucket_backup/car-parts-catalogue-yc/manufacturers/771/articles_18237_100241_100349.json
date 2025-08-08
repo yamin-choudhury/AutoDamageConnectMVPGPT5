@@ -1,0 +1,98 @@
+[
+  {
+    "id": "2606814",
+    "name": "Interior Blower",
+    "partNo": "309.356",
+    "manufacturer": "AHE",
+    "supplierId": "422",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "18237",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2606814/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2606814",
+      "Article Number:": "309.356",
+      "Manufacturer:": "AHE",
+      "OEM Numbers CHRYSLER:": "N6531003",
+      "OEM Numbers MASERATI:": "AY2727005432"
+    }
+  },
+  {
+    "id": "5139918",
+    "name": "Interior Blower",
+    "partNo": "9.2293",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "18237",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5139918/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5139918",
+      "Article Number:": "9.2293",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320844116",
+      "OEM Numbers MASERATI:": "673000088",
+      "OEM Numbers CHRYSLER:": "68037308AA",
+      "OEM Numbers ALFA ROMEO:": "K68037308AA",
+      "OEM Numbers FIAT:": "K68037308AA",
+      "OEM Numbers LANCIA:": "K68037308AA"
+    }
+  },
+  {
+    "id": "5139919",
+    "name": "Interior Blower",
+    "partNo": "9.2293",
+    "manufacturer": "KRIOS",
+    "supplierId": "4399",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "18237",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5139919/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5139919",
+      "Article Number:": "9.2293",
+      "Manufacturer:": "KRIOS",
+      "EAN Numbers:": "803320844116",
+      "OEM Numbers MASERATI:": "673000088",
+      "OEM Numbers CHRYSLER:": "68037308AA",
+      "OEM Numbers ALFA ROMEO:": "K68037308AA",
+      "OEM Numbers FIAT:": "K68037308AA",
+      "OEM Numbers LANCIA:": "K68037308AA"
+    }
+  },
+  {
+    "id": "5139917",
+    "name": "Interior Blower",
+    "partNo": "9.2293",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "18237",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5139917/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5139917",
+      "Article Number:": "9.2293",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320844116",
+      "OEM Numbers MASERATI:": "673000088",
+      "OEM Numbers CHRYSLER:": "68037308AA",
+      "OEM Numbers ALFA ROMEO:": "K68037308AA",
+      "OEM Numbers FIAT:": "K68037308AA",
+      "OEM Numbers LANCIA:": "K68037308AA"
+    }
+  }
+]

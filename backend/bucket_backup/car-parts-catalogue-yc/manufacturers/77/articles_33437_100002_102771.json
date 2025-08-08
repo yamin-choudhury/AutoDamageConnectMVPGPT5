@@ -1,0 +1,77 @@
+[
+  {
+    "id": "7293794",
+    "name": "Mounting, engine",
+    "partNo": "GOM-5068",
+    "manufacturer": "ASHIKA",
+    "supplierId": "257",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33437",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7293794/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "10",
+      "Outer diameter [mm]": "77",
+      "Overall Height [mm]": "232",
+      "Width 1 [mm]": "42,5",
+      "Article ID:": "7293794",
+      "Article Number:": "GOM-5068",
+      "Manufacturer:": "ASHIKA",
+      "EAN Numbers:": "803300190987",
+      "OEM Numbers MITSUBISHI:": "MN101573"
+    }
+  },
+  {
+    "id": "8900767",
+    "name": "Mounting, engine",
+    "partNo": "RU-5068",
+    "manufacturer": "JAPANPARTS",
+    "supplierId": "156",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33437",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8900767/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "10",
+      "Outer diameter [mm]": "77",
+      "Overall Height [mm]": "232",
+      "Width 1 [mm]": "42,5",
+      "Article ID:": "8900767",
+      "Article Number:": "RU-5068",
+      "Manufacturer:": "JAPANPARTS",
+      "EAN Numbers:": "803300190986",
+      "OEM Numbers MITSUBISHI:": "MN101573"
+    }
+  },
+  {
+    "id": "7290922",
+    "name": "Mounting, engine",
+    "partNo": "GOJ5068",
+    "manufacturer": "JAPKO",
+    "supplierId": "481",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "33437",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7290922/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "10",
+      "Outer diameter [mm]": "77",
+      "Overall Height [mm]": "232",
+      "Width 1 [mm]": "42,5",
+      "Article ID:": "7290922",
+      "Article Number:": "GOJ5068",
+      "Manufacturer:": "JAPKO",
+      "EAN Numbers:": "803300190988",
+      "OEM Numbers MITSUBISHI:": "MN101573"
+    }
+  }
+]

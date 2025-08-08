@@ -1,0 +1,63 @@
+[
+  {
+    "id": "7923108",
+    "name": "Radiator, engine cooling",
+    "partNo": "LRc 0803",
+    "manufacturer": "LUZAR",
+    "supplierId": "4707",
+    "productsId": "470",
+    "productGroupId": "100103",
+    "categoryId": "100007",
+    "variantId": "53666",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7923108/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cooling fins material": "Aluminium",
+      "Radiator type": "Brazed cooling fins",
+      "Water Tank Material (radiator)": "Polyamid 6.6",
+      "Core Length [mm]": "500",
+      "Core Width [mm]": "388",
+      "Core Depth [mm]": "16",
+      "Article ID:": "7923108",
+      "Article Number:": "LRc 0803",
+      "Manufacturer:": "LUZAR",
+      "EAN Numbers:": "468029518086",
+      "OEM Numbers HYUNDAI:": "25310-2V450"
+    }
+  },
+  {
+    "id": "7005498",
+    "name": "Cap, radiator",
+    "partNo": "FC68",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "548",
+    "productGroupId": "100103",
+    "categoryId": "100007",
+    "variantId": "53666",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7005498/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "43,0",
+      "Height [mm]": "12,0",
+      "Pressure [bar]": "1,0",
+      "Material": "Metal",
+      "Article ID:": "7005498",
+      "Article Number:": "FC68",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043806797",
+      "OEM Numbers CITROËN/PEUGEOT:": "16 096 801 80",
+      "OEM Numbers MITSUBISHI:": "MR968532",
+      "OEM Numbers SUZUKI:": "17570-52D00*",
+      "OEM Numbers HONDA:": "19045PMAE01",
+      "OEM Numbers NISSAN:": "21430D999C",
+      "OEM Numbers HYUNDAI:": "25330-B1000",
+      "OEM Numbers KIA:": "25330-B1000",
+      "OEM Numbers SUBARU:": "45137AE003",
+      "OEM Numbers ISUZU:": "8-97942-268-1",
+      "OEM Numbers MAZDA:": "VS0115205"
+    }
+  }
+]

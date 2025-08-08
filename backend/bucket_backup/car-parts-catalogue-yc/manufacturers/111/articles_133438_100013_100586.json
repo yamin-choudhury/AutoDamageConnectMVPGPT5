@@ -1,0 +1,71 @@
+[
+  {
+    "id": "9445381",
+    "name": "Mounting, axle beam",
+    "partNo": "TOSPB-035",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9445381/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "9445381",
+      "Article Number:": "TOSPB-035",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers TOYOTA:": "48725-12580"
+    }
+  },
+  {
+    "id": "7610617",
+    "name": "Mounting, axle beam",
+    "partNo": "J52016AYMT",
+    "manufacturer": "YAMATO",
+    "supplierId": "4468",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7610617/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Quantity per axle": "2",
+      "Inner diameter [mm]": "12,5",
+      "Article ID:": "7610617",
+      "Article Number:": "J52016AYMT",
+      "Manufacturer:": "YAMATO",
+      "EAN Numbers:": "590042755806",
+      "OEM Numbers TOYOTA:": "48725-02220"
+    }
+  },
+  {
+    "id": "7610617",
+    "name": "Mounting, axle beam",
+    "partNo": "J52016AYMT",
+    "manufacturer": "YAMATO",
+    "supplierId": "4468",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "133438",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7610617/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Quantity per axle": "2",
+      "Inner diameter [mm]": "12,5",
+      "Article ID:": "7610617",
+      "Article Number:": "J52016AYMT",
+      "Manufacturer:": "YAMATO",
+      "EAN Numbers:": "590042755806",
+      "OEM Numbers TOYOTA:": "48725-02220"
+    }
+  }
+]

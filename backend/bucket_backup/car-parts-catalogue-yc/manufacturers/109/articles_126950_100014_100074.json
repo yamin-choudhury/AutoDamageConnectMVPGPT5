@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4094895",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "613-624",
+    "manufacturer": "CIFAM",
+    "supplierId": "311",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "126950",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4094895/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "103",
+      "Thread Size": "M18 x 1,5",
+      "Material": "Elastomer",
+      "Inner diameter [mm]": "19,5",
+      "Outer diameter [mm]": "70",
+      "Article ID:": "4094895",
+      "Article Number:": "613-624",
+      "Manufacturer:": "CIFAM",
+      "EAN Numbers:": "803274719374",
+      "OEM Numbers NISSAN:": "39241-4A01B"
+    }
+  },
+  {
+    "id": "1232726",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "13-0624",
+    "manufacturer": "METELLI",
+    "supplierId": "121",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "126950",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1232726/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "103",
+      "Thread Size": "M18 x 1,5",
+      "Material": "Elastomer",
+      "Inner diameter [mm]": "19,5",
+      "Outer diameter [mm]": "70",
+      "Article ID:": "1232726",
+      "Article Number:": "13-0624",
+      "Manufacturer:": "METELLI",
+      "EAN Numbers:": "803274719375",
+      "OEM Numbers NISSAN:": "39241-4A01B"
+    }
+  }
+]

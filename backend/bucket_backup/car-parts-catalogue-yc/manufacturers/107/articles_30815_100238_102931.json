@@ -1,0 +1,50 @@
+[
+  {
+    "id": "9531899",
+    "name": "RPM Sensor, automatic transmission",
+    "partNo": "V24-72-0167",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "4113",
+    "productGroupId": "102931",
+    "categoryId": "100238",
+    "variantId": "30815",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9531899/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Supplementary Article/Info 2": "without cable",
+      "Article ID:": "9531899",
+      "Article Number:": "V24-72-0167",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "404600179871",
+      "OEM Numbers SUBARU:": "31937-KA060",
+      "OEM Numbers FIAT:": "9948811",
+      "OEM Numbers MITSUBISHI:": "G4T07571"
+    }
+  },
+  {
+    "id": "10158824",
+    "name": "RPM Sensor, automatic transmission",
+    "partNo": "WG2015611",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "4113",
+    "productGroupId": "102931",
+    "categoryId": "100238",
+    "variantId": "30815",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10158824/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of connectors": "3",
+      "Article ID:": "10158824",
+      "Article Number:": "WG2015611",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers SUBARU:": "31937KA060",
+      "OEM Numbers FIAT:": "9948811",
+      "OEM Numbers MITSUBISHI:": "G4T07571"
+    }
+  }
+]

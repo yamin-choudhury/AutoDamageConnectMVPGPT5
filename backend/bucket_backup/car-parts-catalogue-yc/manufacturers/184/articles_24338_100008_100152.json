@@ -1,0 +1,40 @@
+[
+  {
+    "id": "2316011",
+    "name": "Glow Plug",
+    "partNo": "26037",
+    "manufacturer": "BREMI",
+    "supplierId": "47",
+    "productsId": "243",
+    "productGroupId": "100152",
+    "categoryId": "100008",
+    "variantId": "24338",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2316011/model-series-id-6673/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "11",
+      "Cone Pitch": "120",
+      "Diameter [mm]": "5",
+      "Length [mm]": "84",
+      "Thread Size": "M10x1,25",
+      "Connecting thread": "M4x0,7",
+      "Spanner Size": "12mm",
+      "Current Strength [A]": "15",
+      "Glow Plug Design": "Pencil-type Glow Plug",
+      "Fitting Depth [mm]": "22",
+      "Tightening torque from [Nm]": "10",
+      "Tightening torque to [Nm]": "15",
+      "Article ID:": "2316011",
+      "Article Number:": "26037",
+      "Manufacturer:": "BREMI",
+      "EAN Numbers:": "401753417962",
+      "OEM Numbers KIA:": "0K75A-18-140",
+      "OEM Numbers NISSAN:": "11065-HA300",
+      "OEM Numbers SUZUKI:": "18550-78E11",
+      "OEM Numbers FORD:": "XM34-12A342-BA",
+      "OEM Numbers MITSUBISHI:": "MQ901659",
+      "OEM Numbers MAZDA:": "WL03-18-601"
+    }
+  }
+]

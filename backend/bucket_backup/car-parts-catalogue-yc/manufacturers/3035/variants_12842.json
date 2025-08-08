@@ -1,0 +1,114 @@
+[
+  {
+    "id": "58636",
+    "type": "1.4 GTI",
+    "modelId": "12842",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01\n                            \n                            2015-12-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106394",
+    "type": "1.4",
+    "modelId": "12842",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CLPA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-12-01\n                            \n                            2014-12-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106396",
+    "type": "1.6",
+    "modelId": "12842",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CPJA,CLSA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-12-01\n                            \n                            2014-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113655",
+    "type": "1.4 GTI",
+    "modelId": "12842",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113743",
+    "type": "1.4",
+    "modelId": "12842",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DAHA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-02-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113747",
+    "type": "1.6",
+    "modelId": "12842",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSRA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2014-02-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131896",
+    "type": "180",
+    "modelId": "12842",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DLXA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-05-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "17928",
+    "type": "116 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N45 B16 A",
+      "cylinder": "4",
+      "capacity": "1,596 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2007-09-01\n                            \n                            2011-12-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17931",
+    "type": "120 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 A,N47 D20 C",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-03-01\n                            \n                            2011-12-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18560",
+    "type": "130 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N52 B30 A,N52 B30 BF,N52 B30 B",
+      "cylinder": "6",
+      "capacity": "2,996 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2011-12-01",
+      "power": "195 KW / 265 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22953",
+    "type": "118 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N43 B20 A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2011-12-01",
+      "power": "105 KW / 143 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22954",
+    "type": "120 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N43 B20 A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-03-01\n                            \n                            2012-09-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22955",
+    "type": "118 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 A,N47 D20 C",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-09-01\n                            \n                            2011-12-01",
+      "power": "105 KW / 143 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22956",
+    "type": "120 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 A,N47 D20 C",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-03-01\n                            \n                            2011-12-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23432",
+    "type": "123 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 B,N47 D20 D",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-03-01\n                            \n                            2011-12-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25488",
+    "type": "116 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N43 B16 AA",
+      "cylinder": "4",
+      "capacity": "1,599 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2007-03-01\n                            \n                            2011-12-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30506",
+    "type": "120 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N46 B20 C,N46 B20 B",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-03-01\n                            \n                            2011-12-01",
+      "power": "115 KW / 156 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31671",
+    "type": "116 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N43 B20 A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-11-01\n                            \n                            2011-12-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31672",
+    "type": "116 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 A,N47 D20 C",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2008-11-01\n                            \n                            2011-12-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31673",
+    "type": "130 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N52 B30 A,N52 B30 BF,N52 B30 B",
+      "cylinder": "6",
+      "capacity": "2,996 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2011-12-01",
+      "power": "190 KW / 258 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32172",
+    "type": "118 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 A,N47 D20 C",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-09-01\n                            \n                            2011-12-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32173",
+    "type": "120 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N43 B20 A",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-03-01\n                            \n                            2011-12-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55945",
+    "type": "118 i",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N46 B20 B",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-09-01\n                            \n                            2011-12-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58963",
+    "type": "116 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 A,N47 D20 C",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-01-01\n                            \n                            2011-12-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124739",
+    "type": "120 d",
+    "modelId": "5114",
+    "manufacturerId": "16",
+    "url": "",
+    "specs": {
+      "engineCode": "N47 D20 A,N47 D20 C",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2007-03-01\n                            \n                            2011-12-01",
+      "power": "145 KW / 197 PS"
+    },
+    "categories": []
+  }
+]

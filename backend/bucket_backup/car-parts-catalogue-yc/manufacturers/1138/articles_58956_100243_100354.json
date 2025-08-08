@@ -1,0 +1,72 @@
+[
+  {
+    "id": "5735411",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCOSM0002",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "58956",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5735411/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5735411",
+      "Article Number:": "APCOSM0002",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers SMART:": "A1602300111"
+    }
+  },
+  {
+    "id": "5735410",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCOSM0002",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "58956",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5735410/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5735410",
+      "Article Number:": "APCOSM0002",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers SMART:": "A1602300111"
+    }
+  },
+  {
+    "id": "5044305",
+    "name": "Compressor, air conditioning",
+    "partNo": "8880120516",
+    "manufacturer": "WAECO",
+    "supplierId": "97",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "58956",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5044305/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "288",
+      "Quality": "OE",
+      "Manufacturer Restriction": "Sanden",
+      "Fastening Type": "Three-point mounting",
+      "Oil Fill Quantity [ml]": "120",
+      "Compressor ID": "SHS33 - 4155",
+      "Refrigerant": "R 134",
+      "Oil - manufacturer recommendation": "SPA2",
+      "Article ID:": "5044305",
+      "Article Number:": "8880120516",
+      "Manufacturer:": "WAECO",
+      "EAN Numbers:": "401570428722",
+      "OEM Numbers MERCEDES-BENZ:": "A003230511180"
+    }
+  }
+]

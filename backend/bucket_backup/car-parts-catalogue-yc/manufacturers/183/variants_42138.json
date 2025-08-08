@@ -1,0 +1,34 @@
+[
+  {
+    "id": "145336",
+    "type": "1.5 CRDi",
+    "modelId": "42138",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,493 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2021-06-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145337",
+    "type": "2.0 MPi",
+    "modelId": "42138",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-06-01",
+      "power": "117 KW / 159 PS"
+    },
+    "categories": []
+  }
+]

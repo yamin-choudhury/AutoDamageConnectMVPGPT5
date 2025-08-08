@@ -1,0 +1,103 @@
+[
+  {
+    "id": "181575",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "00973700",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "134484",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/181575/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "14,5",
+      "Length [mm]": "77",
+      "Width [mm]": "60",
+      "Article ID:": "181575",
+      "Article Number:": "00973700",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776969333",
+      "OEM Numbers CITROËN:": "1712.C6",
+      "OEM Numbers TOYOTA:": "17451-0R010",
+      "OEM Numbers SCION:": "17451-74040",
+      "OEM Numbers SUBARU:": "44022AA123"
+    }
+  },
+  {
+    "id": "4445713",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "720-909",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "134484",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4445713/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Inlet",
+      "Article ID:": "4445713",
+      "Article Number:": "720-909",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513321574",
+      "OEM Numbers SUBARU:": "44022AA020",
+      "OEM Numbers TOYOTA:": "SU00301111"
+    }
+  },
+  {
+    "id": "4378281",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "70U7001-JPN",
+    "manufacturer": "JPN",
+    "supplierId": "6985",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "134484",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4378281/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "1,5",
+      "Length [mm]": "135",
+      "Width [mm]": "90",
+      "Article ID:": "4378281",
+      "Article Number:": "70U7001-JPN",
+      "Manufacturer:": "JPN",
+      "OEM Numbers SUBARU:": "44022AA160"
+    }
+  },
+  {
+    "id": "9752401",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1158452",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "134484",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9752401/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "14,5",
+      "Length [mm]": "77",
+      "Width [mm]": "60",
+      "Article ID:": "9752401",
+      "Article Number:": "WG1158452",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers CITROËN/PEUGEOT:": "1712.C6",
+      "OEM Numbers TOYOTA:": "174510R010",
+      "OEM Numbers SCION:": "1745174040",
+      "OEM Numbers SUBARU:": "44022AA123"
+    }
+  }
+]

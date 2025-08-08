@@ -1,0 +1,79 @@
+[
+  {
+    "id": "10449223",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.014.88",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "39456",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449223/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "45,5",
+      "Thread Size": "M14",
+      "Quality/ Grade": "10.9",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "51,5",
+      "Article ID:": "10449223",
+      "Article Number:": "ZM 30.014.88",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268407784",
+      "OEM Numbers KIA:": "OK 672226113-B"
+    }
+  },
+  {
+    "id": "10449224",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.014.89",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "39456",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449224/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "45,5",
+      "Thread Size": "M14",
+      "Quality/ Grade": "10.9",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "51,5",
+      "Article ID:": "10449224",
+      "Article Number:": "ZM 30.014.89",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268407785",
+      "OEM Numbers KIA:": "OK 672226113-B"
+    }
+  },
+  {
+    "id": "10449001",
+    "name": "Wheel Nut",
+    "partNo": "ZM 29.014.89",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "658",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "39456",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449001/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "19",
+      "Thread Size": "M14",
+      "Spanner Size": "22",
+      "Thread Pitch [mm]": "1,5",
+      "Article ID:": "10449001",
+      "Article Number:": "ZM 29.014.89",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268408766",
+      "OEM Numbers KIA:": "621 26 161"
+    }
+  }
+]

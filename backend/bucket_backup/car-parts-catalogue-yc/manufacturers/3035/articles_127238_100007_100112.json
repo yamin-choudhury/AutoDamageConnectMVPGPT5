@@ -1,0 +1,60 @@
+[
+  {
+    "id": "877768",
+    "name": "Cap, coolant tank",
+    "partNo": "103522",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "127238",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/877768/model-series-id-37771/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,062",
+      "Material": "Plastic",
+      "Opening Pressure [bar]": "1,6",
+      "Article ID:": "877768",
+      "Article Number:": "103522",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422403522",
+      "OEM Numbers AUDI:": "5Q0 121 321",
+      "OEM Numbers SEAT:": "5Q0 121 321",
+      "OEM Numbers SKODA:": "5Q0 121 321",
+      "OEM Numbers VW:": "5Q0 121 321",
+      "OEM Numbers VW (SVW):": "2Q0 121 321 A",
+      "OEM Numbers CUPRA:": "2Q0 121 321 A"
+    }
+  },
+  {
+    "id": "2523868",
+    "name": "Cap, coolant tank",
+    "partNo": "30 10 3522",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "127238",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2523868/model-series-id-37771/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,062",
+      "Material": "Plastic",
+      "Opening Pressure [bar]": "1,6",
+      "Article ID:": "2523868",
+      "Article Number:": "30 10 3522",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422803522",
+      "OEM Numbers AUDI:": "5Q0 121 321",
+      "OEM Numbers SEAT:": "5Q0 121 321",
+      "OEM Numbers SKODA:": "5Q0 121 321",
+      "OEM Numbers VW:": "5Q0 121 321",
+      "OEM Numbers VW (SVW):": "2Q0 121 321 A",
+      "OEM Numbers CUPRA:": "2Q0 121 321 A"
+    }
+  }
+]

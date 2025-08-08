@@ -1,0 +1,82 @@
+[
+  {
+    "id": "144397",
+    "type": "EV",
+    "modelId": "41986",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "AM67",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-07-01",
+      "power": "160 KW / 218 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144398",
+    "type": "EV",
+    "modelId": "41986",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "AM67",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-07-01",
+      "power": "178 KW / 242 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144399",
+    "type": "EV e-4ORCE",
+    "modelId": "41986",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "AM67",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-07-01",
+      "power": "205 KW / 279 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144400",
+    "type": "EV e-4ORCE",
+    "modelId": "41986",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "AM67",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-07-01",
+      "power": "225 KW / 306 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144403",
+    "type": "EV e-4ORCE",
+    "modelId": "41986",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "AM67",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-07-01",
+      "power": "290 KW / 394 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "5672919",
+    "name": "Starter Battery",
+    "partNo": "AGM079E",
+    "manufacturer": "PLATINUM",
+    "supplierId": "4338",
+    "productsId": "1",
+    "productGroupId": "100042",
+    "categoryId": "100010",
+    "variantId": "142342",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5672919/model-series-id-41372/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Hold-down Type": "B13",
+      "Voltage [V]": "12",
+      "Cold-test Current, EN [A]": "540",
+      "Battery Capacity [Ah]": "50",
+      "Post Positions": "0",
+      "Length [mm]": "207",
+      "Width [mm]": "175",
+      "Height [mm]": "190",
+      "Weight [kg]": "15,9",
+      "Height 1 [mm]": "190",
+      "Vehicle Equipment": "for vehicles with start-stop function",
+      "Terminal Type": "T1",
+      "Article ID:": "5672919",
+      "Article Number:": "AGM079E",
+      "Manufacturer:": "PLATINUM",
+      "EAN Numbers:": "506004380420",
+      "OEM Numbers BMW:": "61219878488",
+      "OEM Numbers HYUNDAI:": "AGM50L-DIN"
+    }
+  }
+]

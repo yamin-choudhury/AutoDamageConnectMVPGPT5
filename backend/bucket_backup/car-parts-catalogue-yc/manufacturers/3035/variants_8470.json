@@ -1,0 +1,66 @@
+[
+  {
+    "id": "9134",
+    "type": "1.6",
+    "modelId": "8470",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CMR",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2010-07-01\n                            \n                            2012-12-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32654",
+    "type": "1.8",
+    "modelId": "8470",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BKT,BKU,CKZA",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2014-12-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32655",
+    "type": "2.0",
+    "modelId": "8470",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BTL",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2012-12-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123270",
+    "type": "1.8 CNG",
+    "modelId": "8470",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BKT,CKZA",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2008-01-01\n                            \n                            2014-12-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  }
+]

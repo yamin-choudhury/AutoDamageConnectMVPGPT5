@@ -1,0 +1,96 @@
+[
+  {
+    "id": "2365734",
+    "name": "Axle Beam",
+    "partNo": "2736,285,1",
+    "manufacturer": "BINDER",
+    "supplierId": "4202",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "23397",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2365734/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Trim Level": "Schaltgetriebe",
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2365734",
+      "Article Number:": "2736,285,1",
+      "Manufacturer:": "BINDER",
+      "EAN Numbers:": "0571427030740",
+      "OEM Numbers FORD:": "1758710",
+      "OEM Numbers MAZDA:": "D65134800B"
+    }
+  },
+  {
+    "id": "2365735",
+    "name": "Axle Beam",
+    "partNo": "2736,286,1",
+    "manufacturer": "BINDER",
+    "supplierId": "4202",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "23397",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2365735/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2365735",
+      "Article Number:": "2736,286,1",
+      "Manufacturer:": "BINDER",
+      "EAN Numbers:": "0571427030742",
+      "OEM Numbers FORD:": "1554595",
+      "OEM Numbers MAZDA:": "DR6128B00A"
+    }
+  },
+  {
+    "id": "3859317",
+    "name": "Axle Beam",
+    "partNo": "5605419",
+    "manufacturer": "DIEDERICHS",
+    "supplierId": "253",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "23397",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3859317/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Supplementary Article/Supplementary Info": "with bearing bush",
+      "Article ID:": "3859317",
+      "Article Number:": "5605419",
+      "Manufacturer:": "DIEDERICHS",
+      "EAN Numbers:": "405235573494",
+      "OEM Numbers FORD:": "8V515K952CK",
+      "OEM Numbers MAZDA:": "DR6128B00A"
+    }
+  },
+  {
+    "id": "2850676",
+    "name": "Axle Beam",
+    "partNo": "3421007",
+    "manufacturer": "KLOKKERHOLM",
+    "supplierId": "78",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "23397",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2850676/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Supplementary Article/Supplementary Info": "with bush",
+      "Article ID:": "2850676",
+      "Article Number:": "3421007",
+      "Manufacturer:": "KLOKKERHOLM",
+      "EAN Numbers:": "571427037180",
+      "OEM Numbers MAZDA:": "DR6128B00A"
+    }
+  }
+]

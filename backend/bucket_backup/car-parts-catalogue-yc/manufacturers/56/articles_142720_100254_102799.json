@@ -1,0 +1,78 @@
+[
+  {
+    "id": "4573332",
+    "name": "Seal Kit, injector nozzle",
+    "partNo": "77008500",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3894",
+    "productGroupId": "102799",
+    "categoryId": "100254",
+    "variantId": "142720",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4573332/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "06M906036S",
+      "Number of sealing rings": "3",
+      "Article ID:": "4573332",
+      "Article Number:": "77008500",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357737919",
+      "OEM Numbers AUDI:": "06J998907D",
+      "OEM Numbers SEAT:": "06J998907D",
+      "OEM Numbers RENAULT:": "166183259R",
+      "OEM Numbers CITROËN:": "1981.74"
+    }
+  },
+  {
+    "id": "3959542",
+    "name": "Seal Kit, injector nozzle",
+    "partNo": "596-1006",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "3894",
+    "productGroupId": "102799",
+    "categoryId": "100254",
+    "variantId": "142720",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3959542/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "06M906036S",
+      "Number of sealing rings": "3",
+      "Article ID:": "3959542",
+      "Article Number:": "596-1006",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "571047635961",
+      "OEM Numbers AUDI:": "06J998907D",
+      "OEM Numbers SEAT:": "06J998907D",
+      "OEM Numbers RENAULT:": "166183259R",
+      "OEM Numbers CITROËN:": "1981.74"
+    }
+  },
+  {
+    "id": "10211085",
+    "name": "Seal Kit, injector nozzle",
+    "partNo": "WG2083679",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "3894",
+    "productGroupId": "102799",
+    "categoryId": "100254",
+    "variantId": "142720",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10211085/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "06M906036S",
+      "Number of sealing rings": "3",
+      "Article ID:": "10211085",
+      "Article Number:": "WG2083679",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "06J 998 907 D",
+      "OEM Numbers RENAULT:": "166183259R",
+      "OEM Numbers CITROËN/PEUGEOT:": "1981.74"
+    }
+  }
+]

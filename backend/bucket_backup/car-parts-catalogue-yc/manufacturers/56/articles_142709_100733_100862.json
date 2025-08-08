@@ -1,0 +1,96 @@
+[
+  {
+    "id": "7431357",
+    "name": "Gas Spring, tray (boot/cargo bay)",
+    "partNo": "H301086",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "5029",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7431357/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Operating Mode": "Electric",
+      "Vehicle Equipment": "for vehicles with automatically opening tailgate",
+      "Article ID:": "7431357",
+      "Article Number:": "H301086",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers JAGUAR:": "T4A34990"
+    }
+  },
+  {
+    "id": "2562292",
+    "name": "Gas Spring, tray (boot/cargo bay)",
+    "partNo": "301086",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "5029",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2562292/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Operating Mode": "Electric",
+      "Vehicle Equipment": "for vehicles with automatically opening tailgate",
+      "Article ID:": "2562292",
+      "Article Number:": "301086",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers JAGUAR:": "T4A34990"
+    }
+  },
+  {
+    "id": "5641810",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "AE-JG-000",
+    "manufacturer": "NTY",
+    "supplierId": "6355",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5641810/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Operating Mode": "Electric",
+      "Vehicle Equipment": "for vehicles with automatically opening tailgate",
+      "Article ID:": "5641810",
+      "Article Number:": "AE-JG-000",
+      "Manufacturer:": "NTY",
+      "EAN Numbers:": "590204818102",
+      "OEM Numbers JAGUAR:": "T4A34990"
+    }
+  },
+  {
+    "id": "2332320",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "266516",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2332320/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "639",
+      "Stroke [mm]": "181",
+      "Eject Force [N]": "570",
+      "Article ID:": "2332320",
+      "Article Number:": "266516",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657799781",
+      "OEM Numbers JAGUAR:": "T4A1146"
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "5639421",
+    "name": "Clutch Kit",
+    "partNo": "ADV183050",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "129281",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5639421/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "038 141 032 E S1",
+      "Number of Teeth": "28",
+      "Weight [kg]": "4,48",
+      "Outer diameter [mm]": "226",
+      "Supplementary Article/Supplementary Info": "with synthetic grease",
+      "Supplementary Article/Info 2": "with clutch release bearing",
+      "Multi-piece": "three-piece",
+      "Article ID:": "5639421",
+      "Article Number:": "ADV183050",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006330290",
+      "OEM Numbers AUDI:": "2A 141 165 G S11",
+      "OEM Numbers SEAT:": "038 141 032 E S1",
+      "OEM Numbers VW:": "038 141 032 E S1",
+      "OEM Numbers SKODA:": "038 141 032 E S1",
+      "OEM Numbers VW (FAW):": "02A 141 165 M S1"
+    }
+  },
+  {
+    "id": "1543060",
+    "name": "Clutch Kit",
+    "partNo": "16803",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "129281",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1543060/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "28",
+      "Diameter [mm]": "228",
+      "Article ID:": "1543060",
+      "Article Number:": "16803",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509316803",
+      "OEM Numbers VW:": "038 141 032"
+    }
+  }
+]

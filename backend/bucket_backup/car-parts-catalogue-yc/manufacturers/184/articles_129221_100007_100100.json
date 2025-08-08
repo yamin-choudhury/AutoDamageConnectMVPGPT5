@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2663243",
+    "name": "Radiator Hose",
+    "partNo": "31314",
+    "manufacturer": "NIFEA",
+    "supplierId": "5470",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "129221",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2663243/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Lower",
+      "Quantity Unit": "Piece",
+      "Weight [g]": "475",
+      "Material, 1st layer": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Material, 2nd layer": "Polyester",
+      "Material, 3rd layer": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "2663243",
+      "Article Number:": "31314",
+      "Manufacturer:": "NIFEA",
+      "EAN Numbers:": "869866931314",
+      "OEM Numbers KIA:": "254124E250"
+    }
+  },
+  {
+    "id": "2663492",
+    "name": "Radiator Hose",
+    "partNo": "31319",
+    "manufacturer": "NIFEA",
+    "supplierId": "5470",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "129221",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2663492/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Upper",
+      "Quantity Unit": "Piece",
+      "Weight [g]": "195",
+      "Material, 1st layer": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Material, 2nd layer": "Polyester",
+      "Material, 3rd layer": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "2663492",
+      "Article Number:": "31319",
+      "Manufacturer:": "NIFEA",
+      "EAN Numbers:": "869866931319",
+      "OEM Numbers KIA:": "254114E200"
+    }
+  }
+]

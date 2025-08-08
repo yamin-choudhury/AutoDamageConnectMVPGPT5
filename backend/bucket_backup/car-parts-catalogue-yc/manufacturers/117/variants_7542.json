@@ -1,0 +1,82 @@
+[
+  {
+    "id": "27595",
+    "type": "1.0 12V",
+    "modelId": "7542",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B",
+      "cylinder": "3",
+      "capacity": "996 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2014-11-01",
+      "power": "48 KW / 65 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "27596",
+    "type": "1.2 i 16V",
+    "modelId": "7542",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "K12B",
+      "cylinder": "4",
+      "capacity": "1,242 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2014-11-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "27597",
+    "type": "1.3 CDTI",
+    "modelId": "7542",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "Z 13 DTJ,D13A",
+      "cylinder": "4",
+      "capacity": "1,248 CCM / 1.3 L",
+      "fuelType": "Diesel",
+      "year": "2008-01-01\n                            \n                            2014-11-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34878",
+    "type": "1.2 i 16V",
+    "modelId": "7542",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "K12B",
+      "cylinder": "4",
+      "capacity": "1,242 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2014-11-01",
+      "power": "69 KW / 94 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55294",
+    "type": "1.0 i",
+    "modelId": "7542",
+    "manufacturerId": "117",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B",
+      "cylinder": "3",
+      "capacity": "996 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-08-01\n                            \n                            2014-11-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  }
+]

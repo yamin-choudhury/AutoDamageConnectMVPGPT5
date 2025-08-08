@@ -1,0 +1,18 @@
+[
+  {
+    "id": "107857",
+    "type": "1.0 (AVK310)",
+    "modelId": "13151",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B,K10C",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-03-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  }
+]

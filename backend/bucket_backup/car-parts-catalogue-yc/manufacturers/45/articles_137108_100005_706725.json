@@ -1,0 +1,60 @@
+[
+  {
+    "id": "5606633",
+    "name": "Hydraulic Filter, automatic transmission",
+    "partNo": "ADBP210101",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "416",
+    "productGroupId": "706725",
+    "categoryId": "100005",
+    "variantId": "137108",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5606633/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "inner",
+      "Height [mm]": "52",
+      "Weight [kg]": "0,035",
+      "Outer diameter [mm]": "44",
+      "Filter type": "Filter Insert",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Gasket inner diameter": "48,9",
+      "Gasket outer diameter": "54,14",
+      "Article ID:": "5606633",
+      "Article Number:": "ADBP210101",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774630211",
+      "OEM Numbers HONDA:": "25450-P4V-013"
+    }
+  },
+  {
+    "id": "1611322",
+    "name": "Hydraulic Filter, automatic transmission",
+    "partNo": "177696",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "416",
+    "productGroupId": "706725",
+    "categoryId": "100005",
+    "variantId": "137108",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1611322/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "inner",
+      "Height [mm]": "52",
+      "Weight [kg]": "0,035",
+      "Outer diameter [mm]": "44",
+      "Filter type": "Filter Insert",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Gasket inner diameter": "48,9",
+      "Gasket outer diameter": "54,14",
+      "Article ID:": "1611322",
+      "Article Number:": "177696",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422477696",
+      "OEM Numbers HONDA:": "25450-P4V-013"
+    }
+  }
+]

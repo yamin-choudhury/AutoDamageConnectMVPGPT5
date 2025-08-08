@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2721326",
+    "name": "Clutch Disc",
+    "partNo": "321 0025 11",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "262",
+    "productGroupId": "100053",
+    "categoryId": "100050",
+    "variantId": "24065",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2721326/model-series-id-5728/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "24",
+      "Diameter [mm]": "210",
+      "Technical Information Number": "TSFV",
+      "Article ID:": "2721326",
+      "Article Number:": "321 0025 11",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510802083",
+      "OEM Numbers VW:": "06A141031",
+      "OEM Numbers VW (FAW):": "06A141032E"
+    }
+  },
+  {
+    "id": "507983",
+    "name": "Clutch Disc",
+    "partNo": "05594",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "262",
+    "productGroupId": "100053",
+    "categoryId": "100050",
+    "variantId": "24065",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/507983/model-series-id-5728/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "24",
+      "Outer diameter [mm]": "210",
+      "Article ID:": "507983",
+      "Article Number:": "05594",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357305594",
+      "OEM Numbers VAG:": "06A 141 032 A"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "257556",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01518100",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/257556/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,3",
+      "Inner diameter [mm]": "97",
+      "Outer diameter [mm]": "138",
+      "Article ID:": "257556",
+      "Article Number:": "01518100",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357731778",
+      "OEM Numbers NISSAN:": "20692-24U0A"
+    }
+  },
+  {
+    "id": "1714482",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "19003800",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1714482/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "4",
+      "Charge Type": "Exhaust Turbocharger",
+      "Inner diameter [mm]": "60",
+      "Outer diameter [mm]": "69",
+      "Article ID:": "1714482",
+      "Article Number:": "19003800",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776943162",
+      "OEM Numbers HONDA:": "18212-SA0-003",
+      "OEM Numbers ACURA:": "18212-SA5-004",
+      "OEM Numbers INFINITI:": "20691-19U00",
+      "OEM Numbers VOLVO:": "30684322-0"
+    }
+  }
+]

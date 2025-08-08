@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1431961",
+    "name": "Brake Shoe Set",
+    "partNo": "153-633",
+    "manufacturer": "CIFAM",
+    "supplierId": "311",
+    "productsId": "70",
+    "productGroupId": "100031",
+    "categoryId": "100006",
+    "variantId": "131337",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1431961/model-series-id-38730/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "200,0",
+      "Article ID:": "1431961",
+      "Article Number:": "153-633",
+      "Manufacturer:": "CIFAM",
+      "EAN Numbers:": "803274715246",
+      "OEM Numbers SUZUKI:": "53200-68L01"
+    }
+  },
+  {
+    "id": "1017214",
+    "name": "Brake Shoe Set",
+    "partNo": "1111.256",
+    "manufacturer": "fri.tech.",
+    "supplierId": "295",
+    "productsId": "70",
+    "productGroupId": "100031",
+    "categoryId": "100006",
+    "variantId": "131337",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1017214/model-series-id-38730/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "200,0",
+      "Article ID:": "1017214",
+      "Article Number:": "1111.256",
+      "Manufacturer:": "fri.tech.",
+      "EAN Numbers:": "803274701933",
+      "OEM Numbers SUZUKI:": "53200-68L01"
+    }
+  },
+  {
+    "id": "3715682",
+    "name": "Brake Shoe Set",
+    "partNo": "53-0633",
+    "manufacturer": "METELLI",
+    "supplierId": "121",
+    "productsId": "70",
+    "productGroupId": "100031",
+    "categoryId": "100006",
+    "variantId": "131337",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3715682/model-series-id-38730/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "200,0",
+      "Article ID:": "3715682",
+      "Article Number:": "53-0633",
+      "Manufacturer:": "METELLI",
+      "EAN Numbers:": "803274715247",
+      "OEM Numbers SUZUKI:": "53200-68L01"
+    }
+  },
+  {
+    "id": "1014302",
+    "name": "Brake Shoe Set",
+    "partNo": "111.256",
+    "manufacturer": "TRUSTING",
+    "supplierId": "199",
+    "productsId": "70",
+    "productGroupId": "100031",
+    "categoryId": "100006",
+    "variantId": "131337",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1014302/model-series-id-38730/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "200,0",
+      "Article ID:": "1014302",
+      "Article Number:": "111.256",
+      "Manufacturer:": "TRUSTING",
+      "EAN Numbers:": "803274740911",
+      "OEM Numbers SUZUKI:": "53200-68L01"
+    }
+  }
+]

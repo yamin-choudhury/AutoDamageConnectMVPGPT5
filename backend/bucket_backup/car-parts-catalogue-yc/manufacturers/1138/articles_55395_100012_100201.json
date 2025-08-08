@@ -1,0 +1,123 @@
+[
+  {
+    "id": "2995411",
+    "name": "Bellow, steering",
+    "partNo": "37570 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55395",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2995411/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "181",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "14",
+      "Inner diameter 2 [mm]": "51",
+      "Article ID:": "2995411",
+      "Article Number:": "37570 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743742947",
+      "OEM Numbers SMART:": "A 451 460 01 96"
+    }
+  },
+  {
+    "id": "669899",
+    "name": "Bellow Kit, steering",
+    "partNo": "0905339",
+    "manufacturer": "OCAP",
+    "supplierId": "198",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55395",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/669899/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Inner diameter 1 [mm]": "15",
+      "Inner diameter 2 [mm]": "50",
+      "Article ID:": "669899",
+      "Article Number:": "0905339",
+      "Manufacturer:": "OCAP",
+      "EAN Numbers:": "805468210333",
+      "OEM Numbers SMART:": "4514600096"
+    }
+  },
+  {
+    "id": "2985944",
+    "name": "Bellow, steering",
+    "partNo": "371.035",
+    "manufacturer": "SIDEM",
+    "supplierId": "135",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55395",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2985944/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "215",
+      "Inner diameter 1 [mm]": "13",
+      "Inner diameter 2 [mm]": "49",
+      "Article ID:": "2985944",
+      "Article Number:": "371.035",
+      "Manufacturer:": "SIDEM",
+      "EAN Numbers:": "541397826196",
+      "OEM Numbers SMART:": "5376V001000000"
+    }
+  },
+  {
+    "id": "4894498",
+    "name": "Bellow Kit, steering",
+    "partNo": "8500 23002",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55395",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4894498/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "215",
+      "Required quantity": "1",
+      "Inner diameter 1 [mm]": "13",
+      "Inner diameter 2 [mm]": "49",
+      "Article ID:": "4894498",
+      "Article Number:": "8500 23002",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "571047600127",
+      "OEM Numbers SMART:": "451 460 00 96"
+    }
+  },
+  {
+    "id": "2628291",
+    "name": "Bellow, steering",
+    "partNo": "310484H",
+    "manufacturer": "UNIGOM",
+    "supplierId": "4730",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55395",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2628291/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Article ID:": "2628291",
+      "Article Number:": "310484H",
+      "Manufacturer:": "UNIGOM",
+      "OEM Numbers SMART:": "A4514600196"
+    }
+  }
+]

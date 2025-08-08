@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1608825",
+    "name": "Switch, rear hatch release",
+    "partNo": "177079",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "5883",
+    "productGroupId": "104155",
+    "categoryId": "100335",
+    "variantId": "118841",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1608825/model-series-id-9881/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,070",
+      "Number of connectors": "2",
+      "Article ID:": "1608825",
+      "Article Number:": "177079",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422477079",
+      "OEM Numbers AUDI:": "5ND 827 566 B",
+      "OEM Numbers SEAT:": "5ND 827 566 B",
+      "OEM Numbers SKODA:": "5ND 827 566 B",
+      "OEM Numbers VW:": "5ND 827 566 B",
+      "OEM Numbers SKODA (SVW):": "5ND 827 566 B",
+      "OEM Numbers VW (SVW):": "5ND 827 566 B"
+    }
+  },
+  {
+    "id": "2765049",
+    "name": "Switch, rear hatch release",
+    "partNo": "33 10 3884",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "5883",
+    "productGroupId": "104155",
+    "categoryId": "100335",
+    "variantId": "118841",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2765049/model-series-id-9881/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,070",
+      "Number of connectors": "2",
+      "Article ID:": "2765049",
+      "Article Number:": "33 10 3884",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422877079",
+      "OEM Numbers AUDI:": "5ND 827 566 B",
+      "OEM Numbers SEAT:": "5ND 827 566 B",
+      "OEM Numbers SKODA:": "5ND 827 566 B",
+      "OEM Numbers VW:": "5ND 827 566 B",
+      "OEM Numbers SKODA (SVW):": "5ND 827 566 B",
+      "OEM Numbers VW (SVW):": "5ND 827 566 B"
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "799356",
+    "name": "Actuator, air conditioning",
+    "partNo": "10.7100",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "147493",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/799356/model-series-id-42681/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "799356",
+      "Article Number:": "10.7100",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320846653",
+      "OEM Numbers AUDI:": "5Q0907511L",
+      "OEM Numbers SEAT:": "5Q0907511L",
+      "OEM Numbers SKODA:": "5Q0907511L",
+      "OEM Numbers VW:": "5Q0907511L",
+      "OEM Numbers VAG:": "5Q0907511L"
+    }
+  },
+  {
+    "id": "799357",
+    "name": "Actuator, air conditioning",
+    "partNo": "10.7100",
+    "manufacturer": "KRIOS",
+    "supplierId": "4399",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "147493",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/799357/model-series-id-42681/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "799357",
+      "Article Number:": "10.7100",
+      "Manufacturer:": "KRIOS",
+      "EAN Numbers:": "803320846653",
+      "OEM Numbers AUDI:": "5Q0907511L",
+      "OEM Numbers SEAT:": "5Q0907511L",
+      "OEM Numbers SKODA:": "5Q0907511L",
+      "OEM Numbers VW:": "5Q0907511L",
+      "OEM Numbers VAG:": "5Q0907511L"
+    }
+  },
+  {
+    "id": "799353",
+    "name": "Actuator, air conditioning",
+    "partNo": "10.7100",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "147493",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/799353/model-series-id-42681/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "799353",
+      "Article Number:": "10.7100",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320846653",
+      "OEM Numbers AUDI:": "5Q0907511L",
+      "OEM Numbers SEAT:": "5Q0907511L",
+      "OEM Numbers SKODA:": "5Q0907511L",
+      "OEM Numbers VW:": "5Q0907511L",
+      "OEM Numbers VAG:": "5Q0907511L"
+    }
+  }
+]

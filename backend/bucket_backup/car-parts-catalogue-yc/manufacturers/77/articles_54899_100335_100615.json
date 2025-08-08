@@ -1,0 +1,35 @@
+[
+  {
+    "id": "4296230",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "6DD 008 622-891",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "54899",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4296230/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M10x1,25",
+      "Operating Mode": "Electric",
+      "Mounting Type": "Bolted",
+      "Number of pins": "2",
+      "Combi Switch Function": "Normally Open Contact",
+      "Article ID:": "4296230",
+      "Article Number:": "6DD 008 622-891",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230040686",
+      "OEM Numbers CITROËN:": "B000552180",
+      "OEM Numbers PEUGEOT:": "B000552180",
+      "OEM Numbers TOYOTA:": "84522-52010",
+      "OEM Numbers DAIHATSU:": "8452042010",
+      "OEM Numbers SUBARU:": "8452042010",
+      "OEM Numbers LEXUS:": "8452042010",
+      "OEM Numbers ASTON MARTIN:": "8452042010",
+      "OEM Numbers MITSUBISHI:": "8606A025"
+    }
+  }
+]

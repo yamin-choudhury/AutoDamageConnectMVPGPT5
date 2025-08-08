@@ -1,0 +1,96 @@
+[
+  {
+    "id": "220578",
+    "name": "Seal, EGR valve",
+    "partNo": "01053300",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3507",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "17473",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/220578/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,8",
+      "Length [mm]": "79",
+      "Width [mm]": "79",
+      "Article ID:": "220578",
+      "Article Number:": "01053300",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776973346",
+      "OEM Numbers ROVER:": "ERR6620"
+    }
+  },
+  {
+    "id": "220569",
+    "name": "Gasket, EGR valve pipe",
+    "partNo": "01053100",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "4180",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "17473",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/220569/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,35",
+      "Length [mm]": "92",
+      "Width [mm]": "74",
+      "Article ID:": "220569",
+      "Article Number:": "01053100",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776973344",
+      "OEM Numbers ROVER:": "MSX100080"
+    }
+  },
+  {
+    "id": "9915055",
+    "name": "Seal, EGR valve",
+    "partNo": "WG1447946",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "3507",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "17473",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9915055/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,8",
+      "Length [mm]": "79",
+      "Width [mm]": "79",
+      "Article ID:": "9915055",
+      "Article Number:": "WG1447946",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers ROVER:": "ERR6620"
+    }
+  },
+  {
+    "id": "9915053",
+    "name": "Gasket, EGR valve pipe",
+    "partNo": "WG1447944",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "4180",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "17473",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9915053/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,35",
+      "Length [mm]": "92",
+      "Width [mm]": "74",
+      "Article ID:": "9915053",
+      "Article Number:": "WG1447944",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers ROVER:": "MSX100080"
+    }
+  }
+]

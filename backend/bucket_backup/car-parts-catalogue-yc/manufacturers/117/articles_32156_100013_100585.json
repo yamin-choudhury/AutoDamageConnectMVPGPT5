@@ -1,0 +1,121 @@
+[
+  {
+    "id": "1636392",
+    "name": "Axle Beam",
+    "partNo": "1806419",
+    "manufacturer": "DIEDERICHS",
+    "supplierId": "253",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "32156",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1636392/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "1636392",
+      "Article Number:": "1806419",
+      "Manufacturer:": "DIEDERICHS",
+      "EAN Numbers:": "405235569362",
+      "OEM Numbers OPEL:": "93187404"
+    }
+  },
+  {
+    "id": "3585749",
+    "name": "Axle Beam",
+    "partNo": "5052007",
+    "manufacturer": "KLOKKERHOLM",
+    "supplierId": "78",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "32156",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3585749/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Supplementary Article/Supplementary Info": "with bush",
+      "Article ID:": "3585749",
+      "Article Number:": "5052007",
+      "Manufacturer:": "KLOKKERHOLM",
+      "EAN Numbers:": "571427036946",
+      "OEM Numbers OPEL:": "93182197"
+    }
+  },
+  {
+    "id": "9608449",
+    "name": "Axle Beam",
+    "partNo": "VKDS 475003",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "32156",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9608449/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "90",
+      "Inner diameter [mm]": "13,2",
+      "Outer diameter [mm]": "70,3",
+      "paired article number": "VKDS 475003",
+      "Article ID:": "9608449",
+      "Article Number:": "VKDS 475003",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657925562",
+      "OEM Numbers OPEL:": "54 02 637",
+      "OEM Numbers VAUXHALL:": "54 02 637"
+    }
+  },
+  {
+    "id": "9403611",
+    "name": "Mounting Kit, axle beam",
+    "partNo": "TED97715",
+    "manufacturer": "TEDGUM",
+    "supplierId": "4593",
+    "productsId": "9261",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "32156",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9403611/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Mounting/Removal": "for removal",
+      "Article ID:": "9403611",
+      "Article Number:": "TED97715",
+      "Manufacturer:": "TEDGUM",
+      "EAN Numbers:": "590227597715",
+      "OEM Numbers OPEL:": "5402637",
+      "OEM Numbers VAUXHALL:": "13267215"
+    }
+  },
+  {
+    "id": "9403611",
+    "name": "Mounting Kit, axle beam",
+    "partNo": "TED97715",
+    "manufacturer": "TEDGUM",
+    "supplierId": "4593",
+    "productsId": "9261",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "32156",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9403611/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Mounting/Removal": "for removal",
+      "Article ID:": "9403611",
+      "Article Number:": "TED97715",
+      "Manufacturer:": "TEDGUM",
+      "EAN Numbers:": "590227597715",
+      "OEM Numbers OPEL:": "5402637",
+      "OEM Numbers VAUXHALL:": "13267215"
+    }
+  }
+]

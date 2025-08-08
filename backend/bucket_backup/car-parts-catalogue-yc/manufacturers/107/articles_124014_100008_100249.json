@@ -1,0 +1,45 @@
+[
+  {
+    "id": "6430137",
+    "name": "Sensor, camshaft position",
+    "partNo": "CSS1P010",
+    "manufacturer": "ATOMTEC",
+    "supplierId": "5471",
+    "productsId": "3946",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6430137/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6430137",
+      "Article Number:": "CSS1P010",
+      "Manufacturer:": "ATOMTEC",
+      "OEM Numbers SUBARU:": "22056AA210",
+      "OEM Numbers TOYOTA:": "SU00300413"
+    }
+  },
+  {
+    "id": "9559323",
+    "name": "Sensor, camshaft position",
+    "partNo": "V63-72-0022",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "3946",
+    "productGroupId": "100249",
+    "categoryId": "100008",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9559323/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9559323",
+      "Article Number:": "V63-72-0022",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "406237506710",
+      "OEM Numbers SUBARU:": "22056AA210",
+      "OEM Numbers TOYOTA:": "SU003-00413"
+    }
+  }
+]

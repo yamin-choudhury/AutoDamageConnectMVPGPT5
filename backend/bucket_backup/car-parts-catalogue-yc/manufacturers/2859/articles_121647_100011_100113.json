@@ -1,0 +1,71 @@
+[
+  {
+    "id": "2936971",
+    "name": "Suspension Spring",
+    "partNo": "36-199594",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "121647",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2936971/model-series-id-10349/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2936971",
+      "Article Number:": "36-199594",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525868478",
+      "OEM Numbers VW:": "1K0 411 105 AP",
+      "OEM Numbers VAG:": "1KD 411 105 M",
+      "OEM Numbers SKODA:": "1KD 411 105 N"
+    }
+  },
+  {
+    "id": "2937251",
+    "name": "Suspension Spring",
+    "partNo": "36-209712",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "121647",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2937251/model-series-id-10349/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2937251",
+      "Article Number:": "36-209712",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525873769",
+      "OEM Numbers VW:": "1K0 511 115 GQ"
+    }
+  },
+  {
+    "id": "2937719",
+    "name": "Suspension Spring",
+    "partNo": "36-241583",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "121647",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2937719/model-series-id-10349/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2937719",
+      "Article Number:": "36-241583",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525874480",
+      "OEM Numbers AUDI:": "1K0 411 105 AQ",
+      "OEM Numbers VW:": "1K0 411 105 HJ"
+    }
+  }
+]

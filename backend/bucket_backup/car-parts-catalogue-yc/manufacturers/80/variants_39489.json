@@ -1,0 +1,50 @@
+[
+  {
+    "id": "135927",
+    "type": "2.5",
+    "modelId": "39489",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "PR25DD",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135928",
+    "type": "2.5 AWD",
+    "modelId": "39489",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "PR25DD",
+      "cylinder": "4",
+      "capacity": "2,488 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139970",
+    "type": "2.0",
+    "modelId": "39489",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "KR20DDET",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "185 KW / 252 PS"
+    },
+    "categories": []
+  }
+]

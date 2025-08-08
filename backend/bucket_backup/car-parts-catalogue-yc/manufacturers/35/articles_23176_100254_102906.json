@@ -1,0 +1,93 @@
+[
+  {
+    "id": "771317",
+    "name": "Sensor, throttle position",
+    "partNo": "1.995.096",
+    "manufacturer": "EPS",
+    "supplierId": "4005",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "23176",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/771317/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Article ID:": "771317",
+      "Article Number:": "1.995.096",
+      "Manufacturer:": "EPS",
+      "EAN Numbers:": "801251021174",
+      "OEM Numbers FIAT:": "71752610",
+      "OEM Numbers LANCIA:": "71752610"
+    }
+  },
+  {
+    "id": "796216",
+    "name": "Sensor, throttle position",
+    "partNo": "10.5096",
+    "manufacturer": "FACET",
+    "supplierId": "159",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "23176",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/796216/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Article ID:": "796216",
+      "Article Number:": "10.5096",
+      "Manufacturer:": "FACET",
+      "EAN Numbers:": "801251001174",
+      "OEM Numbers FIAT:": "71752610",
+      "OEM Numbers LANCIA:": "71752610"
+    }
+  },
+  {
+    "id": "3502764",
+    "name": "Sensor, throttle position",
+    "partNo": "495 096",
+    "manufacturer": "KW",
+    "supplierId": "4006",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "23176",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3502764/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Article ID:": "3502764",
+      "Article Number:": "495 096",
+      "Manufacturer:": "KW",
+      "EAN Numbers:": "801251011174",
+      "OEM Numbers FIAT:": "71752610",
+      "OEM Numbers LANCIA:": "71752610"
+    }
+  },
+  {
+    "id": "1510239",
+    "name": "Sensor, throttle position",
+    "partNo": "16290",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "23176",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1510239/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Article ID:": "1510239",
+      "Article Number:": "16290",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509316290",
+      "OEM Numbers FIAT:": "71752610"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "2599811",
+    "name": "Cable Pull, clutch control",
+    "partNo": "3074 600 147",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "122687",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2599811/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Sleeve Length [mm]": "625",
+      "Length [mm]": "1000",
+      "Article ID:": "2599811",
+      "Article Number:": "3074 600 147",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387287278",
+      "OEM Numbers FIAT:": "55210048"
+    }
+  },
+  {
+    "id": "2599824",
+    "name": "Cable Pull, clutch control",
+    "partNo": "3074 600 160",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "122687",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2599824/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Sleeve Length [mm]": "665",
+      "Length [mm]": "995",
+      "Article ID:": "2599824",
+      "Article Number:": "3074 600 160",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387294649",
+      "OEM Numbers FIAT:": "55231065"
+    }
+  }
+]

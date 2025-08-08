@@ -1,0 +1,306 @@
+[
+  {
+    "id": "59001",
+    "type": "0.9 TCe 90",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4B 400,H4B 408,H4B 412",
+      "cylinder": "3",
+      "capacity": "898 CCM / 0.9 L",
+      "fuelType": "Petrol",
+      "year": "2013-06-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59002",
+    "type": "1.2 TCe 120",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5F 403",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2013-06-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59003",
+    "type": "1.5 dCi 90",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 608,K9K 609,K9K 838,K9K 628,K9K 629",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2013-06-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112332",
+    "type": "1.5 dCi 110",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 646,K9K 856",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2015-01-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113740",
+    "type": "1.2 T",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5F 403",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2015-06-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119493",
+    "type": "1.2 TCe 120",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5F 408,H5F 412",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01",
+      "power": "87 KW / 118 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124235",
+    "type": "1.2 T",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5F 403",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2013-06-01",
+      "power": "83 KW / 113 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127811",
+    "type": "2.0",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "F4R 410",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-07-01",
+      "power": "98 KW / 133 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129517",
+    "type": "2.0 (H5AA)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "F4R 410,F4R 412",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-12-01",
+      "power": "105 KW / 143 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130437",
+    "type": "1.5",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4K 802",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01\n                            \n                            2020-06-01",
+      "power": "78 KW / 106 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131212",
+    "type": "2.0 Flex (H5AA, H5A4)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "F4R 410,F4R 412,F4R 418",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2017-01-01\n                            \n                            2020-12-01",
+      "power": "109 KW / 148 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131226",
+    "type": "1.6 Flex (H5JH)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4M 735,H4M 736",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2017-01-01\n                            \n                            2021-06-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131366",
+    "type": "1.6",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H4M 750",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2018-02-01",
+      "power": "84 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132439",
+    "type": "1.3 TCe 150 (J5NK, J5JS)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5H 450,H5H 470",
+      "cylinder": "4",
+      "capacity": "1,332 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2018-03-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134658",
+    "type": "1.3 TCe 130 (J5NJ, J5NE)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5H 450,H5H 470",
+      "cylinder": "4",
+      "capacity": "1,332 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2018-03-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135333",
+    "type": "1.5 dCi (J5MW)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "K9K 830",
+      "cylinder": "4",
+      "capacity": "1,461 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2013-06-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140522",
+    "type": "1.2 TCe (J5AU)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5F 408",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-02-01",
+      "power": "97 KW / 132 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144469",
+    "type": "2.0",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-09-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145387",
+    "type": "1.3 Flex (H5A2)",
+    "modelId": "11232",
+    "manufacturerId": "93",
+    "url": "",
+    "specs": {
+      "engineCode": "H5H 451",
+      "cylinder": "4",
+      "capacity": "1,332 CCM / 1.3 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2021-07-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  }
+]

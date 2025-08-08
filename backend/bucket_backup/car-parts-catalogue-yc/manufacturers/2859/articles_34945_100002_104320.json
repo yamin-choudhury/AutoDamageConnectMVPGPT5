@@ -1,0 +1,59 @@
+[
+  {
+    "id": "3729108",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "531 0203 20",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "308",
+    "productGroupId": "104320",
+    "categoryId": "100002",
+    "variantId": "34945",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3729108/model-series-id-7427/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "30",
+      "Outer diameter [mm]": "82",
+      "Article ID:": "3729108",
+      "Article Number:": "531 0203 20",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510812673",
+      "OEM Numbers AUDI:": "06A109479F",
+      "OEM Numbers SEAT:": "06A109479F",
+      "OEM Numbers SKODA:": "06A109479F",
+      "OEM Numbers VW:": "06A109479F",
+      "OEM Numbers BESTURN (FAW):": "06A109479FH"
+    }
+  },
+  {
+    "id": "8646577",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "PTI11113",
+    "manufacturer": "PFI",
+    "supplierId": "2788",
+    "productsId": "308",
+    "productGroupId": "104320",
+    "categoryId": "100002",
+    "variantId": "34945",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8646577/model-series-id-7427/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "72",
+      "Outer diameter [mm]": "82",
+      "Width 1 [mm]": "39,8",
+      "Packaging length [cm]": "26",
+      "Packaging width [cm]": "18,2",
+      "Packaging height [cm]": "9,2",
+      "Article ID:": "8646577",
+      "Article Number:": "PTI11113",
+      "Manufacturer:": "PFI",
+      "EAN Numbers:": "0073921037986\n0079381125024",
+      "OEM Numbers AUDI:": "06A109479A",
+      "OEM Numbers SEAT:": "06A109479C",
+      "OEM Numbers SKODA:": "06A109479",
+      "OEM Numbers VW:": "06A109479F"
+    }
+  }
+]

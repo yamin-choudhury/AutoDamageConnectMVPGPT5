@@ -1,0 +1,68 @@
+[
+  {
+    "id": "6400638",
+    "name": "Actuator, air conditioning",
+    "partNo": "CRV7066",
+    "manufacturer": "CSV electronic parts",
+    "supplierId": "4334",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "519",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6400638/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "515065",
+      "Article ID:": "6400638",
+      "Article Number:": "CRV7066",
+      "Manufacturer:": "CSV electronic parts",
+      "EAN Numbers:": "843433909114",
+      "OEM Numbers VAG:": "1K0907511B"
+    }
+  },
+  {
+    "id": "10159854",
+    "name": "Actuator, air conditioning",
+    "partNo": "WG2016939",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "519",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10159854/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of connectors": "2",
+      "Article ID:": "10159854",
+      "Article Number:": "WG2016939",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "1K0 907 511 C"
+    }
+  },
+  {
+    "id": "10159855",
+    "name": "Actuator, air conditioning",
+    "partNo": "WG2016940",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "519",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10159855/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of connectors": "5",
+      "Article ID:": "10159855",
+      "Article Number:": "WG2016940",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "1K0 907 511 B"
+    }
+  }
+]

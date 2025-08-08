@@ -1,0 +1,344 @@
+[
+  {
+    "id": "100733",
+    "name": "Accessories",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100857",
+        "name": "Floor Mats",
+        "categoryId": "100733",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100857/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100586",
+        "name": "Axle Support/Axle Beam/Mounting",
+        "categoryId": "100013",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100586/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100581",
+        "name": "Joints",
+        "categoryId": "100013",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100581/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100735",
+        "name": "Mounting, suspension strut",
+        "categoryId": "100013",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100735/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100577",
+        "name": "Stabiliser Bar/Fastening Parts",
+        "categoryId": "100013",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100577/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100579",
+        "name": "Wheel Hub/Mounting",
+        "categoryId": "100013",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100579/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100001",
+    "name": "Body",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "101342",
+        "name": "Additional Headlight/Parts",
+        "categoryId": "100001",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/101342/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100191",
+        "name": "Body Parts/Wing/Bumper",
+        "categoryId": "100001",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100191/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "101409",
+        "name": "Lights",
+        "categoryId": "100001",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/101409/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "101662",
+        "name": "Vehicle Front",
+        "categoryId": "100001",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/101662/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "101716",
+        "name": "Vehicle Rear",
+        "categoryId": "100001",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/101716/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100050",
+    "name": "Clutch/Attachment Parts",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100051",
+        "name": "Clutch Kit",
+        "categoryId": "100050",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100051/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100010",
+    "name": "Electrics",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100869",
+        "name": "Additional Headlight/Parts",
+        "categoryId": "100010",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100869/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100454",
+        "name": "Lights",
+        "categoryId": "100010",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100454/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100046/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100341",
+    "name": "Interior Equipment",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102692",
+        "name": "Floor Mats",
+        "categoryId": "100341",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/102692/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104245",
+        "name": "Clutch/Attachment Parts",
+        "categoryId": "103671",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/104245/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104027",
+        "name": "Electrics",
+        "categoryId": "103671",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/104027/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/103984/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103897",
+        "name": "Suspension/Damping",
+        "categoryId": "103671",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/103897/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100012",
+    "name": "Steering",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100198",
+        "name": "Joints",
+        "categoryId": "100012",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100198/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100594",
+        "name": "Steering Linkage",
+        "categoryId": "100012",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100594/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100603",
+        "name": "Tie Rod Assembly/ Parts",
+        "categoryId": "100012",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100603/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100011",
+    "name": "Suspension/Damping",
+    "variantId": "144469",
+    "manufacturerId": "93",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100113",
+        "name": "Coil Springs",
+        "categoryId": "100011",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100113/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100340",
+        "name": "Leveling Control/ Suspension Hydraulics",
+        "categoryId": "100011",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100340/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100121",
+        "name": "Shock Absorber",
+        "categoryId": "100011",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100121/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100372",
+        "name": "Suspension Parts",
+        "categoryId": "100011",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100372/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100371",
+        "name": "Suspension Strut/Shock Absorber Mount",
+        "categoryId": "100011",
+        "variantId": "144469",
+        "manufacturerId": "93",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/144469/100371/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

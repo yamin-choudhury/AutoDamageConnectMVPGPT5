@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1531057",
+    "name": "Air Filter",
+    "partNo": "1656283880",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "120015",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1531057/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "291",
+      "Width [mm]": "200",
+      "Height [mm]": "43",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1531057",
+      "Article Number:": "1656283880",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers TOYOTA:": "1780128030",
+      "OEM Numbers TOYOTA (GAC):": "1780128030",
+      "OEM Numbers LEXUS:": "1780128030"
+    }
+  },
+  {
+    "id": "7964137",
+    "name": "Air Filter",
+    "partNo": "LX 2523",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "120015",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7964137/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "294",
+      "Width [mm]": "201",
+      "Height [mm]": "42,0",
+      "Filter type": "Filter Insert",
+      "Article ID:": "7964137",
+      "Article Number:": "LX 2523",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "695753510219",
+      "OEM Numbers TOYOTA:": "1780128030",
+      "OEM Numbers LEXUS:": "1780128030"
+    }
+  }
+]

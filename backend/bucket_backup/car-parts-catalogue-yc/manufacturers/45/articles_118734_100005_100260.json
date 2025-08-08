@@ -1,0 +1,48 @@
+[
+  {
+    "id": "6769740",
+    "name": "Air Filter",
+    "partNo": "EK-5154",
+    "manufacturer": "ELOFIC",
+    "supplierId": "6378",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "118734",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6769740/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Dry Filter",
+      "Article ID:": "6769740",
+      "Article Number:": "EK-5154",
+      "Manufacturer:": "ELOFIC",
+      "OEM Numbers HONDA:": "17220-55C-E01"
+    }
+  },
+  {
+    "id": "5671440",
+    "name": "Air Filter",
+    "partNo": "AG1889",
+    "manufacturer": "GUD",
+    "supplierId": "6529",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "118734",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5671440/model-series-id-36238/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "224",
+      "Width [mm]": "135",
+      "Height [mm]": "40",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5671440",
+      "Article Number:": "AG1889",
+      "Manufacturer:": "GUD",
+      "EAN Numbers:": "600228202479",
+      "OEM Numbers HONDA:": "17220-55A-Z01"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "544263",
+    "name": "Interior Blower",
+    "partNo": "06341",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "33237",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/544263/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "350",
+      "Article ID:": "544263",
+      "Article Number:": "06341",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357306341",
+      "OEM Numbers VW:": "8D1 820 021 B"
+    }
+  },
+  {
+    "id": "10444821",
+    "name": "Interior Blower",
+    "partNo": "ZD172292",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "33237",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10444821/model-series-id-8598/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "13,5",
+      "Rated Power [W]": "450",
+      "Diameter [mm]": "147,5",
+      "Number of pins": "47",
+      "Article ID:": "10444821",
+      "Article Number:": "ZD172292",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers AUDI:": "8D1820021"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "4134927",
+    "name": "Clutch Kit",
+    "partNo": "623 3608 09",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "107470",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4134927/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "230",
+      "Adjustment": "with automatic adjustment",
+      "Article ID:": "4134927",
+      "Article Number:": "623 3608 09",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510899698",
+      "OEM Numbers OPEL:": "664329",
+      "OEM Numbers VAUXHALL:": "664329"
+    }
+  },
+  {
+    "id": "2549770",
+    "name": "Clutch Kit",
+    "partNo": "3000 950 791",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "107470",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2549770/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "230",
+      "Adjustment": "with automatic adjustment",
+      "Supplementary Article/Info 2": "without clutch release bearing",
+      "Article ID:": "2549770",
+      "Article Number:": "3000 950 791",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387299734",
+      "OEM Numbers OPEL:": "6 64 329",
+      "OEM Numbers VAUXHALL:": "6 64 329"
+    }
+  }
+]

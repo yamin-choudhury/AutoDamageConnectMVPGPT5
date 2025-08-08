@@ -1,0 +1,72 @@
+[
+  {
+    "id": "3207588",
+    "name": "Brake Booster",
+    "partNo": "4110942",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "32155",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3207588/model-series-id-5148/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Article ID:": "3207588",
+      "Article Number:": "4110942",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293748417",
+      "OEM Numbers OPEL:": "93179176",
+      "OEM Numbers VAUXHALL:": "93179176"
+    }
+  },
+  {
+    "id": "8627777",
+    "name": "Brake Booster",
+    "partNo": "PSA119",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "32155",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627777/model-series-id-5148/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "10",
+      "Article ID:": "8627777",
+      "Article Number:": "PSA119",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293792581",
+      "OEM Numbers OPEL:": "93189711",
+      "OEM Numbers VAUXHALL:": "93189711"
+    }
+  },
+  {
+    "id": "8629353",
+    "name": "Brake Booster",
+    "partNo": "PSA942",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "32155",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8629353/model-series-id-5148/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Article ID:": "8629353",
+      "Article Number:": "PSA942",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293739622",
+      "OEM Numbers OPEL:": "93179176",
+      "OEM Numbers VAUXHALL:": "93179176"
+    }
+  }
+]

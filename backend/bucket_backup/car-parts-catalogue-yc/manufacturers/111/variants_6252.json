@@ -1,0 +1,34 @@
+[
+  {
+    "id": "28047",
+    "type": "2.0 4WD (AZT240)",
+    "modelId": "6252",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1AZ-FSE",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2001-06-01\n                            \n                            2007-04-01",
+      "power": "114 KW / 155 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "28048",
+    "type": "1.8 4WD (ZZT245)",
+    "modelId": "6252",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1ZZ-FE",
+      "cylinder": "4",
+      "capacity": "1,794 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2001-06-01\n                            \n                            2007-06-01",
+      "power": "97 KW / 132 PS"
+    },
+    "categories": []
+  }
+]

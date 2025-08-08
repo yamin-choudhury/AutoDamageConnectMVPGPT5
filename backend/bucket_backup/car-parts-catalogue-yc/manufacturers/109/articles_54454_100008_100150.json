@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1892649",
+    "name": "Ignition Coil",
+    "partNo": "20630",
+    "manufacturer": "BREMI",
+    "supplierId": "47",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "54454",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1892649/model-series-id-35870/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "3",
+      "Ignition Coil": "Flush-Fitting Pencil Ignition Coils",
+      "Article ID:": "1892649",
+      "Article Number:": "20630",
+      "Manufacturer:": "BREMI",
+      "EAN Numbers:": "401753419864",
+      "OEM Numbers NISSAN:": "22448-EA000"
+    }
+  },
+  {
+    "id": "3967824",
+    "name": "Ignition Coil",
+    "partNo": "5DA 230 035-971",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "54454",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3967824/model-series-id-35870/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Mounting Type": "Bolted",
+      "Number of pins": "3",
+      "Ignition Coil": "Flush-Fitting Pencil Ignition Coils",
+      "Number of mounting bores": "1",
+      "Article ID:": "3967824",
+      "Article Number:": "5DA 230 035-971",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230076008",
+      "OEM Numbers NISSAN:": "22448EA000",
+      "OEM Numbers SUZUKI:": "3340082Z20"
+    }
+  }
+]

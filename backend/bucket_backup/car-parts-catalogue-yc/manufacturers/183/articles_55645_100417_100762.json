@@ -1,0 +1,66 @@
+[
+  {
+    "id": "10416295",
+    "name": "Clockspring, airbag",
+    "partNo": "Y7310109",
+    "manufacturer": "BOGAP",
+    "supplierId": "5349",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "55645",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10416295/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "10416295",
+      "Article Number:": "Y7310109",
+      "Manufacturer:": "BOGAP",
+      "EAN Numbers:": "425178913321",
+      "OEM Numbers HYUNDAI:": "93490-0U010",
+      "OEM Numbers KIA:": "93490-0U010"
+    }
+  },
+  {
+    "id": "6694332",
+    "name": "Clockspring, airbag",
+    "partNo": "E03-HYD-22030002",
+    "manufacturer": "NAKAMOTO",
+    "supplierId": "6388",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "55645",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6694332/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6694332",
+      "Article Number:": "E03-HYD-22030002",
+      "Manufacturer:": "NAKAMOTO",
+      "OEM Numbers HYUNDAI:": "93490-0U010"
+    }
+  },
+  {
+    "id": "4173606",
+    "name": "Clockspring, airbag",
+    "partNo": "638 451",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "55645",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4173606/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "5",
+      "Article ID:": "4173606",
+      "Article Number:": "638 451",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers HYUNDAI:": "93490 0U010",
+      "OEM Numbers KIA:": "93490 0U010"
+    }
+  }
+]

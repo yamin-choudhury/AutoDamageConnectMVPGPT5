@@ -1,0 +1,66 @@
+[
+  {
+    "id": "12622",
+    "type": "1.4 TSI",
+    "modelId": "7982",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CFB",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-06-01\n                            \n                            2016-03-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30787",
+    "type": "1.6",
+    "modelId": "7982",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BWH",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2008-11-01\n                            \n                            2016-03-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30788",
+    "type": "2.0",
+    "modelId": "7982",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CEN",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-11-01\n                            \n                            2010-12-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119135",
+    "type": "1.6",
+    "modelId": "7982",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CLS",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2016-03-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  }
+]

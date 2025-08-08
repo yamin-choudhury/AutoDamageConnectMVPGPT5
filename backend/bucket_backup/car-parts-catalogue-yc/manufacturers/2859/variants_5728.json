@@ -1,0 +1,130 @@
+[
+  {
+    "id": "12624",
+    "type": "1.6",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJT",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2004-03-01\n                            \n                            2013-12-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24065",
+    "type": "1.6",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJG",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2004-10-01\n                            \n                            2010-12-01",
+      "power": "68 KW / 91 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109221",
+    "type": "1.9 D",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "AQM",
+      "cylinder": "4",
+      "capacity": "1,896 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "2002-01-01\n                            \n                            2012-12-01",
+      "power": "47 KW / 64 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123264",
+    "type": "1.6 CNG",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "ATK,BJT",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2002-01-01\n                            \n                            2008-12-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134794",
+    "type": "1.6 LPG",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJT",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2008-01-01\n                            \n                            2008-12-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134795",
+    "type": "1.6 CNG",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJG",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2005-01-01\n                            \n                            2010-12-01",
+      "power": "53 KW / 72 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134796",
+    "type": "1.6 LPG",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJG",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2008-01-01\n                            \n                            2008-12-01",
+      "power": "58 KW / 79 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134797",
+    "type": "1.6 LPG",
+    "modelId": "5728",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "ATK",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2002-01-01\n                            \n                            2008-12-01",
+      "power": "62 KW / 84 PS"
+    },
+    "categories": []
+  }
+]

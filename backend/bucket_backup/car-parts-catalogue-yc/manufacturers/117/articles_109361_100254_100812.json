@@ -1,0 +1,94 @@
+[
+  {
+    "id": "4819620",
+    "name": "Pressure Converter",
+    "partNo": "83.1716",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "170",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "109361",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4819620/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Article ID:": "4819620",
+      "Article Number:": "83.1716",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320831208",
+      "OEM Numbers OPEL:": "55576071",
+      "OEM Numbers CHEVROLET:": "55576071"
+    }
+  },
+  {
+    "id": "4660922",
+    "name": "Pressure Converter",
+    "partNo": "8029889",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "170",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "109361",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4660922/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electronic",
+      "for article number": "8029889",
+      "Article ID:": "4660922",
+      "Article Number:": "8029889",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers OPEL:": "55576071",
+      "OEM Numbers CHEVROLET:": "55576071"
+    }
+  },
+  {
+    "id": "5384583",
+    "name": "Pressure Converter",
+    "partNo": "9889",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "170",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "109361",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5384583/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electronic",
+      "for article number": "9889",
+      "Article ID:": "5384583",
+      "Article Number:": "9889",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers OPEL:": "55576071",
+      "OEM Numbers CHEVROLET:": "55576071"
+    }
+  },
+  {
+    "id": "4819619",
+    "name": "Pressure Converter",
+    "partNo": "83.1716",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "170",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "109361",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4819619/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Article ID:": "4819619",
+      "Article Number:": "83.1716",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320831208",
+      "OEM Numbers OPEL:": "55576071",
+      "OEM Numbers CHEVROLET:": "55576071"
+    }
+  }
+]

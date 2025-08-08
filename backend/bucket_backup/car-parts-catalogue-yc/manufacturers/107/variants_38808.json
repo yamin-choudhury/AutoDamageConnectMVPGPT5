@@ -1,0 +1,82 @@
+[
+  {
+    "id": "131840",
+    "type": "2.0 e-Boxer Hybrid AWD (SKE)",
+    "modelId": "38808",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20X",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2018-04-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131841",
+    "type": "2.5 AWD (SK9)",
+    "modelId": "38808",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB25C,FB25D",
+      "cylinder": "4",
+      "capacity": "2,498 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-04-01",
+      "power": "136 KW / 185 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134484",
+    "type": "2.0 e-Boxer Hybrid AWD (SKE)",
+    "modelId": "38808",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20X",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2018-04-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135022",
+    "type": "2.0 AWD (SK7)",
+    "modelId": "38808",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20C,FB20D",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-04-01",
+      "power": "115 KW / 156 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140966",
+    "type": "i AWD (SK7)",
+    "modelId": "38808",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-06-01",
+      "power": "113 KW / 154 PS"
+    },
+    "categories": []
+  }
+]

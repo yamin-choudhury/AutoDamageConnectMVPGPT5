@@ -1,0 +1,178 @@
+[
+  {
+    "id": "55105",
+    "type": "1.0 EcoBoost",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "SFJA,SFJB,SFJC,SFJD",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55106",
+    "type": "1.0 EcoBoost",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "M1JA",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55107",
+    "type": "1.6 Ti",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "IQJA,IQJC",
+      "cylinder": "4",
+      "capacity": "1,596 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55108",
+    "type": "1.6 TDCi",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "T3JB",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2012-10-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55466",
+    "type": "1.4",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "SPJD,SPJE",
+      "cylinder": "4",
+      "capacity": "1,388 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55537",
+    "type": "1.5 TDCi",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "UGJC,XUJA,XUJB,UGJG",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2012-10-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59492",
+    "type": "1.0 EcoBoost",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "M1JE,M1JH",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "101133",
+    "type": "1.4 LPG",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "RTJC",
+      "cylinder": "4",
+      "capacity": "1,388 CCM / 1.4 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2013-08-01",
+      "power": "64 KW / 87 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "105988",
+    "type": "1.4 LPG",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "RTJC",
+      "cylinder": "4",
+      "capacity": "1,388 CCM / 1.4 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2013-08-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "113165",
+    "type": "1.5 TDCi",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "XVJA,XVJC",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2015-04-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118618",
+    "type": "1.0 EcoBoost",
+    "modelId": "10257",
+    "manufacturerId": "36",
+    "url": "",
+    "specs": {
+      "engineCode": "YYJC",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "3003775",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "37980",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "56622",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3003775/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "06A 903 119",
+      "Weight [kg]": "0,52",
+      "Number of ribs": "6",
+      "Inner diameter [mm]": "17",
+      "Outer diameter [mm]": "61",
+      "Supplementary Article/Info 2": "with lid",
+      "Article ID:": "3003775",
+      "Article Number:": "37980",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781637980",
+      "OEM Numbers AUDI:": "6J 903 119",
+      "OEM Numbers VW:": "6J 903 119",
+      "OEM Numbers SEAT:": "6H 903 119 B"
+    }
+  },
+  {
+    "id": "2527930",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "30 93 7980",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "56622",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2527930/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,52",
+      "Number of ribs": "6",
+      "Inner diameter [mm]": "17",
+      "Outer diameter [mm]": "61",
+      "Supplementary Article/Info 2": "with lid",
+      "Article ID:": "2527930",
+      "Article Number:": "30 93 7980",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468837980",
+      "OEM Numbers AUDI:": "6J 903 119",
+      "OEM Numbers VW:": "6J 903 119",
+      "OEM Numbers SEAT:": "6H 903 119 B"
+    }
+  }
+]

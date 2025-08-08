@@ -1,0 +1,130 @@
+[
+  {
+    "id": "5595",
+    "type": "1.4 i (MBKFX, MBKFW)",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "KFX (TU3JP),KFW (TU3JP),KFW (TU3A)",
+      "cylinder": "4",
+      "capacity": "1,360 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "1996-07-01\n                            \n                            2011-12-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "14443",
+    "type": "1.9 D 70 (MBWJZ, MCWJZ)",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "WJZ (DW8),WJY (DW8B)",
+      "cylinder": "4",
+      "capacity": "1,868 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "1999-04-01\n                            \n                            2011-12-01",
+      "power": "51 KW / 69 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "15755",
+    "type": "2.0 HDI 90 (MBRHY, MCRHY)",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "RHY (DW10TD)",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "1999-12-01\n                            \n                            2011-12-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18615",
+    "type": "1.4 bivalent",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "KFW (TU3JP)",
+      "cylinder": "4",
+      "capacity": "1,360 CCM / 1.4 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2002-11-01\n                            \n                            2011-12-01",
+      "power": "48 KW / 65 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "20025",
+    "type": "1.6 HDI 75 (MB9HW)",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "DV6B,9HW (DV6BTED4)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2005-07-01\n                            \n                            2011-12-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "26560",
+    "type": "1.6 HDI 90 (MB9HX, MC9HX)",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "9HX (DV6ATED4)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2005-07-01\n                            \n                            2011-12-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59304",
+    "type": "Electric",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "200-175",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2011-01-01\n                            \n                            2011-12-01",
+      "power": "42 KW / 57 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138351",
+    "type": "1.6 HDI 92",
+    "modelId": "1553",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "9HP (DV6DTED),9HJ (DV6DTEDM)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2009-11-01\n                            \n                            2010-12-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  }
+]

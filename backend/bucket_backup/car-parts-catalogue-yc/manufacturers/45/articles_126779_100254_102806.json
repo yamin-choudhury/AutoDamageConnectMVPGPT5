@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5621413",
+    "name": "Air Mass Sensor",
+    "partNo": "ADH274208",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "3926",
+    "productGroupId": "102806",
+    "categoryId": "100254",
+    "variantId": "126779",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5621413/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "37980-RC0-M01",
+      "Weight [kg]": "0,043",
+      "Housing Type": "without housing",
+      "Number of connectors": "5",
+      "Resistor Type": "Hot-wire Sensor",
+      "Article ID:": "5621413",
+      "Article Number:": "ADH274208",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774611957",
+      "OEM Numbers HONDA:": "37980-RC0-M01"
+    }
+  },
+  {
+    "id": "929074",
+    "name": "Air Mass Sensor",
+    "partNo": "106455",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "3926",
+    "productGroupId": "102806",
+    "categoryId": "100254",
+    "variantId": "126779",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/929074/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "37980-RC0-M01",
+      "Weight [kg]": "0,043",
+      "Housing Type": "without housing",
+      "Number of connectors": "5",
+      "Resistor Type": "Hot-wire Sensor",
+      "Article ID:": "929074",
+      "Article Number:": "106455",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422406455",
+      "OEM Numbers HONDA:": "37980-RC0-M01"
+    }
+  }
+]

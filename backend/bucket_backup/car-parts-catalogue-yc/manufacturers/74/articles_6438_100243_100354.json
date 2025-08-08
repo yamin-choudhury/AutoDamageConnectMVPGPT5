@@ -1,0 +1,118 @@
+[
+  {
+    "id": "6574620",
+    "name": "Compressor, air conditioning",
+    "partNo": "DCK1357",
+    "manufacturer": "DIEDERICHS",
+    "supplierId": "253",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6574620/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Quality": "DIEDERICHS Climate",
+      "Manufacturer Restriction": "Denso",
+      "Number of ribs": "5",
+      "Belt Pulley Ø [mm]": "110",
+      "Capacity Compressor [cc]": "160",
+      "Oil Fill Quantity [ml]": "120",
+      "Compressor ID": "6SEU16C",
+      "Version": "OEM",
+      "Refrigerant": "R 134a",
+      "Oil - manufacturer recommendation": "ND-8",
+      "Article ID:": "6574620",
+      "Article Number:": "DCK1357",
+      "Manufacturer:": "DIEDERICHS",
+      "EAN Numbers:": "405235550743",
+      "OEM Numbers MERCEDES-BENZ:": "A0022304711"
+    }
+  },
+  {
+    "id": "5733691",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCOMB0027",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5733691/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5733691",
+      "Article Number:": "APCOMB0027",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers MERCEDES-BENZ:": "A0022304811"
+    }
+  },
+  {
+    "id": "5737815",
+    "name": "Coil, magnetic-clutch compressor",
+    "partNo": "APEMMB0019",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "2914",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5737815/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "SANDEN",
+      "Article ID:": "5737815",
+      "Article Number:": "APEMMB0019",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers MERCEDES-BENZ:": "2342312"
+    }
+  },
+  {
+    "id": "5733690",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCOMB0027",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5733690/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5733690",
+      "Article Number:": "APCOMB0027",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers MERCEDES-BENZ:": "A0022304811"
+    }
+  },
+  {
+    "id": "5737814",
+    "name": "Coil, magnetic-clutch compressor",
+    "partNo": "APEMMB0019",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "2914",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "6438",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5737814/model-series-id-5165/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Manufacturer Restriction": "SANDEN",
+      "Article ID:": "5737814",
+      "Article Number:": "APEMMB0019",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers MERCEDES-BENZ:": "2342312"
+    }
+  }
+]

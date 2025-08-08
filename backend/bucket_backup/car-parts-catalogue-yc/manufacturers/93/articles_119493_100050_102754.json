@@ -1,0 +1,48 @@
+[
+  {
+    "id": "9155236",
+    "name": "Clutch Actuation System",
+    "partNo": "SP02418",
+    "manufacturer": "STec",
+    "supplierId": "2429",
+    "productsId": "3825",
+    "productGroupId": "102754",
+    "categoryId": "100050",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9155236/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "for 6-speed dual-clutch transmission",
+      "Article ID:": "9155236",
+      "Article Number:": "SP02418",
+      "Manufacturer:": "STec",
+      "EAN Numbers:": "0900938112558",
+      "OEM Numbers RENAULT:": "305731189R",
+      "OEM Numbers DACIA:": "305731189R"
+    }
+  },
+  {
+    "id": "9155238",
+    "name": "Clutch Actuation System",
+    "partNo": "SP02419",
+    "manufacturer": "STec",
+    "supplierId": "2429",
+    "productsId": "3825",
+    "productGroupId": "102754",
+    "categoryId": "100050",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9155238/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "for 6-speed dual-clutch transmission",
+      "Article ID:": "9155238",
+      "Article Number:": "SP02419",
+      "Manufacturer:": "STec",
+      "EAN Numbers:": "0900938112559",
+      "OEM Numbers RENAULT:": "305739941R",
+      "OEM Numbers DACIA:": "305739941R"
+    }
+  }
+]

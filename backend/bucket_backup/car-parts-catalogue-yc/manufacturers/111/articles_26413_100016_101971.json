@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5802082",
+    "name": "Belt Pulley, crankshaft",
+    "partNo": "at13129",
+    "manufacturer": "at autoteile germany",
+    "supplierId": "5362",
+    "productsId": "3213",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "26413",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5802082/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "OE",
+      "for article number": "96 30 873 480",
+      "Article ID:": "5802082",
+      "Article Number:": "at13129",
+      "Manufacturer:": "at autoteile germany",
+      "EAN Numbers:": "425104267055",
+      "OEM Numbers CITROËN/PEUGEOT:": "9630873480"
+    }
+  },
+  {
+    "id": "7575616",
+    "name": "Belt Pulley, crankshaft",
+    "partNo": "J1092029",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "3213",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "26413",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7575616/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "4",
+      "Outer diameter [mm]": "164",
+      "Width 1 [mm]": "13",
+      "Width 2 [mm]": "20,7",
+      "Article ID:": "7575616",
+      "Article Number:": "J1092029",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941641244",
+      "OEM Numbers TOYOTA:": "13407-21032"
+    }
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "57131",
+    "type": "3.0 SCV6",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "250 KW / 340 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57133",
+    "type": "3.0 SCV6 S",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "280 KW / 380 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57134",
+    "type": "5.0 SCV8 S",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "508PS",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "364 KW / 495 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109349",
+    "type": "3.0 SCV6 S AWD",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "280 KW / 380 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109352",
+    "type": "5.0 SCV8 R",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "508PS",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-10-01",
+      "power": "405 KW / 551 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109353",
+    "type": "5.0 SCV8 R AWD",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "508PS",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-12-01",
+      "power": "405 KW / 551 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117709",
+    "type": "5.0 SCV8 SVR / SCV8 P575 R AWD",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "508PS,AJ133G2",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-12-01",
+      "power": "423 KW / 575 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125818",
+    "type": "SCV6 400 SPORT",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-11-01",
+      "power": "294 KW / 400 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125819",
+    "type": "SCV6 400 SPORT AWD",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-11-01",
+      "power": "294 KW / 400 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126888",
+    "type": "2.0 Ti4",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "PT204",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-07-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128319",
+    "type": "3.0 SCV6 AWD",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-08-01",
+      "power": "250 KW / 340 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129271",
+    "type": "5.0 SCV8 SVR",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "508PS",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-05-01",
+      "power": "423 KW / 575 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139188",
+    "type": "5.0 SCV8 P450",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ133G2",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-12-01",
+      "power": "331 KW / 450 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139190",
+    "type": "5.0 SCV8 P450 AWD",
+    "modelId": "10822",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ133G2",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-12-01",
+      "power": "331 KW / 450 PS"
+    },
+    "categories": []
+  }
+]

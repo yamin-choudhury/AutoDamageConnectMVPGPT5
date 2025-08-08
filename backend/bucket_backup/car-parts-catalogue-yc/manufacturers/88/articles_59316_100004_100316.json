@@ -1,0 +1,70 @@
+[
+  {
+    "id": "2016373",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "218-996",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "59316",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2016373/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2016373",
+      "Article Number:": "218-996",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590207631833",
+      "OEM Numbers CITROËN:": "179775",
+      "OEM Numbers PEUGEOT:": "179775"
+    }
+  },
+  {
+    "id": "4757780",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 21 2936",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "59316",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4757780/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "without clamp",
+      "Exhaust System": "before soot particulate filter",
+      "Additionally required articles (article numbers)": "83 32 4006",
+      "Article ID:": "4757780",
+      "Article Number:": "82 21 2936",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258841626",
+      "OEM Numbers CITROËN:": "(96.774.681.80)",
+      "OEM Numbers PEUGEOT:": "(96.774.681.80)"
+    }
+  },
+  {
+    "id": "5537465",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "AA97482",
+    "manufacturer": "VENEPORTE",
+    "supplierId": "357",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "59316",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5537465/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5537465",
+      "Article Number:": "AA97482",
+      "Manufacturer:": "VENEPORTE",
+      "EAN Numbers:": "560518097482",
+      "OEM Numbers CITROËN/PEUGEOT:": "179775"
+    }
+  }
+]

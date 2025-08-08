@@ -1,0 +1,162 @@
+[
+  {
+    "id": "122060",
+    "type": "3.3 GDI",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DM",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01",
+      "power": "209 KW / 284 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122062",
+    "type": "3.3 MPI",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DF",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01",
+      "power": "199 KW / 271 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128445",
+    "type": "3.3",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DF",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01",
+      "power": "191 KW / 260 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128446",
+    "type": "3.3 GDi",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DM",
+      "cylinder": "6",
+      "capacity": "3,342 CCM / 3.3 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01\n                            \n                            2019-06-01",
+      "power": "213 KW / 290 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128447",
+    "type": "2.4 GDi",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KJ",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01\n                            \n                            2019-06-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128448",
+    "type": "3.0 LPG",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "L6DB",
+      "cylinder": "6",
+      "capacity": "2,999 CCM / 3.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2016-01-01",
+      "power": "173 KW / 235 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128449",
+    "type": "2.2 CRDi",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4HB",
+      "cylinder": "4",
+      "capacity": "2,199 CCM / 2.2 L",
+      "fuelType": "Diesel",
+      "year": "2016-01-01",
+      "power": "149 KW / 203 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132082",
+    "type": "2.4 HYBRID",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KK",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2016-01-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140313",
+    "type": "3.0",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G6DG,G6DL",
+      "cylinder": "6",
+      "capacity": "2,999 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "196 KW / 266 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140314",
+    "type": "2.5 GDi",
+    "modelId": "38180",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "G4KN",
+      "cylinder": "4",
+      "capacity": "2,497 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "146 KW / 199 PS"
+    },
+    "categories": []
+  }
+]

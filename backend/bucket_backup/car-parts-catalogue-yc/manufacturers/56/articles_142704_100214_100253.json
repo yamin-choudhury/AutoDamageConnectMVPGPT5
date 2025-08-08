@@ -1,0 +1,56 @@
+[
+  {
+    "id": "5606835",
+    "name": "Fuel Filter",
+    "partNo": "ADBP230052",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5606835/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "191",
+      "Weight [kg]": "0,526",
+      "Outer diameter [mm]": "93",
+      "Filter type": "with connection for water sensor",
+      "Housing material": "Plastic",
+      "Article ID:": "5606835",
+      "Article Number:": "ADBP230052",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774633236",
+      "OEM Numbers LAND ROVER:": "LR125292 SK1",
+      "OEM Numbers JAGUAR:": "T4N 2300 SK1"
+    }
+  },
+  {
+    "id": "1618531",
+    "name": "Fuel Filter",
+    "partNo": "179498",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1618531/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "191",
+      "Weight [kg]": "0,526",
+      "Outer diameter [mm]": "93",
+      "Filter type": "with connection for water sensor",
+      "Housing material": "Plastic",
+      "Article ID:": "1618531",
+      "Article Number:": "179498",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422479498",
+      "OEM Numbers LAND ROVER:": "LR125292 SK1",
+      "OEM Numbers JAGUAR:": "T4N 2300 SK1"
+    }
+  }
+]

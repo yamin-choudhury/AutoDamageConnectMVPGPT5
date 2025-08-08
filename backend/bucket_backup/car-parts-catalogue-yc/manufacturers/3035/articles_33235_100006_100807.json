@@ -1,0 +1,81 @@
+[
+  {
+    "id": "6007834",
+    "name": "Brake Caliper",
+    "partNo": "BHN182E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "33235",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6007834/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Brake Caliper Type": "Brake Caliper with integrated parking brake",
+      "Material": "Aluminium",
+      "paired article number": "BHN183E",
+      "Piston Diameter [mm]": "38",
+      "Article ID:": "6007834",
+      "Article Number:": "BHN182E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293736705",
+      "OEM Numbers AUDI:": "8E0 615 423",
+      "OEM Numbers SKODA:": "8E0 615 423",
+      "OEM Numbers VW:": "8E0 615 423"
+    }
+  },
+  {
+    "id": "6007836",
+    "name": "Brake Caliper",
+    "partNo": "BHN183E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "33235",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6007836/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Brake Caliper Type": "Brake Caliper with integrated parking brake",
+      "Material": "Aluminium",
+      "paired article number": "BHN182E",
+      "Piston Diameter [mm]": "38",
+      "Article ID:": "6007836",
+      "Article Number:": "BHN183E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293736673",
+      "OEM Numbers AUDI:": "8E0 615 424",
+      "OEM Numbers SKODA:": "8E0 615 424",
+      "OEM Numbers VW:": "8E0 615 424"
+    }
+  },
+  {
+    "id": "9167002",
+    "name": "Repair Kit, brake caliper",
+    "partNo": "SP7250",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "405",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "33235",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9167002/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Article ID:": "9167002",
+      "Article Number:": "SP7250",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293708508",
+      "OEM Numbers AUDI:": "443 698 470",
+      "OEM Numbers VW:": "443 698 470"
+    }
+  }
+]

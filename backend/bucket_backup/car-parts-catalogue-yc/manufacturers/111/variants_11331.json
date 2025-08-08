@@ -1,0 +1,178 @@
+[
+  {
+    "id": "24610",
+    "type": "4.7 (UZN210_)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2UZ-FE",
+      "cylinder": "8",
+      "capacity": "4,664 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2005-03-01\n                            \n                            2009-09-01",
+      "power": "201 KW / 273 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "49172",
+    "type": "4.0 (GRN210)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2002-11-01\n                            \n                            2009-07-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "49173",
+    "type": "4.0 4WD (GRN215)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2003-01-01\n                            \n                            2009-12-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "49174",
+    "type": "4.7 (UZN210_)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2UZ-FE",
+      "cylinder": "8",
+      "capacity": "4,663 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2002-08-01\n                            \n                            2006-09-01",
+      "power": "175 KW / 238 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "49175",
+    "type": "4.7 4WD (UZN215_)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2UZ-FE",
+      "cylinder": "8",
+      "capacity": "4,663 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2002-08-01\n                            \n                            2006-09-01",
+      "power": "175 KW / 238 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54201",
+    "type": "4.7 4WD (UZN215)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2UZ-FE",
+      "cylinder": "8",
+      "capacity": "4,663 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2005-01-01\n                            \n                            2009-12-01",
+      "power": "194 KW / 264 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54202",
+    "type": "4.7 (UZN210)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2UZ-FE",
+      "cylinder": "8",
+      "capacity": "4,663 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2005-01-01\n                            \n                            2009-12-01",
+      "power": "194 KW / 264 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122406",
+    "type": "4.7 4WD (UZN215_)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2UZ-FE",
+      "cylinder": "8",
+      "capacity": "4,664 CCM / 4.7 L",
+      "fuelType": "Petrol",
+      "year": "2002-08-01\n                            \n                            2009-07-01",
+      "power": "201 KW / 273 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124397",
+    "type": "2.7 4WD (TRN215W)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2TR-FE",
+      "cylinder": "4",
+      "capacity": "2,694 CCM / 2.7 L",
+      "fuelType": "Petrol",
+      "year": "2004-08-01\n                            \n                            2009-12-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133422",
+    "type": "4.0 (GRN210)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-09-01\n                            \n                            2009-09-01",
+      "power": "174 KW / 237 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133424",
+    "type": "4.0 (GRN215)",
+    "modelId": "11331",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1GR-FE",
+      "cylinder": "6",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-09-01\n                            \n                            2009-09-01",
+      "power": "174 KW / 237 PS"
+    },
+    "categories": []
+  }
+]

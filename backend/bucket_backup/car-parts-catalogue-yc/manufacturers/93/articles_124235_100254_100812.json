@@ -1,0 +1,81 @@
+[
+  {
+    "id": "859169",
+    "name": "Pressure Converter, exhaust control",
+    "partNo": "102027",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1134",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "124235",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/859169/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,06",
+      "Number of connectors": "2",
+      "Article ID:": "859169",
+      "Article Number:": "102027",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422402027",
+      "OEM Numbers GENERAL MOTORS:": "95514554",
+      "OEM Numbers VAUXHALL:": "95514554",
+      "OEM Numbers OPEL:": "44 33 986",
+      "OEM Numbers RENAULT:": "82 00 762 597",
+      "OEM Numbers DACIA:": "82 00 762 162"
+    }
+  },
+  {
+    "id": "2620938",
+    "name": "Pressure Converter, exhaust control",
+    "partNo": "310 28 575 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "1134",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "124235",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2620938/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2620938",
+      "Article Number:": "310 28 575 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers GENERAL MOTORS:": "95514554",
+      "OEM Numbers VAUXHALL:": "95514554",
+      "OEM Numbers OPEL:": "44 33 986",
+      "OEM Numbers RENAULT:": "82 00 762 597",
+      "OEM Numbers DACIA:": "82 00 762 162"
+    }
+  },
+  {
+    "id": "3982713",
+    "name": "Pressure Converter, exhaust control",
+    "partNo": "60 10 2027",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1134",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "124235",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3982713/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,06",
+      "Number of connectors": "2",
+      "Article ID:": "3982713",
+      "Article Number:": "60 10 2027",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422802027",
+      "OEM Numbers GENERAL MOTORS:": "95514554",
+      "OEM Numbers VAUXHALL:": "95514554",
+      "OEM Numbers OPEL:": "44 33 986",
+      "OEM Numbers RENAULT:": "82 00 762 597",
+      "OEM Numbers DACIA:": "82 00 762 162"
+    }
+  }
+]

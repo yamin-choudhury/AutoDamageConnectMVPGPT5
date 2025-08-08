@@ -1,0 +1,60 @@
+[
+  {
+    "id": "4273748",
+    "name": "Throttle Body",
+    "partNo": "68410",
+    "manufacturer": "INTERMOTOR",
+    "supplierId": "269",
+    "productsId": "158",
+    "productGroupId": "102796",
+    "categoryId": "100254",
+    "variantId": "124209",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4273748/model-series-id-4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,969",
+      "Mounting Type": "Screw Connection",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Number of pins": "6",
+      "Housing Colour": "Black",
+      "Connector Shape": "rectangular",
+      "Inlet Ø [mm]": "49",
+      "Net weight [kg]": "0,866",
+      "Article ID:": "4273748",
+      "Article Number:": "68410",
+      "Manufacturer:": "INTERMOTOR",
+      "EAN Numbers:": "501222557857",
+      "OEM Numbers FORD:": "2S6U-9F991-GA"
+    }
+  },
+  {
+    "id": "7942000",
+    "name": "Throttle Body",
+    "partNo": "LTB195",
+    "manufacturer": "LEMARK",
+    "supplierId": "6518",
+    "productsId": "158",
+    "productGroupId": "102796",
+    "categoryId": "100254",
+    "variantId": "124209",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7942000/model-series-id-4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,969",
+      "Mounting Type": "Screw Connection",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Number of pins": "6",
+      "Housing Colour": "Black",
+      "Connector Shape": "rectangular",
+      "Inlet Ø [mm]": "49",
+      "Net weight [kg]": "0,866",
+      "Article ID:": "7942000",
+      "Article Number:": "LTB195",
+      "Manufacturer:": "LEMARK",
+      "EAN Numbers:": "501222557680",
+      "OEM Numbers FORD:": "2S6U-9F991-GA"
+    }
+  }
+]

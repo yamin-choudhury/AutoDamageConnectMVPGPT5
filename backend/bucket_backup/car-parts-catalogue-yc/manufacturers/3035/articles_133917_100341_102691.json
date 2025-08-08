@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9193313",
+    "name": "Window Regulator",
+    "partNo": "SS064331-FL",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "1561",
+    "productGroupId": "102691",
+    "categoryId": "100341",
+    "variantId": "133917",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9193313/model-series-id-39103/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Operating Mode": "Manual",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "without comfort function",
+      "Window Regulator": "Double Rail Window Lift",
+      "Number of pins": "0",
+      "Article ID:": "9193313",
+      "Article Number:": "SS064331-FL",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW:": "3GB837461"
+    }
+  },
+  {
+    "id": "9193314",
+    "name": "Window Regulator",
+    "partNo": "SS064331-FR",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "1561",
+    "productGroupId": "102691",
+    "categoryId": "100341",
+    "variantId": "133917",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9193314/model-series-id-39103/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Front",
+      "Operating Mode": "Manual",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "without comfort function",
+      "Window Regulator": "Double Rail Window Lift",
+      "Number of pins": "0",
+      "Article ID:": "9193314",
+      "Article Number:": "SS064331-FR",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW:": "3GB837462"
+    }
+  }
+]

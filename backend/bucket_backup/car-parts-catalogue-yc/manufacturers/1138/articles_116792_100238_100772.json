@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2755878",
+    "name": "Mounting, manual transmission",
+    "partNo": "32785",
+    "manufacturer": "ORIGINAL IMPERIUM",
+    "supplierId": "331",
+    "productsId": "249",
+    "productGroupId": "100772",
+    "categoryId": "100238",
+    "variantId": "116792",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2755878/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Upper",
+      "Weight [g]": "392",
+      "Article ID:": "2755878",
+      "Article Number:": "32785",
+      "Manufacturer:": "ORIGINAL IMPERIUM",
+      "EAN Numbers:": "805046359976",
+      "OEM Numbers NISSAN:": "112214046R",
+      "OEM Numbers RENAULT:": "112214046R",
+      "OEM Numbers DACIA:": "112214046R",
+      "OEM Numbers SMART:": "A4532400200",
+      "OEM Numbers MERCEDES-BENZ:": "A4532400200"
+    }
+  },
+  {
+    "id": "2755890",
+    "name": "Mounting, manual transmission",
+    "partNo": "32786",
+    "manufacturer": "ORIGINAL IMPERIUM",
+    "supplierId": "331",
+    "productsId": "249",
+    "productGroupId": "100772",
+    "categoryId": "100238",
+    "variantId": "116792",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2755890/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "4532400017",
+      "Fitting Position": "Upper",
+      "Weight [g]": "369",
+      "Article ID:": "2755890",
+      "Article Number:": "32786",
+      "Manufacturer:": "ORIGINAL IMPERIUM",
+      "EAN Numbers:": "805046459977",
+      "OEM Numbers RENAULT:": "112202843R",
+      "OEM Numbers SMART:": "A4532400017"
+    }
+  }
+]

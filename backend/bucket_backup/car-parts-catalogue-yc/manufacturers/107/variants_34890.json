@@ -1,0 +1,66 @@
+[
+  {
+    "id": "51815",
+    "type": "2.5 WRX STI AWD",
+    "modelId": "34890",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ257",
+      "cylinder": "4",
+      "capacity": "2,457 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2007-09-01\n                            \n                            2011-12-01",
+      "power": "227 KW / 309 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "51816",
+    "type": "2.5 i AWD",
+    "modelId": "34890",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ253",
+      "cylinder": "4",
+      "capacity": "2,458 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2007-09-01\n                            \n                            2011-12-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "51817",
+    "type": "2.5 WRX AWD",
+    "modelId": "34890",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ255",
+      "cylinder": "4",
+      "capacity": "2,458 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2007-09-01\n                            \n                            2011-12-01",
+      "power": "171 KW / 233 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "52182",
+    "type": "2.0 AWD",
+    "modelId": "34890",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-09-01\n                            \n                            2012-12-01",
+      "power": "112 KW / 152 PS"
+    },
+    "categories": []
+  }
+]

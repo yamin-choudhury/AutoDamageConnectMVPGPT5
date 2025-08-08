@@ -1,0 +1,274 @@
+[
+  {
+    "id": "100571",
+    "type": "Cooper D",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B37 C15 A",
+      "cylinder": "3",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2013-12-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100572",
+    "type": "Cooper",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B38 A15 A,B36 A15 A",
+      "cylinder": "3",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-12-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100573",
+    "type": "Cooper S",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B48 A20 A,B46 A20 A,B48 A20 F",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-12-01",
+      "power": "141 KW / 192 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100898",
+    "type": "One D",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B37 C15 A",
+      "cylinder": "3",
+      "capacity": "1,496 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2014-03-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100899",
+    "type": "One",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B38 A12 A",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2014-04-01\n                            \n                            2017-10-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106508",
+    "type": "Cooper SD",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B47 C20 A,B47 C20 B",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2014-06-01\n                            \n                            2017-10-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106513",
+    "type": "One First",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B38 A12 A",
+      "cylinder": "3",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2014-07-01\n                            \n                            2017-10-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "111113",
+    "type": "John Cooper Works",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B48 A20 B,B46 A20 B",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-03-01",
+      "power": "170 KW / 231 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121964",
+    "type": "Cooper S",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B48 A20 A",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123158",
+    "type": "Cooper SD",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B47 C20 A,B47 C20 B",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2014-06-01\n                            \n                            2017-10-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128712",
+    "type": "Cooper S JCW",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B48 A20 A,B46 A20 A",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2013-12-01",
+      "power": "155 KW / 211 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129121",
+    "type": "One",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B38 A15 A",
+      "cylinder": "3",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129125",
+    "type": "One First",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B38 A15 A",
+      "cylinder": "3",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136727",
+    "type": "Cooper SE / Electric",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "IB1P25B",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2019-11-01",
+      "power": "135 KW / 184 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137845",
+    "type": "John Cooper Works GP",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B48 A20 E",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-03-01",
+      "power": "225 KW / 306 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138184",
+    "type": "Cooper SE / Electric",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "IB1P25B",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2019-11-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142433",
+    "type": "Cooper S",
+    "modelId": "11753",
+    "manufacturerId": "1523",
+    "url": "",
+    "specs": {
+      "engineCode": "B48 A20 A,B48 A20 F",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2020-11-01",
+      "power": "131 KW / 178 PS"
+    },
+    "categories": []
+  }
+]

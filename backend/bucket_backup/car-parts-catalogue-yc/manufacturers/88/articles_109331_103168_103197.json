@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1579379",
+    "name": "Pipe",
+    "partNo": "17199",
+    "manufacturer": "IBRAS",
+    "supplierId": "6308",
+    "productsId": "639",
+    "productGroupId": "103197",
+    "categoryId": "103168",
+    "variantId": "109331",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1579379/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Polyamid 6",
+      "Quantity Unit": "Packing Unit",
+      "Weight [g]": "2",
+      "Article ID:": "1579379",
+      "Article Number:": "17199",
+      "Manufacturer:": "IBRAS",
+      "EAN Numbers:": "869866917199",
+      "OEM Numbers CITROËN:": "6992.G6",
+      "OEM Numbers PEUGEOT:": "6992.G6",
+      "OEM Numbers FIAT:": "9255026380"
+    }
+  },
+  {
+    "id": "1579378",
+    "name": "Pipe",
+    "partNo": "17199",
+    "manufacturer": "NIFEA",
+    "supplierId": "5470",
+    "productsId": "639",
+    "productGroupId": "103197",
+    "categoryId": "103168",
+    "variantId": "109331",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1579378/model-series-id-11219/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Polyamid 6",
+      "Quantity Unit": "Packing Unit",
+      "Weight [g]": "2",
+      "Article ID:": "1579378",
+      "Article Number:": "17199",
+      "Manufacturer:": "NIFEA",
+      "EAN Numbers:": "869866917199",
+      "OEM Numbers CITROËN:": "6992.G6",
+      "OEM Numbers PEUGEOT:": "6992.G6",
+      "OEM Numbers FIAT:": "9255026380"
+    }
+  }
+]

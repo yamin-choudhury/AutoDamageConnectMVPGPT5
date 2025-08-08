@@ -1,0 +1,59 @@
+[
+  {
+    "id": "8308253",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "OAP7247",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8308253/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "39,1",
+      "Inner diameter [mm]": "17",
+      "Outer diameter [mm]": "62,6",
+      "Number of grooves": "7",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "8308253",
+      "Article Number:": "OAP7247",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "540060813398",
+      "OEM Numbers TOYOTA:": "274150L040",
+      "OEM Numbers MAZDA:": "U201-18-W10",
+      "OEM Numbers FORD ASIA & OCEANIA:": "U201-18-W10"
+    }
+  },
+  {
+    "id": "3745064",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0128 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "144640",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3745064/model-series-id-5034/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Number of grooves": "7",
+      "for manufacturer number": "F-556174.XX",
+      "Distance to first groove [mm]": "8",
+      "Article ID:": "3745064",
+      "Article Number:": "535 0128 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510847428",
+      "OEM Numbers FORD:": "CC1T10300CD",
+      "OEM Numbers TOYOTA:": "274150L040",
+      "OEM Numbers LEXUS:": "274150L040",
+      "OEM Numbers LAND ROVER:": "YLE500310",
+      "OEM Numbers MAZDA:": "UK0118300D"
+    }
+  }
+]

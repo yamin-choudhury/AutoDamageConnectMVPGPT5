@@ -1,0 +1,75 @@
+[
+  {
+    "id": "7444449",
+    "name": "Fuel Filter",
+    "partNo": "H80WK07",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "12833",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7444449/model-series-id-6587/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Overall Length [mm]": "157",
+      "Outer diameter [mm]": "82",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "7444449",
+      "Article Number:": "H80WK07",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077606343",
+      "OEM Numbers VAG:": "SE 021 104 653 A",
+      "OEM Numbers FORD:": "95VW-9155-CA"
+    }
+  },
+  {
+    "id": "7794315",
+    "name": "Fuel Filter",
+    "partNo": "KL 450/1",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "12833",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7794315/model-series-id-6587/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "80",
+      "Height [mm]": "163",
+      "Filter type": "In-Line Filter",
+      "Inlet Ø [mm]": "9",
+      "Article ID:": "7794315",
+      "Article Number:": "KL 450/1",
+      "Manufacturer:": "MAHLE",
+      "OEM Numbers VW (SVW):": "1H0 201 511 A"
+    }
+  },
+  {
+    "id": "7794315",
+    "name": "Fuel Filter",
+    "partNo": "KL 450/1",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "12833",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7794315/model-series-id-6587/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "80",
+      "Height [mm]": "163",
+      "Filter type": "In-Line Filter",
+      "Inlet Ø [mm]": "9",
+      "Article ID:": "7794315",
+      "Article Number:": "KL 450/1",
+      "Manufacturer:": "MAHLE",
+      "OEM Numbers VW (SVW):": "1H0 201 511 A"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1285549",
+    "name": "Mount, exhaust system",
+    "partNo": "133-704",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "13971",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1285549/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "1285549",
+      "Article Number:": "133-704",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513326939",
+      "OEM Numbers FORD:": "BLPR57BP",
+      "OEM Numbers ROVER:": "GEX7626"
+    }
+  },
+  {
+    "id": "1285574",
+    "name": "Mount, exhaust system",
+    "partNo": "133-904",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "13971",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1285574/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "1285574",
+      "Article Number:": "133-904",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513320514",
+      "OEM Numbers FORD:": "BLPR57BP",
+      "OEM Numbers ROVER:": "GEX7626"
+    }
+  }
+]

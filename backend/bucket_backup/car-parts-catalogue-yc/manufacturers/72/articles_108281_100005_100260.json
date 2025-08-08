@@ -1,0 +1,53 @@
+[
+  {
+    "id": "3992531",
+    "name": "Air Filter",
+    "partNo": "600 060",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "108281",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3992531/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "228",
+      "Width [mm]": "173",
+      "Height [mm]": "48",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Frame Material": "Plastic",
+      "Article ID:": "3992531",
+      "Article Number:": "600 060",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers MAZDA:": "P501 13 3A09A"
+    }
+  },
+  {
+    "id": "9454600",
+    "name": "Air Filter",
+    "partNo": "TQ-FZ0860",
+    "manufacturer": "TQ",
+    "supplierId": "2235",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "108281",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9454600/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "228",
+      "Width [mm]": "173",
+      "Height [mm]": "48",
+      "Filter type": "Filter Insert",
+      "Article ID:": "9454600",
+      "Article Number:": "TQ-FZ0860",
+      "Manufacturer:": "TQ",
+      "EAN Numbers:": "0385602460879",
+      "OEM Numbers MAZDA:": "P501133A0"
+    }
+  }
+]

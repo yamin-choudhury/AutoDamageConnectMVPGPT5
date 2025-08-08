@@ -1,0 +1,75 @@
+[
+  {
+    "id": "2976755",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "37-03793",
+    "manufacturer": "DYS",
+    "supplierId": "4135",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "107636",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2976755/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Weight [kg]": "0,246043",
+      "Control/Trailing Arm Type": "for control arm",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "2976755",
+      "Article Number:": "37-03793",
+      "Manufacturer:": "DYS",
+      "EAN Numbers:": "844352299303",
+      "OEM Numbers HONDA:": "pof_52375TZ5A91",
+      "OEM Numbers ACURA:": "pof_52375TZ5A91"
+    }
+  },
+  {
+    "id": "7480282",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "HOCAB-054",
+    "manufacturer": "Mchanix",
+    "supplierId": "6266",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "107636",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7480282/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "7480282",
+      "Article Number:": "HOCAB-054",
+      "Manufacturer:": "Mchanix",
+      "OEM Numbers HONDA:": "51391-T2A-A03"
+    }
+  },
+  {
+    "id": "3886730",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "57-16058",
+    "manufacturer": "TALOSA",
+    "supplierId": "4758",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "107636",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3886730/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Weight [kg]": "0,246043",
+      "Control/Trailing Arm Type": "for control arm",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "3886730",
+      "Article Number:": "57-16058",
+      "Manufacturer:": "TALOSA",
+      "EAN Numbers:": "844352299303",
+      "OEM Numbers HONDA:": "pof_52375TZ5A91",
+      "OEM Numbers ACURA:": "pof_52375TZ5A91"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "414",
+    "type": "1.6 16V",
+    "modelId": "9005",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QG16DE,QG16",
+      "cylinder": "4",
+      "capacity": "1,597 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2006-03-01",
+      "power": "79 KW / 107 PS"
+    },
+    "categories": []
+  }
+]

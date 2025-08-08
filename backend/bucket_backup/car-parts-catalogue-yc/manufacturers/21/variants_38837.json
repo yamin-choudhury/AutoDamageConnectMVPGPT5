@@ -1,0 +1,162 @@
+[
+  {
+    "id": "132156",
+    "type": "1.5 BlueHDi 130 (ECYHZJ, ECYHZR)",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "YHZ (DV5RC)",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2018-06-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132157",
+    "type": "1.5 BlueHDi 100",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "YHY (DV5RD)",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2018-06-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132158",
+    "type": "1.2 PureTech 110",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "HNP (EB2ADT)",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-06-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132298",
+    "type": "1.5 BlueHDi 75",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "YHW (DV5RE)",
+      "cylinder": "4",
+      "capacity": "1,499 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2018-06-01",
+      "power": "56 KW / 76 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137107",
+    "type": "1.2 PureTech 130",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "HNS (EB2ADTS)",
+      "cylinder": "3",
+      "capacity": "1,199 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138262",
+    "type": "1.6 BlueHDi 100",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "BHY (DV6FD)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2019-01-01",
+      "power": "73 KW / 99 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145516",
+    "type": "e-Berlingo",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "ZKX (ZK01)",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2021-07-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "150197",
+    "type": "1.6 HDi 90",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "9H06 (DV6DTED)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2022-06-01",
+      "power": "68 KW / 92 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "150198",
+    "type": "1.6 VTi 115",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "NFP (EC5F)",
+      "cylinder": "4",
+      "capacity": "1,587 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2022-06-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "150534",
+    "type": "1.6 HDi 75",
+    "modelId": "38837",
+    "manufacturerId": "21",
+    "url": "",
+    "specs": {
+      "engineCode": "9HN (DV6ETED)",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2018-09-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  }
+]

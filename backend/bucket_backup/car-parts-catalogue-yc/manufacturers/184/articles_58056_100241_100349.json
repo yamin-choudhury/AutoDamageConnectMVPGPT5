@@ -1,0 +1,74 @@
+[
+  {
+    "id": "7756956",
+    "name": "Interior Blower",
+    "partNo": "KA8233",
+    "manufacturer": "AVA QUALITY COOLING",
+    "supplierId": "247",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "58056",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7756956/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Diameter [mm]": "151",
+      "Article ID:": "7756956",
+      "Article Number:": "KA8233",
+      "Manufacturer:": "AVA QUALITY COOLING",
+      "EAN Numbers:": "404538519788",
+      "OEM Numbers KIA:": "979452J000"
+    }
+  },
+  {
+    "id": "7756949",
+    "name": "Electric Motor, interior blower",
+    "partNo": "KA8219",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "793",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "58056",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7756949/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "Bosch",
+      "Heating/Cooling": "Single Fan",
+      "Rotation Direction": "Anticlockwise rotation",
+      "Article ID:": "7756949",
+      "Article Number:": "KA8219",
+      "Manufacturer:": "PRASCO",
+      "OEM Numbers HYUNDAI:": "971144D050",
+      "OEM Numbers KIA:": "971144D050"
+    }
+  },
+  {
+    "id": "7756957",
+    "name": "Electric Motor, interior blower",
+    "partNo": "KA8233",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "793",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "58056",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7756957/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "Doowon",
+      "Heating/Cooling": "Single Fan",
+      "Rotation Direction": "Anticlockwise rotation",
+      "Article ID:": "7756957",
+      "Article Number:": "KA8233",
+      "Manufacturer:": "PRASCO",
+      "OEM Numbers KIA:": "979452J000"
+    }
+  }
+]

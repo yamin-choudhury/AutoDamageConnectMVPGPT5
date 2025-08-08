@@ -1,0 +1,75 @@
+[
+  {
+    "id": "2200606",
+    "name": "Cable Pull, clutch control",
+    "partNo": "24.3728-0628.2",
+    "manufacturer": "ATE",
+    "supplierId": "3",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2200606/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1028",
+      "Article ID:": "2200606",
+      "Article Number:": "24.3728-0628.2",
+      "Manufacturer:": "ATE",
+      "EAN Numbers:": "400663337255",
+      "OEM Numbers FORD:": "9S51-7K553-BA",
+      "OEM Numbers FIAT:": "55230959"
+    }
+  },
+  {
+    "id": "2705917",
+    "name": "Cable Pull, clutch control",
+    "partNo": "32-0537",
+    "manufacturer": "MAXGEAR",
+    "supplierId": "403",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2705917/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Length 1 [mm]": "1028",
+      "Length 2 [mm]": "625",
+      "Article ID:": "2705917",
+      "Article Number:": "32-0537",
+      "Manufacturer:": "MAXGEAR",
+      "EAN Numbers:": "590161953775",
+      "OEM Numbers FORD:": "9S517K553BA",
+      "OEM Numbers FIAT:": "55196302"
+    }
+  },
+  {
+    "id": "3836859",
+    "name": "Cable Pull, clutch control",
+    "partNo": "554571",
+    "manufacturer": "SEIM",
+    "supplierId": "263",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3836859/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Vehicle Identification Number from": "0178817",
+      "Length 1/ Length 2 [mm]": "1028/625",
+      "Adjustment": "with manual adjustment",
+      "Article ID:": "3836859",
+      "Article Number:": "554571",
+      "Manufacturer:": "SEIM",
+      "EAN Numbers:": "334980554571",
+      "OEM Numbers FORD:": "1558931",
+      "OEM Numbers FIAT:": "55196302"
+    }
+  }
+]

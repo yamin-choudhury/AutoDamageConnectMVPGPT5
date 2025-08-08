@@ -1,0 +1,102 @@
+[
+  {
+    "id": "5485208",
+    "name": "Ignition Coil",
+    "partNo": "A1511105",
+    "manufacturer": "BOGAP",
+    "supplierId": "5349",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "34847",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5485208/model-series-id-8955/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [cm]": "11,5",
+      "Width [cm]": "10,5",
+      "Height [cm]": "8,5",
+      "Net weight [kg]": "0,974",
+      "Article ID:": "5485208",
+      "Article Number:": "A1511105",
+      "Manufacturer:": "BOGAP",
+      "EAN Numbers:": "425178913961",
+      "OEM Numbers AUDI:": "032905106E",
+      "OEM Numbers SEAT:": "032905106E",
+      "OEM Numbers SKODA:": "032905106E",
+      "OEM Numbers VW:": "032905106E"
+    }
+  },
+  {
+    "id": "6256941",
+    "name": "Ignition Coil",
+    "partNo": "CBE5062",
+    "manufacturer": "CSV electronic parts",
+    "supplierId": "4334",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "34847",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6256941/model-series-id-8955/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Required quantity": "1",
+      "Number of pins": "4",
+      "for RPO number (vehicle manufacturing date)": "1745",
+      "Article ID:": "6256941",
+      "Article Number:": "CBE5062",
+      "Manufacturer:": "CSV electronic parts",
+      "EAN Numbers:": "843433901359",
+      "OEM Numbers VAG:": "032905106F"
+    }
+  },
+  {
+    "id": "7225455",
+    "name": "Ignition Coil",
+    "partNo": "GC4210",
+    "manufacturer": "GAUSS",
+    "supplierId": "3894",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "34847",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7225455/model-series-id-8955/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of connectors": "4",
+      "Number of pins": "4",
+      "Article ID:": "7225455",
+      "Article Number:": "GC4210",
+      "Manufacturer:": "GAUSS",
+      "OEM Numbers VW:": "032 905 106D",
+      "OEM Numbers AUDI:": "032 905 106B",
+      "OEM Numbers SEAT:": "032 905 106B",
+      "OEM Numbers SKODA:": "032 905 106B",
+      "OEM Numbers STANDARD AUTOMOBILE:": "UF277"
+    }
+  },
+  {
+    "id": "7682853",
+    "name": "Ignition Coil",
+    "partNo": "JM5494",
+    "manufacturer": "JANMOR",
+    "supplierId": "397",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "34847",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7682853/model-series-id-8955/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,904",
+      "Article ID:": "7682853",
+      "Article Number:": "JM5494",
+      "Manufacturer:": "JANMOR",
+      "EAN Numbers:": "590292521686",
+      "OEM Numbers VAG:": "032905106E"
+    }
+  }
+]

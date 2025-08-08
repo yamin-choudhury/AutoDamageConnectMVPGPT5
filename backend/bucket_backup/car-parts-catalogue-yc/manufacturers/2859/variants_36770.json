@@ -1,0 +1,82 @@
+[
+  {
+    "id": "120759",
+    "type": "1.2 180 TSI",
+    "modelId": "36770",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CYAA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120762",
+    "type": "1.6",
+    "modelId": "36770",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSRA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120763",
+    "type": "1.4 230 TSI",
+    "modelId": "36770",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSTA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122615",
+    "type": "1.4 280 TSI",
+    "modelId": "36770",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134665",
+    "type": "200 TSI",
+    "modelId": "36770",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DJNA,DLSA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-12-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1409667",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "15075800",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "108651",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1409667/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "8,5",
+      "Inner diameter [mm]": "47",
+      "Outer diameter [mm]": "63,5",
+      "Article ID:": "1409667",
+      "Article Number:": "15075800",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776968154",
+      "OEM Numbers FORD:": "F3AE6700AC",
+      "OEM Numbers MAZDA:": "AJ03-10-602"
+    }
+  },
+  {
+    "id": "1409673",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "15075900",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "108651",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1409673/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "9,5",
+      "Material": "FKM (fluorocarbon rubber)",
+      "Inner diameter [mm]": "91",
+      "Outer diameter [mm]": "107,5",
+      "Swirl Type": "Left-hand Twist",
+      "Article ID:": "1409673",
+      "Article Number:": "15075900",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776968156",
+      "OEM Numbers FORD:": "F3AE6701AA",
+      "OEM Numbers MAZDA:": "AJ03-11-312"
+    }
+  },
+  {
+    "id": "8264658",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "NA5175",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "108651",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8264658/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "9,50",
+      "Material": "NBR (nitrile butadiene rubber)",
+      "Inner diameter [mm]": "91,00",
+      "Outer diameter [mm]": "108,00",
+      "Swirl Type": "Left-hand Twist",
+      "Radial Shaft Seal Design": "829N LD",
+      "Article ID:": "8264658",
+      "Article Number:": "NA5175",
+      "Manufacturer:": "PAYEN",
+      "EAN Numbers:": "404419721990",
+      "OEM Numbers FORD:": "F3AE6701AA"
+    }
+  }
+]

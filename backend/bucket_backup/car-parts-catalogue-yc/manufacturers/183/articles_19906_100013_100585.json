@@ -1,0 +1,70 @@
+[
+  {
+    "id": "2754385",
+    "name": "Axle Beam",
+    "partNo": "3271,285,1",
+    "manufacturer": "BINDER",
+    "supplierId": "4202",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "19906",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2754385/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2754385",
+      "Article Number:": "3271,285,1",
+      "Manufacturer:": "BINDER",
+      "EAN Numbers:": "0571427031624",
+      "OEM Numbers KIA:": "624101G000"
+    }
+  },
+  {
+    "id": "2755700",
+    "name": "Axle Beam",
+    "partNo": "3277008",
+    "manufacturer": "KLOKKERHOLM",
+    "supplierId": "78",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "19906",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2755700/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2755700",
+      "Article Number:": "3277008",
+      "Manufacturer:": "KLOKKERHOLM",
+      "EAN Numbers:": "571427033243",
+      "OEM Numbers HYUNDAI:": "551001E500",
+      "OEM Numbers KIA:": "55100-1G100"
+    }
+  },
+  {
+    "id": "9609641",
+    "name": "Axle Beam",
+    "partNo": "VKDS 975001",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "19906",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9609641/model-series-id-5623/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "paired article number": "VKDS 975001",
+      "Article ID:": "9609641",
+      "Article Number:": "VKDS 975001",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731658125891",
+      "OEM Numbers KIA:": "55160-07000",
+      "OEM Numbers HYUNDAI:": "55160-1E000"
+    }
+  }
+]

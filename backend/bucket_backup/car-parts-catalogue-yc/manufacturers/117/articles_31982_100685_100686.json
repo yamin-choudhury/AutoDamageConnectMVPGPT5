@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1609019",
+    "name": "Control, central locking system",
+    "partNo": "177118",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "791",
+    "productGroupId": "100686",
+    "categoryId": "100685",
+    "variantId": "31982",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1609019/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,085",
+      "Operating Mode": "Electric",
+      "Number of connectors": "2",
+      "Article ID:": "1609019",
+      "Article Number:": "177118",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422477118",
+      "OEM Numbers VAUXHALL:": "24438209",
+      "OEM Numbers GENERAL MOTORS:": "13158426",
+      "OEM Numbers OPEL:": "62 07 133"
+    }
+  },
+  {
+    "id": "2765077",
+    "name": "Control, central locking system",
+    "partNo": "33 10 3915",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "791",
+    "productGroupId": "100686",
+    "categoryId": "100685",
+    "variantId": "31982",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2765077/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,085",
+      "Operating Mode": "Electric",
+      "Number of connectors": "2",
+      "Article ID:": "2765077",
+      "Article Number:": "33 10 3915",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422877118",
+      "OEM Numbers VAUXHALL:": "24438209",
+      "OEM Numbers GENERAL MOTORS:": "13158426",
+      "OEM Numbers OPEL:": "62 07 133"
+    }
+  },
+  {
+    "id": "9549028",
+    "name": "Control, central locking system",
+    "partNo": "V40-77-0043",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "791",
+    "productGroupId": "100686",
+    "categoryId": "100685",
+    "variantId": "31982",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9549028/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle tank flap",
+      "Operating Mode": "Electric",
+      "Article ID:": "9549028",
+      "Article Number:": "V40-77-0043",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "406237519874",
+      "OEM Numbers OPEL:": "62 07 133",
+      "OEM Numbers GENERAL MOTORS:": "24438209"
+    }
+  },
+  {
+    "id": "9549028",
+    "name": "Control, central locking system",
+    "partNo": "V40-77-0043",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "791",
+    "productGroupId": "100686",
+    "categoryId": "100685",
+    "variantId": "31982",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9549028/model-series-id-5475/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle tank flap",
+      "Operating Mode": "Electric",
+      "Article ID:": "9549028",
+      "Article Number:": "V40-77-0043",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "406237519874",
+      "OEM Numbers OPEL:": "62 07 133",
+      "OEM Numbers GENERAL MOTORS:": "24438209"
+    }
+  }
+]

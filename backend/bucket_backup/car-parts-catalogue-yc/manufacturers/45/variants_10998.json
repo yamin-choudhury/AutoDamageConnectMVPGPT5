@@ -1,0 +1,98 @@
+[
+  {
+    "id": "58319",
+    "type": "3.5",
+    "modelId": "10998",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Y1",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "207 KW / 282 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58320",
+    "type": "2.4",
+    "modelId": "10998",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24Z3",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "138 KW / 188 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107261",
+    "type": "2.4",
+    "modelId": "10998",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W1",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "141 KW / 192 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138471",
+    "type": "2.4",
+    "modelId": "10998",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W2",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-05-01",
+      "power": "127 KW / 173 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138472",
+    "type": "3.5",
+    "modelId": "10998",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Y3",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2013-05-01",
+      "power": "203 KW / 276 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138479",
+    "type": "2.4",
+    "modelId": "10998",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K24W2",
+      "cylinder": "4",
+      "capacity": "2,356 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "136 KW / 185 PS"
+    },
+    "categories": []
+  }
+]

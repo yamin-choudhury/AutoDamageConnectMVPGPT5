@@ -1,0 +1,53 @@
+[
+  {
+    "id": "5414406",
+    "name": "Wiper Blade",
+    "partNo": "9XW 190 253-161",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "123444",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5414406/model-series-id-8869/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Length [mm]": "400",
+      "Length [in]": "16",
+      "Quantity": "1",
+      "Left-/right-hand drive vehicles": "for right-hand drive vehicles",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "5414406",
+      "Article Number:": "9XW 190 253-161",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230033182",
+      "OEM Numbers VW:": "161-955-425/H"
+    }
+  },
+  {
+    "id": "8694115",
+    "name": "Wiper Blade",
+    "partNo": "QTW016",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "123444",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8694115/model-series-id-8869/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "406",
+      "Length [in]": "16",
+      "Fastening Type": "Hook fixing",
+      "Article ID:": "8694115",
+      "Article Number:": "QTW016",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043841797",
+      "OEM Numbers TOYOTA:": "8524260090"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "3051643",
+    "name": "Belt Tensioner, V-ribbed belt",
+    "partNo": "39501",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "541",
+    "productGroupId": "100441",
+    "categoryId": "100016",
+    "variantId": "108278",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3051643/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "26,5",
+      "Material": "Metal",
+      "Outer diameter [mm]": "65,4",
+      "Surface": "Smooth",
+      "Article ID:": "3051643",
+      "Article Number:": "39501",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "540060838463",
+      "OEM Numbers MAZDA:": "P51D-15-980A"
+    }
+  },
+  {
+    "id": "9302080",
+    "name": "Belt Tensioner, V-ribbed belt",
+    "partNo": "T39501",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "541",
+    "productGroupId": "100441",
+    "categoryId": "100016",
+    "variantId": "108278",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9302080/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9302080",
+      "Article Number:": "T39501",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers MAZDA:": "P51D-15-980A"
+    }
+  }
+]

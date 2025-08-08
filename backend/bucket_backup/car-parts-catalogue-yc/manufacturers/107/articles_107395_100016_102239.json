@@ -1,0 +1,81 @@
+[
+  {
+    "id": "3745178",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0246 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "107395",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3745178/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "for manufacturer number": "F-577572.XX",
+      "Article ID:": "3745178",
+      "Article Number:": "535 0246 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510883749",
+      "OEM Numbers MITSUBISHI:": "1800A459",
+      "OEM Numbers NISSAN:": "231513HD1A",
+      "OEM Numbers SUBARU:": "23750AA070",
+      "OEM Numbers SUZUKI:": "3140078K22",
+      "OEM Numbers CITROËN:": "5705KA",
+      "OEM Numbers PEUGEOT:": "5705KA",
+      "OEM Numbers MAZDA:": "Z66818300A"
+    }
+  },
+  {
+    "id": "3745236",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0316 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "107395",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3745236/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Number of grooves": "6",
+      "for manufacturer number": "920054",
+      "Distance to first groove [mm]": "8,44",
+      "Article ID:": "3745236",
+      "Article Number:": "535 0316 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487018092",
+      "OEM Numbers SUBARU:": "23752AA150"
+    }
+  },
+  {
+    "id": "3745255",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0336 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "107395",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3745255/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Number of grooves": "6",
+      "for manufacturer number": "920056",
+      "Distance to first groove [mm]": "8,44",
+      "Article ID:": "3745255",
+      "Article Number:": "535 0336 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487053102",
+      "OEM Numbers SUBARU:": "23752AA130"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "4640977",
+    "name": "Filter, interior air",
+    "partNo": "80005281",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "123879",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4640977/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "214",
+      "Width [mm]": "213",
+      "Height [mm]": "25",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "4640977",
+      "Article Number:": "80005281",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896061891",
+      "OEM Numbers RENAULT:": "27 27 747 11R",
+      "OEM Numbers SMART:": "453 835 03 00"
+    }
+  },
+  {
+    "id": "4640979",
+    "name": "Filter, interior air",
+    "partNo": "80005282",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "123879",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4640979/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "214",
+      "Width [mm]": "213",
+      "Height [mm]": "25",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "4640979",
+      "Article Number:": "80005282",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896061892",
+      "OEM Numbers RENAULT:": "27 27 747 11R",
+      "OEM Numbers SMART:": "453 835 03 00",
+      "OEM Numbers MERCEDES-BENZ:": "A4538350300"
+    }
+  }
+]

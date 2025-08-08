@@ -1,0 +1,58 @@
+[
+  {
+    "id": "6404612",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "CS-722L",
+    "manufacturer": "CTE",
+    "supplierId": "4880",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "117942",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6404612/model-series-id-14948/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "45202-74P10",
+      "Fitting Position": "Lower Front Axle",
+      "Length [mm]": "0",
+      "Width [mm]": "0",
+      "Height [mm]": "0",
+      "Weight [kg]": "0",
+      "Control/Trailing Arm Type": "for control arm",
+      "Serial Number": "CS-722L",
+      "Article ID:": "6404612",
+      "Article Number:": "CS-722L",
+      "Manufacturer:": "CTE",
+      "OEM Numbers SUZUKI:": "45202-74P10"
+    }
+  },
+  {
+    "id": "6404613",
+    "name": "Control Arm/Trailing Arm, wheel suspension",
+    "partNo": "CS-722R",
+    "manufacturer": "CTE",
+    "supplierId": "4880",
+    "productsId": "273",
+    "productGroupId": "100571",
+    "categoryId": "100013",
+    "variantId": "117942",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6404613/model-series-id-14948/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "45201-74P10",
+      "Fitting Position": "Lower Front Axle",
+      "Length [mm]": "0",
+      "Width [mm]": "0",
+      "Height [mm]": "0",
+      "Weight [kg]": "0",
+      "Control/Trailing Arm Type": "for control arm",
+      "Serial Number": "CS-722R",
+      "Article ID:": "6404613",
+      "Article Number:": "CS-722R",
+      "Manufacturer:": "CTE",
+      "OEM Numbers SUZUKI:": "45201-74P10"
+    }
+  }
+]

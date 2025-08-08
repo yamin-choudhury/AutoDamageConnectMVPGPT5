@@ -1,0 +1,81 @@
+[
+  {
+    "id": "73898",
+    "name": "Brake Pad Set, disc brake",
+    "partNo": "0 986 AB1 012",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "402",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "123023",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/73898/model-series-id-37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "15",
+      "Width [mm]": "127,1",
+      "Height [mm]": "51,7",
+      "Wear Warning Contact": "with acoustic wear warning",
+      "Article ID:": "73898",
+      "Article Number:": "0 986 AB1 012",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702436435",
+      "OEM Numbers TOYOTA:": "04465-BZ100",
+      "OEM Numbers MITSUBISHI:": "MZS55049"
+    }
+  },
+  {
+    "id": "3734979",
+    "name": "Timing Belt",
+    "partNo": "5318XS",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "306",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "123023",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3734979/model-series-id-37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "103",
+      "Length [mm]": "981",
+      "Width [mm]": "25,4",
+      "Colour": "Black",
+      "Material": "HNBR (hydrogenated nitrile butadiene rubber)",
+      "Tooth Pitch [mm]": "9,525",
+      "Article number of the recommended special tool": "STT-1",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "3734979",
+      "Article Number:": "5318XS",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "541257100858",
+      "OEM Numbers SUZUKI:": "12761-85C10-000"
+    }
+  },
+  {
+    "id": "7755096",
+    "name": "Brake Shoe Set",
+    "partNo": "K9980",
+    "manufacturer": "MK Kashiyama",
+    "supplierId": "6103",
+    "productsId": "70",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "123023",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7755096/model-series-id-37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "5320061J00",
+      "Fitting Position": "Rear Axle",
+      "Width [mm]": "40",
+      "Radius [mm]": "110",
+      "Article ID:": "7755096",
+      "Article Number:": "K9980",
+      "Manufacturer:": "MK Kashiyama",
+      "OEM Numbers SUZUKI:": "5320061J10000"
+    }
+  }
+]

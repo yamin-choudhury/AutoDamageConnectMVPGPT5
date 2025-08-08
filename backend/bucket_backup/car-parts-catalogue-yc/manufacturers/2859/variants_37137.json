@@ -1,0 +1,50 @@
+[
+  {
+    "id": "123259",
+    "type": "1.4 TSI",
+    "modelId": "37137",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2009-10-01\n                            \n                            2014-12-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123260",
+    "type": "1.6",
+    "modelId": "37137",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CLRA,CDF,CLR",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2009-10-01\n                            \n                            2014-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129337",
+    "type": "GTI",
+    "modelId": "37137",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CGMA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01\n                            \n                            2014-12-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  }
+]

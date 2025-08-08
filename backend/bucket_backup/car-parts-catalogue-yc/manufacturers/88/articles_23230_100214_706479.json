@@ -1,0 +1,100 @@
+[
+  {
+    "id": "5029175",
+    "name": "Fuel Additive",
+    "partNo": "88256",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "9797",
+    "productGroupId": "706479",
+    "categoryId": "100214",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5029175/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "1,7",
+      "Packing Type": "Bag",
+      "Article ID:": "5029175",
+      "Article Number:": "88256",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843388912677",
+      "OEM Numbers CITROËN:": "9678034080",
+      "OEM Numbers PEUGEOT:": "9678034080"
+    }
+  },
+  {
+    "id": "5029179",
+    "name": "Fuel Additive",
+    "partNo": "88256LD",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "9797",
+    "productGroupId": "706479",
+    "categoryId": "100214",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5029179/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "1,7",
+      "Packing Type": "Bag",
+      "Article ID:": "5029179",
+      "Article Number:": "88256LD",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843388912998",
+      "OEM Numbers CITROËN:": "9678034080",
+      "OEM Numbers PEUGEOT:": "9678034080"
+    }
+  },
+  {
+    "id": "5029784",
+    "name": "Fuel Additive",
+    "partNo": "88271",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "9797",
+    "productGroupId": "706479",
+    "categoryId": "100214",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5029784/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "1,70",
+      "Packing Type": "Bag",
+      "Specification": "UNIVERSAL",
+      "Article ID:": "5029784",
+      "Article Number:": "88271",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843388923155",
+      "OEM Numbers CITROËN:": "9688875380",
+      "OEM Numbers PEUGEOT:": "9688875380"
+    }
+  },
+  {
+    "id": "2299559",
+    "name": "Fuel Additive",
+    "partNo": "258-407",
+    "manufacturer": "BOSAL",
+    "supplierId": "41",
+    "productsId": "9797",
+    "productGroupId": "706479",
+    "categoryId": "100214",
+    "variantId": "23230",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2299559/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "1,8",
+      "Vehicle Equipment": "for vehicles with fuel additive bag (DPF regeneration)",
+      "Article ID:": "2299559",
+      "Article Number:": "258-407",
+      "Manufacturer:": "BOSAL",
+      "EAN Numbers:": "335164258407",
+      "OEM Numbers CITROËN:": "EOLYS",
+      "OEM Numbers PEUGEOT:": "EOLYS",
+      "OEM Numbers MINI:": "EOLYS"
+    }
+  }
+]

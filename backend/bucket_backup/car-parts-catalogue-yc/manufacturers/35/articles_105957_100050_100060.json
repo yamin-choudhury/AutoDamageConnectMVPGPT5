@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2824700",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "3375",
+    "manufacturer": "LPR",
+    "supplierId": "197",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "105957",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2824700/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "12 X 9",
+      "Material": "Aluminium",
+      "Mounting Type": "Plug-in connection",
+      "Mounting bores distance [mm]": "49,5",
+      "Piston Diameter [mm]": "20,64",
+      "Article ID:": "2824700",
+      "Article Number:": "3375",
+      "Manufacturer:": "LPR",
+      "EAN Numbers:": "803292815535",
+      "OEM Numbers FIAT:": "55232914"
+    }
+  },
+  {
+    "id": "7997810",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "M30347",
+    "manufacturer": "SAMKO",
+    "supplierId": "343",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "105957",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7997810/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "12 X 9",
+      "Material": "Aluminium",
+      "Mounting Type": "Plug-in connection",
+      "Mounting bores distance [mm]": "49,5",
+      "Piston Diameter [mm]": "20,64",
+      "Article ID:": "7997810",
+      "Article Number:": "M30347",
+      "Manufacturer:": "SAMKO",
+      "EAN Numbers:": "803292815535",
+      "OEM Numbers FIAT:": "55232914"
+    }
+  },
+  {
+    "id": "4138610",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "624.B735",
+    "manufacturer": "VILLAR",
+    "supplierId": "456",
+    "productsId": "620",
+    "productGroupId": "100060",
+    "categoryId": "100050",
+    "variantId": "105957",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4138610/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,33",
+      "Bore Ø [mm]": "20,64",
+      "Thread Size": "plug-in connect.sys.",
+      "Material": "Aluminium",
+      "Mounting bores distance [mm]": "49,5",
+      "Article ID:": "4138610",
+      "Article Number:": "624.B735",
+      "Manufacturer:": "VILLAR",
+      "EAN Numbers:": "843250922188",
+      "OEM Numbers FIAT:": "55232914"
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "5091031",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "8DZ 355 204-791",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "123634",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5091031/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Brake System": "Bosch",
+      "Technical Information Number": "K0375",
+      "Article ID:": "5091031",
+      "Article Number:": "8DZ 355 204-791",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "408230038728",
+      "OEM Numbers FIAT:": "71770081"
+    }
+  },
+  {
+    "id": "5091032",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "8DZ 355 204-791",
+    "manufacturer": "HELLA PAGID",
+    "supplierId": "4625",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "123634",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5091032/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Brake System": "Bosch",
+      "Technical Information Number": "K0375",
+      "Article ID:": "5091032",
+      "Article Number:": "8DZ 355 204-791",
+      "Manufacturer:": "HELLA PAGID",
+      "EAN Numbers:": "408230038728",
+      "OEM Numbers FIAT:": "71770081"
+    }
+  },
+  {
+    "id": "8048330",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "MBA1812",
+    "manufacturer": "MINTEX",
+    "supplierId": "73",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "123634",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8048330/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,048",
+      "Brake System": "Bosch",
+      "Packaging length [cm]": "18,5",
+      "Packaging width [cm]": "1",
+      "Packaging height [cm]": "12",
+      "Article ID:": "8048330",
+      "Article Number:": "MBA1812",
+      "Manufacturer:": "MINTEX",
+      "EAN Numbers:": "502874078166",
+      "OEM Numbers FIAT:": "71770081"
+    }
+  },
+  {
+    "id": "4793081",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "82514000",
+    "manufacturer": "TEXTAR",
+    "supplierId": "39",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "123634",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4793081/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,048",
+      "Brake System": "Bosch",
+      "Packaging length [cm]": "18,5",
+      "Packaging width [cm]": "12,5",
+      "Packaging height [cm]": "1",
+      "Number of Parts [parts]": "9",
+      "Article ID:": "4793081",
+      "Article Number:": "82514000",
+      "Manufacturer:": "TEXTAR",
+      "EAN Numbers:": "401972243340",
+      "OEM Numbers FIAT:": "71770081"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "100028",
+    "type": "1.0 (B100)",
+    "modelId": "11609",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1KR-DE",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-12-01\n                            \n                            2017-03-01",
+      "power": "48 KW / 65 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132118",
+    "type": "1.0 VVTi (B100)",
+    "modelId": "11609",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "1KR-VE",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-04-01",
+      "power": "49 KW / 67 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135730",
+    "type": "1.2 (B101)",
+    "modelId": "11609",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "3NR-VE",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2017-04-01",
+      "power": "65 KW / 88 PS"
+    },
+    "categories": []
+  }
+]

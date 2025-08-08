@@ -1,0 +1,56 @@
+[
+  {
+    "id": "4017727",
+    "name": "Clutch Kit",
+    "partNo": "602 0006 00",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "115089",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4017727/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Dual-Clutch Transmission",
+      "Clutch Type": "for dry clutch",
+      "Supplementary Article/Info 2": "with clutch release bearing",
+      "Article ID:": "4017727",
+      "Article Number:": "602 0006 00",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510898832",
+      "OEM Numbers AUDI:": "0AM198142G",
+      "OEM Numbers SEAT:": "0AM198142G",
+      "OEM Numbers SKODA:": "0AM198142G",
+      "OEM Numbers VW:": "0AM198142H"
+    }
+  },
+  {
+    "id": "2549467",
+    "name": "Clutch Kit",
+    "partNo": "3000 943 003",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "115089",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2549467/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Dual-Clutch Transmission",
+      "Supplementary Article/Supplementary Info": "with clutch pressure plate",
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Article ID:": "2549467",
+      "Article Number:": "3000 943 003",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387293555",
+      "OEM Numbers AUDI:": "0AM 198 142 G",
+      "OEM Numbers SEAT:": "0AM 198 142 G",
+      "OEM Numbers SKODA:": "0AM 198 142 G",
+      "OEM Numbers VW:": "0AM 198 142 G"
+    }
+  }
+]

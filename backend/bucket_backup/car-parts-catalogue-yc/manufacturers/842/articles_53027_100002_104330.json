@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3745142",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "535 0209 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "53027",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3745142/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Number of grooves": "7",
+      "for manufacturer number": "920954",
+      "Distance to first groove [mm]": "9",
+      "Article ID:": "3745142",
+      "Article Number:": "535 0209 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510872162",
+      "OEM Numbers TOYOTA:": "274150W131",
+      "OEM Numbers LEXUS:": "274150W131"
+    }
+  },
+  {
+    "id": "10454305",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "ZM 95.005.03",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "53027",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10454305/model-series-id-9630/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "14",
+      "Overall Length [mm]": "52,2",
+      "Outer diameter [mm]": "59",
+      "Belt Pulley Ø [mm]": "53",
+      "Thread Length 1 [mm]": "12",
+      "Thread Length 2 [mm]": "21",
+      "for shaft diameter [mm]": "17",
+      "Number of grooves": "7",
+      "Groove from shaft end size": "9,1",
+      "Article ID:": "10454305",
+      "Article Number:": "ZM 95.005.03",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268411573",
+      "OEM Numbers TOYOTA:": "27415-0W131"
+    }
+  }
+]

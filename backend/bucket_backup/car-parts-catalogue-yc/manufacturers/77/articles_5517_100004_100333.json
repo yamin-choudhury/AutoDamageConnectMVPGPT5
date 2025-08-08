@@ -1,0 +1,37 @@
+[
+  {
+    "id": "4557736",
+    "name": "Bolt, exhaust system",
+    "partNo": "765-903",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "731",
+    "productGroupId": "100333",
+    "categoryId": "100004",
+    "variantId": "5517",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4557736/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M10",
+      "Thread Pitch [mm]": "1,25",
+      "Screw length below head [mm]": "66",
+      "Article ID:": "4557736",
+      "Article Number:": "765-903",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513321689",
+      "OEM Numbers SUZUKI:": "911910042",
+      "OEM Numbers MITSUBISHI:": "MR431025",
+      "OEM Numbers DAIHATSU:": "1756997501000",
+      "OEM Numbers BMW:": "18307790611",
+      "OEM Numbers NISSAN:": "206068H320",
+      "OEM Numbers OPEL:": "93194232",
+      "OEM Numbers CITROËN:": "682253",
+      "OEM Numbers PEUGEOT:": "682253",
+      "OEM Numbers ALFA ROMEO:": "71741685",
+      "OEM Numbers FIAT:": "93194232",
+      "OEM Numbers LANCIA:": "71741685",
+      "OEM Numbers TOYOTA:": "9090105031"
+    }
+  }
+]

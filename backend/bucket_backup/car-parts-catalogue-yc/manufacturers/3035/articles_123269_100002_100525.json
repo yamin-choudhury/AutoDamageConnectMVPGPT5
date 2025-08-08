@@ -1,0 +1,83 @@
+[
+  {
+    "id": "332113",
+    "name": "Conrod Bearing Set",
+    "partNo": "028 PS 21106 000",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "6167",
+    "productGroupId": "100525",
+    "categoryId": "100002",
+    "variantId": "123269",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/332113/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Component Number": "028PL21104000",
+      "for wall thickness from [mm]": "1,401",
+      "to wall thickness [mm]": "1,406",
+      "for housing diameter from [mm]": "51,319",
+      "to housing diameter [mm]": "52,319",
+      "Width from [mm]": "18,7",
+      "Width to [mm]": "19,0",
+      "Article ID:": "332113",
+      "Article Number:": "028 PS 21106 000",
+      "Manufacturer:": "MAHLE",
+      "OEM Numbers VW (SVW):": "053 105 701B"
+    }
+  },
+  {
+    "id": "332114",
+    "name": "Conrod Bearing Set",
+    "partNo": "028 PS 21106 025",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "6167",
+    "productGroupId": "100525",
+    "categoryId": "100002",
+    "variantId": "123269",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/332114/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Component Number": "028PL21104025",
+      "for wall thickness from [mm]": "1,526",
+      "to wall thickness [mm]": "1,531",
+      "for housing diameter from [mm]": "51,319",
+      "to housing diameter [mm]": "52,319",
+      "Width from [mm]": "18,7",
+      "Width to [mm]": "19,0",
+      "Article ID:": "332114",
+      "Article Number:": "028 PS 21106 025",
+      "Manufacturer:": "MAHLE",
+      "OEM Numbers VW:": "053 701 B"
+    }
+  },
+  {
+    "id": "332115",
+    "name": "Conrod Bearing Set",
+    "partNo": "028 PS 21106 050",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "6167",
+    "productGroupId": "100525",
+    "categoryId": "100002",
+    "variantId": "123269",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/332115/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Component Number": "028PL21104050",
+      "for wall thickness from [mm]": "1,651",
+      "to wall thickness [mm]": "1,656",
+      "for housing diameter from [mm]": "51,319",
+      "to housing diameter [mm]": "52,319",
+      "Width from [mm]": "18,7",
+      "Width to [mm]": "19,0",
+      "Article ID:": "332115",
+      "Article Number:": "028 PS 21106 050",
+      "Manufacturer:": "MAHLE",
+      "OEM Numbers VW:": "053 701 B"
+    }
+  }
+]

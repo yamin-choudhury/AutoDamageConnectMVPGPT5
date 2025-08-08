@@ -1,0 +1,71 @@
+[
+  {
+    "id": "429071",
+    "name": "Mounting, engine",
+    "partNo": "0412-CYRMT",
+    "manufacturer": "ASVA",
+    "supplierId": "4631",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "12007",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/429071/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Manual Transmission",
+      "Fitting Position": "Rear",
+      "Article ID:": "429071",
+      "Article Number:": "0412-CYRMT",
+      "Manufacturer:": "ASVA",
+      "OEM Numbers MITSUBISHI:": "MN101387"
+    }
+  },
+  {
+    "id": "6777134",
+    "name": "Mounting, engine",
+    "partNo": "EM-0752",
+    "manufacturer": "GOOM",
+    "supplierId": "6443",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "12007",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6777134/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "100,5",
+      "Width [mm]": "62",
+      "Height [mm]": "100",
+      "Inner diameter [mm]": "16",
+      "Article ID:": "6777134",
+      "Article Number:": "EM-0752",
+      "Manufacturer:": "GOOM",
+      "EAN Numbers:": "805413200545",
+      "OEM Numbers CHRYSLER:": "05105493AB",
+      "OEM Numbers ALFAROME/FIAT/LANCI:": "K05105493AB",
+      "OEM Numbers MITSUBISHI:": "MN184355"
+    }
+  },
+  {
+    "id": "3602375",
+    "name": "Mounting, engine",
+    "partNo": "50K5059-OYO",
+    "manufacturer": "Oyodo",
+    "supplierId": "6984",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "12007",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3602375/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3602375",
+      "Article Number:": "50K5059-OYO",
+      "Manufacturer:": "Oyodo",
+      "OEM Numbers MITSUBISHI:": "2910A109"
+    }
+  }
+]

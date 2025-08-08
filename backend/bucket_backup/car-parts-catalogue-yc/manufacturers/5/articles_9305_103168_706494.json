@@ -1,0 +1,31 @@
+[
+  {
+    "id": "521120",
+    "name": "Pressure Switch",
+    "partNo": "06-03005-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "2440",
+    "productGroupId": "706494",
+    "categoryId": "103168",
+    "variantId": "9305",
+    "manufacturerId": "5",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/521120/model-series-id-8604/manufacturer-id-5/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Pressure from [kPA]": "20",
+      "Pressure to [kPA]": "300",
+      "Article ID:": "521120",
+      "Article Number:": "06-03005-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727650437",
+      "OEM Numbers VW:": "03G906051F",
+      "OEM Numbers VAG:": "03G 906 051 F",
+      "OEM Numbers FORD:": "3M219E928AA",
+      "OEM Numbers PORSCHE:": "95560618010",
+      "OEM Numbers MITSUBISHI:": "MN191138"
+    }
+  }
+]

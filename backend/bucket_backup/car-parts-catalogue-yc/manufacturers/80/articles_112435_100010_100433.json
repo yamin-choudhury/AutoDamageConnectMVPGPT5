@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2675038",
+    "name": "Headlight",
+    "partNo": "315-1188L-AS7",
+    "manufacturer": "ABAKUS",
+    "supplierId": "4657",
+    "productsId": "259",
+    "productGroupId": "100433",
+    "categoryId": "100010",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2675038/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Lamp Type": "H11",
+      "Registration Type": "SAE checked",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with bulb holder",
+      "Supplementary Article/Info 2": "with bulbs",
+      "Model year to": "2015",
+      "paired article number": "315-1188R-AS7",
+      "Article ID:": "2675038",
+      "Article Number:": "315-1188L-AS7",
+      "Manufacturer:": "ABAKUS",
+      "OEM Numbers NISSAN:": "26060-3TA0A"
+    }
+  },
+  {
+    "id": "2675039",
+    "name": "Headlight",
+    "partNo": "315-1188R-AS7",
+    "manufacturer": "ABAKUS",
+    "supplierId": "4657",
+    "productsId": "259",
+    "productGroupId": "100433",
+    "categoryId": "100010",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2675039/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Lamp Type": "H11",
+      "Registration Type": "SAE checked",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with bulb holder",
+      "Supplementary Article/Info 2": "with bulbs",
+      "Model year to": "2015",
+      "paired article number": "315-1188L-AS7",
+      "Article ID:": "2675039",
+      "Article Number:": "315-1188R-AS7",
+      "Manufacturer:": "ABAKUS",
+      "OEM Numbers NISSAN:": "26010-3TA0A"
+    }
+  },
+  {
+    "id": "2675064",
+    "name": "Headlight",
+    "partNo": "315-1631L-AS",
+    "manufacturer": "ABAKUS",
+    "supplierId": "4657",
+    "productsId": "259",
+    "productGroupId": "100433",
+    "categoryId": "100010",
+    "variantId": "112435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2675064/model-series-id-11717/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Registration Type": "SAE checked",
+      "Supplementary Article/Supplementary Info": "with bulb holder",
+      "Country Specific Design": "USA",
+      "paired article number": "315-1631R-AS",
+      "Article ID:": "2675064",
+      "Article Number:": "315-1631L-AS",
+      "Manufacturer:": "ABAKUS",
+      "OEM Numbers NISSAN:": "26135-3TA0A"
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "100455",
+    "type": "1.6",
+    "modelId": "11744",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSRA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2013-12-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100456",
+    "type": "280 TSI",
+    "modelId": "11744",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-12-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "115089",
+    "type": "180 TSI",
+    "modelId": "11744",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CYAA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2015-06-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117671",
+    "type": "GTI",
+    "modelId": "11744",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CUGA,CHHB",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-11-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121289",
+    "type": "1.4 230 TSI",
+    "modelId": "11744",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSTA,DBVA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2013-12-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129147",
+    "type": "180 / 200 TSI",
+    "modelId": "11744",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DJNB,DLSA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138378",
+    "type": "EV",
+    "modelId": "11744",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "EBD",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2019-10-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  }
+]

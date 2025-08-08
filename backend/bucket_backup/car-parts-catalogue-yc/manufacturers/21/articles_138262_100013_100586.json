@@ -1,0 +1,57 @@
+[
+  {
+    "id": "3002931",
+    "name": "Mounting, axle beam",
+    "partNo": "37928 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "138262",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3002931/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "3002931",
+      "Article Number:": "37928 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743743967",
+      "OEM Numbers CITROËN:": "5131 H1",
+      "OEM Numbers OPEL:": "5131 H1",
+      "OEM Numbers PEUGEOT:": "5131 H1",
+      "OEM Numbers VAUXHALL:": "5131 H1"
+    }
+  },
+  {
+    "id": "4167121",
+    "name": "Mounting, axle beam",
+    "partNo": "634 403",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "138262",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4167121/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Width [mm]": "54",
+      "Quantity per axle": "2",
+      "Inner diameter [mm]": "14,4",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Outer diameter 1 [mm]": "82",
+      "Outer diameter 2 [mm]": "42",
+      "Article ID:": "4167121",
+      "Article Number:": "634 403",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers CITROËN:": "96 810 470 80",
+      "OEM Numbers OPEL:": "5131 H1",
+      "OEM Numbers PEUGEOT:": "96 810 470 80",
+      "OEM Numbers VAUXHALL:": "5131 H1"
+    }
+  }
+]

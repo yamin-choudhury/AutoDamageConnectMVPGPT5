@@ -1,0 +1,34 @@
+[
+  {
+    "id": "129114",
+    "type": "3.5 i All-wheel Drive (TF2)",
+    "modelId": "11333",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Z2",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01\n                            \n                            2012-12-01",
+      "power": "199 KW / 271 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132417",
+    "type": "3.5 i (TF1)",
+    "modelId": "11333",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "J35Z2",
+      "cylinder": "6",
+      "capacity": "3,471 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01\n                            \n                            2012-12-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  }
+]

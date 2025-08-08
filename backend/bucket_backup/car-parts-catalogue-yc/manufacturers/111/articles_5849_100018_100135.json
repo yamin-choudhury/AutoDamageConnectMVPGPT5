@@ -1,0 +1,79 @@
+[
+  {
+    "id": "9351238",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "T815-40",
+    "manufacturer": "ASHUKI by Palidium",
+    "supplierId": "442",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "5849",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9351238/model-series-id-9104/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Number of pins": "2",
+      "Pump Type": "Mono Pump",
+      "Connector Shape": "right-angled",
+      "Article ID:": "9351238",
+      "Article Number:": "T815-40",
+      "Manufacturer:": "ASHUKI by Palidium",
+      "EAN Numbers:": "871899345506",
+      "OEM Numbers TOYOTA:": "85330-71010",
+      "OEM Numbers LEXUS:": "85330-71010",
+      "OEM Numbers SUBARU:": "85330-71010",
+      "OEM Numbers MAZDA:": "G22C-67-482"
+    }
+  },
+  {
+    "id": "7612305",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "J5413000",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "5849",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7612305/model-series-id-9104/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7612305",
+      "Article Number:": "J5413000",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941639566",
+      "OEM Numbers TOYOTA:": "85330-71010",
+      "OEM Numbers LEXUS:": "85330-71010",
+      "OEM Numbers SUBARU:": "85330-71010",
+      "OEM Numbers MAZDA:": "G22C-67-482"
+    }
+  },
+  {
+    "id": "7612305",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "J5413000",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "5849",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7612305/model-series-id-9104/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7612305",
+      "Article Number:": "J5413000",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941639566",
+      "OEM Numbers TOYOTA:": "85330-71010",
+      "OEM Numbers LEXUS:": "85330-71010",
+      "OEM Numbers SUBARU:": "85330-71010",
+      "OEM Numbers MAZDA:": "G22C-67-482"
+    }
+  }
+]

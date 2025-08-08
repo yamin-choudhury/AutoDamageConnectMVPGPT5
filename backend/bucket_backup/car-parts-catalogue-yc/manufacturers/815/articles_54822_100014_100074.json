@@ -1,0 +1,54 @@
+[
+  {
+    "id": "6512469",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "D8499T",
+    "manufacturer": "AUTOFREN SEINSA",
+    "supplierId": "351",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "54822",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6512469/model-series-id-5093/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "86",
+      "Inner diameter 1 [mm]": "29",
+      "Inner diameter 2 [mm]": "63",
+      "Article ID:": "6512469",
+      "Article Number:": "D8499T",
+      "Manufacturer:": "AUTOFREN SEINSA",
+      "EAN Numbers:": "843032020453",
+      "OEM Numbers AUDI:": "8K0598203B",
+      "OEM Numbers VW:": "8K0598203B",
+      "OEM Numbers VAG:": "7L0598203"
+    }
+  },
+  {
+    "id": "3548226",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "500571T",
+    "manufacturer": "ERT",
+    "supplierId": "4512",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "54822",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3548226/model-series-id-5093/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "86",
+      "Inner diameter 1 [mm]": "29",
+      "Inner diameter 2 [mm]": "63",
+      "Article ID:": "3548226",
+      "Article Number:": "500571T",
+      "Manufacturer:": "ERT",
+      "EAN Numbers:": "843512315532",
+      "OEM Numbers AUDI:": "8K0598203B",
+      "OEM Numbers VW:": "8K0598203B",
+      "OEM Numbers VAG:": "7L0598203"
+    }
+  }
+]

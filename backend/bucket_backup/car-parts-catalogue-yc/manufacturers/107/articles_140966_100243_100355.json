@@ -1,0 +1,49 @@
+[
+  {
+    "id": "757951",
+    "name": "Condenser, air conditioning",
+    "partNo": "1.31.30137.PDH",
+    "manufacturer": "REACH",
+    "supplierId": "4020",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "140966",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/757951/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "15,5",
+      "Outer diameter [mm]": "10,15",
+      "Supplementary Article/Info 2": "with dryer",
+      "Core Length [mm]": "625",
+      "Core Width [mm]": "345,4",
+      "Core Depth [mm]": "12",
+      "Article ID:": "757951",
+      "Article Number:": "1.31.30137.PDH",
+      "Manufacturer:": "REACH",
+      "OEM Numbers SUBARU:": "73210SJ000"
+    }
+  },
+  {
+    "id": "5730675",
+    "name": "Condenser, air conditioning",
+    "partNo": "APCDSR5018",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "140966",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5730675/model-series-id-38808/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "AFTERMARKET",
+      "Article ID:": "5730675",
+      "Article Number:": "APCDSR5018",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers SUBARU:": "73210SC002"
+    }
+  }
+]

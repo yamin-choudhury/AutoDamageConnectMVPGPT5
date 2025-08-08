@@ -1,0 +1,110 @@
+[
+  {
+    "id": "100002",
+    "name": "Engine",
+    "variantId": "148013",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100378",
+        "name": "Cylinder Head/Attachment Parts",
+        "categoryId": "100002",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/100378/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100392",
+        "name": "Engine Air Supply",
+        "categoryId": "100002",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/100392/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100397",
+        "name": "Engine Timing",
+        "categoryId": "100002",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/100397/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100227",
+        "name": "Gaskets",
+        "categoryId": "100002",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/100227/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100491",
+        "name": "Lubrication",
+        "categoryId": "100002",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/100491/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "148013",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100872",
+        "name": "Charger",
+        "categoryId": "100004",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/100872/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/100046/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "148013",
+    "manufacturerId": "3035",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103835",
+        "name": "Engine",
+        "categoryId": "103671",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/103835/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "148013",
+        "manufacturerId": "3035",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/148013/103984/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

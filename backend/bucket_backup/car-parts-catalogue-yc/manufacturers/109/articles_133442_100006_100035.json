@@ -1,0 +1,81 @@
+[
+  {
+    "id": "9115273",
+    "name": "Brake Hose",
+    "partNo": "SL 5253",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "133442",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9115273/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "255",
+      "Weight [kg]": "0,07",
+      "Thread Size 1": "INN M10x 1.0",
+      "Thread Size 2": "INN. M10x1",
+      "Article ID:": "9115273",
+      "Article Number:": "SL 5253",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710922751",
+      "OEM Numbers CHEVROLET:": "30021013",
+      "OEM Numbers NISSAN:": "46211-4A00B",
+      "OEM Numbers SUZUKI:": "51570M68K00"
+    }
+  },
+  {
+    "id": "9116187",
+    "name": "Brake Hose",
+    "partNo": "SL 6421",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "133442",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9116187/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "460",
+      "Weight [kg]": "0,14",
+      "Thread Size 1": "INN M10x 1.0",
+      "Thread Size 2": "BANJO 10.0mm",
+      "paired article number": "SL 6422",
+      "Article ID:": "9116187",
+      "Article Number:": "SL 6421",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710910488",
+      "OEM Numbers SUZUKI:": "51550M68K00"
+    }
+  },
+  {
+    "id": "9116188",
+    "name": "Brake Hose",
+    "partNo": "SL 6422",
+    "manufacturer": "A.B.S.",
+    "supplierId": "206",
+    "productsId": "83",
+    "productGroupId": "100035",
+    "categoryId": "100006",
+    "variantId": "133442",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9116188/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "460",
+      "Weight [kg]": "0,14",
+      "Thread Size 1": "INN M10x 1.0",
+      "Thread Size 2": "BANJO 10.0mm",
+      "paired article number": "SL 6421",
+      "Article ID:": "9116188",
+      "Article Number:": "SL 6422",
+      "Manufacturer:": "A.B.S.",
+      "EAN Numbers:": "871710910501",
+      "OEM Numbers SUZUKI:": "51540M68K00"
+    }
+  }
+]

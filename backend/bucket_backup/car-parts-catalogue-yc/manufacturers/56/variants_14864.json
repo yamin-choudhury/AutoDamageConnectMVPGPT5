@@ -1,0 +1,338 @@
+[
+  {
+    "id": "117712",
+    "type": "3.0 SCV6 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "250 KW / 340 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117713",
+    "type": "3.0 SCV6 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "280 KW / 380 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117714",
+    "type": "3.0 SDV6 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306DT",
+      "cylinder": "6",
+      "capacity": "2,993 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2015-09-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117715",
+    "type": "2.0 TD4",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "204DTD,204DTH",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2015-09-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117716",
+    "type": "2.0 TD4 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "204DTD,204DTH",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2015-09-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123713",
+    "type": "2.0 Ti4",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "204PT",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-05-01",
+      "power": "177 KW / 240 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126020",
+    "type": "2.0 TD4",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "204DTD",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2017-02-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126021",
+    "type": "2.0 SD4 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "204DTA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2017-02-01",
+      "power": "177 KW / 241 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126022",
+    "type": "2.0 Ti4 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "PT204,AJ20P4",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-02-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127990",
+    "type": "2.0 Ti4 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "PT204,AJ20P4",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-06-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128768",
+    "type": "2.0 Ti4",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "PT204",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-09-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132598",
+    "type": "5.0 SCV8 SVR AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "508PS",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-08-01",
+      "power": "405 KW / 551 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133441",
+    "type": "3.0 SCV6 AWD",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-01-01",
+      "power": "254 KW / 345 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142704",
+    "type": "2.0 D165 MHEV",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ20D4",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Diesel/Electro",
+      "year": "2020-10-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142705",
+    "type": "2.0 D200 MHEV",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ21D4",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Diesel/Electro",
+      "year": "2020-10-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142708",
+    "type": "3.0 D300 MHEV",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ20D6",
+      "cylinder": "6",
+      "capacity": "2,997 CCM / 3.0 L",
+      "fuelType": "Diesel/Electro",
+      "year": "2020-10-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142709",
+    "type": "3.0 P400 MHEV",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ20P6",
+      "cylinder": "6",
+      "capacity": "2,996 CCM / 3.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-10-01",
+      "power": "294 KW / 400 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142710",
+    "type": "5.0 SVR P550 MHEV",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ133G2",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-10-01",
+      "power": "405 KW / 551 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142711",
+    "type": "2.0 P400e Plug-in Hybrid",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "PT204",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-10-01",
+      "power": "297 KW / 404 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144068",
+    "type": "3.0 P340 MHEV",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "306PS",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2021-04-01",
+      "power": "250 KW / 340 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145119",
+    "type": "D200",
+    "modelId": "14864",
+    "manufacturerId": "56",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ20D4",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Diesel/Electro",
+      "year": "2021-07-01",
+      "power": "146 KW / 199 PS"
+    },
+    "categories": []
+  }
+]

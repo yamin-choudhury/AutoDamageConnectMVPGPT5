@@ -1,0 +1,98 @@
+[
+  {
+    "id": "12623",
+    "type": "R Turbo 1.8",
+    "modelId": "6535",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BTH",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2005-08-01\n                            \n                            2006-12-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23359",
+    "type": "1.8",
+    "modelId": "6535",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BAF",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2001-12-01\n                            \n                            2006-12-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "26829",
+    "type": "1.6",
+    "modelId": "6535",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJH",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2004-10-01\n                            \n                            2006-09-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129281",
+    "type": "1.8 T",
+    "modelId": "6535",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BAE",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2001-01-01\n                            \n                            2006-12-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129284",
+    "type": "1.6",
+    "modelId": "6535",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "AWB",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2002-06-01\n                            \n                            2006-06-01",
+      "power": "78 KW / 106 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134057",
+    "type": "1.9 TDI",
+    "modelId": "6535",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "ATD",
+      "cylinder": "4",
+      "capacity": "1,896 CCM / 1.9 L",
+      "fuelType": "Diesel",
+      "year": "2004-03-01\n                            \n                            2006-12-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "661206",
+    "name": "Catalytic Converter",
+    "partNo": "090-187",
+    "manufacturer": "BOSAL",
+    "supplierId": "41",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "33859",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/661206/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Article ID:": "661206",
+      "Article Number:": "090-187",
+      "Manufacturer:": "BOSAL",
+      "EAN Numbers:": "335164090187",
+      "OEM Numbers SMART:": "4514901681"
+    }
+  },
+  {
+    "id": "6744384",
+    "name": "Catalytic Converter",
+    "partNo": "ECSM1003TA",
+    "manufacturer": "EuroFlo",
+    "supplierId": "4941",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "33859",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6744384/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6744384",
+      "Article Number:": "ECSM1003TA",
+      "Manufacturer:": "EuroFlo",
+      "OEM Numbers SMART:": "4514900081"
+    }
+  },
+  {
+    "id": "417770",
+    "name": "Catalytic Converter",
+    "partNo": "04.4476",
+    "manufacturer": "MTS",
+    "supplierId": "193",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "33859",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/417770/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Trim Level": "00000000000000009070",
+      "Catalytic Converter Type": "for vehicles with catalytic converter",
+      "Article ID:": "417770",
+      "Article Number:": "04.4476",
+      "Manufacturer:": "MTS",
+      "EAN Numbers:": "803346442451",
+      "OEM Numbers SMART:": "4514901481"
+    }
+  },
+  {
+    "id": "8154293",
+    "name": "Catalytic Converter",
+    "partNo": "MK-897",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "33859",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8154293/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "Length [mm]": "975",
+      "Emission Standard": "Euro 4",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Article ID:": "8154293",
+      "Article Number:": "MK-897",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550312909",
+      "OEM Numbers MERCEDES-BENZ:": "A 451 490 1381"
+    }
+  },
+  {
+    "id": "8154298",
+    "name": "Catalytic Converter",
+    "partNo": "MK-897IMA",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "33859",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8154298/model-series-id-6228/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0",
+      "Emission Standard": "Euro 4",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Article ID:": "8154298",
+      "Article Number:": "MK-897IMA",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550333377",
+      "OEM Numbers MERCEDES-BENZ:": "A4514901381"
+    }
+  }
+]

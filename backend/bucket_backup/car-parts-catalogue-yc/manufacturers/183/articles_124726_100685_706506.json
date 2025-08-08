@@ -1,0 +1,27 @@
+[
+  {
+    "id": "160625",
+    "name": "Housing, car key",
+    "partNo": "004HY007",
+    "manufacturer": "B CAR",
+    "supplierId": "4989",
+    "productsId": "9909",
+    "productGroupId": "706506",
+    "categoryId": "100685",
+    "variantId": "124726",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/160625/model-series-id-9145/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "without electronics",
+      "Number of control buttons": "3",
+      "Car key function": "with panic button (activation of alarm)",
+      "Key Blank Profile ID": "HY22",
+      "Article ID:": "160625",
+      "Article Number:": "004HY007",
+      "Manufacturer:": "B CAR",
+      "EAN Numbers:": "843564121765",
+      "OEM Numbers HYUNDAI:": "95430-1J000"
+    }
+  }
+]

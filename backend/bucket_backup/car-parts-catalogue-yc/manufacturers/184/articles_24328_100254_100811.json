@@ -1,0 +1,91 @@
+[
+  {
+    "id": "238059",
+    "name": "Seal, EGR valve",
+    "partNo": "01193400",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3507",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "24328",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/238059/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,5",
+      "Length [mm]": "80",
+      "Width [mm]": "46",
+      "Article ID:": "238059",
+      "Article Number:": "01193400",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776994340",
+      "OEM Numbers KIA:": "28493-4A060"
+    }
+  },
+  {
+    "id": "5336049",
+    "name": "EGR Valve",
+    "partNo": "959455",
+    "manufacturer": "AUTEX",
+    "supplierId": "300",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "24328",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5336049/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5336049",
+      "Article Number:": "959455",
+      "Manufacturer:": "AUTEX",
+      "EAN Numbers:": "404849133165",
+      "OEM Numbers KIA:": "284104X950"
+    }
+  },
+  {
+    "id": "3373261",
+    "name": "EGR Valve",
+    "partNo": "45-8450",
+    "manufacturer": "IPD",
+    "supplierId": "262",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "24328",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3373261/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3373261",
+      "Article Number:": "45-8450",
+      "Manufacturer:": "IPD",
+      "EAN Numbers:": "404775333165",
+      "OEM Numbers KIA:": "284104X950"
+    }
+  },
+  {
+    "id": "6751467",
+    "name": "EGR Valve",
+    "partNo": "EEG-4002",
+    "manufacturer": "KAVO PARTS",
+    "supplierId": "201",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "24328",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6751467/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Number of pins": "5",
+      "Article ID:": "6751467",
+      "Article Number:": "EEG-4002",
+      "Manufacturer:": "KAVO PARTS",
+      "EAN Numbers:": "871561625590",
+      "OEM Numbers KIA:": "284104X950"
+    }
+  }
+]

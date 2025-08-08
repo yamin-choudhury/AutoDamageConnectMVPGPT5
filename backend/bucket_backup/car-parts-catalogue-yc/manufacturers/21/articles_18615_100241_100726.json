@@ -1,0 +1,70 @@
+[
+  {
+    "id": "6117759",
+    "name": "Actuator, air conditioning",
+    "partNo": "BSG 70-846-004",
+    "manufacturer": "BSG",
+    "supplierId": "4455",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "18615",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6117759/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,06",
+      "Component Number": "BSG 70-846-004",
+      "Article ID:": "6117759",
+      "Article Number:": "BSG 70-846-004",
+      "Manufacturer:": "BSG",
+      "EAN Numbers:": "871982209380",
+      "OEM Numbers CITROËN:": "6450NV",
+      "OEM Numbers PEUGEOT:": "6450NV"
+    }
+  },
+  {
+    "id": "7144943",
+    "name": "Actuator, air conditioning",
+    "partNo": "FT59114",
+    "manufacturer": "FAST",
+    "supplierId": "4938",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "18615",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7144943/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [g]": "175",
+      "Article ID:": "7144943",
+      "Article Number:": "FT59114",
+      "Manufacturer:": "FAST",
+      "EAN Numbers:": "590179705510",
+      "OEM Numbers CITROËN:": "644178"
+    }
+  },
+  {
+    "id": "7144943",
+    "name": "Actuator, air conditioning",
+    "partNo": "FT59114",
+    "manufacturer": "FAST",
+    "supplierId": "4938",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "18615",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7144943/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [g]": "175",
+      "Article ID:": "7144943",
+      "Article Number:": "FT59114",
+      "Manufacturer:": "FAST",
+      "EAN Numbers:": "590179705510",
+      "OEM Numbers CITROËN:": "644178"
+    }
+  }
+]

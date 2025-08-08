@@ -1,0 +1,50 @@
+[
+  {
+    "id": "20770",
+    "type": "1.5 XL",
+    "modelId": "4607",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QG15DE",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2001-03-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23706",
+    "type": "1.8",
+    "modelId": "4607",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "QG18DE",
+      "cylinder": "4",
+      "capacity": "1,769 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2002-08-01",
+      "power": "94 KW / 128 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23707",
+    "type": "2.0",
+    "modelId": "4607",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "SR20DE",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2002-08-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  }
+]

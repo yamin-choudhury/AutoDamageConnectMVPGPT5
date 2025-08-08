@@ -1,0 +1,55 @@
+[
+  {
+    "id": "4702222",
+    "name": "Cylinder Head Bolt Set",
+    "partNo": "81060000",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "1217",
+    "productGroupId": "100378",
+    "categoryId": "100002",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4702222/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "138",
+      "Thread Size": "M12",
+      "Bolt Head-/Nut Design": "Female Torx",
+      "Quantity": "8",
+      "Alternative Repair Kit": "81056200",
+      "Thread Pitch [mm]": "1,75",
+      "Article ID:": "4702222",
+      "Article Number:": "81060000",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357724352",
+      "OEM Numbers LAND ROVER:": "1042848(x8)"
+    }
+  },
+  {
+    "id": "9986116",
+    "name": "Cylinder Head Bolt Set",
+    "partNo": "WG1753974",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1217",
+    "productGroupId": "100378",
+    "categoryId": "100002",
+    "variantId": "25392",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9986116/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "138",
+      "Thread Size": "M12",
+      "Bolt Head-/Nut Design": "Female Torx",
+      "Quantity": "8",
+      "Alternative Repair Kit": "WG1456030",
+      "Thread Pitch [mm]": "1,75",
+      "Article ID:": "9986116",
+      "Article Number:": "WG1753974",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers LAND ROVER:": "1042848x8"
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1073166",
+    "name": "Valve, EGR exhaust control",
+    "partNo": "116 266",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "1137",
+    "productGroupId": "100815",
+    "categoryId": "100254",
+    "variantId": "12071",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1073166/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric-pneumatic",
+      "Mounting Type": "Plugged",
+      "Valve type": "Solenoid Valve",
+      "Number of pins": "2",
+      "Number of inlets/outlets": "2",
+      "Rated Voltage [V]": "12",
+      "Connector Shape": "D-shaped",
+      "Housing material": "Plastic",
+      "Article ID:": "1073166",
+      "Article Number:": "116 266",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers AUDI:": "037 906 283C",
+      "OEM Numbers SEAT:": "037 906 283C",
+      "OEM Numbers SKODA:": "037 906 283C",
+      "OEM Numbers VW:": "037 906 283C",
+      "OEM Numbers PORSCHE:": "955 605 123 30"
+    }
+  },
+  {
+    "id": "568537",
+    "name": "Valve, EGR exhaust control",
+    "partNo": "07.17.186",
+    "manufacturer": "TRUCKTEC AUTOMOTIVE",
+    "supplierId": "209",
+    "productsId": "1137",
+    "productGroupId": "100815",
+    "categoryId": "100254",
+    "variantId": "12071",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/568537/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "037 906 283 C",
+      "Operating Mode": "Electric",
+      "Valve type": "Switch Valve",
+      "Article ID:": "568537",
+      "Article Number:": "07.17.186",
+      "Manufacturer:": "TRUCKTEC AUTOMOTIVE",
+      "OEM Numbers VAG:": "037 906 283 C"
+    }
+  },
+  {
+    "id": "5389933",
+    "name": "Valve, EGR exhaust control",
+    "partNo": "99061829801",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "1137",
+    "productGroupId": "100815",
+    "categoryId": "100254",
+    "variantId": "12071",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5389933/model-series-id-8636/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Valve type": "Switch Valve",
+      "Article ID:": "5389933",
+      "Article Number:": "99061829801",
+      "Manufacturer:": "vika",
+      "OEM Numbers AUDI:": "037906283C",
+      "OEM Numbers SEAT:": "037906283C",
+      "OEM Numbers SKODA:": "037906283C",
+      "OEM Numbers VW:": "037906283C"
+    }
+  }
+]

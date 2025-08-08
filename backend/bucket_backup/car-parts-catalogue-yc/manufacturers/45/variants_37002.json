@@ -1,0 +1,34 @@
+[
+  {
+    "id": "122305",
+    "type": "1.3 E",
+    "modelId": "37002",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L13Z1",
+      "cylinder": "4",
+      "capacity": "1,339 CCM / 1.3 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125353",
+    "type": "i-VTEC Flexfuel (DF1)",
+    "modelId": "37002",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L12B3",
+      "cylinder": "4",
+      "capacity": "1,198 CCM / 1.2 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2013-06-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  }
+]

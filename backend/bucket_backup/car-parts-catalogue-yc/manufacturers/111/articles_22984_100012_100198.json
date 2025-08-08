@@ -1,0 +1,75 @@
+[
+  {
+    "id": "9610846",
+    "name": "Inner Tie Rod",
+    "partNo": "VKDY 821039",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "22984",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9610846/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9610846",
+      "Article Number:": "VKDY 821039",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731658135654",
+      "OEM Numbers TOYOTA:": "45503-59085"
+    }
+  },
+  {
+    "id": "9610658",
+    "name": "Tie Rod End",
+    "partNo": "VKDY 811069",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "22984",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9610658/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "226",
+      "Thread Size": "M12x1,25",
+      "Supplementary Article/Supplementary Info": "with synthetic grease",
+      "Thread Size 1": "M16x1,5",
+      "paired article number": "VKDY 811070",
+      "Article ID:": "9610658",
+      "Article Number:": "VKDY 811069",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657990428",
+      "OEM Numbers TOYOTA:": "45460-59115"
+    }
+  },
+  {
+    "id": "9610659",
+    "name": "Tie Rod End",
+    "partNo": "VKDY 811070",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "22984",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9610659/model-series-id-6253/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "226",
+      "Thread Size": "M16x1,5",
+      "Supplementary Article/Supplementary Info": "with synthetic grease",
+      "Thread Size 1": "M12x1,25",
+      "paired article number": "VKDY 811069",
+      "Article ID:": "9610659",
+      "Article Number:": "VKDY 811070",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657990429",
+      "OEM Numbers TOYOTA:": "45470-59135"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "961026",
+    "name": "Parts Kit, automatic transmission oil change",
+    "partNo": "1091.298.066",
+    "manufacturer": "ZF",
+    "supplierId": "68",
+    "productsId": "4921",
+    "productGroupId": "103475",
+    "categoryId": "100238",
+    "variantId": "129450",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/961026/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without oil",
+      "Alternative Repair Kit": "1091.298.067",
+      "Additionally required articles (article numbers)": "S671.090.312",
+      "Oil - manufacturer recommendation": "ZF LifeguardFluid 8",
+      "Article ID:": "961026",
+      "Article Number:": "1091.298.066",
+      "Manufacturer:": "ZF",
+      "EAN Numbers:": "405320226799",
+      "OEM Numbers AUDI:": "0BL 398 009",
+      "OEM Numbers BENTLEY:": "0BL 398 009"
+    }
+  },
+  {
+    "id": "961027",
+    "name": "Parts Kit, automatic transmission oil change",
+    "partNo": "1091.298.067",
+    "manufacturer": "ZF",
+    "supplierId": "68",
+    "productsId": "4921",
+    "productGroupId": "103475",
+    "categoryId": "100238",
+    "variantId": "129450",
+    "manufacturerId": "815",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/961027/model-series-id-6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Content [litre]": "7",
+      "Supplementary Article/Supplementary Info": "contains entire oil change set",
+      "Alternative Repair Kit": "1091.298.066",
+      "Specification": "ZF LifeguardFluid 8",
+      "Article ID:": "961027",
+      "Article Number:": "1091.298.067",
+      "Manufacturer:": "ZF",
+      "EAN Numbers:": "405320226800",
+      "OEM Numbers AUDI:": "0BL 398 009",
+      "OEM Numbers BENTLEY:": "0BL 398 009"
+    }
+  }
+]

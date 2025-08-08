@@ -1,0 +1,50 @@
+[
+  {
+    "id": "265232",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "016797",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "20770",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/265232/model-series-id-4607/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "539",
+      "Stroke [mm]": "187",
+      "Eject Force [N]": "385",
+      "Article ID:": "265232",
+      "Article Number:": "016797",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657732470",
+      "OEM Numbers NISSAN:": "90450-BM425"
+    }
+  },
+  {
+    "id": "4348430",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "701 580",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "219",
+    "productGroupId": "102697",
+    "categoryId": "100341",
+    "variantId": "20770",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4348430/model-series-id-4607/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle Tailgate",
+      "Length [mm]": "538",
+      "Stroke [mm]": "215",
+      "Eject Force [N]": "340",
+      "Article ID:": "4348430",
+      "Article Number:": "701 580",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers NISSAN:": "9045 0BM 425"
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "2936980",
+    "name": "Suspension Spring",
+    "partNo": "36-199686",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2936980/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2936980",
+      "Article Number:": "36-199686",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525868489",
+      "OEM Numbers FIAT:": "5180 5425"
+    }
+  },
+  {
+    "id": "2936982",
+    "name": "Suspension Spring",
+    "partNo": "36-199709",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2936982/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2936982",
+      "Article Number:": "36-199709",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525868491",
+      "OEM Numbers FIAT:": "51857012"
+    }
+  },
+  {
+    "id": "2937039",
+    "name": "Suspension Spring",
+    "partNo": "36-200610",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2937039/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2937039",
+      "Article Number:": "36-200610",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525868587",
+      "OEM Numbers FORD:": "9S51 5310 AD"
+    }
+  },
+  {
+    "id": "2689406",
+    "name": "Spring Cap",
+    "partNo": "317 08 094 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "1300",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "107117",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2689406/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2689406",
+      "Article Number:": "317 08 094 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers FIAT:": "51707691"
+    }
+  }
+]

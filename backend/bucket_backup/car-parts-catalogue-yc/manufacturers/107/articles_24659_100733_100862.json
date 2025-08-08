@@ -1,0 +1,134 @@
+[
+  {
+    "id": "3404116",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "460002",
+    "manufacturer": "KILEN",
+    "supplierId": "176",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "24659",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3404116/model-series-id-4953/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Article ID:": "3404116",
+      "Article Number:": "460002",
+      "Manufacturer:": "KILEN",
+      "EAN Numbers:": "739441010896",
+      "OEM Numbers SUBARU:": "63269SA011"
+    }
+  },
+  {
+    "id": "3404136",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "460003",
+    "manufacturer": "KILEN",
+    "supplierId": "176",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "24659",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3404136/model-series-id-4953/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Article ID:": "3404136",
+      "Article Number:": "460003",
+      "Manufacturer:": "KILEN",
+      "EAN Numbers:": "739441010897",
+      "OEM Numbers SUBARU:": "63269SA001"
+    }
+  },
+  {
+    "id": "4751850",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "8188302",
+    "manufacturer": "LESJÖFORS",
+    "supplierId": "175",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "24659",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4751850/model-series-id-4953/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Article ID:": "4751850",
+      "Article Number:": "8188302",
+      "Manufacturer:": "LESJÖFORS",
+      "EAN Numbers:": "739441010896",
+      "OEM Numbers SUBARU:": "63269SA011"
+    }
+  },
+  {
+    "id": "4751851",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "8188303",
+    "manufacturer": "LESJÖFORS",
+    "supplierId": "175",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "24659",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4751851/model-series-id-4953/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Article ID:": "4751851",
+      "Article Number:": "8188303",
+      "Manufacturer:": "LESJÖFORS",
+      "EAN Numbers:": "739441010897",
+      "OEM Numbers SUBARU:": "63269SA001"
+    }
+  },
+  {
+    "id": "7357302",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "GS1189",
+    "manufacturer": "ROC",
+    "supplierId": "401",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "24659",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7357302/model-series-id-4953/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Article ID:": "7357302",
+      "Article Number:": "GS1189",
+      "Manufacturer:": "ROC",
+      "EAN Numbers:": "739441010896",
+      "OEM Numbers SUBARU:": "63269SA011"
+    }
+  },
+  {
+    "id": "7357304",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "GS1190",
+    "manufacturer": "ROC",
+    "supplierId": "401",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "24659",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7357304/model-series-id-4953/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Article ID:": "7357304",
+      "Article Number:": "GS1190",
+      "Manufacturer:": "ROC",
+      "EAN Numbers:": "739441010897",
+      "OEM Numbers SUBARU:": "63269SA001"
+    }
+  }
+]

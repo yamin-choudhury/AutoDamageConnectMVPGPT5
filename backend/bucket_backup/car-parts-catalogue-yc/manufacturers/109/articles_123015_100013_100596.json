@@ -1,0 +1,49 @@
+[
+  {
+    "id": "7603407",
+    "name": "Mounting, stabiliser bar",
+    "partNo": "J4268010",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "1334",
+    "productGroupId": "100596",
+    "categoryId": "100013",
+    "variantId": "123015",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7603407/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "48",
+      "Width [mm]": "30,20",
+      "Height [mm]": "39",
+      "Inner diameter [mm]": "22",
+      "Article ID:": "7603407",
+      "Article Number:": "J4268010",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941641103",
+      "OEM Numbers SUZUKI:": "42431-71L00-000"
+    }
+  },
+  {
+    "id": "9609487",
+    "name": "Bushing, stabiliser bar",
+    "partNo": "VKDS 856002",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "331",
+    "productGroupId": "100596",
+    "categoryId": "100013",
+    "variantId": "123015",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9609487/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "paired article number": "VKDS 856002",
+      "Article ID:": "9609487",
+      "Article Number:": "VKDS 856002",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731658125929",
+      "OEM Numbers SUZUKI:": "42431-71L00"
+    }
+  }
+]

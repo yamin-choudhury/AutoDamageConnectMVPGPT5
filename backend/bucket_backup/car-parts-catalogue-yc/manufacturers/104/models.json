@@ -1,0 +1,629 @@
+[
+  {
+    "id": "5040",
+    "name": "SEAT 124",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5040/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-01-01",
+      "toDate": "1980-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5041",
+    "name": "SEAT 124 Estate (124A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5041/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1970-01-01",
+      "toDate": "1976-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5037",
+    "name": "SEAT 127 (127A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5037/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-04-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5045",
+    "name": "SEAT 128 (128A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5045/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-01-01",
+      "toDate": "1980-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2029",
+    "name": "SEAT 131 (131A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2029/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-05-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5043",
+    "name": "SEAT 132 (132A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5043/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1973-01-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "159",
+    "name": "SEAT 133 (133A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/159/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-05-01",
+      "toDate": "1979-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "468",
+    "name": "SEAT 600 (110B)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/468/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1963-09-01",
+      "toDate": "1970-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5038",
+    "name": "SEAT 850 (100GD)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5038/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-01-01",
+      "toDate": "1975-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9009",
+    "name": "SEAT ALHAMBRA (710, 711)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1564",
+    "name": "SEAT ALHAMBRA (7V8, 7V9)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1564/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-04-01",
+      "toDate": "2010-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41660",
+    "name": "SEAT ALHAMBRA VAN (711)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41660/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41662",
+    "name": "SEAT ALHAMBRA VAN (7V8, 7V9)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41662/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-03-01",
+      "toDate": "2010-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5111",
+    "name": "SEAT ALTEA (5P1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5111/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6236",
+    "name": "SEAT ALTEA XL (5P5, 5P8)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6236/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38144",
+    "name": "SEAT ARONA (KJ7, KJP)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38144/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1903",
+    "name": "SEAT AROSA (6H1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1903/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-05-01",
+      "toDate": "2004-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36512",
+    "name": "SEAT ATECA (KH7, KHP)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36512/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "93",
+    "name": "SEAT CORDOBA (6K1, 6K2)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/93/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-02-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4961",
+    "name": "SEAT CORDOBA (6L2)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4961/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-09-01",
+      "toDate": "2009-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1992",
+    "name": "SEAT CORDOBA Vario (6K5)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1992/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-07-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39007",
+    "name": "SEAT CORDOBA VARIO Estate Van (6K5)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39007/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-08-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8032",
+    "name": "SEAT EXEO (3R2)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8032/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-12-01",
+      "toDate": "2013-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8095",
+    "name": "SEAT EXEO ST (3R5)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8095/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-05-01",
+      "toDate": "2013-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "443",
+    "name": "SEAT FURA (25A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/443/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-01-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "564",
+    "name": "SEAT IBIZA   (21A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/564/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-06-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39005",
+    "name": "SEAT IBIZA IV Hatchback Van (6J1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39005/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-04-01",
+      "toDate": "2015-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "569",
+    "name": "SEAT IBIZA Mk II (6K1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/569/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-03-01",
+      "toDate": "2002-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4870",
+    "name": "SEAT IBIZA Mk III (6L1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4870/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-02-01",
+      "toDate": "2009-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7540",
+    "name": "SEAT IBIZA Mk IV (6J5, 6P1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7540/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-03-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7567",
+    "name": "SEAT IBIZA Mk IV SC (6J1, 6P5)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7567/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-06-01",
+      "toDate": "2018-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8609",
+    "name": "SEAT IBIZA Mk IV ST (6J8, 6P8)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8609/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-03-01",
+      "toDate": "2016-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37916",
+    "name": "SEAT IBIZA Mk V (KJ1, KJG)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37916/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1551",
+    "name": "SEAT INCA (6K9)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1551/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-11-01",
+      "toDate": "2003-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4350",
+    "name": "SEAT LEON (1M1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4350/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-11-01",
+      "toDate": "2006-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5431",
+    "name": "SEAT LEON (1P1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5431/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-05-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10734",
+    "name": "SEAT LEON (5F1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10734/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": "2021-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40534",
+    "name": "SEAT LEON (KL1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40534/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38537",
+    "name": "SEAT LEON Hatchback Van (5F1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38537/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": "2020-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11279",
+    "name": "SEAT LEON SC (5F5)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11279/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-01-01",
+      "toDate": "2018-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40535",
+    "name": "SEAT LEON Sportstourer (KL8)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40535/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11484",
+    "name": "SEAT LEON ST (5F8)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11484/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": "2020-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38536",
+    "name": "SEAT LEON ST Estate Van (5F8)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38536/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-01-01",
+      "toDate": "2020-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "245",
+    "name": "SEAT MALAGA (23A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/245/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-11-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "262",
+    "name": "SEAT MARBELLA (28A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/262/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-08-01",
+      "toDate": "1999-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1960",
+    "name": "SEAT MARBELLA Hatchback Van (028A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1960/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-11-01",
+      "toDate": "1999-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10094",
+    "name": "SEAT Mii (KF1, KE1)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10094/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5035",
+    "name": "SEAT PANDA (141A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5035/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-10-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5036",
+    "name": "SEAT RITMO (138)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5036/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-07-01",
+      "toDate": "1983-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "91",
+    "name": "SEAT RONDA (22A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/91/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-06-01",
+      "toDate": "1988-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39208",
+    "name": "SEAT TARRACO (KN2)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39208/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "382",
+    "name": "SEAT TERRA (24)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/382/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-01-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "386",
+    "name": "SEAT TERRA Estate Van (024A)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/386/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-01-01",
+      "toDate": "1996-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "409",
+    "name": "SEAT TOLEDO   (1L2)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/409/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-01-01",
+      "toDate": "1999-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5378",
+    "name": "SEAT TOLEDO III (5P2)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5378/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-04-01",
+      "toDate": "2009-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10880",
+    "name": "SEAT TOLEDO IV (KG3)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10880/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": "2019-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3899",
+    "name": "SEAT TOLEDO Mk II (1M2)",
+    "manufacturerId": "104",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3899/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-10-01",
+      "toDate": "2006-05-01"
+    },
+    "variants": []
+  }
+]

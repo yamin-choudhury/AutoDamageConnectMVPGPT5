@@ -1,0 +1,2543 @@
+[
+  {
+    "id": "12611",
+    "name": "SUZUKI A",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12611/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36754",
+    "name": "SUZUKI ACCESS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36754/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41372",
+    "name": "SUZUKI ACROSS (A5Z_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41372/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12612",
+    "name": "SUZUKI ADDRESS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12612/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12613",
+    "name": "SUZUKI AH",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12613/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38847",
+    "name": "SUZUKI ALTO",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38847/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-09-01",
+      "toDate": "2014-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38842",
+    "name": "SUZUKI ALTO 800",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38842/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39670",
+    "name": "SUZUKI ALTO Hatchback Van (EC)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39670/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1993-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40163",
+    "name": "SUZUKI ALTO Hatchback Van (HA36)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40163/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1234",
+    "name": "SUZUKI ALTO I (0S)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1234/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-03-01",
+      "toDate": "1984-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1233",
+    "name": "SUZUKI ALTO II Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1233/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1988-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14099",
+    "name": "SUZUKI ALTO III (EC)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14099/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-12-01",
+      "toDate": "1994-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1244",
+    "name": "SUZUKI ALTO IV (EF)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1244/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-10-01",
+      "toDate": "2002-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38845",
+    "name": "SUZUKI ALTO K10",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38845/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38846",
+    "name": "SUZUKI ALTO K10",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38846/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-08-01",
+      "toDate": "2015-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14098",
+    "name": "SUZUKI ALTO V (HA12, HA23)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14098/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-10-01",
+      "toDate": "2004-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4900",
+    "name": "SUZUKI ALTO VI (FF)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4900/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8024",
+    "name": "SUZUKI ALTO VII (GF)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14948",
+    "name": "SUZUKI ALTO VIII (HA36)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14948/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12614",
+    "name": "SUZUKI AN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12614/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12619",
+    "name": "SUZUKI AN BURGMAN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12619/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12615",
+    "name": "SUZUKI AP",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12615/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40864",
+    "name": "SUZUKI APV (GC)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40864/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37069",
+    "name": "SUZUKI APV Bus",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37069/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37105",
+    "name": "SUZUKI APV Platform/Chassis",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37105/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8823",
+    "name": "SUZUKI APV Van (GD, GC)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41322",
+    "name": "SUZUKI AVENIS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41322/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12616",
+    "name": "SUZUKI AY",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12616/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12618",
+    "name": "SUZUKI B-KING",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12618/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43084",
+    "name": "SUZUKI BALENO",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43084/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1325",
+    "name": "SUZUKI BALENO (EG)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1325/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-03-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36212",
+    "name": "SUZUKI BALENO (FW, EW)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1565",
+    "name": "SUZUKI BALENO Estate (EG)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1565/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-04-01",
+      "toDate": "2005-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1324",
+    "name": "SUZUKI BALENO Hatchback (EG)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1324/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-03-01",
+      "toDate": "2002-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14064",
+    "name": "SUZUKI BOULEVARD",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14064/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12040",
+    "name": "SUZUKI C",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12040/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4302",
+    "name": "SUZUKI CAPPUCCINO (EE)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4302/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-02-01",
+      "toDate": "1998-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13291",
+    "name": "SUZUKI CARA",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13291/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-03-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14034",
+    "name": "SUZUKI CARRY Bus",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14034/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14896",
+    "name": "SUZUKI CARRY Bus",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14896/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37109",
+    "name": "SUZUKI CARRY Bus (0S)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-10-01",
+      "toDate": "1985-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37108",
+    "name": "SUZUKI CARRY Platform/Chassis",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37108/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-01-01",
+      "toDate": "1999-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8813",
+    "name": "SUZUKI CARRY Platform/Chassis",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8813/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39854",
+    "name": "SUZUKI CARRY Platform/Chassis",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39854/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14912",
+    "name": "SUZUKI CARRY Platform/Chassis (0S)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14912/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-10-01",
+      "toDate": "1985-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8869",
+    "name": "SUZUKI CARRY Platform/Chassis (FD, DA5_T, DA6_T)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8869/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12778",
+    "name": "SUZUKI CARRY Van",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12778/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "1999-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1235",
+    "name": "SUZUKI CARRY Van (0S)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1235/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-10-01",
+      "toDate": "1985-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9037",
+    "name": "SUZUKI CARRY Van (ED)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9037/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4582",
+    "name": "SUZUKI CARRY Van (FD)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4582/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13151",
+    "name": "SUZUKI CELERIO (LF)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13151/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43071",
+    "name": "SUZUKI CELERIO (YL7)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43071/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37940",
+    "name": "SUZUKI CERVO",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37940/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-06-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13286",
+    "name": "SUZUKI CERVO (HG21)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13286/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-11-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37221",
+    "name": "SUZUKI CERVO MODE (C_21, C_22, C_31, C_32)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37221/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-07-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14109",
+    "name": "SUZUKI CIAZ",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12620",
+    "name": "SUZUKI CP",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12620/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10218",
+    "name": "SUZUKI CULTUS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10218/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12621",
+    "name": "SUZUKI DL",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12621/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12622",
+    "name": "SUZUKI DR",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12622/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12623",
+    "name": "SUZUKI DR-Z",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12623/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13258",
+    "name": "SUZUKI DZIRE",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13258/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38730",
+    "name": "SUZUKI DZIRE",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38730/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14228",
+    "name": "SUZUKI EN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14228/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41323",
+    "name": "SUZUKI EPICURO",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41323/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "35870",
+    "name": "SUZUKI EQUATOR Pickup",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35870/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-09-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13251",
+    "name": "SUZUKI ERTIGA (AVI_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13251/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38646",
+    "name": "SUZUKI ERTIGA (NC)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38646/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37072",
+    "name": "SUZUKI EVERY",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37072/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10874",
+    "name": "SUZUKI EVERY (DA64_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10874/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37272",
+    "name": "SUZUKI EVERY Bus (DA52_, DB52_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37272/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-02-01",
+      "toDate": "2005-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13256",
+    "name": "SUZUKI FARMWORKER Pickup",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13256/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13255",
+    "name": "SUZUKI FARMWORKER Platform/Chassis",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13255/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39927",
+    "name": "SUZUKI FIERO",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39927/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "33974",
+    "name": "SUZUKI FORENZA Estate",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/33974/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-09-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "33973",
+    "name": "SUZUKI FORENZA Saloon",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/33973/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35872",
+    "name": "SUZUKI FORSA Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35872/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1988-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37392",
+    "name": "SUZUKI FRONTE",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37392/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1989-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9913",
+    "name": "SUZUKI FUN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9913/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36755",
+    "name": "SUZUKI GIXXER",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36755/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12624",
+    "name": "SUZUKI GLADIUS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12624/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12625",
+    "name": "SUZUKI GN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12625/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12626",
+    "name": "SUZUKI GR",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12626/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4097",
+    "name": "SUZUKI GRAND VITARA I (FT, HT)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4097/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2008-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14518",
+    "name": "SUZUKI GRAND VITARA I Open Off-Road Vehicle (GT)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14518/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2005-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5489",
+    "name": "SUZUKI GRAND VITARA II (JT, TE, TD)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5489/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12627",
+    "name": "SUZUKI GS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12627/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12617",
+    "name": "SUZUKI GSF BANDIT",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12617/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12628",
+    "name": "SUZUKI GSR",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12628/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12629",
+    "name": "SUZUKI GSX",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12629/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12630",
+    "name": "SUZUKI GSX-R (124cc - 750cc)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12630/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40277",
+    "name": "SUZUKI GSX-R (751cc - )",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40277/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14300",
+    "name": "SUZUKI GSX-S",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14300/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14448",
+    "name": "SUZUKI GT",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14448/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12631",
+    "name": "SUZUKI GZ",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12631/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8808",
+    "name": "SUZUKI HATCH (SS)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8808/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-02-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36756",
+    "name": "SUZUKI HAYATE",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36756/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36759",
+    "name": "SUZUKI HEAT",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36759/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37178",
+    "name": "SUZUKI HUSTLER (MR31_, MR41_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37178/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40273",
+    "name": "SUZUKI HUSTLER (MR52_, MR92_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40273/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4732",
+    "name": "SUZUKI IGNIS I (FH)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4732/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-10-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5064",
+    "name": "SUZUKI IGNIS II (MH)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5064/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37088",
+    "name": "SUZUKI IGNIS III (MF)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37088/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12632",
+    "name": "SUZUKI INAZUMA",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12632/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13994",
+    "name": "SUZUKI INTRUDER",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13994/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39057",
+    "name": "SUZUKI JIMNY Closed Off-Road Vehicle (A6G)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39057/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11344",
+    "name": "SUZUKI JIMNY Closed Off-Road Vehicle (SJ, JA, JB)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11344/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-01-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3972",
+    "name": "SUZUKI JIMNY Closed Off-Road Vehicle (SN)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3972/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39049",
+    "name": "SUZUKI JIMNY Open Off-Road Vehicle (SJ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39049/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-11-01",
+      "toDate": "1998-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38290",
+    "name": "SUZUKI JIMNY Open Off-Road Vehicle (SN)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38290/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13250",
+    "name": "SUZUKI KARIMUN WAGON R",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13250/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14066",
+    "name": "SUZUKI KATANA",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14066/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7943",
+    "name": "SUZUKI KEI Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7943/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8992",
+    "name": "SUZUKI KIZASHI (FR)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8992/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10019",
+    "name": "SUZUKI LANDY (SC25)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10019/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-01-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10020",
+    "name": "SUZUKI LANDY (SC26)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10020/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38195",
+    "name": "SUZUKI LANDY (SC27)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38195/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13290",
+    "name": "SUZUKI LAPIN I (HE21)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13290/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14092",
+    "name": "SUZUKI LAPIN II (HE22)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14092/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-09-01",
+      "toDate": "2015-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38406",
+    "name": "SUZUKI LAPIN III (HE33)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38406/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36760",
+    "name": "SUZUKI LETS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36760/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4890",
+    "name": "SUZUKI LIANA (ER, RH_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4890/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37901",
+    "name": "SUZUKI LIANA Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37901/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40519",
+    "name": "SUZUKI LJ50 Closed Off-Road Vehicle",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40519/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-07-01",
+      "toDate": "1978-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40520",
+    "name": "SUZUKI LJ50 Open Off-Road Vehicle",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40520/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-07-01",
+      "toDate": "1978-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1236",
+    "name": "SUZUKI LJ80 (OL)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1236/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-11-01",
+      "toDate": "1984-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8806",
+    "name": "SUZUKI LJ80 Closed Off-Road Vehicle",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8806/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-11-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "35873",
+    "name": "SUZUKI LJ81 Closed Off-Road Vehicle",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/35873/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-09-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8807",
+    "name": "SUZUKI LJ81 Pickup",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8807/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-11-01",
+      "toDate": "1981-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12633",
+    "name": "SUZUKI LS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12633/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12634",
+    "name": "SUZUKI M",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12634/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13780",
+    "name": "SUZUKI MARUTI",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13780/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-02-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8803",
+    "name": "SUZUKI MIGHTY BOY",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8803/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-07-01",
+      "toDate": "1988-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37104",
+    "name": "SUZUKI MR WAGON (MF21)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37104/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-04-01",
+      "toDate": "2006-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10875",
+    "name": "SUZUKI MR WAGON (MF22)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10875/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14094",
+    "name": "SUZUKI MR WAGON (MF33)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14094/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41291",
+    "name": "SUZUKI NEX",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41291/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10876",
+    "name": "SUZUKI PALETTE (MK21_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10876/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12041",
+    "name": "SUZUKI RE 5",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12041/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "33978",
+    "name": "SUZUKI RENO Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/33978/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-09-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12635",
+    "name": "SUZUKI RF",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12635/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12636",
+    "name": "SUZUKI RG",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12636/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12637",
+    "name": "SUZUKI RGV",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12637/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40678",
+    "name": "SUZUKI RM",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40678/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36683",
+    "name": "SUZUKI RM-Z",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36683/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14456",
+    "name": "SUZUKI RMX",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14456/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13429",
+    "name": "SUZUKI RV",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13429/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42605",
+    "name": "SUZUKI S-CROSS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42605/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40679",
+    "name": "SUZUKI S-PRESSO",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40679/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39926",
+    "name": "SUZUKI SAMURAI",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39926/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1241",
+    "name": "SUZUKI SAMURAI Closed Off-Road Vehicle (SJ_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1241/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38283",
+    "name": "SUZUKI SAMURAI Open Off-Road Vehicle (SJ_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38283/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-04-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38409",
+    "name": "SUZUKI SC100 Coupe",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38409/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-08-01",
+      "toDate": "1982-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14897",
+    "name": "SUZUKI SC100 Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14897/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-03-01",
+      "toDate": "1982-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39928",
+    "name": "SUZUKI SHAOLIN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39928/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39929",
+    "name": "SUZUKI SHOGUN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39929/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8871",
+    "name": "SUZUKI SIERRA II Open Off-Road Vehicle (SJ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8871/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-12-01",
+      "toDate": "2000-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8801",
+    "name": "SUZUKI SIERRA Open Off-Road Vehicle (SJ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8801/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "1990-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8800",
+    "name": "SUZUKI SIERRA Open Off-Road Vehicle (SJ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8800/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1999-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12638",
+    "name": "SUZUKI SIXTEEN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12638/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3574",
+    "name": "SUZUKI SJ410",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3574/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-09-01",
+      "toDate": "1991-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1238",
+    "name": "SUZUKI SJ410 Cabrio (OS)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1238/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-09-01",
+      "toDate": "1991-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1242",
+    "name": "SUZUKI SJ413 (OS)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1242/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-09-01",
+      "toDate": "1991-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38531",
+    "name": "SUZUKI SJ413 Open Off-Road Vehicle (OS)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38531/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-08-01",
+      "toDate": "1988-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41300",
+    "name": "SUZUKI SKYDRIVE",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41300/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41301",
+    "name": "SUZUKI SKYWAVE",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41301/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36757",
+    "name": "SUZUKI SLINGSHOT",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36757/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14942",
+    "name": "SUZUKI SOLIO (MA_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14942/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10877",
+    "name": "SUZUKI SOLIO (MA15_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10877/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37306",
+    "name": "SUZUKI SOLIO (MA34_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37306/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38511",
+    "name": "SUZUKI SPACIA (MK)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38511/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13288",
+    "name": "SUZUKI SPACIA (MK)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13288/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41302",
+    "name": "SUZUKI SPIN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41302/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7527",
+    "name": "SUZUKI SPLASH (EX)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7527/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12639",
+    "name": "SUZUKI SR",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12639/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1243",
+    "name": "SUZUKI SUPER CARRY Bus (ED)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1243/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-07-01",
+      "toDate": "1999-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37106",
+    "name": "SUZUKI SUPER CARRY Van (ED)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37106/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39930",
+    "name": "SUZUKI SUPRA",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39930/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12640",
+    "name": "SUZUKI SV",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12640/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41745",
+    "name": "SUZUKI SWACE (AMZ_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41745/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3973",
+    "name": "SUZUKI SWIFT   (AA)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3973/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-10-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1240",
+    "name": "SUZUKI SWIFT Convertible (SF413)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1240/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-09-01",
+      "toDate": "1996-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8994",
+    "name": "SUZUKI SWIFT III (FZ, NZ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8994/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5474",
+    "name": "SUZUKI SWIFT III (MZ, EZ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5474/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1232",
+    "name": "SUZUKI SWIFT Mk II Hatchback (EA, MA)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1232/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-03-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1239",
+    "name": "SUZUKI SWIFT Mk II Saloon (AH, AJ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1239/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-03-01",
+      "toDate": "2001-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37855",
+    "name": "SUZUKI SWIFT V (AZ)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37855/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "34716",
+    "name": "SUZUKI SWIFT+ Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/34716/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36761",
+    "name": "SUZUKI SWISH",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36761/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5566",
+    "name": "SUZUKI SX4 (EY, GY)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5566/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11477",
+    "name": "SUZUKI SX4 S-CROSS (JY)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11477/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8005",
+    "name": "SUZUKI SX4 Saloon (GY, RW)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8005/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14449",
+    "name": "SUZUKI T",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14449/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12641",
+    "name": "SUZUKI TL",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12641/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12642",
+    "name": "SUZUKI TR",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12642/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12643",
+    "name": "SUZUKI TS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12643/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12644",
+    "name": "SUZUKI TU",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12644/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "10489",
+    "name": "SUZUKI TWIN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10489/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-01-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12645",
+    "name": "SUZUKI UC",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12645/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12646",
+    "name": "SUZUKI UE",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12646/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12647",
+    "name": "SUZUKI UF",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12647/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12648",
+    "name": "SUZUKI UH",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12648/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12649",
+    "name": "SUZUKI UX",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12649/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39931",
+    "name": "SUZUKI V-STROM",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39931/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12650",
+    "name": "SUZUKI VANVAN",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12650/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "33990",
+    "name": "SUZUKI VERONA Saloon",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/33990/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10222",
+    "name": "SUZUKI VITARA (ET)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10222/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-12-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13638",
+    "name": "SUZUKI VITARA (LY)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13638/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1237",
+    "name": "SUZUKI VITARA / ESCUDO (ET, TA, TD)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1237/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-07-01",
+      "toDate": "2002-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42852",
+    "name": "SUZUKI VITARA BREZZA (YF)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42852/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1880",
+    "name": "SUZUKI VITARA Cabrio (ET, TA)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1880/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-07-01",
+      "toDate": "2002-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10223",
+    "name": "SUZUKI VITARA Cabrio (ET)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10223/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-01-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12651",
+    "name": "SUZUKI VL",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12651/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12652",
+    "name": "SUZUKI VS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12652/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12653",
+    "name": "SUZUKI VX",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12653/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12654",
+    "name": "SUZUKI VZ",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12654/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7507",
+    "name": "SUZUKI WAGON R (CT, CV)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7507/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-06-01",
+      "toDate": "1997-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37284",
+    "name": "SUZUKI WAGON R (MC_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37284/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-07-01",
+      "toDate": "2003-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37155",
+    "name": "SUZUKI WAGON R (MH23)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37155/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-09-01",
+      "toDate": "2012-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14095",
+    "name": "SUZUKI WAGON R (MH34S, MH44S)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14095/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-09-01",
+      "toDate": "2017-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38464",
+    "name": "SUZUKI WAGON R (MH35S, MH55S)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38464/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7512",
+    "name": "SUZUKI WAGON R Hatchback",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7512/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-03-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3403",
+    "name": "SUZUKI WAGON R+ Hatchback (EM)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3403/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-10-01",
+      "toDate": "2000-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4666",
+    "name": "SUZUKI WAGON R+ Hatchback (MM)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4666/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-05-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1481",
+    "name": "SUZUKI X-90 (EL)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1481/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-09-01",
+      "toDate": "1997-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39313",
+    "name": "SUZUKI XBEE (MN71_)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39313/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12655",
+    "name": "SUZUKI XF",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12655/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40439",
+    "name": "SUZUKI XL7",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40439/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14543",
+    "name": "SUZUKI XL7 (DA, DB)",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14543/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14068",
+    "name": "SUZUKI YES",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14068/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36758",
+    "name": "SUZUKI ZEUS",
+    "manufacturerId": "109",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36758/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  }
+]

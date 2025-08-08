@@ -1,0 +1,60 @@
+[
+  {
+    "id": "6011623",
+    "name": "Brake Caliper",
+    "partNo": "BHW347E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "24169",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6011623/model-series-id-6585/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Brake Caliper Type": "Fist-type Caliper",
+      "Material": "Cast Iron",
+      "paired article number": "BHW348E",
+      "Piston Diameter [mm]": "54",
+      "Article ID:": "6011623",
+      "Article Number:": "BHW347E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293739064",
+      "OEM Numbers AUDI:": "1K0 615 123 D",
+      "OEM Numbers SEAT:": "1K0 615 123 D",
+      "OEM Numbers SKODA:": "1K0 615 123 D",
+      "OEM Numbers VW:": "1K0 615 123 D"
+    }
+  },
+  {
+    "id": "6011624",
+    "name": "Brake Caliper",
+    "partNo": "BHW348E",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "78",
+    "productGroupId": "104084",
+    "categoryId": "103671",
+    "variantId": "24169",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6011624/model-series-id-6585/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Brake Caliper Type": "Fist-type Caliper",
+      "Material": "Cast Iron",
+      "paired article number": "BHW347E",
+      "Piston Diameter [mm]": "54",
+      "Article ID:": "6011624",
+      "Article Number:": "BHW348E",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293739065",
+      "OEM Numbers AUDI:": "1K0 615 124 D",
+      "OEM Numbers SEAT:": "1K0 615 124 D",
+      "OEM Numbers SKODA:": "1K0 615 124 D",
+      "OEM Numbers VW:": "1K0 615 124 D"
+    }
+  }
+]

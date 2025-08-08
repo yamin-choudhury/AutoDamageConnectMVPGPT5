@@ -1,0 +1,57 @@
+[
+  {
+    "id": "6492954",
+    "name": "Brake Pad Set, disc brake",
+    "partNo": "D3027H",
+    "manufacturer": "MK Kashiyama",
+    "supplierId": "6103",
+    "productsId": "402",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "21631",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6492954/model-series-id-5855/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "1U042648Z",
+      "Fitting Position": "Rear Axle",
+      "Thickness [mm]": "13",
+      "Length [mm]": "107,7",
+      "Height [mm]": "39,7",
+      "Supplementary Article/Supplementary Info": "with shims",
+      "WVA Number": "24045",
+      "Article ID:": "6492954",
+      "Article Number:": "D3027H",
+      "Manufacturer:": "MK Kashiyama",
+      "OEM Numbers MAZDA:": "V9118X009",
+      "OEM Numbers HONDA:": "NHC-474"
+    }
+  },
+  {
+    "id": "6494639",
+    "name": "Brake Pad Set, disc brake",
+    "partNo": "D3141",
+    "manufacturer": "MK Kashiyama",
+    "supplierId": "6103",
+    "productsId": "402",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "21631",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6494639/model-series-id-5855/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "6E5Z2200B",
+      "Fitting Position": "Rear Axle",
+      "Thickness [mm]": "14",
+      "Length [mm]": "110,7",
+      "Height [mm]": "41,6",
+      "WVA Number": "24581",
+      "Article ID:": "6494639",
+      "Article Number:": "D3141",
+      "Manufacturer:": "MK Kashiyama",
+      "OEM Numbers FORD:": "BE5Z2200A",
+      "OEM Numbers MAZDA:": "GPYB2648Z"
+    }
+  }
+]

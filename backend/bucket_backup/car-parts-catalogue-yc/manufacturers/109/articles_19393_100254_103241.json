@@ -1,0 +1,47 @@
+[
+  {
+    "id": "4323022",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "7.11237.02.0",
+    "manufacturer": "PIERBURG",
+    "supplierId": "5",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "19393",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4323022/model-series-id-5489/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Article ID:": "4323022",
+      "Article Number:": "7.11237.02.0",
+      "Manufacturer:": "PIERBURG",
+      "EAN Numbers:": "402897793674",
+      "OEM Numbers SUZUKI:": "18111-80KA1"
+    }
+  },
+  {
+    "id": "10246368",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "WG2136361",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "19393",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10246368/model-series-id-5489/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Article ID:": "10246368",
+      "Article Number:": "WG2136361",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers SUZUKI:": "1811180KA1"
+    }
+  }
+]

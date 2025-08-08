@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1891679",
+    "name": "Ignition Coil",
+    "partNo": "20605",
+    "manufacturer": "BREMI",
+    "supplierId": "47",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "51555",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1891679/model-series-id-8809/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "3",
+      "Ignition Coil": "Flush-Fitting Pencil Ignition Coils",
+      "Article ID:": "1891679",
+      "Article Number:": "20605",
+      "Manufacturer:": "BREMI",
+      "EAN Numbers:": "401753418795",
+      "OEM Numbers HONDA:": "30520-RL5-A01",
+      "OEM Numbers ACURA:": "30520-RL5-A01"
+    }
+  },
+  {
+    "id": "394183",
+    "name": "Ignition Coil",
+    "partNo": "03640-004",
+    "manufacturer": "FEBEST",
+    "supplierId": "4674",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "51555",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/394183/model-series-id-8809/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,268",
+      "Packaging length [cm]": "15,1",
+      "Packaging width [cm]": "6,7",
+      "Packaging height [cm]": "6,6",
+      "Article ID:": "394183",
+      "Article Number:": "03640-004",
+      "Manufacturer:": "FEBEST",
+      "EAN Numbers:": "405611116366",
+      "OEM Numbers HONDA:": "30520-RGA-004"
+    }
+  },
+  {
+    "id": "394183",
+    "name": "Ignition Coil",
+    "partNo": "03640-004",
+    "manufacturer": "FEBEST",
+    "supplierId": "4674",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "51555",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/394183/model-series-id-8809/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,268",
+      "Packaging length [cm]": "15,1",
+      "Packaging width [cm]": "6,7",
+      "Packaging height [cm]": "6,6",
+      "Article ID:": "394183",
+      "Article Number:": "03640-004",
+      "Manufacturer:": "FEBEST",
+      "EAN Numbers:": "405611116366",
+      "OEM Numbers HONDA:": "30520-RGA-004"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "3026201",
+    "name": "Pulley, power steering pump",
+    "partNo": "38643",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "4204",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "24163",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3026201/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "30",
+      "Weight [kg]": "0,32",
+      "Inner diameter [mm]": "30",
+      "Outer diameter [mm]": "160",
+      "Article ID:": "3026201",
+      "Article Number:": "38643",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781638643",
+      "OEM Numbers AUDI:": "78 145 255 H",
+      "OEM Numbers SKODA:": "78 145 255 H",
+      "OEM Numbers VW:": "78 145 255 H"
+    }
+  },
+  {
+    "id": "2528033",
+    "name": "Pulley, power steering pump",
+    "partNo": "30 93 8643",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "4204",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "24163",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2528033/model-series-id-6583/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "30",
+      "Inner diameter [mm]": "30",
+      "Outer diameter [mm]": "160",
+      "Article ID:": "2528033",
+      "Article Number:": "30 93 8643",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468838643",
+      "OEM Numbers AUDI:": "78 145 255 H",
+      "OEM Numbers SKODA:": "78 145 255 H",
+      "OEM Numbers VW:": "78 145 255 H"
+    }
+  }
+]

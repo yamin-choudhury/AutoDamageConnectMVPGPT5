@@ -1,0 +1,69 @@
+[
+  {
+    "id": "6702016",
+    "name": "Bracket, muffler",
+    "partNo": "E128E01",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "6253",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6702016/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6702016",
+      "Article Number:": "E128E01",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers FORD:": "1223917",
+      "OEM Numbers VOLVO:": "30657361",
+      "OEM Numbers MAZDA:": "LF0940061"
+    }
+  },
+  {
+    "id": "5537558",
+    "name": "Bracket, muffler",
+    "partNo": "AA99084",
+    "manufacturer": "Faurecia",
+    "supplierId": "4328",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "6253",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5537558/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5537558",
+      "Article Number:": "AA99084",
+      "Manufacturer:": "Faurecia",
+      "OEM Numbers FORD:": "1223917",
+      "OEM Numbers VOLVO:": "30657361",
+      "OEM Numbers MAZDA:": "LF0940061"
+    }
+  },
+  {
+    "id": "5537557",
+    "name": "Bracket, muffler",
+    "partNo": "AA99084",
+    "manufacturer": "VENEPORTE",
+    "supplierId": "357",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "6253",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5537557/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5537557",
+      "Article Number:": "AA99084",
+      "Manufacturer:": "VENEPORTE",
+      "EAN Numbers:": "560518099084",
+      "OEM Numbers FORD:": "1223917",
+      "OEM Numbers VOLVO:": "30657361",
+      "OEM Numbers MAZDA:": "LF0940061"
+    }
+  }
+]

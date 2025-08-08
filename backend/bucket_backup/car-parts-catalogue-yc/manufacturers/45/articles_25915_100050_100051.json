@@ -1,0 +1,52 @@
+[
+  {
+    "id": "4131462",
+    "name": "Clutch Kit",
+    "partNo": "622 3460 09",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "25915",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4131462/model-series-id-11411/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "222",
+      "Article ID:": "4131462",
+      "Article Number:": "622 3460 09",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487047801",
+      "OEM Numbers HONDA:": "2230059M003"
+    }
+  },
+  {
+    "id": "4869146",
+    "name": "Clutch Kit",
+    "partNo": "843650",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "25915",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4869146/model-series-id-11411/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "24",
+      "Hub Profile": "25,990 x 24,03",
+      "Weight [kg]": "5,38",
+      "Supplementary Article/Supplementary Info": "with clutch pressure plate",
+      "Supplementary Article/Info 2": "without clutch release bearing",
+      "Version": "225X150/PH311/ORGANI",
+      "External diameter, clutch pressure plate [mm]": "230",
+      "Article ID:": "4869146",
+      "Article Number:": "843650",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642843650",
+      "OEM Numbers HONDA:": "22300R68003"
+    }
+  }
+]

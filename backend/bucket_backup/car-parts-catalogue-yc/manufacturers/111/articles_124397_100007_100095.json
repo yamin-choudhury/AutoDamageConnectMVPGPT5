@@ -1,0 +1,83 @@
+[
+  {
+    "id": "9419043",
+    "name": "Thermostat, coolant",
+    "partNo": "TH31482G1",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "124397",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9419043/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "82",
+      "Housing Type": "without housing",
+      "Article ID:": "9419043",
+      "Article Number:": "TH31482G1",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "541446540061",
+      "OEM Numbers MITSUBISHI:": "MN187250",
+      "OEM Numbers CITROËN:": "1338G3",
+      "OEM Numbers PEUGEOT:": "1338G3",
+      "OEM Numbers STANDARD AUTOMOBILE:": "75617",
+      "OEM Numbers HYUNDAI:": "90916-03201",
+      "OEM Numbers KIA:": "90916-03201",
+      "OEM Numbers TOYOTA:": "9091603201",
+      "OEM Numbers LEXUS:": "9091603093"
+    }
+  },
+  {
+    "id": "9419044",
+    "name": "Thermostat, coolant",
+    "partNo": "TH31482G1",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "124397",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9419044/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9419044",
+      "Article Number:": "TH31482G1",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers MITSUBISHI:": "MN187250",
+      "OEM Numbers PEUGEOT:": "1338.G3",
+      "OEM Numbers CITROËN:": "1338G3",
+      "OEM Numbers STANDARD AUTOMOBILE:": "75617",
+      "OEM Numbers TOYOTA:": "90916-03201",
+      "OEM Numbers HYUNDAI:": "90916-03201",
+      "OEM Numbers KIA:": "90916-03201",
+      "OEM Numbers LEXUS:": "90916-03093",
+      "OEM Numbers PROTON:": "MN187250"
+    }
+  },
+  {
+    "id": "4169065",
+    "name": "Thermostat, coolant",
+    "partNo": "63488",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "124397",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4169065/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "82",
+      "Article ID:": "4169065",
+      "Article Number:": "63488",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509363488",
+      "OEM Numbers MITSUBISHI:": "MN 187250",
+      "OEM Numbers CITROËN:": "1338.G3"
+    }
+  }
+]

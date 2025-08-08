@@ -1,0 +1,80 @@
+[
+  {
+    "id": "752964",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.1530",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "139209",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/752964/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "7",
+      "Belt Pulley Ø [mm]": "115",
+      "Compressor ID": "SNC12",
+      "Article ID:": "752964",
+      "Article Number:": "1.1530",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320845422",
+      "OEM Numbers RENAULT:": "926008955R"
+    }
+  },
+  {
+    "id": "752965",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.1530",
+    "manufacturer": "KRIOS",
+    "supplierId": "4399",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "139209",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/752965/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "7",
+      "Belt Pulley Ø [mm]": "115",
+      "Compressor ID": "SNC12",
+      "Article ID:": "752965",
+      "Article Number:": "1.1530",
+      "Manufacturer:": "KRIOS",
+      "EAN Numbers:": "803320845422",
+      "OEM Numbers RENAULT:": "926008955R"
+    }
+  },
+  {
+    "id": "752963",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.1530",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "139209",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/752963/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "7",
+      "Belt Pulley Ø [mm]": "115",
+      "Compressor ID": "SNC12",
+      "Article ID:": "752963",
+      "Article Number:": "1.1530",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320845422",
+      "OEM Numbers RENAULT:": "926008955R"
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "4363331",
+    "name": "Sensor, coolant temperature",
+    "partNo": "70511539",
+    "manufacturer": "HERTH+BUSS ELPARTS",
+    "supplierId": "72",
+    "productsId": "830",
+    "productGroupId": "100754",
+    "categoryId": "100002",
+    "variantId": "147495",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4363331/model-series-id-42681/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "20",
+      "Colour": "Black/Grey",
+      "Mounting Type": "Plug-in connection",
+      "Number of connectors": "2",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Colour Coding": "Yellow",
+      "Article ID:": "4363331",
+      "Article Number:": "70511539",
+      "Manufacturer:": "HERTH+BUSS ELPARTS",
+      "EAN Numbers:": "402673635309",
+      "OEM Numbers MERCEDES-BENZ:": "A 013 542 78 17",
+      "OEM Numbers AUDI:": "06A 919 501 B",
+      "OEM Numbers VW:": "06A 919 501 B",
+      "OEM Numbers SEAT:": "06A919501A",
+      "OEM Numbers SKODA:": "06A 919 501 B",
+      "OEM Numbers VAG:": "06A 919 501 B",
+      "OEM Numbers FORD:": "XM2110884BA",
+      "OEM Numbers MAN:": "65274210002",
+      "OEM Numbers CHRYSLER:": "K68001313AB",
+      "OEM Numbers PORSCHE:": "997 606 410 00",
+      "OEM Numbers SMART:": "A 013 542 78 17",
+      "OEM Numbers MITSUBISHI:": "MN980264"
+    }
+  }
+]

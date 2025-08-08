@@ -1,0 +1,50 @@
+[
+  {
+    "id": "238135",
+    "name": "Seal, EGR valve",
+    "partNo": "01195700",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3507",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "122712",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/238135/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,2",
+      "Length [mm]": "52",
+      "Width [mm]": "32",
+      "Article ID:": "238135",
+      "Article Number:": "01195700",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776994516",
+      "OEM Numbers SUZUKI:": "18533-86G00"
+    }
+  },
+  {
+    "id": "238138",
+    "name": "Seal, EGR valve",
+    "partNo": "01195800",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3507",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "122712",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/238138/model-series-id-8823/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "0,2",
+      "Length [mm]": "54",
+      "Width [mm]": "52",
+      "Article ID:": "238138",
+      "Article Number:": "01195800",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776994517",
+      "OEM Numbers OPEL:": "4709407"
+    }
+  }
+]

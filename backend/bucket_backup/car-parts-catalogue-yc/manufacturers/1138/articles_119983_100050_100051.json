@@ -1,0 +1,83 @@
+[
+  {
+    "id": "4017736",
+    "name": "Clutch Kit",
+    "partNo": "602 0019 00",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "119983",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4017736/model-series-id-13050/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Dual-Clutch Transmission",
+      "Clutch Type": "for dry clutch",
+      "Supplementary Article/Info 2": "with clutch release bearing",
+      "Article ID:": "4017736",
+      "Article Number:": "602 0019 00",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487036673",
+      "OEM Numbers RENAULT:": "305739941R",
+      "OEM Numbers SMART:": "A4539065201"
+    }
+  },
+  {
+    "id": "2549475",
+    "name": "Clutch Kit",
+    "partNo": "3000 943 011",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "119983",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2549475/model-series-id-13050/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "6-Speed Dual-Clutch Transmission",
+      "Supplementary Article/Supplementary Info": "with clutch pressure plate",
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Manufacturer of the recommended special tools": "LUK",
+      "Article ID:": "2549475",
+      "Article Number:": "3000 943 011",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "405992304708",
+      "OEM Numbers RENAULT:": "30 57 399 41R",
+      "OEM Numbers DACIA:": "30 57 399 41R",
+      "OEM Numbers MERCEDES-BENZ:": "A 453 906 52 01",
+      "OEM Numbers SMART:": "A 453 906 52 01"
+    }
+  },
+  {
+    "id": "2549475",
+    "name": "Clutch Kit",
+    "partNo": "3000 943 011",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "119983",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2549475/model-series-id-13050/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "6-Speed Dual-Clutch Transmission",
+      "Supplementary Article/Supplementary Info": "with clutch pressure plate",
+      "Supplementary Article/Info 2": "Requires special tools for mounting",
+      "Manufacturer of the recommended special tools": "LUK",
+      "Article ID:": "2549475",
+      "Article Number:": "3000 943 011",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "405992304708",
+      "OEM Numbers RENAULT:": "30 57 399 41R",
+      "OEM Numbers DACIA:": "30 57 399 41R",
+      "OEM Numbers MERCEDES-BENZ:": "A 453 906 52 01",
+      "OEM Numbers SMART:": "A 453 906 52 01"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "34823",
+    "type": "1.6",
+    "modelId": "8945",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BJH,BWG",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2006-07-01\n                            \n                            2008-12-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34824",
+    "type": "1.8",
+    "modelId": "8945",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "BAF",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-07-01\n                            \n                            2008-12-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  }
+]

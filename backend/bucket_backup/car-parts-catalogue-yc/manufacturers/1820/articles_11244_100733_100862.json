@@ -1,0 +1,47 @@
+[
+  {
+    "id": "3298180",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "430719149700",
+    "manufacturer": "MAGNETI MARELLI",
+    "supplierId": "95",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "11244",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3298180/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3298180",
+      "Article Number:": "430719149700",
+      "Manufacturer:": "MAGNETI MARELLI",
+      "EAN Numbers:": "805094703159",
+      "OEM Numbers LAND ROVER:": "ALR8360"
+    }
+  },
+  {
+    "id": "4530551",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "752940",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "11244",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4530551/model-series-id-4673/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "585",
+      "Stroke [mm]": "250",
+      "Eject Force [N]": "100",
+      "Article ID:": "4530551",
+      "Article Number:": "752940",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657701516",
+      "OEM Numbers LAND ROVER:": "ALR8360"
+    }
+  }
+]

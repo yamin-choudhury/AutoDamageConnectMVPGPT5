@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1497198",
+    "name": "Mounting, engine",
+    "partNo": "16156",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "55332",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1497198/model-series-id-10342/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [g]": "1150",
+      "Article ID:": "1497198",
+      "Article Number:": "16156",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539206378",
+      "OEM Numbers MERCEDES-BENZ:": "A2462401209"
+    }
+  },
+  {
+    "id": "1497199",
+    "name": "Mounting, engine",
+    "partNo": "16156",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "55332",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1497199/model-series-id-10342/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Weight [g]": "1150",
+      "Article ID:": "1497199",
+      "Article Number:": "16156",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539206378",
+      "OEM Numbers MERCEDES-BENZ:": "A2462401209"
+    }
+  }
+]

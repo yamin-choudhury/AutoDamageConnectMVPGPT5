@@ -1,0 +1,45 @@
+[
+  {
+    "id": "2079750",
+    "name": "Ignition Coil",
+    "partNo": "224336134R",
+    "manufacturer": "BRÜCK GERMANY",
+    "supplierId": "6366",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "12901",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2079750/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2079750",
+      "Article Number:": "224336134R",
+      "Manufacturer:": "BRÜCK GERMANY",
+      "OEM Numbers NISSAN:": "224336134R",
+      "OEM Numbers RENAULT:": "224336134R"
+    }
+  },
+  {
+    "id": "7225472",
+    "name": "Ignition Coil",
+    "partNo": "GC4221",
+    "manufacturer": "GAUSS",
+    "supplierId": "3894",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "12901",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7225472/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of connectors": "4",
+      "Article ID:": "7225472",
+      "Article Number:": "GC4221",
+      "Manufacturer:": "GAUSS",
+      "OEM Numbers NISSAN:": "22448-00QAC",
+      "OEM Numbers RENAULT:": "7700873701"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "6807967",
+    "name": "Lambda Sensor",
+    "partNo": "ES20168-12B1",
+    "manufacturer": "DELPHI",
+    "supplierId": "89",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6807967/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cable Length [mm]": "700",
+      "Lambda Sensor": "Planar probe",
+      "Article ID:": "6807967",
+      "Article Number:": "ES20168-12B1",
+      "Manufacturer:": "DELPHI",
+      "EAN Numbers:": "501275938784",
+      "OEM Numbers VW:": "06A906265AJ",
+      "OEM Numbers SEAT:": "6L0906262",
+      "OEM Numbers AUDI:": "06A 906 262R",
+      "OEM Numbers SKODA:": "06A906265AJ"
+    }
+  },
+  {
+    "id": "594565",
+    "name": "Lambda Sensor",
+    "partNo": "07722",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/594565/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Lambda Sensor": "Lambda Sensor",
+      "Article ID:": "594565",
+      "Article Number:": "07722",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357307722",
+      "OEM Numbers VW:": "06A 906 262 F"
+    }
+  }
+]

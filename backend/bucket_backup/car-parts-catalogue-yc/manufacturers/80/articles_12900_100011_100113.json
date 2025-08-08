@@ -1,0 +1,58 @@
+[
+  {
+    "id": "2570391",
+    "name": "Spring Cap",
+    "partNo": "30185",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1300",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "12900",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2570391/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Upper",
+      "Thickness [mm]": "35",
+      "Weight [kg]": "0,150",
+      "Material": "Elastomer",
+      "Inner diameter [mm]": "43",
+      "Outer diameter [mm]": "109,5",
+      "Article ID:": "2570391",
+      "Article Number:": "30185",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781630185",
+      "OEM Numbers RENAULT:": "82 00 257 863",
+      "OEM Numbers DACIA:": "82 00 257 863"
+    }
+  },
+  {
+    "id": "3984134",
+    "name": "Spring Cap",
+    "partNo": "60 93 0185",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1300",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "12900",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3984134/model-series-id-9907/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Upper",
+      "Thickness [mm]": "35",
+      "Weight [kg]": "0,150",
+      "Material": "Elastomer",
+      "Inner diameter [mm]": "43",
+      "Outer diameter [mm]": "109,5",
+      "Article ID:": "3984134",
+      "Article Number:": "60 93 0185",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468830185",
+      "OEM Numbers RENAULT:": "82 00 257 863",
+      "OEM Numbers DACIA:": "82 00 257 863"
+    }
+  }
+]

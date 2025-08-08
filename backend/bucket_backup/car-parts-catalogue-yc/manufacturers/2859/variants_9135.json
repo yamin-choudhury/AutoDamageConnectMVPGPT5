@@ -1,0 +1,50 @@
+[
+  {
+    "id": "7082",
+    "type": "1.8",
+    "modelId": "9135",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CEAA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2010-07-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "7091",
+    "type": "2.0",
+    "modelId": "9135",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CGMA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-07-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100251",
+    "type": "3.0",
+    "modelId": "9135",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CNGA",
+      "cylinder": "6",
+      "capacity": "2,975 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  }
+]

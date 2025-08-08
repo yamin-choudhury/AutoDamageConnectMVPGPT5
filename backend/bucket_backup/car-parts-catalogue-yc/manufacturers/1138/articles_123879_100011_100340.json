@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1477366",
+    "name": "Shock Absorber",
+    "partNo": "16-26 623 0026",
+    "manufacturer": "MEYLE",
+    "supplierId": "144",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "123879",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1477366/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article number of recommended accessories": "16-14 641 0037",
+      "Article ID:": "1477366",
+      "Article Number:": "16-26 623 0026",
+      "Manufacturer:": "MEYLE",
+      "EAN Numbers:": "404007429878",
+      "OEM Numbers SMART:": "A 453 323 04 00",
+      "OEM Numbers RENAULT:": "543037413R"
+    }
+  },
+  {
+    "id": "1477396",
+    "name": "Shock Absorber",
+    "partNo": "16-26 725 0031",
+    "manufacturer": "MEYLE",
+    "supplierId": "144",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "123879",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1477396/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Telescopic Shock Absorber",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "1477396",
+      "Article Number:": "16-26 725 0031",
+      "Manufacturer:": "MEYLE",
+      "EAN Numbers:": "404007430924",
+      "OEM Numbers SMART:": "A 453 326 05 00",
+      "OEM Numbers RENAULT:": "562106353R"
+    }
+  }
+]

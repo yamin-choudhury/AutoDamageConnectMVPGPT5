@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3306365",
+    "name": "Tie Rod End",
+    "partNo": "43195 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "139937",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3306365/model-series-id-14314/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "paired article number": "43196 01",
+      "Article ID:": "3306365",
+      "Article Number:": "43195 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743753588",
+      "OEM Numbers TOYOTA:": "45047-29195",
+      "OEM Numbers LEXUS:": "45047-29195"
+    }
+  },
+  {
+    "id": "3306382",
+    "name": "Tie Rod End",
+    "partNo": "43196 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "139937",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3306382/model-series-id-14314/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "paired article number": "43195 01",
+      "Article ID:": "3306382",
+      "Article Number:": "43196 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743753590",
+      "OEM Numbers TOYOTA:": "45046-29515",
+      "OEM Numbers LEXUS:": "45046-29515"
+    }
+  }
+]

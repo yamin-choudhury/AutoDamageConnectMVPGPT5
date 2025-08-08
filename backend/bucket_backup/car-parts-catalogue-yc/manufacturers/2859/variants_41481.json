@@ -1,0 +1,50 @@
+[
+  {
+    "id": "142402",
+    "type": "200TSI",
+    "modelId": "41481",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DLSA,DLSB",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2020-11-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142403",
+    "type": "280TSI",
+    "modelId": "41481",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2020-11-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145534",
+    "type": "380TSI",
+    "modelId": "41481",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-09-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  }
+]

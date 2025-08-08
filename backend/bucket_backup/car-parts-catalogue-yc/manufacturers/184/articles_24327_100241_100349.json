@@ -1,0 +1,96 @@
+[
+  {
+    "id": "3665601",
+    "name": "Interior Blower",
+    "partNo": "518086N",
+    "manufacturer": "AKS DASIS",
+    "supplierId": "80",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "24327",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3665601/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "147",
+      "Weight [kg]": "1,22",
+      "Rotation Direction": "Anticlockwise rotation",
+      "Packaging length [cm]": "25",
+      "Packaging width [cm]": "21",
+      "Packaging height [cm]": "17",
+      "Article ID:": "3665601",
+      "Article Number:": "518086N",
+      "Manufacturer:": "AKS DASIS",
+      "EAN Numbers:": "404445556626",
+      "OEM Numbers KIA:": "971094E000"
+    }
+  },
+  {
+    "id": "7756970",
+    "name": "Interior Blower",
+    "partNo": "KA8248",
+    "manufacturer": "AVA QUALITY COOLING",
+    "supplierId": "247",
+    "productsId": "2669",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "24327",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7756970/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "147",
+      "Article ID:": "7756970",
+      "Article Number:": "KA8248",
+      "Manufacturer:": "AVA QUALITY COOLING",
+      "EAN Numbers:": "404538519959",
+      "OEM Numbers KIA:": "971094E000"
+    }
+  },
+  {
+    "id": "7893139",
+    "name": "Electric Motor, interior blower",
+    "partNo": "LFh 0804",
+    "manufacturer": "LUZAR",
+    "supplierId": "4707",
+    "productsId": "793",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "24327",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7893139/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Power [W]": "186",
+      "Article ID:": "7893139",
+      "Article Number:": "LFh 0804",
+      "Manufacturer:": "LUZAR",
+      "EAN Numbers:": "468029514459",
+      "OEM Numbers KIA:": "97109-4E000"
+    }
+  },
+  {
+    "id": "7756971",
+    "name": "Electric Motor, interior blower",
+    "partNo": "KA8248",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "793",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "24327",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7756971/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Heating/Cooling": "Single Fan",
+      "Rotation Direction": "Anticlockwise rotation",
+      "Article ID:": "7756971",
+      "Article Number:": "KA8248",
+      "Manufacturer:": "PRASCO",
+      "OEM Numbers KIA:": "971094E000"
+    }
+  }
+]

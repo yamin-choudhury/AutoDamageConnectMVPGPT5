@@ -1,0 +1,162 @@
+[
+  {
+    "id": "6043026",
+    "name": "Catalytic Converter",
+    "partNo": "BM92346H",
+    "manufacturer": "BM CATALYSTS",
+    "supplierId": "406",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "109546",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6043026/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "only in connection with": "FK92346",
+      "Warranty": "2 years warranty",
+      "for manufacturer exhaust norm": "Up to Euro 6",
+      "Article ID:": "6043026",
+      "Article Number:": "BM92346H",
+      "Manufacturer:": "BM CATALYSTS",
+      "EAN Numbers:": "0505274619426",
+      "OEM Numbers MAZDA:": "P5B82055XA"
+    }
+  },
+  {
+    "id": "8439305",
+    "name": "Catalytic Converter",
+    "partNo": "P8062CAT",
+    "manufacturer": "FENNO",
+    "supplierId": "415",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "109546",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8439305/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8439305",
+      "Article Number:": "P8062CAT",
+      "Manufacturer:": "FENNO",
+      "EAN Numbers:": "643849500860",
+      "OEM Numbers MAZDA:": "P568-20-50X"
+    }
+  },
+  {
+    "id": "8439308",
+    "name": "Catalytic Converter",
+    "partNo": "P8063CAT",
+    "manufacturer": "FENNO",
+    "supplierId": "415",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "109546",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8439308/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8439308",
+      "Article Number:": "P8063CAT",
+      "Manufacturer:": "FENNO",
+      "EAN Numbers:": "643849500861",
+      "OEM Numbers MAZDA:": "P564-20-55XA"
+    }
+  },
+  {
+    "id": "8439310",
+    "name": "Catalytic Converter",
+    "partNo": "P8064CAT",
+    "manufacturer": "FENNO",
+    "supplierId": "415",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "109546",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8439310/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1970",
+      "Weight [kg]": "7",
+      "Article ID:": "8439310",
+      "Article Number:": "P8064CAT",
+      "Manufacturer:": "FENNO",
+      "EAN Numbers:": "643849500862",
+      "OEM Numbers MAZDA:": "P568-20-55XA"
+    }
+  },
+  {
+    "id": "6231097",
+    "name": "Catalytic Converter",
+    "partNo": "CAK11375",
+    "manufacturer": "NAP",
+    "supplierId": "2456",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "109546",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6231097/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "Warranty": "2 years warranty",
+      "Article ID:": "6231097",
+      "Article Number:": "CAK11375",
+      "Manufacturer:": "NAP",
+      "EAN Numbers:": "0406455805454",
+      "OEM Numbers MAZDA:": "P5682055XA"
+    }
+  },
+  {
+    "id": "8663245",
+    "name": "Catalytic Converter",
+    "partNo": "QCAT92346H",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "109546",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8663245/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "E9-103R",
+      "Supplementary Article/Info 2": "with mounting kit",
+      "Warranty": "2 years warranty",
+      "Article ID:": "8663245",
+      "Article Number:": "QCAT92346H",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043854213",
+      "OEM Numbers MAZDA:": "P5682055XA"
+    }
+  },
+  {
+    "id": "8235891",
+    "name": "Catalytic Converter",
+    "partNo": "MZK-819",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "109546",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8235891/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Automatic Transmission",
+      "Emission Standard": "Euro 6",
+      "Article ID:": "8235891",
+      "Article Number:": "MZK-819",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550336733",
+      "OEM Numbers MAZDA:": "P568-20-55XA"
+    }
+  }
+]

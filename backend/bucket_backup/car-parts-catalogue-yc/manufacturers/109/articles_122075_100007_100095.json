@@ -1,0 +1,58 @@
+[
+  {
+    "id": "9418986",
+    "name": "Thermostat, coolant",
+    "partNo": "TH29688G1",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "122075",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9418986/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "88",
+      "Housing Type": "without housing",
+      "Supplementary Article/Supplementary Info": "with gaskets/seals",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "9418986",
+      "Article Number:": "TH29688G1",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "541446535823",
+      "OEM Numbers DAIHATSU:": "1634187583",
+      "OEM Numbers SUZUKI:": "17670M83F00-000",
+      "OEM Numbers MARUTI:": "17670M83F00",
+      "OEM Numbers SUBARU:": "21200KA151",
+      "OEM Numbers MARUTI SUZUKI:": "17670M83F00",
+      "OEM Numbers STANDARD AUTOMOBILE:": "75038"
+    }
+  },
+  {
+    "id": "9418988",
+    "name": "Thermostat, coolant",
+    "partNo": "TH29688G1",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "122075",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9418988/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "88",
+      "Article ID:": "9418988",
+      "Article Number:": "TH29688G1",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers DAIHATSU:": "1634187583",
+      "OEM Numbers SUZUKI:": "17670M83F00-000",
+      "OEM Numbers MARUTI:": "17670M83F00",
+      "OEM Numbers SUBARU:": "21200KA151",
+      "OEM Numbers MARUTI SUZUKI:": "17670M83F00",
+      "OEM Numbers STANDARD AUTOMOBILE:": "75038"
+    }
+  }
+]

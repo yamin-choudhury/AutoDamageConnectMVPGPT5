@@ -10,6 +10,22 @@ const DashboardPage = () => {
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
+  const clearSupabaseAuth = () => {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        // Remove all Supabase auth tokens regardless of project ref
+        Object.keys(localStorage)
+          .filter((k) => k.startsWith('sb-') && k.endsWith('-auth-token'))
+          .forEach((k) => localStorage.removeItem(k));
+      }
+      if (typeof sessionStorage !== 'undefined') {
+        Object.keys(sessionStorage)
+          .filter((k) => k.startsWith('sb-') && k.endsWith('-auth-token'))
+          .forEach((k) => sessionStorage.removeItem(k));
+      }
+    } catch { /* ignore */ }
+  };
+
   useEffect(() => {
     // Set up auth state listener
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
@@ -18,31 +34,45 @@ const DashboardPage = () => {
         setUser(session?.user ?? null);
         setLoading(false);
         
-        // Redirect to home if not authenticated
+        // Redirect to /auth if not authenticated; also clear any stale tokens
         if (!session) {
-          navigate('/');
+          clearSupabaseAuth();
+          navigate('/auth');
         }
       }
     );
 
     // Check for existing session
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      setUser(session?.user ?? null);
-      setLoading(false);
-      
-      // Redirect to home if not authenticated
-      if (!session) {
-        navigate('/');
-      }
-    });
+    supabase.auth.getSession()
+      .then(async ({ data: { session } }) => {
+        setSession(session);
+        setUser(session?.user ?? null);
+        setLoading(false);
+
+        // Redirect to /auth if not authenticated; also clear any stale tokens
+        if (!session) {
+          clearSupabaseAuth();
+          try { await supabase.auth.signOut(); } catch { /* ignore */ }
+          navigate('/auth');
+        }
+      })
+      .catch(async () => {
+        // On any auth error, hard reset auth and redirect
+        clearSupabaseAuth();
+        try { await supabase.auth.signOut(); } catch { /* ignore */ }
+        setSession(null);
+        setUser(null);
+        setLoading(false);
+        navigate('/auth');
+      });
 
     return () => subscription.unsubscribe();
   }, [navigate]);
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
-    navigate('/');
+    clearSupabaseAuth();
+    navigate('/auth');
   };
 
   if (loading) {

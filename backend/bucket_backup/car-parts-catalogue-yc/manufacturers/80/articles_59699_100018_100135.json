@@ -1,0 +1,81 @@
+[
+  {
+    "id": "5628292",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "ADN10324",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "59699",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5628292/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "for OE number": "28920-5F010",
+      "Fitting Position": "Front",
+      "Weight [kg]": "0,106",
+      "Number of connectors": "2",
+      "Pump Type": "Dual Pump",
+      "Article ID:": "5628292",
+      "Article Number:": "ADN10324",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006322118",
+      "OEM Numbers NISSAN:": "28920-5F010"
+    }
+  },
+  {
+    "id": "5628292",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "ADN10324",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "59699",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5628292/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "for OE number": "28920-5F010",
+      "Fitting Position": "Front",
+      "Weight [kg]": "0,106",
+      "Number of connectors": "2",
+      "Pump Type": "Dual Pump",
+      "Article ID:": "5628292",
+      "Article Number:": "ADN10324",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006322118",
+      "OEM Numbers NISSAN:": "28920-5F010"
+    }
+  },
+  {
+    "id": "5105175",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "8TW 006 848-141",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "59699",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5105175/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Number of pins": "2",
+      "Article ID:": "5105175",
+      "Article Number:": "8TW 006 848-141",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230078797",
+      "OEM Numbers NISSAN:": "28920BU000",
+      "OEM Numbers RENAULT:": "77 00 430 702"
+    }
+  }
+]

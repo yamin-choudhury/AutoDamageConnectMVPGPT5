@@ -1,0 +1,48 @@
+[
+  {
+    "id": "874455",
+    "name": "Spring Cap",
+    "partNo": "103214",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1300",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "137715",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/874455/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,12",
+      "Article ID:": "874455",
+      "Article Number:": "103214",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422403214",
+      "OEM Numbers RENAULT:": "82 00 876 298",
+      "OEM Numbers DACIA:": "82 00 876 298"
+    }
+  },
+  {
+    "id": "3982770",
+    "name": "Spring Cap",
+    "partNo": "60 10 3214",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1300",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "137715",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3982770/model-series-id-39884/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,12",
+      "Article ID:": "3982770",
+      "Article Number:": "60 10 3214",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422803214",
+      "OEM Numbers RENAULT:": "82 00 876 298",
+      "OEM Numbers DACIA:": "82 00 876 298"
+    }
+  }
+]

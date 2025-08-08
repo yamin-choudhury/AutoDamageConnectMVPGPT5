@@ -1,0 +1,167 @@
+[
+  {
+    "id": "12860",
+    "name": "MINI MINI (F55)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12860/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11753",
+    "name": "MINI MINI (F56)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11753/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4768",
+    "name": "MINI MINI (R50, R53)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4768/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-06-01",
+      "toDate": "2006-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7996",
+    "name": "MINI MINI (R56)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7996/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-11-01",
+      "toDate": "2014-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14380",
+    "name": "MINI MINI CLUBMAN (F54)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14380/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6444",
+    "name": "MINI MINI CLUBMAN (R55)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6444/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11083",
+    "name": "MINI MINI CLUBVAN (R55)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11083/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-12-01",
+      "toDate": "2014-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14829",
+    "name": "MINI MINI Convertible (F57)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14829/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5088",
+    "name": "MINI MINI Convertible (R52)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5088/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-04-01",
+      "toDate": "2008-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8045",
+    "name": "MINI MINI Convertible (R57)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8045/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-10-01",
+      "toDate": "2015-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37158",
+    "name": "MINI MINI COUNTRYMAN (F60)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37158/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8981",
+    "name": "MINI MINI COUNTRYMAN (R60)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8981/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-08-01",
+      "toDate": "2016-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9725",
+    "name": "MINI MINI Coupe (R58)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9725/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-12-01",
+      "toDate": "2015-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11216",
+    "name": "MINI MINI PACEMAN (R61)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11216/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-03-01",
+      "toDate": "2016-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10090",
+    "name": "MINI MINI Roadster (R59)",
+    "manufacturerId": "1523",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10090/manufacturer-id-1523/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-01-01",
+      "toDate": "2015-04-01"
+    },
+    "variants": []
+  }
+]

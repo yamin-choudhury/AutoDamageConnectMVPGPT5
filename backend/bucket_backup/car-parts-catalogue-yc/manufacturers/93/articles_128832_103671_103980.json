@@ -1,0 +1,51 @@
+[
+  {
+    "id": "2595328",
+    "name": "Master Cylinder, clutch",
+    "partNo": "306105X01B",
+    "manufacturer": "Caliper EPB+ NAIBA",
+    "supplierId": "5418",
+    "productsId": "234",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "128832",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2595328/model-series-id-38239/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2595328",
+      "Article Number:": "306105X01B",
+      "Manufacturer:": "Caliper EPB+ NAIBA",
+      "OEM Numbers NISSAN:": "306105X01B"
+    }
+  },
+  {
+    "id": "8204828",
+    "name": "Slave Cylinder, clutch",
+    "partNo": "MSC-1118",
+    "manufacturer": "MDR",
+    "supplierId": "4773",
+    "productsId": "620",
+    "productGroupId": "103980",
+    "categoryId": "103671",
+    "variantId": "128832",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8204828/model-series-id-38239/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,48",
+      "Internal Thread [mm]": "9",
+      "Number of thread bores": "1",
+      "Bore Ø 1 [mm]": "19",
+      "Mounting bores distance [mm]": "32",
+      "Packaging length [cm]": "12,00",
+      "Packaging width [cm]": "10,00",
+      "Packaging height [cm]": "6,00",
+      "Article ID:": "8204828",
+      "Article Number:": "MSC-1118",
+      "Manufacturer:": "MDR",
+      "EAN Numbers:": "843357387817",
+      "OEM Numbers NISSAN:": "30620-CD010"
+    }
+  }
+]

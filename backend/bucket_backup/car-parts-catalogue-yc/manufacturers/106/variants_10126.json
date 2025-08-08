@@ -1,0 +1,50 @@
+[
+  {
+    "id": "15989",
+    "type": "1.0",
+    "modelId": "10126",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CHYA",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-10-01\n                            \n                            2019-08-01",
+      "power": "44 KW / 60 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "15995",
+    "type": "1.0",
+    "modelId": "10126",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CHYB",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-10-01\n                            \n                            2019-08-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58802",
+    "type": "1.0 CNG",
+    "modelId": "10126",
+    "manufacturerId": "106",
+    "url": "",
+    "specs": {
+      "engineCode": "CPGA",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "CNG",
+      "year": "2012-11-01\n                            \n                            2019-08-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  }
+]

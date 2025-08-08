@@ -1,0 +1,332 @@
+[
+  {
+    "id": "4504",
+    "name": "TVR 1300",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4504/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-01-01",
+      "toDate": "1973-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4505",
+    "name": "TVR 1600",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4505/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1975-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4506",
+    "name": "TVR 2500",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4506/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1977-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4520",
+    "name": "TVR 280 Convertible",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4520/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-01-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4519",
+    "name": "TVR 280 Coupe",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4519/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-01-01",
+      "toDate": "1986-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7859",
+    "name": "TVR 3000 Convertible",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7859/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1978-06-01",
+      "toDate": "1980-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4507",
+    "name": "TVR 3000 Coupe",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4507/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-01-01",
+      "toDate": "1980-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4522",
+    "name": "TVR 350 Convertible",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4522/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4521",
+    "name": "TVR 350 Coupe",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4521/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4523",
+    "name": "TVR 390",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4523/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4524",
+    "name": "TVR 400",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4524/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-01-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4525",
+    "name": "TVR 420 Convertible",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4525/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4526",
+    "name": "TVR 420 Sports Saloon",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4526/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-01-01",
+      "toDate": "1989-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4527",
+    "name": "TVR 450",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4527/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-01-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4510",
+    "name": "TVR CERBERA",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4510/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-01-01",
+      "toDate": "2003-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4511",
+    "name": "TVR CHIMAERA",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4511/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-11-01",
+      "toDate": "2003-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39161",
+    "name": "TVR GRIFFITH",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39161/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4512",
+    "name": "TVR GRIFFITH (TCT)",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4512/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "2002-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4529",
+    "name": "TVR S",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4529/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-01-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9636",
+    "name": "TVR SAGARIS",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9636/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4513",
+    "name": "TVR SPEED EIGHT",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4513/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1989-01-01",
+      "toDate": "1992-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36954",
+    "name": "TVR T350 C",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36954/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-10-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4514",
+    "name": "TVR TAIMAR",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4514/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1976-01-01",
+      "toDate": "1980-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9637",
+    "name": "TVR TAMORA",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9637/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-04-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7860",
+    "name": "TVR TASMIN Convertible",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7860/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-08-01",
+      "toDate": "1984-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4515",
+    "name": "TVR TASMIN Coupe",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4515/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1980-01-01",
+      "toDate": "1984-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4516",
+    "name": "TVR TUSCAN I Coupe",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4516/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1969-01-01",
+      "toDate": "1971-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4517",
+    "name": "TVR TUSCAN II Roadster",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4517/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-01-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11865",
+    "name": "TVR TYPHON",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11865/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-07-01",
+      "toDate": "2005-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4530",
+    "name": "TVR VIXEN",
+    "manufacturerId": "861",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4530/manufacturer-id-861/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-01-01",
+      "toDate": "1971-12-01"
+    },
+    "variants": []
+  }
+]

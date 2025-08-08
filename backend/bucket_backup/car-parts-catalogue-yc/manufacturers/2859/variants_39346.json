@@ -1,0 +1,50 @@
+[
+  {
+    "id": "135154",
+    "type": "200 TSI",
+    "modelId": "39346",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DJNA,DLSA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2019-03-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135901",
+    "type": "280 TSI",
+    "modelId": "39346",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA,DSBA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2019-03-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "148073",
+    "type": "300 TSI",
+    "modelId": "39346",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DSVA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2022-06-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  }
+]

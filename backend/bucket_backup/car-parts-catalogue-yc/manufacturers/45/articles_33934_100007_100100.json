@@ -1,0 +1,54 @@
+[
+  {
+    "id": "472631",
+    "name": "Radiator Hose",
+    "partNo": "05-3768",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "33934",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/472631/model-series-id-8809/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "31",
+      "Inner diameter 2 [mm]": "31",
+      "Hose Length [mm]": "653",
+      "Article ID:": "472631",
+      "Article Number:": "05-3768",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007540974",
+      "OEM Numbers HONDA:": "19502R70A00"
+    }
+  },
+  {
+    "id": "472632",
+    "name": "Radiator Hose",
+    "partNo": "05-3769",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "33934",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/472632/model-series-id-8809/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "30",
+      "Inner diameter 2 [mm]": "30",
+      "Hose Length [mm]": "363",
+      "Article ID:": "472632",
+      "Article Number:": "05-3769",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007540907",
+      "OEM Numbers HONDA:": "19501R70A00"
+    }
+  }
+]

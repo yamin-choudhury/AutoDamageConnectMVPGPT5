@@ -1,0 +1,123 @@
+[
+  {
+    "id": "5367080",
+    "name": "Catalytic Converter",
+    "partNo": "97176",
+    "manufacturer": "AS",
+    "supplierId": "274",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19811",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5367080/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "780",
+      "Weight [kg]": "5,5",
+      "Fuel Type": "Petrol",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Article ID:": "5367080",
+      "Article Number:": "97176",
+      "Manufacturer:": "AS",
+      "EAN Numbers:": "843524775067",
+      "OEM Numbers VOLVO:": "8603597"
+    }
+  },
+  {
+    "id": "2664708",
+    "name": "Catalytic Converter",
+    "partNo": "31343",
+    "manufacturer": "Contra",
+    "supplierId": "2987",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19811",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2664708/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Emission Standard": "Euro 4",
+      "Article ID:": "2664708",
+      "Article Number:": "31343",
+      "Manufacturer:": "Contra",
+      "EAN Numbers:": "0425190671314",
+      "OEM Numbers VOLVO:": "8603597"
+    }
+  },
+  {
+    "id": "8444333",
+    "name": "Catalytic Converter",
+    "partNo": "P9540CAT",
+    "manufacturer": "FENNO",
+    "supplierId": "415",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19811",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8444333/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Length [mm]": "990",
+      "Weight [kg]": "5,5",
+      "Emission Standard": "Euro 4",
+      "Article ID:": "8444333",
+      "Article Number:": "P9540CAT",
+      "Manufacturer:": "FENNO",
+      "EAN Numbers:": "843524775067",
+      "OEM Numbers VOLVO:": "8603597"
+    }
+  },
+  {
+    "id": "4496339",
+    "name": "Catalytic Converter",
+    "partNo": "74.47.33",
+    "manufacturer": "IMASAF",
+    "supplierId": "191",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19811",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4496339/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Length [mm]": "780",
+      "Weight [kg]": "5,50",
+      "Article ID:": "4496339",
+      "Article Number:": "74.47.33",
+      "Manufacturer:": "IMASAF",
+      "OEM Numbers DAF:": "8653535",
+      "OEM Numbers VOLVO:": "8653535"
+    }
+  },
+  {
+    "id": "9635377",
+    "name": "Catalytic Converter",
+    "partNo": "VOK-982",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "19811",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9635377/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "780",
+      "Weight [kg]": "5,5",
+      "Emission Standard": "Euro 4",
+      "Vehicle Equipment": "for vehicles with OBD",
+      "Article ID:": "9635377",
+      "Article Number:": "VOK-982",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550322979",
+      "OEM Numbers VOLVO:": "8603597"
+    }
+  }
+]

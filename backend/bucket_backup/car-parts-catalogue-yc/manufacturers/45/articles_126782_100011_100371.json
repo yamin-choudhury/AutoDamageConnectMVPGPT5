@@ -1,0 +1,55 @@
+[
+  {
+    "id": "3748694",
+    "name": "Suspension Strut Support Mount",
+    "partNo": "53651",
+    "manufacturer": "BIRTH",
+    "supplierId": "208",
+    "productsId": "1180",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "126782",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3748694/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Inner diameter [mm]": "12",
+      "Weight [g]": "1100",
+      "External Thread 2 [mm]": "M 10X1,25",
+      "Article ID:": "3748694",
+      "Article Number:": "53651",
+      "Manufacturer:": "BIRTH",
+      "EAN Numbers:": "100000127183",
+      "OEM Numbers HONDA:": "51670-T3V-A01"
+    }
+  },
+  {
+    "id": "7692410",
+    "name": "Repair Kit, suspension strut support mount",
+    "partNo": "JSL159",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "1632",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "126782",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7692410/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "52728-SM1-A02",
+      "Height [mm]": "22",
+      "Required quantity": "2",
+      "Material": "Steel Elastomer",
+      "Inner diameter [mm]": "14",
+      "Outer diameter [mm]": "43",
+      "Article ID:": "7692410",
+      "Article Number:": "JSL159",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293793493",
+      "OEM Numbers HONDA:": "52728-SM1-A02",
+      "OEM Numbers ACURA:": "51685-SR0-004"
+    }
+  }
+]

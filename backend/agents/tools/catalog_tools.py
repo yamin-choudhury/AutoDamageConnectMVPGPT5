@@ -593,7 +593,7 @@ def deduplicate_parts(parts_list: List[Dict]) -> List[Dict]:
     return deduplicated
 
 @tool
-def search_parts_for_damage(variant_ids_json: str, damaged_components_json: str) -> Dict:
+def search_parts_for_damage(variant_ids_json: str, damaged_components_json: str, manufacturer_id: str = "117") -> Dict:
     """
     Search catalog for parts matching damaged components across multiple variants.
     
@@ -654,7 +654,7 @@ def search_parts_for_damage(variant_ids_json: str, damaged_components_json: str)
                 
                 try:
                     # Load articles for this variant/category combination
-                    articles = bm.get_articles_for_category("104", variant_id, category_id)  # Using manufacturer 104 for now
+                    articles = bm.get_articles_for_category(manufacturer_id, variant_id, category_id)
                     
                     if articles:
                         search_stats["articles_loaded"] += 1

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1590278",
+    "name": "Washer Fluid Tank, window cleaning",
+    "partNo": "173240",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "837",
+    "productGroupId": "100610",
+    "categoryId": "100018",
+    "variantId": "129517",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1590278/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,345",
+      "Colour": "White",
+      "Material": "PP (Polypropylene)",
+      "Article ID:": "1590278",
+      "Article Number:": "173240",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422473240",
+      "OEM Numbers RENAULT:": "28 91 001 79R"
+    }
+  },
+  {
+    "id": "2763126",
+    "name": "Washer Fluid Tank, window cleaning",
+    "partNo": "33 10 1705",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "837",
+    "productGroupId": "100610",
+    "categoryId": "100018",
+    "variantId": "129517",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2763126/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,345",
+      "Colour": "White",
+      "Material": "PP (Polypropylene)",
+      "Article ID:": "2763126",
+      "Article Number:": "33 10 1705",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422873240",
+      "OEM Numbers RENAULT:": "28 91 001 79R"
+    }
+  }
+]

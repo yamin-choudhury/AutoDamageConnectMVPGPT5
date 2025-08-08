@@ -1,0 +1,34 @@
+[
+  {
+    "id": "133804",
+    "type": "1.4 280 TSI",
+    "modelId": "39102",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133808",
+    "type": "2.0 330 TSI All-wheel Drive",
+    "modelId": "39102",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DKVB",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  }
+]

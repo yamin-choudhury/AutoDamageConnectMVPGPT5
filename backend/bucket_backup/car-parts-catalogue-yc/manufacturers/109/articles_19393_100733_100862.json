@@ -1,0 +1,48 @@
+[
+  {
+    "id": "4279072",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "689329",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "19393",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4279072/model-series-id-5489/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "486",
+      "Stroke [mm]": "175",
+      "Eject Force [N]": "135",
+      "Article ID:": "4279072",
+      "Article Number:": "689329",
+      "Manufacturer:": "STABILUS",
+      "OEM Numbers SUZUKI:": "81800-78810"
+    }
+  },
+  {
+    "id": "4287227",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "692197",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "19393",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4287227/model-series-id-5489/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "486",
+      "Stroke [mm]": "175",
+      "Eject Force [N]": "180",
+      "Article ID:": "4287227",
+      "Article Number:": "692197",
+      "Manufacturer:": "STABILUS",
+      "OEM Numbers SUZUKI:": "81800-65830"
+    }
+  }
+]

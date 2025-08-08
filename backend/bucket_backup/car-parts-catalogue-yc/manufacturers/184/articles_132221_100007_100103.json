@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2664323",
+    "name": "Cap, radiator",
+    "partNo": "31336",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "548",
+    "productGroupId": "100103",
+    "categoryId": "100007",
+    "variantId": "132221",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2664323/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "16",
+      "Pressure [bar]": "1,1",
+      "Outer diameter [mm]": "43",
+      "Pressure [psi]": "16",
+      "Article ID:": "2664323",
+      "Article Number:": "31336",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers NISSAN:": "21430D999C",
+      "OEM Numbers HYUNDAI:": "25330C7000",
+      "OEM Numbers KIA:": "25330C7000",
+      "OEM Numbers HYUNDAI (BEIJING):": "253303Z000",
+      "OEM Numbers SUBARU:": "45137AE003",
+      "OEM Numbers ISUZU:": "8943844231",
+      "OEM Numbers MAZDA:": "PE2015205"
+    }
+  }
+]

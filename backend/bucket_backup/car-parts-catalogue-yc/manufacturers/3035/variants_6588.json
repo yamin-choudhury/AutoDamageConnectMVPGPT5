@@ -1,0 +1,66 @@
+[
+  {
+    "id": "9127",
+    "type": "1.4 TSI",
+    "modelId": "6588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-12-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24174",
+    "type": "1.8 Turbo",
+    "modelId": "6588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BPL,CFUA",
+      "cylinder": "4",
+      "capacity": "1,781 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2005-05-01\n                            \n                            2011-12-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24175",
+    "type": "2.0",
+    "modelId": "6588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BJZ",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-11-01\n                            \n                            2008-01-01",
+      "power": "85 KW / 114 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "116868",
+    "type": "2.0",
+    "modelId": "6588",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CGZA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-04-01\n                            \n                            2011-12-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  }
+]

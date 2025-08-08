@@ -1,0 +1,79 @@
+[
+  {
+    "id": "4595947",
+    "name": "Wheel Sensor, tyre-pressure monitoring system",
+    "partNo": "780084",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "2232",
+    "productGroupId": "103479",
+    "categoryId": "103099",
+    "variantId": "130614",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4595947/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "780084",
+      "Article ID:": "4595947",
+      "Article Number:": "780084",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320831164",
+      "OEM Numbers HONDA:": "42753-TL0-G520"
+    }
+  },
+  {
+    "id": "8230517",
+    "name": "Wheel Sensor, tyre-pressure monitoring system",
+    "partNo": "MXSA002",
+    "manufacturer": "MaxSensor",
+    "supplierId": "2773",
+    "productsId": "2232",
+    "productGroupId": "103479",
+    "categoryId": "103099",
+    "variantId": "130614",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8230517/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "CE, FCC",
+      "Weight [kg]": "0,41",
+      "Tightening Torque [Nm]": "4",
+      "Vehicle Equipment": "for vehicles with tyre-pressure monitoring system",
+      "Supplementary Article/Info 2": "with valves",
+      "Housing Colour": "Purple",
+      "Frequency Range [MHz]": "433",
+      "Valve stem material": "Aluminium",
+      "manufacturer": "MaxSensor",
+      "manufacturerArticleId": "MXSA002",
+      "Additional info": "VMax.: über 300 Km/h",
+      "Information": "Winkel: 0-40 Grad",
+      "Article ID:": "8230517",
+      "Article Number:": "MXSA002",
+      "Manufacturer:": "MaxSensor",
+      "EAN Numbers:": "0471296046737",
+      "OEM Numbers MERCEDES-BENZ:": "A4479050500"
+    }
+  },
+  {
+    "id": "4595945",
+    "name": "Wheel Sensor, tyre-pressure monitoring system",
+    "partNo": "780084",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "2232",
+    "productGroupId": "103479",
+    "categoryId": "103099",
+    "variantId": "130614",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4595945/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "780084",
+      "Article ID:": "4595945",
+      "Article Number:": "780084",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320831164",
+      "OEM Numbers HONDA:": "42753-TL0-G520"
+    }
+  }
+]

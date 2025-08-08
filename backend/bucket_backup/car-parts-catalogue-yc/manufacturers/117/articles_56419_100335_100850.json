@@ -1,0 +1,79 @@
+[
+  {
+    "id": "4309442",
+    "name": "Rain Sensor",
+    "partNo": "6PW 011 014-811",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "2275",
+    "productGroupId": "100850",
+    "categoryId": "100335",
+    "variantId": "56419",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4309442/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Mounting Type": "Clipped",
+      "Number of pins": "3",
+      "Article ID:": "4309442",
+      "Article Number:": "6PW 011 014-811",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230068666",
+      "OEM Numbers OPEL:": "84026376",
+      "OEM Numbers VAUXHALL:": "84 026 376",
+      "OEM Numbers GENERAL MOTORS:": "84026376"
+    }
+  },
+  {
+    "id": "9548887",
+    "name": "Rain Sensor",
+    "partNo": "V40-72-0692",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "2275",
+    "productGroupId": "100850",
+    "categoryId": "100335",
+    "variantId": "56419",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9548887/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Mounting Type": "Clipped",
+      "Supplementary Article/Supplementary Info": "with holder",
+      "Number of pins": "3",
+      "Glass": "with light sensor",
+      "Article ID:": "9548887",
+      "Article Number:": "V40-72-0692",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "406237515660",
+      "OEM Numbers OPEL:": "84026376",
+      "OEM Numbers GENERAL MOTORS:": "84 026  376"
+    }
+  },
+  {
+    "id": "9548887",
+    "name": "Rain Sensor",
+    "partNo": "V40-72-0692",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "2275",
+    "productGroupId": "100850",
+    "categoryId": "100335",
+    "variantId": "56419",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9548887/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Mounting Type": "Clipped",
+      "Supplementary Article/Supplementary Info": "with holder",
+      "Number of pins": "3",
+      "Glass": "with light sensor",
+      "Article ID:": "9548887",
+      "Article Number:": "V40-72-0692",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "406237515660",
+      "OEM Numbers OPEL:": "84026376",
+      "OEM Numbers GENERAL MOTORS:": "84 026  376"
+    }
+  }
+]

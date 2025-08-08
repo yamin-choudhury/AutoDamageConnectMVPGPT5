@@ -1,0 +1,119 @@
+[
+  {
+    "id": "6689484",
+    "name": "Central Slave Cylinder, clutch",
+    "partNo": "E 68 005",
+    "manufacturer": "BREMBO",
+    "supplierId": "65",
+    "productsId": "47",
+    "productGroupId": "100237",
+    "categoryId": "100050",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6689484/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Bore Ø [mm]": "30",
+      "Thread Size": "plug-in connect.sys.",
+      "Material": "Aluminium",
+      "Article ID:": "6689484",
+      "Article Number:": "E 68 005",
+      "Manufacturer:": "BREMBO",
+      "EAN Numbers:": "843250966137",
+      "OEM Numbers RENAULT:": "8200764612"
+    }
+  },
+  {
+    "id": "6416146",
+    "name": "Central Slave Cylinder, clutch",
+    "partNo": "CSC272",
+    "manufacturer": "Caliper EPB+ NAIBA",
+    "supplierId": "5418",
+    "productsId": "47",
+    "productGroupId": "100237",
+    "categoryId": "100050",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6416146/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "40,2",
+      "Thread Size": "φ8,5",
+      "Article ID:": "6416146",
+      "Article Number:": "CSC272",
+      "Manufacturer:": "Caliper EPB+ NAIBA",
+      "OEM Numbers DACIA:": "82 00 102 464"
+    }
+  },
+  {
+    "id": "9286486",
+    "name": "Central Slave Cylinder, clutch",
+    "partNo": "T1072",
+    "manufacturer": "DIAMAX",
+    "supplierId": "4396",
+    "productsId": "47",
+    "productGroupId": "100237",
+    "categoryId": "100050",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9286486/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Aluminium",
+      "Mounting Type": "Plug-in connection",
+      "Piston Diameter [mm]": "30",
+      "Article ID:": "9286486",
+      "Article Number:": "T1072",
+      "Manufacturer:": "DIAMAX",
+      "OEM Numbers RENAULT:": "8200764612"
+    }
+  },
+  {
+    "id": "2876796",
+    "name": "Central Slave Cylinder, clutch",
+    "partNo": "3489",
+    "manufacturer": "LPR",
+    "supplierId": "197",
+    "productsId": "47",
+    "productGroupId": "100237",
+    "categoryId": "100050",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2876796/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Aluminium",
+      "Mounting Type": "Plug-in connection",
+      "Piston Diameter [mm]": "30",
+      "Article ID:": "2876796",
+      "Article Number:": "3489",
+      "Manufacturer:": "LPR",
+      "EAN Numbers:": "803292808867",
+      "OEM Numbers RENAULT:": "8200764612"
+    }
+  },
+  {
+    "id": "7997905",
+    "name": "Central Slave Cylinder, clutch",
+    "partNo": "M30459",
+    "manufacturer": "SAMKO",
+    "supplierId": "343",
+    "productsId": "47",
+    "productGroupId": "100237",
+    "categoryId": "100050",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7997905/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Aluminium",
+      "Mounting Type": "Plug-in connection",
+      "Piston Diameter [mm]": "30",
+      "Article ID:": "7997905",
+      "Article Number:": "M30459",
+      "Manufacturer:": "SAMKO",
+      "EAN Numbers:": "803292808867",
+      "OEM Numbers RENAULT:": "8200764612"
+    }
+  }
+]

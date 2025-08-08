@@ -1,0 +1,71 @@
+[
+  {
+    "id": "3709687",
+    "name": "Locking Knob",
+    "partNo": "52793",
+    "manufacturer": "AIC",
+    "supplierId": "1368",
+    "productsId": "1646",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "13362",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3709687/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front and Rear",
+      "Article ID:": "3709687",
+      "Article Number:": "52793",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "0404628352793",
+      "OEM Numbers AUDI:": "8D0 837 187",
+      "OEM Numbers VAG:": "8D0 837 187"
+    }
+  },
+  {
+    "id": "3709692",
+    "name": "Locking Knob",
+    "partNo": "52793",
+    "manufacturer": "AIC",
+    "supplierId": "6558",
+    "productsId": "1646",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "13362",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3709692/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front and Rear",
+      "Article ID:": "3709692",
+      "Article Number:": "52793",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "404628352793",
+      "OEM Numbers AUDI:": "8D0 837 187",
+      "OEM Numbers VAG:": "8D0 837 187"
+    }
+  },
+  {
+    "id": "5040052",
+    "name": "Interior Mirror",
+    "partNo": "88570079502",
+    "manufacturer": "DPA",
+    "supplierId": "4353",
+    "productsId": "849",
+    "productGroupId": "100730",
+    "categoryId": "100341",
+    "variantId": "13362",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5040052/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Article ID:": "5040052",
+      "Article Number:": "88570079502",
+      "Manufacturer:": "DPA",
+      "OEM Numbers SEAT:": "3B0857511A",
+      "OEM Numbers SKODA:": "3B0857511A",
+      "OEM Numbers VW:": "3B0857511A"
+    }
+  }
+]

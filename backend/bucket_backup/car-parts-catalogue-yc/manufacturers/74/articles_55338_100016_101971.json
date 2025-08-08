@@ -1,0 +1,53 @@
+[
+  {
+    "id": "3711698",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "529 0319 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "542",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "55338",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3711698/model-series-id-10342/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "5",
+      "Length 1 [mm]": "1745",
+      "Supplementary Article/Info 2": "Check alternator freewheel clutch & replace if necessary",
+      "Article ID:": "3711698",
+      "Article Number:": "529 0319 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487050915",
+      "OEM Numbers MERCEDES-BENZ:": "A6512002400",
+      "OEM Numbers INFINITI:": "117205DB0B"
+    }
+  },
+  {
+    "id": "9617220",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "VKMA 38094",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "542",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "55338",
+    "manufacturerId": "74",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9617220/model-series-id-10342/manufacturer-id-74/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1745",
+      "Width [mm]": "17,80",
+      "Number of ribs": "5",
+      "Belt Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "9617220",
+      "Article Number:": "VKMA 38094",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657988090",
+      "OEM Numbers MERCEDES-BENZ:": "A 651 200 24 00",
+      "OEM Numbers LAND ROVER:": "LR028879"
+    }
+  }
+]

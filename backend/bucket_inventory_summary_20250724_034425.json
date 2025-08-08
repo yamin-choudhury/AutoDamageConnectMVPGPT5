@@ -1,0 +1,302 @@
+{
+  "generated_at": "2025-07-24T03:43:24.286948",
+  "bucket_name": "car-parts-catalogue-yc",
+  "project_id": "rising-theater-466617-n8",
+  "summary": {
+    "total_manufacturers": 36,
+    "total_models": 5171,
+    "total_variants": 0,
+    "manufacturers_with_models": 35,
+    "models_with_variants": 0
+  },
+  "manufacturer_list": [
+    {
+      "id": ".DS_Store",
+      "name": "Unknown_.DS_Store",
+      "model_count": 0,
+      "variant_count": 0,
+      "has_models_file": false,
+      "article_files_count": 0
+    },
+    {
+      "id": "104",
+      "name": "Unknown_104",
+      "model_count": 57,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 343
+    },
+    {
+      "id": "106",
+      "name": "Unknown_106",
+      "model_count": 59,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 722
+    },
+    {
+      "id": "107",
+      "name": "Unknown_107",
+      "model_count": 107,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 842
+    },
+    {
+      "id": "109",
+      "name": "Unknown_109",
+      "model_count": 231,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1057
+    },
+    {
+      "id": "111",
+      "name": "Unknown_111",
+      "model_count": 594,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1495
+    },
+    {
+      "id": "1138",
+      "name": "Unknown_1138",
+      "model_count": 14,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 648
+    },
+    {
+      "id": "117",
+      "name": "VAUXHALL",
+      "model_count": 162,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 988
+    },
+    {
+      "id": "120",
+      "name": "Unknown_120",
+      "model_count": 84,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 234
+    },
+    {
+      "id": "121",
+      "name": "Unknown_121",
+      "model_count": 281,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 742
+    },
+    {
+      "id": "1523",
+      "name": "Unknown_1523",
+      "model_count": 15,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 769
+    },
+    {
+      "id": "16",
+      "name": "Unknown_16",
+      "model_count": 161,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 563
+    },
+    {
+      "id": "1820",
+      "name": "Unknown_1820",
+      "model_count": 48,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1131
+    },
+    {
+      "id": "183",
+      "name": "Unknown_183",
+      "model_count": 167,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1311
+    },
+    {
+      "id": "184",
+      "name": "Unknown_184",
+      "model_count": 148,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1538
+    },
+    {
+      "id": "21",
+      "name": "Unknown_21",
+      "model_count": 145,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 325
+    },
+    {
+      "id": "26",
+      "name": "Unknown_26",
+      "model_count": 10,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 0
+    },
+    {
+      "id": "2859",
+      "name": "Unknown_2859",
+      "model_count": 32,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1855
+    },
+    {
+      "id": "3035",
+      "name": "Unknown_3035",
+      "model_count": 46,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 2404
+    },
+    {
+      "id": "35",
+      "name": "Unknown_35",
+      "model_count": 206,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 531
+    },
+    {
+      "id": "36",
+      "name": "Unknown_36",
+      "model_count": 300,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 644
+    },
+    {
+      "id": "45",
+      "name": "Unknown_45",
+      "model_count": 349,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 2603
+    },
+    {
+      "id": "5",
+      "name": "Unknown_5",
+      "model_count": 120,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 319
+    },
+    {
+      "id": "56",
+      "name": "Unknown_56",
+      "model_count": 46,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1061
+    },
+    {
+      "id": "72",
+      "name": "Unknown_72",
+      "model_count": 206,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 627
+    },
+    {
+      "id": "74",
+      "name": "Unknown_74",
+      "model_count": 247,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 492
+    },
+    {
+      "id": "77",
+      "name": "Unknown_77",
+      "model_count": 239,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 474
+    },
+    {
+      "id": "771",
+      "name": "Unknown_771",
+      "model_count": 42,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 357
+    },
+    {
+      "id": "80",
+      "name": "Unknown_80",
+      "model_count": 505,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1574
+    },
+    {
+      "id": "802",
+      "name": "Unknown_802",
+      "model_count": 26,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 542
+    },
+    {
+      "id": "803",
+      "name": "Unknown_803",
+      "model_count": 13,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 224
+    },
+    {
+      "id": "815",
+      "name": "Unknown_815",
+      "model_count": 26,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1033
+    },
+    {
+      "id": "842",
+      "name": "Unknown_842",
+      "model_count": 42,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 741
+    },
+    {
+      "id": "861",
+      "name": "Unknown_861",
+      "model_count": 30,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 18
+    },
+    {
+      "id": "88",
+      "name": "Unknown_88",
+      "model_count": 213,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 512
+    },
+    {
+      "id": "93",
+      "name": "Unknown_93",
+      "model_count": 200,
+      "variant_count": 0,
+      "has_models_file": true,
+      "article_files_count": 1080
+    }
+  ]
+}

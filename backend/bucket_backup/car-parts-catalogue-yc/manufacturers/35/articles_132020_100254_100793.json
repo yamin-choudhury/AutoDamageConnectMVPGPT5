@@ -1,0 +1,59 @@
+[
+  {
+    "id": "3459100",
+    "name": "Lambda Sensor",
+    "partNo": "47722",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "132020",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3459100/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "55214621",
+      "Weight [kg]": "0,1",
+      "Spanner Size": "22",
+      "Cable Length [mm]": "600",
+      "Number of connectors": "4",
+      "Lambda Sensor": "Heated",
+      "Number of circuits": "4",
+      "External Thread Size": "M18 x 1,5",
+      "Article ID:": "3459100",
+      "Article Number:": "47722",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "OEM Numbers FIAT:": "55214621",
+      "OEM Numbers ABARTH:": "55214621"
+    }
+  },
+  {
+    "id": "4334346",
+    "name": "Lambda Sensor",
+    "partNo": "70 94 7722",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "3922",
+    "productGroupId": "100793",
+    "categoryId": "100254",
+    "variantId": "132020",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4334346/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Spanner Size": "22",
+      "Cable Length [mm]": "600",
+      "Number of connectors": "4",
+      "Lambda Sensor": "Heated",
+      "Number of circuits": "4",
+      "External Thread Size": "M18 x 1,5",
+      "Article ID:": "4334346",
+      "Article Number:": "70 94 7722",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468859152",
+      "OEM Numbers FIAT:": "55214621",
+      "OEM Numbers ABARTH:": "55214621"
+    }
+  }
+]

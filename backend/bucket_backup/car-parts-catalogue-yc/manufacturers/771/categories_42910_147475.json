@@ -1,0 +1,209 @@
+[
+  {
+    "id": "100013",
+    "name": "Axle Mounting/ Steering/ Wheels",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100834",
+        "name": "Tyre-Pressure Monitoring System",
+        "categoryId": "100013",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/100834/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100007",
+    "name": "Cooling System",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102205",
+        "name": "Antifreeze",
+        "categoryId": "100007",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/102205/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100010",
+    "name": "Electrics",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "102747",
+        "name": "Sensors",
+        "categoryId": "100010",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/102747/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100004",
+    "name": "Exhaust System",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100046",
+        "name": "Exhaust System Complete",
+        "categoryId": "100004",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/100046/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100005",
+    "name": "Filters",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100263",
+        "name": "Cabin Air Filter",
+        "categoryId": "100005",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/100263/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100241",
+    "name": "Heating/Ventilation",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100346",
+        "name": "Cabin Air Filter",
+        "categoryId": "100241",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/100346/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100019",
+    "name": "Maintenance Service Parts",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100597",
+        "name": "Service Intervals",
+        "categoryId": "100019",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/100597/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103671",
+    "name": "Motorcycle",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "104080",
+        "name": "Cooling System",
+        "categoryId": "103671",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/104080/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "104264",
+        "name": "Electrics",
+        "categoryId": "103671",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/104264/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103984",
+        "name": "Exhaust System",
+        "categoryId": "103671",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/103984/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      },
+      {
+        "id": "103973",
+        "name": "Wheels/Tyres",
+        "categoryId": "103671",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/103973/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "100015",
+    "name": "Towbar/Attachment Parts",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "100608",
+        "name": "Electric Parts",
+        "categoryId": "100015",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/100608/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  },
+  {
+    "id": "103099",
+    "name": "Wheels/Tyres",
+    "variantId": "147475",
+    "manufacturerId": "771",
+    "url": "",
+    "productGroups": [
+      {
+        "id": "103479",
+        "name": "Tyre-Pressure Monitoring System",
+        "categoryId": "103099",
+        "variantId": "147475",
+        "manufacturerId": "771",
+        "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/147475/103479/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+        "oemArticles": []
+      }
+    ]
+  }
+]

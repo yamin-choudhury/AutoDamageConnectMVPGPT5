@@ -1,0 +1,90 @@
+[
+  {
+    "id": "6739643",
+    "name": "Catalytic Converter",
+    "partNo": "ECDN1031TA",
+    "manufacturer": "EuroFlo",
+    "supplierId": "4941",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6739643/model-series-id-5018/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "6739643",
+      "Article Number:": "ECDN1031TA",
+      "Manufacturer:": "EuroFlo",
+      "OEM Numbers NISSAN:": "208B2CD725"
+    }
+  },
+  {
+    "id": "6739644",
+    "name": "Catalytic Converter",
+    "partNo": "ECDN1032TA",
+    "manufacturer": "EuroFlo",
+    "supplierId": "4941",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6739644/model-series-id-5018/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Article ID:": "6739644",
+      "Article Number:": "ECDN1032TA",
+      "Manufacturer:": "EuroFlo",
+      "OEM Numbers NISSAN:": "208B3CD725"
+    }
+  },
+  {
+    "id": "2735771",
+    "name": "Catalytic Converter",
+    "partNo": "322824",
+    "manufacturer": "KLARIUS",
+    "supplierId": "445",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2735771/model-series-id-5018/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Catalytic Converter Type": "for vehicles with catalytic converter",
+      "Emission Standard": "Up to Euro 3",
+      "Article ID:": "2735771",
+      "Article Number:": "322824",
+      "Manufacturer:": "KLARIUS",
+      "EAN Numbers:": "328539322824",
+      "OEM Numbers NISSAN:": "208B2CD725"
+    }
+  },
+  {
+    "id": "2735772",
+    "name": "Catalytic Converter",
+    "partNo": "322825",
+    "manufacturer": "KLARIUS",
+    "supplierId": "445",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "17435",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2735772/model-series-id-5018/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Catalytic Converter Type": "for vehicles with catalytic converter",
+      "Emission Standard": "Up to Euro 3",
+      "Article ID:": "2735772",
+      "Article Number:": "322825",
+      "Manufacturer:": "KLARIUS",
+      "EAN Numbers:": "328539322825",
+      "OEM Numbers NISSAN:": "208B3CD725"
+    }
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "9304",
+    "type": "1.4 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CAVG,CTHG",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2011-01-01\n                            \n                            2015-04-01",
+      "power": "136 KW / 185 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "9305",
+    "type": "1.6 TDI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CAYB",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2011-03-01\n                            \n                            2015-04-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "9306",
+    "type": "2.0 TDI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CFHD",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2011-09-01\n                            \n                            2015-04-01",
+      "power": "105 KW / 143 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11754",
+    "type": "1.4 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CPTA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2012-04-01\n                            \n                            2015-04-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "11755",
+    "type": "2.0 TDI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CFHB",
+      "cylinder": "4",
+      "capacity": "1,968 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2012-05-01\n                            \n                            2015-04-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33303",
+    "type": "1.2 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CBZA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2010-05-01\n                            \n                            2015-04-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33304",
+    "type": "1.6 TDI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CAYC",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-05-01\n                            \n                            2015-04-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33305",
+    "type": "1.4 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CAXA,CNVA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2010-05-01\n                            \n                            2015-04-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55104",
+    "type": "2.0 TFSI quattro",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CDLH",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01\n                            \n                            2012-11-01",
+      "power": "188 KW / 256 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100771",
+    "type": "S1 quattro",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CWZA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2014-03-01\n                            \n                            2018-10-01",
+      "power": "170 KW / 231 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108155",
+    "type": "1.4 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CZCA,CZDD",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01\n                            \n                            2018-10-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108160",
+    "type": "1.4 TSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CZEA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2014-11-01\n                            \n                            2018-10-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108162",
+    "type": "1.6 TDI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CXMA",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2014-11-01\n                            \n                            2018-10-01",
+      "power": "85 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108165",
+    "type": "1.4 TDI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CUSB",
+      "cylinder": "3",
+      "capacity": "1,422 CCM / 1.4 L",
+      "fuelType": "Diesel",
+      "year": "2014-11-01\n                            \n                            2018-10-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "109412",
+    "type": "1.8 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "DAJB",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01\n                            \n                            2018-10-01",
+      "power": "141 KW / 192 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112018",
+    "type": "1.0 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CHZB,DKLD",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-03-01\n                            \n                            2018-10-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118024",
+    "type": "1.0 TFSI",
+    "modelId": "8604",
+    "manufacturerId": "5",
+    "url": "",
+    "specs": {
+      "engineCode": "CHZE",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2016-01-01\n                            \n                            2018-10-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  }
+]

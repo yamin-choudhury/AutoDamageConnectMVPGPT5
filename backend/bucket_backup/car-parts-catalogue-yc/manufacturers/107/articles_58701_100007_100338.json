@@ -1,0 +1,73 @@
+[
+  {
+    "id": "9242964",
+    "name": "Fan, radiator",
+    "partNo": "SU7515",
+    "manufacturer": "AVA QUALITY COOLING",
+    "supplierId": "247",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "58701",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9242964/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "9242964",
+      "Article Number:": "SU7515",
+      "Manufacturer:": "AVA QUALITY COOLING",
+      "EAN Numbers:": "404538517799",
+      "OEM Numbers SUBARU:": "73310SG000"
+    }
+  },
+  {
+    "id": "2832384",
+    "name": "Fan, radiator",
+    "partNo": "33V68015",
+    "manufacturer": "EACLIMA",
+    "supplierId": "4725",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "58701",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2832384/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Diameter [mm]": "340",
+      "Material": "Plastic",
+      "Heating/Cooling": "Single Fan",
+      "Version": "Sin regulador",
+      "Article ID:": "2832384",
+      "Article Number:": "33V68015",
+      "Manufacturer:": "EACLIMA",
+      "OEM Numbers SUBARU:": "73310SG000",
+      "OEM Numbers VOLVO:": "73310SG000"
+    }
+  },
+  {
+    "id": "9242965",
+    "name": "Fan, radiator",
+    "partNo": "SU7515",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "58701",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9242965/model-series-id-11171/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Diameter 1 [mm]": "340",
+      "Material": "Plastic",
+      "Heating/Cooling": "Single Fan",
+      "Article ID:": "9242965",
+      "Article Number:": "SU7515",
+      "Manufacturer:": "PRASCO",
+      "OEM Numbers SUBARU:": "73310SG000"
+    }
+  }
+]

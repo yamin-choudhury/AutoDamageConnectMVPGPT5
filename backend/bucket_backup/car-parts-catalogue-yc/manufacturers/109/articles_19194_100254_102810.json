@@ -1,0 +1,27 @@
+[
+  {
+    "id": "9013364",
+    "name": "Control Unit, engine management",
+    "partNo": "SE-5006",
+    "manufacturer": "ZEKKERT",
+    "supplierId": "4894",
+    "productsId": "3956",
+    "productGroupId": "102810",
+    "categoryId": "100254",
+    "variantId": "19194",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9013364/model-series-id-5489/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,03",
+      "Sensor Type": "Hall Sensor",
+      "Number of pins": "3",
+      "Article ID:": "9013364",
+      "Article Number:": "SE-5006",
+      "Manufacturer:": "ZEKKERT",
+      "EAN Numbers:": "425187823063",
+      "OEM Numbers SUZUKI:": "3322063J00000",
+      "OEM Numbers MITSUBISHI:": "J5T32171"
+    }
+  }
+]

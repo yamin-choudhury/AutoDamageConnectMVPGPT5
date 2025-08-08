@@ -1,0 +1,77 @@
+[
+  {
+    "id": "3308975",
+    "name": "Suspension Strut Support Mount",
+    "partNo": "43273 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "1180",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "142716",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3308975/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "LR024477",
+      "Fitting Position": "Front Axle Right",
+      "Article ID:": "3308975",
+      "Article Number:": "43273 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743753726",
+      "OEM Numbers LAND ROVER:": "LR024477"
+    }
+  },
+  {
+    "id": "4964094",
+    "name": "Suspension Strut Support Mount",
+    "partNo": "865400",
+    "manufacturer": "SIDEM",
+    "supplierId": "135",
+    "productsId": "1180",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "142716",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4964094/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Height [mm]": "48,5",
+      "Inner diameter [mm]": "12,2",
+      "Outer diameter [mm]": "68",
+      "Article ID:": "4964094",
+      "Article Number:": "865400",
+      "Manufacturer:": "SIDEM",
+      "EAN Numbers:": "541397826314",
+      "OEM Numbers JAGUAR:": "LR0 24477",
+      "OEM Numbers LAND ROVER:": "LR0 24477"
+    }
+  },
+  {
+    "id": "3225135",
+    "name": "Suspension Strut Support Mount",
+    "partNo": "413229",
+    "manufacturer": "SPIDAN CHASSIS PARTS",
+    "supplierId": "6363",
+    "productsId": "1180",
+    "productGroupId": "100371",
+    "categoryId": "100011",
+    "variantId": "142716",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3225135/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Height [mm]": "48,5",
+      "Inner diameter [mm]": "12,2",
+      "Outer diameter [mm]": "68",
+      "Article ID:": "3225135",
+      "Article Number:": "413229",
+      "Manufacturer:": "SPIDAN CHASSIS PARTS",
+      "EAN Numbers:": "541397888255",
+      "OEM Numbers JAGUAR:": "LR0 24477",
+      "OEM Numbers LAND ROVER:": "LR0 24477"
+    }
+  }
+]

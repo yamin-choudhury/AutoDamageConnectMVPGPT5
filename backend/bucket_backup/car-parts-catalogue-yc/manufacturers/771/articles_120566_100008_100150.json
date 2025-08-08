@@ -1,0 +1,132 @@
+[
+  {
+    "id": "7862296",
+    "name": "Ignition Coil",
+    "partNo": "L530576",
+    "manufacturer": "AUTOTEAM",
+    "supplierId": "4464",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "120566",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7862296/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7862296",
+      "Article Number:": "L530576",
+      "Manufacturer:": "AUTOTEAM",
+      "OEM Numbers FERRARI:": "288233",
+      "OEM Numbers MASERATI:": "288233"
+    }
+  },
+  {
+    "id": "4886926",
+    "name": "Ignition Coil",
+    "partNo": "85.30576",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "120566",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4886926/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4886926",
+      "Article Number:": "85.30576",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320827235",
+      "OEM Numbers FERRARI:": "288233",
+      "OEM Numbers MASERATI:": "288233"
+    }
+  },
+  {
+    "id": "4649129",
+    "name": "Ignition Coil",
+    "partNo": "8010810",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "120566",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4649129/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "4",
+      "Article ID:": "4649129",
+      "Article Number:": "8010810",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers FERRARI:": "288233",
+      "OEM Numbers MASERATI:": "288233"
+    }
+  },
+  {
+    "id": "947935",
+    "name": "Ignition Coil",
+    "partNo": "10810",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "120566",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/947935/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "4",
+      "Article ID:": "947935",
+      "Article Number:": "10810",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers FERRARI:": "288233",
+      "OEM Numbers MASERATI:": "288233"
+    }
+  },
+  {
+    "id": "4886925",
+    "name": "Ignition Coil",
+    "partNo": "85.30576",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "120566",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4886925/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4886925",
+      "Article Number:": "85.30576",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320827235",
+      "OEM Numbers FERRARI:": "288233",
+      "OEM Numbers MASERATI:": "288233"
+    }
+  },
+  {
+    "id": "10020211",
+    "name": "Ignition Coil",
+    "partNo": "WG1822641",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "120566",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10020211/model-series-id-36390/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of connectors": "4",
+      "Article ID:": "10020211",
+      "Article Number:": "WG1822641",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers MASERATI:": "288233"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "55504",
+    "name": "Alternator",
+    "partNo": "0 986 034 150",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "32697",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/55504/model-series-id-8482/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Alternator Charge Current [A]": "90",
+      "Length [mm]": "180",
+      "Fastening Type": "Single pivoted lever",
+      "Belt Pulley Ø [mm]": "70",
+      "Clamp": "B+(M8),D+(M5)",
+      "Pulleys": "with belt pulley",
+      "Rotation Direction": "Clockwise rotation",
+      "Alternator type": "excl. vacuum pump",
+      "Number of grooves": "1",
+      "Distance from pulley to alternator [mm]": "110",
+      "Recommended additional repairs": "V-Belt/V-Ribbed Belt",
+      "Article ID:": "55504",
+      "Article Number:": "0 986 034 150",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "316514103889\n 316514166152",
+      "OEM Numbers VW:": "073 903 023 A",
+      "OEM Numbers SEAT:": "026 903 015 B",
+      "OEM Numbers AUDI:": "035 903 023 B"
+    }
+  }
+]

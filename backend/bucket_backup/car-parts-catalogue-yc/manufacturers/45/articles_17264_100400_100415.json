@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1720690",
+    "name": "Shaft Seal, differential",
+    "partNo": "19035233B",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "17264",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1720690/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Drive Axle",
+      "Height 1 [mm]": "8",
+      "Height 2 [mm]": "11,5",
+      "Material": "ACM (Polyacrylate)",
+      "Swirl Type": "Right-hand Twist",
+      "Outer diameter 1 [mm]": "58",
+      "Article ID:": "1720690",
+      "Article Number:": "19035233B",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896036791",
+      "OEM Numbers HONDA:": "91206PHR003",
+      "OEM Numbers ACURA:": "91206PHR003"
+    }
+  },
+  {
+    "id": "1720709",
+    "name": "Shaft Seal, differential",
+    "partNo": "19035259B",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "17264",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1720709/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height 1 [mm]": "9",
+      "Height 2 [mm]": "10,8",
+      "Material": "ACM (Polyacrylate)",
+      "Outer diameter 1 [mm]": "55,5",
+      "Inner diameter 1 [mm]": "40",
+      "Article ID:": "1720709",
+      "Article Number:": "19035259B",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896037010",
+      "OEM Numbers HONDA:": "91260SDBA01"
+    }
+  },
+  {
+    "id": "8635787",
+    "name": "Mounting, differential",
+    "partNo": "PSE3713",
+    "manufacturer": "PATRON",
+    "supplierId": "4558",
+    "productsId": "4831",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "17264",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8635787/model-series-id-4985/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8635787",
+      "Article Number:": "PSE3713",
+      "Manufacturer:": "PATRON",
+      "EAN Numbers:": "481425515633",
+      "OEM Numbers HONDA:": "50721SH9901"
+    }
+  }
+]

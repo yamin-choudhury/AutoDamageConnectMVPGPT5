@@ -1,0 +1,82 @@
+[
+  {
+    "id": "8681",
+    "type": "1.4 TSI",
+    "modelId": "8704",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CFBA",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2011-11-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "9133",
+    "type": "300 TSI 4motion",
+    "modelId": "8704",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CEAA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33642",
+    "type": "300 TSI",
+    "modelId": "8704",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CEAA",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33643",
+    "type": "330 TSI 4motion",
+    "modelId": "8704",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CGMA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-03-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123570",
+    "type": "280 TSI",
+    "modelId": "8704",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-09-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

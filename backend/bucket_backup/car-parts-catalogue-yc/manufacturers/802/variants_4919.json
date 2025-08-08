@@ -1,0 +1,114 @@
+[
+  {
+    "id": "11127",
+    "type": "1.8 GT3",
+    "modelId": "4919",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-08-01\n                            \n                            2012-06-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19378",
+    "type": "1.8 16V",
+    "modelId": "4919",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-04-01\n                            \n                            2012-06-01",
+      "power": "163 KW / 222 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19759",
+    "type": "1.8 265 E",
+    "modelId": "4919",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-08-01\n                            \n                            2012-06-01",
+      "power": "197 KW / 268 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "20856",
+    "type": "1.8 Cup 240",
+    "modelId": "4919",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-04-01\n                            \n                            2012-06-01",
+      "power": "181 KW / 246 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34815",
+    "type": "1.8 Cup 260",
+    "modelId": "4919",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-04-01\n                            \n                            2012-06-01",
+      "power": "191 KW / 260 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "51210",
+    "type": "1.8",
+    "modelId": "4919",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,795 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2007-09-01\n                            \n                            2010-12-01",
+      "power": "179 KW / 243 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100897",
+    "type": "1.8 S",
+    "modelId": "4919",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2011-04-01",
+      "power": "179 KW / 243 PS"
+    },
+    "categories": []
+  }
+]

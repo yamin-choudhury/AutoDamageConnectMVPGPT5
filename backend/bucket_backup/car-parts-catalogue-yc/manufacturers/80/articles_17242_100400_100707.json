@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1811586",
+    "name": "Joint, propshaft",
+    "partNo": "20-36002-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "1427",
+    "productGroupId": "100707",
+    "categoryId": "100400",
+    "variantId": "17242",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1811586/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "1811586",
+      "Article Number:": "20-36002-SX",
+      "Manufacturer:": "STELLOX",
+      "OEM Numbers NISSAN:": "48810BN008",
+      "OEM Numbers HONDA:": "A6384604011",
+      "OEM Numbers MITSUBISHI:": "MB347285"
+    }
+  },
+  {
+    "id": "6265530",
+    "name": "Joint, propshaft",
+    "partNo": "CC 901",
+    "manufacturer": "TRIALLI",
+    "supplierId": "4772",
+    "productsId": "1427",
+    "productGroupId": "100707",
+    "categoryId": "100400",
+    "variantId": "17242",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6265530/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "15",
+      "Height [mm]": "40",
+      "Weight [kg]": "0,08",
+      "Joint Type": "Universal Joint",
+      "Article ID:": "6265530",
+      "Article Number:": "CC 901",
+      "Manufacturer:": "TRIALLI",
+      "EAN Numbers:": "468029503577",
+      "OEM Numbers CHRYSLER:": "05057 616AC",
+      "OEM Numbers VOLVO:": "8650236",
+      "OEM Numbers BMW:": "32311150489",
+      "OEM Numbers OPEL:": "4803419",
+      "OEM Numbers NISSAN:": "48810-BN008",
+      "OEM Numbers FORD:": "8L8Z-3B676-E",
+      "OEM Numbers MERCEDES-BENZ:": "A6384603611",
+      "OEM Numbers FIAT:": "K04649123AF",
+      "OEM Numbers MITSUBISHI:": "MB347285"
+    }
+  }
+]

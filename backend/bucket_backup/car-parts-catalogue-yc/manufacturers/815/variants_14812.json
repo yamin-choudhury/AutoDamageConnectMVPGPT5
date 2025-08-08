@@ -1,0 +1,98 @@
+[
+  {
+    "id": "117494",
+    "type": "6.0",
+    "modelId": "14812",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DDBB",
+      "cylinder": "12",
+      "capacity": "5,952 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-10-01",
+      "power": "447 KW / 608 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124751",
+    "type": "4.0 D",
+    "modelId": "14812",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CZAC",
+      "cylinder": "8",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Diesel",
+      "year": "2017-01-01",
+      "power": "320 KW / 435 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129855",
+    "type": "4.0",
+    "modelId": "14812",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DCUA",
+      "cylinder": "8",
+      "capacity": "3,996 CCM / 4.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-01-01",
+      "power": "404 KW / 550 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134071",
+    "type": "4.0 TDI",
+    "modelId": "14812",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "CZAA",
+      "cylinder": "8",
+      "capacity": "3,956 CCM / 4.0 L",
+      "fuelType": "Diesel",
+      "year": "2016-11-01",
+      "power": "310 KW / 421 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "136146",
+    "type": "6.0",
+    "modelId": "14812",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DDBD",
+      "cylinder": "12",
+      "capacity": "5,950 CCM / 6.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-03-01",
+      "power": "467 KW / 635 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137036",
+    "type": "3.0 Hybrid",
+    "modelId": "14812",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "DCBE",
+      "cylinder": "6",
+      "capacity": "2,995 CCM / 3.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2019-01-01",
+      "power": "330 KW / 449 PS"
+    },
+    "categories": []
+  }
+]

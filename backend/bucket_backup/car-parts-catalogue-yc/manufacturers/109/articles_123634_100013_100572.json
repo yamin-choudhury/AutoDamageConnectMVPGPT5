@@ -1,0 +1,60 @@
+[
+  {
+    "id": "8280632",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "NI-SB-10707",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "123634",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8280632/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Packing Type": "Bag",
+      "Packaging length [cm]": "5,3",
+      "Packaging width [cm]": "3,45",
+      "Packaging height [cm]": "3,45",
+      "Article ID:": "8280632",
+      "Article Number:": "NI-SB-10707",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "404419764423",
+      "OEM Numbers NISSAN:": "544234A00B",
+      "OEM Numbers SUZUKI:": "544234A00B"
+    }
+  },
+  {
+    "id": "8280633",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "NI-SB-10708",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "123634",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8280633/model-series-id-8024/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "54,2",
+      "Height [mm]": "45",
+      "Inner diameter [mm]": "12,4",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Packing Type": "Bag",
+      "Packaging length [cm]": "5,4",
+      "Packaging width [cm]": "4,5",
+      "Packaging height [cm]": "4,5",
+      "Article ID:": "8280633",
+      "Article Number:": "NI-SB-10708",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "404419764424",
+      "OEM Numbers NISSAN:": "545304A00D",
+      "OEM Numbers SUZUKI:": "545304A00D"
+    }
+  }
+]

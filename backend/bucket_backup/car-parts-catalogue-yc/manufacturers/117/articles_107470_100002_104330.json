@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2867856",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "34599",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "107470",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2867856/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "12 04 177",
+      "Weight [kg]": "0,45",
+      "Number of ribs": "6",
+      "Inner diameter [mm]": "17",
+      "Outer diameter [mm]": "59",
+      "Supplementary Article/Info 2": "with lid",
+      "Article ID:": "2867856",
+      "Article Number:": "34599",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781634599",
+      "OEM Numbers VAUXHALL:": "13258483",
+      "OEM Numbers OPEL:": "12 04 177",
+      "OEM Numbers SAAB:": "13 258 483",
+      "OEM Numbers CHEVROLET:": "13258483"
+    }
+  },
+  {
+    "id": "3079348",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "40 93 4599",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1390",
+    "productGroupId": "104330",
+    "categoryId": "100002",
+    "variantId": "107470",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3079348/model-series-id-10640/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "12 04 177",
+      "Weight [kg]": "0,45",
+      "Number of ribs": "6",
+      "Inner diameter [mm]": "17",
+      "Outer diameter [mm]": "59",
+      "Supplementary Article/Info 2": "with lid",
+      "Article ID:": "3079348",
+      "Article Number:": "40 93 4599",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468834599",
+      "OEM Numbers VAUXHALL:": "13258483",
+      "OEM Numbers OPEL:": "12 04 177",
+      "OEM Numbers SAAB:": "13 258 483",
+      "OEM Numbers CHEVROLET:": "13258483"
+    }
+  }
+]

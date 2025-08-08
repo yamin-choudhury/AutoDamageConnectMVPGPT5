@@ -1,0 +1,48 @@
+[
+  {
+    "id": "8202080",
+    "name": "Air Deflector, engine",
+    "partNo": "MS6082403",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "3858",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "59479",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8202080/model-series-id-7594/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Front",
+      "Section": "Inner Section",
+      "Article ID:": "8202080",
+      "Article Number:": "MS6082403",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353365092",
+      "OEM Numbers MASERATI:": "83615500"
+    }
+  },
+  {
+    "id": "8202081",
+    "name": "Air Deflector, engine",
+    "partNo": "MS6082404",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "3858",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "59479",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8202081/model-series-id-7594/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Section": "Inner Section",
+      "Article ID:": "8202081",
+      "Article Number:": "MS6082404",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353365093",
+      "OEM Numbers MASERATI:": "83615600"
+    }
+  }
+]

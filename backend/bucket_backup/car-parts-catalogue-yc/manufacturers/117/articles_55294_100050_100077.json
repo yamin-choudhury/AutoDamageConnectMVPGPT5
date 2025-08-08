@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2200624",
+    "name": "Cable Pull, clutch control",
+    "partNo": "24.3728-0728.2",
+    "manufacturer": "ATE",
+    "supplierId": "3",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "55294",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2200624/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "716",
+      "Article ID:": "2200624",
+      "Article Number:": "24.3728-0728.2",
+      "Manufacturer:": "ATE",
+      "EAN Numbers:": "400663337018",
+      "OEM Numbers OPEL:": "93195010",
+      "OEM Numbers VAUXHALL:": "93195010"
+    }
+  },
+  {
+    "id": "2599810",
+    "name": "Cable Pull, clutch control",
+    "partNo": "3074 600 146",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "478",
+    "productGroupId": "100077",
+    "categoryId": "100050",
+    "variantId": "55294",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2599810/model-series-id-7542/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Sleeve Length [mm]": "432",
+      "Length [mm]": "716",
+      "Article ID:": "2599810",
+      "Article Number:": "3074 600 146",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387287209",
+      "OEM Numbers SUZUKI:": "23710-51K00-000",
+      "OEM Numbers OPEL:": "93195010",
+      "OEM Numbers VAUXHALL:": "93195010"
+    }
+  }
+]

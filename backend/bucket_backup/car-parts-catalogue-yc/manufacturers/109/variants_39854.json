@@ -1,0 +1,18 @@
+[
+  {
+    "id": "137832",
+    "type": "1.5 (AEV415)",
+    "modelId": "39854",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K15B-C",
+      "cylinder": "4",
+      "capacity": "1,462 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-02-01",
+      "power": "71 KW / 97 PS"
+    },
+    "categories": []
+  }
+]

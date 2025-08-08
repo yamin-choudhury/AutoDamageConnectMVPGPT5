@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1411086",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "15090400",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1411086/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "6",
+      "Inner diameter [mm]": "41",
+      "Outer diameter [mm]": "53",
+      "Swirl Type": "Right-hand Twist",
+      "Article ID:": "1411086",
+      "Article Number:": "15090400",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776982762",
+      "OEM Numbers SUZUKI:": "16141M68K00",
+      "OEM Numbers OPEL:": "4709000",
+      "OEM Numbers FIAT:": "71741822"
+    }
+  },
+  {
+    "id": "4686297",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10372-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686297/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "6",
+      "Material": "FPM (fluoride rubber)/ACM (polyacrylate rubber)",
+      "Inner diameter [mm]": "41",
+      "Outer diameter [mm]": "53",
+      "Swirl Type": "Right-hand Twist",
+      "Article ID:": "4686297",
+      "Article Number:": "81-10372-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663510573",
+      "OEM Numbers SUZUKI:": "16141-M68PA0"
+    }
+  },
+  {
+    "id": "4686434",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10584-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686434/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "8",
+      "Inner diameter [mm]": "75",
+      "Outer diameter [mm]": "90",
+      "Swirl Type": "Left-hand Twist",
+      "Article ID:": "4686434",
+      "Article Number:": "81-10584-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663519998",
+      "OEM Numbers SUZUKI:": "11342-M68PA0"
+    }
+  }
+]

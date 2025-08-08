@@ -1,0 +1,80 @@
+[
+  {
+    "id": "5625422",
+    "name": "Sensor, wheel speed",
+    "partNo": "ADK87109",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "412",
+    "productGroupId": "102747",
+    "categoryId": "100010",
+    "variantId": "130653",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5625422/model-series-id-13251/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Right",
+      "Weight [kg]": "0,045",
+      "Cable Length [mm]": "741",
+      "Supplementary Article/Supplementary Info": "with grease",
+      "Number of connectors": "2",
+      "Article ID:": "5625422",
+      "Article Number:": "ADK87109",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774616245",
+      "OEM Numbers SUZUKI:": "56310-68L01"
+    }
+  },
+  {
+    "id": "966124",
+    "name": "Sensor, wheel speed",
+    "partNo": "109554",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "412",
+    "productGroupId": "102747",
+    "categoryId": "100010",
+    "variantId": "130653",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/966124/model-series-id-13251/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Right",
+      "Weight [kg]": "0,045",
+      "Cable Length [mm]": "741",
+      "Supplementary Article/Supplementary Info": "with grease",
+      "Number of connectors": "2",
+      "Article ID:": "966124",
+      "Article Number:": "109554",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422409554",
+      "OEM Numbers SUZUKI:": "56310-68L01"
+    }
+  },
+  {
+    "id": "2766737",
+    "name": "Sensor, wheel speed",
+    "partNo": "33 10 5907",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "412",
+    "productGroupId": "102747",
+    "categoryId": "100010",
+    "variantId": "130653",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2766737/model-series-id-13251/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Right",
+      "Weight [kg]": "0,045",
+      "Cable Length [mm]": "741",
+      "Supplementary Article/Supplementary Info": "with grease",
+      "Number of connectors": "2",
+      "Article ID:": "2766737",
+      "Article Number:": "33 10 5907",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422809554",
+      "OEM Numbers SUZUKI:": "56310-68L01"
+    }
+  }
+]

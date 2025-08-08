@@ -1,0 +1,105 @@
+[
+  {
+    "id": "6351561",
+    "name": "Valve Unit, aut. transm. hydraulic unit",
+    "partNo": "CMB027N",
+    "manufacturer": "DIPASPORT",
+    "supplierId": "4882",
+    "productsId": "3067",
+    "productGroupId": "100776",
+    "categoryId": "100238",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6351561/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6351561",
+      "Article Number:": "CMB027N",
+      "Manufacturer:": "DIPASPORT",
+      "OEM Numbers ALFAROME/FIAT/LANCI:": "71751195"
+    }
+  },
+  {
+    "id": "6351562",
+    "name": "Valve Unit, aut. transm. hydraulic unit",
+    "partNo": "CMB027R",
+    "manufacturer": "DIPASPORT",
+    "supplierId": "4882",
+    "productsId": "3067",
+    "productGroupId": "100776",
+    "categoryId": "100238",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6351562/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6351562",
+      "Article Number:": "CMB027R",
+      "Manufacturer:": "DIPASPORT",
+      "OEM Numbers ALFAROME/FIAT/LANCI:": "71751195"
+    }
+  },
+  {
+    "id": "7559422",
+    "name": "Valve Unit, aut. transm. hydraulic unit",
+    "partNo": "INJS146N",
+    "manufacturer": "DIPASPORT",
+    "supplierId": "4882",
+    "productsId": "3067",
+    "productGroupId": "100776",
+    "categoryId": "100238",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7559422/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7559422",
+      "Article Number:": "INJS146N",
+      "Manufacturer:": "DIPASPORT",
+      "OEM Numbers ALFAROME/FIAT/LANCI:": "71719383"
+    }
+  },
+  {
+    "id": "315750",
+    "name": "Valve Unit, aut. transm. hydraulic unit",
+    "partNo": "024000001010",
+    "manufacturer": "MAGNETI MARELLI",
+    "supplierId": "95",
+    "productsId": "3067",
+    "productGroupId": "100776",
+    "categoryId": "100238",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/315750/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "315750",
+      "Article Number:": "024000001010",
+      "Manufacturer:": "MAGNETI MARELLI",
+      "EAN Numbers:": "800106374868",
+      "OEM Numbers ALFAROME/FIAT/LANCI:": "71751195"
+    }
+  },
+  {
+    "id": "315751",
+    "name": "Valve Unit, aut. transm. hydraulic unit",
+    "partNo": "024000002010",
+    "manufacturer": "MAGNETI MARELLI",
+    "supplierId": "95",
+    "productsId": "3067",
+    "productGroupId": "100776",
+    "categoryId": "100238",
+    "variantId": "121445",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/315751/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "315751",
+      "Article Number:": "024000002010",
+      "Manufacturer:": "MAGNETI MARELLI",
+      "EAN Numbers:": "800106378240",
+      "OEM Numbers ALFAROME/FIAT/LANCI:": "71719383",
+      "OEM Numbers RENAULT:": "7701054202"
+    }
+  }
+]

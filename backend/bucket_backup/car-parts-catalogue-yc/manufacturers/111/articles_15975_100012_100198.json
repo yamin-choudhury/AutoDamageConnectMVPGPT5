@@ -1,0 +1,58 @@
+[
+  {
+    "id": "9610656",
+    "name": "Tie Rod End",
+    "partNo": "VKDY 811067",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "15975",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9610656/model-series-id-9104/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "216",
+      "Thread Size": "M12x1,25",
+      "Supplementary Article/Supplementary Info": "with synthetic grease",
+      "Thread Size 1": "M16x1,5",
+      "paired article number": "VKDY 811068",
+      "Cone Size 1 [mm]": "13,5",
+      "Cone Size 2 [mm]": "16,05",
+      "Article ID:": "9610656",
+      "Article Number:": "VKDY 811067",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657990436",
+      "OEM Numbers TOYOTA:": "45046-29515"
+    }
+  },
+  {
+    "id": "9610657",
+    "name": "Tie Rod End",
+    "partNo": "VKDY 811068",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "15975",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9610657/model-series-id-9104/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "216",
+      "Thread Size": "M16x1,5",
+      "Supplementary Article/Supplementary Info": "with synthetic grease",
+      "Thread Size 1": "M12x1,25",
+      "paired article number": "VKDY 811067",
+      "Cone Size 1 [mm]": "13,5",
+      "Cone Size 2 [mm]": "16,05",
+      "Article ID:": "9610657",
+      "Article Number:": "VKDY 811068",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657990435",
+      "OEM Numbers TOYOTA:": "45047-29195"
+    }
+  }
+]

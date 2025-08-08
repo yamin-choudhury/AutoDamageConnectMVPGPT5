@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1520351",
+    "name": "Filter, interior air",
+    "partNo": "1640544680",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "24173",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1520351/model-series-id-6587/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "398",
+      "Width [mm]": "147,5",
+      "Height [mm]": "27",
+      "Filter type": "Pollen Filter",
+      "Article ID:": "1520351",
+      "Article Number:": "1640544680",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "8A0819439",
+      "OEM Numbers VW:": "8A0819439A",
+      "OEM Numbers VW (SVW):": "8A0819439A"
+    }
+  },
+  {
+    "id": "1520416",
+    "name": "Filter, interior air",
+    "partNo": "1640551080",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "24173",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1520416/model-series-id-6587/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "387",
+      "Width [mm]": "151,5",
+      "Height [mm]": "26",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "1520416",
+      "Article Number:": "1640551080",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "8A0819439B",
+      "OEM Numbers VW (SVW):": "8A0819439B"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "9315445",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "T43055",
+    "manufacturer": "GATES-BR",
+    "supplierId": "6665",
+    "productsId": "308",
+    "productGroupId": "104320",
+    "categoryId": "100002",
+    "variantId": "109262",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9315445/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "29",
+      "Inner diameter [mm]": "8",
+      "Outer diameter [mm]": "60",
+      "Article ID:": "9315445",
+      "Article Number:": "T43055",
+      "Manufacturer:": "GATES-BR",
+      "EAN Numbers:": "789475808010",
+      "OEM Numbers ALFA ROMEO:": "46403679",
+      "OEM Numbers FIAT:": "73503128"
+    }
+  },
+  {
+    "id": "3729223",
+    "name": "Tensioner Pulley, timing belt",
+    "partNo": "531 0414 30",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "308",
+    "productGroupId": "104320",
+    "categoryId": "100002",
+    "variantId": "109262",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3729223/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Width [mm]": "29",
+      "Outer diameter [mm]": "60",
+      "Article ID:": "3729223",
+      "Article Number:": "531 0414 30",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510819806",
+      "OEM Numbers FIAT:": "K04892695AC",
+      "OEM Numbers OPEL:": "636279",
+      "OEM Numbers VAUXHALL:": "636279",
+      "OEM Numbers CHRYSLER:": "K04892695AB",
+      "OEM Numbers LANCIA:": "73503128",
+      "OEM Numbers GENERAL MOTORS:": "95512799"
+    }
+  }
+]

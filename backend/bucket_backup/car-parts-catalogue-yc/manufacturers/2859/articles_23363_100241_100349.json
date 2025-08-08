@@ -1,0 +1,81 @@
+[
+  {
+    "id": "865523",
+    "name": "Resistor, interior blower",
+    "partNo": "102584",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "23363",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/865523/model-series-id-6428/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "1K0 959 263 A",
+      "Weight [kg]": "0,038",
+      "Number of connectors": "4",
+      "Article ID:": "865523",
+      "Article Number:": "102584",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422402584",
+      "OEM Numbers AUDI:": "1K0 959 263 A",
+      "OEM Numbers SEAT:": "1K0 959 263 A",
+      "OEM Numbers SKODA:": "1K0 959 263 A",
+      "OEM Numbers VW:": "1K0 959 263 A",
+      "OEM Numbers VW (FAW):": "1K0 959 263 A",
+      "OEM Numbers VW (SVW):": "1K0 959 263 A"
+    }
+  },
+  {
+    "id": "618760",
+    "name": "Resistor, interior blower",
+    "partNo": "08084",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "23363",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/618760/model-series-id-6428/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "4",
+      "Article ID:": "618760",
+      "Article Number:": "08084",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357308084",
+      "OEM Numbers VW:": "1K0 959 263 A"
+    }
+  },
+  {
+    "id": "2523781",
+    "name": "Resistor, interior blower",
+    "partNo": "30 10 2584",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "2975",
+    "productGroupId": "100349",
+    "categoryId": "100241",
+    "variantId": "23363",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2523781/model-series-id-6428/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,038",
+      "Number of connectors": "4",
+      "Article ID:": "2523781",
+      "Article Number:": "30 10 2584",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422802584",
+      "OEM Numbers AUDI:": "1K0 959 263 A",
+      "OEM Numbers SEAT:": "1K0 959 263 A",
+      "OEM Numbers SKODA:": "1K0 959 263 A",
+      "OEM Numbers VW:": "1K0 959 263 A",
+      "OEM Numbers VW (FAW):": "1K0 959 263 A",
+      "OEM Numbers VW (SVW):": "1K0 959 263 A"
+    }
+  }
+]

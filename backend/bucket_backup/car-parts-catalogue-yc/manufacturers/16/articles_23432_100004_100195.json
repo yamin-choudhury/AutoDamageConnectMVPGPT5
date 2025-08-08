@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1008690",
+    "name": "Exhaust Tip",
+    "partNo": "110745",
+    "manufacturer": "KLARIUS",
+    "supplierId": "445",
+    "productsId": "181",
+    "productGroupId": "100195",
+    "categoryId": "100004",
+    "variantId": "23432",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1008690/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1",
+      "Article ID:": "1008690",
+      "Article Number:": "110745",
+      "Manufacturer:": "KLARIUS",
+      "EAN Numbers:": "328539110745",
+      "OEM Numbers BMW:": "18307805915"
+    }
+  },
+  {
+    "id": "6037915",
+    "name": "Exhaust Tip",
+    "partNo": "BM514P",
+    "manufacturer": "KLARIUS",
+    "supplierId": "445",
+    "productsId": "181",
+    "productGroupId": "100195",
+    "categoryId": "100004",
+    "variantId": "23432",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6037915/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1",
+      "Article ID:": "6037915",
+      "Article Number:": "BM514P",
+      "Manufacturer:": "KLARIUS",
+      "EAN Numbers:": "328539110745",
+      "OEM Numbers BMW:": "18307805915"
+    }
+  }
+]

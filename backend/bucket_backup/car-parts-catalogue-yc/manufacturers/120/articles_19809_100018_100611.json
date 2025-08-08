@@ -1,0 +1,68 @@
+[
+  {
+    "id": "814878",
+    "name": "Washer Fluid Jet, window cleaning",
+    "partNo": "10001087",
+    "manufacturer": "PolarParts",
+    "supplierId": "3032",
+    "productsId": "303",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "19809",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/814878/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Wash Nozzle Type": "One-hole Nozzle",
+      "Fitting Position": "Vehicle Windscreen",
+      "Article ID:": "814878",
+      "Article Number:": "10001087",
+      "Manufacturer:": "PolarParts",
+      "OEM Numbers VOLVO:": "9188997"
+    }
+  },
+  {
+    "id": "3205796",
+    "name": "Washer Fluid Jet, window cleaning",
+    "partNo": "411 38 006 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "303",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "19809",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3205796/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle Windscreen",
+      "Quantity Unit": "Piece",
+      "Article ID:": "3205796",
+      "Article Number:": "411 38 006 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers VOLVO:": "30 655 605"
+    }
+  },
+  {
+    "id": "9691719",
+    "name": "Washer Fluid Jet, window cleaning",
+    "partNo": "WD 5605",
+    "manufacturer": "SKANIMPORT",
+    "supplierId": "1785",
+    "productsId": "303",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "19809",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9691719/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,056",
+      "Wash Nozzle Type": "Unheated",
+      "Article ID:": "9691719",
+      "Article Number:": "WD 5605",
+      "Manufacturer:": "SKANIMPORT",
+      "OEM Numbers VOLVO:": "9188997"
+    }
+  }
+]

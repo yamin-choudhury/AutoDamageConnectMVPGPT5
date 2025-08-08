@@ -1,0 +1,34 @@
+[
+  {
+    "id": "778",
+    "type": "200h (ZWA10_)",
+    "modelId": "9014",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FXE,5ZR-FXE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2010-12-01\n                            \n                            2020-09-01",
+      "power": "73 KW / 99 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "53026",
+    "type": "200h (ZWA10_)",
+    "modelId": "9014",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FXE,5ZR-FXE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2011-09-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  }
+]

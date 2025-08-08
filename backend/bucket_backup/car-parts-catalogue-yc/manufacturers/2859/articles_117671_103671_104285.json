@@ -1,0 +1,53 @@
+[
+  {
+    "id": "3538916",
+    "name": "Connecting Rod",
+    "partNo": "50009200",
+    "manufacturer": "KOLBENSCHMIDT",
+    "supplierId": "432",
+    "productsId": "581",
+    "productGroupId": "104285",
+    "categoryId": "103671",
+    "variantId": "117671",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3538916/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "144",
+      "Bore Ø [mm]": "50,6",
+      "Bolt Ø [mm]": "23",
+      "Connecting Rod Design": "Trapezoidal Connecting Rod",
+      "Article ID:": "3538916",
+      "Article Number:": "50009200",
+      "Manufacturer:": "KOLBENSCHMIDT",
+      "EAN Numbers:": "402897790784",
+      "OEM Numbers AUDI:": "06H198401D",
+      "OEM Numbers SEAT:": "06H198401D",
+      "OEM Numbers SKODA:": "06H198401D",
+      "OEM Numbers VW:": "06H 198 401 D"
+    }
+  },
+  {
+    "id": "3538917",
+    "name": "Connecting Rod Bolt",
+    "partNo": "50009201",
+    "manufacturer": "KOLBENSCHMIDT",
+    "supplierId": "432",
+    "productsId": "853",
+    "productGroupId": "104285",
+    "categoryId": "103671",
+    "variantId": "117671",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3538917/model-series-id-11744/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "9",
+      "Length [mm]": "50,5",
+      "Article ID:": "3538917",
+      "Article Number:": "50009201",
+      "Manufacturer:": "KOLBENSCHMIDT",
+      "EAN Numbers:": "402897793044",
+      "OEM Numbers VW:": "WHT 001 319"
+    }
+  }
+]

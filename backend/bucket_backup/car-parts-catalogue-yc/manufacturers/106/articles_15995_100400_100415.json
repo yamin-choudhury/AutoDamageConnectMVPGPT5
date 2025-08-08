@@ -1,0 +1,53 @@
+[
+  {
+    "id": "219131",
+    "name": "Shaft Seal, differential",
+    "partNo": "01037214B",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "15995",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/219131/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Outlet",
+      "Height 1 [mm]": "8",
+      "Material": "ACM (Polyacrylate)",
+      "Swirl Type": "Alternating Twist",
+      "Dust Cover": "with dust lip",
+      "Outer diameter 1 [mm]": "52",
+      "Inner diameter 1 [mm]": "40",
+      "Article ID:": "219131",
+      "Article Number:": "01037214B",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896061327",
+      "OEM Numbers VAG:": "0CF409189C"
+    }
+  },
+  {
+    "id": "3825969",
+    "name": "Bearing, differential",
+    "partNo": "55190000101",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "4981",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "15995",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3825969/model-series-id-10126/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3825969",
+      "Article Number:": "55190000101",
+      "Manufacturer:": "vika",
+      "OEM Numbers AUDI:": "003519185F",
+      "OEM Numbers SEAT:": "003519185F",
+      "OEM Numbers SKODA:": "003519185F",
+      "OEM Numbers VW:": "003519185F"
+    }
+  }
+]

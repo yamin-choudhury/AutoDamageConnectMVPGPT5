@@ -1,0 +1,56 @@
+[
+  {
+    "id": "3506786",
+    "name": "Water Pump, parking heater",
+    "partNo": "49832",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "999",
+    "productGroupId": "100614",
+    "categoryId": "100335",
+    "variantId": "8681",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3506786/model-series-id-8704/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,32",
+      "Operating Mode": "Electric",
+      "Number of connectors": "2",
+      "Article ID:": "3506786",
+      "Article Number:": "49832",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781649832",
+      "OEM Numbers AUDI:": "1K0 965 561 F",
+      "OEM Numbers SEAT:": "1K0 965 561 F",
+      "OEM Numbers SKODA:": "1K0 965 561 F",
+      "OEM Numbers VW:": "1K0 965 561 F"
+    }
+  },
+  {
+    "id": "2529139",
+    "name": "Water Pump, parking heater",
+    "partNo": "30 94 9832",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "999",
+    "productGroupId": "100614",
+    "categoryId": "100335",
+    "variantId": "8681",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2529139/model-series-id-8704/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,32",
+      "Operating Mode": "Electric",
+      "Number of connectors": "2",
+      "Article ID:": "2529139",
+      "Article Number:": "30 94 9832",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468849832",
+      "OEM Numbers AUDI:": "1K0 965 561 F",
+      "OEM Numbers SEAT:": "1K0 965 561 F",
+      "OEM Numbers SKODA:": "1K0 965 561 F",
+      "OEM Numbers VW:": "1K0 965 561 F"
+    }
+  }
+]

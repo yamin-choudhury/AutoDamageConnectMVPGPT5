@@ -1,0 +1,48 @@
+[
+  {
+    "id": "4459558",
+    "name": "Door Lock",
+    "partNo": "7226,225,1",
+    "manufacturer": "BINDER",
+    "supplierId": "4202",
+    "productsId": "1361",
+    "productGroupId": "100687",
+    "categoryId": "100685",
+    "variantId": "135996",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4459558/model-series-id-39499/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Trim Level": "PrNr: 412/413/417",
+      "Fitting Position": "Left Front",
+      "Article ID:": "4459558",
+      "Article Number:": "7226,225,1",
+      "Manufacturer:": "BINDER",
+      "EAN Numbers:": "0404628358328",
+      "OEM Numbers VW:": "6V1837015C"
+    }
+  },
+  {
+    "id": "4459560",
+    "name": "Door Lock",
+    "partNo": "7226,226,1",
+    "manufacturer": "BINDER",
+    "supplierId": "4202",
+    "productsId": "1361",
+    "productGroupId": "100687",
+    "categoryId": "100685",
+    "variantId": "135996",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4459560/model-series-id-39499/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Trim Level": "PrNr: 412/413/417",
+      "Fitting Position": "Right Front",
+      "Article ID:": "4459560",
+      "Article Number:": "7226,226,1",
+      "Manufacturer:": "BINDER",
+      "EAN Numbers:": "0404628358330",
+      "OEM Numbers VW:": "5TB837016C"
+    }
+  }
+]

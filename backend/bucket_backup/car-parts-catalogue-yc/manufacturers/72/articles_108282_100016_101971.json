@@ -1,0 +1,80 @@
+[
+  {
+    "id": "3711754",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "529 0371 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "542",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "108282",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3711754/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "6",
+      "Length 1 [mm]": "953",
+      "Length 2 [mm]": "790",
+      "Supplementary Article/Info 2": "Check alternator freewheel clutch & replace if necessary",
+      "Number of belts": "2",
+      "Number of ribs 2": "3",
+      "Article ID:": "3711754",
+      "Article Number:": "529 0371 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487051807",
+      "OEM Numbers MAZDA:": "P54G15908"
+    }
+  },
+  {
+    "id": "3711755",
+    "name": "Water Pump + V-Ribbed Belt Set",
+    "partNo": "529 0371 30",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "4172",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "108282",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3711755/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "6",
+      "Supplementary Article/Supplementary Info": "with water pump",
+      "Length 1 [mm]": "953",
+      "Length 2 [mm]": "790",
+      "Supplementary Article/Info 2": "Check alternator freewheel clutch & replace if necessary",
+      "Number of ribs 2": "3",
+      "Article ID:": "3711755",
+      "Article Number:": "529 0371 30",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487051811",
+      "OEM Numbers MAZDA:": "PEDD15010",
+      "OEM Numbers MAZDA (CHANGAN):": "PE7W15010"
+    }
+  },
+  {
+    "id": "7874787",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "LAK0160",
+    "manufacturer": "LUCAS",
+    "supplierId": "4501",
+    "productsId": "542",
+    "productGroupId": "101971",
+    "categoryId": "100016",
+    "variantId": "108282",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7874787/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "955",
+      "Number of ribs": "6",
+      "Article ID:": "7874787",
+      "Article Number:": "LAK0160",
+      "Manufacturer:": "LUCAS",
+      "EAN Numbers:": "327559835372",
+      "OEM Numbers MAZDA:": "P51D-15-980A"
+    }
+  }
+]

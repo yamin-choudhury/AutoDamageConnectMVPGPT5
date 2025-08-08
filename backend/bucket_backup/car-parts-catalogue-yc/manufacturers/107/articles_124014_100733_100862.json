@@ -1,0 +1,77 @@
+[
+  {
+    "id": "4948219",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "860184",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4948219/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "244,5",
+      "Stroke [mm]": "64",
+      "Eject Force [N]": "420",
+      "Article ID:": "4948219",
+      "Article Number:": "860184",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657776963",
+      "OEM Numbers SUBARU:": "57522CA020",
+      "OEM Numbers TOYOTA:": "57522CA020"
+    }
+  },
+  {
+    "id": "4962691",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "864725",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4962691/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "244,5",
+      "Stroke [mm]": "64",
+      "Eject Force [N]": "380",
+      "Article ID:": "4962691",
+      "Article Number:": "864725",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657776969",
+      "OEM Numbers SUBARU:": "57522CA010",
+      "OEM Numbers TOYOTA:": "57522CA010"
+    }
+  },
+  {
+    "id": "4962889",
+    "name": "Gas Spring, boot-/cargo area",
+    "partNo": "864964",
+    "manufacturer": "STABILUS",
+    "supplierId": "126",
+    "productsId": "219",
+    "productGroupId": "100862",
+    "categoryId": "100733",
+    "variantId": "124014",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4962889/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "244,5",
+      "Stroke [mm]": "64",
+      "Eject Force [N]": "305",
+      "Article ID:": "4962889",
+      "Article Number:": "864964",
+      "Manufacturer:": "STABILUS",
+      "EAN Numbers:": "404657776971",
+      "OEM Numbers SUBARU:": "57522CA000",
+      "OEM Numbers TOYOTA:": "57522CA000"
+    }
+  }
+]

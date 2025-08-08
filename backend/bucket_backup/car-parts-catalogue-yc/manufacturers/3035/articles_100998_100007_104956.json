@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1539963",
+    "name": "Water Pump, engine cooling",
+    "partNo": "1673337280",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "100998",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1539963/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Hub Length [mm]": "76",
+      "Operating Mode": "Mechanical",
+      "Shape": "Flat",
+      "Material": "Aluminium",
+      "Pulleys": "without belt pulley",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Water Pump Pulley Ø [mm]": "59,8",
+      "Seal Material": "NBR (nitrile butadiene rubber)",
+      "Article ID:": "1539963",
+      "Article Number:": "1673337280",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers VW (SVW):": "03C121005P",
+      "OEM Numbers SKODA (SVW):": "03C121005P"
+    }
+  },
+  {
+    "id": "3751803",
+    "name": "Water Pump, engine cooling",
+    "partNo": "538 0757 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "100998",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3751803/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Water Pump Type": "for v-ribbed belt use",
+      "Article ID:": "3751803",
+      "Article Number:": "538 0757 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487020769",
+      "OEM Numbers VW (SVW):": "03C121008D"
+    }
+  },
+  {
+    "id": "3537277",
+    "name": "Water Pump, engine cooling",
+    "partNo": "50005061",
+    "manufacturer": "KOLBENSCHMIDT",
+    "supplierId": "432",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "100998",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3537277/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Article ID:": "3537277",
+      "Article Number:": "50005061",
+      "Manufacturer:": "KOLBENSCHMIDT",
+      "EAN Numbers:": "402897760923",
+      "OEM Numbers VW:": "03C 121 005 C"
+    }
+  }
+]

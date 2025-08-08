@@ -1,0 +1,63 @@
+[
+  {
+    "id": "7745583",
+    "name": "Sensor, throttle position",
+    "partNo": "K44-INF-22060001",
+    "manufacturer": "NAKAMOTO",
+    "supplierId": "6388",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "14915",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7745583/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7745583",
+      "Article Number:": "K44-INF-22060001",
+      "Manufacturer:": "NAKAMOTO",
+      "OEM Numbers INFINITI:": "22620-4M50A"
+    }
+  },
+  {
+    "id": "7745589",
+    "name": "Sensor, throttle position",
+    "partNo": "K44-NIS-18010022",
+    "manufacturer": "NAKAMOTO",
+    "supplierId": "6388",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "14915",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7745589/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7745589",
+      "Article Number:": "K44-NIS-18010022",
+      "Manufacturer:": "NAKAMOTO",
+      "OEM Numbers NISSAN:": "22620-31U0A"
+    }
+  },
+  {
+    "id": "2733969",
+    "name": "Sensor, throttle position",
+    "partNo": "32246",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1926",
+    "productGroupId": "102906",
+    "categoryId": "100254",
+    "variantId": "14915",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2733969/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "2733969",
+      "Article Number:": "32246",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509332246",
+      "OEM Numbers NISSAN:": "22620-9E000"
+    }
+  }
+]

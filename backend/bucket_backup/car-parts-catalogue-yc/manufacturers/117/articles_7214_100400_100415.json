@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1193593",
+    "name": "Shaft Seal, differential",
+    "partNo": "1244000100",
+    "manufacturer": "JP GROUP",
+    "supplierId": "268",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "7214",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1193593/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Height [mm]": "9",
+      "Inner diameter [mm]": "35",
+      "Outer diameter [mm]": "55",
+      "Article ID:": "1193593",
+      "Article Number:": "1244000100",
+      "Manufacturer:": "JP GROUP",
+      "EAN Numbers:": "571041205859",
+      "OEM Numbers OPEL:": "374514",
+      "OEM Numbers GENERAL MOTORS:": "90342143"
+    }
+  },
+  {
+    "id": "1815302",
+    "name": "Shaft Seal, differential",
+    "partNo": "200 529",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "630",
+    "productGroupId": "100415",
+    "categoryId": "100400",
+    "variantId": "7214",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1815302/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Drive Axle",
+      "Height [mm]": "9",
+      "Material": "FPM (fluoride rubber)",
+      "Inner diameter [mm]": "35",
+      "Outer diameter [mm]": "54,9",
+      "Article ID:": "1815302",
+      "Article Number:": "200 529",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers OPEL:": "3 74 514",
+      "OEM Numbers VAUXHALL:": "90342143",
+      "OEM Numbers CHEVROLET:": "90342143"
+    }
+  }
+]

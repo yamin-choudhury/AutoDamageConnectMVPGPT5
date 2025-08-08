@@ -1,0 +1,98 @@
+[
+  {
+    "id": "19904",
+    "type": "1.4 GL",
+    "modelId": "5623",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4EE",
+      "cylinder": "4",
+      "capacity": "1,399 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2005-11-01\n                            \n                            2010-11-01",
+      "power": "71 KW / 97 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19906",
+    "type": "1.6 GLS",
+    "modelId": "5623",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4ED",
+      "cylinder": "4",
+      "capacity": "1,599 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2005-11-01\n                            \n                            2010-11-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19907",
+    "type": "1.5 CRDi GLS",
+    "modelId": "5623",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "D4FA",
+      "cylinder": "4",
+      "capacity": "1,493 CCM / 1.5 L",
+      "fuelType": "Diesel",
+      "year": "2005-11-01\n                            \n                            2010-11-01",
+      "power": "81 KW / 110 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34855",
+    "type": "1.5",
+    "modelId": "5623",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4EK",
+      "cylinder": "4",
+      "capacity": "1,495 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2010-11-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138752",
+    "type": "1.5",
+    "modelId": "5623",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4EK",
+      "cylinder": "4",
+      "capacity": "1,495 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2012-12-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "146811",
+    "type": "1.5 CNG",
+    "modelId": "5623",
+    "manufacturerId": "183",
+    "url": "",
+    "specs": {
+      "engineCode": "G4EK",
+      "cylinder": "4",
+      "capacity": "1,495 CCM / 1.5 L",
+      "fuelType": "Petrol/Compressed Natural Gas (CNG)",
+      "year": "2008-01-01\n                            \n                            2010-11-01",
+      "power": "71 KW / 97 PS"
+    },
+    "categories": []
+  }
+]

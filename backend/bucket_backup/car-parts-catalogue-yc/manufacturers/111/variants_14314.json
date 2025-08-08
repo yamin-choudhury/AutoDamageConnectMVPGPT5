@@ -1,0 +1,162 @@
+[
+  {
+    "id": "114571",
+    "type": "2.5 Hybrid (AYH30W)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FXE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2015-02-01",
+      "power": "112 KW / 152 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "114573",
+    "type": "3.5 (GGH30W)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "114574",
+    "type": "3.5 4WD (GGH35W)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "206 KW / 280 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "114575",
+    "type": "2.5 (AGH30W)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "134 KW / 182 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "114576",
+    "type": "2.5 4WD (AGH35W)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "134 KW / 182 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119969",
+    "type": "3.5 (GGH30W, GGH30)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "202 KW / 275 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119970",
+    "type": "2.5 (AGH30W)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-02-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134282",
+    "type": "3.5 (GGH30)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FKS",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139837",
+    "type": "Hybrid E-Four (AYH30L)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FXE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2019-04-01",
+      "power": "119 KW / 162 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139937",
+    "type": "Hybrid E-Four (AYH30L)",
+    "modelId": "14314",
+    "manufacturerId": "111",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FXE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-03-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  }
+]

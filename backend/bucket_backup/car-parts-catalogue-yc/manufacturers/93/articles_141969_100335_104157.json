@@ -1,0 +1,79 @@
+[
+  {
+    "id": "9188707",
+    "name": "Switch, window regulator",
+    "partNo": "SRN109",
+    "manufacturer": "MAX",
+    "supplierId": "4389",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9188707/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Number of pins": "7",
+      "Socket colour": "Yellow",
+      "Number of control buttons": "2",
+      "Article ID:": "9188707",
+      "Article Number:": "SRN109",
+      "Manufacturer:": "MAX",
+      "EAN Numbers:": "805208089443",
+      "OEM Numbers RENAULT:": "254118044R"
+    }
+  },
+  {
+    "id": "9188723",
+    "name": "Switch, window regulator",
+    "partNo": "SRN121",
+    "manufacturer": "MAX",
+    "supplierId": "4389",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9188723/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Number of pins": "7",
+      "Socket colour": "Brown",
+      "Number of control buttons": "2",
+      "Article ID:": "9188723",
+      "Article Number:": "SRN121",
+      "Manufacturer:": "MAX",
+      "EAN Numbers:": "805208089455",
+      "OEM Numbers RENAULT:": "254113300R"
+    }
+  },
+  {
+    "id": "9188725",
+    "name": "Switch, window regulator",
+    "partNo": "SRN122",
+    "manufacturer": "MAX",
+    "supplierId": "4389",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "141969",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9188725/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Front",
+      "Number of pins": "7",
+      "Combi Switch Function": "with comfort function",
+      "Technical Information Number": "Comfort only left si",
+      "Socket colour": "White",
+      "Number of control buttons": "2",
+      "Article ID:": "9188725",
+      "Article Number:": "SRN122",
+      "Manufacturer:": "MAX",
+      "EAN Numbers:": "805208089456",
+      "OEM Numbers DACIA:": "254118722R"
+    }
+  }
+]

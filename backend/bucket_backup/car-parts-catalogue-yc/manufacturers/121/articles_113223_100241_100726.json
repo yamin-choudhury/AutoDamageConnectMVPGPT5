@@ -1,0 +1,24 @@
+[
+  {
+    "id": "10159862",
+    "name": "Actuator, air conditioning",
+    "partNo": "WG2016947",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "113223",
+    "manufacturerId": "121",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10159862/model-series-id-14172/manufacturer-id-121/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of connectors": "5",
+      "Article ID:": "10159862",
+      "Article Number:": "WG2016947",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VAG:": "1J1 907 511 A"
+    }
+  }
+]

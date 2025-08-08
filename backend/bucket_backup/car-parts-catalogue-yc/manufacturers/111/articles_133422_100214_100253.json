@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5989296",
+    "name": "Fuel Filter",
+    "partNo": "BE 1036",
+    "manufacturer": "HIFI FILTER",
+    "supplierId": "6309",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "133422",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5989296/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "152,0",
+      "Height 1 [mm]": "88,0",
+      "Diameter 1 [mm]": "70,0",
+      "Diameter 2 [mm]": "7,9",
+      "Diameter 3 [mm]": "7,9",
+      "Housing Diameter [mm]": "55,5",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "5989296",
+      "Article Number:": "BE 1036",
+      "Manufacturer:": "HIFI FILTER",
+      "EAN Numbers:": "366120037984",
+      "OEM Numbers TOYOTA:": "23300-31100",
+      "OEM Numbers AMC:": "TF 1964"
+    }
+  },
+  {
+    "id": "3931520",
+    "name": "Fuel Filter",
+    "partNo": "58436",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "133422",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3931520/model-series-id-11331/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Lowered rear axle from [mm]": "9",
+      "Article ID:": "3931520",
+      "Article Number:": "58436",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509358436",
+      "OEM Numbers BMW:": "16 14 7 186 454"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "8627778",
+    "name": "Brake Booster",
+    "partNo": "PSA120",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "33353",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627778/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "9",
+      "Article ID:": "8627778",
+      "Article Number:": "PSA120",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293792582",
+      "OEM Numbers FORD:": "9S51-2005-AA",
+      "OEM Numbers FIAT:": "77364658",
+      "OEM Numbers ABARTH:": "77364658"
+    }
+  },
+  {
+    "id": "8627888",
+    "name": "Brake Booster",
+    "partNo": "PSA261",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "33353",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8627888/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "TRW",
+      "Diameter [in]": "9",
+      "Article ID:": "8627888",
+      "Article Number:": "PSA261",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293818717",
+      "OEM Numbers FIAT:": "77365842"
+    }
+  }
+]

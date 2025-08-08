@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1137627",
+    "name": "Master Cylinder, clutch",
+    "partNo": "1202456",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "22610",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1137627/model-series-id-11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "FTE",
+      "Diameter [mm]": "15,9",
+      "Article ID:": "1137627",
+      "Article Number:": "1202456",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293741400",
+      "OEM Numbers AUDI:": "1J1 721 388 G",
+      "OEM Numbers SEAT:": "1J1 721 388 G",
+      "OEM Numbers SKODA:": "1J1 721 388 G",
+      "OEM Numbers VW:": "1J1 721 388 G"
+    }
+  },
+  {
+    "id": "8579343",
+    "name": "Master Cylinder, clutch",
+    "partNo": "PNB456",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "234",
+    "productGroupId": "100061",
+    "categoryId": "100050",
+    "variantId": "22610",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8579343/model-series-id-11149/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "FTE",
+      "Diameter [mm]": "15,9",
+      "Article ID:": "8579343",
+      "Article Number:": "PNB456",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293723029",
+      "OEM Numbers AUDI:": "1J1 721 388 G",
+      "OEM Numbers SEAT:": "1J1 721 388 G",
+      "OEM Numbers SKODA:": "1J1 721 388 G",
+      "OEM Numbers VW:": "1J1 721 388 G"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "8110530",
+    "name": "Alternator",
+    "partNo": "MEE035101",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "125086",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8110530/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Alternator Charge Current [A]": "150",
+      "Fitting Position": "Alternator",
+      "Weight [kg]": "7,5",
+      "Number of ribs": "6",
+      "Position / Degree": "60",
+      "Belt Pulley Ø [mm]": "65,0",
+      "Clamp": "B+(M8)",
+      "Rotation Direction": "Clockwise rotation",
+      "Article ID:": "8110530",
+      "Article Number:": "MEE035101",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880975248343",
+      "OEM Numbers AUDI:": "78903018AX",
+      "OEM Numbers VW:": "78903018AX",
+      "OEM Numbers VAG:": "6C903016B",
+      "OEM Numbers SKODA:": "78903018AX",
+      "OEM Numbers AUDI (FAW):": "78903016AC",
+      "OEM Numbers VW (SVW):": "78903016AC"
+    }
+  }
+]

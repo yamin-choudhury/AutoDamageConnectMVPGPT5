@@ -1,0 +1,60 @@
+[
+  {
+    "id": "8110468",
+    "name": "Alternator",
+    "partNo": "MEE035039",
+    "manufacturer": "MANDO",
+    "supplierId": "4008",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "24168",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8110468/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "14",
+      "Alternator Charge Current [A]": "120",
+      "Fitting Position": "Alternator",
+      "Weight [kg]": "6,9",
+      "Number of ribs": "6",
+      "Position / Degree": "90",
+      "Belt Pulley Ø [mm]": "56,0",
+      "Clamp": "B+(M8)",
+      "Rotation Direction": "Clockwise rotation",
+      "Article ID:": "8110468",
+      "Article Number:": "MEE035039",
+      "Manufacturer:": "MANDO",
+      "EAN Numbers:": "880975248281",
+      "OEM Numbers AUDI:": "38903024GX",
+      "OEM Numbers SEAT:": "38903024GX",
+      "OEM Numbers SKODA:": "38903024GX",
+      "OEM Numbers VW:": "38903024GX",
+      "OEM Numbers VW (SVW):": "38903018Q",
+      "OEM Numbers FORD:": "98VW10300EA"
+    }
+  },
+  {
+    "id": "6951573",
+    "name": "Alternator",
+    "partNo": "F042A01193",
+    "manufacturer": "UNIPOINT",
+    "supplierId": "4620",
+    "productsId": "4",
+    "productGroupId": "100350",
+    "categoryId": "100010",
+    "variantId": "24168",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6951573/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Alternator Charge Current [A]": "120",
+      "Article ID:": "6951573",
+      "Article Number:": "F042A01193",
+      "Manufacturer:": "UNIPOINT",
+      "OEM Numbers VW:": "7M5-903-028",
+      "OEM Numbers FORD:": "YM21-10300-AA"
+    }
+  }
+]

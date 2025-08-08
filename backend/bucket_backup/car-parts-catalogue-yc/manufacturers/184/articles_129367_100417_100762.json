@@ -1,0 +1,54 @@
+[
+  {
+    "id": "6269071",
+    "name": "Clockspring, airbag",
+    "partNo": "CCC78009GS",
+    "manufacturer": "CASCO",
+    "supplierId": "484",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6269071/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with airbag clock spring",
+      "Version": "GS",
+      "for flywheel manufacturer": "KIA",
+      "Article ID:": "6269071",
+      "Article Number:": "CCC78009GS",
+      "Manufacturer:": "CASCO",
+      "EAN Numbers:": "805864251986",
+      "OEM Numbers HYUNDAI:": "934901D650"
+    }
+  },
+  {
+    "id": "8999509",
+    "name": "Clockspring, airbag",
+    "partNo": "SCC78009.1",
+    "manufacturer": "SANDO",
+    "supplierId": "4592",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "129367",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8999509/model-series-id-5602/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with airbag clock spring",
+      "Version": ".1",
+      "for flywheel manufacturer": "KIA",
+      "Article ID:": "8999509",
+      "Article Number:": "SCC78009.1",
+      "Manufacturer:": "SANDO",
+      "EAN Numbers:": "805864251986",
+      "OEM Numbers HYUNDAI:": "934901D650"
+    }
+  }
+]

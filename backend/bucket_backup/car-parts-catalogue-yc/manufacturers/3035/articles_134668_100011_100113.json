@@ -1,0 +1,48 @@
+[
+  {
+    "id": "2938067",
+    "name": "Suspension Spring",
+    "partNo": "36-301935",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "134668",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2938067/model-series-id-39103/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2938067",
+      "Article Number:": "36-301935",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525885619",
+      "OEM Numbers VAG:": "3Q0511115AL"
+    }
+  },
+  {
+    "id": "2978987",
+    "name": "Suspension Spring",
+    "partNo": "37-293130",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "134668",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2978987/model-series-id-39103/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2978987",
+      "Article Number:": "37-293130",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525884575",
+      "OEM Numbers VW:": "5Q0 411 105 CF",
+      "OEM Numbers VAG:": "5Q0 411 105 HT",
+      "OEM Numbers SEAT:": "5Q0411105DH"
+    }
+  }
+]

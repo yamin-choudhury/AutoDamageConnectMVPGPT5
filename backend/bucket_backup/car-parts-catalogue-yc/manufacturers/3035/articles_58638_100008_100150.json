@@ -1,0 +1,93 @@
+[
+  {
+    "id": "57963",
+    "name": "Ignition Coil",
+    "partNo": "0 986 221 057",
+    "manufacturer": "BOSCH",
+    "supplierId": "30",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "58638",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/57963/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Voltage [V]": "14",
+      "Article ID:": "57963",
+      "Article Number:": "0 986 221 057",
+      "Manufacturer:": "BOSCH",
+      "EAN Numbers:": "404702516569",
+      "OEM Numbers VW:": "04E 905 110 P",
+      "OEM Numbers AUDI:": "04E 905 110 P",
+      "OEM Numbers SEAT:": "04E 905 110 P",
+      "OEM Numbers SKODA:": "04E 905 110 P"
+    }
+  },
+  {
+    "id": "1411384",
+    "name": "Ignition Coil",
+    "partNo": "150922",
+    "manufacturer": "HC-Cargo",
+    "supplierId": "4819",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "58638",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1411384/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Article ID:": "1411384",
+      "Article Number:": "150922",
+      "Manufacturer:": "HC-Cargo",
+      "OEM Numbers VW:": "04C905110L"
+    }
+  },
+  {
+    "id": "1411384",
+    "name": "Ignition Coil",
+    "partNo": "150922",
+    "manufacturer": "HC-Cargo",
+    "supplierId": "4819",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "58638",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1411384/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Article ID:": "1411384",
+      "Article Number:": "150922",
+      "Manufacturer:": "HC-Cargo",
+      "OEM Numbers VW:": "04C905110L"
+    }
+  },
+  {
+    "id": "1411384",
+    "name": "Ignition Coil",
+    "partNo": "150922",
+    "manufacturer": "HC-Cargo",
+    "supplierId": "4819",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "58638",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1411384/model-series-id-11148/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Article ID:": "1411384",
+      "Article Number:": "150922",
+      "Manufacturer:": "HC-Cargo",
+      "OEM Numbers VW:": "04C905110L"
+    }
+  }
+]

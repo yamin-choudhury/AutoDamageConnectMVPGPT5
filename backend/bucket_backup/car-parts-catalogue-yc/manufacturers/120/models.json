@@ -1,0 +1,926 @@
+[
+  {
+    "id": "385",
+    "name": "VOLVO 140 (142, 144)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/385/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1975-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1622",
+    "name": "VOLVO 140 Estate (145)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1622/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1966-08-01",
+      "toDate": "1975-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1623",
+    "name": "VOLVO 164 (164)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1623/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-08-01",
+      "toDate": "1975-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "211",
+    "name": "VOLVO 240 (P242, P244)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/211/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-08-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "215",
+    "name": "VOLVO 240 Kombi (P245)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/215/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-08-01",
+      "toDate": "1993-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "228",
+    "name": "VOLVO 260 (P262, P264)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/228/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-08-01",
+      "toDate": "1982-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2073",
+    "name": "VOLVO 260 Coupe (P262)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2073/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-09-01",
+      "toDate": "1985-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1633",
+    "name": "VOLVO 260 Estate (P265)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1633/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-07-01",
+      "toDate": "1982-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "375",
+    "name": "VOLVO 340-360 (343, 345)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/375/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-08-01",
+      "toDate": "1991-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "370",
+    "name": "VOLVO 340-360 Saloon (344)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/370/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-08-01",
+      "toDate": "1991-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1634",
+    "name": "VOLVO 440 (445)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1634/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-08-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "417",
+    "name": "VOLVO 460 (464)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/417/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-09-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "429",
+    "name": "VOLVO 480 (482)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/429/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-04-01",
+      "toDate": "1996-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3438",
+    "name": "VOLVO 66 (31, 36)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3438/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-08-01",
+      "toDate": "1978-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1619",
+    "name": "VOLVO 66 Estate (64)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1619/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-10-01",
+      "toDate": "1979-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "553",
+    "name": "VOLVO 740 (744)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/553/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1983-04-01",
+      "toDate": "1992-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3453",
+    "name": "VOLVO 740 Kombi (745)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3453/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1984-08-01",
+      "toDate": "1992-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "562",
+    "name": "VOLVO 760 (704, 764)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/562/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-08-01",
+      "toDate": "1992-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "567",
+    "name": "VOLVO 760 Kombi (704, 765)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/567/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-01-01",
+      "toDate": "1992-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1639",
+    "name": "VOLVO 780 (782)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1639/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1986-04-01",
+      "toDate": "1990-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3925",
+    "name": "VOLVO 850 (854)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3925/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-06-01",
+      "toDate": "1997-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "57",
+    "name": "VOLVO 850 Estate (855)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/57/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1992-04-01",
+      "toDate": "1997-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "193",
+    "name": "VOLVO 940 (944)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/193/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-08-01",
+      "toDate": "1995-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3926",
+    "name": "VOLVO 940 Kombi (945)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3926/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-08-01",
+      "toDate": "1995-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "197",
+    "name": "VOLVO 940 Mk II (944)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/197/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-08-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "201",
+    "name": "VOLVO 940 Mk II Estate (945)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/201/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-09-01",
+      "toDate": "1998-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "216",
+    "name": "VOLVO 960 (964)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/216/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-08-01",
+      "toDate": "1994-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "229",
+    "name": "VOLVO 960 Kombi (965)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/229/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-08-01",
+      "toDate": "1994-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "220",
+    "name": "VOLVO 960 Mk II (964)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/220/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "225",
+    "name": "VOLVO 960 Mk II Estate (965)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/225/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-07-01",
+      "toDate": "1996-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5610",
+    "name": "VOLVO C30 (533)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38424",
+    "name": "VOLVO C303",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38424/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1974-05-01",
+      "toDate": "1980-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42573",
+    "name": "VOLVO C40",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42573/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3559",
+    "name": "VOLVO C70 I Convertible (873)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3559/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-03-01",
+      "toDate": "2005-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1989",
+    "name": "VOLVO C70 I Coupe (872)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1989/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-03-01",
+      "toDate": "2002-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5568",
+    "name": "VOLVO C70 II Convertible (542)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5568/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1617",
+    "name": "VOLVO P 121",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1617/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1959-05-01",
+      "toDate": "1971-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1618",
+    "name": "VOLVO P 122 S AMAZON",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1618/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1959-05-01",
+      "toDate": "1971-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2068",
+    "name": "VOLVO P 122 S AMAZON Estate (120, 121)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2068/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1959-05-01",
+      "toDate": "1971-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1624",
+    "name": "VOLVO P 1800 (P18)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1624/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-04-01",
+      "toDate": "1973-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1638",
+    "name": "VOLVO P 210 DUETT (P211, P212)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1638/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1960-05-01",
+      "toDate": "1967-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1625",
+    "name": "VOLVO P 2200 Estate (P210)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1625/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1964-09-01",
+      "toDate": "1967-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "34194",
+    "name": "VOLVO PV 444 Saloon (P11)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/34194/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1943-09-01",
+      "toDate": "1958-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40797",
+    "name": "VOLVO PV 445 DUETT (P445)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40797/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1953-09-01",
+      "toDate": "1961-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1635",
+    "name": "VOLVO PV 544 (P11)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1635/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1958-08-01",
+      "toDate": "1967-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1513",
+    "name": "VOLVO S40 I (644)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1513/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-07-01",
+      "toDate": "2004-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5089",
+    "name": "VOLVO S40 II (544)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5089/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-12-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4696",
+    "name": "VOLVO S60 I (384)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4696/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-07-01",
+      "toDate": "2010-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8616",
+    "name": "VOLVO S60 II (134)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8616/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-04-01",
+      "toDate": "2019-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43013",
+    "name": "VOLVO S60 II Cross Country (134)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43013/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": "2018-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39574",
+    "name": "VOLVO S60 III (224)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39574/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "3499",
+    "name": "VOLVO S70 (874)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3499/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-11-01",
+      "toDate": "2000-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3550",
+    "name": "VOLVO S80 I (184)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3550/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-05-01",
+      "toDate": "2008-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5520",
+    "name": "VOLVO S80 II (124)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5520/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2016-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1821",
+    "name": "VOLVO S90 I (964)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1821/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-11-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "36541",
+    "name": "VOLVO S90 II (234)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36541/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42986",
+    "name": "VOLVO V40 Cross Country (526)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42986/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "42985",
+    "name": "VOLVO V40 Cross Country (526)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42985/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-10-01",
+      "toDate": "2019-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1514",
+    "name": "VOLVO V40 Estate (645)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1514/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-07-01",
+      "toDate": "2004-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10251",
+    "name": "VOLVO V40 Hatchback (525)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10251/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-03-01",
+      "toDate": "2019-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39043",
+    "name": "VOLVO V40 Hatchback Van (525)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39043/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5090",
+    "name": "VOLVO V50 (545)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5090/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-12-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9124",
+    "name": "VOLVO V60 I (155)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9124/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-07-01",
+      "toDate": "2018-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43018",
+    "name": "VOLVO V60 I Cross Country (157)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43018/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-09-01",
+      "toDate": "2018-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39044",
+    "name": "VOLVO V60 I Estate Van (155)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39044/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38603",
+    "name": "VOLVO V60 II (225)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38603/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43021",
+    "name": "VOLVO V60 II Cross Country (227)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43021/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-02-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1820",
+    "name": "VOLVO V70   (875, 876)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1820/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-12-01",
+      "toDate": "2000-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6390",
+    "name": "VOLVO V70 III (135)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6390/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-04-01",
+      "toDate": "2016-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39037",
+    "name": "VOLVO V70 III Estate Van (135)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39037/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-09-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4600",
+    "name": "VOLVO V70 Mk II (285)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4600/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-11-01",
+      "toDate": "2008-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1822",
+    "name": "VOLVO V90 I Estate (965)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1822/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-11-01",
+      "toDate": "1998-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "43022",
+    "name": "VOLVO V90 II Cross Country (236)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43022/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36540",
+    "name": "VOLVO V90 II Estate (235)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36540/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38232",
+    "name": "VOLVO XC40 (536)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38232/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7583",
+    "name": "VOLVO XC60 I SUV (156)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7583/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-05-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41675",
+    "name": "VOLVO XC60 I VAN (156)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41675/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-05-01",
+      "toDate": "2017-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37773",
+    "name": "VOLVO XC60 II (246)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37773/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4867",
+    "name": "VOLVO XC70 I Cross Country (295)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4867/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-10-01",
+      "toDate": "2007-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6391",
+    "name": "VOLVO XC70 II (136)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6391/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-04-01",
+      "toDate": "2016-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41742",
+    "name": "VOLVO XC70 II VAN (136)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41742/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-04-01",
+      "toDate": "2016-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4879",
+    "name": "VOLVO XC90 I (275)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4879/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-06-01",
+      "toDate": "2015-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41682",
+    "name": "VOLVO XC90 I VAN (275)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41682/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-06-01",
+      "toDate": "2015-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "13084",
+    "name": "VOLVO XC90 II (256)",
+    "manufacturerId": "120",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13084/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-09-01",
+      "toDate": null
+    },
+    "variants": []
+  }
+]

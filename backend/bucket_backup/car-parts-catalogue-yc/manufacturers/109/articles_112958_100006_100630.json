@@ -1,0 +1,98 @@
+[
+  {
+    "id": "5090865",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "8DZ 355 203-881",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112958",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5090865/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Technical Information Number": "K0269",
+      "Article ID:": "5090865",
+      "Article Number:": "8DZ 355 203-881",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "408230038637",
+      "OEM Numbers TOYOTA:": "0494852040"
+    }
+  },
+  {
+    "id": "5090866",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "8DZ 355 203-881",
+    "manufacturer": "HELLA PAGID",
+    "supplierId": "4625",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112958",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5090866/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Technical Information Number": "K0269",
+      "Article ID:": "5090866",
+      "Article Number:": "8DZ 355 203-881",
+      "Manufacturer:": "HELLA PAGID",
+      "EAN Numbers:": "408230038637",
+      "OEM Numbers TOYOTA:": "0494852040"
+    }
+  },
+  {
+    "id": "8048326",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "MBA1808",
+    "manufacturer": "MINTEX",
+    "supplierId": "73",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112958",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8048326/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,066",
+      "Packaging length [cm]": "18,5",
+      "Packaging width [cm]": "1",
+      "Packaging height [cm]": "12",
+      "Article ID:": "8048326",
+      "Article Number:": "MBA1808",
+      "Manufacturer:": "MINTEX",
+      "EAN Numbers:": "502874077930",
+      "OEM Numbers TOYOTA:": "0494852040"
+    }
+  },
+  {
+    "id": "4792873",
+    "name": "Accessory Kit, disc brake pad",
+    "partNo": "82509700",
+    "manufacturer": "TEXTAR",
+    "supplierId": "39",
+    "productsId": "1164",
+    "productGroupId": "100630",
+    "categoryId": "100006",
+    "variantId": "112958",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4792873/model-series-id-14109/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,066",
+      "Brake System": "Akebono",
+      "Packaging length [cm]": "18,5",
+      "Packaging width [cm]": "12,5",
+      "Packaging height [cm]": "1",
+      "Number of Parts [parts]": "9",
+      "Article ID:": "4792873",
+      "Article Number:": "82509700",
+      "Manufacturer:": "TEXTAR",
+      "EAN Numbers:": "401972242798",
+      "OEM Numbers TOYOTA:": "0494852040"
+    }
+  }
+]

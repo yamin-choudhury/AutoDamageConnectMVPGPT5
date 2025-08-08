@@ -1,0 +1,48 @@
+[
+  {
+    "id": "5617453",
+    "name": "Oil Cooler, engine oil",
+    "partNo": "ADG06133",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "469",
+    "productGroupId": "100108",
+    "categoryId": "100007",
+    "variantId": "135596",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5617453/model-series-id-38807/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,339",
+      "Article ID:": "5617453",
+      "Article Number:": "ADG06133",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774616089",
+      "OEM Numbers HYUNDAI:": "26410-2A650",
+      "OEM Numbers KIA:": "26410-2A501"
+    }
+  },
+  {
+    "id": "947031",
+    "name": "Oil Cooler, engine oil",
+    "partNo": "108011",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "469",
+    "productGroupId": "100108",
+    "categoryId": "100007",
+    "variantId": "135596",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/947031/model-series-id-38807/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,339",
+      "Article ID:": "947031",
+      "Article Number:": "108011",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422408011",
+      "OEM Numbers HYUNDAI:": "26410-2A650",
+      "OEM Numbers KIA:": "26410-2A501"
+    }
+  }
+]

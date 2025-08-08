@@ -1,0 +1,31 @@
+[
+  {
+    "id": "7701683",
+    "name": "Tie Rod End",
+    "partNo": "JTE683",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "914",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "124556",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7701683/model-series-id-7322/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Cone Pitch": "1:6",
+      "Length [mm]": "103",
+      "Cone Size [mm]": "12,5",
+      "Thread Type": "with right-hand thread",
+      "Supplementary Article/Supplementary Info": "with accessories",
+      "Thread Size 1": "M12x1,25",
+      "Thread Size 2": "M15x1,5",
+      "Article ID:": "7701683",
+      "Article Number:": "JTE683",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293757537",
+      "OEM Numbers TOYOTA:": "45046-29255",
+      "OEM Numbers LEXUS:": "45046-29255"
+    }
+  }
+]

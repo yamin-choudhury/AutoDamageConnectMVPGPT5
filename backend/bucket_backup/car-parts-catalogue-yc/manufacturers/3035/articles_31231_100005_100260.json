@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1531065",
+    "name": "Air Filter",
+    "partNo": "1656284680",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1531065/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "257,5",
+      "Width [mm]": "191,5",
+      "Height [mm]": "46",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1531065",
+      "Article Number:": "1656284680",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers VW (SVW):": "271296201"
+    }
+  },
+  {
+    "id": "7963624",
+    "name": "Air Filter",
+    "partNo": "LX 1679",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7963624/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "254",
+      "Width [mm]": "189",
+      "Height [mm]": "49,0",
+      "Filter type": "Filter Insert",
+      "Article ID:": "7963624",
+      "Article Number:": "LX 1679",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "695753510091",
+      "OEM Numbers VW (SVW):": "027 129 620.1"
+    }
+  },
+  {
+    "id": "3435895",
+    "name": "Air Filter",
+    "partNo": "46948",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3435895/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "3435895",
+      "Article Number:": "46948",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509346948",
+      "OEM Numbers VW:": "04E129620A"
+    }
+  }
+]

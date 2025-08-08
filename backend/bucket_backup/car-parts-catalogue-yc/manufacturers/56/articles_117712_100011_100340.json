@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2192914",
+    "name": "Shock Absorber",
+    "partNo": "24-278218",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "117712",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2192914/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Spring-bearing Damper",
+      "Shock Absorber System": "Monotube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "2192914",
+      "Article Number:": "24-278218",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525880917",
+      "OEM Numbers JAGUAR:": "T4A26513"
+    }
+  },
+  {
+    "id": "2192915",
+    "name": "Shock Absorber",
+    "partNo": "24-278225",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "117712",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2192915/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Absorber does not carry a spring",
+      "Shock Absorber System": "Monotube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "2192915",
+      "Article Number:": "24-278225",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525880918",
+      "OEM Numbers JAGUAR:": "T4A2011"
+    }
+  }
+]

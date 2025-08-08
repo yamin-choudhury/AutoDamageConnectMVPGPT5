@@ -1,0 +1,83 @@
+[
+  {
+    "id": "863096",
+    "name": "Bellow Kit, steering",
+    "partNo": "102348",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/863096/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "4410A328 S1",
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "166",
+      "Weight [kg]": "0,074",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "15",
+      "Inner diameter 2 [mm]": "51",
+      "Article ID:": "863096",
+      "Article Number:": "102348",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422402348",
+      "OEM Numbers MITSUBISHI:": "4410A328 S1"
+    }
+  },
+  {
+    "id": "2996902",
+    "name": "Bellow, steering",
+    "partNo": "37628 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2996902/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "166",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "14",
+      "Inner diameter 2 [mm]": "51",
+      "Article ID:": "2996902",
+      "Article Number:": "37628 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743743069",
+      "OEM Numbers MITSUBISHI:": "4410A328"
+    }
+  },
+  {
+    "id": "4630800",
+    "name": "Bellow Kit, steering",
+    "partNo": "80 10 2348",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "54898",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4630800/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "166",
+      "Weight [kg]": "0,074",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "15",
+      "Inner diameter 2 [mm]": "51",
+      "Article ID:": "4630800",
+      "Article Number:": "80 10 2348",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422802348",
+      "OEM Numbers MITSUBISHI:": "4410A328 S1"
+    }
+  }
+]

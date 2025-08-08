@@ -1,0 +1,46 @@
+[
+  {
+    "id": "3019534",
+    "name": "Brake Caliper",
+    "partNo": "38298106",
+    "manufacturer": "TEXTAR",
+    "supplierId": "39",
+    "productsId": "78",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "125086",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3019534/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3019534",
+      "Article Number:": "38298106",
+      "Manufacturer:": "TEXTAR",
+      "EAN Numbers:": "401972255299",
+      "OEM Numbers AUDI (FAW):": "4GD615403",
+      "OEM Numbers VW (SVW):": "4GD615403"
+    }
+  },
+  {
+    "id": "3019535",
+    "name": "Brake Caliper",
+    "partNo": "38298206",
+    "manufacturer": "TEXTAR",
+    "supplierId": "39",
+    "productsId": "78",
+    "productGroupId": "100807",
+    "categoryId": "100006",
+    "variantId": "125086",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3019535/model-series-id-37478/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3019535",
+      "Article Number:": "38298206",
+      "Manufacturer:": "TEXTAR",
+      "EAN Numbers:": "401972255300",
+      "OEM Numbers AUDI (FAW):": "4GD615404",
+      "OEM Numbers VW (SVW):": "4GD615404"
+    }
+  }
+]

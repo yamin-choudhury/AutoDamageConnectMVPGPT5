@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1443630",
+    "name": "Mounting, engine",
+    "partNo": "15418",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "14278",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1443630/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Weight [g]": "1643",
+      "Article ID:": "1443630",
+      "Article Number:": "15418",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205418",
+      "OEM Numbers SEAT:": "6Q0199555AE",
+      "OEM Numbers SKODA:": "6RF199555A",
+      "OEM Numbers VW:": "6Q0199555AE",
+      "OEM Numbers VAG:": "6R0199555"
+    }
+  },
+  {
+    "id": "1443632",
+    "name": "Mounting, engine",
+    "partNo": "15418",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "14278",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1443632/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Weight [g]": "1643",
+      "Article ID:": "1443632",
+      "Article Number:": "15418",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205418",
+      "OEM Numbers SEAT:": "6Q0199555AE",
+      "OEM Numbers SKODA:": "6RF199555A",
+      "OEM Numbers VW:": "6Q0199555AE",
+      "OEM Numbers VAG:": "6R0199555"
+    }
+  }
+]

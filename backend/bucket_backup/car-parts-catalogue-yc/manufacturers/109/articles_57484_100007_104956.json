@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3751181",
+    "name": "Water Pump, engine cooling",
+    "partNo": "538 0061 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "57484",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3751181/model-series-id-10874/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "22",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Water Pump Type": "for toothed belt drive",
+      "Article ID:": "3751181",
+      "Article Number:": "538 0061 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "400510882343",
+      "OEM Numbers SUZUKI:": "1740070B00",
+      "OEM Numbers DAEWOO:": "96666219",
+      "OEM Numbers CHEVROLET:": "96666221"
+    }
+  },
+  {
+    "id": "1071113",
+    "name": "Water Pump, engine cooling",
+    "partNo": "11574",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1260",
+    "productGroupId": "104956",
+    "categoryId": "100007",
+    "variantId": "57484",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1071113/model-series-id-10874/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "1071113",
+      "Article Number:": "11574",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509311574",
+      "OEM Numbers SUZUKI:": "17400-61810",
+      "OEM Numbers CHEVROLET:": "96666219"
+    }
+  }
+]

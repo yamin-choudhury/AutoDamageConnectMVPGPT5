@@ -1,0 +1,75 @@
+[
+  {
+    "id": "4641886",
+    "name": "Repair Kit, brake booster",
+    "partNo": "80010",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "662",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "14443",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4641886/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "12",
+      "Article ID:": "4641886",
+      "Article Number:": "80010",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843381904353",
+      "OEM Numbers VOLVO:": "270596",
+      "OEM Numbers CITROËN/PEUGEOT:": "95611063",
+      "OEM Numbers NISSAN:": "4747870J85",
+      "OEM Numbers RENAULT:": "7701201793"
+    }
+  },
+  {
+    "id": "3207060",
+    "name": "Brake Booster",
+    "partNo": "4110452",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "14443",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3207060/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "BENDIX",
+      "Diameter [in]": "9",
+      "Article ID:": "3207060",
+      "Article Number:": "4110452",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293741370",
+      "OEM Numbers CITROËN:": "4535 E1",
+      "OEM Numbers PEUGEOT:": "4535 E1"
+    }
+  },
+  {
+    "id": "8629008",
+    "name": "Brake Booster",
+    "partNo": "PSA452",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "14443",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8629008/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "BENDIX",
+      "Diameter [in]": "9",
+      "Article ID:": "8629008",
+      "Article Number:": "PSA452",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293741307",
+      "OEM Numbers CITROËN:": "4535 E1",
+      "OEM Numbers PEUGEOT:": "4535 E1"
+    }
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "6404",
+    "type": "electric drive (451.490, 451.491)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "EV",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2010-12-01\n                            \n                            2012-12-01",
+      "power": "20 KW / 27 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22477",
+    "type": "1.0 (451.431, 451.480)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 132.910",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-01-01",
+      "power": "52 KW / 71 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22478",
+    "type": "1.0 Turbo (451.432)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 132.930",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2007-01-01",
+      "power": "62 KW / 84 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "22479",
+    "type": "0.8 CDi (451.400)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "OM 660.950",
+      "cylinder": "3",
+      "capacity": "799 CCM / 0.8 L",
+      "fuelType": "Diesel",
+      "year": "2007-01-01",
+      "power": "33 KW / 45 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "26598",
+    "type": "1.0 Brabus (451.433)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 132.930",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01",
+      "power": "72 KW / 98 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "32817",
+    "type": "0.8 CDi (451.401)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "OM 660.951",
+      "cylinder": "3",
+      "capacity": "799 CCM / 0.8 L",
+      "fuelType": "Diesel",
+      "year": "2009-08-01",
+      "power": "40 KW / 54 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33859",
+    "type": "1.0 Turbo Brabus (451.433)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 132.930",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-07-01",
+      "power": "75 KW / 102 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55001",
+    "type": "Electric",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2010-09-01\n                            \n                            2012-12-01",
+      "power": "22 KW / 30 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "55395",
+    "type": "1.0 Brabus",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 132.930",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-04-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58955",
+    "type": "electric drive Brabus (451.492)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "EV",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2013-01-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58956",
+    "type": "electric drive (451.491)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "EV",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2009-11-01\n                            \n                            2011-12-01",
+      "power": "30 KW / 41 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58957",
+    "type": "electric drive (451.490, 451.491)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "EV",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2013-01-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58959",
+    "type": "electric drive (451.490)",
+    "modelId": "6228",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "EV",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2011-12-01\n                            \n                            2012-12-01",
+      "power": "35 KW / 48 PS"
+    },
+    "categories": []
+  }
+]

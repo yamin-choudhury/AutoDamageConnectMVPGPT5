@@ -1,0 +1,50 @@
+[
+  {
+    "id": "147474",
+    "type": "GT Mild Hybrid Q4",
+    "modelId": "42910",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "670 05 31 15",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2022-04-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "147475",
+    "type": "Modena Mild Hybrid Q4",
+    "modelId": "42910",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "670 05 31 15",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2022-04-01",
+      "power": "243 KW / 330 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "147476",
+    "type": "Trofeo Q4",
+    "modelId": "42910",
+    "manufacturerId": "771",
+    "url": "",
+    "specs": {
+      "engineCode": "670053491",
+      "cylinder": "6",
+      "capacity": "2,992 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2022-04-01",
+      "power": "390 KW / 530 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5620198",
+    "name": "Ignition Coil",
+    "partNo": "ADH21487",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "25895",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5620198/model-series-id-10005/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "30520-RB0-003",
+      "Weight [kg]": "0,278",
+      "Number of connectors": "3",
+      "Article ID:": "5620198",
+      "Article Number:": "ADH21487",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006322269",
+      "OEM Numbers HONDA:": "30520-RB0-S01"
+    }
+  },
+  {
+    "id": "943703",
+    "name": "Ignition Coil",
+    "partNo": "107759",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "25895",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/943703/model-series-id-10005/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "30520-RB0-003",
+      "Weight [kg]": "0,278",
+      "Number of connectors": "3",
+      "Article ID:": "943703",
+      "Article Number:": "107759",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422407759",
+      "OEM Numbers HONDA:": "30520-RB0-S01"
+    }
+  }
+]

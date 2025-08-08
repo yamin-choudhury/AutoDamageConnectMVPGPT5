@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5626381",
+    "name": "Ignition Coil",
+    "partNo": "ADM51495",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "124196",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5626381/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "ZJ20-18-100A",
+      "Weight [kg]": "0,190",
+      "Number of connectors": "3",
+      "Article ID:": "5626381",
+      "Article Number:": "ADM51495",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006325401",
+      "OEM Numbers MAZDA:": "ZJ20-18-100A"
+    }
+  },
+  {
+    "id": "931504",
+    "name": "Ignition Coil",
+    "partNo": "106775",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "124196",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/931504/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "ZJ20-18-100A",
+      "Weight [kg]": "0,190",
+      "Number of connectors": "3",
+      "Article ID:": "931504",
+      "Article Number:": "106775",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422406775",
+      "OEM Numbers MAZDA:": "ZJ20-18-100A"
+    }
+  },
+  {
+    "id": "4811496",
+    "name": "Ignition Coil",
+    "partNo": "83 10 6775",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "124196",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4811496/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "ZJ20-18-100A",
+      "Weight [kg]": "0,190",
+      "Number of connectors": "3",
+      "Article ID:": "4811496",
+      "Article Number:": "83 10 6775",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422806775",
+      "OEM Numbers MAZDA:": "ZJ20-18-100A"
+    }
+  }
+]

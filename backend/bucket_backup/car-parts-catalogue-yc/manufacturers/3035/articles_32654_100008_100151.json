@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2103365",
+    "name": "Spark Plug",
+    "partNo": "22846",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "686",
+    "productGroupId": "100151",
+    "categoryId": "100008",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2103365/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "External Thread [mm]": "M14×1,25",
+      "Spanner Size": "16mm",
+      "Article ID:": "2103365",
+      "Article Number:": "22846",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509322846",
+      "OEM Numbers TOYOTA:": "BCP6ES"
+    }
+  },
+  {
+    "id": "3688861",
+    "name": "Spark Plug",
+    "partNo": "52187",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "686",
+    "productGroupId": "100151",
+    "categoryId": "100008",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3688861/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M14×1,25",
+      "Thread Length [mm]": "19",
+      "Article ID:": "3688861",
+      "Article Number:": "52187",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509352187",
+      "OEM Numbers OPEL:": "K16PRU11",
+      "OEM Numbers PEUGEOT:": "K16PRU11",
+      "OEM Numbers RENAULT:": "K16PRU11"
+    }
+  }
+]

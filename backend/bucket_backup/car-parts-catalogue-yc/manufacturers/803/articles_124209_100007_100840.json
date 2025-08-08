@@ -1,0 +1,73 @@
+[
+  {
+    "id": "239619",
+    "name": "Gasket, coolant flange",
+    "partNo": "01203700",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3248",
+    "productGroupId": "100840",
+    "categoryId": "100007",
+    "variantId": "124209",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/239619/model-series-id-4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "5",
+      "Length [mm]": "87",
+      "Width [mm]": "40",
+      "Article ID:": "239619",
+      "Article Number:": "01203700",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776997868",
+      "OEM Numbers VOLVO:": "31293200"
+    }
+  },
+  {
+    "id": "4355661",
+    "name": "Gasket, coolant flange",
+    "partNo": "7026522",
+    "manufacturer": "ELWIS ROYAL",
+    "supplierId": "237",
+    "productsId": "3248",
+    "productGroupId": "100840",
+    "categoryId": "100007",
+    "variantId": "124209",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4355661/model-series-id-4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Required quantity": "1",
+      "Material": "NBR (nitrile butadiene rubber)",
+      "Gasket Design": "Soft Material Gasket",
+      "Article ID:": "4355661",
+      "Article Number:": "7026522",
+      "Manufacturer:": "ELWIS ROYAL",
+      "EAN Numbers:": "570329612842",
+      "OEM Numbers FORD:": "7M5G 8D020CA"
+    }
+  },
+  {
+    "id": "9915843",
+    "name": "Gasket, coolant flange",
+    "partNo": "WG1448741",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "3248",
+    "productGroupId": "100840",
+    "categoryId": "100007",
+    "variantId": "124209",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9915843/model-series-id-4414/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "5",
+      "Length [mm]": "87",
+      "Width [mm]": "40",
+      "Article ID:": "9915843",
+      "Article Number:": "WG1448741",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers VOLVO:": "31293200"
+    }
+  }
+]

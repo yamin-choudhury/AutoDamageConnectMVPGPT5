@@ -1,0 +1,44 @@
+[
+  {
+    "id": "7982985",
+    "name": "Fuel Filter",
+    "partNo": "M09687",
+    "manufacturer": "Movelex",
+    "supplierId": "6533",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "3250",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7982985/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "7982985",
+      "Article Number:": "M09687",
+      "Manufacturer:": "Movelex",
+      "OEM Numbers HYUNDAI:": "31911-2D000"
+    }
+  },
+  {
+    "id": "7992763",
+    "name": "Fuel Filter",
+    "partNo": "M23281",
+    "manufacturer": "Movelex",
+    "supplierId": "6533",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "3250",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7992763/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "7992763",
+      "Article Number:": "M23281",
+      "Manufacturer:": "Movelex",
+      "OEM Numbers HYUNDAI:": "31910-2H000"
+    }
+  }
+]

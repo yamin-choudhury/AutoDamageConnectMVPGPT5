@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1524796",
+    "name": "Air Filter",
+    "partNo": "1646456380",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1524796/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "184",
+      "Width [mm]": "309",
+      "Height [mm]": "66",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1524796",
+      "Article Number:": "1646456380",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers VW (SVW):": "330129620"
+    }
+  },
+  {
+    "id": "1539570",
+    "name": "Air Filter",
+    "partNo": "1672359180",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1539570/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "184",
+      "Width [mm]": "309",
+      "Height [mm]": "66",
+      "Shape": "rectangular",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1539570",
+      "Article Number:": "1672359180",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "191129620",
+      "OEM Numbers VW:": "191129620",
+      "OEM Numbers VW (SVW):": "330129620"
+    }
+  },
+  {
+    "id": "7963625",
+    "name": "Air Filter",
+    "partNo": "LX 1680",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7963625/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "309",
+      "Width [mm]": "185",
+      "Height [mm]": "65,0",
+      "Filter type": "Filter Insert",
+      "Article ID:": "7963625",
+      "Article Number:": "LX 1680",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "695753510092",
+      "OEM Numbers VW:": "330129620"
+    }
+  },
+  {
+    "id": "545947",
+    "name": "Air Filter",
+    "partNo": "06377",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "32654",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/545947/model-series-id-8470/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Core Dimensions": "308×184,5×66",
+      "Filter type": "Filter Insert",
+      "Article ID:": "545947",
+      "Article Number:": "06377",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357306377",
+      "OEM Numbers VW:": "330 129 620"
+    }
+  }
+]

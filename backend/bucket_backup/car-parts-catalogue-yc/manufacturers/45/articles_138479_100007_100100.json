@@ -1,0 +1,42 @@
+[
+  {
+    "id": "8723795",
+    "name": "Radiator Hose",
+    "partNo": "R40152",
+    "manufacturer": "RAPRO",
+    "supplierId": "4303",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "138479",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8723795/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8723795",
+      "Article Number:": "R40152",
+      "Manufacturer:": "RAPRO",
+      "OEM Numbers HONDA:": "19502-5A2-A01"
+    }
+  },
+  {
+    "id": "8723813",
+    "name": "Radiator Hose",
+    "partNo": "R40169",
+    "manufacturer": "RAPRO",
+    "supplierId": "4303",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "138479",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8723813/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8723813",
+      "Article Number:": "R40169",
+      "Manufacturer:": "RAPRO",
+      "OEM Numbers HONDA:": "19501-5A2-A01"
+    }
+  }
+]

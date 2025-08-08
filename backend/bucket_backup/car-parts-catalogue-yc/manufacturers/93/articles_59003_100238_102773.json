@@ -1,0 +1,46 @@
+[
+  {
+    "id": "3753322",
+    "name": "Mounting, manual transmission",
+    "partNo": "538B36",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "59003",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3753322/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3753322",
+      "Article Number:": "538B36",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975080155",
+      "OEM Numbers RENAULT:": "112205217R",
+      "OEM Numbers DACIA:": "112205217R"
+    }
+  },
+  {
+    "id": "3753338",
+    "name": "Mounting, manual transmission",
+    "partNo": "538C27",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "59003",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3753338/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3753338",
+      "Article Number:": "538C27",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975080157",
+      "OEM Numbers RENAULT:": "112202847R",
+      "OEM Numbers DACIA:": "112202847R"
+    }
+  }
+]

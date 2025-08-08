@@ -1,0 +1,65 @@
+[
+  {
+    "id": "799316",
+    "name": "Actuator, air conditioning",
+    "partNo": "10.7092",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "10288",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/799316/model-series-id-6240/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "799316",
+      "Article Number:": "10.7092",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320846631",
+      "OEM Numbers FORD:": "1S7H19B634CA"
+    }
+  },
+  {
+    "id": "799317",
+    "name": "Actuator, air conditioning",
+    "partNo": "10.7092",
+    "manufacturer": "KRIOS",
+    "supplierId": "4399",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "10288",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/799317/model-series-id-6240/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "799317",
+      "Article Number:": "10.7092",
+      "Manufacturer:": "KRIOS",
+      "EAN Numbers:": "803320846631",
+      "OEM Numbers FORD:": "1S7H19B634CA"
+    }
+  },
+  {
+    "id": "799314",
+    "name": "Actuator, air conditioning",
+    "partNo": "10.7092",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "1668",
+    "productGroupId": "100726",
+    "categoryId": "100241",
+    "variantId": "10288",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/799314/model-series-id-6240/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "799314",
+      "Article Number:": "10.7092",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320846631",
+      "OEM Numbers FORD:": "1S7H19B634CA"
+    }
+  }
+]

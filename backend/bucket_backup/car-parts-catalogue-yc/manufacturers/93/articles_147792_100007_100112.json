@@ -1,0 +1,38 @@
+[
+  {
+    "id": "8753452",
+    "name": "Cap, coolant tank",
+    "partNo": "RC223",
+    "manufacturer": "GATES",
+    "supplierId": "33",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "147792",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8753452/model-series-id-40399/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "32",
+      "Pressure [bar]": "1,4",
+      "Outer diameter [mm]": "52",
+      "Pressure [psi]": "20",
+      "Suitable for vehicle type": "PC (passenger car)",
+      "Article ID:": "8753452",
+      "Article Number:": "RC223",
+      "Manufacturer:": "GATES",
+      "EAN Numbers:": "541446564012",
+      "OEM Numbers SUZUKI:": "1793184A00",
+      "OEM Numbers NISSAN:": "21430AX600",
+      "OEM Numbers MERCEDES-BENZ:": "A 415 501 00 15",
+      "OEM Numbers SMART:": "A4155010015",
+      "OEM Numbers OPEL:": "91166192",
+      "OEM Numbers VAUXHALL:": "91166192",
+      "OEM Numbers RENAULT:": "82 00 048 024",
+      "OEM Numbers LADA:": "8200048024",
+      "OEM Numbers DACIA:": "8200048024",
+      "OEM Numbers ALPINE:": "8200048024",
+      "OEM Numbers SAMSUNG:": "8200048024"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7755537",
+    "name": "Sensor, parking distance control",
+    "partNo": "KA-807201",
+    "manufacturer": "KRAW",
+    "supplierId": "5314",
+    "productsId": "2412",
+    "productGroupId": "100618",
+    "categoryId": "100335",
+    "variantId": "420",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7755537/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Sensor Type": "Ultrasonic Sensor",
+      "Number of pins": "3",
+      "Socket colour": "Grey",
+      "Article ID:": "7755537",
+      "Article Number:": "KA-807201",
+      "Manufacturer:": "KRAW",
+      "EAN Numbers:": "868155880596",
+      "OEM Numbers MITSUBISHI:": "MR587688"
+    }
+  },
+  {
+    "id": "7755538",
+    "name": "Sensor, parking distance control",
+    "partNo": "KA-807301",
+    "manufacturer": "KRAW",
+    "supplierId": "5314",
+    "productsId": "2412",
+    "productGroupId": "100618",
+    "categoryId": "100335",
+    "variantId": "420",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7755538/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear",
+      "Sensor Type": "Ultrasonic Sensor",
+      "Number of pins": "3",
+      "Socket colour": "Black",
+      "Article ID:": "7755538",
+      "Article Number:": "KA-807301",
+      "Manufacturer:": "KRAW",
+      "EAN Numbers:": "868155880597",
+      "OEM Numbers MITSUBISHI:": "8651A056HA"
+    }
+  }
+]

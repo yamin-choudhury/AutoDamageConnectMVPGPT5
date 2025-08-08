@@ -1,0 +1,61 @@
+[
+  {
+    "id": "2823767",
+    "name": "Bellow, steering",
+    "partNo": "33739 01",
+    "manufacturer": "LEMFÖRDER",
+    "supplierId": "35",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "23390",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2823767/model-series-id-6434/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "190",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "15,5",
+      "Inner diameter 2 [mm]": "49,5",
+      "Article ID:": "2823767",
+      "Article Number:": "33739 01",
+      "Manufacturer:": "LEMFÖRDER",
+      "EAN Numbers:": "404743732975",
+      "OEM Numbers AUDI:": "1K0 423 831 A",
+      "OEM Numbers SEAT:": "1K0 423 831 A",
+      "OEM Numbers SKODA:": "1K0 423 831 A",
+      "OEM Numbers VW:": "5C0 423 831",
+      "OEM Numbers AUDI (FAW):": "1K0 423 831 A",
+      "OEM Numbers VW (FAW):": "1K0 423 831 A",
+      "OEM Numbers VW (SVW):": "1K0 423 831 A",
+      "OEM Numbers SKODA (SVW):": "1K0 423 831 A",
+      "OEM Numbers CUPRA:": "1K0 423 831 A"
+    }
+  },
+  {
+    "id": "465279",
+    "name": "Bellow, steering",
+    "partNo": "04949",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "23390",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/465279/model-series-id-6434/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "190",
+      "Inner diameter 1 [mm]": "15,5",
+      "Inner diameter 2 [mm]": "49,5",
+      "Article ID:": "465279",
+      "Article Number:": "04949",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357304949",
+      "OEM Numbers AUDI:": "1K0 423 831 B"
+    }
+  }
+]

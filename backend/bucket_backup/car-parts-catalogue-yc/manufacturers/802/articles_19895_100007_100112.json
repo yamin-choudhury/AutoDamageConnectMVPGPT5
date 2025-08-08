@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2664546",
+    "name": "Cap, coolant tank",
+    "partNo": "313403",
+    "manufacturer": "TRICLO",
+    "supplierId": "4970",
+    "productsId": "56",
+    "productGroupId": "100112",
+    "categoryId": "100007",
+    "variantId": "19895",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2664546/model-series-id-5621/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Required quantity": "1",
+      "Switch point from [bar]": "1,4",
+      "Switch point to [bar]": "1,6",
+      "Article ID:": "2664546",
+      "Article Number:": "313403",
+      "Manufacturer:": "TRICLO",
+      "OEM Numbers AUDI:": "1J0121321B",
+      "OEM Numbers SEAT:": "1J0121321B",
+      "OEM Numbers SKODA:": "1J0121321B",
+      "OEM Numbers VW:": "1J0121321B"
+    }
+  }
+]

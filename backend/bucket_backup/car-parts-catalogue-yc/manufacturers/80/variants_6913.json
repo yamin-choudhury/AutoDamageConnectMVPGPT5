@@ -1,0 +1,18 @@
+[
+  {
+    "id": "25240",
+    "type": "1.7 D",
+    "modelId": "6913",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "CD17",
+      "cylinder": "4",
+      "capacity": "1,681 CCM / 1.7 L",
+      "fuelType": "Diesel",
+      "year": "1999-05-01\n                            \n                            2008-12-01",
+      "power": "40 KW / 54 PS"
+    },
+    "categories": []
+  }
+]

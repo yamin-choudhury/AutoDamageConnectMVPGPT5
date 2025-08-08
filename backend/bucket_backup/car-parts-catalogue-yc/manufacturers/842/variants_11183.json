@@ -1,0 +1,162 @@
+[
+  {
+    "id": "56460",
+    "type": "300h (ASV60_, AVV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FXE",
+      "cylinder": "4",
+      "capacity": "2,493 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2012-09-01\n                            \n                            2018-06-01",
+      "power": "149 KW / 203 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58737",
+    "type": "250 (AVV60_, ASV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01\n                            \n                            2018-06-01",
+      "power": "135 KW / 184 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58738",
+    "type": "300h (ASV60_, AVV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FXE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2012-06-01\n                            \n                            2018-06-01",
+      "power": "151 KW / 205 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58739",
+    "type": "350 (GSV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01\n                            \n                            2018-06-01",
+      "power": "204 KW / 277 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "107346",
+    "type": "350 (GSV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01\n                            \n                            2018-06-01",
+      "power": "200 KW / 272 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "114373",
+    "type": "350 (GSV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01\n                            \n                            2018-06-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "116622",
+    "type": "200 (ASV61_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "6AR-FSE",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-08-01\n                            \n                            2018-06-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123261",
+    "type": "250 (AV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01\n                            \n                            2018-06-01",
+      "power": "133 KW / 181 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125108",
+    "type": "200 (ASV61_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "6AR-FSE",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-08-01\n                            \n                            2018-06-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126136",
+    "type": "350 4WD (GSV60_)",
+    "modelId": "11183",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01\n                            \n                            2018-06-01",
+      "power": "204 KW / 277 PS"
+    },
+    "categories": []
+  }
+]

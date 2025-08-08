@@ -1,0 +1,76 @@
+[
+  {
+    "id": "5897788",
+    "name": "Valve, charcoal filter (tank ventilation)",
+    "partNo": "B16933",
+    "manufacturer": "Borsehung",
+    "supplierId": "4815",
+    "productsId": "29",
+    "productGroupId": "706089",
+    "categoryId": "100214",
+    "variantId": "59056",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5897788/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Valve type": "Breather Valve",
+      "Article ID:": "5897788",
+      "Article Number:": "B16933",
+      "Manufacturer:": "Borsehung",
+      "EAN Numbers:": "425147510447",
+      "OEM Numbers AUDI:": "06H 906 517 B",
+      "OEM Numbers SEAT:": "06H 906 517 B"
+    }
+  },
+  {
+    "id": "1047729",
+    "name": "Valve, charcoal filter (tank ventilation)",
+    "partNo": "11331770701",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "29",
+    "productGroupId": "706089",
+    "categoryId": "100214",
+    "variantId": "59056",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1047729/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Valve type": "Breather Valve",
+      "Article ID:": "1047729",
+      "Article Number:": "11331770701",
+      "Manufacturer:": "vika",
+      "OEM Numbers AUDI:": "06J133781BT",
+      "OEM Numbers SEAT:": "06J133781BT",
+      "OEM Numbers SKODA:": "06J133781BT",
+      "OEM Numbers VW:": "06J133781BT"
+    }
+  },
+  {
+    "id": "1723350",
+    "name": "Valve, charcoal filter (tank ventilation)",
+    "partNo": "19061285201",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "29",
+    "productGroupId": "706089",
+    "categoryId": "100214",
+    "variantId": "59056",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1723350/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electrically Controlled",
+      "Valve type": "Non-Return Valve",
+      "Article ID:": "1723350",
+      "Article Number:": "19061285201",
+      "Manufacturer:": "vika",
+      "OEM Numbers AUDI:": "06J133781BT",
+      "OEM Numbers SEAT:": "06J133781BT",
+      "OEM Numbers SKODA:": "06J133781BT",
+      "OEM Numbers VW:": "06J133781BT"
+    }
+  }
+]

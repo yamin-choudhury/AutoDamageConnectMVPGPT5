@@ -1,0 +1,72 @@
+[
+  {
+    "id": "817776",
+    "name": "Clutch Hose",
+    "partNo": "10003851",
+    "manufacturer": "PolarParts",
+    "supplierId": "3032",
+    "productsId": "457",
+    "productGroupId": "100298",
+    "categoryId": "100050",
+    "variantId": "19810",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/817776/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "817776",
+      "Article Number:": "10003851",
+      "Manufacturer:": "PolarParts",
+      "OEM Numbers VOLVO:": "30787872"
+    }
+  },
+  {
+    "id": "4146851",
+    "name": "Clutch Hose",
+    "partNo": "6270 600 001",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "457",
+    "productGroupId": "100298",
+    "categoryId": "100050",
+    "variantId": "19810",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4146851/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Article ID:": "4146851",
+      "Article Number:": "6270 600 001",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387275781",
+      "OEM Numbers FORD:": "3M51-7K590-CE",
+      "OEM Numbers VOLVO:": "8667412",
+      "OEM Numbers MAZDA:": "BP8F-41-380"
+    }
+  },
+  {
+    "id": "3249922",
+    "name": "Clutch Lines",
+    "partNo": "4201300",
+    "manufacturer": "VALEO",
+    "supplierId": "21",
+    "productsId": "516",
+    "productGroupId": "100298",
+    "categoryId": "100050",
+    "variantId": "19810",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3249922/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,12",
+      "Supplementary Article/Info 2": "with pipe connector",
+      "for manufacturer number": "A54062.13",
+      "Article ID:": "3249922",
+      "Article Number:": "4201300",
+      "Manufacturer:": "VALEO",
+      "EAN Numbers:": "327642948670",
+      "OEM Numbers FORD:": "3M51-7K590-CE",
+      "OEM Numbers VOLVO:": "8667412",
+      "OEM Numbers MAZDA:": "BP8F 41 380"
+    }
+  }
+]

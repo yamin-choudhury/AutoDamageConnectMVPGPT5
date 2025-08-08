@@ -1,0 +1,79 @@
+[
+  {
+    "id": "3737849",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "53252",
+    "manufacturer": "AIC",
+    "supplierId": "1368",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "24611",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3737849/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of connectors": "2",
+      "Pump Type": "Mono Pump",
+      "Article ID:": "3737849",
+      "Article Number:": "53252",
+      "Manufacturer:": "AIC",
+      "EAN Numbers:": "0404628353252",
+      "OEM Numbers NISSAN:": "28920-50Y00"
+    }
+  },
+  {
+    "id": "4337852",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "700 132",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "24611",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4337852/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Number of pins": "2",
+      "Rated Voltage [V]": "12",
+      "Supplementary Article/Info 2": "for rear windscreen cleaning",
+      "Pump Type": "Dual Pump",
+      "Connector Shape": "rectangular",
+      "Article ID:": "4337852",
+      "Article Number:": "700 132",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers NISSAN:": "2892 0BU 000",
+      "OEM Numbers RENAULT:": "7700 430 702"
+    }
+  },
+  {
+    "id": "4348463",
+    "name": "Washer Fluid Pump, window cleaning",
+    "partNo": "701 640",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "794",
+    "productGroupId": "100135",
+    "categoryId": "100018",
+    "variantId": "24611",
+    "manufacturerId": "80",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4348463/model-series-id-4651/manufacturer-id-80/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Number of pins": "2",
+      "Rated Voltage [V]": "12",
+      "Supplementary Article/Info 2": "for windscreen cleaning",
+      "Pump Type": "Mono Pump",
+      "Connector Shape": "rectangular",
+      "Article ID:": "4348463",
+      "Article Number:": "701 640",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers NISSAN:": "2892 050 Y00"
+    }
+  }
+]

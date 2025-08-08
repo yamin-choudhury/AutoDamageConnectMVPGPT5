@@ -1,0 +1,66 @@
+[
+  {
+    "id": "126460",
+    "type": "530 V6 4motion",
+    "modelId": "37771",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DDKA,DPKA",
+      "cylinder": "6",
+      "capacity": "2,492 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-03-01",
+      "power": "220 KW / 299 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127238",
+    "type": "380 TSI 4motion",
+    "modelId": "37771",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CUGA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-03-01\n                            \n                            2019-06-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127240",
+    "type": "330 TSI",
+    "modelId": "37771",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DBFC,DKVB,DPLA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-03-01",
+      "power": "137 KW / 186 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138868",
+    "type": "380 TSI 4motion",
+    "modelId": "37771",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DKXA",
+      "cylinder": "4",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-02-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  }
+]

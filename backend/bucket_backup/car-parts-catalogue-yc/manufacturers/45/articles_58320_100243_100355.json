@@ -1,0 +1,78 @@
+[
+  {
+    "id": "945587",
+    "name": "Condenser, air conditioning",
+    "partNo": "107993",
+    "manufacturer": "AUTOGAMMA",
+    "supplierId": "4688",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/945587/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "12",
+      "Width [mm]": "318",
+      "Height [mm]": "673",
+      "Supplementary Article/Info 2": "with dryer",
+      "Article ID:": "945587",
+      "Article Number:": "107993",
+      "Manufacturer:": "AUTOGAMMA",
+      "EAN Numbers:": "366220623854",
+      "OEM Numbers AUDI:": "8W0816421J"
+    }
+  },
+  {
+    "id": "945594",
+    "name": "Condenser, air conditioning",
+    "partNo": "107994",
+    "manufacturer": "AUTOGAMMA",
+    "supplierId": "4688",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/945594/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "16",
+      "Width [mm]": "345",
+      "Height [mm]": "726",
+      "Supplementary Article/Info 2": "with dryer",
+      "Article ID:": "945594",
+      "Article Number:": "107994",
+      "Manufacturer:": "AUTOGAMMA",
+      "EAN Numbers:": "366220623855",
+      "OEM Numbers HONDA:": "80110T2JH01"
+    }
+  },
+  {
+    "id": "757901",
+    "name": "Condenser, air conditioning",
+    "partNo": "1.31.30057.PDH",
+    "manufacturer": "REACH",
+    "supplierId": "4020",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "58320",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/757901/model-series-id-10998/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "15,3",
+      "Outer diameter [mm]": "13,7",
+      "Supplementary Article/Info 2": "with dryer",
+      "Core Length [mm]": "655",
+      "Core Width [mm]": "325",
+      "Core Depth [mm]": "16",
+      "Article ID:": "757901",
+      "Article Number:": "1.31.30057.PDH",
+      "Manufacturer:": "REACH",
+      "OEM Numbers AUDI:": "8W0816421J"
+    }
+  }
+]

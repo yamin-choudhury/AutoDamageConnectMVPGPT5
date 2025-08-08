@@ -1,0 +1,82 @@
+[
+  {
+    "id": "5626582",
+    "name": "Filter, interior air",
+    "partNo": "ADM52534",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "108278",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5626582/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "210",
+      "Width [mm]": "209",
+      "Height [mm]": "43",
+      "Weight [kg]": "0,07",
+      "Filter type": "Pollen Filter",
+      "Article ID:": "5626582",
+      "Article Number:": "ADM52534",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006325451",
+      "OEM Numbers MAZDA:": "DB9L-61-J6X"
+    }
+  },
+  {
+    "id": "3494519",
+    "name": "Filter, interior air",
+    "partNo": "49372543",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "108278",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3494519/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "206",
+      "Width [mm]": "202",
+      "Height [mm]": "42",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "3494519",
+      "Article Number:": "49372543",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896035096",
+      "OEM Numbers MAZDA:": "D09W61J6X"
+    }
+  },
+  {
+    "id": "7867761",
+    "name": "Filter, interior air",
+    "partNo": "LA 1361",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "424",
+    "productGroupId": "100346",
+    "categoryId": "100241",
+    "variantId": "108278",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7867761/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "209",
+      "Width [mm]": "213",
+      "Height [mm]": "43,0",
+      "Filter type": "Particulate Filter",
+      "Packaging length [cm]": "21,5",
+      "Packaging width [cm]": "4,60",
+      "Packaging height [cm]": "21,50",
+      "Net Weight [g]": "88,0",
+      "Article ID:": "7867761",
+      "Article Number:": "LA 1361",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "405763500967",
+      "OEM Numbers MAZDA:": "DB9L61J6X"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "12153",
+    "type": "1.4",
+    "modelId": "6585",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CDD",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2007-12-01\n                            \n                            2012-12-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24169",
+    "type": "1.6",
+    "modelId": "6585",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "CDE,BMH",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2006-06-01\n                            \n                            2012-12-01",
+      "power": "77 KW / 105 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33240",
+    "type": "1.4",
+    "modelId": "6585",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "BMG",
+      "cylinder": "4",
+      "capacity": "1,390 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-06-01\n                            \n                            2008-12-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  }
+]

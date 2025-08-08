@@ -1,0 +1,56 @@
+[
+  {
+    "id": "4188105",
+    "name": "Spreader Insert Set, suspension strut",
+    "partNo": "6455",
+    "manufacturer": "BGS",
+    "supplierId": "6009",
+    "productsId": "8996",
+    "productGroupId": "706394",
+    "categoryId": "706365",
+    "variantId": "13362",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4188105/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Chrome Vanadium Steel",
+      "Gross weight [kg]": "0,17",
+      "Article ID:": "4188105",
+      "Article Number:": "6455",
+      "Manufacturer:": "BGS",
+      "EAN Numbers:": "402694706455",
+      "OEM Numbers BMW:": "312200",
+      "OEM Numbers AUDI:": "T20040",
+      "OEM Numbers SEAT:": "T20040",
+      "OEM Numbers SKODA:": "T20040",
+      "OEM Numbers VW:": "T20040"
+    }
+  },
+  {
+    "id": "4187903",
+    "name": "Spreader Insert, suspension strut",
+    "partNo": "6453",
+    "manufacturer": "BGS",
+    "supplierId": "6009",
+    "productsId": "8997",
+    "productGroupId": "706394",
+    "categoryId": "706365",
+    "variantId": "13362",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4187903/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Chrome Vanadium Steel",
+      "Gross weight [kg]": "0,09",
+      "Article ID:": "4187903",
+      "Article Number:": "6453",
+      "Manufacturer:": "BGS",
+      "EAN Numbers:": "404876901221",
+      "OEM Numbers BMW:": "312200",
+      "OEM Numbers AUDI:": "T20040",
+      "OEM Numbers SEAT:": "T20040",
+      "OEM Numbers SKODA:": "T20040",
+      "OEM Numbers VW:": "T20040"
+    }
+  }
+]

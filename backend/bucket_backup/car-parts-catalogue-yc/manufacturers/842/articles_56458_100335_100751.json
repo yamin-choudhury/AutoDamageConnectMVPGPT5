@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1526203",
+    "name": "Window Regulator",
+    "partNo": "1648889280",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "56458",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1526203/model-series-id-10095/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Trim Level": "Without anti-pinch",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "without comfort function",
+      "Window Regulator": "Cross-Arm Window Lift",
+      "Article ID:": "1526203",
+      "Article Number:": "1648889280",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers SUBARU:": "6980121020",
+      "OEM Numbers TOYOTA:": "6980121020",
+      "OEM Numbers LEXUS:": "6980121020"
+    }
+  },
+  {
+    "id": "1540848",
+    "name": "Window Regulator",
+    "partNo": "1675407680",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "56458",
+    "manufacturerId": "842",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1540848/model-series-id-10095/manufacturer-id-842/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "without comfort function",
+      "Window Regulator": "Cross-Arm Window Lift",
+      "Article ID:": "1540848",
+      "Article Number:": "1675407680",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers SUBARU:": "6980221010",
+      "OEM Numbers TOYOTA:": "698200D310",
+      "OEM Numbers LEXUS:": "6980221010"
+    }
+  }
+]

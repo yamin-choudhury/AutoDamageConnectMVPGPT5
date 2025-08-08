@@ -1,0 +1,18 @@
+[
+  {
+    "id": "148176",
+    "type": "1.0",
+    "modelId": "43071",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10C",
+      "cylinder": "3",
+      "capacity": "998 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2022-03-01",
+      "power": "49 KW / 67 PS"
+    },
+    "categories": []
+  }
+]

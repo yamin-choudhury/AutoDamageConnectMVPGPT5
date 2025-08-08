@@ -1,0 +1,79 @@
+[
+  {
+    "id": "5104868",
+    "name": "Fuel Feed Unit",
+    "partNo": "8TF 358 303-071",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5104868/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Pressure [bar]": "3",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Number of pins": "4",
+      "Article ID:": "5104868",
+      "Article Number:": "8TF 358 303-071",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230080685",
+      "OEM Numbers RENAULT:": "17 20 214 85R"
+    }
+  },
+  {
+    "id": "9862714",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG1354020",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9862714/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "13",
+      "Diameter [mm]": "134",
+      "Pressure [bar]": "4,5",
+      "Operating Mode": "Electric",
+      "Pressure [psi]": "65,25",
+      "Number of connectors": "1",
+      "Current Strength to [A]": "8,4",
+      "Total Length [mm]": "190",
+      "Article ID:": "9862714",
+      "Article Number:": "WG1354020",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers RENAULT:": "172020342R"
+    }
+  },
+  {
+    "id": "10001822",
+    "name": "Fuel Feed Unit",
+    "partNo": "WG1796821",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "119493",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10001822/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Pressure [bar]": "4",
+      "Number of connectors": "4",
+      "Flow rate [l/h]": "90",
+      "Article ID:": "10001822",
+      "Article Number:": "WG1796821",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers RENAULT:": "172020342R"
+    }
+  }
+]

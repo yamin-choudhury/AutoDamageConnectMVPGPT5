@@ -1,0 +1,82 @@
+[
+  {
+    "id": "5839",
+    "type": "3.7",
+    "modelId": "8862",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ37VHR",
+      "cylinder": "6",
+      "capacity": "3,696 CCM / 3.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-12-01",
+      "power": "243 KW / 330 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34552",
+    "type": "3.7",
+    "modelId": "8862",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ37VHR",
+      "cylinder": "6",
+      "capacity": "3,696 CCM / 3.7 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "241 KW / 328 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "50632",
+    "type": "3.7",
+    "modelId": "8862",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ37VHR",
+      "cylinder": "6",
+      "capacity": "3,696 CCM / 3.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-09-01",
+      "power": "247 KW / 336 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "106195",
+    "type": "3.7",
+    "modelId": "8862",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ37VHR",
+      "cylinder": "6",
+      "capacity": "3,696 CCM / 3.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01",
+      "power": "248 KW / 337 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "112488",
+    "type": "3.7",
+    "modelId": "8862",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "VQ37VHR",
+      "cylinder": "6",
+      "capacity": "3,696 CCM / 3.7 L",
+      "fuelType": "Petrol",
+      "year": "2013-04-01",
+      "power": "245 KW / 333 PS"
+    },
+    "categories": []
+  }
+]

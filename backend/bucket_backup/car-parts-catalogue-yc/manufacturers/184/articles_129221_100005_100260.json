@@ -1,0 +1,102 @@
+[
+  {
+    "id": "5522947",
+    "name": "Air Filter",
+    "partNo": "A63478",
+    "manufacturer": "1A FIRST AUTOMOTIVE",
+    "supplierId": "4814",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "129221",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5522947/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "270",
+      "Inner diameter [mm]": "111",
+      "Outer diameter [mm]": "166",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5522947",
+      "Article Number:": "A63478",
+      "Manufacturer:": "1A FIRST AUTOMOTIVE",
+      "EAN Numbers:": "803397701494",
+      "OEM Numbers KIA:": "28113-4E000"
+    }
+  },
+  {
+    "id": "1912659",
+    "name": "Air Filter",
+    "partNo": "20F0330-JPN",
+    "manufacturer": "JPN",
+    "supplierId": "6985",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "129221",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1912659/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "271",
+      "Inner diameter [mm]": "110",
+      "Outer diameter [mm]": "166",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1912659",
+      "Article Number:": "20F0330-JPN",
+      "Manufacturer:": "JPN",
+      "OEM Numbers KIA:": "28113-4E000"
+    }
+  },
+  {
+    "id": "2307892",
+    "name": "Air Filter",
+    "partNo": "26-0926",
+    "manufacturer": "MAXGEAR",
+    "supplierId": "403",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "129221",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2307892/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "271",
+      "Inner diameter [mm]": "110",
+      "Outer diameter [mm]": "166",
+      "Filter type": "Filter Insert",
+      "Inner diameter 1 [mm]": "110",
+      "Article ID:": "2307892",
+      "Article Number:": "26-0926",
+      "Manufacturer:": "MAXGEAR",
+      "EAN Numbers:": "590265970029",
+      "OEM Numbers KIA:": "28113-4E000"
+    }
+  },
+  {
+    "id": "8455413",
+    "name": "Air Filter",
+    "partNo": "PA3478",
+    "manufacturer": "MULLER FILTER",
+    "supplierId": "490",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "129221",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8455413/model-series-id-6670/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "270",
+      "Inner diameter [mm]": "111",
+      "Outer diameter [mm]": "166",
+      "Filter type": "Filter Insert",
+      "Article ID:": "8455413",
+      "Article Number:": "PA3478",
+      "Manufacturer:": "MULLER FILTER",
+      "EAN Numbers:": "803397783478",
+      "OEM Numbers KIA:": "28113-4E000"
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "3660432",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "516744",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "28048",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3660432/model-series-id-6252/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Lower",
+      "Article ID:": "3660432",
+      "Article Number:": "516744",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692263793424",
+      "OEM Numbers TOYOTA:": "4872532250"
+    }
+  },
+  {
+    "id": "3663036",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "517258",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "28048",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3663036/model-series-id-6252/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3663036",
+      "Article Number:": "517258",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "692263793569",
+      "OEM Numbers TOYOTA:": "4877032010"
+    }
+  },
+  {
+    "id": "3284261",
+    "name": "Mounting, control/trailing arm",
+    "partNo": "42903",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "251",
+    "productGroupId": "100572",
+    "categoryId": "100013",
+    "variantId": "28048",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3284261/model-series-id-6252/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "3284261",
+      "Article Number:": "42903",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509342903",
+      "OEM Numbers TOYOTA:": "48770-12010"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "108652",
+    "type": "1.6 i",
+    "modelId": "4414",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "RHBA",
+      "cylinder": "4",
+      "capacity": "1,596 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2008-03-01\n                            \n                            2010-12-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124209",
+    "type": "1.6 i",
+    "modelId": "4414",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "ZSG416,RHBA",
+      "cylinder": "4",
+      "capacity": "1,596 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126175",
+    "type": "2.0",
+    "modelId": "4414",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "ZH20AODE",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "106 KW / 144 PS"
+    },
+    "categories": []
+  }
+]

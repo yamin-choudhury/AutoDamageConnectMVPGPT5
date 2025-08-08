@@ -1,0 +1,66 @@
+[
+  {
+    "id": "139689",
+    "type": "1.0 Turbo",
+    "modelId": "40526",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "HR10DET",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-04-01",
+      "power": "74 KW / 101 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139975",
+    "type": "1.6",
+    "modelId": "40526",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "HR16DE",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2019-09-01",
+      "power": "91 KW / 124 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141415",
+    "type": "1.6",
+    "modelId": "40526",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "HR16DE",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2019-09-01",
+      "power": "88 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142412",
+    "type": "1.6 SENSE / ADVANCE / EXCLUSIVE",
+    "modelId": "40526",
+    "manufacturerId": "80",
+    "url": "",
+    "specs": {
+      "engineCode": "HR16DE",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2020-10-01",
+      "power": "84 KW / 114 PS"
+    },
+    "categories": []
+  }
+]

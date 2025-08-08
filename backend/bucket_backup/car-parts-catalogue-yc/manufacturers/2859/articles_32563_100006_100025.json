@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3206861",
+    "name": "Brake Booster",
+    "partNo": "4110389",
+    "manufacturer": "GIRLING",
+    "supplierId": "279",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "32563",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3206861/model-series-id-6428/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Diameter [in]": "11",
+      "Article ID:": "3206861",
+      "Article Number:": "4110389",
+      "Manufacturer:": "GIRLING",
+      "EAN Numbers:": "332293825631",
+      "OEM Numbers VW:": "3C1 614 106 R",
+      "OEM Numbers AUDI:": "3C1 614 106 R",
+      "OEM Numbers SEAT:": "3C1 614 106 R"
+    }
+  },
+  {
+    "id": "8628902",
+    "name": "Brake Booster",
+    "partNo": "PSA389",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "74",
+    "productGroupId": "100025",
+    "categoryId": "100006",
+    "variantId": "32563",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8628902/model-series-id-6428/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Manufacturer Restriction": "ATE",
+      "Diameter [in]": "11",
+      "Article ID:": "8628902",
+      "Article Number:": "PSA389",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293820988",
+      "OEM Numbers VW:": "3C1 614 106 R",
+      "OEM Numbers AUDI:": "3C1 614 106 R",
+      "OEM Numbers SEAT:": "3C1 614 106 R"
+    }
+  }
+]

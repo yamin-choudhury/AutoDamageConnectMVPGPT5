@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5722446",
+    "name": "Switch, window regulator",
+    "partNo": "AN-3606",
+    "manufacturer": "KRAW",
+    "supplierId": "5314",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5722446/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Driver side",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Number of pins": "16",
+      "Article ID:": "5722446",
+      "Article Number:": "AN-3606",
+      "Manufacturer:": "KRAW",
+      "EAN Numbers:": "868155880728",
+      "OEM Numbers LAND ROVER:": "YUD501570PVJ"
+    }
+  },
+  {
+    "id": "5722447",
+    "name": "Switch, window regulator",
+    "partNo": "AN-3606A",
+    "manufacturer": "KRAW",
+    "supplierId": "5314",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5722447/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Driver side",
+      "Left-/right-hand drive vehicles": "for right-hand drive vehicles",
+      "Number of pins": "16",
+      "Article ID:": "5722447",
+      "Article Number:": "AN-3606A",
+      "Manufacturer:": "KRAW",
+      "EAN Numbers:": "868155880729",
+      "OEM Numbers LAND ROVER:": "YUD500950PVJ"
+    }
+  },
+  {
+    "id": "5722448",
+    "name": "Switch, window regulator",
+    "partNo": "AN-3606D",
+    "manufacturer": "KRAW",
+    "supplierId": "5314",
+    "productsId": "1761",
+    "productGroupId": "104157",
+    "categoryId": "100335",
+    "variantId": "11153",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5722448/model-series-id-5160/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Vehicle Door",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Number of pins": "3",
+      "Article ID:": "5722448",
+      "Article Number:": "AN-3606D",
+      "Manufacturer:": "KRAW",
+      "EAN Numbers:": "868155881238",
+      "OEM Numbers LAND ROVER:": "YUD501110PVJ"
+    }
+  }
+]

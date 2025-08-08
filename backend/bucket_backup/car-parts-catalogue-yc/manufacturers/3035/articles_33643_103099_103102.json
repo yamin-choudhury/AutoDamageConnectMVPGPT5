@@ -1,0 +1,58 @@
+[
+  {
+    "id": "10449204",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.014.02",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "33643",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449204/model-series-id-8704/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "27",
+      "Thread Size": "M12",
+      "Spanner Size": "17",
+      "Quality/ Grade": "8.8",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "48",
+      "Article ID:": "10449204",
+      "Article Number:": "ZM 30.014.02",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268411887",
+      "OEM Numbers VW:": "WHT 002 437",
+      "OEM Numbers AUDI:": "WHT 002 437",
+      "OEM Numbers SEAT:": "WHT 002 437"
+    }
+  },
+  {
+    "id": "10449205",
+    "name": "Wheel Stud",
+    "partNo": "ZM 30.014.03",
+    "manufacturer": "ZM",
+    "supplierId": "517",
+    "productsId": "657",
+    "productGroupId": "103102",
+    "categoryId": "103099",
+    "variantId": "33643",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10449205/model-series-id-8704/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "27",
+      "Thread Size": "M12",
+      "Spanner Size": "17",
+      "Quality/ Grade": "8.8",
+      "Thread Pitch [mm]": "1,5",
+      "Bolt length [mm]": "48",
+      "Article ID:": "10449205",
+      "Article Number:": "ZM 30.014.03",
+      "Manufacturer:": "ZM",
+      "EAN Numbers:": "0789268411888",
+      "OEM Numbers VW:": "WHT/001812"
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "4037495",
+    "name": "Joint Kit, drive shaft",
+    "partNo": "605049",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "5",
+    "productGroupId": "100071",
+    "categoryId": "100014",
+    "variantId": "142721",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4037495/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "163",
+      "Outer teething differential side": "31",
+      "Int. teeth, diff.side, conn.to transm.": "27",
+      "Seal Diameter [mm]": "36",
+      "Article ID:": "4037495",
+      "Article Number:": "605049",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "693368892763",
+      "OEM Numbers JAGUAR:": "J9C15403",
+      "OEM Numbers LAND ROVER:": "LR061554"
+    }
+  },
+  {
+    "id": "4653460",
+    "name": "Joint Kit, drive shaft",
+    "partNo": "801975",
+    "manufacturer": "GSP",
+    "supplierId": "373",
+    "productsId": "5",
+    "productGroupId": "100071",
+    "categoryId": "100014",
+    "variantId": "142721",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4653460/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "158",
+      "Thread Size": "M24X2",
+      "Outer gearing wheel side": "31",
+      "Internal Teeth, wheel side": "27",
+      "Seal Diameter [mm]": "69",
+      "Technical Information Number": "Inner groove",
+      "Article ID:": "4653460",
+      "Article Number:": "801975",
+      "Manufacturer:": "GSP",
+      "EAN Numbers:": "694128370824",
+      "OEM Numbers JAGUAR:": "J9C7756",
+      "OEM Numbers FORD:": "BJ323B413AA",
+      "OEM Numbers LAND ROVER:": "LR124673"
+    }
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "6253",
+    "type": "D2",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "D 4162 T",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2010-10-01\n                            \n                            2012-12-01",
+      "power": "84 KW / 115 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "6268",
+    "type": "D3",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "D 5204 T5",
+      "cylinder": "5",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2010-10-01\n                            \n                            2012-12-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "6269",
+    "type": "D4",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "D 5204 T",
+      "cylinder": "5",
+      "capacity": "1,984 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2010-10-01\n                            \n                            2012-12-01",
+      "power": "130 KW / 177 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19808",
+    "type": "1.6",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 4164 S3",
+      "cylinder": "4",
+      "capacity": "1,596 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "74 KW / 100 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19809",
+    "type": "1.8",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 4184 S11",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19810",
+    "type": "2.0",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 4204 S3",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19811",
+    "type": "2.4 i",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 5244 S4",
+      "cylinder": "5",
+      "capacity": "2,435 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "125 KW / 170 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19812",
+    "type": "T5",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 5254 T3",
+      "cylinder": "5",
+      "capacity": "2,521 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19813",
+    "type": "1.6 D",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "D 4164 T",
+      "cylinder": "4",
+      "capacity": "1,560 CCM / 1.6 L",
+      "fuelType": "Diesel",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19814",
+    "type": "2.0 D",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "D 4204 T",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19815",
+    "type": "D5",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "D 5244 T8,D 5244 T13",
+      "cylinder": "5",
+      "capacity": "2,400 CCM / 2.4 L",
+      "fuelType": "Diesel",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "132 KW / 180 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "23141",
+    "type": "T5",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 5254 T7",
+      "cylinder": "5",
+      "capacity": "2,521 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2007-03-01\n                            \n                            2012-12-01",
+      "power": "169 KW / 230 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "27618",
+    "type": "1.8 FlexFuel",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 4184 S8",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2007-01-01\n                            \n                            2012-12-01",
+      "power": "92 KW / 125 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "28033",
+    "type": "D5",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "D 5244 T9",
+      "cylinder": "5",
+      "capacity": "2,400 CCM / 2.4 L",
+      "fuelType": "Diesel",
+      "year": "2006-10-01\n                            \n                            2012-12-01",
+      "power": "120 KW / 163 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "33818",
+    "type": "2.0 FlexFuel",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 4204 S4",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2010-01-01\n                            \n                            2012-12-01",
+      "power": "107 KW / 146 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "58613",
+    "type": "Electric",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "E400V1",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2010-12-01\n                            \n                            2012-12-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121892",
+    "type": "Electric",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "E400V1",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2010-12-01\n                            \n                            2012-12-01",
+      "power": "89 KW / 120 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121895",
+    "type": "T5",
+    "modelId": "5610",
+    "manufacturerId": "120",
+    "url": "",
+    "specs": {
+      "engineCode": "B 5254 T7",
+      "cylinder": "5",
+      "capacity": "2,521 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2007-10-01\n                            \n                            2013-12-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "id": "15960",
+    "type": "250 (GRL11_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "4GR-FSE",
+      "cylinder": "6",
+      "capacity": "2,499 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2011-12-01\n                            \n                            2016-08-01",
+      "power": "158 KW / 215 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "15961",
+    "type": "350 (GRL10_, GWL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-01-01",
+      "power": "234 KW / 318 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "15962",
+    "type": "350 AWD (GRL15_, GRL16_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2011-12-01",
+      "power": "234 KW / 318 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "15963",
+    "type": "450h (GWL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FXE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2012-03-01\n                            \n                            2018-09-01",
+      "power": "254 KW / 345 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "21990",
+    "type": "250 (GRL11_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "4GR-FSE",
+      "cylinder": "6",
+      "capacity": "2,499 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-01-01",
+      "power": "154 KW / 209 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54981",
+    "type": "350 AWD (GRL15_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-09-01",
+      "power": "228 KW / 310 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "54982",
+    "type": "350 (GRL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2011-09-01",
+      "power": "228 KW / 310 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56458",
+    "type": "450h (GWL10_, GWL10)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FXE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2012-03-01\n                            \n                            2018-09-01",
+      "power": "254 KW / 345 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56459",
+    "type": "450h AWD (GRL15_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FXE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2012-09-01",
+      "power": "252 KW / 343 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "100021",
+    "type": "300h (AWL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FSE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2013-10-01",
+      "power": "164 KW / 223 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "117800",
+    "type": "F (URL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2UR-GSE",
+      "cylinder": "8",
+      "capacity": "4,969 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "351 KW / 477 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118126",
+    "type": "F (URL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2UR-GSE",
+      "cylinder": "8",
+      "capacity": "4,969 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "348 KW / 473 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118130",
+    "type": "350 (GRL10_, GWL10_, GRL15_, GRL12_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE,2GR-FKS",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01",
+      "power": "232 KW / 316 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118131",
+    "type": "350 AWD (GRL15_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FKS",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "232 KW / 316 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "118135",
+    "type": "200t (ARL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "8AR-FTS",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "180 KW / 245 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "124826",
+    "type": "200t (ARL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "8AR-FTS",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01\n                            \n                            2017-09-01",
+      "power": "177 KW / 241 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129523",
+    "type": "350 (GRL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01",
+      "power": "233 KW / 317 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130203",
+    "type": "300 (ARL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "8AR-FTS",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-09-01",
+      "power": "177 KW / 241 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130204",
+    "type": "300 (ARL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "8AR-FTS",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-09-01",
+      "power": "180 KW / 245 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133045",
+    "type": "350 AWD (GRL15)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01",
+      "power": "233 KW / 317 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134557",
+    "type": "450h (GWL10)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FXE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2018-11-01",
+      "power": "251 KW / 341 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134569",
+    "type": "350 (GRL10)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FSE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-03-01",
+      "power": "229 KW / 311 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138310",
+    "type": "2.5 VVTi Hybrid (AWL10_)",
+    "modelId": "10095",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2AR-FSE",
+      "cylinder": "4",
+      "capacity": "2,494 CCM / 2.5 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2013-10-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  }
+]

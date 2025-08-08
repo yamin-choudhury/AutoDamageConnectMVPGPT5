@@ -1,0 +1,74 @@
+[
+  {
+    "id": "263797",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01641200",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/263797/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "18234-59B-004",
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "4",
+      "Inner diameter [mm]": "53",
+      "Outer diameter [mm]": "126",
+      "Article ID:": "263797",
+      "Article Number:": "01641200",
+      "Manufacturer:": "AJUSA",
+      "OEM Numbers HONDA:": "18234-59B-004"
+    }
+  },
+  {
+    "id": "1631325",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "18009100",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1631325/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "18302-SP0-003",
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "4",
+      "Inner diameter [mm]": "66",
+      "Outer diameter [mm]": "74",
+      "Article ID:": "1631325",
+      "Article Number:": "18009100",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357732754",
+      "OEM Numbers HONDA:": "18302-SP0-003"
+    }
+  },
+  {
+    "id": "8178673",
+    "name": "Seal Ring, exhaust pipe",
+    "partNo": "MOS-144",
+    "manufacturer": "MASUMA",
+    "supplierId": "6270",
+    "productsId": "204",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "131689",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8178673/model-series-id-38541/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8178673",
+      "Article Number:": "MOS-144",
+      "Manufacturer:": "MASUMA",
+      "EAN Numbers:": "456011671050",
+      "OEM Numbers HONDA:": "18302-SP0-003"
+    }
+  }
+]

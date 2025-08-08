@@ -1,0 +1,119 @@
+[
+  {
+    "id": "7517732",
+    "name": "Ignition Coil",
+    "partNo": "IC12104",
+    "manufacturer": "BBT",
+    "supplierId": "194",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7517732/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "4",
+      "Ignition Coil": "incl. spark plug connector",
+      "Article ID:": "7517732",
+      "Article Number:": "IC12104",
+      "Manufacturer:": "BBT",
+      "OEM Numbers JAGUAR:": "AJ814082",
+      "OEM Numbers LAND ROVER:": "LR121788"
+    }
+  },
+  {
+    "id": "4886228",
+    "name": "Ignition Coil",
+    "partNo": "85.30280",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4886228/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Ignition Coil": "Connector Type SAE",
+      "Article ID:": "4886228",
+      "Article Number:": "85.30280",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320836238",
+      "OEM Numbers JAGUAR:": "J6P3 12A366 AB",
+      "OEM Numbers LAND ROVER:": "LR121788"
+    }
+  },
+  {
+    "id": "4649235",
+    "name": "Ignition Coil",
+    "partNo": "8010888",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4649235/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Ignition Coil": "Connector Type SAE",
+      "Article ID:": "4649235",
+      "Article Number:": "8010888",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers JAGUAR:": "J6P3 12A366 AB",
+      "OEM Numbers LAND ROVER:": "LR121788"
+    }
+  },
+  {
+    "id": "954406",
+    "name": "Ignition Coil",
+    "partNo": "10888",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/954406/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Ignition Coil": "Connector Type SAE",
+      "Article ID:": "954406",
+      "Article Number:": "10888",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers JAGUAR:": "J6P3 12A366 AB",
+      "OEM Numbers LAND ROVER:": "LR121788"
+    }
+  },
+  {
+    "id": "4886227",
+    "name": "Ignition Coil",
+    "partNo": "85.30280",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4886227/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of pins": "3",
+      "Ignition Coil": "Connector Type SAE",
+      "Article ID:": "4886227",
+      "Article Number:": "85.30280",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320836238",
+      "OEM Numbers JAGUAR:": "J6P3 12A366 AB",
+      "OEM Numbers LAND ROVER:": "LR121788"
+    }
+  }
+]

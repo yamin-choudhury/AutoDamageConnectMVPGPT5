@@ -1,0 +1,52 @@
+[
+  {
+    "id": "10367468",
+    "name": "Window Regulator",
+    "partNo": "WVW154-L",
+    "manufacturer": "MaxSrl",
+    "supplierId": "3937",
+    "productsId": "1561",
+    "productGroupId": "102691",
+    "categoryId": "100341",
+    "variantId": "33643",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10367468/model-series-id-8704/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Left Front",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Article ID:": "10367468",
+      "Article Number:": "WVW154-L",
+      "Manufacturer:": "MaxSrl",
+      "EAN Numbers:": "0805877204960",
+      "OEM Numbers VW:": "5N0837461"
+    }
+  },
+  {
+    "id": "10367470",
+    "name": "Window Regulator",
+    "partNo": "WVW154-R",
+    "manufacturer": "MaxSrl",
+    "supplierId": "3937",
+    "productsId": "1561",
+    "productGroupId": "102691",
+    "categoryId": "100341",
+    "variantId": "33643",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10367470/model-series-id-8704/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Doors": "4",
+      "Fitting Position": "Right Front",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Article ID:": "10367470",
+      "Article Number:": "WVW154-R",
+      "Manufacturer:": "MaxSrl",
+      "EAN Numbers:": "0805877204961",
+      "OEM Numbers VW:": "5N0837462"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1042351",
+    "name": "Aerial",
+    "partNo": "113 08 053 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "100339",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1042351/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "1042351",
+      "Article Number:": "113 08 053 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers FIAT:": "51896048"
+    }
+  },
+  {
+    "id": "2689391",
+    "name": "Aerial",
+    "partNo": "317 08 078 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "100339",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2689391/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2689391",
+      "Article Number:": "317 08 078 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers FIAT:": "52019353"
+    }
+  }
+]

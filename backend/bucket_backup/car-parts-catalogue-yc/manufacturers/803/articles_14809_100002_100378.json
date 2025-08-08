@@ -1,0 +1,83 @@
+[
+  {
+    "id": "4700706",
+    "name": "Cylinder Head Bolt Set",
+    "partNo": "81048400",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "1217",
+    "productGroupId": "100378",
+    "categoryId": "100002",
+    "variantId": "14809",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4700706/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "110",
+      "Thread Size": "M10",
+      "Bolt Head-/Nut Design": "Male Torx",
+      "Quantity": "10",
+      "Weight [g]": "1280",
+      "Thread Pitch [mm]": "1,5",
+      "Article ID:": "4700706",
+      "Article Number:": "81048400",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357702701",
+      "OEM Numbers BMW:": "11 12 7 583 115",
+      "OEM Numbers LAND ROVER:": "LYG 000200"
+    }
+  },
+  {
+    "id": "7452163",
+    "name": "Cylinder Head Bolt Set",
+    "partNo": "HBS519",
+    "manufacturer": "PAYEN",
+    "supplierId": "113",
+    "productsId": "1217",
+    "productGroupId": "100378",
+    "categoryId": "100002",
+    "variantId": "14809",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7452163/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "110,00",
+      "Thread Size": "M10 x 1.50",
+      "Bolt Head-/Nut Design": "Male Torx",
+      "Quantity": "10",
+      "Number of bolts/screws": "10",
+      "Article ID:": "7452163",
+      "Article Number:": "HBS519",
+      "Manufacturer:": "PAYEN",
+      "EAN Numbers:": "404419765810",
+      "OEM Numbers BMW:": "11121729247 x10"
+    }
+  },
+  {
+    "id": "9922346",
+    "name": "Cylinder Head Bolt Set",
+    "partNo": "WG1455966",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1217",
+    "productGroupId": "100378",
+    "categoryId": "100002",
+    "variantId": "14809",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9922346/model-series-id-4639/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "110",
+      "Thread Size": "M10",
+      "Bolt Head-/Nut Design": "Male Torx",
+      "Quantity": "10",
+      "Weight [g]": "1280",
+      "Thread Pitch [mm]": "1,5",
+      "Article ID:": "9922346",
+      "Article Number:": "WG1455966",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers BMW:": "11 12 7 583 115",
+      "OEM Numbers LAND ROVER:": "LYG000200"
+    }
+  }
+]

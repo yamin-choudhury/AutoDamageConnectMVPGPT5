@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9193301",
+    "name": "Window Regulator",
+    "partNo": "SS064315-RL",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "140623",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9193301/model-series-id-37588/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left Rear",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "without comfort function",
+      "Window Regulator": "Single Rail Window Lift",
+      "Number of pins": "0",
+      "Article ID:": "9193301",
+      "Article Number:": "SS064315-RL",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW:": "5NG839461"
+    }
+  },
+  {
+    "id": "9193302",
+    "name": "Window Regulator",
+    "partNo": "SS064315-RR",
+    "manufacturer": "SONTIAN",
+    "supplierId": "6412",
+    "productsId": "1561",
+    "productGroupId": "100751",
+    "categoryId": "100335",
+    "variantId": "140623",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9193302/model-series-id-37588/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right Rear",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "without electric motor",
+      "Combi Switch Function": "without comfort function",
+      "Window Regulator": "Single Rail Window Lift",
+      "Number of pins": "0",
+      "Article ID:": "9193302",
+      "Article Number:": "SS064315-RR",
+      "Manufacturer:": "SONTIAN",
+      "OEM Numbers VW:": "5NG839462"
+    }
+  }
+]

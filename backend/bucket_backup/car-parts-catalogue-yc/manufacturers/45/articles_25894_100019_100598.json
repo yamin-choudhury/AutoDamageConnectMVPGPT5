@@ -1,0 +1,119 @@
+[
+  {
+    "id": "1431910",
+    "name": "Brake Shoe Set",
+    "partNo": "153-567",
+    "manufacturer": "CIFAM",
+    "supplierId": "311",
+    "productsId": "70",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "25894",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1431910/model-series-id-11411/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "180,0",
+      "Article ID:": "1431910",
+      "Article Number:": "153-567",
+      "Manufacturer:": "CIFAM",
+      "EAN Numbers:": "803274715108",
+      "OEM Numbers HONDA:": "43154-S3Y-003"
+    }
+  },
+  {
+    "id": "890841",
+    "name": "Brake Shoe Set",
+    "partNo": "1044.031",
+    "manufacturer": "fri.tech.",
+    "supplierId": "295",
+    "productsId": "70",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "25894",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/890841/model-series-id-11411/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "180,0",
+      "Article ID:": "890841",
+      "Article Number:": "1044.031",
+      "Manufacturer:": "fri.tech.",
+      "EAN Numbers:": "803274764966",
+      "OEM Numbers HONDA:": "43154-S3Y-003"
+    }
+  },
+  {
+    "id": "3715628",
+    "name": "Brake Shoe Set",
+    "partNo": "53-0567",
+    "manufacturer": "METELLI",
+    "supplierId": "121",
+    "productsId": "70",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "25894",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3715628/model-series-id-11411/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "180,0",
+      "Article ID:": "3715628",
+      "Article Number:": "53-0567",
+      "Manufacturer:": "METELLI",
+      "EAN Numbers:": "803274715109",
+      "OEM Numbers HONDA:": "43154-S3Y-003"
+    }
+  },
+  {
+    "id": "7982985",
+    "name": "Fuel Filter",
+    "partNo": "M09687",
+    "manufacturer": "Movelex",
+    "supplierId": "6533",
+    "productsId": "9",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "25894",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7982985/model-series-id-11411/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "7982985",
+      "Article Number:": "M09687",
+      "Manufacturer:": "Movelex",
+      "OEM Numbers HYUNDAI:": "31911-2D000"
+    }
+  },
+  {
+    "id": "440322",
+    "name": "Brake Shoe Set",
+    "partNo": "044.031",
+    "manufacturer": "TRUSTING",
+    "supplierId": "199",
+    "productsId": "70",
+    "productGroupId": "100598",
+    "categoryId": "100019",
+    "variantId": "25894",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/440322/model-series-id-11411/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Test Mark": "Approved",
+      "Width [mm]": "27",
+      "Brake diameter, inside [mm]": "180,0",
+      "Article ID:": "440322",
+      "Article Number:": "044.031",
+      "Manufacturer:": "TRUSTING",
+      "EAN Numbers:": "803274740842",
+      "OEM Numbers HONDA:": "43154-S3Y-003"
+    }
+  }
+]

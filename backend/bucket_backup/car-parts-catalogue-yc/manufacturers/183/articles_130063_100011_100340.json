@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2538263",
+    "name": "Shock Absorber",
+    "partNo": "30-U73-A",
+    "manufacturer": "BOGE",
+    "supplierId": "14",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "130063",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2538263/model-series-id-38455/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Telescopic Shock Absorber",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Parameter": "TT30/13X215",
+      "Article ID:": "2538263",
+      "Article Number:": "30-U73-A",
+      "Manufacturer:": "BOGE",
+      "EAN Numbers:": "401030533945",
+      "OEM Numbers HYUNDAI:": "55310-H5050",
+      "OEM Numbers KIA:": "55310-H5000"
+    }
+  },
+  {
+    "id": "2697875",
+    "name": "Shock Absorber",
+    "partNo": "319 886",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "130063",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2697875/model-series-id-38455/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Telescopic Shock Absorber",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Parameter": "TT30/13X215",
+      "Article ID:": "2697875",
+      "Article Number:": "319 886",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "405992304876",
+      "OEM Numbers HYUNDAI:": "55310-H5050",
+      "OEM Numbers KIA:": "55310-H5000"
+    }
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "9777",
+    "type": "2.0 AWD (SHJ)",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-01-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "9778",
+    "type": "2.5 AWD (SH9)",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ25",
+      "cylinder": "4",
+      "capacity": "2,457 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01\n                            \n                            2013-09-01",
+      "power": "126 KW / 171 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30814",
+    "type": "2.0 AWD (SH5)",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ204",
+      "cylinder": "4",
+      "capacity": "1,994 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2013-09-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30815",
+    "type": "2.0 D AWD (SHH)",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EE20Z",
+      "cylinder": "4",
+      "capacity": "1,998 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2008-09-01\n                            \n                            2013-09-01",
+      "power": "108 KW / 147 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30816",
+    "type": "2.5 AWD (SH9)",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ255",
+      "cylinder": "4",
+      "capacity": "2,457 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2008-06-01\n                            \n                            2013-09-01",
+      "power": "169 KW / 230 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "52179",
+    "type": "2.5 AWD",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ253",
+      "cylinder": "4",
+      "capacity": "2,458 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2010-12-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56207",
+    "type": "2.5 Turbo AWD (SH9)",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ255",
+      "cylinder": "4",
+      "capacity": "2,457 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2011-02-01\n                            \n                            2013-09-01",
+      "power": "193 KW / 262 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "59877",
+    "type": "2.5 AWD (SHM)",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB25",
+      "cylinder": "4",
+      "capacity": "2,498 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2011-03-01\n                            \n                            2013-09-01",
+      "power": "126 KW / 171 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "101172",
+    "type": "2.5",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ253",
+      "cylinder": "4",
+      "capacity": "2,457 CCM / 2.5 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01",
+      "power": "126 KW / 171 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "105610",
+    "type": "2.0 AWD",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ204",
+      "cylinder": "4",
+      "capacity": "1,994 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2010-10-01\n                            \n                            2014-12-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "125888",
+    "type": "2.0 AWD",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ204",
+      "cylinder": "4",
+      "capacity": "1,994 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-01-01\n                            \n                            2013-09-01",
+      "power": "116 KW / 158 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134072",
+    "type": "2.0 BiFuel AWD",
+    "modelId": "7995",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "EJ204",
+      "cylinder": "4",
+      "capacity": "1,994 CCM / 2.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2009-01-01\n                            \n                            2011-12-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

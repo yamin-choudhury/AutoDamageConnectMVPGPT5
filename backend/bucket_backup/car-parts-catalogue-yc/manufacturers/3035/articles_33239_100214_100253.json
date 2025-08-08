@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1524827",
+    "name": "Fuel Filter",
+    "partNo": "1646460180",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "33239",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1524827/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "164,3",
+      "Outer diameter [mm]": "61,2",
+      "Filter type": "Filter Insert",
+      "Inlet Ø [mm]": "7,89",
+      "Outlet Ø [mm]": "7,89",
+      "Article ID:": "1524827",
+      "Article Number:": "1646460180",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "6Q0201051C",
+      "OEM Numbers SKODA:": "6Q0201051J",
+      "OEM Numbers VW:": "6Q0201511",
+      "OEM Numbers VW (SVW):": "6Q0201051J",
+      "OEM Numbers SKODA (SVW):": "6Q0201051J"
+    }
+  },
+  {
+    "id": "7426078",
+    "name": "Fuel Filter",
+    "partNo": "H155WK02",
+    "manufacturer": "HENGST FILTER",
+    "supplierId": "81",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "33239",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7426078/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Overall Length [mm]": "164",
+      "Outer diameter [mm]": "56",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "7426078",
+      "Article Number:": "H155WK02",
+      "Manufacturer:": "HENGST FILTER",
+      "EAN Numbers:": "403077602387",
+      "OEM Numbers VAG:": "6Q0 201 051 J"
+    }
+  },
+  {
+    "id": "675004",
+    "name": "Fuel Filter",
+    "partNo": "09152",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "33239",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/675004/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Article ID:": "675004",
+      "Article Number:": "09152",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357309152",
+      "OEM Numbers VW:": "6Q0 201 051 J"
+    }
+  }
+]

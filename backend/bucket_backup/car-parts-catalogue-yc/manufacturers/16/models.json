@@ -1,0 +1,1773 @@
+[
+  {
+    "id": "5114",
+    "name": "BMW 1 (E81)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-09-01",
+      "toDate": "2012-09-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10974",
+    "name": "BMW 1 (E87)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10974/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-02-01",
+      "toDate": "2013-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39565",
+    "name": "BMW 1 (F40)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39565/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38789",
+    "name": "BMW 1 (F52)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38789/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-01-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "6713",
+    "name": "BMW 1 Convertible (E88)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6713/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-12-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6441",
+    "name": "BMW 1 Coupe (E82)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6441/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-10-01",
+      "toDate": "2013-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9620",
+    "name": "BMW 1 Sports Hatch (F20)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9620/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-07-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11003",
+    "name": "BMW 1 Sports Hatch (F21)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11003/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-12-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39640",
+    "name": "BMW 1 Van (F20)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39640/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-03-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "187",
+    "name": "BMW 1500-2000 (115, 116, 118, 121)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/187/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1962-10-01",
+      "toDate": "1972-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "164",
+    "name": "BMW 1502-2002 (E10)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/164/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-09-01",
+      "toDate": "1977-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1608",
+    "name": "BMW 1502-2002 Convertible (E10)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1608/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-12-01",
+      "toDate": "1975-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1602",
+    "name": "BMW 1502-2002 Touring (E6)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1602/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1971-01-01",
+      "toDate": "1975-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1640",
+    "name": "BMW 1600 GT Coupe",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1640/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-10-01",
+      "toDate": "1969-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12791",
+    "name": "BMW 2 Active Tourer (F45)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12791/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42440",
+    "name": "BMW 2 Active Tourer (U06)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42440/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39641",
+    "name": "BMW 2 Active Tourer Van (F45)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39641/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13176",
+    "name": "BMW 2 Convertible (F23)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13176/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11599",
+    "name": "BMW 2 Coupe (F22, F87)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11599/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41933",
+    "name": "BMW 2 Coupe (G42)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41933/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39800",
+    "name": "BMW 2 Gran Coupe (F44)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39800/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13830",
+    "name": "BMW 2 Gran Tourer (F46)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13830/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39642",
+    "name": "BMW 2 Gran Tourer Van (F46)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39642/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "224",
+    "name": "BMW 2.5-3.2 Coupe (E9)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/224/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-09-01",
+      "toDate": "1976-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40960",
+    "name": "BMW 2000 Coupe (120)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40960/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1965-10-01",
+      "toDate": "1970-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "219",
+    "name": "BMW 2500-3.3 (E3)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/219/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1968-10-01",
+      "toDate": "1977-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "286",
+    "name": "BMW 3 (E21)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/286/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-06-01",
+      "toDate": "1984-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "290",
+    "name": "BMW 3 (E30)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/290/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-09-01",
+      "toDate": "1992-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "304",
+    "name": "BMW 3 (E36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/304/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-09-01",
+      "toDate": "1998-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3397",
+    "name": "BMW 3 (E46)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3397/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-12-01",
+      "toDate": "2005-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5389",
+    "name": "BMW 3 (E90)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5389/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-02-01",
+      "toDate": "2012-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9831",
+    "name": "BMW 3 (F30, F80)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9831/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-11-01",
+      "toDate": "2018-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39027",
+    "name": "BMW 3 (G20, G80, G28)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39027/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "299",
+    "name": "BMW 3 Compact (E36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/299/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-01-01",
+      "toDate": "2000-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4751",
+    "name": "BMW 3 Compact (E46)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4751/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-03-01",
+      "toDate": "2005-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "430",
+    "name": "BMW 3 Convertible (E30)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/430/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1982-09-01",
+      "toDate": "1993-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "434",
+    "name": "BMW 3 Convertible (E36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/434/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1993-03-01",
+      "toDate": "1999-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4571",
+    "name": "BMW 3 Convertible (E46)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4571/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-04-01",
+      "toDate": "2007-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6241",
+    "name": "BMW 3 Convertible (E93)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6241/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-05-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "308",
+    "name": "BMW 3 Coupe (E36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/308/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-10-01",
+      "toDate": "1999-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3999",
+    "name": "BMW 3 Coupe (E46)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3999/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1998-12-01",
+      "toDate": "2006-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5569",
+    "name": "BMW 3 Coupe (E92)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5569/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2005-01-01",
+      "toDate": "2013-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11207",
+    "name": "BMW 3 Gran Turismo (F34)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11207/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "294",
+    "name": "BMW 3 Touring (E30)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/294/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-07-01",
+      "toDate": "1994-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1311",
+    "name": "BMW 3 Touring (E36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1311/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-08-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4088",
+    "name": "BMW 3 Touring (E46)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4088/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1999-06-01",
+      "toDate": "2005-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5430",
+    "name": "BMW 3 Touring (E91)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5430/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-12-01",
+      "toDate": "2012-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "10266",
+    "name": "BMW 3 Touring (F31)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/10266/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39625",
+    "name": "BMW 3 Touring (G21, G81)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39625/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39643",
+    "name": "BMW 3 Touring Van (F31)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39643/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-07-01",
+      "toDate": "2019-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "40436",
+    "name": "BMW 3 Touring Van (G21)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40436/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "37692",
+    "name": "BMW 340",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37692/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1950-01-01",
+      "toDate": "1955-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11600",
+    "name": "BMW 4 Convertible (F33, F83)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11600/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-10-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41276",
+    "name": "BMW 4 Convertible (G23, G83)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41276/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11300",
+    "name": "BMW 4 Coupe (F32, F82)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11300/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40742",
+    "name": "BMW 4 Coupe (G22, G82)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40742/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11900",
+    "name": "BMW 4 Gran Coupe (F36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11900/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42096",
+    "name": "BMW 4 Gran Coupe (G26)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42096/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "456",
+    "name": "BMW 5 (E12)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/456/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1972-03-01",
+      "toDate": "1981-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "452",
+    "name": "BMW 5 (E28)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/452/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1981-05-01",
+      "toDate": "1987-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "464",
+    "name": "BMW 5 (E34)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/464/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1987-02-01",
+      "toDate": "1995-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1449",
+    "name": "BMW 5 (E39)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1449/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-09-01",
+      "toDate": "2003-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4993",
+    "name": "BMW 5 (E60)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4993/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-12-01",
+      "toDate": "2010-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8541",
+    "name": "BMW 5 (F10)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8541/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-01-01",
+      "toDate": "2016-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37157",
+    "name": "BMW 5 (G30, F90)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37157/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2016-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "8274",
+    "name": "BMW 5 Gran Turismo (F07)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8274/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-01-01",
+      "toDate": "2017-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "459",
+    "name": "BMW 5 Touring (E34)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/459/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1991-07-01",
+      "toDate": "1996-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1892",
+    "name": "BMW 5 Touring (E39)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1892/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1996-09-01",
+      "toDate": "2004-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5079",
+    "name": "BMW 5 Touring (E61)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5079/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-03-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8762",
+    "name": "BMW 5 Touring (F11)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8762/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-11-01",
+      "toDate": "2017-02-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37535",
+    "name": "BMW 5 Touring (G31)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37535/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39644",
+    "name": "BMW 5 Touring Van (G31)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39644/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1642",
+    "name": "BMW 501",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1642/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1952-07-01",
+      "toDate": "1959-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37691",
+    "name": "BMW 502 Saloon",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37691/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1954-09-01",
+      "toDate": "1963-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3390",
+    "name": "BMW 503 Convertible (E03)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3390/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1957-01-01",
+      "toDate": "1961-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "37690",
+    "name": "BMW 507 (E03)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/37690/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1956-10-01",
+      "toDate": "1959-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "486",
+    "name": "BMW 6 (E24)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/486/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1975-10-01",
+      "toDate": "1989-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5086",
+    "name": "BMW 6 (E63)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5086/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-09-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5087",
+    "name": "BMW 6 Convertible (E64)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5087/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2004-03-01",
+      "toDate": "2010-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9159",
+    "name": "BMW 6 Convertible (F12)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9159/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-12-01",
+      "toDate": "2018-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "9160",
+    "name": "BMW 6 Coupe (F13)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/9160/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2011-07-01",
+      "toDate": "2017-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11034",
+    "name": "BMW 6 Gran Coupe (F06)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11034/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2012-03-01",
+      "toDate": "2018-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38046",
+    "name": "BMW 6 Gran Turismo (G32)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38046/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-06-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4002",
+    "name": "BMW 600 (111)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4002/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1957-12-01",
+      "toDate": "1961-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "539",
+    "name": "BMW 7 (E23)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/539/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1977-05-01",
+      "toDate": "1988-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "544",
+    "name": "BMW 7 (E32)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/544/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1985-03-01",
+      "toDate": "1994-10-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "549",
+    "name": "BMW 7 (E38)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/549/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1994-03-01",
+      "toDate": "2001-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4816",
+    "name": "BMW 7 (E65, E66, E67)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4816/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2001-07-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "7864",
+    "name": "BMW 7 (F01, F02, F03, F04)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7864/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2008-02-01",
+      "toDate": "2015-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14283",
+    "name": "BMW 7 (G11, G12)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14283/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42916",
+    "name": "BMW 7 (G70)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42916/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "2054",
+    "name": "BMW 700 (107)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2054/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1959-01-01",
+      "toDate": "1966-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4805",
+    "name": "BMW 700 Coupe (AE)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4805/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1959-08-01",
+      "toDate": "1964-04-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "67",
+    "name": "BMW 8 (E31)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/67/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1990-01-01",
+      "toDate": "1999-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39034",
+    "name": "BMW 8 Convertible (G14, F91)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39034/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38775",
+    "name": "BMW 8 Coupe (G15, F92)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38775/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39628",
+    "name": "BMW 8 Gran Coupe (G16, F93)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39628/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12008",
+    "name": "BMW C",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12008/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12107",
+    "name": "BMW C1",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12107/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12108",
+    "name": "BMW F",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12108/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12109",
+    "name": "BMW G",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12109/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "36965",
+    "name": "BMW GLAS (602)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/36965/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1967-09-01",
+      "toDate": "1968-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12110",
+    "name": "BMW HP",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12110/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11443",
+    "name": "BMW i3 (I01)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11443/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "42095",
+    "name": "BMW i4 (G26)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/42095/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11902",
+    "name": "BMW i8 (I12)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11902/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-03-01",
+      "toDate": "2020-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38331",
+    "name": "BMW i8 Roadster (I15)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38331/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-03-01",
+      "toDate": "2020-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "1435",
+    "name": "BMW ISETTA (100, 103)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1435/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1956-01-01",
+      "toDate": "1963-11-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "41979",
+    "name": "BMW iX (I20)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41979/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2021-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40964",
+    "name": "BMW iX3 (G08)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40964/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2020-09-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12111",
+    "name": "BMW K",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12111/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "41760",
+    "name": "BMW M",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/41760/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1790",
+    "name": "BMW M1 (E26)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1790/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1979-05-01",
+      "toDate": "1983-05-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14014",
+    "name": "BMW R",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14014/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12735",
+    "name": "BMW R 100",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12735/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12741",
+    "name": "BMW R 1100",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12741/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12742",
+    "name": "BMW R 1150",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12742/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12743",
+    "name": "BMW R 1200",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12743/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39516",
+    "name": "BMW R 1250",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39516/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40728",
+    "name": "BMW R 18",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40728/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13552",
+    "name": "BMW R 25",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13552/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14697",
+    "name": "BMW R 45",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14697/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12739",
+    "name": "BMW R 50",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12739/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12740",
+    "name": "BMW R 60",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12740/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12733",
+    "name": "BMW R 65",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12733/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "14480",
+    "name": "BMW R 69",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14480/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12737",
+    "name": "BMW R 75",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12737/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12738",
+    "name": "BMW R 80",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12738/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12734",
+    "name": "BMW R 850",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12734/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12736",
+    "name": "BMW R 90",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12736/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "13082",
+    "name": "BMW R 900",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/13082/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "12112",
+    "name": "BMW S",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12112/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": null,
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "1641",
+    "name": "BMW V8 Coupe (502)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/1641/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1958-10-01",
+      "toDate": "1966-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8277",
+    "name": "BMW X1 (E84)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8277/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-03-01",
+      "toDate": "2015-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "14383",
+    "name": "BMW X1 (F48)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14383/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "43036",
+    "name": "BMW X1 (U11)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/43036/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2022-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39645",
+    "name": "BMW X1 Van (F48)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39645/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2015-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "38274",
+    "name": "BMW X2 (F39)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38274/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "5085",
+    "name": "BMW X3 (E83)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5085/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2003-01-01",
+      "toDate": "2011-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8763",
+    "name": "BMW X3 (F25)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8763/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2010-09-01",
+      "toDate": "2017-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38057",
+    "name": "BMW X3 (G01, F97)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38057/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39646",
+    "name": "BMW X3 Van (G01)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39646/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2017-07-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "11945",
+    "name": "BMW X4 (F26)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11945/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-05-01",
+      "toDate": "2018-03-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38487",
+    "name": "BMW X4 (G02, F98)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38487/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-04-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4343",
+    "name": "BMW X5 (E53)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4343/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2006-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "6414",
+    "name": "BMW X5 (E70)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6414/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-02-01",
+      "toDate": "2013-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "11482",
+    "name": "BMW X5 (F15, F85)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11482/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2013-08-01",
+      "toDate": "2018-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "38751",
+    "name": "BMW X5 (G05, F95)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38751/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "40437",
+    "name": "BMW X5 Van (G05)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40437/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "7378",
+    "name": "BMW X6 (E71, E72)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7378/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2007-06-01",
+      "toDate": "2014-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "12845",
+    "name": "BMW X6 (F16, F86)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/12845/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2014-08-01",
+      "toDate": "2019-07-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39650",
+    "name": "BMW X6 (G06, F96)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39650/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-08-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "39060",
+    "name": "BMW X7 (G07)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39060/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2019-03-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "138",
+    "name": "BMW Z1 Roadster",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/138/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1988-06-01",
+      "toDate": "1991-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "2079",
+    "name": "BMW Z3 Coupe (E36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/2079/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1997-04-01",
+      "toDate": "2003-06-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "3483",
+    "name": "BMW Z3 Roadster (E36)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/3483/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "1995-10-01",
+      "toDate": "2003-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "5516",
+    "name": "BMW Z4 Coupe (E86)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5516/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2006-03-01",
+      "toDate": "2009-01-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "4924",
+    "name": "BMW Z4 Roadster (E85)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4924/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2002-09-01",
+      "toDate": "2009-12-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "8033",
+    "name": "BMW Z4 Roadster (E89)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8033/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2009-02-01",
+      "toDate": "2016-08-01"
+    },
+    "variants": []
+  },
+  {
+    "id": "39028",
+    "name": "BMW Z4 Roadster (G29)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39028/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2018-11-01",
+      "toDate": null
+    },
+    "variants": []
+  },
+  {
+    "id": "4279",
+    "name": "BMW Z8 Roadster (E52)",
+    "manufacturerId": "16",
+    "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4279/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "additionalInfo": {
+      "fromDate": "2000-01-01",
+      "toDate": "2003-12-01"
+    },
+    "variants": []
+  }
+]

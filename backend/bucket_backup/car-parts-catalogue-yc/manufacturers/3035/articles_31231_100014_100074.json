@@ -1,0 +1,82 @@
+[
+  {
+    "id": "3021771",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "38365",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3021771/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "1K0 498 201",
+      "Length [mm]": "116",
+      "Weight [kg]": "0,127",
+      "Material": "Elastomer",
+      "Inner diameter 1 [mm]": "27",
+      "Inner diameter 2 [mm]": "100",
+      "Article ID:": "3021771",
+      "Article Number:": "38365",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781638365",
+      "OEM Numbers AUDI:": "8R0 598 201 B",
+      "OEM Numbers VW:": "6QE 498 201",
+      "OEM Numbers SEAT:": "6Q0 498 201 B",
+      "OEM Numbers SKODA:": "6Q0 498 201 B"
+    }
+  },
+  {
+    "id": "370997",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "03149",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/370997/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Article ID:": "370997",
+      "Article Number:": "03149",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357303149",
+      "OEM Numbers VAG:": "357 498 201 A"
+    }
+  },
+  {
+    "id": "2527977",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "30 93 8365",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "31231",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2527977/model-series-id-8063/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "116",
+      "Material": "Elastomer",
+      "Inner diameter 1 [mm]": "27",
+      "Inner diameter 2 [mm]": "100",
+      "Article ID:": "2527977",
+      "Article Number:": "30 93 8365",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468865465",
+      "OEM Numbers AUDI:": "8R0 598 201 B",
+      "OEM Numbers VW:": "6QE 498 201",
+      "OEM Numbers SEAT:": "6Q0 498 201 B",
+      "OEM Numbers SKODA:": "6Q0 498 201 B"
+    }
+  }
+]

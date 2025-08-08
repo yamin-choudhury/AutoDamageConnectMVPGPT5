@@ -1,0 +1,77 @@
+[
+  {
+    "id": "4953981",
+    "name": "Washer Fluid Jet, window cleaning",
+    "partNo": "86224",
+    "manufacturer": "3RG",
+    "supplierId": "4598",
+    "productsId": "303",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "18587",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4953981/model-series-id-5414/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Supplementary Article/Info 2": "for windscreen cleaning",
+      "Article ID:": "4953981",
+      "Article Number:": "86224",
+      "Manufacturer:": "3RG",
+      "EAN Numbers:": "843388921131",
+      "OEM Numbers CITROËN:": "6405W3",
+      "OEM Numbers PEUGEOT:": "6405W3",
+      "OEM Numbers TOYOTA:": "853810H010"
+    }
+  },
+  {
+    "id": "4461111",
+    "name": "Washer Fluid Jet, window cleaning",
+    "partNo": "723 778",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "303",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "18587",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4461111/model-series-id-5414/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Colour": "Black",
+      "Supplementary Article/Info 2": "for windscreen cleaning",
+      "Wash Nozzle Type": "Unheated",
+      "Article ID:": "4461111",
+      "Article Number:": "723 778",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers CITROËN:": "6405 W3",
+      "OEM Numbers PEUGEOT:": "6405 W3"
+    }
+  },
+  {
+    "id": "9528961",
+    "name": "Washer Fluid Jet, window cleaning",
+    "partNo": "V22-08-0003",
+    "manufacturer": "VEMO",
+    "supplierId": "183",
+    "productsId": "303",
+    "productGroupId": "100611",
+    "categoryId": "100018",
+    "variantId": "18587",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9528961/model-series-id-5414/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Colour": "Black",
+      "Wash Nozzle Type": "Two-hole Nozzle",
+      "Article ID:": "9528961",
+      "Article Number:": "V22-08-0003",
+      "Manufacturer:": "VEMO",
+      "EAN Numbers:": "406237515509",
+      "OEM Numbers CITROËN:": "6405.W3",
+      "OEM Numbers PEUGEOT:": "6405.W3"
+    }
+  }
+]

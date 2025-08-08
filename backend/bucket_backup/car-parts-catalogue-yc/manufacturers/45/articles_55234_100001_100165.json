@@ -1,0 +1,54 @@
+[
+  {
+    "id": "7476197",
+    "name": "Suspension Strut Mounting",
+    "partNo": "HO-SB-10073",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "1507",
+    "productGroupId": "100165",
+    "categoryId": "100001",
+    "variantId": "55234",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7476197/model-series-id-7468/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Packing Type": "Box",
+      "Packaging length [cm]": "20,2",
+      "Packaging width [cm]": "18,4",
+      "Packaging height [cm]": "7,3",
+      "Article ID:": "7476197",
+      "Article Number:": "HO-SB-10073",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "404419759688",
+      "OEM Numbers HONDA:": "51686SDAA01"
+    }
+  },
+  {
+    "id": "7476283",
+    "name": "Suspension Strut Mounting",
+    "partNo": "HO-SB-9758",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "1507",
+    "productGroupId": "100165",
+    "categoryId": "100001",
+    "variantId": "55234",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7476283/model-series-id-7468/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle both sides",
+      "Packing Type": "Box",
+      "Packaging length [cm]": "20,2",
+      "Packaging width [cm]": "18,4",
+      "Packaging height [cm]": "7,3",
+      "Article ID:": "7476283",
+      "Article Number:": "HO-SB-9758",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "404419759705",
+      "OEM Numbers HONDA:": "52686SDAA01"
+    }
+  }
+]

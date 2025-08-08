@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2189835",
+    "name": "Inner Tie Rod",
+    "partNo": "24-03498",
+    "manufacturer": "DYS",
+    "supplierId": "4135",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2189835/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Weight [kg]": "0,537087",
+      "Thread Size 1": "M14x1.5",
+      "Thread Size 2": "M14x1.5",
+      "Axle Joint Length [mm]": "325",
+      "Article ID:": "2189835",
+      "Article Number:": "24-03498",
+      "Manufacturer:": "DYS",
+      "EAN Numbers:": "844352298818",
+      "OEM Numbers SUZUKI:": "48830M68P00"
+    }
+  },
+  {
+    "id": "3327702",
+    "name": "Inner Tie Rod",
+    "partNo": "44-15767",
+    "manufacturer": "TALOSA",
+    "supplierId": "4758",
+    "productsId": "51",
+    "productGroupId": "100198",
+    "categoryId": "100012",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3327702/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Weight [kg]": "0,537087",
+      "Thread Size 1": "M14x1.5",
+      "Thread Size 2": "M14x1.5",
+      "Axle Joint Length [mm]": "325",
+      "Article ID:": "3327702",
+      "Article Number:": "44-15767",
+      "Manufacturer:": "TALOSA",
+      "EAN Numbers:": "844352298818",
+      "OEM Numbers SUZUKI:": "48830M68P00"
+    }
+  }
+]

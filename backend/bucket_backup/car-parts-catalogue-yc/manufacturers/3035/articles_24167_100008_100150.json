@@ -1,0 +1,96 @@
+[
+  {
+    "id": "7225771",
+    "name": "Ignition Coil",
+    "partNo": "GC4715",
+    "manufacturer": "GAUSS",
+    "supplierId": "3894",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "24167",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7225771/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Weight [kg]": "1",
+      "Number of connectors": "4",
+      "Ignition Coil": "Flush-Fitting Pencil Ignition Coils",
+      "Coil Ignition System": "Full Electronic Ignition (FI)",
+      "Number of used contacts": "4",
+      "Number of pins": "4",
+      "Article ID:": "7225771",
+      "Article Number:": "GC4715",
+      "Manufacturer:": "GAUSS",
+      "OEM Numbers AUDI:": "36905715G",
+      "OEM Numbers SEAT:": "36905715G",
+      "OEM Numbers SKODA:": "36905715G",
+      "OEM Numbers VW:": "36905715G",
+      "OEM Numbers STANDARD AUTOMOBILE:": "UF691"
+    }
+  },
+  {
+    "id": "1407216",
+    "name": "Ignition Coil",
+    "partNo": "150509",
+    "manufacturer": "HC-Cargo",
+    "supplierId": "4819",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "24167",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1407216/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Article ID:": "1407216",
+      "Article Number:": "150509",
+      "Manufacturer:": "HC-Cargo",
+      "OEM Numbers VW:": "36905715"
+    }
+  },
+  {
+    "id": "1407216",
+    "name": "Ignition Coil",
+    "partNo": "150509",
+    "manufacturer": "HC-Cargo",
+    "supplierId": "4819",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "24167",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1407216/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Article ID:": "1407216",
+      "Article Number:": "150509",
+      "Manufacturer:": "HC-Cargo",
+      "OEM Numbers VW:": "36905715"
+    }
+  },
+  {
+    "id": "1407216",
+    "name": "Ignition Coil",
+    "partNo": "150509",
+    "manufacturer": "HC-Cargo",
+    "supplierId": "4819",
+    "productsId": "689",
+    "productGroupId": "100150",
+    "categoryId": "100008",
+    "variantId": "24167",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1407216/model-series-id-8590/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Article ID:": "1407216",
+      "Article Number:": "150509",
+      "Manufacturer:": "HC-Cargo",
+      "OEM Numbers VW:": "36905715"
+    }
+  }
+]

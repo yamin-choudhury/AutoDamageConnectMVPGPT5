@@ -1,0 +1,52 @@
+[
+  {
+    "id": "5615875",
+    "name": "Clutch Disc",
+    "partNo": "ADG031146",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "262",
+    "productGroupId": "104247",
+    "categoryId": "103671",
+    "variantId": "118776",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5615875/model-series-id-36253/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "41100-32001",
+      "Number of Teeth": "20",
+      "Weight [kg]": "1,672",
+      "Outer diameter [mm]": "240",
+      "Article ID:": "5615875",
+      "Article Number:": "ADG031146",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006329007",
+      "OEM Numbers HYUNDAI:": "41100-32021",
+      "OEM Numbers KIA:": "41100-32021"
+    }
+  },
+  {
+    "id": "2740871",
+    "name": "Clutch Disc",
+    "partNo": "324 0742 10",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "262",
+    "productGroupId": "104247",
+    "categoryId": "103671",
+    "variantId": "118776",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2740871/model-series-id-36253/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "20",
+      "Diameter [mm]": "235",
+      "Technical Information Number": "TSFV",
+      "Article ID:": "2740871",
+      "Article Number:": "324 0742 10",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487047803",
+      "OEM Numbers HYUNDAI:": "4110032021"
+    }
+  }
+]

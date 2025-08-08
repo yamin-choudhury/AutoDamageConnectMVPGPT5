@@ -1,0 +1,53 @@
+[
+  {
+    "id": "7503932",
+    "name": "Mounting, axle beam",
+    "partNo": "HY-SB-13704",
+    "manufacturer": "MOOG",
+    "supplierId": "134",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "55643",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7503932/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle both sides",
+      "Length [mm]": "70,2",
+      "Height [mm]": "78,5",
+      "Inner diameter [mm]": "12,2",
+      "Packing Type": "Bag",
+      "Packaging length [cm]": "8,5",
+      "Packaging width [cm]": "7,5",
+      "Packaging height [cm]": "8,5",
+      "Article ID:": "7503932",
+      "Article Number:": "HY-SB-13704",
+      "Manufacturer:": "MOOG",
+      "EAN Numbers:": "406042611777",
+      "OEM Numbers HYUNDAI:": "551601R000",
+      "OEM Numbers KIA:": "551601R000"
+    }
+  },
+  {
+    "id": "3603519",
+    "name": "Mounting, axle beam",
+    "partNo": "50Z0574-OYO",
+    "manufacturer": "Oyodo",
+    "supplierId": "6984",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "55643",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3603519/model-series-id-10468/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "3603519",
+      "Article Number:": "50Z0574-OYO",
+      "Manufacturer:": "Oyodo",
+      "OEM Numbers HYUNDAI:": "551601R000"
+    }
+  }
+]

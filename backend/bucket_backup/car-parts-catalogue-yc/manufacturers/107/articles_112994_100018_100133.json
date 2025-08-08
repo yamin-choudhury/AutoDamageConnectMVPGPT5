@@ -1,0 +1,63 @@
+[
+  {
+    "id": "5596280",
+    "name": "Wiper Blade",
+    "partNo": "AD14HY350",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "112994",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596280/model-series-id-14123/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "350",
+      "Length [in]": "14",
+      "Weight [kg]": "0,067",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Hybrid Wiper Blade",
+      "Article ID:": "5596280",
+      "Article Number:": "AD14HY350",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327928",
+      "OEM Numbers HONDA:": "76630-TF0-G01",
+      "OEM Numbers TOYOTA:": "85222-25160"
+    }
+  },
+  {
+    "id": "5596875",
+    "name": "Wiper Blade",
+    "partNo": "AD20HY500",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "112994",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596875/model-series-id-14123/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "500",
+      "Length [in]": "20",
+      "Weight [kg]": "0,102",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Hybrid Wiper Blade",
+      "Article ID:": "5596875",
+      "Article Number:": "AD20HY500",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327933",
+      "OEM Numbers FORD:": "2 206 429",
+      "OEM Numbers CITROËN:": "6423.04",
+      "OEM Numbers PEUGEOT:": "6423.04",
+      "OEM Numbers HONDA:": "76630-SZT-E01",
+      "OEM Numbers RENAULT:": "77 11 1 172 583",
+      "OEM Numbers MITSUBISHI:": "8250A217",
+      "OEM Numbers TOYOTA:": "85222-53060",
+      "OEM Numbers LEXUS:": "85222-53060",
+      "OEM Numbers FORD MOTOR COMPANY:": "JX7B-17528-CA"
+    }
+  }
+]

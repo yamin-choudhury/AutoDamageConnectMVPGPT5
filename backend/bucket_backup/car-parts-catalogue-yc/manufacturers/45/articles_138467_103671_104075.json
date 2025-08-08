@@ -1,0 +1,76 @@
+[
+  {
+    "id": "5608212",
+    "name": "Sensor, coolant temperature",
+    "partNo": "ADBP720016",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "830",
+    "productGroupId": "104075",
+    "categoryId": "103671",
+    "variantId": "138467",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5608212/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "37870-RWC-A01",
+      "Weight [kg]": "0,018",
+      "Colour": "Black",
+      "Number of connectors": "2",
+      "Article ID:": "5608212",
+      "Article Number:": "ADBP720016",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774622957",
+      "OEM Numbers HONDA:": "37870-RZA-007"
+    }
+  },
+  {
+    "id": "942644",
+    "name": "Sensor, coolant temperature",
+    "partNo": "107623",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "830",
+    "productGroupId": "104075",
+    "categoryId": "103671",
+    "variantId": "138467",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/942644/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "37870-RWC-A01",
+      "Weight [kg]": "0,018",
+      "Colour": "Black",
+      "Number of connectors": "2",
+      "Article ID:": "942644",
+      "Article Number:": "107623",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422407623",
+      "OEM Numbers HONDA:": "37870-RZA-007"
+    }
+  },
+  {
+    "id": "2767485",
+    "name": "Sensor, coolant temperature",
+    "partNo": "33 10 6731",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "830",
+    "productGroupId": "104075",
+    "categoryId": "103671",
+    "variantId": "138467",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2767485/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,018",
+      "Colour": "Black",
+      "Number of connectors": "2",
+      "Article ID:": "2767485",
+      "Article Number:": "33 10 6731",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422807623",
+      "OEM Numbers HONDA:": "37870-RZA-007"
+    }
+  }
+]

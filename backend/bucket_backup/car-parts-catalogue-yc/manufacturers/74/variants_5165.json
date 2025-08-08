@@ -1,0 +1,178 @@
+[
+  {
+    "id": "6438",
+    "type": "E-CELL (169.090)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "EM 780.992",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2010-12-01\n                            \n                            2012-06-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "8904",
+    "type": "A 200 CDI (169.308, 169.008)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "OM 640.941",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2004-09-01\n                            \n                            2012-06-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18260",
+    "type": "A 170 (169.032, 169.332)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "M 266.940",
+      "cylinder": "4",
+      "capacity": "1,699 CCM / 1.7 L",
+      "fuelType": "Petrol",
+      "year": "2004-09-01\n                            \n                            2012-06-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18261",
+    "type": "A 150 (169.031, 169.331)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "M 266.920",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2004-09-01\n                            \n                            2012-06-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18262",
+    "type": "A 200 (169.033, 169.333)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "M 266.960",
+      "cylinder": "4",
+      "capacity": "2,034 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-09-01\n                            \n                            2012-06-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18263",
+    "type": "A 160 CDI (169.006, 169.306)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "OM 640.942",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2004-09-01\n                            \n                            2012-06-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18264",
+    "type": "A 180 CDI (169.007, 169.307)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "OM 640.940",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2004-09-01\n                            \n                            2012-06-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "18265",
+    "type": "A 200 CDI (169.008, 169.308)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "OM 640.941",
+      "cylinder": "4",
+      "capacity": "1,991 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2004-09-01\n                            \n                            2012-06-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "19734",
+    "type": "A 200 TURBO (169.034, 169.334)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "M 266.980",
+      "cylinder": "4",
+      "capacity": "2,034 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2005-09-01\n                            \n                            2012-06-01",
+      "power": "142 KW / 193 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31059",
+    "type": "A 160 (169.031, 169.331)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "M 266.920",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2009-04-01\n                            \n                            2012-06-01",
+      "power": "70 KW / 95 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "31060",
+    "type": "A 180 (169.032, 169.332)",
+    "modelId": "5165",
+    "manufacturerId": "74",
+    "url": "",
+    "specs": {
+      "engineCode": "M 266.940",
+      "cylinder": "4",
+      "capacity": "1,699 CCM / 1.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-04-01\n                            \n                            2012-06-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  }
+]

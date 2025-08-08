@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1219771",
+    "name": "Clutch Pedal Pad",
+    "partNo": "12833",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1630",
+    "productGroupId": "100712",
+    "categoryId": "100050",
+    "variantId": "59969",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1219771/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,03",
+      "Material": "Elastomer",
+      "Article ID:": "1219771",
+      "Article Number:": "12833",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781612833",
+      "OEM Numbers FIAT:": "7568442",
+      "OEM Numbers LANCIA:": "7568442",
+      "OEM Numbers ABARTH:": "71736224"
+    }
+  },
+  {
+    "id": "4333625",
+    "name": "Clutch Pedal Pad",
+    "partNo": "70 91 2833",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1630",
+    "productGroupId": "100712",
+    "categoryId": "100050",
+    "variantId": "59969",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4333625/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,03",
+      "Material": "Elastomer",
+      "Article ID:": "4333625",
+      "Article Number:": "70 91 2833",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468812833",
+      "OEM Numbers FIAT:": "7568442",
+      "OEM Numbers LANCIA:": "7568442",
+      "OEM Numbers ABARTH:": "71736224"
+    }
+  }
+]

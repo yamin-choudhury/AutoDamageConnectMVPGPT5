@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1523084",
+    "name": "Oil Filter",
+    "partNo": "1643611380",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "7",
+    "productGroupId": "100470",
+    "categoryId": "100002",
+    "variantId": "144657",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1523084/model-series-id-42091/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "112,5",
+      "Inner diameter [mm]": "24",
+      "Outer diameter [mm]": "52,5",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1523084",
+      "Article Number:": "1643611380",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers AUDI:": "06L115562B",
+      "OEM Numbers SEAT:": "06L115562",
+      "OEM Numbers SKODA:": "06L115562B",
+      "OEM Numbers VW:": "06L115562B",
+      "OEM Numbers VW (SVW):": "06L115562A",
+      "OEM Numbers SKODA (SVW):": "06L115562A",
+      "OEM Numbers PORSCHE:": "95811556200",
+      "OEM Numbers AUDI (FAW):": "L06L115562A",
+      "OEM Numbers VW (FAW):": "L06L115562A"
+    }
+  }
+]

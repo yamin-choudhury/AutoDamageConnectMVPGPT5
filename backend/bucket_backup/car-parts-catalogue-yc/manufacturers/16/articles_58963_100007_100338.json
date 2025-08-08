@@ -1,0 +1,94 @@
+[
+  {
+    "id": "6035075",
+    "name": "Fan, radiator",
+    "partNo": "BM120F001",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "58963",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6035075/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "400",
+      "Manufacturer Restriction": "PrascoSelection",
+      "Diameter 1 [mm]": "490",
+      "Material": "Plastic",
+      "Heating/Cooling": "Single Fan",
+      "Article ID:": "6035075",
+      "Article Number:": "BM120F001",
+      "Manufacturer:": "PRASCO",
+      "EAN Numbers:": "803353348645",
+      "OEM Numbers BMW:": "8507692"
+    }
+  },
+  {
+    "id": "6143956",
+    "name": "Fan, radiator",
+    "partNo": "BW7515",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "58963",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6143956/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Rated Power [W]": "400",
+      "Diameter 1 [mm]": "490",
+      "Material": "Plastic",
+      "Heating/Cooling": "Single Fan",
+      "Article ID:": "6143956",
+      "Article Number:": "BW7515",
+      "Manufacturer:": "PRASCO",
+      "OEM Numbers BMW:": "8507692"
+    }
+  },
+  {
+    "id": "5736274",
+    "name": "Fan, radiator",
+    "partNo": "APELBW0019",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "58963",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5736274/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5736274",
+      "Article Number:": "APELBW0019",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers BMW:": "17427563259"
+    }
+  },
+  {
+    "id": "541601",
+    "name": "Fan, radiator",
+    "partNo": "0627745",
+    "manufacturer": "VAN WEZEL",
+    "supplierId": "36",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "58963",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/541601/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "541601",
+      "Article Number:": "0627745",
+      "Manufacturer:": "VAN WEZEL",
+      "EAN Numbers:": "541090940012",
+      "OEM Numbers BMW:": "17428506668"
+    }
+  }
+]

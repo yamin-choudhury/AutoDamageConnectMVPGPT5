@@ -1,0 +1,80 @@
+[
+  {
+    "id": "767796",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "1.810.242",
+    "manufacturer": "EPS",
+    "supplierId": "4005",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "127445",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/767796/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "767796",
+      "Article Number:": "1.810.242",
+      "Manufacturer:": "EPS",
+      "EAN Numbers:": "801251023103",
+      "OEM Numbers OPEL:": "96628564",
+      "OEM Numbers GENERAL MOTORS:": "96 628 564",
+      "OEM Numbers VAUXHALL:": "96628564",
+      "OEM Numbers CHEVROLET:": "96628564",
+      "OEM Numbers DAEWOO:": "96628564"
+    }
+  },
+  {
+    "id": "4323364",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "7.1242",
+    "manufacturer": "FACET",
+    "supplierId": "159",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "127445",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4323364/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "4323364",
+      "Article Number:": "7.1242",
+      "Manufacturer:": "FACET",
+      "EAN Numbers:": "801251003103",
+      "OEM Numbers OPEL:": "96628564",
+      "OEM Numbers GENERAL MOTORS:": "96 628 564",
+      "OEM Numbers VAUXHALL:": "96628564",
+      "OEM Numbers CHEVROLET:": "96628564",
+      "OEM Numbers DAEWOO:": "96628564"
+    }
+  },
+  {
+    "id": "3612401",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "510 242",
+    "manufacturer": "KW",
+    "supplierId": "4006",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "127445",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3612401/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "3612401",
+      "Article Number:": "510 242",
+      "Manufacturer:": "KW",
+      "EAN Numbers:": "801251013103",
+      "OEM Numbers OPEL:": "96628564",
+      "OEM Numbers GENERAL MOTORS:": "96 628 564",
+      "OEM Numbers VAUXHALL:": "96628564",
+      "OEM Numbers CHEVROLET:": "96628564",
+      "OEM Numbers DAEWOO:": "96628564"
+    }
+  }
+]

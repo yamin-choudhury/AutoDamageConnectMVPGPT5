@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1482730",
+    "name": "Automatic Transmission Fluid",
+    "partNo": "16000HFM",
+    "manufacturer": "MPM",
+    "supplierId": "1402",
+    "productsId": "3069",
+    "productGroupId": "706233",
+    "categoryId": "100238",
+    "variantId": "127445",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1482730/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Oil Viscosity Classification SAE": "10W",
+      "Oil": "Full Synthetic Oil",
+      "Oil - manufacturer recommendation": "VW G 055 025",
+      "SAE viscosity class": "10W",
+      "Article ID:": "1482730",
+      "Article Number:": "16000HFM",
+      "Manufacturer:": "MPM",
+      "OEM Numbers BMW:": "83227542290",
+      "OEM Numbers VW:": "G 055 025"
+    }
+  },
+  {
+    "id": "1629645",
+    "name": "Manual Transmission Oil",
+    "partNo": "18000G",
+    "manufacturer": "MPM",
+    "supplierId": "1402",
+    "productsId": "3225",
+    "productGroupId": "706233",
+    "categoryId": "100238",
+    "variantId": "127445",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1629645/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Oil Viscosity Classification SAE": "75W-90",
+      "Specification": "SAE J 2360",
+      "Oil": "Full Synthetic Oil",
+      "Oil - manufacturer recommendation": "ZF TE-ML 21B",
+      "SAE viscosity class": "75W-90",
+      "Article ID:": "1629645",
+      "Article Number:": "18000G",
+      "Manufacturer:": "MPM",
+      "OEM Numbers BMW:": "83229407768",
+      "OEM Numbers MERCEDES-BENZ:": "A000989990617ADIW",
+      "OEM Numbers VW:": "G51"
+    }
+  }
+]

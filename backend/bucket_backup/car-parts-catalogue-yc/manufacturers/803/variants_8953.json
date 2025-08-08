@@ -1,0 +1,66 @@
+[
+  {
+    "id": "34844",
+    "type": "1.6 4/4",
+    "modelId": "8953",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "ZSG416",
+      "cylinder": "4",
+      "capacity": "1,595 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2004-01-01",
+      "power": "82 KW / 112 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34846",
+    "type": "3.0 V6",
+    "modelId": "8953",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "MEBA",
+      "cylinder": "6",
+      "capacity": "2,967 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2004-01-01",
+      "power": "165 KW / 224 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108647",
+    "type": "3.7",
+    "modelId": "8953",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "C37PDED",
+      "cylinder": "6",
+      "capacity": "3,726 CCM / 3.7 L",
+      "fuelType": "Petrol",
+      "year": "2011-11-01",
+      "power": "209 KW / 284 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "108651",
+    "type": "3.0",
+    "modelId": "8953",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "MEBA",
+      "cylinder": "6",
+      "capacity": "2,967 CCM / 3.0 L",
+      "fuelType": "Petrol",
+      "year": "2008-03-01\n                            \n                            2010-12-01",
+      "power": "150 KW / 204 PS"
+    },
+    "categories": []
+  }
+]

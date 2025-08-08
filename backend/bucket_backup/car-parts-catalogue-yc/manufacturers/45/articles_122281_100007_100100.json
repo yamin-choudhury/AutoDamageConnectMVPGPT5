@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2234347",
+    "name": "Radiator Hose",
+    "partNo": "24666",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "122281",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2234347/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "30",
+      "Inner diameter 2 [mm]": "30",
+      "Hose Length [mm]": "492",
+      "Article ID:": "2234347",
+      "Article Number:": "24666",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers HONDA:": "195025A2A01"
+    }
+  },
+  {
+    "id": "2234436",
+    "name": "Radiator Hose",
+    "partNo": "24668",
+    "manufacturer": "GATES-SEA",
+    "supplierId": "6346",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "122281",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2234436/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "30",
+      "Inner diameter 2 [mm]": "30",
+      "Hose Length [mm]": "372",
+      "Article ID:": "2234436",
+      "Article Number:": "24668",
+      "Manufacturer:": "GATES-SEA",
+      "OEM Numbers HONDA:": "195015A2A01"
+    }
+  }
+]

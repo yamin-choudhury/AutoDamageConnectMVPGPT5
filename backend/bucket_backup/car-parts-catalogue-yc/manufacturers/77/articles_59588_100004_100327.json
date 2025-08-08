@@ -1,0 +1,123 @@
+[
+  {
+    "id": "4501856",
+    "name": "Mount, exhaust system",
+    "partNo": "743-701",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4501856/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "4501856",
+      "Article Number:": "743-701",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513329591",
+      "OEM Numbers HYUNDAI:": "287613B000",
+      "OEM Numbers KIA:": "287613B000",
+      "OEM Numbers MITSUBISHI:": "MB906126"
+    }
+  },
+  {
+    "id": "4501874",
+    "name": "Mount, exhaust system",
+    "partNo": "743-901",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4501874/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4501874",
+      "Article Number:": "743-901",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513321603",
+      "OEM Numbers HYUNDAI:": "287613B000",
+      "OEM Numbers KIA:": "287613B000",
+      "OEM Numbers MITSUBISHI:": "MB906126"
+    }
+  },
+  {
+    "id": "4501889",
+    "name": "Mount, exhaust system",
+    "partNo": "743-919",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4501889/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4501889",
+      "Article Number:": "743-919",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590513322762",
+      "OEM Numbers CITROËN:": "1755P9",
+      "OEM Numbers PEUGEOT:": "1755P9",
+      "OEM Numbers HYUNDAI:": "287623K100",
+      "OEM Numbers MITSUBISHI:": "MR281816"
+    }
+  },
+  {
+    "id": "4501897",
+    "name": "Mount, exhaust system",
+    "partNo": "743-927",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4501897/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4501897",
+      "Article Number:": "743-927",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590207637919",
+      "OEM Numbers MITSUBISHI:": "1577A295",
+      "OEM Numbers CITROËN:": "1607497680",
+      "OEM Numbers PEUGEOT:": "1607497680"
+    }
+  },
+  {
+    "id": "4501898",
+    "name": "Mount, exhaust system",
+    "partNo": "743-928",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "1059",
+    "productGroupId": "100327",
+    "categoryId": "100004",
+    "variantId": "59588",
+    "manufacturerId": "77",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4501898/model-series-id-8631/manufacturer-id-77/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Elastomer",
+      "Article ID:": "4501898",
+      "Article Number:": "743-928",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590207637924",
+      "OEM Numbers MITSUBISHI:": "1577A305",
+      "OEM Numbers CITROËN:": "1607710880",
+      "OEM Numbers PEUGEOT:": "1607710880"
+    }
+  }
+]

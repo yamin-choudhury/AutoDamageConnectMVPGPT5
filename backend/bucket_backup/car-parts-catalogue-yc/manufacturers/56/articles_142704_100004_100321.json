@@ -1,0 +1,75 @@
+[
+  {
+    "id": "3402684",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "460-903",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3402684/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Article ID:": "3402684",
+      "Article Number:": "460-903",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590775560610",
+      "OEM Numbers FORD:": "GX735E281AA",
+      "OEM Numbers LAND ROVER:": "LR072251",
+      "OEM Numbers JAGUAR:": "T2H11760"
+    }
+  },
+  {
+    "id": "2618657",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "310 03 004 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2618657/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2618657",
+      "Article Number:": "310 03 004 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers FORD:": "GX735E281AA",
+      "OEM Numbers JAGUAR:": "T2H11760",
+      "OEM Numbers LAND ROVER:": "LR072251"
+    }
+  },
+  {
+    "id": "10290803",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG2186620",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10290803/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "0,4",
+      "Width [mm]": "84",
+      "Inner diameter [mm]": "66",
+      "Outer diameter [mm]": "145",
+      "Article ID:": "10290803",
+      "Article Number:": "WG2186620",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers LAND ROVER:": "LR085942",
+      "OEM Numbers JAGUAR:": "T2H14088"
+    }
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "4230386",
+    "name": "Engine Cover",
+    "partNo": "6601-02-2013860P",
+    "manufacturer": "BLIC",
+    "supplierId": "4555",
+    "productsId": "4256",
+    "productGroupId": "103037",
+    "categoryId": "100002",
+    "variantId": "105957",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4230386/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4230386",
+      "Article Number:": "6601-02-2013860P",
+      "Manufacturer:": "BLIC",
+      "EAN Numbers:": "590165547747",
+      "OEM Numbers FIAT:": "51818283"
+    }
+  },
+  {
+    "id": "4230387",
+    "name": "Engine Cover",
+    "partNo": "6601-02-2013872P",
+    "manufacturer": "BLIC",
+    "supplierId": "4555",
+    "productsId": "4256",
+    "productGroupId": "103037",
+    "categoryId": "100002",
+    "variantId": "105957",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4230387/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Article ID:": "4230387",
+      "Article Number:": "6601-02-2013872P",
+      "Manufacturer:": "BLIC",
+      "EAN Numbers:": "590165547215",
+      "OEM Numbers FIAT:": "51802070"
+    }
+  },
+  {
+    "id": "7138075",
+    "name": "Buffer, engine cover",
+    "partNo": "FT14001",
+    "manufacturer": "FAST",
+    "supplierId": "4938",
+    "productsId": "4261",
+    "productGroupId": "103037",
+    "categoryId": "100002",
+    "variantId": "105957",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7138075/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7138075",
+      "Article Number:": "FT14001",
+      "Manufacturer:": "FAST",
+      "EAN Numbers:": "590415784890",
+      "OEM Numbers FIAT:": "71772064"
+    }
+  },
+  {
+    "id": "7138075",
+    "name": "Buffer, engine cover",
+    "partNo": "FT14001",
+    "manufacturer": "FAST",
+    "supplierId": "4938",
+    "productsId": "4261",
+    "productGroupId": "103037",
+    "categoryId": "100002",
+    "variantId": "105957",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7138075/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7138075",
+      "Article Number:": "FT14001",
+      "Manufacturer:": "FAST",
+      "EAN Numbers:": "590415784890",
+      "OEM Numbers FIAT:": "71772064"
+    }
+  }
+]

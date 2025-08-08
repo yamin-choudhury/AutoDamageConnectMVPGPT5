@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1704474",
+    "name": "Shock Absorber",
+    "partNo": "19-109572",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "133734",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1704474/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Absorber does not carry a spring",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "1704474",
+      "Article Number:": "19-109572",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525847571",
+      "OEM Numbers AUDI:": "6Q0 513 025 AA",
+      "OEM Numbers VW:": "6Q0 513 025 R",
+      "OEM Numbers SKODA:": "6Q0 513 025 R"
+    }
+  },
+  {
+    "id": "2027681",
+    "name": "Shock Absorber",
+    "partNo": "22-183705",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "854",
+    "productGroupId": "100340",
+    "categoryId": "100011",
+    "variantId": "133734",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2027681/model-series-id-11937/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Shock Absorber Type": "Gas Pressure",
+      "Shock Absorber Design": "Suspension Strut",
+      "Shock Absorber System": "Twin-Tube",
+      "Shock Absorber Mounting Type": "Top pin",
+      "Article ID:": "2027681",
+      "Article Number:": "22-183705",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525868316",
+      "OEM Numbers VAG:": "6RU 413 031 B",
+      "OEM Numbers SKODA:": "6R0 413 031 BF",
+      "OEM Numbers AUDI:": "6R0 413 031 S",
+      "OEM Numbers VW:": "6RF 413 031 G",
+      "OEM Numbers SEAT:": "6R0 413 031 M"
+    }
+  }
+]

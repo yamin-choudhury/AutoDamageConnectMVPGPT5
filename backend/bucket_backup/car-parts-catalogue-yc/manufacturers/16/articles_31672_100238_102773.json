@@ -1,0 +1,99 @@
+[
+  {
+    "id": "2366591",
+    "name": "Mounting, manual transmission",
+    "partNo": "27393",
+    "manufacturer": "AKRON-MALÒ",
+    "supplierId": "317",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "31672",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2366591/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Thickness [mm]": "79",
+      "Weight [kg]": "0,090",
+      "External Thread [mm]": "M8 x 1,25",
+      "Outer diameter [mm]": "50",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Article ID:": "2366591",
+      "Article Number:": "27393",
+      "Manufacturer:": "AKRON-MALÒ",
+      "OEM Numbers BMW:": "22316799411"
+    }
+  },
+  {
+    "id": "3956196",
+    "name": "Mounting, manual transmission",
+    "partNo": "594498",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "31672",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3956196/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3956196",
+      "Article Number:": "594498",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975082069",
+      "OEM Numbers BMW:": "22 31 6 799 411"
+    }
+  },
+  {
+    "id": "3961018",
+    "name": "Mounting, manual transmission",
+    "partNo": "597092",
+    "manufacturer": "HUTCHINSON",
+    "supplierId": "239",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "31672",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3961018/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "3961018",
+      "Article Number:": "597092",
+      "Manufacturer:": "HUTCHINSON",
+      "EAN Numbers:": "315975058131",
+      "OEM Numbers BMW:": "23 70 1 138 517"
+    }
+  },
+  {
+    "id": "4382445",
+    "name": "Mounting, manual transmission",
+    "partNo": "71-11293-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "3873",
+    "productGroupId": "102773",
+    "categoryId": "100238",
+    "variantId": "31672",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4382445/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Width [mm]": "30,3",
+      "External Thread [mm]": "M8x1,25",
+      "Mounting Type": "Rubber-Metal Mount",
+      "Length 1 [mm]": "34",
+      "Length 2 [mm]": "70",
+      "Outer diameter 1 [mm]": "46,5",
+      "Outer diameter 2 [mm]": "50",
+      "Article ID:": "4382445",
+      "Article Number:": "71-11293-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727625894",
+      "OEM Numbers BMW:": "6771220"
+    }
+  }
+]

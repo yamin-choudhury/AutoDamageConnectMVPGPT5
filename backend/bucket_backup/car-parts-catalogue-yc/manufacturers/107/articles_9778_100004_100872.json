@@ -1,0 +1,113 @@
+[
+  {
+    "id": "7697568",
+    "name": "Mounting Kit, charger",
+    "partNo": "JTC11296",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "2420",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "9778",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7697568/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "with gaskets/seals",
+      "Bolt / Nut Version": "Self-locking",
+      "Supplementary Article/Info 2": "with mounting manual",
+      "Article ID:": "7697568",
+      "Article Number:": "JTC11296",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357700642",
+      "OEM Numbers SUBARU:": "14411AA71",
+      "OEM Numbers MITSUBISHI:": "49477-04000"
+    }
+  },
+  {
+    "id": "8337029",
+    "name": "Oil Pipe, charger",
+    "partNo": "OP10878",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3739",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "9778",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8337029/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Forward- /Backflow": "Supply Line",
+      "Article ID:": "8337029",
+      "Article Number:": "OP10878",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357725436",
+      "OEM Numbers SUBARU:": "15192AA590"
+    }
+  },
+  {
+    "id": "8337032",
+    "name": "Oil Pipe, charger",
+    "partNo": "OP10880",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "3739",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "9778",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8337032/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Forward- /Backflow": "Supply Line",
+      "Article ID:": "8337032",
+      "Article Number:": "OP10880",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357725438",
+      "OEM Numbers SUBARU:": "15192SS501"
+    }
+  },
+  {
+    "id": "6569266",
+    "name": "Charge Air Hose",
+    "partNo": "DC7002TT",
+    "manufacturer": "THERMOTEC",
+    "supplierId": "4466",
+    "productsId": "3314",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "9778",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6569266/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6569266",
+      "Article Number:": "DC7002TT",
+      "Manufacturer:": "THERMOTEC",
+      "EAN Numbers:": "590165512668",
+      "OEM Numbers SUBARU:": "21869AA111"
+    }
+  },
+  {
+    "id": "6569269",
+    "name": "Charge Air Hose",
+    "partNo": "DC7005TTS",
+    "manufacturer": "THERMOTEC",
+    "supplierId": "4466",
+    "productsId": "3314",
+    "productGroupId": "100872",
+    "categoryId": "100004",
+    "variantId": "9778",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6569269/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6569269",
+      "Article Number:": "DC7005TTS",
+      "Manufacturer:": "THERMOTEC",
+      "EAN Numbers:": "590165512671",
+      "OEM Numbers SUBARU:": "14459AA750"
+    }
+  }
+]

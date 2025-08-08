@@ -1,0 +1,63 @@
+[
+  {
+    "id": "6730943",
+    "name": "Bulb, spotlight",
+    "partNo": "EB0715SB",
+    "manufacturer": "ELTA AUTOMOTIVE",
+    "supplierId": "4344",
+    "productsId": "106",
+    "productGroupId": "100442",
+    "categoryId": "100010",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6730943/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "55/15",
+      "Lamp Type": "H15",
+      "Light Design": "Halogen",
+      "Socket Type": "PGJ23T-1",
+      "Version": "Single Box",
+      "Specification": "Standard",
+      "Article ID:": "6730943",
+      "Article Number:": "EB0715SB",
+      "Manufacturer:": "ELTA AUTOMOTIVE",
+      "OEM Numbers FORD:": "5199697",
+      "OEM Numbers BMW:": "7119907004",
+      "OEM Numbers ALFA ROMEO:": "71771923",
+      "OEM Numbers MAZDA:": "997033551"
+    }
+  },
+  {
+    "id": "7903861",
+    "name": "Bulb, spotlight",
+    "partNo": "LLB715",
+    "manufacturer": "LUCAS",
+    "supplierId": "4501",
+    "productsId": "106",
+    "productGroupId": "100442",
+    "categoryId": "100010",
+    "variantId": "142709",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7903861/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Rated Power [W]": "55/15",
+      "Quality": "E",
+      "Lamp Type": "H15",
+      "Light Design": "Halogen",
+      "Socket Type": "PGJ23T-1",
+      "Version": "Single Box",
+      "Specification": "Standard",
+      "Article ID:": "7903861",
+      "Article Number:": "LLB715",
+      "Manufacturer:": "LUCAS",
+      "OEM Numbers FORD:": "5199697",
+      "OEM Numbers BMW:": "7119907004",
+      "OEM Numbers ALFA ROMEO:": "71771923",
+      "OEM Numbers MAZDA:": "997033551"
+    }
+  }
+]

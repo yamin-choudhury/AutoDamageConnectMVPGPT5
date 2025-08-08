@@ -1,0 +1,50 @@
+[
+  {
+    "id": "10484",
+    "type": "3.5 (GSV40_)",
+    "modelId": "9630",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2006-05-01\n                            \n                            2012-06-01",
+      "power": "204 KW / 277 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "53027",
+    "type": "3.5 (GSV40_)",
+    "modelId": "9630",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2010-09-01\n                            \n                            2012-06-01",
+      "power": "200 KW / 272 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "120015",
+    "type": "240 (ACV40_)",
+    "modelId": "9630",
+    "manufacturerId": "842",
+    "url": "",
+    "specs": {
+      "engineCode": "2AZ-FE",
+      "cylinder": "4",
+      "capacity": "2,362 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2009-08-01\n                            \n                            2012-06-01",
+      "power": "123 KW / 167 PS"
+    },
+    "categories": []
+  }
+]

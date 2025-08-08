@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2868718",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "34612",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "24166",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2868718/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "03C 903 119 C",
+      "Weight [kg]": "0,40",
+      "Number of ribs": "6",
+      "Supplementary Article/Info 2": "with lid",
+      "Article ID:": "2868718",
+      "Article Number:": "34612",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781634612",
+      "OEM Numbers AUDI:": "4C 903 119",
+      "OEM Numbers VW:": "4C 903 119",
+      "OEM Numbers SEAT:": "4C 903 119",
+      "OEM Numbers SKODA:": "4C 903 119"
+    }
+  },
+  {
+    "id": "1376128",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "14763",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "24166",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1376128/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "34,6",
+      "Inner diameter [mm]": "17",
+      "Outer diameter [mm]": "49,4",
+      "Article ID:": "1376128",
+      "Article Number:": "14763",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509314763",
+      "OEM Numbers VW:": "03C 903 119 A"
+    }
+  },
+  {
+    "id": "2527429",
+    "name": "Alternator Freewheel Clutch",
+    "partNo": "30 93 4612",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1390",
+    "productGroupId": "102239",
+    "categoryId": "100016",
+    "variantId": "24166",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2527429/model-series-id-6584/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "03C 903 119 C",
+      "Weight [kg]": "0,40",
+      "Number of ribs": "6",
+      "Supplementary Article/Info 2": "with lid",
+      "Article ID:": "2527429",
+      "Article Number:": "30 93 4612",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468834612",
+      "OEM Numbers AUDI:": "4C 903 119",
+      "OEM Numbers VW:": "4C 903 119",
+      "OEM Numbers SEAT:": "4C 903 119",
+      "OEM Numbers SKODA:": "4C 903 119"
+    }
+  }
+]

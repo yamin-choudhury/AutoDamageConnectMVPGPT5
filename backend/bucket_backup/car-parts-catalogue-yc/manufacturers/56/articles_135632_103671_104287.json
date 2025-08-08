@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2618656",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "310 03 003 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "572",
+    "productGroupId": "104287",
+    "categoryId": "103671",
+    "variantId": "135632",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2618656/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2618656",
+      "Article Number:": "310 03 003 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers FORD:": "G4D3-6E30-0AD",
+      "OEM Numbers JAGUAR:": "LR084639",
+      "OEM Numbers LAND ROVER:": "LR084639"
+    }
+  },
+  {
+    "id": "4686403",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10503-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "104287",
+    "categoryId": "103671",
+    "variantId": "135632",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686403/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "PTFE (polytetrafluoroethylene)",
+      "Article ID:": "4686403",
+      "Article Number:": "81-10503-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663517026",
+      "OEM Numbers FORD:": "G4D3-6L270-CA",
+      "OEM Numbers JAGUAR:": "JDE 38485",
+      "OEM Numbers LAND ROVER:": "LR093852"
+    }
+  },
+  {
+    "id": "4686405",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "81-10505-00",
+    "manufacturer": "VICTOR REINZ",
+    "supplierId": "9",
+    "productsId": "572",
+    "productGroupId": "104287",
+    "categoryId": "103671",
+    "variantId": "135632",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4686405/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "9",
+      "Material": "ACM (Polyacrylate)",
+      "Inner diameter [mm]": "92",
+      "Outer diameter [mm]": "109",
+      "Swirl Type": "Left-hand Twist",
+      "Radial Shaft Seal Design": "AB SL",
+      "Supplementary Article/Info 2": "with mounting sleeve",
+      "Article ID:": "4686405",
+      "Article Number:": "81-10505-00",
+      "Manufacturer:": "VICTOR REINZ",
+      "EAN Numbers:": "402663517028",
+      "OEM Numbers FORD:": "G4D3-6E300-AD",
+      "OEM Numbers JAGUAR:": "JDE 39481",
+      "OEM Numbers LAND ROVER:": "LR084639"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "2610766",
+    "name": "Fuel Filter",
+    "partNo": "30F4022-JPN",
+    "manufacturer": "JPN",
+    "supplierId": "6985",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "122279",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2610766/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "in fuel tank",
+      "Filter type": "In-Line Filter",
+      "Article ID:": "2610766",
+      "Article Number:": "30F4022-JPN",
+      "Manufacturer:": "JPN",
+      "OEM Numbers HONDA:": "17048TA0000"
+    }
+  },
+  {
+    "id": "3931520",
+    "name": "Fuel Filter",
+    "partNo": "58436",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "122279",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3931520/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Filter type": "Filter Insert",
+      "Lowered rear axle from [mm]": "9",
+      "Article ID:": "3931520",
+      "Article Number:": "58436",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "691509358436",
+      "OEM Numbers BMW:": "16 14 7 186 454"
+    }
+  }
+]

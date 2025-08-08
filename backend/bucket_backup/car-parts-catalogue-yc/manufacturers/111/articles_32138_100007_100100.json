@@ -1,0 +1,54 @@
+[
+  {
+    "id": "470556",
+    "name": "Radiator Hose",
+    "partNo": "05-1958",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "32138",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/470556/model-series-id-7950/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33",
+      "Inner diameter 2 [mm]": "33",
+      "Hose Length [mm]": "385",
+      "Article ID:": "470556",
+      "Article Number:": "05-1958",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "931469349121",
+      "OEM Numbers TOYOTA:": "165710P080"
+    }
+  },
+  {
+    "id": "470557",
+    "name": "Radiator Hose",
+    "partNo": "05-1959",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "32138",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/470557/model-series-id-7950/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "33",
+      "Inner diameter 2 [mm]": "33",
+      "Hose Length [mm]": "620",
+      "Article ID:": "470557",
+      "Article Number:": "05-1959",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "931469349122",
+      "OEM Numbers TOYOTA:": "165720P080"
+    }
+  }
+]

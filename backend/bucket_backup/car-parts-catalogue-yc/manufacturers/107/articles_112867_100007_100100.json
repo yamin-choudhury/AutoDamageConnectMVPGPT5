@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2169371",
+    "name": "Radiator Hose",
+    "partNo": "23459",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112867",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2169371/model-series-id-14085/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "38",
+      "Inner diameter 2 [mm]": "38",
+      "Hose Length [mm]": "297",
+      "Article ID:": "2169371",
+      "Article Number:": "23459",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007536655",
+      "OEM Numbers SUBARU:": "45161AG01A"
+    }
+  },
+  {
+    "id": "2169415",
+    "name": "Radiator Hose",
+    "partNo": "23460",
+    "manufacturer": "GATES-AU",
+    "supplierId": "4812",
+    "productsId": "475",
+    "productGroupId": "100100",
+    "categoryId": "100007",
+    "variantId": "112867",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2169415/model-series-id-14085/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Colour": "Black",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Inner diameter 1 [mm]": "38",
+      "Inner diameter 2 [mm]": "38",
+      "Hose Length [mm]": "579",
+      "Article ID:": "2169415",
+      "Article Number:": "23460",
+      "Manufacturer:": "GATES-AU",
+      "EAN Numbers:": "077007537871",
+      "OEM Numbers SUBARU:": "45161SC010"
+    }
+  }
+]

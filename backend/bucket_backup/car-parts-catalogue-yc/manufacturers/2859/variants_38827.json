@@ -1,0 +1,66 @@
+[
+  {
+    "id": "132110",
+    "type": "200 TSI",
+    "modelId": "38827",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "DJNA",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-07-01",
+      "power": "85 KW / 116 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132111",
+    "type": "230 TSI",
+    "modelId": "38827",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSTA,DJRA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-07-01",
+      "power": "96 KW / 131 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132112",
+    "type": "280 TSI",
+    "modelId": "38827",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA,DSBA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-07-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132113",
+    "type": "280 TSI All-wheel Drive",
+    "modelId": "38827",
+    "manufacturerId": "2859",
+    "url": "",
+    "specs": {
+      "engineCode": "CSSA,DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2018-07-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

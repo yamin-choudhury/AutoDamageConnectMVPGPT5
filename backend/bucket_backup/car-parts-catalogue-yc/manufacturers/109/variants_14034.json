@@ -1,0 +1,18 @@
+[
+  {
+    "id": "112471",
+    "type": "1.5 (SL415)",
+    "modelId": "14034",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "G15A",
+      "cylinder": "4",
+      "capacity": "1,493 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2000-01-01",
+      "power": "57 KW / 77 PS"
+    },
+    "categories": []
+  }
+]

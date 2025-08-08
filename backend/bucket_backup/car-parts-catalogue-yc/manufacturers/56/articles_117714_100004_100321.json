@@ -1,0 +1,74 @@
+[
+  {
+    "id": "246179",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01309900",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "117714",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/246179/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "LR016621",
+      "Fitting Position": "Exhaust Side",
+      "Inner diameter [mm]": "65",
+      "Outer diameter [mm]": "91,5",
+      "Article ID:": "246179",
+      "Article Number:": "01309900",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357712999",
+      "OEM Numbers LAND ROVER:": "LR016621"
+    }
+  },
+  {
+    "id": "3402685",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "460-904",
+    "manufacturer": "FA1",
+    "supplierId": "367",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "117714",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3402685/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Turbocharger",
+      "Article ID:": "3402685",
+      "Article Number:": "460-904",
+      "Manufacturer:": "FA1",
+      "EAN Numbers:": "590775561056",
+      "OEM Numbers JAGUAR:": "FW935E281AC",
+      "OEM Numbers LAND ROVER:": "LR092876"
+    }
+  },
+  {
+    "id": "9752482",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "WG1158533",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "117714",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9752482/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "LR016621",
+      "Fitting Position": "Exhaust Side",
+      "Inner diameter [mm]": "65",
+      "Outer diameter [mm]": "91,5",
+      "Article ID:": "9752482",
+      "Article Number:": "WG1158533",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers LAND ROVER:": "LR016621"
+    }
+  }
+]

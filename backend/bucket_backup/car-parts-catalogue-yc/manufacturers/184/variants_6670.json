@@ -1,0 +1,178 @@
+[
+  {
+    "id": "24327",
+    "type": "2.4 TDCi",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4BH",
+      "cylinder": "4",
+      "capacity": "2,476 CCM / 2.4 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "69 KW / 94 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24328",
+    "type": "2.9 TDiC",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "HJ3",
+      "cylinder": "4",
+      "capacity": "2,902 CCM / 2.9 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "24329",
+    "type": "2.9 TDiC 4WD",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "HJ3",
+      "cylinder": "4",
+      "capacity": "2,902 CCM / 2.9 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "90 KW / 122 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30291",
+    "type": "2.7 D 4WD (K70P)",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "J2",
+      "cylinder": "4",
+      "capacity": "2,665 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "61 KW / 83 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "30293",
+    "type": "2.7 D",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "J2",
+      "cylinder": "4",
+      "capacity": "2,665 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "59 KW / 80 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "49891",
+    "type": "2.5 CRDi",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4CB",
+      "cylinder": "4",
+      "capacity": "2,497 CCM / 2.5 L",
+      "fuelType": "Diesel",
+      "year": "2012-01-01",
+      "power": "98 KW / 133 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119153",
+    "type": "2.7 D 4WD",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "J2",
+      "cylinder": "4",
+      "capacity": "2,665 CCM / 2.7 L",
+      "fuelType": "Diesel",
+      "year": "2012-01-01\n                            \n                            2015-12-01",
+      "power": "61 KW / 83 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "128252",
+    "type": "2.4 LPI",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "L4KB",
+      "cylinder": "4",
+      "capacity": "2,359 CCM / 2.4 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2010-01-01",
+      "power": "117 KW / 159 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129221",
+    "type": "2.5 CRDi 4WD",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "D4CB",
+      "cylinder": "4",
+      "capacity": "2,497 CCM / 2.5 L",
+      "fuelType": "Diesel",
+      "year": "2012-01-01",
+      "power": "98 KW / 133 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "142653",
+    "type": "3.0 D",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "JT",
+      "cylinder": "4",
+      "capacity": "2,956 CCM / 3.0 L",
+      "fuelType": "Diesel",
+      "year": "2003-10-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144954",
+    "type": "EV",
+    "modelId": "6670",
+    "manufacturerId": "184",
+    "url": "",
+    "specs": {
+      "engineCode": "EM14",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2020-03-01",
+      "power": "135 KW / 184 PS"
+    },
+    "categories": []
+  }
+]

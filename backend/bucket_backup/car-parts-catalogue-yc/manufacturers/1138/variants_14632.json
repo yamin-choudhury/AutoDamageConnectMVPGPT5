@@ -1,0 +1,114 @@
+[
+  {
+    "id": "116792",
+    "type": "1.0 (453.442, 453.443)",
+    "modelId": "14632",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 281.920",
+      "cylinder": "3",
+      "capacity": "999 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "52 KW / 71 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "116794",
+    "type": "0.9 (453.444, 453.453)",
+    "modelId": "14632",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 281.910",
+      "cylinder": "3",
+      "capacity": "898 CCM / 0.9 L",
+      "fuelType": "Petrol",
+      "year": "2015-09-01",
+      "power": "66 KW / 90 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119985",
+    "type": "0.9 Brabus (453.462)",
+    "modelId": "14632",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 281.910",
+      "cylinder": "3",
+      "capacity": "898 CCM / 0.9 L",
+      "fuelType": "Petrol",
+      "year": "2016-07-01",
+      "power": "80 KW / 109 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123879",
+    "type": "electric drive",
+    "modelId": "14632",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2016-11-01",
+      "power": "55 KW / 75 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127355",
+    "type": "electric drive / EQ (453.491)",
+    "modelId": "14632",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "5AL",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2017-05-01",
+      "power": "41 KW / 56 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129541",
+    "type": "electric drive (453.491)",
+    "modelId": "14632",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "5AL",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2017-05-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "138192",
+    "type": "0.9 (453.444)",
+    "modelId": "14632",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "M 281.910",
+      "cylinder": "3",
+      "capacity": "898 CCM / 0.9 L",
+      "fuelType": "Petrol",
+      "year": "2019-03-01",
+      "power": "61 KW / 84 PS"
+    },
+    "categories": []
+  }
+]

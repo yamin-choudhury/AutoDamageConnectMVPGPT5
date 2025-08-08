@@ -1,0 +1,18 @@
+[
+  {
+    "id": "107398",
+    "type": "2.0 AWD",
+    "modelId": "36137",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FB20B",
+      "cylinder": "4",
+      "capacity": "1,995 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2011-09-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

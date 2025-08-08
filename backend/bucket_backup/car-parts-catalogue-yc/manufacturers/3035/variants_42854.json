@@ -1,0 +1,18 @@
+[
+  {
+    "id": "147228",
+    "type": "280 TSI",
+    "modelId": "42854",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2022-03-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

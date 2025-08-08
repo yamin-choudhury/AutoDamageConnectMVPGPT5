@@ -1,0 +1,123 @@
+[
+  {
+    "id": "2624396",
+    "name": "Catalytic Converter",
+    "partNo": "31008",
+    "manufacturer": "Contra",
+    "supplierId": "2987",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "6029",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2624396/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Emission Standard": "Euro 5",
+      "Article ID:": "2624396",
+      "Article Number:": "31008",
+      "Manufacturer:": "Contra",
+      "EAN Numbers:": "0425190672276",
+      "OEM Numbers SEAT:": "7N0254500DX",
+      "OEM Numbers VW:": "7N0254500DX"
+    }
+  },
+  {
+    "id": "4549402",
+    "name": "Catalytic Converter",
+    "partNo": "760867",
+    "manufacturer": "ERNST",
+    "supplierId": "29",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "6029",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4549402/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "1005",
+      "Emission Standard": "Euro 5",
+      "Supplementary Article/Info 2": "with mounting kit",
+      "Article ID:": "4549402",
+      "Article Number:": "760867",
+      "Manufacturer:": "ERNST",
+      "EAN Numbers:": "400746376086",
+      "OEM Numbers VAG:": "7N0 254 500 DX"
+    }
+  },
+  {
+    "id": "5141348",
+    "name": "Catalytic Converter",
+    "partNo": "90 11 5711",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "6029",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5141348/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with fastening material",
+      "Warranty": "3 years warranty",
+      "Article ID:": "5141348",
+      "Article Number:": "90 11 5711",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258833859",
+      "OEM Numbers SEAT:": "7N0.254.500 CX",
+      "OEM Numbers VW:": "7N0.254.500 CX"
+    }
+  },
+  {
+    "id": "9597759",
+    "name": "Catalytic Converter",
+    "partNo": "VK-925",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "6029",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9597759/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "10,8",
+      "Emission Standard": "Euro 5",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Article ID:": "9597759",
+      "Article Number:": "VK-925",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550324879",
+      "OEM Numbers VW:": "7N0 254 500 DX",
+      "OEM Numbers SEAT:": "7N0.254.500 CX"
+    }
+  },
+  {
+    "id": "9597759",
+    "name": "Catalytic Converter",
+    "partNo": "VK-925",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "429",
+    "productGroupId": "100047",
+    "categoryId": "100004",
+    "variantId": "6029",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9597759/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "10,8",
+      "Emission Standard": "Euro 5",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Article ID:": "9597759",
+      "Article Number:": "VK-925",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550324879",
+      "OEM Numbers VW:": "7N0 254 500 DX",
+      "OEM Numbers SEAT:": "7N0.254.500 CX"
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "4756262",
+    "name": "Mounting Kit, catalytic converter",
+    "partNo": "82 11 3234",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "518",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "22948",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756262/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with pipe connector",
+      "Article ID:": "4756262",
+      "Article Number:": "82 11 3234",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258830488",
+      "OEM Numbers SEAT:": "(6Q0.254.800 EX)",
+      "OEM Numbers VW:": "(6Q0.254.800 EX)",
+      "OEM Numbers SKODA:": "(6Q0.254.800 EX)"
+    }
+  },
+  {
+    "id": "4756611",
+    "name": "Mounting Kit, muffler",
+    "partNo": "82 11 9853",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "519",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "22948",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756611/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with pipe connector",
+      "Exhaust System": "for rear muffler",
+      "Article ID:": "4756611",
+      "Article Number:": "82 11 9853",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258832213",
+      "OEM Numbers SEAT:": "JZW.298.141 AC",
+      "OEM Numbers SKODA:": "JZW.298.141 AC",
+      "OEM Numbers VW:": "JZW.298.141 AC",
+      "OEM Numbers AUDI:": "JZW.298.141 AC"
+    }
+  },
+  {
+    "id": "4756528",
+    "name": "Mounting Kit, exhaust system",
+    "partNo": "82 11 9215",
+    "manufacturer": "HJS",
+    "supplierId": "118",
+    "productsId": "1127",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "22948",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4756528/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Info 2": "with clamp",
+      "Exhaust System": "for rear muffler",
+      "Article ID:": "4756528",
+      "Article Number:": "82 11 9215",
+      "Manufacturer:": "HJS",
+      "EAN Numbers:": "401258872421",
+      "OEM Numbers POLMO:": "(24.44)",
+      "OEM Numbers SEAT:": "(6Q9.253.609 BC)",
+      "OEM Numbers SKODA:": "(6Q9.253.609 BC)",
+      "OEM Numbers VW:": "(6Q6.253.609 CA)",
+      "OEM Numbers AUDI:": "(8X0.253.609)"
+    }
+  },
+  {
+    "id": "7283845",
+    "name": "Mounting Kit, exhaust system",
+    "partNo": "GM-8094",
+    "manufacturer": "ZEKKERT",
+    "supplierId": "4894",
+    "productsId": "1127",
+    "productGroupId": "100316",
+    "categoryId": "100004",
+    "variantId": "22948",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7283845/model-series-id-6363/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,26",
+      "Inner diameter 1 [mm]": "12",
+      "Inner diameter 2 [mm]": "10,5",
+      "Article ID:": "7283845",
+      "Article Number:": "GM-8094",
+      "Manufacturer:": "ZEKKERT",
+      "EAN Numbers:": "425147244508",
+      "OEM Numbers VAG:": "6Q0253144G"
+    }
+  }
+]

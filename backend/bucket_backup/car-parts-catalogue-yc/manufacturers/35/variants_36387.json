@@ -1,0 +1,50 @@
+[
+  {
+    "id": "119215",
+    "type": "1.4 (348)",
+    "modelId": "36387",
+    "manufacturerId": "35",
+    "url": "",
+    "specs": {
+      "engineCode": "EAM",
+      "cylinder": "4",
+      "capacity": "1,368 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-03-01",
+      "power": "119 KW / 162 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "119302",
+    "type": "1.4 (348)",
+    "modelId": "36387",
+    "manufacturerId": "35",
+    "url": "",
+    "specs": {
+      "engineCode": "552 53 268",
+      "cylinder": "4",
+      "capacity": "1,368 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-03-01",
+      "power": "103 KW / 140 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "121148",
+    "type": "1.4 (348)",
+    "modelId": "36387",
+    "manufacturerId": "35",
+    "url": "",
+    "specs": {
+      "engineCode": "EAM",
+      "cylinder": "4",
+      "capacity": "1,368 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2016-03-01\n                            \n                            2017-12-01",
+      "power": "122 KW / 166 PS"
+    },
+    "categories": []
+  }
+]

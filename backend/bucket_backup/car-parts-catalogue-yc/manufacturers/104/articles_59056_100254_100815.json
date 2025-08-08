@@ -1,0 +1,50 @@
+[
+  {
+    "id": "568537",
+    "name": "Valve, EGR exhaust control",
+    "partNo": "07.17.186",
+    "manufacturer": "TRUCKTEC AUTOMOTIVE",
+    "supplierId": "209",
+    "productsId": "1137",
+    "productGroupId": "100815",
+    "categoryId": "100254",
+    "variantId": "59056",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/568537/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "037 906 283 C",
+      "Operating Mode": "Electric",
+      "Valve type": "Switch Valve",
+      "Article ID:": "568537",
+      "Article Number:": "07.17.186",
+      "Manufacturer:": "TRUCKTEC AUTOMOTIVE",
+      "OEM Numbers VAG:": "037 906 283 C"
+    }
+  },
+  {
+    "id": "5389933",
+    "name": "Valve, EGR exhaust control",
+    "partNo": "99061829801",
+    "manufacturer": "vika",
+    "supplierId": "4346",
+    "productsId": "1137",
+    "productGroupId": "100815",
+    "categoryId": "100254",
+    "variantId": "59056",
+    "manufacturerId": "104",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5389933/model-series-id-9009/manufacturer-id-104/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Electric",
+      "Valve type": "Switch Valve",
+      "Article ID:": "5389933",
+      "Article Number:": "99061829801",
+      "Manufacturer:": "vika",
+      "OEM Numbers AUDI:": "037906283C",
+      "OEM Numbers SEAT:": "037906283C",
+      "OEM Numbers SKODA:": "037906283C",
+      "OEM Numbers VW:": "037906283C"
+    }
+  }
+]

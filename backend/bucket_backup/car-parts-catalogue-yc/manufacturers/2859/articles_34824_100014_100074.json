@@ -1,0 +1,63 @@
+[
+  {
+    "id": "3021538",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "38351",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "34824",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3021538/model-series-id-8945/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "1J0 498 201 J SK",
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "105",
+      "Weight [kg]": "0,191",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "28",
+      "Inner diameter 2 [mm]": "74",
+      "Article ID:": "3021538",
+      "Article Number:": "38351",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781638351",
+      "OEM Numbers AUDI:": "8E0 498 201 C",
+      "OEM Numbers VW:": "8E0 498 201 C",
+      "OEM Numbers SEAT:": "1J0 498 201 K SK",
+      "OEM Numbers SKODA:": "1J0 498 201 J SK"
+    }
+  },
+  {
+    "id": "2705500",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "32 93 8351",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "34824",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2705500/model-series-id-8945/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "105",
+      "Weight [kg]": "0,191",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "28",
+      "Inner diameter 2 [mm]": "74",
+      "Article ID:": "2705500",
+      "Article Number:": "32 93 8351",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468865478",
+      "OEM Numbers AUDI:": "8E0 498 201 C",
+      "OEM Numbers VW:": "8E0 498 201 C",
+      "OEM Numbers SEAT:": "1J0 498 201 K SK",
+      "OEM Numbers SKODA:": "1J0 498 201 J SK"
+    }
+  }
+]

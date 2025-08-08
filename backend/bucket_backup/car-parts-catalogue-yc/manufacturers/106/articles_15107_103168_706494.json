@@ -1,0 +1,52 @@
+[
+  {
+    "id": "521122",
+    "name": "Pressure Switch",
+    "partNo": "06-03007-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "2440",
+    "productGroupId": "706494",
+    "categoryId": "103168",
+    "variantId": "15107",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/521122/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Number of pins": "4",
+      "Pressure from [kPA]": "20",
+      "Pressure to [kPA]": "115",
+      "Article ID:": "521122",
+      "Article Number:": "06-03007-SX",
+      "Manufacturer:": "STELLOX",
+      "EAN Numbers:": "405727650439",
+      "OEM Numbers VW:": "369980411",
+      "OEM Numbers VAG:": "369980411",
+      "OEM Numbers GAZ:": "110308-0239010",
+      "OEM Numbers UAZ:": "7443829",
+      "OEM Numbers ZAZ:": "A2C53257696"
+    }
+  },
+  {
+    "id": "521133",
+    "name": "Pressure Switch",
+    "partNo": "06-03019-SX",
+    "manufacturer": "STELLOX",
+    "supplierId": "4595",
+    "productsId": "2440",
+    "productGroupId": "706494",
+    "categoryId": "103168",
+    "variantId": "15107",
+    "manufacturerId": "106",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/521133/model-series-id-4383/manufacturer-id-106/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "521133",
+      "Article Number:": "06-03019-SX",
+      "Manufacturer:": "STELLOX",
+      "OEM Numbers VAG:": "279980411",
+      "OEM Numbers PORSCHE:": "95860618010"
+    }
+  }
+]

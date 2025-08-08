@@ -1,0 +1,68 @@
+[
+  {
+    "id": "4505134",
+    "name": "Gasket, EGR valve bracket",
+    "partNo": "7453",
+    "manufacturer": "RESTAGRAF",
+    "supplierId": "6225",
+    "productsId": "4178",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "18431",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4505134/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "4505134",
+      "Article Number:": "7453",
+      "Manufacturer:": "RESTAGRAF",
+      "EAN Numbers:": "317040002275",
+      "OEM Numbers CITROËN/PEUGEOT:": "16283J"
+    }
+  },
+  {
+    "id": "2646587",
+    "name": "EGR Valve",
+    "partNo": "312 27 313 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "18431",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2646587/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2646587",
+      "Article Number:": "312 27 313 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "1618.24",
+      "OEM Numbers CITROËN/PEUGEOT:": "1618.24"
+    }
+  },
+  {
+    "id": "2646588",
+    "name": "Pipe, EGR valve",
+    "partNo": "312 27 314 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "4179",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "18431",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2646588/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "2646588",
+      "Article Number:": "312 27 314 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "1628.ZQ",
+      "OEM Numbers CITROËN/PEUGEOT:": "1628.ZQ"
+    }
+  }
+]

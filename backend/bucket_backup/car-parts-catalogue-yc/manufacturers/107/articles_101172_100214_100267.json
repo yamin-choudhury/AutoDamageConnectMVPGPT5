@@ -1,0 +1,48 @@
+[
+  {
+    "id": "4452023",
+    "name": "Fuel Feed Unit",
+    "partNo": "721050A2",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "101172",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4452023/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "721050A2",
+      "Version": "EQUIVALENT",
+      "Article ID:": "4452023",
+      "Article Number:": "721050A2",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320824929",
+      "OEM Numbers SUBARU:": "42021SC021"
+    }
+  },
+  {
+    "id": "4452022",
+    "name": "Fuel Feed Unit",
+    "partNo": "721050A2",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "101172",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4452022/model-series-id-7995/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "721050A2",
+      "Version": "EQUIVALENT",
+      "Article ID:": "4452022",
+      "Article Number:": "721050A2",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320824929",
+      "OEM Numbers SUBARU:": "42021SC021"
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "6702016",
+    "name": "Bracket, muffler",
+    "partNo": "E128E01",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "19810",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6702016/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "6702016",
+      "Article Number:": "E128E01",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers FORD:": "1223917",
+      "OEM Numbers VOLVO:": "30657361",
+      "OEM Numbers MAZDA:": "LF0940061"
+    }
+  },
+  {
+    "id": "5537558",
+    "name": "Bracket, muffler",
+    "partNo": "AA99084",
+    "manufacturer": "Faurecia",
+    "supplierId": "4328",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "19810",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5537558/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5537558",
+      "Article Number:": "AA99084",
+      "Manufacturer:": "Faurecia",
+      "OEM Numbers FORD:": "1223917",
+      "OEM Numbers VOLVO:": "30657361",
+      "OEM Numbers MAZDA:": "LF0940061"
+    }
+  },
+  {
+    "id": "7043654",
+    "name": "Bracket, muffler",
+    "partNo": "FG-126",
+    "manufacturer": "VEGAZ",
+    "supplierId": "2441",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "19810",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7043654/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "10",
+      "Material": "EPDM (ethylene propylene diene Monomer (M-class) rubber)",
+      "Article ID:": "7043654",
+      "Article Number:": "FG-126",
+      "Manufacturer:": "VEGAZ",
+      "EAN Numbers:": "0405550309674",
+      "OEM Numbers FORD:": "1 223 917",
+      "OEM Numbers VOLVO:": "3064-7635",
+      "OEM Numbers MAZDA:": "LF09-40-061"
+    }
+  },
+  {
+    "id": "5537557",
+    "name": "Bracket, muffler",
+    "partNo": "AA99084",
+    "manufacturer": "VENEPORTE",
+    "supplierId": "357",
+    "productsId": "1057",
+    "productGroupId": "100609",
+    "categoryId": "100015",
+    "variantId": "19810",
+    "manufacturerId": "120",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5537557/model-series-id-5610/manufacturer-id-120/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5537557",
+      "Article Number:": "AA99084",
+      "Manufacturer:": "VENEPORTE",
+      "EAN Numbers:": "560518099084",
+      "OEM Numbers FORD:": "1223917",
+      "OEM Numbers VOLVO:": "30657361",
+      "OEM Numbers MAZDA:": "LF0940061"
+    }
+  }
+]

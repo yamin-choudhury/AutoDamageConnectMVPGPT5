@@ -1,0 +1,162 @@
+[
+  {
+    "id": "16847",
+    "type": "1.8",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2002-05-01",
+      "power": "118 KW / 160 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "17860",
+    "type": "1.8",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2004-01-01",
+      "power": "141 KW / 192 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "25103",
+    "type": "1.8",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2002-11-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "29910",
+    "type": "1.8",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "1ZZ-FE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2003-10-01",
+      "power": "99 KW / 135 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34807",
+    "type": "1.6",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "1ZR-FAE",
+      "cylinder": "4",
+      "capacity": "1,598 CCM / 1.6 L",
+      "fuelType": "Petrol",
+      "year": "2007-06-01",
+      "power": "100 KW / 136 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "34808",
+    "type": "1.8",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2007-06-01",
+      "power": "162 KW / 220 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "56829",
+    "type": "1.8",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZZ-GE",
+      "cylinder": "4",
+      "capacity": "1,796 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2004-01-01",
+      "power": "164 KW / 223 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "129512",
+    "type": "CUP 250",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2016-02-01",
+      "power": "181 KW / 246 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145186",
+    "type": "Sport 240",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2021-01-01",
+      "power": "179 KW / 243 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "146828",
+    "type": "1.8 Cup 250",
+    "modelId": "4744",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2ZR-FE",
+      "cylinder": "4",
+      "capacity": "1,798 CCM / 1.8 L",
+      "fuelType": "Petrol",
+      "year": "2021-02-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  }
+]

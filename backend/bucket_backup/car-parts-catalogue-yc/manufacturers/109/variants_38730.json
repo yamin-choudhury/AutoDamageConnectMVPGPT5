@@ -1,0 +1,34 @@
+[
+  {
+    "id": "131337",
+    "type": "1.2",
+    "modelId": "38730",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K12M",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-05-01",
+      "power": "63 KW / 86 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "132038",
+    "type": "1.2",
+    "modelId": "38730",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K12M",
+      "cylinder": "4",
+      "capacity": "1,197 CCM / 1.2 L",
+      "fuelType": "Petrol",
+      "year": "2018-05-01",
+      "power": "60 KW / 82 PS"
+    },
+    "categories": []
+  }
+]

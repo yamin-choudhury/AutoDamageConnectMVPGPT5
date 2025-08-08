@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1042556",
+    "name": "Aerial",
+    "partNo": "113 27 060 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "15755",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1042556/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Roof Fitting",
+      "Length [mm]": "850",
+      "Quantity Unit": "Piece",
+      "Article ID:": "1042556",
+      "Article Number:": "113 27 060 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "6561.43",
+      "OEM Numbers CITROËN/PEUGEOT:": "6561.43"
+    }
+  },
+  {
+    "id": "1042559",
+    "name": "Aerial",
+    "partNo": "113 27 063 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "46",
+    "productGroupId": "100695",
+    "categoryId": "100339",
+    "variantId": "15755",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1042559/model-series-id-1553/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Roof Fitting",
+      "Length [mm]": "420",
+      "Quantity Unit": "Piece",
+      "Article ID:": "1042559",
+      "Article Number:": "113 27 063 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "6561.97",
+      "OEM Numbers CITROËN/PEUGEOT:": "6561.97"
+    }
+  }
+]

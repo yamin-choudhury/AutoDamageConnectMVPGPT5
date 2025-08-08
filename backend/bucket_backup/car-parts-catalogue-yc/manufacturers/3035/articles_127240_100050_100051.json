@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4017735",
+    "name": "Clutch Kit",
+    "partNo": "602 0018 00",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "127240",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4017735/model-series-id-37771/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Dual-Clutch Transmission",
+      "Clutch Type": "for wet clutch",
+      "Article ID:": "4017735",
+      "Article Number:": "602 0018 00",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487047715",
+      "OEM Numbers AUDI:": "0BH398029B",
+      "OEM Numbers SEAT:": "0BH398029B",
+      "OEM Numbers SKODA:": "0BH398029B",
+      "OEM Numbers VW:": "0BH398029B"
+    }
+  },
+  {
+    "id": "4017740",
+    "name": "Clutch Kit",
+    "partNo": "602 0028 00",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "127240",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4017740/model-series-id-37771/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "7-Speed Dual-Clutch Transmission",
+      "Clutch Type": "for wet clutch",
+      "Article ID:": "4017740",
+      "Article Number:": "602 0028 00",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487063700",
+      "OEM Numbers AUDI:": "0DW141029G",
+      "OEM Numbers SEAT:": "0DW141029G",
+      "OEM Numbers SKODA:": "0DW141029G",
+      "OEM Numbers VW:": "0DW141029G"
+    }
+  }
+]

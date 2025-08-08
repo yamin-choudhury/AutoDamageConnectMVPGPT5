@@ -1,0 +1,34 @@
+[
+  {
+    "id": "135993",
+    "type": "1.5",
+    "modelId": "39499",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DMBA",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-04-01",
+      "power": "83 KW / 113 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "135996",
+    "type": "1.4 280TSI",
+    "modelId": "39499",
+    "manufacturerId": "3035",
+    "url": "",
+    "specs": {
+      "engineCode": "DJSA",
+      "cylinder": "4",
+      "capacity": "1,395 CCM / 1.4 L",
+      "fuelType": "Petrol",
+      "year": "2019-04-01",
+      "power": "110 KW / 150 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "7159631",
+    "name": "Belt Pulley, crankshaft",
+    "partNo": "FVD1192",
+    "manufacturer": "FAI AutoParts",
+    "supplierId": "267",
+    "productsId": "3213",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "127976",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7159631/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "LR113860",
+      "Width [mm]": "72",
+      "Number of ribs": "5",
+      "Outer diameter [mm]": "154",
+      "Number of grooves": "6",
+      "Article ID:": "7159631",
+      "Article Number:": "FVD1192",
+      "Manufacturer:": "FAI AutoParts",
+      "OEM Numbers JAGUAR:": "JDE40368",
+      "OEM Numbers LAND ROVER:": "LR113860"
+    }
+  },
+  {
+    "id": "3711808",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "529 0426 10",
+    "manufacturer": "INA",
+    "supplierId": "204",
+    "productsId": "542",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "127976",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3711808/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "6",
+      "Length 1 [mm]": "1935",
+      "Supplementary Article/Info 2": "Check alternator freewheel clutch & replace if necessary",
+      "Article ID:": "3711808",
+      "Article Number:": "529 0426 10",
+      "Manufacturer:": "INA",
+      "EAN Numbers:": "401487054182",
+      "OEM Numbers JAGUAR:": "T2R21156",
+      "OEM Numbers LAND ROVER:": "LR138946"
+    }
+  },
+  {
+    "id": "4297317",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "6KSY1934K1",
+    "manufacturer": "SYNCRONIX",
+    "supplierId": "6394",
+    "productsId": "542",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "127976",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4297317/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "6",
+      "Supplementary Article/Info 2": "Check alternator freewheel clutch & replace if necessary",
+      "Article ID:": "4297317",
+      "Article Number:": "6KSY1934K1",
+      "Manufacturer:": "SYNCRONIX",
+      "OEM Numbers JAGUAR:": "T2R21156",
+      "OEM Numbers LAND ROVER:": "LR079263"
+    }
+  },
+  {
+    "id": "4297317",
+    "name": "V-Ribbed Belt Set",
+    "partNo": "6KSY1934K1",
+    "manufacturer": "SYNCRONIX",
+    "supplierId": "6394",
+    "productsId": "542",
+    "productGroupId": "104329",
+    "categoryId": "100002",
+    "variantId": "127976",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4297317/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of ribs": "6",
+      "Supplementary Article/Info 2": "Check alternator freewheel clutch & replace if necessary",
+      "Article ID:": "4297317",
+      "Article Number:": "6KSY1934K1",
+      "Manufacturer:": "SYNCRONIX",
+      "OEM Numbers JAGUAR:": "T2R21156",
+      "OEM Numbers LAND ROVER:": "LR079263"
+    }
+  }
+]

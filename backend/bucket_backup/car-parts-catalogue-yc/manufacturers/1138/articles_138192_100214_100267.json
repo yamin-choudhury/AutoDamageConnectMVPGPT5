@@ -1,0 +1,56 @@
+[
+  {
+    "id": "860689",
+    "name": "Fuel Feed Unit",
+    "partNo": "102130",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "138192",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/860689/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,84",
+      "Pipe Ø [mm]": "8",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with fuel sender unit",
+      "Number of connectors": "6",
+      "Article ID:": "860689",
+      "Article Number:": "102130",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422402130",
+      "OEM Numbers RENAULT:": "17 20 249 44R",
+      "OEM Numbers SMART:": "A453 470 02 94"
+    }
+  },
+  {
+    "id": "3982715",
+    "name": "Fuel Feed Unit",
+    "partNo": "60 10 2130",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1382",
+    "productGroupId": "100267",
+    "categoryId": "100214",
+    "variantId": "138192",
+    "manufacturerId": "1138",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3982715/model-series-id-14632/manufacturer-id-1138/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "0,84",
+      "Pipe Ø [mm]": "8",
+      "Operating Mode": "Electric",
+      "Supplementary Article/Supplementary Info": "with fuel sender unit",
+      "Number of connectors": "6",
+      "Article ID:": "3982715",
+      "Article Number:": "60 10 2130",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422802130",
+      "OEM Numbers RENAULT:": "17 20 249 44R",
+      "OEM Numbers SMART:": "A453 470 02 94"
+    }
+  }
+]

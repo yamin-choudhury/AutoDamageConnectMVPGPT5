@@ -1,0 +1,48 @@
+[
+  {
+    "id": "6141604",
+    "name": "Wiper Blade",
+    "partNo": "BW12C",
+    "manufacturer": "BORG & BECK",
+    "supplierId": "475",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "34844",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6141604/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [in]": "12",
+      "Quantity": "1",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "6141604",
+      "Article Number:": "BW12C",
+      "Manufacturer:": "BORG & BECK",
+      "OEM Numbers PEUGEOT:": "6426XE"
+    }
+  },
+  {
+    "id": "6141605",
+    "name": "Wiper Blade",
+    "partNo": "BW12C.10",
+    "manufacturer": "BORG & BECK",
+    "supplierId": "475",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "34844",
+    "manufacturerId": "803",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6141605/model-series-id-8953/manufacturer-id-803/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [in]": "12",
+      "Quantity": "10",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "6141605",
+      "Article Number:": "BW12C.10",
+      "Manufacturer:": "BORG & BECK",
+      "OEM Numbers PEUGEOT:": "6426XE"
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "4639040",
+    "name": "Filter, interior air",
+    "partNo": "80001489",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "424",
+    "productGroupId": "100263",
+    "categoryId": "100005",
+    "variantId": "123626",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4639040/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "246",
+      "Width [mm]": "97",
+      "Height [mm]": "19",
+      "Weight [kg]": "0,073",
+      "Vehicle Equipment": "for vehicles with/without air conditioning",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "4639040",
+      "Article Number:": "80001489",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896052329",
+      "OEM Numbers MAZDA:": "D65161J6X9A"
+    }
+  },
+  {
+    "id": "4639347",
+    "name": "Filter, interior air",
+    "partNo": "80001743",
+    "manufacturer": "CORTECO",
+    "supplierId": "140",
+    "productsId": "424",
+    "productGroupId": "100263",
+    "categoryId": "100005",
+    "variantId": "123626",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4639347/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "247",
+      "Width [mm]": "95",
+      "Height [mm]": "17",
+      "Weight [kg]": "0,155",
+      "Vehicle Equipment": "for vehicles with/without air conditioning",
+      "Filter type": "Activated Carbon Filter",
+      "Article ID:": "4639347",
+      "Article Number:": "80001743",
+      "Manufacturer:": "CORTECO",
+      "EAN Numbers:": "335896053637",
+      "OEM Numbers MAZDA:": "D65161J6X9A"
+    }
+  },
+  {
+    "id": "3541931",
+    "name": "Filter, interior air",
+    "partNo": "50014791",
+    "manufacturer": "KOLBENSCHMIDT",
+    "supplierId": "432",
+    "productsId": "424",
+    "productGroupId": "100263",
+    "categoryId": "100005",
+    "variantId": "123626",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3541931/model-series-id-6436/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "248",
+      "Width [mm]": "99",
+      "Height [mm]": "17",
+      "Filter type": "Filter Insert",
+      "Article ID:": "3541931",
+      "Article Number:": "50014791",
+      "Manufacturer:": "KOLBENSCHMIDT",
+      "EAN Numbers:": "402897787923",
+      "OEM Numbers MAZDA:": "D651 61 J6X9A",
+      "OEM Numbers MÜLLER MITTELTAL:": "FC267x2"
+    }
+  }
+]

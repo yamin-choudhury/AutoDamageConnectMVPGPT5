@@ -1,0 +1,120 @@
+[
+  {
+    "id": "3319392",
+    "name": "Condenser, air conditioning",
+    "partNo": "43787",
+    "manufacturer": "AHE",
+    "supplierId": "422",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "133270",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3319392/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Core Length [mm]": "637",
+      "Core Width [mm]": "311",
+      "Core Depth [mm]": "16",
+      "Article ID:": "3319392",
+      "Article Number:": "43787",
+      "Manufacturer:": "AHE",
+      "OEM Numbers FIAT:": "K68073679AA�"
+    }
+  },
+  {
+    "id": "5297705",
+    "name": "Condenser, air conditioning",
+    "partNo": "940334",
+    "manufacturer": "NISSENS",
+    "supplierId": "123",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "133270",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5297705/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Trim Level": "FIRST FIT",
+      "Material": "Aluminium",
+      "Supplementary Article/Info 2": "with dryer",
+      "Refrigerant": "R 134a",
+      "Core Length [mm]": "654",
+      "Core Width [mm]": "317",
+      "Core Depth [mm]": "16",
+      "Article ID:": "5297705",
+      "Article Number:": "940334",
+      "Manufacturer:": "NISSENS",
+      "EAN Numbers:": "570728636247",
+      "OEM Numbers FIAT:": "K68073679AA"
+    }
+  },
+  {
+    "id": "5729171",
+    "name": "Condenser, air conditioning",
+    "partNo": "APCDFT5073",
+    "manufacturer": "QUALITY",
+    "supplierId": "6877",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "133270",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5729171/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "5729171",
+      "Article Number:": "APCDFT5073",
+      "Manufacturer:": "QUALITY",
+      "OEM Numbers FIAT:": "CS5119710AA"
+    }
+  },
+  {
+    "id": "758354",
+    "name": "Condenser, air conditioning",
+    "partNo": "1.31.3987.PD",
+    "manufacturer": "REACH",
+    "supplierId": "4020",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "133270",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/758354/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Inner diameter [mm]": "20,2",
+      "Outer diameter [mm]": "8,9",
+      "Supplementary Article/Info 2": "with dryer",
+      "Core Length [mm]": "636",
+      "Core Width [mm]": "308",
+      "Core Depth [mm]": "16",
+      "Article ID:": "758354",
+      "Article Number:": "1.31.3987.PD",
+      "Manufacturer:": "REACH",
+      "OEM Numbers FIAT:": "68073679AA"
+    }
+  },
+  {
+    "id": "5729170",
+    "name": "Condenser, air conditioning",
+    "partNo": "APCDFT5073",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "133270",
+    "manufacturerId": "35",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5729170/model-series-id-6396/manufacturer-id-35/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "AFTERMARKET",
+      "Article ID:": "5729170",
+      "Article Number:": "APCDFT5073",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers FIAT:": "CS5119710AA"
+    }
+  }
+]

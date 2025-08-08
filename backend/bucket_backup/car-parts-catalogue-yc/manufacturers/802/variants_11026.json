@@ -1,0 +1,98 @@
+[
+  {
+    "id": "55601",
+    "type": "3.5 350 S",
+    "modelId": "11026",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2012-06-01",
+      "power": "257 KW / 350 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "127092",
+    "type": "3.5 380",
+    "modelId": "11026",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2016-11-01",
+      "power": "280 KW / 380 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133417",
+    "type": "3.5 430",
+    "modelId": "11026",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01",
+      "power": "321 KW / 436 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133577",
+    "type": "3.5 410",
+    "modelId": "11026",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-04-01",
+      "power": "306 KW / 416 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145037",
+    "type": "3.5 390",
+    "modelId": "11026",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2021-03-01",
+      "power": "296 KW / 402 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "145039",
+    "type": "3.5 420",
+    "modelId": "11026",
+    "manufacturerId": "802",
+    "url": "",
+    "specs": {
+      "engineCode": "2GR-FE",
+      "cylinder": "6",
+      "capacity": "3,456 CCM / 3.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-11-01",
+      "power": "313 KW / 426 PS"
+    },
+    "categories": []
+  }
+]

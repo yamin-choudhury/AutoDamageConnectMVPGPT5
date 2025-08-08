@@ -1,0 +1,34 @@
+[
+  {
+    "id": "9426",
+    "type": "4.4 V8",
+    "modelId": "4460",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "M62448S3",
+      "cylinder": "8",
+      "capacity": "4,398 CCM / 4.4 L",
+      "fuelType": "Petrol",
+      "year": "1998-03-01\n                            \n                            2013-12-01",
+      "power": "260 KW / 354 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "9426",
+    "type": "4.4 V8",
+    "modelId": "4460",
+    "manufacturerId": "815",
+    "url": "",
+    "specs": {
+      "engineCode": "M62448S3",
+      "cylinder": "8",
+      "capacity": "4,398 CCM / 4.4 L",
+      "fuelType": "Petrol",
+      "year": "2000-05-01\n                            \n                            2013-12-01",
+      "power": "260 KW / 354 PS"
+    },
+    "categories": []
+  }
+]

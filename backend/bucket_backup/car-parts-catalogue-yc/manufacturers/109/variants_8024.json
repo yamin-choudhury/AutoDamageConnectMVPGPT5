@@ -1,0 +1,114 @@
+[
+  {
+    "id": "30968",
+    "type": "1.0 (AMF310)",
+    "modelId": "8024",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B",
+      "cylinder": "3",
+      "capacity": "996 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2009-01-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "57479",
+    "type": "0.7",
+    "modelId": "8024",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2011-11-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "122154",
+    "type": "0.7",
+    "modelId": "8024",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K6A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-12-01",
+      "power": "40 KW / 54 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "123634",
+    "type": "0.7 4WD",
+    "modelId": "8024",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K6A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2009-12-01",
+      "power": "40 KW / 54 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "126950",
+    "type": "1.0",
+    "modelId": "8024",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B",
+      "cylinder": "3",
+      "capacity": "996 CCM / 1.0 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "49 KW / 67 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133442",
+    "type": "0.7 4WD",
+    "modelId": "8024",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "R06A",
+      "cylinder": "3",
+      "capacity": "658 CCM / 0.7 L",
+      "fuelType": "Petrol",
+      "year": "2013-03-01\n                            \n                            2014-12-01",
+      "power": "38 KW / 52 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133870",
+    "type": "1.0 LPG",
+    "modelId": "8024",
+    "manufacturerId": "109",
+    "url": "",
+    "specs": {
+      "engineCode": "K10B",
+      "cylinder": "3",
+      "capacity": "996 CCM / 1.0 L",
+      "fuelType": "Petrol/Liquified Petroleum Gas (LPG)",
+      "year": "2009-04-01",
+      "power": "50 KW / 68 PS"
+    },
+    "categories": []
+  }
+]

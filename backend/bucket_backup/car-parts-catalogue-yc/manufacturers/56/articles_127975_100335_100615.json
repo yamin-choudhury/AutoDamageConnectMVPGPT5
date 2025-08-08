@@ -1,0 +1,83 @@
+[
+  {
+    "id": "767793",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "1.810.236",
+    "manufacturer": "EPS",
+    "supplierId": "4005",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "127975",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/767793/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "767793",
+      "Article Number:": "1.810.236",
+      "Manufacturer:": "EPS",
+      "EAN Numbers:": "801251022541",
+      "OEM Numbers FORD:": "6G9T-11A152-AA",
+      "OEM Numbers FORD USA:": "6G9T-11A152-AA",
+      "OEM Numbers VOLVO:": "30774029",
+      "OEM Numbers LAND ROVER:": "LR003563",
+      "OEM Numbers JAGUAR:": "T4N 1258",
+      "OEM Numbers MAZDA:": "UC9M-66-4D0"
+    }
+  },
+  {
+    "id": "4323361",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "7.1236",
+    "manufacturer": "FACET",
+    "supplierId": "159",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "127975",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4323361/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "4323361",
+      "Article Number:": "7.1236",
+      "Manufacturer:": "FACET",
+      "EAN Numbers:": "801251002541",
+      "OEM Numbers FORD:": "6G9T-11A152-AA",
+      "OEM Numbers FORD USA:": "6G9T-11A152-AA",
+      "OEM Numbers VOLVO:": "30774029",
+      "OEM Numbers LAND ROVER:": "LR003563",
+      "OEM Numbers JAGUAR:": "T4N 1258",
+      "OEM Numbers MAZDA:": "UC9M-66-4D0"
+    }
+  },
+  {
+    "id": "3612398",
+    "name": "Switch, clutch control (cruise control)",
+    "partNo": "510 236",
+    "manufacturer": "KW",
+    "supplierId": "4006",
+    "productsId": "2415",
+    "productGroupId": "100615",
+    "categoryId": "100335",
+    "variantId": "127975",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3612398/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Operating Mode": "Mechanical",
+      "Article ID:": "3612398",
+      "Article Number:": "510 236",
+      "Manufacturer:": "KW",
+      "EAN Numbers:": "801251012541",
+      "OEM Numbers FORD:": "6G9T-11A152-AA",
+      "OEM Numbers FORD USA:": "6G9T-11A152-AA",
+      "OEM Numbers VOLVO:": "30774029",
+      "OEM Numbers LAND ROVER:": "LR003563",
+      "OEM Numbers JAGUAR:": "T4N 1258",
+      "OEM Numbers MAZDA:": "UC9M-66-4D0"
+    }
+  }
+]

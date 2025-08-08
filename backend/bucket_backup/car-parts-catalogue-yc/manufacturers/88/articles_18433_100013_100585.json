@@ -1,0 +1,139 @@
+[
+  {
+    "id": "7569569",
+    "name": "Axle Beam",
+    "partNo": "IT1784",
+    "manufacturer": "PROTECH",
+    "supplierId": "6337",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7569569/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Brake Type": "Drum Brake",
+      "Braking / Drive Dynamics": "for vehicles with ABS pro",
+      "Article ID:": "7569569",
+      "Article Number:": "IT1784",
+      "Manufacturer:": "PROTECH",
+      "OEM Numbers CITROËN/PEUGEOT:": "5148P7"
+    }
+  },
+  {
+    "id": "8695813",
+    "name": "Axle Beam",
+    "partNo": "QXL134R",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8695813/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8695813",
+      "Article Number:": "QXL134R",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043850396",
+      "OEM Numbers CITROËN/PEUGEOT:": "5156 26*"
+    }
+  },
+  {
+    "id": "8695814",
+    "name": "Axle Beam",
+    "partNo": "QXL135R",
+    "manufacturer": "QUINTON HAZELL",
+    "supplierId": "57",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8695814/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8695814",
+      "Article Number:": "QXL135R",
+      "Manufacturer:": "QUINTON HAZELL",
+      "EAN Numbers:": "505043850397",
+      "OEM Numbers CITROËN/PEUGEOT:": "5156 26*"
+    }
+  },
+  {
+    "id": "2684721",
+    "name": "Axle Beam",
+    "partNo": "316 27 199 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2684721/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2684721",
+      "Article Number:": "316 27 199 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers PEUGEOT:": "98 080 117 80",
+      "OEM Numbers CITROËN/PEUGEOT:": "98 080 117 80"
+    }
+  },
+  {
+    "id": "9608420",
+    "name": "Axle Beam",
+    "partNo": "VKDS 473038",
+    "manufacturer": "SKF",
+    "supplierId": "50",
+    "productsId": "395",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9608420/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "67,4",
+      "Height [mm]": "69,8",
+      "Outer diameter [mm]": "61",
+      "paired article number": "VKDS 473038",
+      "Article ID:": "9608420",
+      "Article Number:": "VKDS 473038",
+      "Manufacturer:": "SKF",
+      "EAN Numbers:": "731657945866",
+      "OEM Numbers CITROËN:": "5131.C6",
+      "OEM Numbers PEUGEOT:": "5131.C6"
+    }
+  },
+  {
+    "id": "4457273",
+    "name": "Bump Stop, axle beam",
+    "partNo": "722 691",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "5742",
+    "productGroupId": "100585",
+    "categoryId": "100013",
+    "variantId": "18433",
+    "manufacturerId": "88",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4457273/model-series-id-5383/manufacturer-id-88/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle both sides",
+      "Height [mm]": "95",
+      "Article ID:": "4457273",
+      "Article Number:": "722 691",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers CITROËN:": "5166 94",
+      "OEM Numbers PEUGEOT:": "5166 94"
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "755440",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.2194",
+    "manufacturer": "FISPA",
+    "supplierId": "441",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "131366",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/755440/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "7",
+      "Belt Pulley Ø [mm]": "115",
+      "Compressor ID": "VCS14EC",
+      "Article ID:": "755440",
+      "Article Number:": "1.2194",
+      "Manufacturer:": "FISPA",
+      "EAN Numbers:": "803320845425",
+      "OEM Numbers RENAULT:": "926008014R"
+    }
+  },
+  {
+    "id": "755441",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.2194",
+    "manufacturer": "KRIOS",
+    "supplierId": "4399",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "131366",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/755441/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "7",
+      "Belt Pulley Ø [mm]": "115",
+      "Compressor ID": "VCS14EC",
+      "Article ID:": "755441",
+      "Article Number:": "1.2194",
+      "Manufacturer:": "KRIOS",
+      "EAN Numbers:": "803320845425",
+      "OEM Numbers RENAULT:": "926008014R"
+    }
+  },
+  {
+    "id": "5734875",
+    "name": "Compressor, air conditioning",
+    "partNo": "APCORE0086",
+    "manufacturer": "RPLQuality",
+    "supplierId": "2806",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "131366",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5734875/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quality": "ORIGINAL",
+      "Article ID:": "5734875",
+      "Article Number:": "APCORE0086",
+      "Manufacturer:": "RPLQuality",
+      "OEM Numbers RENAULT:": "Z0012607A"
+    }
+  },
+  {
+    "id": "755439",
+    "name": "Compressor, air conditioning",
+    "partNo": "1.2194",
+    "manufacturer": "SIDAT",
+    "supplierId": "27",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "131366",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/755439/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Manufacturer Restriction": "GENUINE",
+      "Number of ribs": "7",
+      "Belt Pulley Ø [mm]": "115",
+      "Compressor ID": "VCS14EC",
+      "Article ID:": "755439",
+      "Article Number:": "1.2194",
+      "Manufacturer:": "SIDAT",
+      "EAN Numbers:": "803320845425",
+      "OEM Numbers RENAULT:": "926008014R"
+    }
+  }
+]

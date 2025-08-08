@@ -1,0 +1,47 @@
+[
+  {
+    "id": "2936617",
+    "name": "Suspension Spring",
+    "partNo": "36-148257",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "116868",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2936617/model-series-id-6588/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Article ID:": "2936617",
+      "Article Number:": "36-148257",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525861186",
+      "OEM Numbers VW:": "1KD 511 115 D"
+    }
+  },
+  {
+    "id": "2937141",
+    "name": "Suspension Spring",
+    "partNo": "36-202287",
+    "manufacturer": "BILSTEIN",
+    "supplierId": "16",
+    "productsId": "188",
+    "productGroupId": "100113",
+    "categoryId": "100011",
+    "variantId": "116868",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2937141/model-series-id-6588/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Article ID:": "2937141",
+      "Article Number:": "36-202287",
+      "Manufacturer:": "BILSTEIN",
+      "EAN Numbers:": "402525868661",
+      "OEM Numbers VW:": "56D 411 105",
+      "OEM Numbers SKODA:": "1K0 411 105 DM"
+    }
+  }
+]

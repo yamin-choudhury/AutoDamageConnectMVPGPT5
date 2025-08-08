@@ -1,0 +1,81 @@
+[
+  {
+    "id": "6268954",
+    "name": "Clockspring, airbag",
+    "partNo": "CCC71018AS",
+    "manufacturer": "CASCO",
+    "supplierId": "484",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "124235",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6268954/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with airbag clock spring",
+      "Version": "AS",
+      "for flywheel manufacturer": "RENAULT",
+      "Article ID:": "6268954",
+      "Article Number:": "CCC71018AS",
+      "Manufacturer:": "CASCO",
+      "EAN Numbers:": "805864259186",
+      "OEM Numbers RENAULT:": "8201168027",
+      "OEM Numbers GENERAL MOTORS:": "95517223",
+      "OEM Numbers CITROËN/PEUGEOT:": "95526875",
+      "OEM Numbers OPEL:": "95526875"
+    }
+  },
+  {
+    "id": "6268955",
+    "name": "Clockspring, airbag",
+    "partNo": "CCC71018GS",
+    "manufacturer": "CASCO",
+    "supplierId": "484",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "124235",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6268955/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Left-/right-hand drive vehicles": "for left-hand drive vehicles",
+      "Supplementary Article/Supplementary Info": "with airbag clock spring",
+      "Version": "GS",
+      "for flywheel manufacturer": "RENAULT",
+      "Article ID:": "6268955",
+      "Article Number:": "CCC71018GS",
+      "Manufacturer:": "CASCO",
+      "EAN Numbers:": "805864251955",
+      "OEM Numbers RENAULT:": "8201168027",
+      "OEM Numbers GENERAL MOTORS:": "95517223",
+      "OEM Numbers CITROËN/PEUGEOT:": "95526875",
+      "OEM Numbers OPEL:": "95526875"
+    }
+  },
+  {
+    "id": "3217429",
+    "name": "Clockspring, airbag",
+    "partNo": "412 28 145 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "4826",
+    "productGroupId": "100762",
+    "categoryId": "100417",
+    "variantId": "124235",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3217429/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Quantity Unit": "Piece",
+      "Article ID:": "3217429",
+      "Article Number:": "412 28 145 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers RENAULT:": "82 01 168 027"
+    }
+  }
+]

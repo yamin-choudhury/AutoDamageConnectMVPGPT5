@@ -1,0 +1,57 @@
+[
+  {
+    "id": "5606825",
+    "name": "Fuel Filter",
+    "partNo": "ADBP230042",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "129053",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5606825/model-series-id-38239/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "162",
+      "Weight [kg]": "0,13",
+      "Inner diameter [mm]": "11",
+      "Outer diameter [mm]": "82",
+      "Filter type": "Filter Insert",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Gasket inner diameter": "75",
+      "Gasket outer diameter": "81",
+      "Article ID:": "5606825",
+      "Article Number:": "ADBP230042",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774629809",
+      "OEM Numbers NISSAN:": "16403-4KV0A",
+      "OEM Numbers RENAULT:": "164034KV0A"
+    }
+  },
+  {
+    "id": "9453700",
+    "name": "Fuel Filter",
+    "partNo": "TQ-FG1626",
+    "manufacturer": "TQ",
+    "supplierId": "2235",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "129053",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9453700/model-series-id-38239/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "89",
+      "Height [mm]": "141",
+      "Inner diameter [mm]": "32",
+      "Filter type": "Screen Filter",
+      "Article ID:": "9453700",
+      "Article Number:": "TQ-FG1626",
+      "Manufacturer:": "TQ",
+      "EAN Numbers:": "0385601748475",
+      "OEM Numbers RENAULT:": "164038899R"
+    }
+  }
+]

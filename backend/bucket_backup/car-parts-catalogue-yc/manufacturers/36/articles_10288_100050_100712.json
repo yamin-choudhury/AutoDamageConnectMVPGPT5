@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1534691",
+    "name": "Clutch Pedal Pad",
+    "partNo": "16615",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "1630",
+    "productGroupId": "100712",
+    "categoryId": "100050",
+    "variantId": "10288",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1534691/model-series-id-6240/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Manual Transmission",
+      "Weight [g]": "39",
+      "Article ID:": "1534691",
+      "Article Number:": "16615",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539206859",
+      "OEM Numbers FORD:": "1234292",
+      "OEM Numbers FORD USA:": "3M512457CA"
+    }
+  },
+  {
+    "id": "1534692",
+    "name": "Clutch Pedal Pad",
+    "partNo": "16615",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "1630",
+    "productGroupId": "100712",
+    "categoryId": "100050",
+    "variantId": "10288",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1534692/model-series-id-6240/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Transmission Type": "Manual Transmission",
+      "Weight [g]": "39",
+      "Article ID:": "1534692",
+      "Article Number:": "16615",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539206859",
+      "OEM Numbers FORD:": "1234292",
+      "OEM Numbers FORD USA:": "3M512457CA"
+    }
+  }
+]

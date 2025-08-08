@@ -1,0 +1,33 @@
+[
+  {
+    "id": "4457238",
+    "name": "Sensor, coolant temperature",
+    "partNo": "722 634",
+    "manufacturer": "TOPRAN",
+    "supplierId": "301",
+    "productsId": "830",
+    "productGroupId": "100334",
+    "categoryId": "100007",
+    "variantId": "108281",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4457238/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thread Size": "M 12",
+      "Spanner Size": "19",
+      "Sensor Type": "NTC Sensor",
+      "Number of pins": "2",
+      "Supplementary Article/Info 2": "with seal ring",
+      "Thread Pitch [mm]": "1,5",
+      "Connector Shape": "rectangular",
+      "Article ID:": "4457238",
+      "Article Number:": "722 634",
+      "Manufacturer:": "TOPRAN",
+      "OEM Numbers CITROËN:": "1920 RJ",
+      "OEM Numbers PEUGEOT:": "1920 RJ",
+      "OEM Numbers VOLVO:": "31339941",
+      "OEM Numbers TOYOTA:": "89429 47010",
+      "OEM Numbers MAZDA:": "SH01 18 840"
+    }
+  }
+]

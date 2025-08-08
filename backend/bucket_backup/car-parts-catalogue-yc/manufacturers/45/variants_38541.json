@@ -1,0 +1,178 @@
+[
+  {
+    "id": "130613",
+    "type": "1.5 iVTEC (CV1)",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L15BE",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-10-01",
+      "power": "138 KW / 188 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "130614",
+    "type": "2.0 iVTEC (CV2)",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K20C4",
+      "cylinder": "4",
+      "capacity": "1,996 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2017-10-01",
+      "power": "182 KW / 247 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "131689",
+    "type": "1.5 VTEC (CV1)",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L15BE",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2017-10-01",
+      "power": "146 KW / 198 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "133463",
+    "type": "2.0 Hybrid (CV2)",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "LFA-H4,LFB2",
+      "cylinder": "4",
+      "capacity": "1,993 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2018-10-01",
+      "power": "158 KW / 215 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "134556",
+    "type": "2.0 iVTEC",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K20C4",
+      "cylinder": "4",
+      "capacity": "1,996 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-11-01",
+      "power": "184 KW / 250 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137108",
+    "type": "2.0 iVTEC",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "K20C4",
+      "cylinder": "4",
+      "capacity": "1,996 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2018-01-01",
+      "power": "188 KW / 256 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "139856",
+    "type": "1.5 VTEC",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L15BE",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2018-10-01",
+      "power": "143 KW / 194 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140423",
+    "type": "1.5 VTEC (CV1)",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L15BG,L15BH",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2020-02-01",
+      "power": "148 KW / 201 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140424",
+    "type": "2.0 iVtec Hybrid Flex (CV3)",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "LFB1",
+      "cylinder": "4",
+      "capacity": "1,993 CCM / 2.0 L",
+      "fuelType": "Petrol/Ethanol/Electric",
+      "year": "2019-03-01",
+      "power": "107 KW / 145 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140425",
+    "type": "1.5 iVTEC Flex",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "L15BG",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol/Ethanol",
+      "year": "2019-03-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "140707",
+    "type": "1.5 VTEC",
+    "modelId": "38541",
+    "manufacturerId": "45",
+    "url": "",
+    "specs": {
+      "engineCode": "",
+      "cylinder": "4",
+      "capacity": "1,498 CCM / 1.5 L",
+      "fuelType": "Petrol",
+      "year": "2019-07-01",
+      "power": "140 KW / 190 PS"
+    },
+    "categories": []
+  }
+]

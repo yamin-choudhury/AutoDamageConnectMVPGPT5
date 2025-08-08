@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1355548",
+    "name": "Mounting, axle beam",
+    "partNo": "14276",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "129284",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1355548/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Thickness [mm]": "31",
+      "Weight [kg]": "0,05",
+      "Material": "Steel Elastomer",
+      "Inner diameter [mm]": "18",
+      "Outer diameter [mm]": "51",
+      "Article ID:": "1355548",
+      "Article Number:": "14276",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "402781614276",
+      "OEM Numbers AUDI:": "1J0 199 429",
+      "OEM Numbers SEAT:": "1J0 199 429",
+      "OEM Numbers SKODA:": "1J0 199 429",
+      "OEM Numbers VW:": "1J0 199 429"
+    }
+  },
+  {
+    "id": "2525197",
+    "name": "Mounting, axle beam",
+    "partNo": "30 75 0009",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1080",
+    "productGroupId": "100586",
+    "categoryId": "100013",
+    "variantId": "129284",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2525197/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Thickness [mm]": "31",
+      "Weight [kg]": "0,05",
+      "Material": "Steel Elastomer",
+      "Inner diameter [mm]": "18",
+      "Outer diameter [mm]": "51",
+      "Article ID:": "2525197",
+      "Article Number:": "30 75 0009",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "404468814276",
+      "OEM Numbers AUDI:": "1J0 199 429",
+      "OEM Numbers SEAT:": "1J0 199 429",
+      "OEM Numbers SKODA:": "1J0 199 429",
+      "OEM Numbers VW:": "1J0 199 429"
+    }
+  }
+]

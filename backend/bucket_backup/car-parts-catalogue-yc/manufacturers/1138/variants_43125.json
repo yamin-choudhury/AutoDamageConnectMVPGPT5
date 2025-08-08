@@ -1,0 +1,34 @@
+[
+  {
+    "id": "148313",
+    "type": "EV",
+    "modelId": "43125",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "TZ220XSA02",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2022-06-01",
+      "power": "200 KW / 272 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "149094",
+    "type": "EV All-wheel Drive",
+    "modelId": "43125",
+    "manufacturerId": "1138",
+    "url": "",
+    "specs": {
+      "engineCode": "TZ180XSB01,TZ184XY180",
+      "cylinder": "",
+      "capacity": "0 CCM / 0.0 L",
+      "fuelType": "Electric",
+      "year": "2022-08-01",
+      "power": "315 KW / 428 PS"
+    },
+    "categories": []
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "8291237",
+    "name": "Drive Shaft",
+    "partNo": "NPW-MA-004",
+    "manufacturer": "NTY",
+    "supplierId": "6355",
+    "productsId": "13",
+    "productGroupId": "100062",
+    "categoryId": "100014",
+    "variantId": "107361",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8291237/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Right",
+      "Length [mm]": "856",
+      "Outer gearing wheel side": "32",
+      "Outer teething differential side": "31",
+      "Article ID:": "8291237",
+      "Article Number:": "NPW-MA-004",
+      "Manufacturer:": "NTY",
+      "EAN Numbers:": "590204827225",
+      "OEM Numbers MASERATI:": "670104208"
+    }
+  },
+  {
+    "id": "8291238",
+    "name": "Drive Shaft",
+    "partNo": "NPW-MA-005",
+    "manufacturer": "NTY",
+    "supplierId": "6355",
+    "productsId": "13",
+    "productGroupId": "100062",
+    "categoryId": "100014",
+    "variantId": "107361",
+    "manufacturerId": "771",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8291238/model-series-id-11517/manufacturer-id-771/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle Left",
+      "Length [mm]": "835",
+      "Outer gearing wheel side": "32",
+      "Outer teething differential side": "31",
+      "Article ID:": "8291238",
+      "Article Number:": "NPW-MA-005",
+      "Manufacturer:": "NTY",
+      "EAN Numbers:": "590204827226",
+      "OEM Numbers MASERATI:": "670104207"
+    }
+  }
+]

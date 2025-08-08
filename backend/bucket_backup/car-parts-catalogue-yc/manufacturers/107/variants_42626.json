@@ -1,0 +1,50 @@
+[
+  {
+    "id": "146115",
+    "type": "2.4",
+    "modelId": "42626",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA24D",
+      "cylinder": "4",
+      "capacity": "2,387 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2021-12-01",
+      "power": "172 KW / 234 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "146353",
+    "type": "2.4 (ZD8)",
+    "modelId": "42626",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA24D",
+      "cylinder": "4",
+      "capacity": "2,387 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2021-12-01",
+      "power": "170 KW / 231 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "147088",
+    "type": "2.4",
+    "modelId": "42626",
+    "manufacturerId": "107",
+    "url": "",
+    "specs": {
+      "engineCode": "FA24C",
+      "cylinder": "4",
+      "capacity": "2,387 CCM / 2.4 L",
+      "fuelType": "Petrol",
+      "year": "2021-10-01",
+      "power": "174 KW / 237 PS"
+    },
+    "categories": []
+  }
+]

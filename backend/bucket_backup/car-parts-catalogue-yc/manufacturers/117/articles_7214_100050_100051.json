@@ -1,0 +1,51 @@
+[
+  {
+    "id": "4138043",
+    "name": "Clutch Kit",
+    "partNo": "624 3925 09",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "7214",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4138043/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Diameter [mm]": "240",
+      "Article ID:": "4138043",
+      "Article Number:": "624 3925 09",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "401487021483",
+      "OEM Numbers OPEL:": "4821461",
+      "OEM Numbers VAUXHALL:": "4821461"
+    }
+  },
+  {
+    "id": "2549551",
+    "name": "Clutch Kit",
+    "partNo": "3000 950 089",
+    "manufacturer": "SACHS",
+    "supplierId": "32",
+    "productsId": "479",
+    "productGroupId": "100051",
+    "categoryId": "100050",
+    "variantId": "7214",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2549551/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "23",
+      "Diameter [mm]": "240",
+      "Supplementary Article/Info 2": "without clutch release bearing",
+      "Article ID:": "2549551",
+      "Article Number:": "3000 950 089",
+      "Manufacturer:": "SACHS",
+      "EAN Numbers:": "401387288366",
+      "OEM Numbers OPEL:": "4 818 649",
+      "OEM Numbers VAUXHALL:": "4 818 649",
+      "OEM Numbers CHEVROLET:": "24268466"
+    }
+  }
+]

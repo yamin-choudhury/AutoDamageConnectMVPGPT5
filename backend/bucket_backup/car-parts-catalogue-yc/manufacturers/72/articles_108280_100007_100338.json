@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1091643",
+    "name": "Fan, radiator",
+    "partNo": "118004N",
+    "manufacturer": "AKS DASIS",
+    "supplierId": "80",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "108280",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1091643/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "for OE number": "SH0115150A",
+      "Diameter [mm]": "350",
+      "Weight [kg]": "4,7",
+      "Heating/Cooling": "Single Fan",
+      "Supplementary Article/Info 2": "with radiator fan shroud",
+      "Packaging length [cm]": "70",
+      "Packaging width [cm]": "58",
+      "Packaging height [cm]": "17",
+      "Article ID:": "1091643",
+      "Article Number:": "118004N",
+      "Manufacturer:": "AKS DASIS",
+      "EAN Numbers:": "404445582571",
+      "OEM Numbers MAZDA:": "SH0115150A"
+    }
+  },
+  {
+    "id": "8233994",
+    "name": "Fan, radiator",
+    "partNo": "MZ7555",
+    "manufacturer": "AVA QUALITY COOLING",
+    "supplierId": "247",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "108280",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8233994/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "8233994",
+      "Article Number:": "MZ7555",
+      "Manufacturer:": "AVA QUALITY COOLING",
+      "EAN Numbers:": "404538524659",
+      "OEM Numbers MAZDA:": "SH0115150A"
+    }
+  },
+  {
+    "id": "8233995",
+    "name": "Fan, radiator",
+    "partNo": "MZ7555",
+    "manufacturer": "PRASCO",
+    "supplierId": "340",
+    "productsId": "508",
+    "productGroupId": "100338",
+    "categoryId": "100007",
+    "variantId": "108280",
+    "manufacturerId": "72",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8233995/model-series-id-13240/manufacturer-id-72/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Diameter 1 [mm]": "350",
+      "Material": "Plastic",
+      "Rotation Direction": "Clockwise rotation",
+      "Article ID:": "8233995",
+      "Article Number:": "MZ7555",
+      "Manufacturer:": "PRASCO",
+      "OEM Numbers MAZDA:": "SH0115150A"
+    }
+  }
+]

@@ -1,0 +1,2517 @@
+{
+  "id": "815",
+  "name": "BENTLEY",
+  "url": "http://auto-parts-catalog.makingdatameaningful.com/models/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+  "models": [
+    {
+      "id": "4460",
+      "name": "BENTLEY ARNAGE (RBS_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1998-03-01",
+        "toDate": "2013-12-01"
+      },
+      "variants": [
+        {
+          "id": "9426",
+          "type": "4.4 V8",
+          "modelId": "4460",
+          "manufacturerId": "815",
+          "url": "",
+          "specs": {
+            "engineCode": "M62448S3",
+            "cylinder": "8",
+            "capacity": "4,398 CCM / 4.4 L",
+            "fuelType": "Petrol",
+            "year": "1998-03-01\n                            \n                            2013-12-01",
+            "power": "260 KW / 354 PS"
+          },
+          "categories": [
+            {
+              "id": "100733",
+              "name": "Accessories",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "104736",
+                  "name": "Marten Repellent",
+                  "categoryId": "100733",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/104736/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100243",
+              "name": "Air Conditioning",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100357",
+                  "name": "Dryer",
+                  "categoryId": "100243",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100357/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100400",
+              "name": "Axle Drive",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "101996",
+                  "name": "Oil",
+                  "categoryId": "100400",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/101996/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100013",
+              "name": "Axle Mounting/ Steering/ Wheels",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100834",
+                  "name": "Tyre-Pressure Monitoring System",
+                  "categoryId": "100013",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100834/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": [
+                    {
+                      "id": "7207106",
+                      "name": "Wheel Sensor, tyre-pressure monitoring system",
+                      "partNo": "G80045",
+                      "manufacturer": "AUTOTEAM",
+                      "supplierId": "4464",
+                      "productsId": "2232",
+                      "productGroupId": "100834",
+                      "categoryId": "100013",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7207106/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "for article number": "780045",
+                        "Article ID:": "7207106",
+                        "Article Number:": "G80045",
+                        "Manufacturer:": "AUTOTEAM",
+                        "OEM Numbers MCLAREN:": "11B0015CP",
+                        "OEM Numbers MASERATI:": "248887",
+                        "OEM Numbers FERRARI:": "282189",
+                        "OEM Numbers AUDI:": "7PP907275B",
+                        "OEM Numbers SEAT:": "7PP907275B",
+                        "OEM Numbers SKODA:": "7PP907275B",
+                        "OEM Numbers VW:": "7PP907275B",
+                        "OEM Numbers VAG:": "7PP907275B",
+                        "OEM Numbers PORSCHE:": "99760602120",
+                        "OEM Numbers ASTON MARTIN:": "CD23360671CA"
+                      }
+                    },
+                    {
+                      "id": "4595675",
+                      "name": "Wheel Sensor, tyre-pressure monitoring system",
+                      "partNo": "780045",
+                      "manufacturer": "FISPA",
+                      "supplierId": "441",
+                      "productsId": "2232",
+                      "productGroupId": "100834",
+                      "categoryId": "100013",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4595675/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "for article number": "780045",
+                        "Article ID:": "4595675",
+                        "Article Number:": "780045",
+                        "Manufacturer:": "FISPA",
+                        "EAN Numbers:": "803320831127",
+                        "OEM Numbers MCLAREN:": "11B0015CP",
+                        "OEM Numbers TESLA:": "2000680",
+                        "OEM Numbers MASERATI:": "248887",
+                        "OEM Numbers FERRARI:": "282189",
+                        "OEM Numbers AUDI:": "7PP907275B",
+                        "OEM Numbers SEAT:": "7PP907275B",
+                        "OEM Numbers SKODA:": "7PP907275B",
+                        "OEM Numbers VW:": "7PP907275B",
+                        "OEM Numbers VAG:": "7PP907275B",
+                        "OEM Numbers PORSCHE:": "99760602120",
+                        "OEM Numbers ASTON MARTIN:": "CD23-360671-CA"
+                      }
+                    },
+                    {
+                      "id": "9431266",
+                      "name": "Wheel Sensor, tyre-pressure monitoring system",
+                      "partNo": "TMP-0045",
+                      "manufacturer": "GOOM",
+                      "supplierId": "6443",
+                      "productsId": "2232",
+                      "productGroupId": "100834",
+                      "categoryId": "100013",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9431266/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Article ID:": "9431266",
+                        "Article Number:": "TMP-0045",
+                        "Manufacturer:": "GOOM",
+                        "EAN Numbers:": "805413207006",
+                        "OEM Numbers MCLAREN:": "11B0015CP",
+                        "OEM Numbers TESLA:": "2000680",
+                        "OEM Numbers MASERATI:": "248887",
+                        "OEM Numbers FERRARI:": "282189",
+                        "OEM Numbers AUDI:": "7PP907275B",
+                        "OEM Numbers SEAT:": "7PP907275B",
+                        "OEM Numbers SKODA:": "7PP907275B",
+                        "OEM Numbers VW:": "7PP907275B",
+                        "OEM Numbers VAG:": "7PP907275B",
+                        "OEM Numbers PORSCHE:": "99760602120",
+                        "OEM Numbers ASTON MARTIN:": "CD23-360671-CA"
+                      }
+                    },
+                    {
+                      "id": "8230517",
+                      "name": "Wheel Sensor, tyre-pressure monitoring system",
+                      "partNo": "MXSA002",
+                      "manufacturer": "MaxSensor",
+                      "supplierId": "2773",
+                      "productsId": "2232",
+                      "productGroupId": "100834",
+                      "categoryId": "100013",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8230517/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Test Mark": "CE, FCC",
+                        "Weight [kg]": "0,41",
+                        "Tightening Torque [Nm]": "4",
+                        "Vehicle Equipment": "for vehicles with tyre-pressure monitoring system",
+                        "Supplementary Article/Info 2": "with valves",
+                        "Housing Colour": "Purple",
+                        "Frequency Range [MHz]": "433",
+                        "Valve stem material": "Aluminium",
+                        "manufacturer": "MaxSensor",
+                        "manufacturerArticleId": "MXSA002",
+                        "Additional info": "VMax.: über 300 Km/h",
+                        "Information": "Winkel: 0-40 Grad",
+                        "Article ID:": "8230517",
+                        "Article Number:": "MXSA002",
+                        "Manufacturer:": "MaxSensor",
+                        "EAN Numbers:": "0471296046737",
+                        "OEM Numbers MERCEDES-BENZ:": "A4479050500"
+                      }
+                    },
+                    {
+                      "id": "9484870",
+                      "name": "Wheel Sensor, tyre-pressure monitoring system",
+                      "partNo": "TX-S003",
+                      "manufacturer": "MOBILETRON",
+                      "supplierId": "4705",
+                      "productsId": "2232",
+                      "productGroupId": "100834",
+                      "categoryId": "100013",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9484870/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Specification": "Programmed",
+                        "Frequency Range [MHz]": "433",
+                        "Article ID:": "9484870",
+                        "Article Number:": "TX-S003",
+                        "Manufacturer:": "MOBILETRON",
+                        "OEM Numbers MCLAREN:": "11B0015CP01",
+                        "OEM Numbers FERRARI:": "282189",
+                        "OEM Numbers MASERATI:": "282189",
+                        "OEM Numbers BMW:": "36 23 6 798 726",
+                        "OEM Numbers ROLLS-ROYCE:": "36 23 6 798 726",
+                        "OEM Numbers ALPINA:": "36 23 6 798 726",
+                        "OEM Numbers MINI:": "36 23 6 798 726",
+                        "OEM Numbers AUDI:": "7PP 907 275F",
+                        "OEM Numbers VW:": "7PP 907 275F",
+                        "OEM Numbers LAMBORGHINI:": "7PP 907 275F",
+                        "OEM Numbers BENTLEY:": "7PP 907 275F",
+                        "OEM Numbers ASTON MARTIN:": "CD23360671CA",
+                        "OEM Numbers PAGANI:": "5B0 907 275E",
+                        "OEM Numbers PORSCHE:": "997 606 021 20"
+                      }
+                    },
+                    {
+                      "id": "9484870",
+                      "name": "Wheel Sensor, tyre-pressure monitoring system",
+                      "partNo": "TX-S003",
+                      "manufacturer": "MOBILETRON",
+                      "supplierId": "4705",
+                      "productsId": "2232",
+                      "productGroupId": "100834",
+                      "categoryId": "100013",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9484870/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Specification": "Programmed",
+                        "Frequency Range [MHz]": "433",
+                        "Article ID:": "9484870",
+                        "Article Number:": "TX-S003",
+                        "Manufacturer:": "MOBILETRON",
+                        "OEM Numbers MCLAREN:": "11B0015CP01",
+                        "OEM Numbers FERRARI:": "282189",
+                        "OEM Numbers MASERATI:": "282189",
+                        "OEM Numbers BMW:": "36 23 6 798 726",
+                        "OEM Numbers ROLLS-ROYCE:": "36 23 6 798 726",
+                        "OEM Numbers ALPINA:": "36 23 6 798 726",
+                        "OEM Numbers MINI:": "36 23 6 798 726",
+                        "OEM Numbers AUDI:": "7PP 907 275F",
+                        "OEM Numbers VW:": "7PP 907 275F",
+                        "OEM Numbers LAMBORGHINI:": "7PP 907 275F",
+                        "OEM Numbers BENTLEY:": "7PP 907 275F",
+                        "OEM Numbers ASTON MARTIN:": "CD23360671CA",
+                        "OEM Numbers PAGANI:": "5B0 907 275E",
+                        "OEM Numbers PORSCHE:": "997 606 021 20"
+                      }
+                    },
+                    {
+                      "id": "4595672",
+                      "name": "Wheel Sensor, tyre-pressure monitoring system",
+                      "partNo": "780045",
+                      "manufacturer": "SIDAT",
+                      "supplierId": "27",
+                      "productsId": "2232",
+                      "productGroupId": "100834",
+                      "categoryId": "100013",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4595672/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "for article number": "780045",
+                        "Article ID:": "4595672",
+                        "Article Number:": "780045",
+                        "Manufacturer:": "SIDAT",
+                        "EAN Numbers:": "803320831127",
+                        "OEM Numbers MCLAREN:": "11B0015CP",
+                        "OEM Numbers TESLA:": "2000680",
+                        "OEM Numbers MASERATI:": "248887",
+                        "OEM Numbers FERRARI:": "282189",
+                        "OEM Numbers AUDI:": "7PP907275B",
+                        "OEM Numbers SEAT:": "7PP907275B",
+                        "OEM Numbers SKODA:": "7PP907275B",
+                        "OEM Numbers VW:": "7PP907275B",
+                        "OEM Numbers VAG:": "7PP907275B",
+                        "OEM Numbers PORSCHE:": "99760602120",
+                        "OEM Numbers ASTON MARTIN:": "CD23-360671-CA"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "100001",
+              "name": "Body",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100165",
+                  "name": "Body Parts/Wing/Bumper",
+                  "categoryId": "100001",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100165/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100216",
+                  "name": "Fuel Tank/Parts",
+                  "categoryId": "100001",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100216/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "101760",
+                  "name": "Passenger Cabin",
+                  "categoryId": "100001",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/101760/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "101655",
+                  "name": "Vehicle Front",
+                  "categoryId": "100001",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/101655/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "101763",
+                  "name": "Vehicle Rear",
+                  "categoryId": "100001",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/101763/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100567",
+                  "name": "Windows/Mirrors",
+                  "categoryId": "100001",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100567/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100006",
+              "name": "Braking System",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100806",
+                  "name": "Brake Caliper",
+                  "categoryId": "100006",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100806/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": [
+                    {
+                      "id": "5090391",
+                      "name": "Accessory Kit, brake caliper",
+                      "partNo": "8DZ 355 201-251",
+                      "manufacturer": "HELLA",
+                      "supplierId": "2",
+                      "productsId": "2513",
+                      "productGroupId": "100806",
+                      "categoryId": "100006",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5090391/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Brake System": "Teves",
+                        "Technical Information Number": "K0087",
+                        "Article ID:": "5090391",
+                        "Article Number:": "8DZ 355 201-251",
+                        "Manufacturer:": "HELLA",
+                        "EAN Numbers:": "408230038374",
+                        "OEM Numbers BMW:": "6753675"
+                      }
+                    },
+                    {
+                      "id": "5090392",
+                      "name": "Accessory Kit, brake caliper",
+                      "partNo": "8DZ 355 201-251",
+                      "manufacturer": "HELLA PAGID",
+                      "supplierId": "4625",
+                      "productsId": "2513",
+                      "productGroupId": "100806",
+                      "categoryId": "100006",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5090392/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Brake System": "Teves",
+                        "Technical Information Number": "K0087",
+                        "Article ID:": "5090392",
+                        "Article Number:": "8DZ 355 201-251",
+                        "Manufacturer:": "HELLA PAGID",
+                        "EAN Numbers:": "408230038374",
+                        "OEM Numbers BMW:": "6753675"
+                      }
+                    },
+                    {
+                      "id": "8048016",
+                      "name": "Accessory Kit, brake caliper",
+                      "partNo": "MBA1201",
+                      "manufacturer": "MINTEX",
+                      "supplierId": "73",
+                      "productsId": "2513",
+                      "productGroupId": "100806",
+                      "categoryId": "100006",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/8048016/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,043",
+                        "Brake System": "Teves",
+                        "Packaging length [cm]": "18,5",
+                        "Packaging width [cm]": "1",
+                        "Packaging height [cm]": "1,2",
+                        "Article ID:": "8048016",
+                        "Article Number:": "MBA1201",
+                        "Manufacturer:": "MINTEX",
+                        "EAN Numbers:": "502874076869",
+                        "OEM Numbers BMW:": "6753675"
+                      }
+                    },
+                    {
+                      "id": "7715397",
+                      "name": "Accessory Kit, brake caliper",
+                      "partNo": "K0087",
+                      "manufacturer": "PAGID",
+                      "supplierId": "12",
+                      "productsId": "2513",
+                      "productGroupId": "100806",
+                      "categoryId": "100006",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7715397/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,059",
+                        "Brake System": "Teves",
+                        "Article ID:": "7715397",
+                        "Article Number:": "K0087",
+                        "Manufacturer:": "PAGID",
+                        "EAN Numbers:": "400759016233",
+                        "OEM Numbers BMW:": "6753675"
+                      }
+                    },
+                    {
+                      "id": "4773710",
+                      "name": "Accessory Kit, brake caliper",
+                      "partNo": "82057500",
+                      "manufacturer": "TEXTAR",
+                      "supplierId": "39",
+                      "productsId": "2513",
+                      "productGroupId": "100806",
+                      "categoryId": "100006",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4773710/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,043",
+                        "Brake System": "Teves",
+                        "Packaging length [cm]": "18,5",
+                        "Packaging width [cm]": "12,5",
+                        "Packaging height [cm]": "1",
+                        "Number of Parts [parts]": "2",
+                        "Article ID:": "4773710",
+                        "Article Number:": "82057500",
+                        "Manufacturer:": "TEXTAR",
+                        "EAN Numbers:": "401972242721",
+                        "OEM Numbers BMW:": "6753675"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "102208",
+                  "name": "Brake Fluid",
+                  "categoryId": "100006",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/102208/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100630",
+                  "name": "Disc Brake",
+                  "categoryId": "100006",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100630/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100038",
+                  "name": "Drive Dynamics Control",
+                  "categoryId": "100006",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100038/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "102227",
+                  "name": "High Performance Brakes",
+                  "categoryId": "100006",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/102227/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100050",
+              "name": "Clutch/Attachment Parts",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "104813",
+                  "name": "Hydraulic Fluid",
+                  "categoryId": "100050",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/104813/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": [
+                    {
+                      "id": "106691",
+                      "name": "Brake Fluid",
+                      "partNo": "000406",
+                      "manufacturer": "MAXGEAR",
+                      "supplierId": "403",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/106691/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Content [litre]": "1",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "245",
+                        "DOT specification": "DOT 4",
+                        "Article ID:": "106691",
+                        "Article Number:": "000406",
+                        "Manufacturer:": "MAXGEAR",
+                        "EAN Numbers:": "590755854630",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers RENAULT:": "CdG4102001C",
+                        "OEM Numbers DAIMLER:": "DBL776030",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF4",
+                        "OEM Numbers KIA:": "MS51706BF4",
+                        "OEM Numbers CHRYSLER:": "MS9971s",
+                        "OEM Numbers NISSAN:": "NESM50554",
+                        "OEM Numbers CITROËN:": "NVB712430",
+                        "OEM Numbers PEUGEOT:": "NVB712430",
+                        "OEM Numbers VW:": "TL766X"
+                      }
+                    },
+                    {
+                      "id": "106694",
+                      "name": "Brake Fluid",
+                      "partNo": "000407",
+                      "manufacturer": "MAXGEAR",
+                      "supplierId": "403",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/106694/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Content [litre]": "3",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Canister",
+                        "Dry Boiling Point [°C]": "245",
+                        "DOT specification": "DOT 4",
+                        "Article ID:": "106694",
+                        "Article Number:": "000407",
+                        "Manufacturer:": "MAXGEAR",
+                        "EAN Numbers:": "590755856085",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers RENAULT:": "CdG4102001C",
+                        "OEM Numbers DAIMLER:": "DBL776030",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF4",
+                        "OEM Numbers KIA:": "MS51706BF4",
+                        "OEM Numbers CHRYSLER:": "MS9971s",
+                        "OEM Numbers NISSAN:": "NESM50554",
+                        "OEM Numbers CITROËN:": "NVB712430",
+                        "OEM Numbers PEUGEOT:": "NVB712430",
+                        "OEM Numbers VW:": "TL766X"
+                      }
+                    },
+                    {
+                      "id": "2936008",
+                      "name": "Brake Fluid",
+                      "partNo": "36-0047",
+                      "manufacturer": "MAXGEAR",
+                      "supplierId": "403",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2936008/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Content [litre]": "0,5",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "245",
+                        "DOT specification": "DOT 4",
+                        "Article ID:": "2936008",
+                        "Article Number:": "36-0047",
+                        "Manufacturer:": "MAXGEAR",
+                        "EAN Numbers:": "590755854629",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers RENAULT:": "CdG4102001C",
+                        "OEM Numbers DAIMLER:": "DBL776030",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF4",
+                        "OEM Numbers KIA:": "MS51706BF4",
+                        "OEM Numbers CHRYSLER:": "MS9971s",
+                        "OEM Numbers NISSAN:": "NESM50554",
+                        "OEM Numbers CITROËN:": "NVB712430",
+                        "OEM Numbers PEUGEOT:": "NVB712430",
+                        "OEM Numbers VW:": "TL766X"
+                      }
+                    },
+                    {
+                      "id": "3124335",
+                      "name": "Brake Fluid",
+                      "partNo": "402401",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124335/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,53",
+                        "Content [litre]": "0,45",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "245",
+                        "DOT specification": "DOT 4",
+                        "Article ID:": "3124335",
+                        "Article Number:": "402401",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402401",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers RENAULT:": "CdG4102001C",
+                        "OEM Numbers DAIMLER:": "DBL776030",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF4",
+                        "OEM Numbers KIA:": "MS51706BF4",
+                        "OEM Numbers CHRYSLER:": "MS9971s",
+                        "OEM Numbers NISSAN:": "NESM50554",
+                        "OEM Numbers CITROËN:": "NVB712430",
+                        "OEM Numbers PEUGEOT:": "NVB712430",
+                        "OEM Numbers VW:": "TL766X"
+                      }
+                    },
+                    {
+                      "id": "3124347",
+                      "name": "Brake Fluid",
+                      "partNo": "402402",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124347/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,59",
+                        "Content [litre]": "0,5",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "245",
+                        "DOT specification": "DOT 4",
+                        "Article ID:": "3124347",
+                        "Article Number:": "402402",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402402",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers RENAULT:": "CdG4102001C",
+                        "OEM Numbers DAIMLER:": "DBL776030",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF4",
+                        "OEM Numbers KIA:": "MS51706BF4",
+                        "OEM Numbers CHRYSLER:": "MS9971s",
+                        "OEM Numbers NISSAN:": "NESM50554",
+                        "OEM Numbers CITROËN:": "NVB712430",
+                        "OEM Numbers PEUGEOT:": "NVB712430",
+                        "OEM Numbers VW:": "TL766X"
+                      }
+                    },
+                    {
+                      "id": "3124357",
+                      "name": "Brake Fluid",
+                      "partNo": "402403",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124357/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "1,15",
+                        "Content [litre]": "1",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "245",
+                        "DOT specification": "DOT 4",
+                        "Article ID:": "3124357",
+                        "Article Number:": "402403",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402403",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers RENAULT:": "CdG4102001C",
+                        "OEM Numbers DAIMLER:": "DBL776030",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF4",
+                        "OEM Numbers KIA:": "MS51706BF4",
+                        "OEM Numbers CHRYSLER:": "MS9971s",
+                        "OEM Numbers NISSAN:": "NESM50554",
+                        "OEM Numbers CITROËN:": "NVB712430",
+                        "OEM Numbers PEUGEOT:": "NVB712430",
+                        "OEM Numbers VW:": "TL766X"
+                      }
+                    },
+                    {
+                      "id": "3124362",
+                      "name": "Brake Fluid",
+                      "partNo": "402404",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124362/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,977",
+                        "Content [litre]": "5",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Canister",
+                        "Dry Boiling Point [°C]": "245",
+                        "DOT specification": "DOT 4",
+                        "Article ID:": "3124362",
+                        "Article Number:": "402404",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402404",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers RENAULT:": "CdG4102001C",
+                        "OEM Numbers DAIMLER:": "DBL776030",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF4",
+                        "OEM Numbers KIA:": "MS51706BF4",
+                        "OEM Numbers CHRYSLER:": "MS9971s",
+                        "OEM Numbers NISSAN:": "NESM50554",
+                        "OEM Numbers CITROËN:": "NVB712430",
+                        "OEM Numbers PEUGEOT:": "NVB712430",
+                        "OEM Numbers VW:": "TL766X"
+                      }
+                    },
+                    {
+                      "id": "3124389",
+                      "name": "Brake Fluid",
+                      "partNo": "402407",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124389/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,6",
+                        "Content [litre]": "0,5",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "265",
+                        "DOT specification": "DOT 5.1",
+                        "Article ID:": "3124389",
+                        "Article Number:": "402407",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402407",
+                        "OEM Numbers DAIMLER:": "DBL776051",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF51",
+                        "OEM Numbers KIA:": "MS51706BF51",
+                        "OEM Numbers VW:": "TL766Y"
+                      }
+                    },
+                    {
+                      "id": "3124392",
+                      "name": "Brake Fluid",
+                      "partNo": "402408",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124392/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "1,14",
+                        "Content [litre]": "1",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "265",
+                        "DOT specification": "DOT 5.1",
+                        "Article ID:": "3124392",
+                        "Article Number:": "402408",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402408",
+                        "OEM Numbers DAIMLER:": "DBL776051",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF51",
+                        "OEM Numbers KIA:": "MS51706BF51",
+                        "OEM Numbers VW:": "TL766Y"
+                      }
+                    },
+                    {
+                      "id": "3124397",
+                      "name": "Brake Fluid",
+                      "partNo": "402409",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124397/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "5,6",
+                        "Content [litre]": "5",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Canister",
+                        "Dry Boiling Point [°C]": "265",
+                        "DOT specification": "DOT 5.1",
+                        "Article ID:": "3124397",
+                        "Article Number:": "402409",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402409",
+                        "OEM Numbers DAIMLER:": "DBL776051",
+                        "OEM Numbers MAN:": "FMVSS116",
+                        "OEM Numbers HYUNDAI:": "MS51706BF51",
+                        "OEM Numbers KIA:": "MS51706BF51",
+                        "OEM Numbers VW:": "TL766Y"
+                      }
+                    },
+                    {
+                      "id": "3124454",
+                      "name": "Brake Fluid",
+                      "partNo": "402413",
+                      "manufacturer": "VALEO",
+                      "supplierId": "21",
+                      "productsId": "3357",
+                      "productGroupId": "104813",
+                      "categoryId": "100050",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3124454/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "0,53",
+                        "Content [litre]": "0,5",
+                        "Chemical Properties": "Synthetic",
+                        "Packing Type": "Bottle",
+                        "Dry Boiling Point [°C]": "215",
+                        "DOT specification": "DOT 3",
+                        "Article ID:": "3124454",
+                        "Article Number:": "402413",
+                        "Manufacturer:": "VALEO",
+                        "EAN Numbers:": "327642402413",
+                        "OEM Numbers FIAT:": "955597",
+                        "OEM Numbers DAIMLER:": "DBL776010",
+                        "OEM Numbers FORD:": "WSSM6C65A1",
+                        "OEM Numbers MITSUBISHI:": "ESW64055",
+                        "OEM Numbers GENERAL MOTORS:": "GM4653M",
+                        "OEM Numbers MAZDA:": "MESMN120",
+                        "OEM Numbers CHRYSLER:": "MS4574sM",
+                        "OEM Numbers HYUNDAI:": "MS51706BF3",
+                        "OEM Numbers KIA:": "MS51706BF3",
+                        "OEM Numbers NISSAN:": "NESM50553",
+                        "OEM Numbers TOYOTA:": "TSK2602G"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "100007",
+              "name": "Cooling System",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "102205",
+                  "name": "Antifreeze",
+                  "categoryId": "100007",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/102205/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": [
+                    {
+                      "id": "5661097",
+                      "name": "Antifreeze",
+                      "partNo": "AFC1",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5661097/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-37",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 F G12+",
+                        "Net weight [kg]": "1",
+                        "Article ID:": "5661097",
+                        "Article Number:": "AFC1",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523610923\n 541523674964",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers RENAULT:": "7711 428 129",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662647",
+                      "name": "Antifreeze",
+                      "partNo": "AFRR208",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662647/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "220",
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Barrel",
+                        "Specification": "VAG - TL-774 F G12+",
+                        "Article ID:": "5662647",
+                        "Article Number:": "AFRR208",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523611872\n 541523674972",
+                        "OEM Numbers TOYOTA:": "08889-80015",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers RENAULT:": "7711 428 129",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662647",
+                      "name": "Antifreeze",
+                      "partNo": "AFRR208",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662647/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "220",
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Barrel",
+                        "Specification": "VAG - TL-774 F G12+",
+                        "Article ID:": "5662647",
+                        "Article Number:": "AFRR208",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523611872\n 541523674972",
+                        "OEM Numbers TOYOTA:": "08889-80015",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers RENAULT:": "7711 428 129",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662647",
+                      "name": "Antifreeze",
+                      "partNo": "AFRR208",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662647/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Weight [kg]": "220",
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Barrel",
+                        "Specification": "VAG - TL-774 F G12+",
+                        "Article ID:": "5662647",
+                        "Article Number:": "AFRR208",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523611872\n 541523674972",
+                        "OEM Numbers TOYOTA:": "08889-80015",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers RENAULT:": "7711 428 129",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662646",
+                      "name": "Antifreeze",
+                      "partNo": "AFRR010",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662646/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Content [litre]": "10",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Article ID:": "5662646",
+                        "Article Number:": "AFRR010",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523611574\n 541523674970",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662646",
+                      "name": "Antifreeze",
+                      "partNo": "AFRR010",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662646/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Content [litre]": "10",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Article ID:": "5662646",
+                        "Article Number:": "AFRR010",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523611574\n 541523674970",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662646",
+                      "name": "Antifreeze",
+                      "partNo": "AFRR010",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662646/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Content [litre]": "10",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Article ID:": "5662646",
+                        "Article Number:": "AFRR010",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523611574\n 541523674970",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662514",
+                      "name": "Antifreeze",
+                      "partNo": "AFR5",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662514/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Net weight [kg]": "5",
+                        "Article ID:": "5662514",
+                        "Article Number:": "AFR5",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523610926\n 541523674967",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662514",
+                      "name": "Antifreeze",
+                      "partNo": "AFR5",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662514/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Net weight [kg]": "5",
+                        "Article ID:": "5662514",
+                        "Article Number:": "AFR5",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523610926\n 541523674967",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662514",
+                      "name": "Antifreeze",
+                      "partNo": "AFR5",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662514/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Net weight [kg]": "5",
+                        "Article ID:": "5662514",
+                        "Article Number:": "AFR5",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523610926\n 541523674967",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662508",
+                      "name": "Antifreeze",
+                      "partNo": "AFR1",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662508/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Net weight [kg]": "1",
+                        "Article ID:": "5662508",
+                        "Article Number:": "AFR1",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523610925\n 541523674966",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662508",
+                      "name": "Antifreeze",
+                      "partNo": "AFR1",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662508/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Net weight [kg]": "1",
+                        "Article ID:": "5662508",
+                        "Article Number:": "AFR1",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523610925\n 541523674966",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5662508",
+                      "name": "Antifreeze",
+                      "partNo": "AFR1",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5662508/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {
+                        "Temperature range [°C]": "-41",
+                        "Colour": "Red",
+                        "Chemical Properties": "Phosphate free",
+                        "Packing Type": "Canister",
+                        "Specification": "VAG - TL-774 D G12",
+                        "Net weight [kg]": "1",
+                        "Article ID:": "5662508",
+                        "Article Number:": "AFR1",
+                        "Manufacturer:": "MILES",
+                        "EAN Numbers:": "541523610925\n 541523674966",
+                        "OEM Numbers TOYOTA:": "888980013",
+                        "OEM Numbers FORD:": "4U7J-19544-AA2A",
+                        "OEM Numbers MAN:": "324 SNF",
+                        "OEM Numbers CHRYSLER:": "68048 953AB",
+                        "OEM Numbers BMW:": "83 19 2 211 662",
+                        "OEM Numbers LADA:": "88888-1000050-82",
+                        "OEM Numbers GENERAL MOTORS:": "93742647",
+                        "OEM Numbers MERCEDES-BENZ:": "A 000989 28 25 11",
+                        "OEM Numbers VAG:": "G 012 A8F M1",
+                        "OEM Numbers JAGUAR:": "JLM209722 S1"
+                      }
+                    },
+                    {
+                      "id": "5661257",
+                      "name": "Antifreeze",
+                      "partNo": "AFC5",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5661257/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {}
+                    },
+                    {
+                      "id": "5661257",
+                      "name": "Antifreeze",
+                      "partNo": "AFC5",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5661257/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {}
+                    },
+                    {
+                      "id": "5661257",
+                      "name": "Antifreeze",
+                      "partNo": "AFC5",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5661257/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {}
+                    },
+                    {
+                      "id": "5661097",
+                      "name": "Antifreeze",
+                      "partNo": "AFC1",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5661097/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {}
+                    },
+                    {
+                      "id": "5661097",
+                      "name": "Antifreeze",
+                      "partNo": "AFC1",
+                      "manufacturer": "MILES",
+                      "supplierId": "6495",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5661097/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {}
+                    },
+                    {
+                      "id": "7062686",
+                      "name": "Antifreeze",
+                      "partNo": "FK-1110G",
+                      "manufacturer": "ZEKKERT",
+                      "supplierId": "4894",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7062686/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {}
+                    },
+                    {
+                      "id": "7062687",
+                      "name": "Antifreeze",
+                      "partNo": "FK-1150G",
+                      "manufacturer": "ZEKKERT",
+                      "supplierId": "4894",
+                      "productsId": "3356",
+                      "productGroupId": "102205",
+                      "categoryId": "100007",
+                      "variantId": "9426",
+                      "manufacturerId": "815",
+                      "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7062687/model-series-id-4460/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                      "imageUrl": null,
+                      "techDetails": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "100103",
+                  "name": "Radiator/Oil Cooler",
+                  "categoryId": "100007",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100103/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100334",
+                  "name": "Switch/Sensor",
+                  "categoryId": "100007",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100334/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103131",
+                  "name": "Tools",
+                  "categoryId": "100007",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103131/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100089",
+                  "name": "Water Pump/Gasket",
+                  "categoryId": "100007",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100089/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100010",
+              "name": "Electrics",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100042",
+                  "name": "Battery",
+                  "categoryId": "100010",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100042/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100553",
+                  "name": "Instruments",
+                  "categoryId": "100010",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100553/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "102747",
+                  "name": "Sensors",
+                  "categoryId": "100010",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/102747/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100002",
+              "name": "Engine",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100533",
+                  "name": "Crankcase",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100533/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100525",
+                  "name": "Crankshaft Drive",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100525/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100376",
+                  "name": "Cylinder Head/Attachment Parts",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100376/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100384",
+                  "name": "Engine Air Supply",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100384/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100754",
+                  "name": "Engine Electrics",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100754/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100397",
+                  "name": "Engine Timing",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100397/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100729",
+                  "name": "Exhaust Emission Control",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100729/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100683",
+                  "name": "Gaskets",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100683/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "101994",
+                  "name": "Lubrication",
+                  "categoryId": "100002",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/101994/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100004",
+              "name": "Exhaust System",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100329",
+                  "name": "Assembly Parts",
+                  "categoryId": "100004",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100329/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100872",
+                  "name": "Charger",
+                  "categoryId": "100004",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100872/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100048",
+                  "name": "Lambda Sensor",
+                  "categoryId": "100004",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100048/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103414",
+                  "name": "Sensor/Probe",
+                  "categoryId": "100004",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103414/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100005",
+              "name": "Filters",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100260",
+                  "name": "Air Filter",
+                  "categoryId": "100005",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100260/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100263",
+                  "name": "Cabin Air Filter",
+                  "categoryId": "100005",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100263/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100261",
+                  "name": "Fuel Filter",
+                  "categoryId": "100005",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100261/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "706725",
+                  "name": "Hydraulic Filter",
+                  "categoryId": "100005",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/706725/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100259",
+                  "name": "Oil Filter",
+                  "categoryId": "100005",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100259/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100254",
+              "name": "Fuel Mixture Formation",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100793",
+                  "name": "Exhaust Emission Control",
+                  "categoryId": "100254",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100793/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "102809",
+                  "name": "Mixture Formation",
+                  "categoryId": "100254",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/102809/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100214",
+              "name": "Fuel Supply System",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100253",
+                  "name": "Fuel Filter/Housing",
+                  "categoryId": "100214",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100253/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100241",
+              "name": "Heating/Ventilation",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100346",
+                  "name": "Cabin Air Filter",
+                  "categoryId": "100241",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100346/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100019",
+              "name": "Maintenance Service Parts",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100598",
+                  "name": "Additional Repairs",
+                  "categoryId": "100019",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100598/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100597",
+                  "name": "Service Intervals",
+                  "categoryId": "100019",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100597/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "103671",
+              "name": "Motorcycle",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "706539",
+                  "name": "Axle Drive",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/706539/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "706537",
+                  "name": "Braking System",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/706537/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "104080",
+                  "name": "Cooling System",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/104080/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103966",
+                  "name": "Electrics",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103966/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "104285",
+                  "name": "Engine",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/104285/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103999",
+                  "name": "Exhaust System",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103999/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103780",
+                  "name": "Filters",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103780/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103859",
+                  "name": "Fuel Mixture Formation",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103859/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103940",
+                  "name": "Spark Ignition",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103940/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "706536",
+                  "name": "Transmission",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/706536/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103973",
+                  "name": "Wheels/Tyres",
+                  "categoryId": "103671",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103973/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100008",
+              "name": "Spark/Glow Ignition",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100249",
+                  "name": "Pulse Generator",
+                  "categoryId": "100008",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100249/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100151",
+                  "name": "Spark Plug",
+                  "categoryId": "100008",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100151/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100012",
+              "name": "Steering",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100201",
+                  "name": "Bellow/Seal",
+                  "categoryId": "100012",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100201/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100591",
+                  "name": "Filter, power steering",
+                  "categoryId": "100012",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100591/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "102203",
+                  "name": "Oil",
+                  "categoryId": "100012",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/102203/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100199",
+                  "name": "Steering Gear/ Pump",
+                  "categoryId": "100012",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100199/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100011",
+              "name": "Suspension/Damping",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "102201",
+                  "name": "Oil",
+                  "categoryId": "100011",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/102201/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100238",
+              "name": "Transmission",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100770",
+                  "name": "Automatic Transmission",
+                  "categoryId": "100238",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100770/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "103065",
+                  "name": "Manual Transmission",
+                  "categoryId": "100238",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103065/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "706233",
+                  "name": "Oil",
+                  "categoryId": "100238",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/706233/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100014",
+              "name": "Wheel Drive",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100066",
+                  "name": "Assembly Parts",
+                  "categoryId": "100014",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100066/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                },
+                {
+                  "id": "100074",
+                  "name": "Bellow",
+                  "categoryId": "100014",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100074/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "103099",
+              "name": "Wheels/Tyres",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "103479",
+                  "name": "Tyre-Pressure Monitoring System",
+                  "categoryId": "103099",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/103479/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            },
+            {
+              "id": "100018",
+              "name": "Window Cleaning",
+              "variantId": "9426",
+              "manufacturerId": "815",
+              "url": "",
+              "productGroups": [
+                {
+                  "id": "100133",
+                  "name": "Wiper Blade/-Rubber",
+                  "categoryId": "100018",
+                  "variantId": "9426",
+                  "manufacturerId": "815",
+                  "oemUrl": "https://auto-parts-catalog.makingdatameaningful.com/list-oem-articles/9426/100133/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+                  "oemArticles": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9426",
+          "type": "4.4 V8",
+          "modelId": "4460",
+          "manufacturerId": "815",
+          "url": "",
+          "specs": {
+            "engineCode": "M62448S3",
+            "cylinder": "8",
+            "capacity": "4,398 CCM / 4.4 L",
+            "fuelType": "Petrol",
+            "year": "2000-05-01\n                            \n                            2013-12-01",
+            "power": "260 KW / 354 PS"
+          },
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "7391",
+      "name": "BENTLEY ARNAGE Coupe",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/7391/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2005-09-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "4929",
+      "name": "BENTLEY AZURE",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4929/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1995-09-01",
+        "toDate": "2006-06-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "5583",
+      "name": "BENTLEY AZURE II (RBS_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5583/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2006-06-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "14812",
+      "name": "BENTLEY BENTAYGA (4V1)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/14812/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2015-10-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "5910",
+      "name": "BENTLEY BROOKLANDS",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5910/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1992-07-01",
+        "toDate": "1997-09-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "8963",
+      "name": "BENTLEY BROOKLANDS Coupe (RBS_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8963/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2008-03-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "4930",
+      "name": "BENTLEY CONTINENTAL",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/4930/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1991-10-01",
+        "toDate": "2002-12-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "5963",
+      "name": "BENTLEY CONTINENTAL Convertible",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5963/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1984-07-01",
+        "toDate": "1990-12-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "5964",
+      "name": "BENTLEY CONTINENTAL Convertible",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5964/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1989-10-01",
+        "toDate": "1995-12-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "39437",
+      "name": "BENTLEY CONTINENTAL Convertible (3S_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/39437/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2018-12-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "6415",
+      "name": "BENTLEY CONTINENTAL Convertible (3W_, 394)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6415/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2006-06-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "38200",
+      "name": "BENTLEY CONTINENTAL Coupe (3S3)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/38200/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2017-09-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "5093",
+      "name": "BENTLEY CONTINENTAL Coupe (3W_, 393)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5093/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2003-06-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "5416",
+      "name": "BENTLEY CONTINENTAL FLYING SPUR (3W_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5416/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2005-03-01",
+        "toDate": "2013-12-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "30279",
+      "name": "BENTLEY CORNICHE Convertible",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30279/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1971-03-01",
+        "toDate": "1984-12-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "30278",
+      "name": "BENTLEY CORNICHE Coupe",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30278/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1970-09-01",
+        "toDate": "1974-12-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "30280",
+      "name": "BENTLEY CORNICHE Coupe",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30280/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1970-09-01",
+        "toDate": "1984-06-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "5990",
+      "name": "BENTLEY EIGHT",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/5990/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1984-07-01",
+        "toDate": "1992-09-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "11490",
+      "name": "BENTLEY FLYING SPUR (4W_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/11490/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2013-03-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "40211",
+      "name": "BENTLEY FLYING SPUR (ZG2_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/40211/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2019-04-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "6098",
+      "name": "BENTLEY MULSANNE",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6098/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1980-10-01",
+        "toDate": "1992-09-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "8950",
+      "name": "BENTLEY MULSANNE (3Y_)",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/8950/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "2009-09-01",
+        "toDate": null
+      },
+      "variants": []
+    },
+    {
+      "id": "30285",
+      "name": "BENTLEY T1 SERIES Saloon",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30285/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1965-09-01",
+        "toDate": "1976-12-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "30287",
+      "name": "BENTLEY T2 SERIES Saloon",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/30287/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1976-09-01",
+        "toDate": "1981-02-01"
+      },
+      "variants": []
+    },
+    {
+      "id": "6191",
+      "name": "BENTLEY TURBO R",
+      "manufacturerId": "815",
+      "url": "https://auto-parts-catalog.makingdatameaningful.com/passenger-car-types/6191/manufacturer-id-815/lang-id-4/country-filter-id-91/type-id-1",
+      "additionalInfo": {
+        "fromDate": "1985-03-01",
+        "toDate": "1998-02-01"
+      },
+      "variants": []
+    }
+  ]
+}

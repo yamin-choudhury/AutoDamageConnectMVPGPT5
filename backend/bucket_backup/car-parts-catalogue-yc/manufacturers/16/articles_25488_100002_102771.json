@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1471964",
+    "name": "Mounting, engine",
+    "partNo": "15941",
+    "manufacturer": "FARE SA",
+    "supplierId": "4834",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "25488",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1471964/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Weight [g]": "951",
+      "Article ID:": "1471964",
+      "Article Number:": "15941",
+      "Manufacturer:": "FARE SA",
+      "EAN Numbers:": "843539205941",
+      "OEM Numbers BMW:": "22116773742"
+    }
+  },
+  {
+    "id": "1471965",
+    "name": "Mounting, engine",
+    "partNo": "15941",
+    "manufacturer": "FARE-MX",
+    "supplierId": "5429",
+    "productsId": "3871",
+    "productGroupId": "102771",
+    "categoryId": "100002",
+    "variantId": "25488",
+    "manufacturerId": "16",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1471965/model-series-id-5114/manufacturer-id-16/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Weight [g]": "951",
+      "Article ID:": "1471965",
+      "Article Number:": "15941",
+      "Manufacturer:": "FARE-MX",
+      "EAN Numbers:": "843539205941",
+      "OEM Numbers BMW:": "22116773742"
+    }
+  }
+]

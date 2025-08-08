@@ -1,0 +1,162 @@
+[
+  {
+    "id": "137996",
+    "type": "P300 Si4 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "PT204",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol",
+      "year": "2019-09-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137997",
+    "type": "P400 I6 MHEV 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "PT306",
+      "cylinder": "6",
+      "capacity": "2,996 CCM / 3.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2019-09-01",
+      "power": "294 KW / 400 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137998",
+    "type": "D200 SD4 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "204DT",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2019-09-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "137999",
+    "type": "D240 SD4 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "204DTA",
+      "cylinder": "4",
+      "capacity": "1,999 CCM / 2.0 L",
+      "fuelType": "Diesel",
+      "year": "2019-09-01",
+      "power": "177 KW / 241 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141911",
+    "type": "D250 MHEV 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT306",
+      "cylinder": "6",
+      "capacity": "2,997 CCM / 3.0 L",
+      "fuelType": "Diesel/Electro",
+      "year": "2020-09-01",
+      "power": "183 KW / 249 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141912",
+    "type": "D300 MHEV 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT306",
+      "cylinder": "6",
+      "capacity": "2,997 CCM / 3.0 L",
+      "fuelType": "Diesel/Electro",
+      "year": "2020-09-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141917",
+    "type": "P400e Hybrid 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "PT204",
+      "cylinder": "4",
+      "capacity": "1,997 CCM / 2.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2020-09-01",
+      "power": "297 KW / 404 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "141953",
+    "type": "D200 MHEV 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "DT306",
+      "cylinder": "6",
+      "capacity": "2,997 CCM / 3.0 L",
+      "fuelType": "Diesel/Electro",
+      "year": "2019-09-01",
+      "power": "147 KW / 200 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "144996",
+    "type": "P525 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "508PS",
+      "cylinder": "8",
+      "capacity": "5,000 CCM / 5.0 L",
+      "fuelType": "Petrol",
+      "year": "2021-05-01",
+      "power": "386 KW / 525 PS"
+    },
+    "categories": []
+  },
+  {
+    "id": "148046",
+    "type": "P300 MHEV 4x4",
+    "modelId": "40000",
+    "manufacturerId": "1820",
+    "url": "",
+    "specs": {
+      "engineCode": "AJ20P6",
+      "cylinder": "6",
+      "capacity": "2,996 CCM / 3.0 L",
+      "fuelType": "Petrol/Electric",
+      "year": "2022-05-01",
+      "power": "221 KW / 300 PS"
+    },
+    "categories": []
+  }
+]

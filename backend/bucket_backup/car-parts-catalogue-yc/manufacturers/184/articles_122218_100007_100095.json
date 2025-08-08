@@ -1,0 +1,35 @@
+[
+  {
+    "id": "9483184",
+    "name": "Thermostat, coolant",
+    "partNo": "TX 203 88D",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "316",
+    "productGroupId": "100095",
+    "categoryId": "100007",
+    "variantId": "122218",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/9483184/model-series-id-10509/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Opening Temperature [°C]": "88",
+      "Height 1 [mm]": "19",
+      "Height 2 [mm]": "34",
+      "Diameter 1 [mm]": "54",
+      "Diameter 2 [mm]": "28",
+      "Supplementary Article/Supplementary Info": "with seal",
+      "Packaging length [cm]": "8,7",
+      "Packaging width [cm]": "6,70",
+      "Packaging height [cm]": "9,20",
+      "Net Weight [g]": "69,0",
+      "Article ID:": "9483184",
+      "Article Number:": "TX 203 88D",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "400902695873",
+      "OEM Numbers FORD:": "ERT181",
+      "OEM Numbers HYUNDAI:": "255104A700",
+      "OEM Numbers KIA:": "255104A700"
+    }
+  }
+]

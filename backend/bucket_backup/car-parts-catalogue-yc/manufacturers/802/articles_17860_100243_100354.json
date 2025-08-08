@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1260666",
+    "name": "Compressor, air conditioning",
+    "partNo": "130755",
+    "manufacturer": "ACR",
+    "supplierId": "4654",
+    "productsId": "447",
+    "productGroupId": "100354",
+    "categoryId": "100243",
+    "variantId": "17860",
+    "manufacturerId": "802",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1260666/model-series-id-4744/manufacturer-id-802/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "24",
+      "Manufacturer Restriction": "SANDEN",
+      "Connector type": "V-B",
+      "Fastening Type": "Direct fastening",
+      "Belt Pulley Ø [mm]": "119",
+      "Pulleys": "with v-ribbed belt pulley",
+      "Component Number": "QP7H15-8275",
+      "Oil Fill Quantity [ml]": "240",
+      "Compressor Oil": "PAG 46",
+      "Compressor ID": "7H15",
+      "Number of grooves": "10",
+      "Refrigerant": "R 134a",
+      "Cylinder Head ID (Compressor)": "YE",
+      "Article ID:": "1260666",
+      "Article Number:": "130755",
+      "Manufacturer:": "ACR",
+      "EAN Numbers:": "843325313569",
+      "OEM Numbers SCANIA:": "570608"
+    }
+  }
+]

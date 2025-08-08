@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1608733",
+    "name": "Rubber Buffer, suspension",
+    "partNo": "177058",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1182",
+    "productGroupId": "100372",
+    "categoryId": "100011",
+    "variantId": "138262",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1608733/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Thickness [mm]": "15",
+      "Weight [kg]": "0,027",
+      "Material": "Elastomer",
+      "Outer diameter [mm]": "116",
+      "Article ID:": "1608733",
+      "Article Number:": "177058",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422477058",
+      "OEM Numbers OPEL:": "96 787 491 80",
+      "OEM Numbers CITROËN:": "96 787 491 80",
+      "OEM Numbers PEUGEOT:": "96 787 491 80",
+      "OEM Numbers VAUXHALL:": "96 787 491 80",
+      "OEM Numbers DS:": "96 787 491 80"
+    }
+  },
+  {
+    "id": "2765038",
+    "name": "Rubber Buffer, suspension",
+    "partNo": "33 10 3872",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1182",
+    "productGroupId": "100372",
+    "categoryId": "100011",
+    "variantId": "138262",
+    "manufacturerId": "21",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2765038/model-series-id-38837/manufacturer-id-21/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle Right",
+      "Thickness [mm]": "15",
+      "Weight [kg]": "0,027",
+      "Material": "Elastomer",
+      "Outer diameter [mm]": "116",
+      "Article ID:": "2765038",
+      "Article Number:": "33 10 3872",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422877058",
+      "OEM Numbers OPEL:": "96 787 491 80",
+      "OEM Numbers CITROËN:": "96 787 491 80",
+      "OEM Numbers PEUGEOT:": "96 787 491 80",
+      "OEM Numbers VAUXHALL:": "96 787 491 80",
+      "OEM Numbers DS:": "96 787 491 80"
+    }
+  }
+]

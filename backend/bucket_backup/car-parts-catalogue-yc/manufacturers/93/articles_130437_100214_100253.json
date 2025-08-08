@@ -1,0 +1,62 @@
+[
+  {
+    "id": "5628743",
+    "name": "Fuel Filter",
+    "partNo": "ADN12353",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "130437",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5628743/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "16400-3VD0C SK1",
+      "Height [mm]": "118",
+      "Weight [kg]": "0,14",
+      "Outer diameter [mm]": "90",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Filter type": "Filter Insert",
+      "Article ID:": "5628743",
+      "Article Number:": "ADN12353",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327404",
+      "OEM Numbers NISSAN:": "16403-00QAC",
+      "OEM Numbers RENAULT:": "86 60 003 797",
+      "OEM Numbers DACIA:": "86 60 003 797",
+      "OEM Numbers MERCEDES-BENZ:": "6070900752 SK1"
+    }
+  },
+  {
+    "id": "851927",
+    "name": "Fuel Filter",
+    "partNo": "101654",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "9",
+    "productGroupId": "100253",
+    "categoryId": "100214",
+    "variantId": "130437",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/851927/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "16400-3VD0C SK1",
+      "Height [mm]": "118",
+      "Weight [kg]": "0,14",
+      "Outer diameter [mm]": "89,5",
+      "Supplementary Article/Supplementary Info": "with attachment material",
+      "Filter type": "Filter Insert",
+      "Article ID:": "851927",
+      "Article Number:": "101654",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422401654",
+      "OEM Numbers NISSAN:": "16403-00QAC",
+      "OEM Numbers RENAULT:": "86 60 003 797",
+      "OEM Numbers DACIA:": "86 60 003 797",
+      "OEM Numbers MERCEDES-BENZ:": "6070900752 SK1"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5294845",
+    "name": "Anti-Squeal Foil, brake pad (back plate)",
+    "partNo": "940101",
+    "manufacturer": "FRENKIT",
+    "supplierId": "380",
+    "productsId": "5297",
+    "productGroupId": "103673",
+    "categoryId": "103671",
+    "variantId": "58367",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5294845/model-series-id-11016/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Brake System": "Textar",
+      "Article ID:": "5294845",
+      "Article Number:": "940101",
+      "Manufacturer:": "FRENKIT",
+      "OEM Numbers DAIHATSU:": "04945-58010",
+      "OEM Numbers TOYOTA:": "04945-58010",
+      "OEM Numbers LEXUS:": "04945-58010"
+    }
+  },
+  {
+    "id": "5296915",
+    "name": "Anti-Squeal Foil, brake pad (back plate)",
+    "partNo": "940151",
+    "manufacturer": "FRENKIT",
+    "supplierId": "380",
+    "productsId": "5297",
+    "productGroupId": "103673",
+    "categoryId": "103671",
+    "variantId": "58367",
+    "manufacturerId": "111",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5296915/model-series-id-11016/manufacturer-id-111/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Rear Axle",
+      "Brake System": "NBK",
+      "Article ID:": "5296915",
+      "Article Number:": "940151",
+      "Manufacturer:": "FRENKIT",
+      "OEM Numbers DAIHATSU:": "04946-42050",
+      "OEM Numbers TOYOTA:": "04946-42050",
+      "OEM Numbers LEXUS:": "04946-42050"
+    }
+  }
+]

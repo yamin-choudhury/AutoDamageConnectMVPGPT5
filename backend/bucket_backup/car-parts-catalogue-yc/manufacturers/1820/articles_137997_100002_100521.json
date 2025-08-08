@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1418617",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "15108100",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "137997",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1418617/model-series-id-40000/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "9",
+      "Inner diameter [mm]": "92",
+      "Outer diameter [mm]": "109",
+      "Swirl Type": "Left-hand Twist",
+      "Article ID:": "1418617",
+      "Article Number:": "15108100",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "843357728458",
+      "OEM Numbers OPEL:": "614204"
+    }
+  },
+  {
+    "id": "2660552",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "313 16 454 01 11",
+    "manufacturer": "SchferbartholdGmbH",
+    "supplierId": "2728",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "137997",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2660552/model-series-id-40000/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "transmission side",
+      "Quantity Unit": "Piece",
+      "Article ID:": "2660552",
+      "Article Number:": "313 16 454 01 11",
+      "Manufacturer:": "SchferbartholdGmbH",
+      "OEM Numbers OPEL:": "6 14 204",
+      "OEM Numbers GENERAL MOTORS:": "55571582",
+      "OEM Numbers JAGUAR:": "LR122697",
+      "OEM Numbers FORD:": "J6P36E300AA",
+      "OEM Numbers LAND ROVER:": "LR122697"
+    }
+  },
+  {
+    "id": "10116660",
+    "name": "Shaft Seal, crankshaft",
+    "partNo": "WG1957608",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "572",
+    "productGroupId": "100521",
+    "categoryId": "100002",
+    "variantId": "137997",
+    "manufacturerId": "1820",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10116660/model-series-id-40000/manufacturer-id-1820/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "9",
+      "Inner diameter [mm]": "92",
+      "Outer diameter [mm]": "109",
+      "Swirl Type": "Left-hand Twist",
+      "Article ID:": "10116660",
+      "Article Number:": "WG1957608",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers OPEL:": "614204",
+      "OEM Numbers VAUXHALL:": "55571582",
+      "OEM Numbers GENERAL MOTORS:": "55571582",
+      "OEM Numbers JAGUAR:": "LR122697",
+      "OEM Numbers FORD:": "J6P36E300AA",
+      "OEM Numbers LAND ROVER:": "LR122697"
+    }
+  }
+]

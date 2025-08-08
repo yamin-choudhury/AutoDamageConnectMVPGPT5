@@ -1,0 +1,81 @@
+[
+  {
+    "id": "5596879",
+    "name": "Wiper Blade",
+    "partNo": "AD21CH530",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "135036",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5596879/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "530",
+      "Length [in]": "21",
+      "Weight [kg]": "0,128",
+      "Fastening Type": "Hook fixing",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "5596879",
+      "Article Number:": "AD21CH530",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006327923",
+      "OEM Numbers FENDT:": "H816810170020"
+    }
+  },
+  {
+    "id": "5414411",
+    "name": "Wiper Blade",
+    "partNo": "9XW 190 253-211",
+    "manufacturer": "HELLA",
+    "supplierId": "2",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "135036",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5414411/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front",
+      "Length [mm]": "525",
+      "Length [in]": "21",
+      "Quantity": "1",
+      "Left-/right-hand drive vehicles": "for right-hand drive vehicles",
+      "Wiper blade type": "Bracket wiper blade",
+      "Article ID:": "5414411",
+      "Article Number:": "9XW 190 253-211",
+      "Manufacturer:": "HELLA",
+      "EAN Numbers:": "0408230033187",
+      "OEM Numbers VW:": "357-955-427/H"
+    }
+  },
+  {
+    "id": "424742",
+    "name": "Wiper Blade",
+    "partNo": "04043",
+    "manufacturer": "OSSCA",
+    "supplierId": "4683",
+    "productsId": "298",
+    "productGroupId": "100133",
+    "categoryId": "100018",
+    "variantId": "135036",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/424742/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Passenger Side",
+      "Length [mm]": "450",
+      "Length [in]": "18",
+      "Article ID:": "424742",
+      "Article Number:": "04043",
+      "Manufacturer:": "OSSCA",
+      "EAN Numbers:": "694357304043",
+      "OEM Numbers OPEL:": "12 72 238",
+      "OEM Numbers AUDI:": "431 998 003",
+      "OEM Numbers VAUXHALL:": "90 444 835"
+    }
+  }
+]

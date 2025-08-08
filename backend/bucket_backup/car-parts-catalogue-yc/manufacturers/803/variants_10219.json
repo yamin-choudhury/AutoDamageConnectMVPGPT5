@@ -1,0 +1,18 @@
+[
+  {
+    "id": "54920",
+    "type": "4.8 V8",
+    "modelId": "10219",
+    "manufacturerId": "803",
+    "url": "",
+    "specs": {
+      "engineCode": "N62 B48 B",
+      "cylinder": "8",
+      "capacity": "4,799 CCM / 4.8 L",
+      "fuelType": "Petrol",
+      "year": "2012-10-01",
+      "power": "270 KW / 367 PS"
+    },
+    "categories": []
+  }
+]

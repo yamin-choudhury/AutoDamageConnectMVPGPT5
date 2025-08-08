@@ -1,0 +1,51 @@
+[
+  {
+    "id": "6371465",
+    "name": "Pressure Converter, exhaust control",
+    "partNo": "CPF920047FI",
+    "manufacturer": "FLAMAR",
+    "supplierId": "6989",
+    "productsId": "1134",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "108800",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6371465/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "for flywheel manufacturer": "FIAT",
+      "Article ID:": "6371465",
+      "Article Number:": "CPF920047FI",
+      "Manufacturer:": "FLAMAR",
+      "EAN Numbers:": "805864261732",
+      "OEM Numbers FIAT:": "178309",
+      "OEM Numbers FERRARI AGRI:": "178309"
+    }
+  },
+  {
+    "id": "3737186",
+    "name": "Pressure Converter, exhaust control",
+    "partNo": "53227810OE",
+    "manufacturer": "REAL",
+    "supplierId": "6335",
+    "productsId": "1134",
+    "productGroupId": "100812",
+    "categoryId": "100254",
+    "variantId": "108800",
+    "manufacturerId": "36",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3737186/model-series-id-13361/manufacturer-id-36/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Version": "OE",
+      "for flywheel manufacturer": "FIAT",
+      "Article ID:": "3737186",
+      "Article Number:": "53227810OE",
+      "Manufacturer:": "REAL",
+      "EAN Numbers:": "805864261732",
+      "OEM Numbers FIAT:": "178309",
+      "OEM Numbers FERRARI AGRI:": "178309"
+    }
+  }
+]

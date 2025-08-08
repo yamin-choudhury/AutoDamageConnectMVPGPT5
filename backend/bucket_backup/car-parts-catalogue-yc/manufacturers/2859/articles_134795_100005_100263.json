@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1520354",
+    "name": "Filter, interior air",
+    "partNo": "1640544980",
+    "manufacturer": "EUROREPAR",
+    "supplierId": "4391",
+    "productsId": "424",
+    "productGroupId": "100263",
+    "categoryId": "100005",
+    "variantId": "134795",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1520354/model-series-id-5728/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "192",
+      "Width [mm]": "179",
+      "Height [mm]": "38",
+      "Filter type": "Pollen Filter",
+      "Article ID:": "1520354",
+      "Article Number:": "1640544980",
+      "Manufacturer:": "EUROREPAR",
+      "OEM Numbers VW (FAW):": "191819638"
+    }
+  },
+  {
+    "id": "7868148",
+    "name": "Filter, interior air",
+    "partNo": "LA 282",
+    "manufacturer": "MAHLE",
+    "supplierId": "287",
+    "productsId": "424",
+    "productGroupId": "100263",
+    "categoryId": "100005",
+    "variantId": "134795",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7868148/model-series-id-5728/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "189",
+      "Width [mm]": "189",
+      "Height [mm]": "76",
+      "Filter type": "Particulate Filter",
+      "Article ID:": "7868148",
+      "Article Number:": "LA 282",
+      "Manufacturer:": "MAHLE",
+      "EAN Numbers:": "695753510094",
+      "OEM Numbers VW (FAW):": "191819638",
+      "OEM Numbers CHERY:": "A115300640AB"
+    }
+  }
+]

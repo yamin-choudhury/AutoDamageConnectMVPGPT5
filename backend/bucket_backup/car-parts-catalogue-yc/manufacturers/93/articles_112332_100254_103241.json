@@ -1,0 +1,119 @@
+[
+  {
+    "id": "4526764",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "7518750",
+    "manufacturer": "HOFFER",
+    "supplierId": "341",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "112332",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4526764/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "7518750",
+      "Article ID:": "4526764",
+      "Article Number:": "7518750",
+      "Manufacturer:": "HOFFER",
+      "OEM Numbers RENAULT:": "77 01 058 851"
+    }
+  },
+  {
+    "id": "1648259",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "18154",
+    "manufacturer": "INTERMOTOR",
+    "supplierId": "269",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "112332",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1648259/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "1,921",
+      "Material": "Metal",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Cooling Type": "Water-cooled",
+      "Net weight [kg]": "1,672",
+      "Article ID:": "1648259",
+      "Article Number:": "18154",
+      "Manufacturer:": "INTERMOTOR",
+      "EAN Numbers:": "501222572605",
+      "OEM Numbers RENAULT:": "147357324R",
+      "OEM Numbers DACIA:": "147357324R"
+    }
+  },
+  {
+    "id": "7888708",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "LEGR371",
+    "manufacturer": "LEMARK",
+    "supplierId": "6518",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "112332",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7888708/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Weight [kg]": "1,921",
+      "Material": "Metal",
+      "Supplementary Article/Supplementary Info": "without gasket / seal",
+      "Cooling Type": "Water-cooled",
+      "Net weight [kg]": "1,672",
+      "Article ID:": "7888708",
+      "Article Number:": "LEGR371",
+      "Manufacturer:": "LEMARK",
+      "EAN Numbers:": "501222580345",
+      "OEM Numbers RENAULT:": "147357324R",
+      "OEM Numbers DACIA:": "147357324R"
+    }
+  },
+  {
+    "id": "7032140",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "FDR5033",
+    "manufacturer": "LUCAS",
+    "supplierId": "4501",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "112332",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7032140/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Article ID:": "7032140",
+      "Article Number:": "FDR5033",
+      "Manufacturer:": "LUCAS",
+      "OEM Numbers RENAULT:": "147357324R",
+      "OEM Numbers DACIA:": "147357324R"
+    }
+  },
+  {
+    "id": "5043428",
+    "name": "Cooler, exhaust gas recirculation",
+    "partNo": "88750",
+    "manufacturer": "MEAT & DORIA",
+    "supplierId": "244",
+    "productsId": "4032",
+    "productGroupId": "103241",
+    "categoryId": "100254",
+    "variantId": "112332",
+    "manufacturerId": "93",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5043428/model-series-id-11232/manufacturer-id-93/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for article number": "88750",
+      "Article ID:": "5043428",
+      "Article Number:": "88750",
+      "Manufacturer:": "MEAT & DORIA",
+      "OEM Numbers RENAULT:": "77 01 058 851"
+    }
+  }
+]

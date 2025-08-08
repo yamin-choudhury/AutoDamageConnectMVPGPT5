@@ -1,0 +1,51 @@
+[
+  {
+    "id": "6037879",
+    "name": "Exhaust Pipe",
+    "partNo": "BM50963",
+    "manufacturer": "BM CATALYSTS",
+    "supplierId": "406",
+    "productsId": "17",
+    "productGroupId": "100315",
+    "categoryId": "100004",
+    "variantId": "7214",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6037879/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "only in connection with": "FK50963",
+      "Warranty": "2 years warranty",
+      "Article ID:": "6037879",
+      "Article Number:": "BM50963",
+      "Manufacturer:": "BM CATALYSTS",
+      "EAN Numbers:": "0505274620600",
+      "OEM Numbers OPEL:": "4802657",
+      "OEM Numbers VAUXHALL:": "4802657"
+    }
+  },
+  {
+    "id": "6220168",
+    "name": "Exhaust Pipe",
+    "partNo": "CAC10571",
+    "manufacturer": "NAP",
+    "supplierId": "2456",
+    "productsId": "17",
+    "productGroupId": "100315",
+    "categoryId": "100004",
+    "variantId": "7214",
+    "manufacturerId": "117",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6220168/model-series-id-5624/manufacturer-id-117/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "7600",
+      "Weight [kg]": "2,7",
+      "Warranty": "2 years warranty",
+      "Article ID:": "6220168",
+      "Article Number:": "CAC10571",
+      "Manufacturer:": "NAP",
+      "EAN Numbers:": "0406455804350",
+      "OEM Numbers OPEL:": "25923310",
+      "OEM Numbers VAUXHALL:": "25923310"
+    }
+  }
+]

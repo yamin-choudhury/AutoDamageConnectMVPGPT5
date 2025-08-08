@@ -1,0 +1,52 @@
+[
+  {
+    "id": "240443",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01214900",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/240443/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "16",
+      "Inner diameter [mm]": "44",
+      "Outer diameter [mm]": "59",
+      "Article ID:": "240443",
+      "Article Number:": "01214900",
+      "Manufacturer:": "AJUSA",
+      "EAN Numbers:": "842776998077",
+      "OEM Numbers BMW:": "18301728734",
+      "OEM Numbers OPEL:": "4711071"
+    }
+  },
+  {
+    "id": "269959",
+    "name": "Gasket, exhaust pipe",
+    "partNo": "01799200",
+    "manufacturer": "AJUSA",
+    "supplierId": "139",
+    "productsId": "138",
+    "productGroupId": "100321",
+    "categoryId": "100004",
+    "variantId": "128521",
+    "manufacturerId": "109",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/269959/model-series-id-36212/manufacturer-id-109/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Exhaust Side",
+      "Thickness [mm]": "4,3",
+      "Length [mm]": "43,5",
+      "Inner diameter [mm]": "34,5",
+      "Article ID:": "269959",
+      "Article Number:": "01799200",
+      "Manufacturer:": "AJUSA",
+      "OEM Numbers SUZUKI:": "14182-62L00"
+    }
+  }
+]

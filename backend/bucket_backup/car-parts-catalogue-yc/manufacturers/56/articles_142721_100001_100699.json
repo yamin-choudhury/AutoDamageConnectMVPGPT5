@@ -1,0 +1,52 @@
+[
+  {
+    "id": "326446",
+    "name": "Cover, exterior mirror",
+    "partNo": "0261843",
+    "manufacturer": "VAN WEZEL",
+    "supplierId": "36",
+    "productsId": "23",
+    "productGroupId": "100699",
+    "categoryId": "100001",
+    "variantId": "142721",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/326446/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Left",
+      "Quality": "Hagus",
+      "Surface": "Primed",
+      "paired article number": "0261844",
+      "Article ID:": "326446",
+      "Article Number:": "0261843",
+      "Manufacturer:": "VAN WEZEL",
+      "EAN Numbers:": "541090970093",
+      "OEM Numbers LAND ROVER:": "LR048354"
+    }
+  },
+  {
+    "id": "326447",
+    "name": "Cover, exterior mirror",
+    "partNo": "0261844",
+    "manufacturer": "VAN WEZEL",
+    "supplierId": "36",
+    "productsId": "23",
+    "productGroupId": "100699",
+    "categoryId": "100001",
+    "variantId": "142721",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/326447/model-series-id-38078/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Right",
+      "Quality": "Hagus",
+      "Surface": "Primed",
+      "paired article number": "0261843",
+      "Article ID:": "326447",
+      "Article Number:": "0261844",
+      "Manufacturer:": "VAN WEZEL",
+      "EAN Numbers:": "541090970094",
+      "OEM Numbers LAND ROVER:": "LR048353"
+    }
+  }
+]

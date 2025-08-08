@@ -1,0 +1,52 @@
+[
+  {
+    "id": "944682",
+    "name": "Condenser, air conditioning",
+    "partNo": "107876",
+    "manufacturer": "AUTOGAMMA",
+    "supplierId": "4688",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "107636",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/944682/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Thickness [mm]": "16",
+      "Width [mm]": "372",
+      "Height [mm]": "670",
+      "Supplementary Article/Info 2": "with dryer",
+      "Article ID:": "944682",
+      "Article Number:": "107876",
+      "Manufacturer:": "AUTOGAMMA",
+      "EAN Numbers:": "366220623592",
+      "OEM Numbers HONDA:": "80110T2FA01"
+    }
+  },
+  {
+    "id": "2866633",
+    "name": "Condenser, air conditioning",
+    "partNo": "345405",
+    "manufacturer": "KALE OTO RADYATÖR",
+    "supplierId": "469",
+    "productsId": "448",
+    "productGroupId": "100355",
+    "categoryId": "100243",
+    "variantId": "107636",
+    "manufacturerId": "45",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2866633/model-series-id-10999/manufacturer-id-45/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Material": "Aluminium",
+      "Supplementary Article/Info 2": "with dryer",
+      "Core Length [mm]": "670",
+      "Core Width [mm]": "367,5",
+      "Core Depth [mm]": "16",
+      "Article ID:": "2866633",
+      "Article Number:": "345405",
+      "Manufacturer:": "KALE OTO RADYATÖR",
+      "OEM Numbers HONDA:": "80110T2FA01"
+    }
+  }
+]

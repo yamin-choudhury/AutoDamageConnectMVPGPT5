@@ -1,0 +1,60 @@
+[
+  {
+    "id": "5609043",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "ADBP810004",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "135596",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5609043/model-series-id-38807/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "97",
+      "Weight [kg]": "0,237",
+      "Material": "Elastomer",
+      "Joint Type": "Tripod Joint",
+      "Inner diameter 1 [mm]": "25",
+      "Inner diameter 2 [mm]": "69",
+      "Article ID:": "5609043",
+      "Article Number:": "ADBP810004",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505774622249",
+      "OEM Numbers HYUNDAI:": "49543-1R201 SK1",
+      "OEM Numbers KIA:": "49543-1R201 SK1"
+    }
+  },
+  {
+    "id": "1587771",
+    "name": "Bellow Kit, drive shaft",
+    "partNo": "172791",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "194",
+    "productGroupId": "100074",
+    "categoryId": "100014",
+    "variantId": "135596",
+    "manufacturerId": "183",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1587771/model-series-id-38807/manufacturer-id-183/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle",
+      "Length [mm]": "97",
+      "Weight [kg]": "0,237",
+      "Material": "Elastomer",
+      "Joint Type": "Tripod Joint",
+      "Inner diameter 1 [mm]": "25",
+      "Inner diameter 2 [mm]": "69",
+      "Article ID:": "1587771",
+      "Article Number:": "172791",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422472791",
+      "OEM Numbers HYUNDAI:": "49543-1R201 SK1",
+      "OEM Numbers KIA:": "49543-1R201 SK1"
+    }
+  }
+]

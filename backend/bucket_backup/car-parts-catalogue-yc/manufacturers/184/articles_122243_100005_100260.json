@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1806091",
+    "name": "Air Filter",
+    "partNo": "20-0K-K25",
+    "manufacturer": "ASHIKA",
+    "supplierId": "257",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "122243",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1806091/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "295",
+      "Width [mm]": "210",
+      "Height [mm]": "30",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1806091",
+      "Article Number:": "20-0K-K25",
+      "Manufacturer:": "ASHIKA",
+      "EAN Numbers:": "803300166870",
+      "OEM Numbers KIA:": "281132J000"
+    }
+  },
+  {
+    "id": "6984881",
+    "name": "Air Filter",
+    "partNo": "FA-K25S",
+    "manufacturer": "JAPANPARTS",
+    "supplierId": "156",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "122243",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/6984881/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "295",
+      "Width [mm]": "210",
+      "Height [mm]": "30",
+      "Filter type": "Filter Insert",
+      "Article ID:": "6984881",
+      "Article Number:": "FA-K25S",
+      "Manufacturer:": "JAPANPARTS",
+      "EAN Numbers:": "803300166869",
+      "OEM Numbers KIA:": "281132J000"
+    }
+  },
+  {
+    "id": "1913564",
+    "name": "Air Filter",
+    "partNo": "20K25",
+    "manufacturer": "JAPKO",
+    "supplierId": "481",
+    "productsId": "8",
+    "productGroupId": "100260",
+    "categoryId": "100005",
+    "variantId": "122243",
+    "manufacturerId": "184",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1913564/model-series-id-10898/manufacturer-id-184/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "295",
+      "Width [mm]": "210",
+      "Height [mm]": "30",
+      "Filter type": "Filter Insert",
+      "Article ID:": "1913564",
+      "Article Number:": "20K25",
+      "Manufacturer:": "JAPKO",
+      "EAN Numbers:": "803300168212",
+      "OEM Numbers KIA:": "281132J000"
+    }
+  }
+]

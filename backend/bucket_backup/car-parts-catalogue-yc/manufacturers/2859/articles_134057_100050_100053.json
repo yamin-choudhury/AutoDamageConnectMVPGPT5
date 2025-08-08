@@ -1,0 +1,58 @@
+[
+  {
+    "id": "5639482",
+    "name": "Clutch Disc",
+    "partNo": "ADV183114",
+    "manufacturer": "BLUE PRINT",
+    "supplierId": "350",
+    "productsId": "262",
+    "productGroupId": "100053",
+    "categoryId": "100050",
+    "variantId": "134057",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/5639482/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "038 141 033 C",
+      "Number of Teeth": "28",
+      "Weight [kg]": "1,032",
+      "Outer diameter [mm]": "228",
+      "Article ID:": "5639482",
+      "Article Number:": "ADV183114",
+      "Manufacturer:": "BLUE PRINT",
+      "EAN Numbers:": "505006329361",
+      "OEM Numbers AUDI:": "38 141 033 C",
+      "OEM Numbers SEAT:": "38 141 033 C",
+      "OEM Numbers SKODA:": "38 141 031 D",
+      "OEM Numbers VW:": "38 141 033 C",
+      "OEM Numbers VW (FAW):": "038 141 031 D"
+    }
+  },
+  {
+    "id": "2737064",
+    "name": "Clutch Disc",
+    "partNo": "323 0559 20",
+    "manufacturer": "LuK",
+    "supplierId": "6",
+    "productsId": "262",
+    "productGroupId": "100053",
+    "categoryId": "100050",
+    "variantId": "134057",
+    "manufacturerId": "2859",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2737064/model-series-id-6535/manufacturer-id-2859/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Number of Teeth": "28",
+      "Diameter [mm]": "228",
+      "Technical Information Number": "USF",
+      "Article ID:": "2737064",
+      "Article Number:": "323 0559 20",
+      "Manufacturer:": "LuK",
+      "EAN Numbers:": "400510820572",
+      "OEM Numbers AUDI:": "038141033C",
+      "OEM Numbers VW:": "038141033C",
+      "OEM Numbers SKODA:": "038141033C",
+      "OEM Numbers SEAT:": "038141033C"
+    }
+  }
+]

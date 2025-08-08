@@ -1,0 +1,62 @@
+[
+  {
+    "id": "7223546",
+    "name": "Sensor, wheel speed",
+    "partNo": "GBS1006",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "412",
+    "productGroupId": "104281",
+    "categoryId": "103671",
+    "variantId": "144923",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7223546/model-series-id-42126/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "66",
+      "Sensor Type": "Active sensor",
+      "paired article number": "GBS1008",
+      "Article ID:": "7223546",
+      "Article Number:": "GBS1006",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293794234",
+      "OEM Numbers MAN:": "WHT 003 857 B",
+      "OEM Numbers AUDI:": "WHT 003 857 C",
+      "OEM Numbers VW:": "WHT 003 857 C",
+      "OEM Numbers PORSCHE:": "955 606 405 11",
+      "OEM Numbers SEAT:": "WHT 003 857 C",
+      "OEM Numbers SKODA:": "WHT 003 857 C",
+      "OEM Numbers CUPRA:": "WHT 003 857 C"
+    }
+  },
+  {
+    "id": "7223547",
+    "name": "Sensor, wheel speed",
+    "partNo": "GBS1008",
+    "manufacturer": "TRW",
+    "supplierId": "161",
+    "productsId": "412",
+    "productGroupId": "104281",
+    "categoryId": "103671",
+    "variantId": "144923",
+    "manufacturerId": "3035",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7223547/model-series-id-42126/manufacturer-id-3035/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Length [mm]": "66",
+      "Sensor Type": "Active sensor",
+      "paired article number": "GBS1006",
+      "Article ID:": "7223547",
+      "Article Number:": "GBS1008",
+      "Manufacturer:": "TRW",
+      "EAN Numbers:": "332293794236",
+      "OEM Numbers AUDI:": "WHT 003 856 C",
+      "OEM Numbers VW:": "WHT 003 856 C",
+      "OEM Numbers PORSCHE:": "955 606 406 12",
+      "OEM Numbers SEAT:": "WHT 003 856 C",
+      "OEM Numbers SKODA:": "WHT 003 856 C",
+      "OEM Numbers CUPRA:": "WHT 003 856 C",
+      "OEM Numbers MAN:": "WHT 003 856 B"
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "7602633",
+    "name": "Bellow Kit, steering",
+    "partNo": "J4107003",
+    "manufacturer": "HERTH+BUSS JAKOPARTS",
+    "supplierId": "55",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55122",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/7602633/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "173",
+      "Inner diameter 1 [mm]": "14,5",
+      "Inner diameter 2 [mm]": "44,5",
+      "Article ID:": "7602633",
+      "Article Number:": "J4107003",
+      "Manufacturer:": "HERTH+BUSS JAKOPARTS",
+      "EAN Numbers:": "402941635505",
+      "OEM Numbers SUBARU:": "34137-SA000"
+    }
+  },
+  {
+    "id": "4053744",
+    "name": "Bellow, steering",
+    "partNo": "60K7005-JPN",
+    "manufacturer": "JPN",
+    "supplierId": "6985",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55122",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4053744/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "both sides",
+      "Inner diameter 1 [mm]": "14,5",
+      "Inner diameter 2 [mm]": "44,5",
+      "Article ID:": "4053744",
+      "Article Number:": "60K7005-JPN",
+      "Manufacturer:": "JPN",
+      "OEM Numbers SUBARU:": "34137-SA000"
+    }
+  },
+  {
+    "id": "3019648",
+    "name": "Bellow, steering",
+    "partNo": "383.030",
+    "manufacturer": "SIDEM",
+    "supplierId": "135",
+    "productsId": "191",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55122",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/3019648/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Fitting Position": "Front Axle both sides",
+      "Length [mm]": "173",
+      "Inner diameter 1 [mm]": "15",
+      "Inner diameter 2 [mm]": "45",
+      "Article ID:": "3019648",
+      "Article Number:": "383.030",
+      "Manufacturer:": "SIDEM",
+      "EAN Numbers:": "541397821519",
+      "OEM Numbers SUBARU:": "34137 SA000",
+      "OEM Numbers TOYOTA:": "SU003 00831"
+    }
+  },
+  {
+    "id": "4903529",
+    "name": "Bellow Kit, steering",
+    "partNo": "8500 68013",
+    "manufacturer": "TRISCAN",
+    "supplierId": "108",
+    "productsId": "195",
+    "productGroupId": "100201",
+    "categoryId": "100012",
+    "variantId": "55122",
+    "manufacturerId": "107",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/4903529/model-series-id-10265/manufacturer-id-107/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Height [mm]": "173",
+      "Required quantity": "2",
+      "Material": "Thermoplast",
+      "Inner diameter 1 [mm]": "14,5",
+      "Inner diameter 2 [mm]": "44,5",
+      "Article ID:": "4903529",
+      "Article Number:": "8500 68013",
+      "Manufacturer:": "TRISCAN",
+      "EAN Numbers:": "571047633743",
+      "OEM Numbers SUBARU:": "34137-SA000"
+    }
+  }
+]

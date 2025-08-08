@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1599831",
+    "name": "EGR Valve",
+    "partNo": "175027",
+    "manufacturer": "FEBI BILSTEIN",
+    "supplierId": "101",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/1599831/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "LR110290",
+      "Fitting Position": "Left",
+      "Weight [kg]": "0,997",
+      "Article ID:": "1599831",
+      "Article Number:": "175027",
+      "Manufacturer:": "FEBI BILSTEIN",
+      "EAN Numbers:": "405422475027",
+      "OEM Numbers JAGUAR:": "JDE40036",
+      "OEM Numbers LAND ROVER:": "LR110290"
+    }
+  },
+  {
+    "id": "2763925",
+    "name": "EGR Valve",
+    "partNo": "33 10 2651",
+    "manufacturer": "SWAG",
+    "supplierId": "151",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/2763925/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "for OE number": "LR110290",
+      "Fitting Position": "Left",
+      "Weight [kg]": "0,997",
+      "Article ID:": "2763925",
+      "Article Number:": "33 10 2651",
+      "Manufacturer:": "SWAG",
+      "EAN Numbers:": "405422875027",
+      "OEM Numbers JAGUAR:": "JDE40036",
+      "OEM Numbers LAND ROVER:": "LR110290"
+    }
+  },
+  {
+    "id": "10273935",
+    "name": "EGR Valve",
+    "partNo": "WG2167336",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10273935/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Valve type": "Control Valve",
+      "Supplementary Article/Info 2": "Low Pressure Side",
+      "Technical Information Number": "PI 2080",
+      "Article ID:": "10273935",
+      "Article Number:": "WG2167336",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers JAGUAR:": "JDE39607",
+      "OEM Numbers LAND ROVER:": "LR097167"
+    }
+  },
+  {
+    "id": "10273937",
+    "name": "EGR Valve",
+    "partNo": "WG2167338",
+    "manufacturer": "WILMINK GROUP",
+    "supplierId": "4832",
+    "productsId": "1145",
+    "productGroupId": "100811",
+    "categoryId": "100254",
+    "variantId": "142704",
+    "manufacturerId": "56",
+    "detailsUrl": "https://auto-parts-catalog.makingdatameaningful.com/article-details/10273937/model-series-id-14864/manufacturer-id-56/lang-id-4/country-filter-id-91/type-id-1",
+    "imageUrl": null,
+    "techDetails": {
+      "Voltage [V]": "12",
+      "Operating Mode": "Electric",
+      "Valve type": "Control Valve",
+      "Article ID:": "10273937",
+      "Article Number:": "WG2167338",
+      "Manufacturer:": "WILMINK GROUP",
+      "OEM Numbers JAGUAR:": "JDE40036",
+      "OEM Numbers LAND ROVER:": "LR110290"
+    }
+  }
+]

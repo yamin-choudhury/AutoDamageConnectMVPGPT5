@@ -1,47 +1,17 @@
-# Environment
+## Environment files
+# Root and nested env files
 .env
 .env.*
-.envrc
+*.env
+**/.env
+**/.env.*
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.venv/
-venv/
-.coverage
-coverage.xml
-htmlcov/
+# Allow checked-in examples
+!.env.example
+!.env.local.example
 
-# Node / JS
-node_modules/
-dist/
-build/
-.npm/
-.yarn/
-.pnpm-store/
-
-# OS / System
-.DS_Store
-Thumbs.db
-
-# IDE / Editor
-.idea/
-.vscode/
-*.code-workspace
-
-# Logs / Temp
-*.log
-logs/
-tmp/
-temp/
-
-# Project-specific
-reports/
-storage/
-**/.supabase/
+# Common secret formats (optional safety)
+*.pem
+*.key
+*.p12
+*.pfx

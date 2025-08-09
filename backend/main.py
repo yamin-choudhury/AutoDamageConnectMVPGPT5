@@ -175,6 +175,50 @@ async def generate_report(payload: GeneratePayload):
             print(f"Failed to read JSON: {e}")
             raise HTTPException(status_code=500, detail=f"Failed to read generated JSON: {str(e)}")
         
+        # Apply user-provided vehicle overrides from DB (make/model/year) if present
+        try:
+            # Fetch the latest vehicle fields from documents table using service role key
+            async with httpx.AsyncClient(timeout=30) as client:
+                resp = await client.get(
+                    f"{SUPABASE_URL}/documents",
+                    params={
+                        "id": f"eq.{doc_id}",
+                        "select": "make,model,year,vin,registration_plate,trim_body_style",
+                    },
+                    headers={
+                        "apikey": SUPABASE_SERVICE_ROLE_KEY,
+                        "Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}",
+                    },
+                )
+            if resp.status_code == 200:
+                rows = resp.json()
+                if isinstance(rows, list) and rows:
+                    row = rows[0] or {}
+                    override = {}
+                    for k in ("make", "model", "year"):
+                        v = row.get(k)
+                        if v not in (None, "", 0):
+                            override[k] = v
+                    if override:
+                        veh = json_content.get("vehicle") or {}
+                        # Update provided fields only; keep others from AI if overrides are partial
+                        for k, v in override.items():
+                            veh[k] = v
+                        # Coerce year to int when possible
+                        if "year" in veh:
+                            try:
+                                veh["year"] = int(veh["year"]) if isinstance(veh["year"], str) else veh["year"]
+                            except Exception:
+                                pass
+                        json_content["vehicle"] = veh
+                        # Persist updated JSON so uploads reflect overrides
+                        out_json.write_text(json.dumps(json_content, indent=2), encoding="utf-8")
+                        print(f"Applied vehicle overrides from DB for document {doc_id}: {override}")
+            else:
+                print(f"Failed to fetch document overrides: {resp.status_code} {resp.text}")
+        except Exception as e:
+            print(f"Vehicle override fetch/apply failed: {e}")
+        
         html_content = (
             "<html><head><meta charset='utf-8'><title>Damage Report</title>"
             "<style>body{font-family:Arial,Helvetica,sans-serif;}pre{white-space:pre-wrap;font-family:monospace;}</style>"

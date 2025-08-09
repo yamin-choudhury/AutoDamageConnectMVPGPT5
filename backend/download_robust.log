@@ -1,0 +1,117 @@
+2025-07-26 01:23:04,328 - INFO - Initialized - Project: rising-theater-466617-n8, Bucket: car-parts-catalogue-yc
+2025-07-26 01:23:04,328 - INFO - 🔍 Finding missing files...
+2025-07-26 01:24:11,002 - INFO - Initialized - Project: rising-theater-466617-n8, Bucket: car-parts-catalogue-yc
+2025-07-26 01:24:11,002 - INFO - 🔍 Finding missing files...
+2025-07-26 01:24:33,531 - INFO - Found 32482 JSON files in bucket
+2025-07-26 01:24:33,923 - INFO - Found 22544 already downloaded
+2025-07-26 01:24:33,927 - INFO - Need to download 9938 missing files
+2025-07-26 01:24:33,928 - INFO - 📥 Starting download of 9938 missing files...
+2025-07-26 01:24:33,937 - INFO - Processing batch 1/100
+2025-07-26 01:25:03,065 - INFO - Processing batch 2/100
+2025-07-26 01:25:22,803 - INFO - Processing batch 3/100
+2025-07-26 01:25:43,512 - INFO - Processing batch 4/100
+2025-07-26 01:26:03,528 - INFO - Processing batch 5/100
+2025-07-26 01:26:22,968 - INFO - Processing batch 6/100
+2025-07-26 01:26:42,263 - INFO - Processing batch 7/100
+2025-07-26 01:27:01,248 - INFO - Processing batch 8/100
+2025-07-26 01:27:18,914 - INFO - Processing batch 9/100
+2025-07-26 01:27:36,655 - INFO - Processing batch 10/100
+2025-07-26 01:27:54,638 - INFO - Processing batch 11/100
+2025-07-26 01:28:11,927 - INFO - Processing batch 12/100
+2025-07-26 01:28:29,854 - INFO - Processing batch 13/100
+2025-07-26 01:28:50,120 - INFO - Processing batch 14/100
+2025-07-26 01:29:12,696 - INFO - Processing batch 15/100
+2025-07-26 01:29:34,744 - INFO - Processing batch 16/100
+2025-07-26 01:29:55,256 - INFO - Processing batch 17/100
+2025-07-26 01:30:15,618 - INFO - Processing batch 18/100
+2025-07-26 01:30:38,836 - INFO - Processing batch 19/100
+2025-07-26 01:31:03,313 - INFO - Processing batch 20/100
+2025-07-26 01:31:28,335 - INFO - Processing batch 21/100
+2025-07-26 01:31:52,281 - INFO - Processing batch 22/100
+2025-07-26 01:32:17,317 - INFO - Processing batch 23/100
+2025-07-26 01:32:38,953 - INFO - Processing batch 24/100
+2025-07-26 01:32:55,887 - INFO - Processing batch 25/100
+2025-07-26 01:33:17,358 - INFO - Processing batch 26/100
+2025-07-26 01:33:39,876 - INFO - Processing batch 27/100
+2025-07-26 01:34:04,438 - INFO - Processing batch 28/100
+2025-07-26 01:34:29,368 - INFO - Processing batch 29/100
+2025-07-26 01:34:52,658 - INFO - Processing batch 30/100
+2025-07-26 01:35:16,698 - INFO - Processing batch 31/100
+2025-07-26 01:35:38,121 - INFO - Processing batch 32/100
+2025-07-26 01:35:57,784 - INFO - Processing batch 33/100
+2025-07-26 01:36:15,010 - INFO - Processing batch 34/100
+2025-07-26 01:36:32,084 - INFO - Processing batch 35/100
+2025-07-26 01:36:51,271 - INFO - Processing batch 36/100
+2025-07-26 01:37:09,974 - INFO - Processing batch 37/100
+2025-07-26 01:37:28,118 - INFO - Processing batch 38/100
+2025-07-26 01:37:47,269 - INFO - Processing batch 39/100
+2025-07-26 01:38:04,370 - INFO - Processing batch 40/100
+2025-07-26 01:38:22,292 - INFO - Processing batch 41/100
+2025-07-26 01:38:38,979 - INFO - Processing batch 42/100
+2025-07-26 01:38:55,229 - INFO - Processing batch 43/100
+2025-07-26 01:39:12,562 - INFO - Processing batch 44/100
+2025-07-26 01:39:30,176 - INFO - Processing batch 45/100
+2025-07-26 01:39:47,365 - INFO - Processing batch 46/100
+2025-07-26 01:40:04,197 - INFO - Processing batch 47/100
+2025-07-26 01:40:21,452 - INFO - Processing batch 48/100
+2025-07-26 01:40:38,173 - INFO - Processing batch 49/100
+2025-07-26 01:40:54,959 - INFO - Processing batch 50/100
+2025-07-26 01:41:12,427 - INFO - Processing batch 51/100
+2025-07-26 01:41:31,460 - INFO - Processing batch 52/100
+2025-07-26 01:41:49,732 - INFO - Processing batch 53/100
+2025-07-26 01:42:07,157 - INFO - Processing batch 54/100
+2025-07-26 01:42:25,517 - INFO - Processing batch 55/100
+2025-07-26 01:42:42,671 - INFO - Processing batch 56/100
+2025-07-26 01:43:02,684 - INFO - Processing batch 57/100
+2025-07-26 01:43:23,435 - INFO - Processing batch 58/100
+2025-07-26 01:43:46,041 - INFO - Processing batch 59/100
+2025-07-26 01:44:08,432 - INFO - Processing batch 60/100
+2025-07-26 01:44:30,802 - INFO - Processing batch 61/100
+2025-07-26 01:44:52,703 - INFO - Processing batch 62/100
+2025-07-26 01:45:14,000 - INFO - Processing batch 63/100
+2025-07-26 01:45:34,012 - INFO - Processing batch 64/100
+2025-07-26 01:45:54,034 - INFO - Processing batch 65/100
+2025-07-26 01:46:16,277 - INFO - Processing batch 66/100
+2025-07-26 01:46:38,746 - INFO - Processing batch 67/100
+2025-07-26 01:47:02,346 - INFO - Processing batch 68/100
+2025-07-26 01:47:23,587 - INFO - Processing batch 69/100
+2025-07-26 01:47:46,826 - INFO - Processing batch 70/100
+2025-07-26 01:48:08,067 - INFO - Processing batch 71/100
+2025-07-26 01:48:29,647 - INFO - Processing batch 72/100
+2025-07-26 01:48:51,970 - INFO - Processing batch 73/100
+2025-07-26 01:49:12,525 - INFO - Processing batch 74/100
+2025-07-26 01:49:33,614 - INFO - Processing batch 75/100
+2025-07-26 01:49:53,574 - INFO - Processing batch 76/100
+2025-07-26 01:50:10,609 - INFO - Processing batch 77/100
+2025-07-26 01:50:27,902 - INFO - Processing batch 78/100
+2025-07-26 01:50:45,004 - INFO - Processing batch 79/100
+2025-07-26 01:51:03,122 - INFO - Processing batch 80/100
+2025-07-26 01:51:22,113 - INFO - Processing batch 81/100
+2025-07-26 01:51:39,821 - INFO - Processing batch 82/100
+2025-07-26 01:51:58,866 - INFO - Processing batch 83/100
+2025-07-26 01:52:19,608 - INFO - Processing batch 84/100
+2025-07-26 01:52:40,920 - INFO - Processing batch 85/100
+2025-07-26 01:53:07,064 - INFO - Processing batch 86/100
+2025-07-26 01:53:35,656 - INFO - Processing batch 87/100
+2025-07-26 01:53:58,104 - INFO - Processing batch 88/100
+2025-07-26 01:54:16,715 - INFO - Processing batch 89/100
+2025-07-26 01:54:33,998 - INFO - Processing batch 90/100
+2025-07-26 01:54:51,333 - INFO - Processing batch 91/100
+2025-07-26 01:55:08,541 - INFO - Processing batch 92/100
+2025-07-26 01:55:25,445 - INFO - Processing batch 93/100
+2025-07-26 01:55:42,856 - INFO - Processing batch 94/100
+2025-07-26 01:55:59,791 - INFO - Processing batch 95/100
+2025-07-26 01:56:16,676 - INFO - Processing batch 96/100
+2025-07-26 01:56:33,583 - INFO - Processing batch 97/100
+2025-07-26 01:56:50,355 - INFO - Processing batch 98/100
+2025-07-26 01:57:07,124 - INFO - Processing batch 99/100
+2025-07-26 01:57:23,900 - INFO - Processing batch 100/100
+2025-07-26 01:57:30,939 - INFO - 📊 Download complete!
+2025-07-26 01:57:30,940 - INFO -    Successful: 9938
+2025-07-26 01:57:30,940 - INFO -    Failed: 0
+2025-07-26 01:57:30,942 - INFO - 🔍 Verifying download completeness...
+2025-07-26 01:57:31,451 - INFO - Valid files: 32482
+2025-07-26 01:57:31,451 - INFO - Empty files: 0
+2025-07-26 01:57:45,551 - INFO - Bucket files: 32482
+2025-07-26 01:57:45,552 - INFO - Downloaded: 32482
+2025-07-26 01:57:45,552 - INFO - ✅ Download appears complete!

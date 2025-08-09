@@ -37,47 +37,26 @@ VEHICLE_ID_PROMPT = PROMPTS_DIR / "identify_vehicle.txt"
 PHASE2_PROMPT = PROMPTS_DIR / "describe_parts_prompt.txt"
 PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
+PHASE1_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_enterprise_prompt.txt"
+PHASE1_COMPLETENESS_PROMPT = PROMPTS_DIR / "detect_missing_parts.txt"
 
-
-# ----------------------- YOLO integration disabled -------------------
-# placeholder no-op
 
 # ----------------------- OpenAI client tuning -------------------------
 # Global retry/backoff and concurrency limits to reduce failures and load
-OPENAI_MAX_RETRIES = int(os.getenv("OPENAI_MAX_RETRIES", "3"))
+OPENAI_MAX_RETRIES = int(os.getenv("OPENAI_MAX_RETRIES", "5"))
 OPENAI_BACKOFF_BASE = float(os.getenv("OPENAI_BACKOFF_BASE", "0.5"))  # seconds
 OPENAI_CONCURRENCY = int(os.getenv("OPENAI_CONCURRENCY", "4"))
 _openai_sem = threading.Semaphore(OPENAI_CONCURRENCY)
 MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "5"))  # 0 = no cap
-PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "0") == "1"
+PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "1") == "1"
 PERSIST_MAX_UNION = os.getenv("PERSIST_MAX_UNION", "1") == "1"
 CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
 PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
+ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
 
 def get_candidate_boxes(img_path: Path):
-    """Return empty list – YOLO disabled."""
+    """Return empty list – YOLO fully removed."""
     return []
-    global _yolo_model
-    if _yolo_model is None:
-        # Allow Ultralytics model class through PyTorch safe loader (torch >=2.6)
-        try:
-            import torch, ultralytics.nn.tasks as t
-            if hasattr(torch.serialization, "add_safe_globals"):
-                torch.serialization.add_safe_globals({t.DetectionModel})
-        except Exception:
-            pass
-        _yolo_model = YOLO("yolov8n.pt")  # small model
-    return _yolo_model
-
-
-def get_candidate_boxes(img_path: Path):
-    model = get_yolo_model()
-    results = model(str(img_path), conf=0.25, iou=0.5, max_det=20, verbose=False)[0]
-    boxes = []
-    for b in results.boxes.xyxy.cpu().numpy():
-        x1, y1, x2, y2 = b[:4]
-        boxes.append({"bbox_px": {"x": int(x1), "y": int(y1), "w": int(x2-x1), "h": int(y2-y1)}})
-    return boxes
 
 # ----------------------------------------------------------------------
 
@@ -232,6 +211,56 @@ def _norm(s: str) -> str:
 def _key_for_part(p: dict) -> tuple[str, str, str]:
     return (_norm(p.get("name", "")), _norm(p.get("location", "")), _norm(p.get("category", "")))
 
+# ----------------------- Canonicalization helpers ---------------------
+def _canon_severity(s: str) -> str:
+    s = _norm(s)
+    mapping = {
+        "low": "minor", "minor": "minor", "slight": "minor", "light": "minor",
+        "medium": "moderate", "moderate": "moderate",
+        "high": "severe", "severe": "severe", "major": "severe", "extreme": "severe",
+    }
+    return mapping.get(s, s if s in ("minor", "moderate", "severe") else "minor")
+
+def _canon_location(s: str) -> str:
+    t = _norm(s).replace("-", " ")
+    # Basic side synonyms
+    t = t.replace("driver side", "left").replace("passenger side", "right")
+    t = t.replace("near side", "left").replace("nearside", "left")
+    t = t.replace("off side", "right").replace("offside", "right")
+    t = t.replace("front end", "front").replace("rear end", "rear").replace("back", "rear")
+    # Compose compound forms
+    words = t.split()
+    flags = set(words)
+    order = ["front", "rear", "left", "right"]
+    composed = " ".join([w for w in order if w in flags])
+    return composed if composed else t
+
+def _canon_name(s: str) -> str:
+    t = _norm(s)
+    repl = [
+        ("bonnet", "hood"), ("boot", "trunk"), ("windscreen", "windshield"),
+        ("wing", "fender"), ("grill", "grille"), ("headlamp", "headlight"),
+        ("tail lamp", "tail light"), ("taillamp", "tail light"),
+        ("number plate", "license plate"), ("license-plate", "license plate"),
+        ("foglamp", "fog light"), ("quarterpanel", "quarter panel"),
+    ]
+    for a, b in repl:
+        if a in t:
+            t = t.replace(a, b)
+    return t
+
+def _canon_category(s: str) -> str:
+    return _norm(s)
+
+def canonicalize_part(p: dict) -> dict:
+    q = dict(p) if isinstance(p, dict) else {}
+    q["name"] = _canon_name(q.get("name", ""))
+    q["location"] = _canon_location(q.get("location", ""))
+    q["category"] = _canon_category(q.get("category", ""))
+    if q.get("severity") is not None:
+        q["severity"] = _canon_severity(q.get("severity", ""))
+    return q
+
 def _fingerprint_images(images: List[Path]) -> str:
     """Stable fingerprint of the image set using names and sizes only (no content read)."""
     m = hashlib.sha256()
@@ -258,6 +287,8 @@ def _load_superset(path: Path) -> tuple[dict[tuple, dict], int]:
                 "location": item.get("location", ""),
                 "category": item.get("category", ""),
             }
+            # Canonicalize legacy entries to unify keys
+            part = canonicalize_part(part)
             key = _key_for_part(part)
             m[key] = {"count": int(item.get("count", 0)), "part": part}
         return m, int(data.get("run_count", 0))
@@ -391,10 +422,32 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
                 crop = img.crop((cx1, cy1, cx2, cy2))
                 if max(crop.size) > max_px:
                     crop.thumbnail((max_px, max_px))
-                out_path = tmp_dir / f"{p.stem}_{area.replace(' ','_')}_crop.jpg"
+                out_path = tmp_dir / f"{p.stem}_{area.replace(' ','_')}_wide.jpg"
                 crop.save(out_path, "JPEG", quality=90)
                 out.append(out_path)
             break  # one bbox is enough
+    # Add quadrant crops from the first base image to improve coverage, even when no bbox is present
+    try:
+        if base_imgs:
+            p0 = base_imgs[0]
+            img0 = Image.open(p0).convert("RGB")
+            w, h = img0.size
+            mx, my = w // 2, h // 2
+            quads = [
+                (0, 0, mx, my, "quad_tl"),
+                (mx, 0, w, my, "quad_tr"),
+                (0, my, mx, h, "quad_bl"),
+                (mx, my, w, h, "quad_br"),
+            ]
+            for x1, y1, x2, y2, tag in quads:
+                crop = img0.crop((x1, y1, x2, y2))
+                if max(crop.size) > max_px:
+                    crop.thumbnail((max_px, max_px))
+                out_path = tmp_dir / f"{p0.stem}_{area.replace(' ','_')}_{tag}.jpg"
+                crop.save(out_path, "JPEG", quality=90)
+                out.append(out_path)
+    except Exception:
+        pass
     # Add an extra wide crop covering union of all bboxes for this area
     bbox_list = [item["bbox_px"] for item in areas_json.get("damaged_areas", []) if area.lower() in item.get("area", "").lower() and item.get("bbox_px")]
     if bbox_list:
@@ -452,11 +505,11 @@ def union_parts(runs: List[dict]) -> dict:
         safe: List[dict] = []
         for item in parts or []:
             if isinstance(item, dict):
-                safe.append(item)
+                safe.append(canonicalize_part(item))
             elif isinstance(item, str):
                 name = item.strip().lstrip("-*•").strip()
                 if name:
-                    safe.append({"name": name, "severity": "minor", "damage_description": ""})
+                    safe.append(canonicalize_part({"name": name, "severity": "minor", "damage_description": ""}))
         return safe
 
     if not runs:
@@ -667,13 +720,13 @@ def main():
         pass
 
     # ----------------  Phase 0 – Quick Area Detection (Parallel)  -----------------
-    def quick_detect_image(img, idx, prompt, model):
+    def quick_detect_image(img, idx, prompt_text, model):
         """Quick damage detection for a single image"""
         try:
-            quick_txt = call_openai_vision(prompt, [img], model, temperature=0.0)
-            if quick_txt.startswith("```"):
-                quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            quick_json = json.loads(quick_txt)
+            txt = call_openai_vision(prompt_text, [img], model, temperature=0.0)
+            if txt.startswith("```"):
+                txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            quick_json = json.loads(txt)
             print(f"   Image {idx+1}: quick detector success")
             # Attach source image path so we can map damaged areas -> images
             quick_json["__image_path"] = str(img)
@@ -684,18 +737,21 @@ def main():
     
     quick_prompt = PHASE0_QUICK_PROMPT.read_text()
     print("Phase 0: Parallel quick damaged-area detection…")
-    max_quick_images = min(8, len(images))  # safety cap to avoid excessive cost
+    # Use diverse, deduplicated subset to avoid redundant views and improve coverage
+    _dedup = dedupe_by_phash(images)
+    quick_candidates = select_diverse_top(_dedup, k=min(8, len(_dedup)))
+    max_quick_images = len(quick_candidates)
     
     # Process images in parallel
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         future_to_idx = {executor.submit(quick_detect_image, img, idx, quick_prompt, args.model): idx 
-                        for idx, img in enumerate(images[:max_quick_images])}
+                        for idx, img in enumerate(quick_candidates)}
         # Collect results by index to preserve original order deterministically
         quick_results = {}
         for future in concurrent.futures.as_completed(future_to_idx):
             idx = future_to_idx[future]
             try:
-                result = future.result(timeout=30)  # increased timeout for stability
+                result = future.result(timeout=30)
                 if result:
                     quick_results[idx] = result
             except Exception as e:
@@ -760,13 +816,13 @@ def main():
     # ----------------  Phase 1 – Area-specialist Enterprise Detection ----
     # Prompts are designed with complementary shards - A and B cover different parts
     area_prompt_map = {
-        "front end": [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],
-        "front":     [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt"],
-        "left side":  [PROMPTS_DIR / "detect_side_A.txt"],
-        "right side": [PROMPTS_DIR / "detect_side_B.txt"],
-        "side":       [PROMPTS_DIR / "detect_side_A.txt", PROMPTS_DIR / "detect_side_B.txt"],
-        "rear":       [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt"],
-        "rear end":   [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt"],
+        "front end": [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt", PHASE1_FRONT_ENTERPRISE_PROMPT],
+        "front":     [PROMPTS_DIR / "detect_front_A.txt", PROMPTS_DIR / "detect_front_B.txt", PHASE1_FRONT_ENTERPRISE_PROMPT],
+        "left side":  [PROMPTS_DIR / "detect_side_A.txt", PHASE1_SIDE_ENTERPRISE_PROMPT],
+        "right side": [PROMPTS_DIR / "detect_side_B.txt", PHASE1_SIDE_ENTERPRISE_PROMPT],
+        "side":       [PROMPTS_DIR / "detect_side_A.txt", PROMPTS_DIR / "detect_side_B.txt", PHASE1_SIDE_ENTERPRISE_PROMPT],
+        "rear":       [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt", PHASE1_REAR_ENTERPRISE_PROMPT],
+        "rear end":   [PROMPTS_DIR / "detect_rear_A.txt", PROMPTS_DIR / "detect_rear_B.txt", PHASE1_REAR_ENTERPRISE_PROMPT],
     }    
     
     # Remove duplicate areas to prevent running same prompt combinations twice
@@ -785,14 +841,35 @@ def main():
             task_id = f"{area}-{prompt_path.name}-temp{temp}"
             print(f"    Running {task_id}...")
             
-            txt = call_openai_vision(prompt_text, imgs_for_call, model, temperature=temp, max_images=4)
+            txt = call_openai_vision(prompt_text, imgs_for_call, model, temperature=temp, max_images=5)
             if txt.startswith("```"):
                 if "json" in txt.split("\n")[0]:
                     txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
                 else:
                     txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            
-            result = json.loads(txt)
+            # Robust JSON parse with fallback extraction/retry
+            try:
+                result = json.loads(txt)
+            except json.JSONDecodeError:
+                s = txt
+                l = s.find("{"); r = s.rfind("}")
+                parsed = None
+                if l != -1 and r != -1 and r > l:
+                    try:
+                        parsed = json.loads(s[l:r+1])
+                    except Exception:
+                        parsed = None
+                if parsed is None:
+                    # One more attempt asking for strict JSON only
+                    txt2 = call_openai_vision(prompt_text + "\nRespond with STRICTLY valid JSON only.", imgs_for_call, model, temperature=temp, max_images=5)
+                    if txt2.startswith("```"):
+                        if "json" in txt2.split("\n")[0]:
+                            txt2 = txt2.split("\n",1)[1].rsplit("```",1)[0].strip()
+                        else:
+                            txt2 = txt2.split("```",1)[1].rsplit("```",1)[0].strip()
+                    result = json.loads(txt2)
+                else:
+                    result = parsed
             combined = {
                 "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
                 "damaged_parts": result.get("damaged_parts", [])
@@ -827,10 +904,15 @@ def main():
         imgs_for_call = make_crops(area, images, areas_json)
         
         for prompt_path in prompt_paths:
-            for temp in [0.0]:  # Max determinism for consistency
+            # Slight ensemble to increase coverage without encouraging hallucinations
+            for temp in [0.0, 0.2]:
                 detection_tasks.append((area, prompt_path, temp, imgs_for_call))
-    
-    print(f"Phase 1: Running {len(detection_tasks)} area-specialist detection tasks in parallel...")
+    # Global enterprise sweep over diverse full frames (complements area shards)
+    global_imgs = select_diverse_top(dedupe_by_phash(images), k=min(5, len(images)))
+    for temp in [0.0, 0.2]:
+        detection_tasks.append(("global", PHASE1_ENTERPRISE_PROMPT, temp, global_imgs))
+
+    print(f"Phase 1: Running {len(detection_tasks)} area-specialist + enterprise detection tasks in parallel...")
     
     # Execute all tasks in parallel with optimal thread count
     max_workers = min(8, len(detection_tasks))  # Don't overwhelm OpenAI API
@@ -883,6 +965,55 @@ def main():
     except Exception as _e:
         pass
     print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
+
+    # Completeness pass – ask model to spot any missing parts given current list
+    if ENABLE_COMPLETENESS_PASS:
+        try:
+            before_keys = { _key_for_part(canonicalize_part(p)) for p in detected.get("damaged_parts", []) }
+            comp_base = PHASE1_COMPLETENESS_PROMPT.read_text()
+            comp_prompt = comp_base.replace("<CURRENT_PARTS_JSON>", json.dumps(detected.get("damaged_parts", [])))
+            # Build a rich image set: global diverse frames + a few area crops
+            comp_imgs = list(global_imgs)
+            for a in damaged_areas:
+                try:
+                    cimgs = make_crops(a, images, areas_json)
+                    comp_imgs.extend(cimgs[:2])
+                except Exception:
+                    pass
+            comp_imgs = dedupe_by_phash(comp_imgs)
+            completeness_runs = []
+            for temp in [0.0, 0.2]:
+                try:
+                    txt = call_openai_vision(comp_prompt, comp_imgs, args.model, temperature=temp, max_images=6)
+                    if txt.startswith("```"):
+                        if "json" in txt.split("\n")[0]:
+                            txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+                        else:
+                            txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+                    try:
+                        parsed = json.loads(txt)
+                    except json.JSONDecodeError:
+                        s = txt; l = s.find("{"); r = s.rfind("}")
+                        if l != -1 and r != -1 and r > l:
+                            parsed = json.loads(s[l:r+1])
+                        else:
+                            raise
+                    completeness_runs.append({
+                        "vehicle": detected.get("vehicle", {"make":"Unknown","model":"Unknown","year":0}),
+                        "damaged_parts": parsed.get("damaged_parts", [])
+                    })
+                except Exception as _e:
+                    print(f"Completeness pass temp={temp} failed: {_e}")
+            if completeness_runs:
+                runs2 = runs + completeness_runs
+                detected2 = union_parts(runs2)
+                after_keys = { _key_for_part(canonicalize_part(p)) for p in detected2.get("damaged_parts", []) }
+                added = after_keys - before_keys
+                if added:
+                    print(f"Completeness pass added {len(added)} new unique parts")
+                detected = detected2
+        except Exception as _e:
+            print(f"Completeness pass error: {_e}")
 
     # Accumulate into persistent superset to maximize unique parts across runs
     if PERSIST_MAX_UNION:

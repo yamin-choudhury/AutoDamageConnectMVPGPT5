@@ -142,31 +142,65 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
     console.log('damaged_parts value:', report?.damaged_parts);
   }, [report]);
 
-  // Fetch ALL document images so none are missing in the report
+  // Fetch only DAMAGED images by matching part.image to document_images.image_name
   useEffect(() => {
-    const fetchAllImages = async () => {
+    const fetchDamagedImages = async () => {
       try {
-        console.log('=== FETCHING ALL DOCUMENT IMAGES ===');
+        if (!report?.damaged_parts) {
+          setImages([]);
+          return;
+        }
+        const damagedNames = new Set(
+          report.damaged_parts
+            .map((p) => (p?.image || '').toString().trim().toLowerCase())
+            .filter((s) => !!s)
+        );
+        console.log('Damaged image names from report:', Array.from(damagedNames));
+
         const { data: imageData, error } = await supabase
           .from('document_images')
-          .select('image_url')
+          .select('image_url, image_name')
           .eq('document_id', documentId);
         if (error) {
           console.error('Error fetching document images:', error);
           setImages([]);
           return;
         }
-        const urls = (imageData || []).map((i: { image_url: string }) => i.image_url);
-        const uniqueUrls = Array.from(new Set(urls));
-        console.log('All image URLs for document:', uniqueUrls);
-        setImages(uniqueUrls);
+
+        const pickName = (url: string) => {
+          try {
+            const u = new URL(url);
+            const base = u.pathname.split('/').pop() || '';
+            return base.toLowerCase();
+          } catch {
+            const base = url.split('?')[0].split('/').pop() || '';
+            return base.toLowerCase();
+          }
+        };
+
+        const damagedUrls = (imageData || [])
+          .filter((row: { image_url: string; image_name?: string | null }) => {
+            const name = (row.image_name || '').toLowerCase();
+            const urlName = pickName(row.image_url);
+            return damagedNames.has(name) || damagedNames.has(urlName);
+          })
+          .map((row: { image_url: string }) => row.image_url);
+
+        if (damagedUrls.length > 0) {
+          setImages(Array.from(new Set(damagedUrls)));
+        } else {
+          // Safe fallback if names failed to match (should be rare)
+          console.warn('No damaged image matches found; falling back to all document images');
+          const allUrls = (imageData || []).map((row: { image_url: string }) => row.image_url);
+          setImages(Array.from(new Set(allUrls)));
+        }
       } catch (e) {
         console.error('Unexpected error fetching images:', e);
         setImages([]);
       }
     };
-    fetchAllImages();
-  }, [documentId]);
+    fetchDamagedImages();
+  }, [documentId, report?.damaged_parts]);
 
   const generatePDF = useCallback(async () => {
     if (!report) return;

@@ -786,7 +786,29 @@ def main():
     if desc_txt.startswith("```"):
         desc_txt = desc_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     desc_json = json.loads(desc_txt)
-    detected["damaged_parts"] = desc_json["damaged_parts"]
+    # Merge Phase 2 descriptions into the existing parts WITHOUT changing count/identity
+    try:
+        enriched = desc_json.get("damaged_parts", []) or []
+        # Build index from enriched by (name,location) normalized
+        def norm(s: str) -> str:
+            return (s or "").strip().lower()
+        idx = {}
+        for p in enriched:
+            k = (norm(p.get("name","")), norm(p.get("location","")))
+            if k not in idx:
+                idx[k] = p
+        for part in detected["damaged_parts"]:
+            key = (norm(part.get("name","")), norm(part.get("location","")))
+            add = idx.get(key)
+            if add:
+                # Copy descriptive fields only
+                for field in ("damage_type","severity","repair_method","description","notes"):
+                    val = add.get(field)
+                    if val not in (None, ""):
+                        part[field] = val
+    except Exception as _e:
+        # Fallback: keep original parts as-is
+        pass
 
     # Phase 3 – Plan parts -------------------------------------------------
     p3_base = PHASE3_PROMPT.read_text()
@@ -807,40 +829,21 @@ def main():
         summary_txt = summary_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     detected["summary"] = json.loads(summary_txt)
 
-    # FINAL DUPLICATE CLEANUP - catch any remaining duplicates with fuzzy matching
+    # FINAL DUPLICATE CLEANUP - keep list stable; only drop exact duplicates
     final_parts = []
-    seen_parts = []  # Use list to enable fuzzy comparison
+    seen_keys = set()
+    
+    def norm(s: str) -> str:
+        return (s or "").strip().lower()
     
     for part in detected["damaged_parts"]:
-        part_name = part.get("name", "").lower().strip()
-        location = part.get("location", "").lower().strip()
-        
-        # Check against all previously seen parts for fuzzy matches
-        is_duplicate = False
-        for seen_part in seen_parts:
-            seen_name = seen_part["name"]
-            seen_location = seen_part["location"]
-            
-            # Enhanced duplicate detection
-            if (part_name == seen_name or 
-                (part_name in seen_name or seen_name in part_name) and len(part_name) > 3 or
-                (location == seen_location and location and 
-                 part.get("category") == seen_part["category"] and
-                 any(keyword in part_name and keyword in seen_name 
-                     for keyword in ["fender", "bumper", "headlight", "grille"]))):
-                is_duplicate = True
-                print(f"❌ DUPLICATE REMOVED: '{part.get('name', 'Unknown')}' (matches '{seen_part['original_name']}')")
-                break
-        
-        if not is_duplicate:
-            final_parts.append(part)
-            seen_parts.append({
-                "name": part_name,
-                "location": location, 
-                "category": part.get("category", ""),
-                "original_name": part.get("name", "Unknown")
-            })
-            print(f"✅ Keeping: {part.get('name', 'Unknown')}")
+        key = (norm(part.get("name", "")), norm(part.get("location", "")), norm(part.get("category", "")))
+        if key in seen_keys:
+            print(f"❌ DUPLICATE REMOVED (exact): {part.get('name','Unknown')} @ {part.get('location','')} [{part.get('category','')}]")
+            continue
+        final_parts.append(part)
+        seen_keys.add(key)
+        print(f"✅ Keeping: {part.get('name', 'Unknown')}")
     
     detected["damaged_parts"] = final_parts
     print(f"Final cleanup: {len(final_parts)} unique parts remaining")

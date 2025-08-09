@@ -142,77 +142,31 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
     console.log('damaged_parts value:', report?.damaged_parts);
   }, [report]);
 
-  // Memoize image filenames to create stable dependency
-  const damageImageFiles = useMemo(() => {
-    if (!report?.damaged_parts) return [];
-    return [...new Set(
-      report.damaged_parts.map((part) => part.image).filter(Boolean)
-    )];
-  }, [report?.damaged_parts]);
-
-  // Fetch damage images when image filenames change
+  // Fetch ALL document images so none are missing in the report
   useEffect(() => {
-    const fetchDamageImages = async () => {
-      console.log('=== FETCHING DAMAGE IMAGES ===');
-      if (damageImageFiles.length === 0) {
-        console.log('No damage image files found');
-        setImages([]);
-        return;
-      }
-      
+    const fetchAllImages = async () => {
       try {
-        console.log('Damage image filenames:', damageImageFiles);
-        
-        // Fetch URLs for all images of this document
-        const { data: imageData } = await supabase
+        console.log('=== FETCHING ALL DOCUMENT IMAGES ===');
+        const { data: imageData, error } = await supabase
           .from('document_images')
           .select('image_url')
           .eq('document_id', documentId);
-        
-        console.log('All document images from DB:', imageData);
-        
-        if (imageData && imageData.length > 0) {
-          const filteredImageUrls: string[] = [];
-          
-          damageImageFiles.forEach((jsonImageName: string) => {
-            console.log('Looking for match for:', jsonImageName);
-            
-            // First try exact match
-            let matchedUrl = imageData.find((img: { image_url: string }) => 
-              img.image_url.includes(jsonImageName)
-            )?.image_url;
-            
-            // If no exact match, use position-based matching
-            if (!matchedUrl) {
-              const imageIndex = parseInt(jsonImageName.replace(/\D/g, '')) - 1;
-              if (imageIndex >= 0 && imageIndex < imageData.length) {
-                matchedUrl = imageData[imageIndex]?.image_url;
-                console.log(`Position-based match: ${jsonImageName} -> index ${imageIndex} -> ${matchedUrl}`);
-              }
-            }
-            
-            if (matchedUrl) {
-              filteredImageUrls.push(matchedUrl);
-              console.log('✅ Matched:', jsonImageName, '->', matchedUrl);
-            } else {
-              console.log('❌ No match found for:', jsonImageName);
-            }
-          });
-          
-          console.log('Final filtered damage image URLs:', filteredImageUrls);
-          setImages(filteredImageUrls);
-        } else {
-          console.log('No image data found in database');
+        if (error) {
+          console.error('Error fetching document images:', error);
           setImages([]);
+          return;
         }
-      } catch (error) {
-        console.error('Error fetching damage images:', error);
+        const urls = (imageData || []).map((i: { image_url: string }) => i.image_url);
+        const uniqueUrls = Array.from(new Set(urls));
+        console.log('All image URLs for document:', uniqueUrls);
+        setImages(uniqueUrls);
+      } catch (e) {
+        console.error('Unexpected error fetching images:', e);
         setImages([]);
       }
     };
-
-    fetchDamageImages();
-  }, [documentId, damageImageFiles]); // Stable dependency using memoized filenames
+    fetchAllImages();
+  }, [documentId]);
 
   const generatePDF = useCallback(async () => {
     if (!report) return;

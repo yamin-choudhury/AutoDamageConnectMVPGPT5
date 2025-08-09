@@ -275,12 +275,8 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
     if suspect_paths:
         sus_dedup = dedupe_by_phash(suspect_paths)
         base_imgs = select_diverse_top(sus_dedup, k=min(3, len(sus_dedup)))
-        # If we still have fewer than 3, top up from non-suspects
-        if len(base_imgs) < 3:
-            non_suspects = [p for p in images if p not in base_imgs]
-            non_dedup = dedupe_by_phash(non_suspects)
-            fill = select_diverse_top(non_dedup, k=min(3 - len(base_imgs), len(non_dedup)))
-            base_imgs.extend(fill)
+        # IMPORTANT: Do not top-up with non-suspect frames.
+        # Mixing in unrelated views (e.g., rear for front-end) causes part anchoring drift.
     else:
         # Fallback: 3 best diverse images overall
         deduped = dedupe_by_phash(images)
@@ -490,61 +486,99 @@ def main():
     if not images:
         sys.exit("No images in dir")
 
-    # ----------------  Phase -1 – Vehicle Identification (Parallel)  ----------------
-    def identify_vehicle_batch(image_batch, batch_name):
-        """Identify vehicle from a specific batch of images"""
+    # ----------------  Phase -1 – Vehicle Identification (Per-image voting)  ----------------
+    def identify_vehicle_image(img: Path) -> dict:
+        """Identify vehicle from a single image with deterministic, badge-aware output."""
         try:
-            print(f"Vehicle identification batch {batch_name}...")
-            id_txt = call_openai_vision(VEHICLE_ID_PROMPT.read_text(), image_batch, args.model, temperature=0.2, max_images=4)
+            prompt = VEHICLE_ID_PROMPT.read_text()
+            id_txt = call_openai_vision(prompt, [img], args.model, temperature=0.0, max_images=1)
             if id_txt.startswith("```"):
                 id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
             id_json = json.loads(id_txt)
-            result = id_json.get("vehicle", {})
-            print(f"Batch {batch_name} result: {result}")
+            veh = id_json.get("vehicle", {})
+            badge = id_json.get("badge_visible", id_json.get("badgeVisible", False))
+            conf = id_json.get("confidence", 0.0)
+            result = {
+                "make": veh.get("make", "Unknown"),
+                "model": veh.get("model", "Unknown"),
+                "year": veh.get("year", 0),
+                "badge_visible": bool(badge),
+                "confidence": float(conf) if isinstance(conf, (int, float)) else 0.0,
+                "_image": img.name,
+                "_path": str(img),
+            }
+            print(f"Vehicle ID from {img.name}: {result}")
             return result
         except Exception as e:
-            print(f"Vehicle-ID batch {batch_name} failed: {e}")
+            print(f"Vehicle-ID for {img.name} failed: {e}")
             return {}
-    
-    # Try multiple image combinations in parallel for better accuracy
-    vehicle_batches = [
-        (images[:2], "front-focus"),      # Focus on front images (likely to have badge)
-        (images[1:4], "mixed-angles"),   # Mixed angles
-        (images[:1], "single-best"),     # Just the first image
-    ]
-    
-    print("Running parallel vehicle identification...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
-        future_to_batch = {executor.submit(identify_vehicle_batch, batch, name): name 
-                          for batch, name in vehicle_batches[:min(3, len(images))]}
-        
-        vehicle_results = []
-        for future in concurrent.futures.as_completed(future_to_batch):
-            batch_name = future_to_batch[future]
+
+    # Choose up to 6 diverse images for voting
+    id_candidates = select_diverse_top(dedupe_by_phash(images), k=min(6, len(images)))
+    print(f"Vehicle ID on {len(id_candidates)} images: {[p.name for p in id_candidates]}")
+
+    votes = Counter()
+    field_votes = {"make": Counter(), "model": Counter(), "year": Counter()}
+    per_image_results = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(6, len(id_candidates))) as executor:
+        future_to_img = {executor.submit(identify_vehicle_image, img): img for img in id_candidates}
+        for future in concurrent.futures.as_completed(future_to_img):
+            img = future_to_img[future]
             try:
-                result = future.result(timeout=30)  # 30 second timeout per batch
-                if result:  # Only add non-empty results
-                    vehicle_results.append(result)
+                res = future.result(timeout=25)
+                if not res:
+                    continue
+                per_image_results.append(res)
+                sig = (res.get("make"), res.get("model"), res.get("year"))
+                weight = 1 + (1 if res.get("badge_visible") else 0) + (1 if (res.get("confidence", 0.0) >= 0.6) else 0)
+                votes[sig] += weight
+                for f in ("make","model","year"):
+                    v = res.get(f)
+                    if v not in (None, "", "Unknown", 0):
+                        field_votes[f][v] += weight
             except Exception as e:
-                print(f"Vehicle batch {batch_name} timed out or failed: {e}")
-    
-    # Vote on the best result using consensus
-    if vehicle_results:
-        print(f"Vehicle ID results from {len(vehicle_results)} batches:")
-        for i, result in enumerate(vehicle_results):
-            print(f"  Batch {i+1}: {result}")
-        
-        # Use voting for each field
-        vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
-        for field in ["make", "model", "year"]:
-            values = [r.get(field) for r in vehicle_results if r.get(field) and r.get(field) not in ("", "Unknown", 0)]
-            if values:
-                # Get most common value
-                most_common = Counter(values).most_common(1)[0][0]
-                vehicle[field] = most_common
-                print(f"Consensus {field}: {most_common} (from {values})")
-    
-    print(f"Final vehicle: {vehicle.get('make', 'Unknown')} {vehicle.get('model', 'Unknown')} {vehicle.get('year', 'Unknown')}")
+                print(f"Vehicle-ID image {img.name} timed out/failed: {e}")
+
+    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+    top = votes.most_common(2)
+    if top:
+        winner, w = top[0]
+        vehicle["make"], vehicle["model"], vehicle["year"] = winner
+        print(f"Vehicle consensus: {winner} (weight {w}) from {len(per_image_results)} images")
+        # Tie-break if close and same make but conflicting model (e.g., 108 vs 308)
+        if len(top) == 2:
+            (cand2, w2) = top[1]
+            if abs(w - w2) <= 2 and winner[0] == cand2[0] and winner[1] != cand2[1]:
+                tb_imgs = [Path(r.get("_path")) for r in per_image_results if r.get("badge_visible")][:2]
+                if not tb_imgs:
+                    tb_imgs = id_candidates[:2]
+                cmp_prompt = (
+                    "You are an expert vehicle identifier. Decide strictly between the two candidate models for the same make.\n"
+                    f"Make: {winner[0]}\n"
+                    f"Candidate A: {winner[1]}\n"
+                    f"Candidate B: {cand2[1]}\n"
+                    "Return JSON only: {\"model\": \"A\" or \"B\", \"confidence\": 0.0-1.0}.\n"
+                    "If uncertain, pick the best guess deterministically at temperature 0.\n"
+                )
+                try:
+                    tb_txt = call_openai_vision(cmp_prompt, tb_imgs, args.model, temperature=0.0, max_images=min(2, len(tb_imgs)))
+                    if tb_txt.startswith("```"):
+                        tb_txt = tb_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+                    tb = json.loads(tb_txt)
+                    pick = tb.get("model")
+                    if pick == "A":
+                        vehicle["model"] = winner[1]
+                    elif pick == "B":
+                        vehicle["model"] = cand2[1]
+                    print(f"Tie-break selected model: {vehicle['model']} (A={winner[1]}, B={cand2[1]})")
+                except Exception as e:
+                    print(f"Tie-break failed: {e}")
+    else:
+        # fallback by independent field votes
+        for f in ("make","model","year"):
+            if field_votes[f]:
+                vehicle[f] = field_votes[f].most_common(1)[0][0]
+    print(f"Final vehicle: {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
 
     # ----------------  Phase 0 – Quick Area Detection (Parallel)  -----------------
     def quick_detect_image(img, idx, prompt, model):
@@ -706,7 +740,7 @@ def main():
         imgs_for_call = make_crops(area, images, areas_json)
         
         for prompt_path in prompt_paths:
-            for temp in [0.1, 0.4, 0.8]:  # Multi-temperature ensemble
+            for temp in [0.0]:  # Max determinism for consistency
                 detection_tasks.append((area, prompt_path, temp, imgs_for_call))
     
     print(f"Phase 1: Running {len(detection_tasks)} area-specialist detection tasks in parallel...")

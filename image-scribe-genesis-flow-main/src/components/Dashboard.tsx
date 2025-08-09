@@ -112,6 +112,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
     const statusCheck = setInterval(checkDatabaseStatus, 3000);
 
     return () => {
+      try { clearInterval(statusCheck); } catch {}
       supabase.removeChannel(channel);
     };
   }, [selectedDocumentId]);

@@ -17,7 +17,7 @@ from io import BytesIO
 
 import openai
 from dotenv import load_dotenv
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random
 from tqdm import tqdm
 from copy import deepcopy
@@ -99,18 +99,10 @@ def call_openai_vision(
     """Call OpenAI Vision with a bounded set of downsized images.
     If max_images is set, sample a small subset of images to keep payload reasonable.
     """
-    # Sample best-guess diverse subset if needed: first, middle, last, second
+    # Select quality-diverse subset when capped
     if max_images is not None and len(images) > max_images:
-        idxs = [0, len(images)//2, len(images)-1, 1]
-        seen = set()
-        sampled: List[Path] = []
-        for i in idxs:
-            if 0 <= i < len(images) and i not in seen:
-                sampled.append(images[i])
-                seen.add(i)
-            if len(sampled) >= max_images:
-                break
-        use_images = sampled
+        deduped = dedupe_by_phash(images)
+        use_images = select_diverse_top(deduped, k=max_images)
     else:
         use_images = images
 
@@ -161,6 +153,107 @@ def call_openai_text(prompt: str, model: str = "gpt-4o", temperature: float = 0.
 
 
 # ----------------------- Image cropping utilities --------------------
+# ----------------------- Image quality & selection --------------------
+def _downsample_for_stats(img: Image.Image, size: int = 128) -> Image.Image:
+    """Small helper to make stats fast and stable."""
+    if max(img.size) > size:
+        img = img.copy()
+        img.thumbnail((size, size))
+    return img
+
+
+def score_image(p: Path) -> float:
+    """Compute a lightweight quality score [0..1] using PIL only.
+    Factors: sharpness (edges), exposure (avoid too dark/bright), glare (near-white ratio).
+    """
+    try:
+        img = Image.open(p).convert("RGB")
+        img_small = _downsample_for_stats(img)
+        gray = img_small.convert("L")
+        # Sharpness proxy: mean edge magnitude
+        edges = gray.filter(ImageFilter.FIND_EDGES)
+        edge_mean = ImageStat.Stat(edges).mean[0] / 255.0  # 0..1
+        # Exposure: penalize extremes via clipped pixel ratio
+        pixels = list(gray.getdata())
+        n = len(pixels)
+        if n == 0:
+            return 0.0
+        clipped_low = sum(1 for v in pixels if v <= 8) / n
+        clipped_high = sum(1 for v in pixels if v >= 247) / n
+        glare = clipped_high  # treat as glare
+        # Exposure midness: prefer mean around 110..150 range
+        mean_l = ImageStat.Stat(gray).mean[0]
+        mid_dev = abs(mean_l - 128) / 128.0  # 0 good .. ~1 bad
+        exposure_score = max(0.0, 1.0 - mid_dev)
+        # Combine
+        score = 0.6 * edge_mean + 0.3 * exposure_score + 0.1 * max(0.0, 1.0 - glare * 5)
+        return float(max(0.0, min(1.0, score)))
+    except Exception:
+        return 0.0
+
+
+def ahash(p: Path, hash_size: int = 8) -> int:
+    """Average hash (aHash) 8x8 -> 64-bit integer."""
+    try:
+        img = Image.open(p).convert("L")
+        img = img.resize((hash_size, hash_size), Image.BILINEAR)
+        pixels = list(img.getdata())
+        avg = sum(pixels) / len(pixels)
+        bits = 0
+        for i, v in enumerate(pixels):
+            bits |= (1 if v >= avg else 0) << i
+        return bits
+    except Exception:
+        return 0
+
+
+def hamming_distance(a: int, b: int) -> int:
+    x = a ^ b
+    # Count bits
+    cnt = 0
+    while x:
+        x &= x - 1
+        cnt += 1
+    return cnt
+
+
+def dedupe_by_phash(images: List[Path], dist_thresh: int = 5) -> List[Path]:
+    """Remove near-duplicates using aHash Hamming distance."""
+    selected: List[Path] = []
+    hashes: List[int] = []
+    for p in images:
+        h = ahash(p)
+        is_dup = any(hamming_distance(h, hh) <= dist_thresh for hh in hashes)
+        if not is_dup:
+            selected.append(p)
+            hashes.append(h)
+    return selected
+
+
+def select_diverse_top(images: List[Path], k: int, dist_thresh: int = 8) -> List[Path]:
+    """Select up to k images by quality with diversity via aHash distance."""
+    if k <= 0:
+        return []
+    # Score all, sort best-first
+    scored = [(score_image(p), p) for p in images]
+    scored.sort(key=lambda t: t[0], reverse=True)
+    selected: List[Path] = []
+    selected_hashes: List[int] = []
+    for _, p in scored:
+        h = ahash(p)
+        if all(hamming_distance(h, sh) > dist_thresh for sh in selected_hashes):
+            selected.append(p)
+            selected_hashes.append(h)
+        if len(selected) >= k:
+            break
+    # If not enough due to diversity constraint, fill with next best ignoring distance
+    if len(selected) < k:
+        for _, p in scored:
+            if p not in selected:
+                selected.append(p)
+            if len(selected) >= k:
+                break
+    return selected
 
 def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 1200) -> List[Path]:
     """Return a list of Path objects: [full_frame, roi_crop] (if bbox present).
@@ -169,8 +262,30 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
     out: List[Path] = []
     tmp_dir = Path("/tmp/damage_crops")
     tmp_dir.mkdir(exist_ok=True)
-    # Use first 3 images only to keep token count reasonable
-    base_imgs = images[:3]
+    # Prefer images that Phase 0 associated with this area
+    suspect_paths: List[Path] = []
+    for item in areas_json.get("damaged_areas", []):
+        if area.lower() in item.get("area", "").lower() and item.get("image_path"):
+            try:
+                suspect_paths.append(Path(item["image_path"]))
+            except Exception:
+                pass
+    # De-dup suspect set and select diverse top
+    base_imgs: List[Path] = []
+    if suspect_paths:
+        sus_dedup = dedupe_by_phash(suspect_paths)
+        base_imgs = select_diverse_top(sus_dedup, k=min(3, len(sus_dedup)))
+        # If we still have fewer than 3, top up from non-suspects
+        if len(base_imgs) < 3:
+            non_suspects = [p for p in images if p not in base_imgs]
+            non_dedup = dedupe_by_phash(non_suspects)
+            fill = select_diverse_top(non_dedup, k=min(3 - len(base_imgs), len(non_dedup)))
+            base_imgs.extend(fill)
+    else:
+        # Fallback: 3 best diverse images overall
+        deduped = dedupe_by_phash(images)
+        base_imgs = select_diverse_top(deduped, k=min(3, len(deduped)))
+    print(f"      Area '{area}': using base frames -> {[p.name for p in base_imgs]}")
     # Always include the downsized full frame
     for p in base_imgs:
         out.append(p)
@@ -248,7 +363,29 @@ def iou(box_a, box_b) -> float:
 
 
 def union_parts(runs: List[dict]) -> dict:
+    # Defensive: sanitize runs and their damaged_parts before merging
+    def sanitize_parts(parts):
+        safe: List[dict] = []
+        for item in parts or []:
+            if isinstance(item, dict):
+                safe.append(item)
+            elif isinstance(item, str):
+                name = item.strip().lstrip("-*•").strip()
+                if name:
+                    safe.append({
+                        "name": name,
+                        "severity": "minor",
+                        "damage_description": "",
+                    })
+            # else: ignore non-supported types
+        return safe
+
+    if not runs:
+        return {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_parts": []}
+
+    # Deepcopy first run and sanitize its parts
     merged = deepcopy(runs[0])
+    merged["damaged_parts"] = sanitize_parts(merged.get("damaged_parts", []))
     # merge vehicle metadata preferring non-Unknown values
     for k in ("make","model","year"):
         if merged.get("vehicle",{}).get(k,"Unknown") in ("", "Unknown"):
@@ -260,9 +397,14 @@ def union_parts(runs: List[dict]) -> dict:
     
     # Enterprise-grade intelligent duplicate merging
     for run in runs[1:]:
-        for cand in run["damaged_parts"]:
+        cand_list = sanitize_parts(run.get("damaged_parts", []))
+        for cand in cand_list:
             duplicate = False
-            for i, base in enumerate(merged["damaged_parts"]):
+            for i, base in enumerate(list(merged["damaged_parts"])):
+                if not isinstance(base, dict):
+                    # Coerce or skip unexpected base types
+                    base = {"name": str(base), "severity": "minor", "damage_description": ""}
+                    merged["damaged_parts"][i] = base
                 # Normalize part names for comparison
                 cand_name = cand.get("name", "").lower().strip()
                 base_name = base.get("name", "").lower().strip()
@@ -413,6 +555,8 @@ def main():
                 quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
             quick_json = json.loads(quick_txt)
             print(f"   Image {idx+1}: quick detector success")
+            # Attach source image path so we can map damaged areas -> images
+            quick_json["__image_path"] = str(img)
             return quick_json
         except Exception as e:
             print(f"   Image {idx+1}: quick detection failed – {e}")
@@ -477,7 +621,12 @@ def main():
         # Merge damaged areas from all quick runs
         damaged_areas_all = []
         for run in quick_runs:
-            damaged_areas_all.extend(run.get("damaged_areas", []))
+            src_img = run.get("__image_path")
+            for a in run.get("damaged_areas", []):
+                a = dict(a)
+                if src_img:
+                    a["image_path"] = src_img
+                damaged_areas_all.append(a)
         areas_json = {"vehicle": vehicle, "damaged_areas": damaged_areas_all}
 
 
@@ -527,6 +676,23 @@ def main():
                 "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
                 "damaged_parts": result.get("damaged_parts", [])
             }
+            # Attach a stable context image to each part; override unknown/invalid names
+            try:
+                base_frames = [p for p in imgs_for_call if "/tmp/damage_crops" not in str(p)]
+                context_img = base_frames[0] if base_frames else (imgs_for_call[0] if imgs_for_call else None)
+                allowed_names = {Path(p).name for p in base_frames} if base_frames else set()
+                if context_img is not None:
+                    for part in combined["damaged_parts"]:
+                        img_field = part.get("image")
+                        if (
+                            not img_field or not isinstance(img_field, str) or not img_field.strip()
+                            or (allowed_names and img_field not in allowed_names)
+                        ):
+                            chosen = Path(context_img)
+                            part["image"] = chosen.name
+                            part["image_path"] = str(chosen)
+            except Exception as _e:
+                pass
             print(f"    ✅ {task_id}: {len(combined['damaged_parts'])} parts")
             return combined
         except Exception as e:

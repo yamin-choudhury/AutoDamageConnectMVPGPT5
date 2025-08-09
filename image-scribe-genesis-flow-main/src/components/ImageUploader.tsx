@@ -51,14 +51,14 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
   };
 
   // uploads a single file to storage & inserts DB row
-  const uploadOne = async (img: UploadedImage) => {
-    if (!documentId) {
+  const uploadOne = async (img: UploadedImage, docId: string) => {
+    if (!docId) {
       toast({ title: "Save document first", variant: "destructive" });
       return false;
     }
 
     // Compose an object key inside the bucket, namespaced by document
-    const key = `${documentId}/${Date.now()}_${img.file.name}`;
+    const key = `${docId}/${Date.now()}_${img.file.name}`;
     
     // Upload the file to Supabase Storage (images bucket)
     const { error: uploadErr } = await supabase.storage
@@ -80,7 +80,7 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
 
     // Record the public URL in the Supabase document_images table
     const { error: dbErr } = await (supabase as any).from("document_images").insert({
-      document_id: documentId,
+      document_id: docId,
       image_url: publicUrl,
       image_name: img.file.name,
       file_size: img.file.size,
@@ -140,7 +140,7 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
       for (const img of imagesToUpload) {
         // optimistic 50% to show some movement
         setImages((prev) => prev.map((p) => (p.id === img.id ? { ...p, progress: 50 } : p)));
-        const ok = await uploadOne(img);
+        const ok = await uploadOne(img, docId);
         setImages((prev) => prev.map((p) => (p.id === img.id ? { ...p, progress: ok ? 100 : 0, uploaded: ok } : p)));
         if (ok) successCount++;
       }

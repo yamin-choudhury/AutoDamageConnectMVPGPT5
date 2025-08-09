@@ -53,6 +53,7 @@ PERSIST_MAX_UNION = os.getenv("PERSIST_MAX_UNION", "1") == "1"
 CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
 PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
 ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
+MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "1"))  # Raise to 2+ to enforce stricter consensus
 
 def get_candidate_boxes(img_path: Path):
     """Return empty list – YOLO fully removed."""
@@ -208,8 +209,9 @@ SEVERITY_PRIORITY_GLOBAL = {"severe": 3, "moderate": 2, "minor": 1}
 def _norm(s: str) -> str:
     return (s or "").strip().lower()
 
-def _key_for_part(p: dict) -> tuple[str, str, str]:
-    return (_norm(p.get("name", "")), _norm(p.get("location", "")), _norm(p.get("category", "")))
+def _key_for_part(p: dict) -> tuple[str, str]:
+    # Identity is based on (name, location). Category is advisory and should not split identical parts.
+    return (_norm(p.get("name", "")), _norm(p.get("location", "")))
 
 # ----------------------- Canonicalization helpers ---------------------
 def _canon_severity(s: str) -> str:
@@ -221,16 +223,21 @@ def _canon_severity(s: str) -> str:
     }
     return mapping.get(s, s if s in ("minor", "moderate", "severe") else "minor")
 
-def _canon_location(s: str) -> str:
+def _canon_location(s: str, name: Optional[str] = None) -> str:
     t = _norm(s).replace("-", " ")
     # Basic side synonyms
     t = t.replace("driver side", "left").replace("passenger side", "right")
     t = t.replace("near side", "left").replace("nearside", "left")
     t = t.replace("off side", "right").replace("offside", "right")
     t = t.replace("front end", "front").replace("rear end", "rear").replace("back", "rear")
-    # Compose compound forms
+    # Compose compound forms; include tokens inferred from the name to ensure consistency
     words = t.split()
     flags = set(words)
+    if name:
+        n = _norm(name).replace("-", " ")
+        for w in n.split():
+            if w in ("front", "rear", "left", "right"):
+                flags.add(w)
     order = ["front", "rear", "left", "right"]
     composed = " ".join([w for w in order if w in flags])
     return composed if composed else t
@@ -247,6 +254,16 @@ def _canon_name(s: str) -> str:
     for a, b in repl:
         if a in t:
             t = t.replace(a, b)
+    # Additional normalizations for common misspellings and variants
+    extra = [
+        ("licence", "license"),
+        ("number-plate", "license plate"),
+        ("numberplate", "license plate"),
+        ("grillee", "grille"),
+    ]
+    for a, b in extra:
+        if a in t:
+            t = t.replace(a, b)
     return t
 
 def _canon_category(s: str) -> str:
@@ -255,7 +272,7 @@ def _canon_category(s: str) -> str:
 def canonicalize_part(p: dict) -> dict:
     q = dict(p) if isinstance(p, dict) else {}
     q["name"] = _canon_name(q.get("name", ""))
-    q["location"] = _canon_location(q.get("location", ""))
+    q["location"] = _canon_location(q.get("location", ""), q.get("name", ""))
     q["category"] = _canon_category(q.get("category", ""))
     if q.get("severity") is not None:
         q["severity"] = _canon_severity(q.get("severity", ""))
@@ -290,7 +307,11 @@ def _load_superset(path: Path) -> tuple[dict[tuple, dict], int]:
             # Canonicalize legacy entries to unify keys
             part = canonicalize_part(part)
             key = _key_for_part(part)
-            m[key] = {"count": int(item.get("count", 0)), "part": part}
+            prev = m.get(key, {"count": 0, "part": {}})
+            # Merge counts and prefer better representation
+            prev["count"] = int(prev.get("count", 0)) + int(item.get("count", 0))
+            prev["part"] = _prefer_part(part, prev.get("part", {}))
+            m[key] = prev
         return m, int(data.get("run_count", 0))
     except Exception:
         return {}, 0
@@ -298,7 +319,9 @@ def _load_superset(path: Path) -> tuple[dict[tuple, dict], int]:
 def _save_superset(path: Path, image_fingerprint: str, superset_map: dict[tuple, dict], run_count: int) -> None:
     items = []
     for key, entry in superset_map.items():
-        name, location, category = key
+        # Key is (name, location) post-canonicalization; category is advisory and taken from the stored part
+        name, location = key
+        category = _norm(entry.get("part", {}).get("category", ""))
         items.append({
             "name": name,
             "location": location,
@@ -331,8 +354,8 @@ def _prefer_part(new: dict, base: dict) -> dict:
     if len(new_desc) < len(base_desc):
         return base
     # Deterministic lexicographic fallback
-    new_key = (_norm(new.get("name", "")), _norm(new.get("location", "")), _norm(new.get("category", "")), _norm(new_desc))
-    base_key = (_norm(base.get("name", "")), _norm(base.get("location", "")), _norm(base.get("category", "")), _norm(base_desc))
+    new_key = (_norm(new.get("name", "")), _norm(new.get("location", "")), _norm(new_desc))
+    base_key = (_norm(base.get("name", "")), _norm(base.get("location", "")), _norm(base_desc))
     return new if new_key < base_key else base
 
 
@@ -532,13 +555,15 @@ def union_parts(runs: List[dict]) -> dict:
     counts: Counter = Counter()
 
     for run in runs:
+        seen_in_run: set[tuple] = set()
         for cand in sanitize_parts(run.get("damaged_parts", [])):
             key = (
                 norm(cand.get("name", "")),
                 norm(cand.get("location", "")),
-                norm(cand.get("category", "")),
             )
-            counts[key] += 1
+            if key not in seen_in_run:
+                counts[key] += 1
+                seen_in_run.add(key)
             if key not in agg:
                 agg[key] = cand
                 continue
@@ -556,8 +581,8 @@ def union_parts(runs: List[dict]) -> dict:
                 or (
                     cand_sev == base_sev and len(cand_desc) == len(base_desc)
                     and (
-                        (norm(cand.get("name","")), norm(cand.get("location","")), norm(cand.get("category","")), norm(cand_desc))
-                        < (norm(base.get("name","")), norm(base.get("location","")), norm(base.get("category","")), norm(base_desc))
+                        (norm(cand.get("name","")), norm(cand.get("location","")), norm(cand_desc))
+                        < (norm(base.get("name","")), norm(base.get("location","")), norm(base_desc))
                     )
                 )
             ):
@@ -571,10 +596,16 @@ def union_parts(runs: List[dict]) -> dict:
     for key, part in agg.items():
         part["_votes"] = counts[key]
         parts.append(part)
+    # Optional: filter by minimum votes to reduce single-run hallucinations
+    if MIN_VOTES_PER_PART > 1:
+        before = len(parts)
+        parts = [p for p in parts if int(p.get("_votes", 0)) >= MIN_VOTES_PER_PART]
+        print(f"Applied MIN_VOTES_PER_PART={MIN_VOTES_PER_PART}: {before}->{len(parts)} parts")
     parts.sort(key=lambda p: (
         -p.get("_votes", 0),
         -severity_priority.get(p.get("severity", "minor"), 1),
         norm(p.get("name", "")),
+        norm(p.get("location", "")),
     ))
 
     # No cap: keep all distinct parts (dynamic length)
@@ -1047,31 +1078,48 @@ def main():
     desc_json = json.loads(desc_txt)
     # Merge Phase 2 descriptions into existing parts; also append any truly new parts from Phase 2
     try:
-        enriched = desc_json.get("damaged_parts", []) or []
-        # Build index from enriched by (name,location) normalized
+        enriched_raw = desc_json.get("damaged_parts", []) or []
+        # Canonicalize enriched parts and index by (name, location)
         def norm(s: str) -> str:
             return (s or "").strip().lower()
-        idx = {}
-        for p in enriched:
-            k = (norm(p.get("name","")), norm(p.get("location","")))
+        idx: dict[tuple, dict] = {}
+        for p in enriched_raw:
+            p = canonicalize_part(p)
+            k = (_norm(p.get("name","")), _norm(p.get("location","")))
             if k not in idx:
                 idx[k] = p
+            else:
+                # Prefer better representation across duplicates from Phase 2
+                idx[k] = _prefer_part(p, idx[k])
         existing_keys = set()
         for part in detected["damaged_parts"]:
-            key = (norm(part.get("name","")), norm(part.get("location","")), norm(part.get("category","")))
+            # Ensure canonical
+            cp = canonicalize_part(part)
+            part.update(cp)
+            key = (_norm(part.get("name","")), _norm(part.get("location","")))
             existing_keys.add(key)
-            add = idx.get((key[0], key[1]))
+            add = idx.get(key)
             if add:
-                # Copy descriptive fields only
-                for field in ("damage_type","severity","repair_method","description","notes"):
-                    val = add.get(field)
-                    if val not in (None, ""):
-                        part[field] = val
+                # Upgrade severity only if higher; description/notes if longer
+                # Severity
+                cur_s = SEVERITY_PRIORITY_GLOBAL.get(part.get("severity","minor"), 1)
+                add_s = SEVERITY_PRIORITY_GLOBAL.get(add.get("severity","minor"), 1)
+                if add_s > cur_s:
+                    part["severity"] = add.get("severity")
+                # Descriptive fields
+                for field in ("description","notes"):
+                    cur = str(part.get(field, ""))
+                    new = str(add.get(field, ""))
+                    if len(new) > len(cur):
+                        part[field] = new
+                # Other fields if present and empty
+                for field in ("damage_type","repair_method"):
+                    if part.get(field) in (None, "") and add.get(field) not in (None, ""):
+                        part[field] = add.get(field)
         # Optionally append truly new parts discovered in Phase 2 (guarded by env)
         if PHASE2_ALLOW_NEW_PARTS:
-            for p in enriched:
-                key = (norm(p.get("name","")), norm(p.get("location","")), norm(p.get("category","")))
-                if key and key not in existing_keys:
+            for k, p in idx.items():
+                if k not in existing_keys:
                     detected["damaged_parts"].append(p)
     except Exception as _e:
         # Fallback: keep original parts as-is
@@ -1104,9 +1152,9 @@ def main():
         return (s or "").strip().lower()
     
     for part in detected["damaged_parts"]:
-        key = (norm(part.get("name", "")), norm(part.get("location", "")), norm(part.get("category", "")))
+        key = (norm(part.get("name", "")), norm(part.get("location", "")))
         if key in seen_keys:
-            print(f"❌ DUPLICATE REMOVED (exact): {part.get('name','Unknown')} @ {part.get('location','')} [{part.get('category','')}]")
+            print(f"❌ DUPLICATE REMOVED (exact): {part.get('name','Unknown')} @ {part.get('location','')}")
             continue
         final_parts.append(part)
         seen_keys.add(key)

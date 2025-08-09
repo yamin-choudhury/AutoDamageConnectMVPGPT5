@@ -47,6 +47,7 @@ OPENAI_MAX_RETRIES = int(os.getenv("OPENAI_MAX_RETRIES", "3"))
 OPENAI_BACKOFF_BASE = float(os.getenv("OPENAI_BACKOFF_BASE", "0.5"))  # seconds
 OPENAI_CONCURRENCY = int(os.getenv("OPENAI_CONCURRENCY", "4"))
 _openai_sem = threading.Semaphore(OPENAI_CONCURRENCY)
+MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "5"))  # 0 = no cap
 
 def get_candidate_boxes(img_path: Path):
     """Return empty list – YOLO disabled."""
@@ -359,7 +360,7 @@ def iou(box_a, box_b) -> float:
 
 
 def union_parts(runs: List[dict]) -> dict:
-    # Defensive: sanitize runs and their damaged_parts before merging
+    # Defensive: sanitize parts
     def sanitize_parts(parts):
         safe: List[dict] = []
         for item in parts or []:
@@ -368,107 +369,73 @@ def union_parts(runs: List[dict]) -> dict:
             elif isinstance(item, str):
                 name = item.strip().lstrip("-*•").strip()
                 if name:
-                    safe.append({
-                        "name": name,
-                        "severity": "minor",
-                        "damage_description": "",
-                    })
-            # else: ignore non-supported types
+                    safe.append({"name": name, "severity": "minor", "damage_description": ""})
         return safe
 
     if not runs:
         return {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_parts": []}
 
-    # Deepcopy first run and sanitize its parts
-    merged = deepcopy(runs[0])
-    merged["damaged_parts"] = sanitize_parts(merged.get("damaged_parts", []))
-    # merge vehicle metadata preferring non-Unknown values
-    for k in ("make","model","year"):
-        if merged.get("vehicle",{}).get(k,"Unknown") in ("", "Unknown"):
-            for run in runs[1:]:
-                val = run.get("vehicle",{}).get(k,"")
-                if val and val.lower() != "unknown":
-                    merged.setdefault("vehicle",{})[k]=val
-                    break
-    
-    # Enterprise-grade intelligent duplicate merging
-    for run in runs[1:]:
-        cand_list = sanitize_parts(run.get("damaged_parts", []))
-        for cand in cand_list:
-            duplicate = False
-            for i, base in enumerate(list(merged["damaged_parts"])):
-                if not isinstance(base, dict):
-                    # Coerce or skip unexpected base types
-                    base = {"name": str(base), "severity": "minor", "damage_description": ""}
-                    merged["damaged_parts"][i] = base
-                # Normalize part names for comparison
-                cand_name = cand.get("name", "").lower().strip()
-                base_name = base.get("name", "").lower().strip()
-                cand_location = cand.get("location", "").lower().strip()
-                base_location = base.get("location", "").lower().strip()
-                
-                # ENHANCED DUPLICATE DETECTION:
-                # 1. Exact name match
-                # 2. Fuzzy name match (e.g., "Front Bumper Cover" vs "Front Bumper")
-                # 3. Same location + similar category
-                
-                is_duplicate = False
-                
-                # Exact match
-                if cand_name == base_name:
-                    is_duplicate = True
-                # Fuzzy match - one name contains the other
-                elif (cand_name in base_name or base_name in cand_name) and len(cand_name) > 3 and len(base_name) > 3:
-                    is_duplicate = True
-                # Location + category match (for parts like "Left Front Fender" vs "Left Fender")
-                elif (cand_location == base_location and cand_location and 
-                      cand.get("category") == base.get("category") and
-                      ("fender" in cand_name and "fender" in base_name or
-                       "bumper" in cand_name and "bumper" in base_name or
-                       "headlight" in cand_name and "headlight" in base_name)):
-                    is_duplicate = True
-                
-                if is_duplicate:
-                    
-                    # ENTERPRISE MERGING LOGIC:
-                    # 1. Severity hierarchy: severe > moderate > minor
-                    # 2. More detailed descriptions preferred
-                    # 3. Better bounding box coordinates preferred
-                    
-                    cand_severity = cand.get("severity", "minor")
-                    base_severity = base.get("severity", "minor")
-                    severity_priority = {"severe": 3, "moderate": 2, "minor": 1}
-                    
-                    cand_desc_length = len(cand.get("damage_description", ""))
-                    base_desc_length = len(base.get("damage_description", ""))
-                    
-                    should_upgrade = False
-                    upgrade_reason = ""
-                    
-                    # Check if candidate is better
-                    if severity_priority.get(cand_severity, 1) > severity_priority.get(base_severity, 1):
-                        should_upgrade = True
-                        upgrade_reason = f"severity upgrade ({base_severity} → {cand_severity})"
-                    elif (severity_priority.get(cand_severity, 1) == severity_priority.get(base_severity, 1) and 
-                          cand_desc_length > base_desc_length):
-                        should_upgrade = True
-                        upgrade_reason = "more detailed description"
-                    
-                    if should_upgrade:
-                        merged["damaged_parts"][i] = cand
-                        print(f"Upgraded {cand.get('name', 'Unknown')}: {upgrade_reason}")
-                    else:
-                        print(f"Kept existing {base.get('name', 'Unknown')} detection (better quality)")
-                    
-                    duplicate = True
-                    break
-                    
-            if not duplicate:
-                merged["damaged_parts"].append(cand)
-                print(f"Added new part: {cand.get('name', 'Unknown')} ({cand.get('severity', 'unknown')} at {cand.get('location', 'unknown')})")
-    
-    print(f"Final merged parts: {[p.get('name', 'Unknown') for p in merged['damaged_parts']]}")
-    return merged
+    # Vehicle merge preferring non-Unknown values across runs
+    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+    for k in ("make", "model", "year"):
+        for run in runs:
+            val = run.get("vehicle", {}).get(k)
+            if val not in (None, "", "Unknown", 0):
+                vehicle[k] = val
+                break
+
+    # Votes-based aggregation of parts across all runs
+    def norm(s: str) -> str:
+        return (s or "").strip().lower()
+    severity_priority = {"severe": 3, "moderate": 2, "minor": 1}
+    agg: dict[tuple, dict] = {}
+    counts: Counter = Counter()
+
+    for run in runs:
+        for cand in sanitize_parts(run.get("damaged_parts", [])):
+            key = (
+                norm(cand.get("name", "")),
+                norm(cand.get("location", "")),
+                norm(cand.get("category", "")),
+            )
+            counts[key] += 1
+            if key not in agg:
+                agg[key] = cand
+                continue
+            base = agg[key]
+            # Upgrade criteria: higher severity, longer description/notes
+            cand_sev = severity_priority.get(cand.get("severity", "minor"), 1)
+            base_sev = severity_priority.get(base.get("severity", "minor"), 1)
+            if (
+                cand_sev > base_sev
+                or (
+                    cand_sev == base_sev
+                    and (
+                        len(str(cand.get("description", cand.get("damage_description", ""))))
+                        > len(str(base.get("description", base.get("damage_description", ""))))
+                    )
+                )
+            ):
+                # Preserve existing image if missing on candidate
+                if not cand.get("image") and base.get("image"):
+                    cand["image"] = base["image"]
+                agg[key] = cand
+
+    # Convert to list sorted by votes, then severity, then name for determinism
+    parts = []
+    for key, part in agg.items():
+        part["_votes"] = counts[key]
+        parts.append(part)
+    parts.sort(key=lambda p: (
+        -p.get("_votes", 0),
+        -severity_priority.get(p.get("severity", "minor"), 1),
+        norm(p.get("name", "")),
+    ))
+
+    # No cap: keep all distinct parts (dynamic length)
+
+    print(f"Final merged parts (votes-first): {[p.get('name','Unknown') for p in parts]}")
+    return {"vehicle": vehicle, "damaged_parts": parts}
 
 # ----------------------------------------------------------------------
 
@@ -786,7 +753,7 @@ def main():
     if desc_txt.startswith("```"):
         desc_txt = desc_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     desc_json = json.loads(desc_txt)
-    # Merge Phase 2 descriptions into the existing parts WITHOUT changing count/identity
+    # Merge Phase 2 descriptions into existing parts; also append any truly new parts from Phase 2
     try:
         enriched = desc_json.get("damaged_parts", []) or []
         # Build index from enriched by (name,location) normalized
@@ -797,15 +764,22 @@ def main():
             k = (norm(p.get("name","")), norm(p.get("location","")))
             if k not in idx:
                 idx[k] = p
+        existing_keys = set()
         for part in detected["damaged_parts"]:
-            key = (norm(part.get("name","")), norm(part.get("location","")))
-            add = idx.get(key)
+            key = (norm(part.get("name","")), norm(part.get("location","")), norm(part.get("category","")))
+            existing_keys.add(key)
+            add = idx.get((key[0], key[1]))
             if add:
                 # Copy descriptive fields only
                 for field in ("damage_type","severity","repair_method","description","notes"):
                     val = add.get(field)
                     if val not in (None, ""):
                         part[field] = val
+        # Append truly new parts present in Phase 2 output (rare, but keep dynamic)
+        for p in enriched:
+            key = (norm(p.get("name","")), norm(p.get("location","")), norm(p.get("category","")))
+            if key and key not in existing_keys:
+                detected["damaged_parts"].append(p)
     except Exception as _e:
         # Fallback: keep original parts as-is
         pass

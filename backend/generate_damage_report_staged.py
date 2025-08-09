@@ -536,6 +536,10 @@ def main():
     ap.add_argument("--images_dir", required=True)
     ap.add_argument("--out", default="damage_report.json")
     ap.add_argument("--model", default="gpt-4o")
+    # Optional user-provided vehicle data (CLI override)
+    ap.add_argument("--vehicle_make")
+    ap.add_argument("--vehicle_model")
+    ap.add_argument("--vehicle_year")
     args = ap.parse_args()
 
     # load API key from .env if present
@@ -646,6 +650,21 @@ def main():
             if field_votes[f]:
                 vehicle[f] = field_votes[f].most_common(1)[0][0]
     print(f"Final vehicle: {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
+    # Apply CLI overrides if provided
+    try:
+        if getattr(args, "vehicle_make", None) or getattr(args, "vehicle_model", None) or getattr(args, "vehicle_year", None):
+            if getattr(args, "vehicle_make", None):
+                vehicle["make"] = args.vehicle_make
+            if getattr(args, "vehicle_model", None):
+                vehicle["model"] = args.vehicle_model
+            if getattr(args, "vehicle_year", None):
+                try:
+                    vehicle["year"] = int(str(args.vehicle_year).strip())
+                except Exception:
+                    pass
+            print(f"Vehicle overridden from CLI: {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
+    except Exception as _e:
+        pass
 
     # ----------------  Phase 0 – Quick Area Detection (Parallel)  -----------------
     def quick_detect_image(img, idx, prompt, model):
@@ -849,6 +868,20 @@ def main():
             val = quick_vehicle.get(k)
             if val not in (None, "", "Unknown", 0):
                 detected["vehicle"][k] = val
+    # Ensure CLI vehicle overrides take final precedence if provided
+    try:
+        if getattr(args, "vehicle_make", None) or getattr(args, "vehicle_model", None) or getattr(args, "vehicle_year", None):
+            if getattr(args, "vehicle_make", None):
+                detected["vehicle"]["make"] = args.vehicle_make
+            if getattr(args, "vehicle_model", None):
+                detected["vehicle"]["model"] = args.vehicle_model
+            if getattr(args, "vehicle_year", None):
+                try:
+                    detected["vehicle"]["year"] = int(str(args.vehicle_year).strip())
+                except Exception:
+                    pass
+    except Exception as _e:
+        pass
     print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
 
     # Accumulate into persistent superset to maximize unique parts across runs

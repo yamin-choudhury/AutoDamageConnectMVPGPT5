@@ -152,11 +152,28 @@ async def generate_report(payload: GeneratePayload):
             raise RuntimeError("generate_damage_report_staged.py not found in expected locations")
         try:
             print(f"Starting damage report generation with script: {gen_script}")
-            run_subprocess([
+            # Build command with optional vehicle args from payload
+            cmd = [
                 "python", str(gen_script),
                 "--images_dir", str(tmp_dir),
                 "--out", str(out_json),
-            ])
+            ]
+            # Support both top-level fields and nested document.vehicle
+            veh_doc = (doc.get("vehicle") or {}) if isinstance(doc, dict) else {}
+            vehicle_make = doc.get("make") if isinstance(doc, dict) else None
+            vehicle_model = doc.get("model") if isinstance(doc, dict) else None
+            vehicle_year = doc.get("year") if isinstance(doc, dict) else None
+            vehicle_make = vehicle_make or veh_doc.get("make")
+            vehicle_model = vehicle_model or veh_doc.get("model")
+            vehicle_year = vehicle_year or veh_doc.get("year")
+            if vehicle_make not in (None, ""):
+                cmd += ["--vehicle_make", str(vehicle_make)]
+            if vehicle_model not in (None, ""):
+                cmd += ["--vehicle_model", str(vehicle_model)]
+            if vehicle_year not in (None, "", 0):
+                cmd += ["--vehicle_year", str(vehicle_year)]
+            print(f"Generator command: {' '.join(cmd)}")
+            run_subprocess(cmd)
             print("Damage report generation completed")
         except Exception as e:
             print(f"Damage report generation failed: {e}")
@@ -175,49 +192,8 @@ async def generate_report(payload: GeneratePayload):
             print(f"Failed to read JSON: {e}")
             raise HTTPException(status_code=500, detail=f"Failed to read generated JSON: {str(e)}")
         
-        # Apply user-provided vehicle overrides from DB (make/model/year) if present
-        try:
-            # Fetch the latest vehicle fields from documents table using service role key
-            async with httpx.AsyncClient(timeout=30) as client:
-                resp = await client.get(
-                    f"{SUPABASE_URL}/documents",
-                    params={
-                        "id": f"eq.{doc_id}",
-                        "select": "make,model,year,vin,registration_plate,trim_body_style",
-                    },
-                    headers={
-                        "apikey": SUPABASE_SERVICE_ROLE_KEY,
-                        "Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}",
-                    },
-                )
-            if resp.status_code == 200:
-                rows = resp.json()
-                if isinstance(rows, list) and rows:
-                    row = rows[0] or {}
-                    override = {}
-                    for k in ("make", "model", "year"):
-                        v = row.get(k)
-                        if v not in (None, "", 0):
-                            override[k] = v
-                    if override:
-                        veh = json_content.get("vehicle") or {}
-                        # Update provided fields only; keep others from AI if overrides are partial
-                        for k, v in override.items():
-                            veh[k] = v
-                        # Coerce year to int when possible
-                        if "year" in veh:
-                            try:
-                                veh["year"] = int(veh["year"]) if isinstance(veh["year"], str) else veh["year"]
-                            except Exception:
-                                pass
-                        json_content["vehicle"] = veh
-                        # Persist updated JSON so uploads reflect overrides
-                        out_json.write_text(json.dumps(json_content, indent=2), encoding="utf-8")
-                        print(f"Applied vehicle overrides from DB for document {doc_id}: {override}")
-            else:
-                print(f"Failed to fetch document overrides: {resp.status_code} {resp.text}")
-        except Exception as e:
-            print(f"Vehicle override fetch/apply failed: {e}")
+        # Vehicle info now flows via CLI args directly into the staged generator.
+        # No post-run DB override is applied here.
         
         html_content = (
             "<html><head><meta charset='utf-8'><title>Damage Report</title>"

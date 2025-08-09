@@ -19,6 +19,7 @@ import openai
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random
+import hashlib
 from tqdm import tqdm
 from copy import deepcopy
 
@@ -48,6 +49,10 @@ OPENAI_BACKOFF_BASE = float(os.getenv("OPENAI_BACKOFF_BASE", "0.5"))  # seconds
 OPENAI_CONCURRENCY = int(os.getenv("OPENAI_CONCURRENCY", "4"))
 _openai_sem = threading.Semaphore(OPENAI_CONCURRENCY)
 MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "5"))  # 0 = no cap
+PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "0") == "1"
+PERSIST_MAX_UNION = os.getenv("PERSIST_MAX_UNION", "1") == "1"
+CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
+PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
 
 def get_candidate_boxes(img_path: Path):
     """Return empty list – YOLO disabled."""
@@ -216,6 +221,88 @@ def hamming_distance(a: int, b: int) -> int:
         x &= x - 1
         cnt += 1
     return cnt
+
+
+# ----------------------- Persistent superset helpers --------------------
+SEVERITY_PRIORITY_GLOBAL = {"severe": 3, "moderate": 2, "minor": 1}
+
+def _norm(s: str) -> str:
+    return (s or "").strip().lower()
+
+def _key_for_part(p: dict) -> tuple[str, str, str]:
+    return (_norm(p.get("name", "")), _norm(p.get("location", "")), _norm(p.get("category", "")))
+
+def _fingerprint_images(images: List[Path]) -> str:
+    """Stable fingerprint of the image set using names and sizes only (no content read)."""
+    m = hashlib.sha256()
+    for p in sorted(images, key=lambda x: x.name):
+        try:
+            size = p.stat().st_size
+        except Exception:
+            size = 0
+        m.update(p.name.encode())
+        m.update(str(size).encode())
+    return m.hexdigest()
+
+def _load_superset(path: Path) -> tuple[dict[tuple, dict], int]:
+    """Return (map, run_count). Map: key(tuple)-> {"count": int, "part": dict}"""
+    try:
+        if not path.exists():
+            return {}, 0
+        data = json.loads(path.read_text())
+        parts = data.get("parts", []) or []
+        m: dict[tuple, dict] = {}
+        for item in parts:
+            part = item.get("part") or {
+                "name": item.get("name", ""),
+                "location": item.get("location", ""),
+                "category": item.get("category", ""),
+            }
+            key = _key_for_part(part)
+            m[key] = {"count": int(item.get("count", 0)), "part": part}
+        return m, int(data.get("run_count", 0))
+    except Exception:
+        return {}, 0
+
+def _save_superset(path: Path, image_fingerprint: str, superset_map: dict[tuple, dict], run_count: int) -> None:
+    items = []
+    for key, entry in superset_map.items():
+        name, location, category = key
+        items.append({
+            "name": name,
+            "location": location,
+            "category": category,
+            "count": int(entry.get("count", 0)),
+            "part": entry.get("part", {}),
+        })
+    out = {
+        "fingerprint": image_fingerprint,
+        "run_count": run_count,
+        "parts": items,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, indent=2))
+
+def _prefer_part(new: dict, base: dict) -> dict:
+    """Deterministic preference: higher severity, longer description, then lexicographic tiebreaker."""
+    if not base:
+        return new
+    ns = SEVERITY_PRIORITY_GLOBAL.get(new.get("severity", "minor"), 1)
+    bs = SEVERITY_PRIORITY_GLOBAL.get(base.get("severity", "minor"), 1)
+    new_desc = str(new.get("description", new.get("damage_description", "")))
+    base_desc = str(base.get("description", base.get("damage_description", "")))
+    if ns > bs:
+        return new
+    if ns < bs:
+        return base
+    if len(new_desc) > len(base_desc):
+        return new
+    if len(new_desc) < len(base_desc):
+        return base
+    # Deterministic lexicographic fallback
+    new_key = (_norm(new.get("name", "")), _norm(new.get("location", "")), _norm(new.get("category", "")), _norm(new_desc))
+    base_key = (_norm(base.get("name", "")), _norm(base.get("location", "")), _norm(base.get("category", "")), _norm(base_desc))
+    return new if new_key < base_key else base
 
 
 def dedupe_by_phash(images: List[Path], dist_thresh: int = 5) -> List[Path]:
@@ -406,13 +493,18 @@ def union_parts(runs: List[dict]) -> dict:
             # Upgrade criteria: higher severity, longer description/notes
             cand_sev = severity_priority.get(cand.get("severity", "minor"), 1)
             base_sev = severity_priority.get(base.get("severity", "minor"), 1)
+            cand_desc = str(cand.get("description", cand.get("damage_description", "")))
+            base_desc = str(base.get("description", base.get("damage_description", "")))
             if (
                 cand_sev > base_sev
                 or (
-                    cand_sev == base_sev
+                    cand_sev == base_sev and len(cand_desc) > len(base_desc)
+                )
+                or (
+                    cand_sev == base_sev and len(cand_desc) == len(base_desc)
                     and (
-                        len(str(cand.get("description", cand.get("damage_description", ""))))
-                        > len(str(base.get("description", base.get("damage_description", ""))))
+                        (norm(cand.get("name","")), norm(cand.get("location","")), norm(cand.get("category","")), norm(cand_desc))
+                        < (norm(base.get("name","")), norm(base.get("location","")), norm(base.get("category","")), norm(base_desc))
                     )
                 )
             ):
@@ -452,6 +544,14 @@ def main():
     images = sorted(Path(args.images_dir).glob("*.jp*g"))
     if not images:
         sys.exit("No images in dir")
+    image_fingerprint = _fingerprint_images(images)
+    print(f"Image set fingerprint: {image_fingerprint[:12]}… ({len(images)} files)")
+    superset_map: dict[tuple, dict] = {}
+    superset_runs = 0
+    superset_path = CACHE_SUPERSET_DIR / f"{image_fingerprint}.json"
+    if PERSIST_MAX_UNION:
+        superset_map, superset_runs = _load_superset(superset_path)
+        print(f"Loaded superset with {len(superset_map)} parts across {superset_runs} runs")
 
     # ----------------  Phase -1 – Vehicle Identification (Per-image voting)  ----------------
     def identify_vehicle_image(img: Path) -> dict:
@@ -551,7 +651,7 @@ def main():
     def quick_detect_image(img, idx, prompt, model):
         """Quick damage detection for a single image"""
         try:
-            quick_txt = call_openai_vision(prompt, [img], model, temperature=0.3)
+            quick_txt = call_openai_vision(prompt, [img], model, temperature=0.0)
             if quick_txt.startswith("```"):
                 quick_txt = quick_txt.split("```",1)[1].rsplit("```",1)[0].strip()
             quick_json = json.loads(quick_txt)
@@ -571,22 +671,23 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         future_to_idx = {executor.submit(quick_detect_image, img, idx, quick_prompt, args.model): idx 
                         for idx, img in enumerate(images[:max_quick_images])}
-        
-        quick_runs = []
+        # Collect results by index to preserve original order deterministically
+        quick_results = {}
         for future in concurrent.futures.as_completed(future_to_idx):
             idx = future_to_idx[future]
             try:
-                result = future.result(timeout=20)  # 20 second timeout per image
-                if result:  # Only add successful results
-                    quick_runs.append(result)
+                result = future.result(timeout=30)  # increased timeout for stability
+                if result:
+                    quick_results[idx] = result
             except Exception as e:
                 print(f"Quick detection image {idx+1} timed out: {e}")
+        quick_runs = [quick_results[i] for i in range(max_quick_images) if i in quick_results]
     if not quick_runs:
         print("   Quick detection failed for all images – running generic area detector …")
         try:
             generic_prompt = GENERIC_AREAS_PROMPT.read_text()
             # Limit to a representative subset to keep payload small
-            generic_txt = call_openai_vision(generic_prompt, images, args.model, temperature=0.3, max_images=4)
+            generic_txt = call_openai_vision(generic_prompt, images, args.model, temperature=0.0, max_images=4)
             raw_generic = generic_txt[:400].replace("\n"," ")
             print(f"      Raw generic response (trimmed): {raw_generic}")
             if generic_txt.startswith("```"):
@@ -717,20 +818,25 @@ def main():
     runs = []
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_task = {executor.submit(run_area_detection_task, area, prompt_path, temp, imgs, args.model): (area, prompt_path.name, temp)
-                         for area, prompt_path, temp, imgs in detection_tasks}
-        
+        # Preserve original task order deterministically
+        future_to_idx = {
+            executor.submit(run_area_detection_task, area, prompt_path, temp, imgs, args.model): i
+            for i, (area, prompt_path, temp, imgs) in enumerate(detection_tasks)
+        }
+        results_by_idx = {}
         completed_count = 0
-        for future in concurrent.futures.as_completed(future_to_task):
-            area, prompt_name, temp = future_to_task[future]
+        for future in concurrent.futures.as_completed(future_to_idx):
+            i = future_to_idx[future]
+            area, prompt_path, temp, _imgs = detection_tasks[i]
             try:
-                result = future.result(timeout=30)  # 30 second timeout per task
-                if result:  # Only add successful results
-                    runs.append(result)
+                result = future.result(timeout=45)  # increased timeout for stability
+                if result:
+                    results_by_idx[i] = result
                 completed_count += 1
                 print(f"Progress: {completed_count}/{len(detection_tasks)} tasks completed")
             except Exception as e:
-                print(f"Task {area}-{prompt_name}-{temp} failed: {e}")
+                print(f"Task {area}-{prompt_path.name}-{temp} failed: {e}")
+        runs = [results_by_idx[i] for i in range(len(detection_tasks)) if i in results_by_idx]
 
     if not runs:
         sys.exit("Enterprise detection failed for all areas")
@@ -745,11 +851,33 @@ def main():
                 detected["vehicle"][k] = val
     print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
 
+    # Accumulate into persistent superset to maximize unique parts across runs
+    if PERSIST_MAX_UNION:
+        # Merge current parts into superset (increment counts for current keys only)
+        for part in detected["damaged_parts"]:
+            k = _key_for_part(part)
+            entry = superset_map.get(k, {"count": 0, "part": {}})
+            # choose better representation
+            entry["part"] = _prefer_part(part, entry.get("part", {}))
+            entry["count"] = int(entry.get("count", 0)) + 1
+            superset_map[k] = entry
+        # Build accumulated list honoring min support (default 1)
+        accumulated = [
+            (k, v) for k, v in superset_map.items()
+            if int(v.get("count", 0)) >= max(1, PERSIST_MIN_SUPPORT)
+        ]
+        # Deterministic order: by count desc, severity desc, name asc
+        def _sev(p: dict) -> int:
+            return SEVERITY_PRIORITY_GLOBAL.get(p.get("severity", "minor"), 1)
+        accumulated.sort(key=lambda kv: (-int(kv[1].get("count", 0)), -_sev(kv[1]["part"]), kv[0][0]))
+        detected["damaged_parts"] = [v["part"] for _, v in accumulated]
+        print(f"Accumulated superset now has {len(detected['damaged_parts'])} parts (min_support={PERSIST_MIN_SUPPORT})")
+
         # Phase 2 – Describe --------------------------------------------------
     p2_base = PHASE2_PROMPT.read_text()
     p2_prompt = p2_base.replace("<DETECTED_PARTS_JSON>", json.dumps(detected["damaged_parts"]))
     print("Phase 2: describing parts…")
-    desc_txt = call_openai_text(p2_prompt, args.model)
+    desc_txt = call_openai_text(p2_prompt, args.model, temperature=0.0)
     if desc_txt.startswith("```"):
         desc_txt = desc_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     desc_json = json.loads(desc_txt)
@@ -775,11 +903,12 @@ def main():
                     val = add.get(field)
                     if val not in (None, ""):
                         part[field] = val
-        # Append truly new parts present in Phase 2 output (rare, but keep dynamic)
-        for p in enriched:
-            key = (norm(p.get("name","")), norm(p.get("location","")), norm(p.get("category","")))
-            if key and key not in existing_keys:
-                detected["damaged_parts"].append(p)
+        # Optionally append truly new parts discovered in Phase 2 (guarded by env)
+        if PHASE2_ALLOW_NEW_PARTS:
+            for p in enriched:
+                key = (norm(p.get("name","")), norm(p.get("location","")), norm(p.get("category","")))
+                if key and key not in existing_keys:
+                    detected["damaged_parts"].append(p)
     except Exception as _e:
         # Fallback: keep original parts as-is
         pass
@@ -788,7 +917,7 @@ def main():
     p3_base = PHASE3_PROMPT.read_text()
     p3_prompt = p3_base.replace("<DETECTED_PARTS_JSON>", json.dumps(detected["damaged_parts"]))
     print("Phase 3: planning repair parts…")
-    parts_txt = call_openai_text(p3_prompt, args.model)
+    parts_txt = call_openai_text(p3_prompt, args.model, temperature=0.0)
     if parts_txt.startswith("```"):
         parts_txt = parts_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     parts_json = json.loads(parts_txt)
@@ -798,7 +927,7 @@ def main():
     p4_base = PHASE4_PROMPT.read_text()
     p4_prompt = p4_base.replace("<FULL_REPORT_JSON>", json.dumps(detected))
     print("Phase 4: summarising…")
-    summary_txt = call_openai_text(p4_prompt, args.model)
+    summary_txt = call_openai_text(p4_prompt, args.model, temperature=0.0)
     if summary_txt.startswith("```"):
         summary_txt = summary_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     detected["summary"] = json.loads(summary_txt)
@@ -821,6 +950,19 @@ def main():
     
     detected["damaged_parts"] = final_parts
     print(f"Final cleanup: {len(final_parts)} unique parts remaining")
+
+    # Persist superset with enriched final parts
+    if PERSIST_MAX_UNION:
+        for part in final_parts:
+            k = _key_for_part(part)
+            entry = superset_map.get(k, {"count": 0, "part": {}})
+            entry["part"] = _prefer_part(part, entry.get("part", {}))
+            superset_map[k] = entry
+        try:
+            _save_superset(superset_path, image_fingerprint, superset_map, superset_runs + 1)
+            print(f"Saved superset: {superset_path.name} with {len(superset_map)} keys")
+        except Exception as e:
+            print(f"Warning: failed to save superset: {e}")
 
     report = detected
 

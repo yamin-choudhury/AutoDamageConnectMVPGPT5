@@ -1,1 +1,7 @@
 .env
+
+# Local caches and generated reports
+backend/cache/
+backend/cache/**
+**/cache/
+**/supersets/

@@ -61,11 +61,19 @@ COMPREHENSIVE_MODE = os.getenv("COMPREHENSIVE_MODE", "0") == "1"
 MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "2"))  # Default stricter consensus
 MIN_VOTES_SEVERE = int(os.getenv("MIN_VOTES_SEVERE", str(MIN_VOTES_PER_PART)))
 MIN_VOTES_MODERATE = int(os.getenv("MIN_VOTES_MODERATE", str(MIN_VOTES_PER_PART)))
-MIN_VOTES_MINOR = int(os.getenv("MIN_VOTES_MINOR", str(max(MIN_VOTES_PER_PART, 3))))
+MIN_VOTES_MINOR = int(os.getenv("MIN_VOTES_MINOR", str(MIN_VOTES_PER_PART)))
 ENABLE_VERIFICATION_PASS = os.getenv("ENABLE_VERIFICATION_PASS", "1") == "1"
 VERIFY_MIN_CONFIDENCE = float(os.getenv("VERIFY_MIN_CONFIDENCE", "0.65" if STRICT_MODE else "0.55"))
 DETECT_MIN_CONFIDENCE = float(os.getenv("DETECT_MIN_CONFIDENCE", "0.0"))
-DETECTION_TEMPS = [0.0] if STRICT_MODE else [0.0, 0.2]
+# Detection temperatures: allow env override (e.g., '0.0,0.25,0.4'), else default by STRICT_MODE
+_dtemps = os.getenv("DETECTION_TEMPS")
+if _dtemps:
+    try:
+        DETECTION_TEMPS = [float(x.strip()) for x in _dtemps.split(",") if x.strip()]
+    except Exception:
+        DETECTION_TEMPS = [0.0] if STRICT_MODE else [0.0, 0.2]
+else:
+    DETECTION_TEMPS = [0.0] if STRICT_MODE else [0.0, 0.2]
 # IoU threshold for clustering parts across runs (prevents vote inflation)
 CLUSTER_IOU_THRESH = float(os.getenv("CLUSTER_IOU_THRESH", "0.4"))
 # Severity-aware verification confidence thresholds (fallback to VERIFY_MIN_CONFIDENCE)

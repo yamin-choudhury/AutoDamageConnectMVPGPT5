@@ -28,6 +28,26 @@ interface DamageReport {
     description: string;
     notes: string;
   }>;
+  // Optional: parts that did not meet union/verification thresholds but are plausible and kept for assessor review
+  potential_parts?: Array<{
+    name: string;
+    category?: string;
+    location?: string;
+    damage_type?: string;
+    severity?: string;
+    image?: string;
+    box_id?: number;
+    bbox_px?: {
+      x: number;
+      y: number;
+      w: number;
+      h: number;
+    };
+    repair_method?: string;
+    description?: string;
+    notes?: string;
+    reason?: string; // e.g., "insufficient_votes", "verification_failed"
+  }>;
   repair_parts: Array<{
     category: string;
     name: string;
@@ -43,6 +63,7 @@ interface DamageReport {
     total_estimated_hours: number;
     comments: string;
   };
+  _config?: Record<string, any>;
 }
 
 interface ReportViewerProps {
@@ -54,6 +75,37 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
   const [images, setImages] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [generatingPDF, setGeneratingPDF] = useState(false);
+
+  // Helpers for uniqueness by canonical key (name + location)
+  type Part = DamageReport['damaged_parts'][number];
+  type PotentialPart = NonNullable<DamageReport['potential_parts']>[number];
+  type AnyPart = Part | PotentialPart;
+
+  const makeKey = useCallback((p: AnyPart) => {
+    const name = (p?.name || '').toString().trim().toLowerCase();
+    const loc = (p?.location || '').toString().trim().toLowerCase();
+    return `${name}|${loc}`;
+  }, []);
+
+  const dedupeParts = useCallback((parts: ReadonlyArray<AnyPart> | undefined | null): AnyPart[] => {
+    const out: AnyPart[] = [];
+    const seen = new Set<string>();
+    for (const p of parts || []) {
+      const k = makeKey(p);
+      if (!seen.has(k)) {
+        seen.add(k);
+        out.push(p);
+      }
+    }
+    return out;
+  }, [makeKey]);
+
+  const definitiveParts = useMemo<Part[]>(() => (dedupeParts(report?.damaged_parts || []) as Part[]), [report?.damaged_parts, dedupeParts]);
+  const potentialParts = useMemo<PotentialPart[]>(() => {
+    const pot = (dedupeParts(report?.potential_parts || []) as PotentialPart[]);
+    const defKeys = new Set(definitiveParts.map(makeKey));
+    return pot.filter((p) => !defKeys.has(makeKey(p)));
+  }, [report?.potential_parts, definitiveParts, makeKey, dedupeParts]);
 
   // Fetch report data from database or URL
   useEffect(() => {
@@ -142,16 +194,20 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
     console.log('damaged_parts value:', report?.damaged_parts);
   }, [report]);
 
-  // Fetch only DAMAGED images by matching part.image to document_images.image_name
+  // Fetch images referenced by definitive and potential parts (unique)
   useEffect(() => {
     const fetchDamagedImages = async () => {
       try {
-        if (!report?.damaged_parts) {
+        if (!report?.damaged_parts && !report?.potential_parts) {
           setImages([]);
           return;
         }
+        const allParts = [
+          ...(report?.damaged_parts || []),
+          ...(report?.potential_parts || []),
+        ];
         const damagedNames = new Set(
-          report.damaged_parts
+          allParts
             .map((p) => (p?.image || '').toString().trim().toLowerCase())
             .filter((s) => !!s)
         );
@@ -200,7 +256,7 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
       }
     };
     fetchDamagedImages();
-  }, [documentId, report?.damaged_parts]);
+  }, [documentId, report?.damaged_parts, report?.potential_parts]);
 
   const generatePDF = useCallback(async () => {
     if (!report) return;
@@ -344,23 +400,36 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
           </div>
         )}
         
-        {/* Damaged Parts */}
+        {/* Definitive Damaged Parts */}
         <div className="mb-8">
-          <h2 className="text-xl font-semibold mb-4">Damaged Parts ({report.damaged_parts.length})</h2>
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="text-xl font-semibold">Definitive Damaged Parts</h2>
+            <span className="text-sm px-2 py-1 rounded bg-green-100 text-green-800">{definitiveParts.length} items</span>
+          </div>
           <div className="space-y-4">
-            {report.damaged_parts.map((part, index) => (
+            {definitiveParts.map((part, index) => (
               <div key={index} className="border rounded-lg p-4">
-                <div className="grid grid-cols-2 gap-4 mb-2">
-                  <div><strong>Part:</strong> {part.name}</div>
+                <div className="flex items-center justify-between mb-2">
+                  <div className="font-semibold text-gray-900">{part.name}</div>
+                  <span className={`text-xs px-2 py-0.5 rounded font-medium ${
+                    (part.severity || '').toLowerCase() === 'severe' ? 'bg-red-100 text-red-800' :
+                    (part.severity || '').toLowerCase() === 'moderate' ? 'bg-yellow-100 text-yellow-800' :
+                    'bg-blue-100 text-blue-800'
+                  }`}>
+                    {part.severity || 'minor'}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-4 mb-2 text-sm">
                   <div><strong>Category:</strong> {part.category}</div>
                   <div><strong>Location:</strong> {part.location}</div>
-                  <div><strong>Severity:</strong> {part.severity}</div>
                 </div>
-                <div className="mb-2">
-                  <strong>Description:</strong> {part.description}
-                </div>
+                {part.description && (
+                  <div className="mb-2 text-sm text-gray-800">
+                    <strong>Description:</strong> {part.description}
+                  </div>
+                )}
                 {part.notes && (
-                  <div className="text-sm text-gray-600">
+                  <div className="text-xs text-gray-600">
                     <strong>Notes:</strong> {part.notes}
                   </div>
                 )}
@@ -368,6 +437,41 @@ const ReportViewer: React.FC<ReportViewerProps> = ({ documentId }) => {
             ))}
           </div>
         </div>
+
+        {/* Potential Damaged Parts (Assessor to review) */}
+        {potentialParts.length > 0 && (
+          <div className="mb-8 page-break-before">
+            <div className="flex items-center justify-between mb-2">
+              <h2 className="text-xl font-semibold">Potential Damaged Parts</h2>
+              <span className="text-sm px-2 py-1 rounded bg-amber-100 text-amber-800">{potentialParts.length} items</span>
+            </div>
+            <p className="text-sm text-gray-600 mb-3">These items did not meet automated thresholds (votes/verification) but are plausible and included for independent assessor review.</p>
+            <div className="space-y-4">
+              {potentialParts.map((part, index) => (
+                <div key={index} className="border rounded-lg p-4 bg-amber-50">
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="font-semibold text-gray-900">{part.name}</div>
+                    <span className="text-xs px-2 py-0.5 rounded font-medium bg-amber-200 text-amber-900">potential</span>
+                  </div>
+                  <div className="grid grid-cols-2 gap-4 mb-2 text-sm">
+                    <div><strong>Category:</strong> {part.category || '-'}</div>
+                    <div><strong>Location:</strong> {part.location || '-'}</div>
+                  </div>
+                  {part.description && (
+                    <div className="mb-2 text-sm text-gray-800">
+                      <strong>Description:</strong> {part.description}
+                    </div>
+                  )}
+                  {part.reason && (
+                    <div className="text-xs text-gray-600">
+                      <strong>Reason:</strong> {part.reason}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
         
         {/* Summary */}
         <div className="mb-8 p-4 border rounded-lg bg-gray-50">

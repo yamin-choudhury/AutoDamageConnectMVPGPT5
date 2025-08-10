@@ -313,9 +313,33 @@ def canonicalize_part(p: dict) -> dict:
     q["name"] = _canon_name(q.get("name", ""))
     q["location"] = _canon_location(q.get("location", ""), q.get("name", ""))
     q["category"] = _canon_category(q.get("category", ""))
+    # Coalesce description fields early for downstream use without altering keys
+    # Do not introduce default location/category here to avoid affecting union keys
+    if not q.get("description") and q.get("damage_description"):
+        q["description"] = str(q.get("damage_description", ""))
     if q.get("severity") is not None:
         q["severity"] = _canon_severity(q.get("severity", ""))
     return q
+
+def _finalize_display_fields(p: dict) -> dict:
+    """Ensure all user-facing fields are populated deterministically for output.
+    This runs only at the end of the pipeline so it does not influence union keys.
+    """
+    out = dict(p)
+    # Normalize description
+    if not out.get("description") and out.get("damage_description"):
+        out["description"] = str(out.get("damage_description", ""))
+    # Default category/location for completeness in the final report
+    cat = (out.get("category") or "").strip()
+    if not cat:
+        out["category"] = "body exterior"
+    loc = (out.get("location") or "").strip()
+    if not loc:
+        out["location"] = "unspecified"
+    # Canonicalize severity one last time
+    if out.get("severity") is not None:
+        out["severity"] = _canon_severity(str(out.get("severity", "")))
+    return out
 
 def _fingerprint_images(images: List[Path]) -> str:
     """Stable fingerprint of the image set using names and sizes only (no content read)."""
@@ -708,6 +732,12 @@ def union_parts(runs: List[dict]) -> dict:
     print(f"Final merged parts (IoU-clustered @ {CLUSTER_IOU_THRESH}): {[p.get('name','Unknown') for p in parts]}")
     if COMPREHENSIVE_MODE and potential_from_votes:
         print(f"Union flagged {len(potential_from_votes)} additional candidates as potential (insufficient votes)")
+        # Deterministic ordering for potential parts
+        potential_from_votes.sort(key=lambda p: (
+            -severity_priority.get(p.get("severity", "minor"), 1),
+            norm(p.get("name", "")),
+            norm(p.get("location", "")),
+        ))
         return {"vehicle": vehicle, "damaged_parts": parts, "potential_parts": potential_from_votes}
     return {"vehicle": vehicle, "damaged_parts": parts}
 
@@ -1535,6 +1565,18 @@ def main():
                     print(f"❌ Verification dropped: {p.get('name','Unknown')} @ {p.get('location','')} (conf={conf:.2f})")
             print(f"Verification kept {len(kept)}/{len(detected['damaged_parts'])} parts (threshold={VERIFY_MIN_CONFIDENCE})")
             detected["damaged_parts"] = kept
+            # Deterministic ordering: restore union sort (votes, severity, name, location)
+            try:
+                def _nl(s: str) -> str:
+                    return (s or "").strip().lower()
+                detected["damaged_parts"].sort(key=lambda p: (
+                    -int(p.get("_votes", 0)),
+                    -SEVERITY_PRIORITY_GLOBAL.get(_nl(p.get("severity", "minor")), 1),
+                    _nl(p.get("name", "")),
+                    _nl(p.get("location", "")),
+                ))
+            except Exception:
+                pass
             # In comprehensive mode, merge verification-dropped as potential along with any union-derived potential
             if COMPREHENSIVE_MODE:
                 def _nm(s: str) -> str:
@@ -1564,6 +1606,17 @@ def main():
                 for pp in potential:
                     uniq[_k(pp)] = pp
                 detected["potential_parts"] = list(uniq.values())
+                # Deterministic ordering for potential parts
+                try:
+                    def _nl(s: str) -> str:
+                        return (s or "").strip().lower()
+                    detected["potential_parts"].sort(key=lambda p: (
+                        -SEVERITY_PRIORITY_GLOBAL.get(_nl(p.get("severity", "minor")), 1),
+                        _nl(p.get("name", "")),
+                        _nl(p.get("location", "")),
+                    ))
+                except Exception:
+                    pass
             # Verification metrics
             try:
                 kept_n = len(kept)
@@ -1652,6 +1705,21 @@ def main():
         except Exception:
             pass
     print(f"Final cleanup: {len(final_parts)} unique parts remaining")
+    # Finalize fields and enforce deterministic ordering for output
+    try:
+        def _nl(s: str) -> str:
+            return (s or "").strip().lower()
+        detected["damaged_parts"] = [_finalize_display_fields(p) for p in (detected.get("damaged_parts", []) or [])]
+        if COMPREHENSIVE_MODE:
+            pot = (detected.get("potential_parts", []) or [])
+            pot.sort(key=lambda p: (
+                -SEVERITY_PRIORITY_GLOBAL.get(_nl(p.get("severity", "minor")), 1),
+                _nl(p.get("name", "")),
+                _nl(p.get("location", "")),
+            ))
+            detected["potential_parts"] = [_finalize_display_fields(p) for p in pot]
+    except Exception:
+        pass
     # Final metrics and completeness retention
     try:
         duplicates_removed = pre_final_count - len(final_parts)

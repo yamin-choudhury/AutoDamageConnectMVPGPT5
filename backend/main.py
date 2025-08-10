@@ -117,6 +117,9 @@ def run_subprocess(cmd: list[str]):
         print(f"STDERR: {proc.stderr}")
         raise RuntimeError(f"Command failed: {proc.stderr or proc.stdout}")
     print(f"✅ Command completed successfully")
+    # Forward child stdout so METRICS_JSON and other logs appear in Railway
+    if proc.stdout:
+        print(proc.stdout)
 
 # ---------------------------------------------------------------------------
 # /generate – main pipeline entry

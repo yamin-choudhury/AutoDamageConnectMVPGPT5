@@ -39,6 +39,7 @@ PHASE3_PROMPT = PROMPTS_DIR / "plan_parts_prompt.txt"
 PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
 PHASE1_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_enterprise_prompt.txt"
 PHASE1_COMPLETENESS_PROMPT = PROMPTS_DIR / "detect_missing_parts.txt"
+PHASE5_VERIFY_PROMPT = PROMPTS_DIR / "verify_part_prompt.txt"
 
 
 # ----------------------- OpenAI client tuning -------------------------
@@ -48,12 +49,39 @@ OPENAI_BACKOFF_BASE = float(os.getenv("OPENAI_BACKOFF_BASE", "0.5"))  # seconds
 OPENAI_CONCURRENCY = int(os.getenv("OPENAI_CONCURRENCY", "4"))
 _openai_sem = threading.Semaphore(OPENAI_CONCURRENCY)
 MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "5"))  # 0 = no cap
-PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "1") == "1"
+PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "0") == "1"  # default OFF to reduce hallucinations
 PERSIST_MAX_UNION = os.getenv("PERSIST_MAX_UNION", "1") == "1"
 CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
 PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
 ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
-MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "1"))  # Raise to 2+ to enforce stricter consensus
+STRICT_MODE = os.getenv("STRICT_MODE", "1") == "1"
+MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "2"))  # Default stricter consensus
+MIN_VOTES_SEVERE = int(os.getenv("MIN_VOTES_SEVERE", str(MIN_VOTES_PER_PART)))
+MIN_VOTES_MODERATE = int(os.getenv("MIN_VOTES_MODERATE", str(MIN_VOTES_PER_PART)))
+MIN_VOTES_MINOR = int(os.getenv("MIN_VOTES_MINOR", str(max(MIN_VOTES_PER_PART, 3))))
+ENABLE_VERIFICATION_PASS = os.getenv("ENABLE_VERIFICATION_PASS", "1") == "1"
+VERIFY_MIN_CONFIDENCE = float(os.getenv("VERIFY_MIN_CONFIDENCE", "0.65" if STRICT_MODE else "0.55"))
+DETECT_MIN_CONFIDENCE = float(os.getenv("DETECT_MIN_CONFIDENCE", "0.0"))
+DETECTION_TEMPS = [0.0] if STRICT_MODE else [0.0, 0.2]
+# IoU threshold for clustering parts across runs (prevents vote inflation)
+CLUSTER_IOU_THRESH = float(os.getenv("CLUSTER_IOU_THRESH", "0.4"))
+# Severity-aware verification confidence thresholds (fallback to VERIFY_MIN_CONFIDENCE)
+VERIFY_CONF_SEVERE = float(os.getenv("VERIFY_CONF_SEVERE", str(VERIFY_MIN_CONFIDENCE)))
+VERIFY_CONF_MODERATE = float(os.getenv("VERIFY_CONF_MODERATE", str(VERIFY_MIN_CONFIDENCE)))
+VERIFY_CONF_MINOR = float(os.getenv("VERIFY_CONF_MINOR", str(VERIFY_MIN_CONFIDENCE)))
+# Verification temperatures (comma-separated env like '0.0,0.2')
+_vtemps = os.getenv("VERIFY_TEMPS")
+if _vtemps:
+    try:
+        VERIFY_TEMPS = [float(x.strip()) for x in _vtemps.split(",") if x.strip()]
+    except Exception:
+        VERIFY_TEMPS = [0.0, 0.2]
+else:
+    VERIFY_TEMPS = [0.0, 0.2]
+
+# Vehicle ID toggles (disabled by default to avoid hallucinations)
+ENABLE_VEHICLE_ID = os.getenv("ENABLE_VEHICLE_ID", "0") == "1"
+ALLOW_VEHICLE_BACKFILL = os.getenv("ALLOW_VEHICLE_BACKFILL", "0") == "1"
 
 def get_candidate_boxes(img_path: Path):
     """Return empty list – YOLO fully removed."""
@@ -547,60 +575,99 @@ def union_parts(runs: List[dict]) -> dict:
                 vehicle[k] = val
                 break
 
-    # Votes-based aggregation of parts across all runs
+    # IoU-clustered vote aggregation across runs to avoid vote inflation
     def norm(s: str) -> str:
         return (s or "").strip().lower()
     severity_priority = {"severe": 3, "moderate": 2, "minor": 1}
-    agg: dict[tuple, dict] = {}
-    counts: Counter = Counter()
 
-    for run in runs:
-        seen_in_run: set[tuple] = set()
-        for cand in sanitize_parts(run.get("damaged_parts", [])):
-            key = (
-                norm(cand.get("name", "")),
-                norm(cand.get("location", "")),
-            )
-            if key not in seen_in_run:
-                counts[key] += 1
-                seen_in_run.add(key)
-            if key not in agg:
-                agg[key] = cand
+    # key -> list of clusters; each cluster: {"rep": dict, "runs": set[int], "bbox_px": Any, "n": int}
+    clusters_by_key: dict[tuple, List[dict]] = {}
+
+    def _get_bbox(p: dict):
+        b = p.get("bbox_px")
+        return b if b else None
+
+    def _match_cluster(clusters: List[dict], cand_bbox) -> Optional[dict]:
+        if not clusters:
+            return None
+        if cand_bbox is None:
+            # match cluster with no bbox if present
+            for cl in clusters:
+                if cl.get("bbox_px") is None:
+                    return cl
+            return None
+        for cl in clusters:
+            cb = cl.get("bbox_px")
+            if cb is None:
                 continue
-            base = agg[key]
-            # Upgrade criteria: higher severity, longer description/notes
-            cand_sev = severity_priority.get(cand.get("severity", "minor"), 1)
-            base_sev = severity_priority.get(base.get("severity", "minor"), 1)
-            cand_desc = str(cand.get("description", cand.get("damage_description", "")))
-            base_desc = str(base.get("description", base.get("damage_description", "")))
-            if (
-                cand_sev > base_sev
-                or (
-                    cand_sev == base_sev and len(cand_desc) > len(base_desc)
-                )
-                or (
-                    cand_sev == base_sev and len(cand_desc) == len(base_desc)
-                    and (
-                        (norm(cand.get("name","")), norm(cand.get("location","")), norm(cand_desc))
-                        < (norm(base.get("name","")), norm(base.get("location","")), norm(base_desc))
-                    )
-                )
-            ):
-                # Preserve existing image if missing on candidate
-                if not cand.get("image") and base.get("image"):
-                    cand["image"] = base["image"]
-                agg[key] = cand
+            try:
+                if iou(cb, cand_bbox) >= CLUSTER_IOU_THRESH:
+                    return cl
+            except Exception:
+                continue
+        return None
 
-    # Convert to list sorted by votes, then severity, then name for determinism
-    parts = []
-    for key, part in agg.items():
-        part["_votes"] = counts[key]
-        parts.append(part)
+    def _upgrade(base: dict, cand: dict) -> dict:
+        base_sev = severity_priority.get(base.get("severity", "minor"), 1)
+        cand_sev = severity_priority.get(cand.get("severity", "minor"), 1)
+        base_desc = str(base.get("description", base.get("damage_description", "")))
+        cand_desc = str(cand.get("description", cand.get("damage_description", "")))
+        choose = False
+        if cand_sev > base_sev:
+            choose = True
+        elif cand_sev == base_sev and len(cand_desc) > len(base_desc):
+            choose = True
+        elif cand_sev == base_sev and len(cand_desc) == len(base_desc):
+            if (
+                (norm(cand.get("name","")), norm(cand.get("location","")), norm(cand_desc))
+                < (norm(base.get("name","")), norm(base.get("location","")), norm(base_desc))
+            ):
+                choose = True
+        if choose:
+            # Preserve existing image and bbox if missing on candidate
+            if not cand.get("image") and base.get("image"):
+                cand["image"] = base["image"]
+            if not cand.get("bbox_px") and base.get("bbox_px"):
+                cand["bbox_px"] = base.get("bbox_px")
+            return cand
+        return base
+
+    for rid, run in enumerate(runs):
+        for cand in sanitize_parts(run.get("damaged_parts", [])):
+            key = (norm(cand.get("name", "")), norm(cand.get("location", "")))
+            clusters = clusters_by_key.setdefault(key, [])
+            bbox = _get_bbox(cand)
+            match = _match_cluster(clusters, bbox)
+            if match is None:
+                rep = dict(cand)
+                clusters.append({"rep": rep, "runs": set([rid]), "bbox_px": bbox, "n": 1})
+            else:
+                match["rep"] = _upgrade(match["rep"], cand)
+                if rid not in match["runs"]:
+                    match["runs"].add(rid)
+                match["n"] += 1
+
+    # Flatten clusters to parts and attach per-cluster votes (unique runs)
+    parts: List[dict] = []
+    for _key, clist in clusters_by_key.items():
+        for cl in clist:
+            part = cl["rep"]
+            part["_votes"] = len(cl["runs"])  # votes = number of runs supporting this cluster
+            parts.append(part)
+
     # Optional: filter by minimum votes to reduce single-run hallucinations
-    if MIN_VOTES_PER_PART > 1:
-        before = len(parts)
-        parts = [p for p in parts if int(p.get("_votes", 0)) >= MIN_VOTES_PER_PART]
-        print(f"Applied MIN_VOTES_PER_PART={MIN_VOTES_PER_PART}: {before}->{len(parts)} parts")
+    before_cnt = len(parts)
+    def _thr(p):
+        sev = (p.get("severity") or "minor").strip().lower()
+        if sev == "severe":
+            return max(1, MIN_VOTES_SEVERE)
+        if sev == "moderate":
+            return max(1, MIN_VOTES_MODERATE)
+        return max(1, MIN_VOTES_MINOR)
+    parts = [p for p in parts if int(p.get("_votes", 0)) >= max(MIN_VOTES_PER_PART, _thr(p))]
+    if len(parts) != before_cnt:
+        print(f"Applied vote thresholds (global={MIN_VOTES_PER_PART}, sev={MIN_VOTES_SEVERE}, mod={MIN_VOTES_MODERATE}, min={MIN_VOTES_MINOR}): {before_cnt}->{len(parts)} parts")
+
     parts.sort(key=lambda p: (
         -p.get("_votes", 0),
         -severity_priority.get(p.get("severity", "minor"), 1),
@@ -608,9 +675,8 @@ def union_parts(runs: List[dict]) -> dict:
         norm(p.get("location", "")),
     ))
 
-    # No cap: keep all distinct parts (dynamic length)
-
-    print(f"Final merged parts (votes-first): {[p.get('name','Unknown') for p in parts]}")
+    # No cap: keep all distinct (clustered) parts
+    print(f"Final merged parts (IoU-clustered @ {CLUSTER_IOU_THRESH}): {[p.get('name','Unknown') for p in parts]}")
     return {"vehicle": vehicle, "damaged_parts": parts}
 
 # ----------------------------------------------------------------------
@@ -629,6 +695,22 @@ def main():
     # load API key from .env if present
     load_dotenv()
 
+    # Initialize run metrics for Railway logging
+    metrics = {
+        "timestamp": time.time(),
+        "strict_mode": STRICT_MODE,
+        "detection_temps": DETECTION_TEMPS,
+        "vehicle_id": {},
+        "quick": {},
+        "phase1": {"tasks_total": 0, "tasks_completed": 0, "per_temp": {}, "per_area": {}, "per_prompt": {}},
+        "union": {},
+        "phase2_enrichment": {},
+        "completeness": {},
+        "verification": {},
+        "final": {},
+        "superset": {},
+    }
+
     images = sorted(Path(args.images_dir).glob("*.jp*g"))
     if not images:
         sys.exit("No images in dir")
@@ -640,114 +722,43 @@ def main():
     if PERSIST_MAX_UNION:
         superset_map, superset_runs = _load_superset(superset_path)
         print(f"Loaded superset with {len(superset_map)} parts across {superset_runs} runs")
-
-    # ----------------  Phase -1 – Vehicle Identification (Per-image voting)  ----------------
-    def identify_vehicle_image(img: Path) -> dict:
-        """Identify vehicle from a single image with deterministic, badge-aware output."""
         try:
-            prompt = VEHICLE_ID_PROMPT.read_text()
-            id_txt = call_openai_vision(prompt, [img], args.model, temperature=0.0, max_images=1)
-            if id_txt.startswith("```"):
-                id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            id_json = json.loads(id_txt)
-            veh = id_json.get("vehicle", {})
-            badge = id_json.get("badge_visible", id_json.get("badgeVisible", False))
-            conf = id_json.get("confidence", 0.0)
-            result = {
-                "make": veh.get("make", "Unknown"),
-                "model": veh.get("model", "Unknown"),
-                "year": veh.get("year", 0),
-                "badge_visible": bool(badge),
-                "confidence": float(conf) if isinstance(conf, (int, float)) else 0.0,
-                "_image": img.name,
-                "_path": str(img),
-            }
-            print(f"Vehicle ID from {img.name}: {result}")
-            return result
-        except Exception as e:
-            print(f"Vehicle-ID for {img.name} failed: {e}")
-            return {}
+            metrics["superset"]["loaded_keys"] = len(superset_map)
+            metrics["superset"]["loaded_runs"] = superset_runs
+        except Exception:
+            pass
 
-    # Choose up to 6 diverse images for voting
-    id_candidates = select_diverse_top(dedupe_by_phash(images), k=min(6, len(images)))
-    print(f"Vehicle ID on {len(id_candidates)} images: {[p.name for p in id_candidates]}")
-
-    votes = Counter()
-    field_votes = {"make": Counter(), "model": Counter(), "year": Counter()}
-    per_image_results = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=min(6, len(id_candidates))) as executor:
-        future_to_img = {executor.submit(identify_vehicle_image, img): img for img in id_candidates}
-        for future in concurrent.futures.as_completed(future_to_img):
-            img = future_to_img[future]
-            try:
-                res = future.result(timeout=25)
-                if not res:
-                    continue
-                per_image_results.append(res)
-                sig = (res.get("make"), res.get("model"), res.get("year"))
-                weight = 1 + (1 if res.get("badge_visible") else 0) + (1 if (res.get("confidence", 0.0) >= 0.6) else 0)
-                votes[sig] += weight
-                for f in ("make","model","year"):
-                    v = res.get(f)
-                    if v not in (None, "", "Unknown", 0):
-                        field_votes[f][v] += weight
-            except Exception as e:
-                print(f"Vehicle-ID image {img.name} timed out/failed: {e}")
-
+    # ---------------- Vehicle metadata (no model recognition) ---------------
     vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
-    top = votes.most_common(2)
-    if top:
-        winner, w = top[0]
-        vehicle["make"], vehicle["model"], vehicle["year"] = winner
-        print(f"Vehicle consensus: {winner} (weight {w}) from {len(per_image_results)} images")
-        # Tie-break if close and same make but conflicting model (e.g., 108 vs 308)
-        if len(top) == 2:
-            (cand2, w2) = top[1]
-            if abs(w - w2) <= 2 and winner[0] == cand2[0] and winner[1] != cand2[1]:
-                tb_imgs = [Path(r.get("_path")) for r in per_image_results if r.get("badge_visible")][:2]
-                if not tb_imgs:
-                    tb_imgs = id_candidates[:2]
-                cmp_prompt = (
-                    "You are an expert vehicle identifier. Decide strictly between the two candidate models for the same make.\n"
-                    f"Make: {winner[0]}\n"
-                    f"Candidate A: {winner[1]}\n"
-                    f"Candidate B: {cand2[1]}\n"
-                    "Return JSON only: {\"model\": \"A\" or \"B\", \"confidence\": 0.0-1.0}.\n"
-                    "If uncertain, pick the best guess deterministically at temperature 0.\n"
-                )
-                try:
-                    tb_txt = call_openai_vision(cmp_prompt, tb_imgs, args.model, temperature=0.0, max_images=min(2, len(tb_imgs)))
-                    if tb_txt.startswith("```"):
-                        tb_txt = tb_txt.split("```",1)[1].rsplit("```",1)[0].strip()
-                    tb = json.loads(tb_txt)
-                    pick = tb.get("model")
-                    if pick == "A":
-                        vehicle["model"] = winner[1]
-                    elif pick == "B":
-                        vehicle["model"] = cand2[1]
-                    print(f"Tie-break selected model: {vehicle['model']} (A={winner[1]}, B={cand2[1]})")
-                except Exception as e:
-                    print(f"Tie-break failed: {e}")
-    else:
-        # fallback by independent field votes
-        for f in ("make","model","year"):
-            if field_votes[f]:
-                vehicle[f] = field_votes[f].most_common(1)[0][0]
-    print(f"Final vehicle: {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
-    # Apply CLI overrides if provided
+    # Apply CLI overrides if provided (final authority)
     try:
-        if getattr(args, "vehicle_make", None) or getattr(args, "vehicle_model", None) or getattr(args, "vehicle_year", None):
-            if getattr(args, "vehicle_make", None):
-                vehicle["make"] = args.vehicle_make
-            if getattr(args, "vehicle_model", None):
-                vehicle["model"] = args.vehicle_model
-            if getattr(args, "vehicle_year", None):
-                try:
-                    vehicle["year"] = int(str(args.vehicle_year).strip())
-                except Exception:
-                    pass
-            print(f"Vehicle overridden from CLI: {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
-    except Exception as _e:
+        if getattr(args, "vehicle_make", None):
+            vehicle["make"] = args.vehicle_make
+        if getattr(args, "vehicle_model", None):
+            vehicle["model"] = args.vehicle_model
+        if getattr(args, "vehicle_year", None):
+            try:
+                vehicle["year"] = int(str(args.vehicle_year).strip())
+            except Exception:
+                pass
+    except Exception:
+        pass
+    print(f"Vehicle (from CLI or default): {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
+    # Optional: allow turning on model-based vehicle ID via env flag (off by default)
+    if ENABLE_VEHICLE_ID:
+        print("ENABLE_VEHICLE_ID=1 is set, but vehicle ID pass is intentionally disabled by default to avoid hallucinations.")
+    # Minimal vehicle metrics
+    try:
+        metrics["vehicle_id"] = {
+            "enabled": bool(ENABLE_VEHICLE_ID),
+            "source": "cli" if any([
+                getattr(args, "vehicle_make", None),
+                getattr(args, "vehicle_model", None),
+                getattr(args, "vehicle_year", None),
+            ]) else "default",
+            "final": vehicle,
+        }
+    except Exception:
         pass
 
     # ----------------  Phase 0 – Quick Area Detection (Parallel)  -----------------
@@ -772,6 +783,10 @@ def main():
     _dedup = dedupe_by_phash(images)
     quick_candidates = select_diverse_top(_dedup, k=min(8, len(_dedup)))
     max_quick_images = len(quick_candidates)
+    try:
+        metrics["quick"]["n_candidates"] = max_quick_images
+    except Exception:
+        pass
     
     # Process images in parallel
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
@@ -790,6 +805,10 @@ def main():
         quick_runs = [quick_results[i] for i in range(max_quick_images) if i in quick_results]
     if not quick_runs:
         print("   Quick detection failed for all images – running generic area detector …")
+        try:
+            metrics["quick"]["fallback_generic_used"] = True
+        except Exception:
+            pass
         try:
             generic_prompt = GENERIC_AREAS_PROMPT.read_text()
             # Limit to a representative subset to keep payload small
@@ -836,6 +855,11 @@ def main():
                     a["image_path"] = src_img
                 damaged_areas_all.append(a)
         areas_json = {"vehicle": vehicle, "damaged_areas": damaged_areas_all}
+        try:
+            metrics["quick"]["n_success"] = len(quick_runs)
+            metrics["quick"]["fallback_generic_used"] = False
+        except Exception:
+            pass
 
 
 
@@ -936,14 +960,18 @@ def main():
         
         for prompt_path in prompt_paths:
             # Slight ensemble to increase coverage without encouraging hallucinations
-            for temp in [0.0, 0.2]:
+            for temp in DETECTION_TEMPS:
                 detection_tasks.append((area, prompt_path, temp, imgs_for_call))
     # Global enterprise sweep over diverse full frames (complements area shards)
     global_imgs = select_diverse_top(dedupe_by_phash(images), k=min(5, len(images)))
-    for temp in [0.0, 0.2]:
+    for temp in DETECTION_TEMPS:
         detection_tasks.append(("global", PHASE1_ENTERPRISE_PROMPT, temp, global_imgs))
 
     print(f"Phase 1: Running {len(detection_tasks)} area-specialist + enterprise detection tasks in parallel...")
+    try:
+        metrics["phase1"]["tasks_total"] = len(detection_tasks)
+    except Exception:
+        pass
     
     # Execute all tasks in parallel with optimal thread count
     max_workers = min(8, len(detection_tasks))  # Don't overwhelm OpenAI API
@@ -966,6 +994,15 @@ def main():
                     results_by_idx[i] = result
                 completed_count += 1
                 print(f"Progress: {completed_count}/{len(detection_tasks)} tasks completed")
+                # Phase 1 metrics updates (successful tasks)
+                try:
+                    metrics["phase1"]["tasks_completed"] = completed_count
+                    tkey = str(temp)
+                    metrics["phase1"]["per_temp"][tkey] = metrics["phase1"]["per_temp"].get(tkey, 0) + 1
+                    metrics["phase1"]["per_area"][area] = metrics["phase1"]["per_area"].get(area, 0) + 1
+                    metrics["phase1"]["per_prompt"][prompt_path.name] = metrics["phase1"]["per_prompt"].get(prompt_path.name, 0) + 1
+                except Exception:
+                    pass
             except Exception as e:
                 print(f"Task {area}-{prompt_path.name}-{temp} failed: {e}")
         runs = [results_by_idx[i] for i in range(len(detection_tasks)) if i in results_by_idx]
@@ -973,33 +1010,91 @@ def main():
     if not runs:
         sys.exit("Enterprise detection failed for all areas")
 
-    detected = union_parts(runs)
-# ---------------- vehicle back-fill from quick detector ---------------
-    quick_vehicle = areas_json.get("vehicle", {})
-    for k in ("make", "model", "year"):
-        if detected["vehicle"].get(k, "Unknown") in ("", "Unknown", 0):
-            val = quick_vehicle.get(k)
-            if val not in (None, "", "Unknown", 0):
-                detected["vehicle"][k] = val
-    # Ensure CLI vehicle overrides take final precedence if provided
+    # Pre-union candidate metrics and vote-drop estimate
     try:
-        if getattr(args, "vehicle_make", None) or getattr(args, "vehicle_model", None) or getattr(args, "vehicle_year", None):
-            if getattr(args, "vehicle_make", None):
-                detected["vehicle"]["make"] = args.vehicle_make
-            if getattr(args, "vehicle_model", None):
-                detected["vehicle"]["model"] = args.vehicle_model
-            if getattr(args, "vehicle_year", None):
-                try:
-                    detected["vehicle"]["year"] = int(str(args.vehicle_year).strip())
-                except Exception:
-                    pass
-    except Exception as _e:
+        total_raw_parts = sum(len(r.get("damaged_parts", []) or []) for r in runs)
+        def _mn(s: str) -> str:
+            return (s or "").strip().lower()
+        pre_keys = set()
+        for r in runs:
+            for cand in (r.get("damaged_parts", []) or []):
+                cp = canonicalize_part(cand)
+                pre_keys.add((_mn(cp.get("name", "")), _mn(cp.get("location", ""))))
+        metrics["union"]["pre_union_raw_parts"] = total_raw_parts
+        metrics["union"]["pre_union_unique_keys"] = len(pre_keys)
+
+        # Vote-based drop estimate mirroring union_parts
+        counts = Counter()
+        best_sev: dict[tuple, tuple[str, int]] = {}
+        for run in runs:
+            seen_in_run = set()
+            for cand in (run.get("damaged_parts", []) or []):
+                cp = canonicalize_part(cand)
+                key = (_mn(cp.get("name", "")), _mn(cp.get("location", "")))
+                if key in seen_in_run:
+                    continue
+                seen_in_run.add(key)
+                counts[key] += 1
+                cur = best_sev.get(key)
+                sev = cp.get("severity", "minor")
+                pr = SEVERITY_PRIORITY_GLOBAL.get(sev, 1)
+                if (cur is None) or (pr > cur[1]):
+                    best_sev[key] = (sev, pr)
+        drop = {"severe": 0, "moderate": 0, "minor": 0}
+        keep = {"severe": 0, "moderate": 0, "minor": 0}
+        for k, c in counts.items():
+            sev = best_sev.get(k, ("minor", 1))[0]
+            thr = MIN_VOTES_SEVERE if sev == "severe" else (MIN_VOTES_MODERATE if sev == "moderate" else MIN_VOTES_MINOR)
+            if int(c) >= int(thr):
+                keep[sev] += 1
+            else:
+                drop[sev] += 1
+        metrics["union"]["vote_drop_estimate"] = {"drop": drop, "keep": keep}
+    except Exception:
+        pass
+
+    detected = union_parts(runs)
+    try:
+        metrics["union"]["iou_threshold"] = CLUSTER_IOU_THRESH
+    except Exception:
+        pass
+    try:
+        metrics["union"]["post_union_unique"] = len(detected.get("damaged_parts", []))
+        sev_counts = {}
+        for p in detected.get("damaged_parts", []):
+            s = (p.get("severity") or "minor")
+            sev_counts[s] = sev_counts.get(s, 0) + 1
+        metrics["union"]["post_union_severity_dist"] = sev_counts
+    except Exception:
+        pass
+    # ---------------- vehicle metadata handling ---------------
+    if ALLOW_VEHICLE_BACKFILL:
+        quick_vehicle = areas_json.get("vehicle", {})
+        for k in ("make", "model", "year"):
+            if detected["vehicle"].get(k, "Unknown") in ("", "Unknown", 0):
+                val = quick_vehicle.get(k)
+                if val not in (None, "", "Unknown", 0):
+                    detected["vehicle"][k] = val
+    # Enforce CLI vehicle overrides to take final precedence
+    try:
+        if getattr(args, "vehicle_make", None):
+            detected["vehicle"]["make"] = args.vehicle_make
+        if getattr(args, "vehicle_model", None):
+            detected["vehicle"]["model"] = args.vehicle_model
+        if getattr(args, "vehicle_year", None):
+            try:
+                detected["vehicle"]["year"] = int(str(args.vehicle_year).strip())
+            except Exception:
+                pass
+    except Exception:
         pass
     print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
 
     # Completeness pass – ask model to spot any missing parts given current list
     if ENABLE_COMPLETENESS_PASS:
         try:
+            metrics["completeness"]["attempted"] = True
+            metrics["completeness"]["temps_used"] = [str(t) for t in DETECTION_TEMPS]
             before_keys = { _key_for_part(canonicalize_part(p)) for p in detected.get("damaged_parts", []) }
             comp_base = PHASE1_COMPLETENESS_PROMPT.read_text()
             comp_prompt = comp_base.replace("<CURRENT_PARTS_JSON>", json.dumps(detected.get("damaged_parts", [])))
@@ -1012,8 +1107,12 @@ def main():
                 except Exception:
                     pass
             comp_imgs = dedupe_by_phash(comp_imgs)
+            try:
+                metrics["completeness"]["image_count"] = len(comp_imgs)
+            except Exception:
+                pass
             completeness_runs = []
-            for temp in [0.0, 0.2]:
+            for temp in DETECTION_TEMPS:
                 try:
                     txt = call_openai_vision(comp_prompt, comp_imgs, args.model, temperature=temp, max_images=6)
                     if txt.startswith("```"):
@@ -1035,6 +1134,10 @@ def main():
                     })
                 except Exception as _e:
                     print(f"Completeness pass temp={temp} failed: {_e}")
+            try:
+                metrics["completeness"]["runs"] = len(completeness_runs)
+            except Exception:
+                pass
             if completeness_runs:
                 runs2 = runs + completeness_runs
                 detected2 = union_parts(runs2)
@@ -1042,6 +1145,11 @@ def main():
                 added = after_keys - before_keys
                 if added:
                     print(f"Completeness pass added {len(added)} new unique parts")
+                try:
+                    metrics["completeness"]["added_count"] = len(added)
+                    metrics["completeness"]["added_keys"] = [f"{k[0]}|{k[1]}" for k in added]
+                except Exception:
+                    pass
                 detected = detected2
         except Exception as _e:
             print(f"Completeness pass error: {_e}")
@@ -1069,6 +1177,12 @@ def main():
         print(f"Accumulated superset now has {len(detected['damaged_parts'])} parts (min_support={PERSIST_MIN_SUPPORT})")
 
         # Phase 2 – Describe --------------------------------------------------
+    # Snapshot before Phase 2 enrichment to measure deltas
+    try:
+        pre_p2_parts = [canonicalize_part(deepcopy(p)) for p in detected.get("damaged_parts", [])]
+    except Exception:
+        pre_p2_parts = detected.get("damaged_parts", [])
+
     p2_base = PHASE2_PROMPT.read_text()
     p2_prompt = p2_base.replace("<DETECTED_PARTS_JSON>", json.dumps(detected["damaged_parts"]))
     print("Phase 2: describing parts…")
@@ -1125,6 +1239,202 @@ def main():
         # Fallback: keep original parts as-is
         pass
 
+    # Phase 2 enrichment metrics
+    try:
+        def _nm(s: str) -> str:
+            return (s or "").strip().lower()
+        pre_map = {(_nm(p.get("name", "")), _nm(p.get("location", ""))): p for p in (pre_p2_parts or [])}
+        post_map = {(_nm(p.get("name", "")), _nm(p.get("location", ""))): p for p in (detected.get("damaged_parts", []) or [])}
+        sev_up = 0
+        desc_up = 0
+        notes_up = 0
+        for k, post in post_map.items():
+            pre = pre_map.get(k)
+            if not pre:
+                continue
+            if SEVERITY_PRIORITY_GLOBAL.get(post.get("severity", "minor"), 1) > SEVERITY_PRIORITY_GLOBAL.get(pre.get("severity", "minor"), 1):
+                sev_up += 1
+            if len(str(post.get("description", ""))) > len(str(pre.get("description", ""))):
+                desc_up += 1
+            if len(str(post.get("notes", ""))) > len(str(pre.get("notes", ""))):
+                notes_up += 1
+        appended_new = sum(1 for k in post_map.keys() if k not in pre_map)
+        metrics["phase2_enrichment"] = {
+            "severity_upgrades": sev_up,
+            "description_upgrades": desc_up,
+            "notes_upgrades": notes_up,
+            "appended_new_parts": appended_new,
+            "allow_new_parts": bool(PHASE2_ALLOW_NEW_PARTS),
+        }
+    except Exception:
+        pass
+
+    # Phase 2.5 – Verification (reduce hallucinations) ---------------------
+    if ENABLE_VERIFICATION_PASS and detected.get("damaged_parts"):
+        try:
+            print("Phase 2.5: verifying candidate parts…")
+            verifier_base = PHASE5_VERIFY_PROMPT.read_text()
+            
+            def _areas_for_part(p: dict) -> List[str]:
+                loc = (p.get("location", "") or "").strip().lower()
+                areas: List[str] = []
+                if "front" in loc:
+                    areas.append("front")
+                if ("rear" in loc) or ("back" in loc):
+                    areas.append("rear")
+                if "left" in loc:
+                    areas.append("left side")
+                if "right" in loc:
+                    areas.append("right side")
+                if not areas:
+                    areas = ["front"]
+                # de-dup preserving order
+                seen = set(); out = []
+                for a in areas:
+                    if a not in seen:
+                        out.append(a); seen.add(a)
+                return out
+            
+            def _gather_imgs(p: dict) -> List[Path]:
+                imgs: List[Path] = []
+                try:
+                    for area in _areas_for_part(p):
+                        try:
+                            imgs.extend(make_crops(area, images, areas_json)[:3])
+                        except Exception:
+                            pass
+                    if not imgs:
+                        imgs.extend(global_imgs)
+                    imgs = dedupe_by_phash(imgs)
+                    imgs = select_diverse_top(imgs, k=min(5, len(imgs)))
+                except Exception:
+                    imgs = list(global_imgs)
+                return imgs
+            
+            def verify_one(p: dict) -> tuple[bool, float, dict]:
+                def _sev_thr(pp: dict) -> float:
+                    s = (pp.get("severity") or "minor").strip().lower()
+                    if s == "severe":
+                        return VERIFY_CONF_SEVERE
+                    if s == "moderate":
+                        return VERIFY_CONF_MODERATE
+                    return VERIFY_CONF_MINOR
+
+                def _consensus_required(pp: dict) -> int:
+                    s = (pp.get("severity") or "minor").strip().lower()
+                    return 2 if s in ("severe", "moderate") else 1
+
+                imgs = _gather_imgs(p)
+                # Build base and paraphrased prompts
+                ptxt1 = verifier_base.replace("<CANDIDATE_PART_JSON>", json.dumps(p))
+                ptxt2 = ptxt1 + "\nUse a different reasoning style to double-check. Reply with JSON only."
+                temps = list(VERIFY_TEMPS) if VERIFY_TEMPS else [0.0, 0.2]
+                if len(temps) < 2:
+                    temps = temps + temps  # duplicate if only one provided
+                prompts = [ptxt1, ptxt2]
+                passes = []
+                for i in range(2):
+                    try:
+                        txt = call_openai_vision(prompts[i], imgs, args.model, temperature=float(temps[i]), max_images=min(5, len(imgs)))
+                        if txt.startswith("```"):
+                            if "json" in txt.split("\n")[0]:
+                                txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+                            else:
+                                txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+                        try:
+                            data = json.loads(txt)
+                        except json.JSONDecodeError:
+                            s = txt; l = s.find("{"); r = s.rfind("}")
+                            if l != -1 and r != -1 and r > l:
+                                data = json.loads(s[l:r+1])
+                            else:
+                                raise
+                        present = bool(data.get("present", False))
+                        conf_val = data.get("confidence", 0.0)
+                        conf = float(conf_val) if isinstance(conf_val, (int, float)) else 0.0
+                        passes.append({"present": present, "confidence": conf, "temp": float(temps[i])})
+                    except Exception as e:
+                        print(f"Verification pass {i+1} error for {p.get('name','?')}@{p.get('location','?')}: {e}")
+                        passes.append({"present": False, "confidence": 0.0, "temp": float(temps[i])})
+
+                thr = _sev_thr(p)
+                votes_yes = sum(1 for r in passes if r["present"] and r["confidence"] >= thr)
+                required = _consensus_required(p)
+                kept = votes_yes >= required
+                best_conf = max((r["confidence"] for r in passes), default=0.0)
+                evidence = {
+                    "images": [Path(i).name for i in imgs],
+                    "passes": passes,
+                    "threshold": thr,
+                    "votes_yes": votes_yes,
+                    "consensus_required": required,
+                }
+                return kept, best_conf, evidence
+            
+            kept: List[dict] = []
+            dropped: List[tuple] = []
+            kept_confs: List[float] = []
+            dropped_confs: List[float] = []
+            kept_by_sev = {"severe": 0, "moderate": 0, "minor": 0}
+            dropped_by_sev = {"severe": 0, "moderate": 0, "minor": 0}
+            with concurrent.futures.ThreadPoolExecutor(max_workers=min(8, len(detected["damaged_parts"]))) as ex:
+                fut_map = {ex.submit(verify_one, p): p for p in detected["damaged_parts"]}
+                for fut in concurrent.futures.as_completed(fut_map):
+                    p = fut_map[fut]
+                    try:
+                        ok, conf, ev = fut.result(timeout=45)
+                    except Exception:
+                        ok, conf, ev = False, 0.0, {}
+                    if ok:
+                        kept.append(p)
+                        kept_confs.append(float(conf))
+                        try:
+                            p["_verify"] = ev
+                        except Exception:
+                            pass
+                        sevk = (p.get("severity") or "minor").strip().lower()
+                        if sevk in kept_by_sev:
+                            kept_by_sev[sevk] += 1
+                    else:
+                        dropped.append((p, conf))
+                        dropped_confs.append(float(conf))
+                        sevd = (p.get("severity") or "minor").strip().lower()
+                        if sevd in dropped_by_sev:
+                            dropped_by_sev[sevd] += 1
+            if dropped:
+                for p, conf in dropped:
+                    print(f"❌ Verification dropped: {p.get('name','Unknown')} @ {p.get('location','')} (conf={conf:.2f})")
+            print(f"Verification kept {len(kept)}/{len(detected['damaged_parts'])} parts (threshold={VERIFY_MIN_CONFIDENCE})")
+            detected["damaged_parts"] = kept
+            # Verification metrics
+            try:
+                kept_n = len(kept)
+                total_n = kept_n + len(dropped)
+                avg_kept = (sum(kept_confs) / kept_n) if kept_n else 0.0
+                avg_drop = (sum(dropped_confs) / len(dropped)) if dropped_confs else 0.0
+                metrics["verification"] = {
+                    "threshold": VERIFY_MIN_CONFIDENCE,
+                    "kept": kept_n,
+                    "dropped": len(dropped),
+                    "kept_rate": (kept_n / total_n) if total_n else 0.0,
+                    "avg_conf_kept": round(avg_kept, 3),
+                    "avg_conf_dropped": round(avg_drop, 3),
+                    "severity_thresholds": {
+                        "severe": VERIFY_CONF_SEVERE,
+                        "moderate": VERIFY_CONF_MODERATE,
+                        "minor": VERIFY_CONF_MINOR,
+                    },
+                    "by_severity": {
+                        "kept": kept_by_sev,
+                        "dropped": dropped_by_sev,
+                    },
+                    "consensus_rule": "2-of-2 for severe/moderate, 1-of-2 for minor",
+                }
+            except Exception:
+                pass
+        except Exception as _e:
+            print(f"Verification pass error: {_e}")
+
     # Phase 3 – Plan parts -------------------------------------------------
     p3_base = PHASE3_PROMPT.read_text()
     p3_prompt = p3_base.replace("<DETECTED_PARTS_JSON>", json.dumps(detected["damaged_parts"]))
@@ -1144,6 +1454,7 @@ def main():
         summary_txt = summary_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     detected["summary"] = json.loads(summary_txt)
 
+    pre_final_count = len(detected["damaged_parts"])
     # FINAL DUPLICATE CLEANUP - keep list stable; only drop exact duplicates
     final_parts = []
     seen_keys = set()
@@ -1162,6 +1473,28 @@ def main():
     
     detected["damaged_parts"] = final_parts
     print(f"Final cleanup: {len(final_parts)} unique parts remaining")
+    # Final metrics and completeness retention
+    try:
+        duplicates_removed = pre_final_count - len(final_parts)
+        metrics["final"]["duplicates_removed"] = duplicates_removed
+        metrics["final"]["n_parts"] = len(final_parts)
+        sdist = {}
+        for p in final_parts:
+            s = (p.get("severity") or "minor")
+            sdist[s] = sdist.get(s, 0) + 1
+        metrics["final"]["severity_dist"] = sdist
+        # Retention of completeness-added keys after verification & cleanup
+        comp_added = set(metrics.get("completeness", {}).get("added_keys", []) or [])
+        if comp_added:
+            def _nl(s: str) -> str:
+                return (s or "").strip().lower()
+            final_key_strings = {f"{_nl(p.get('name',''))}|{_nl(p.get('location',''))}" for p in final_parts}
+            retained = len(final_key_strings & comp_added)
+            total_added = len(comp_added)
+            metrics["completeness"]["retained_after_verification"] = retained
+            metrics["completeness"]["retained_rate_after_verification"] = (retained / total_added) if total_added else 0.0
+    except Exception:
+        pass
 
     # Persist superset with enriched final parts
     if PERSIST_MAX_UNION:
@@ -1173,6 +1506,10 @@ def main():
         try:
             _save_superset(superset_path, image_fingerprint, superset_map, superset_runs + 1)
             print(f"Saved superset: {superset_path.name} with {len(superset_map)} keys")
+            try:
+                metrics["superset"]["final_keys"] = len(superset_map)
+            except Exception:
+                pass
         except Exception as e:
             print(f"Warning: failed to save superset: {e}")
 
@@ -1181,6 +1518,31 @@ def main():
     # Write the report to file
     Path(args.out).write_text(json.dumps(report, indent=2))
     print(f"Final report written to {args.out}")
+
+    # Summarize metrics for Railway logs
+    try:
+        print("\n=== METRICS SUMMARY (Railway) ===")
+        print(f" - strict_mode={metrics.get('strict_mode')} temps={metrics.get('detection_temps')}")
+        u = metrics.get("union", {})
+        print(f" - pre_union_raw={u.get('pre_union_raw_parts')} unique={u.get('pre_union_unique_keys')}")
+        vdrop = (u.get("vote_drop_estimate") or {}).get("drop", {})
+        print(f" - vote_drop_estimate: severe={vdrop.get('severe',0)} moderate={vdrop.get('moderate',0)} minor={vdrop.get('minor',0)}")
+        print(f" - post_union_unique={u.get('post_union_unique')} sev_dist={u.get('post_union_severity_dist')}")
+        ver = metrics.get("verification", {})
+        if ver:
+            print(f" - verification: kept={ver.get('kept')} dropped={ver.get('dropped')} kept_rate={round(ver.get('kept_rate',0.0),3)} avg_kept={ver.get('avg_conf_kept')} avg_drop={ver.get('avg_conf_dropped')} thr={ver.get('threshold')}")
+        comp = metrics.get("completeness", {})
+        if comp:
+            print(f" - completeness: runs={comp.get('runs')} added={comp.get('added_count')} retained={comp.get('retained_after_verification',0)}")
+        fin = metrics.get("final", {})
+        print(f" - final: n_parts={fin.get('n_parts')} duplicates_removed={fin.get('duplicates_removed')}")
+        # Emit machine-parsable JSON on a single line for log collection
+        try:
+            print("METRICS_JSON " + json.dumps(metrics))
+        except Exception as _e:
+            print(f"METRICS_JSON serialization error: {_e}")
+    except Exception:
+        pass
 
     # Upload to storage and notify webhook if running in production
     if os.getenv("RAILWAY_ENVIRONMENT") == "production":

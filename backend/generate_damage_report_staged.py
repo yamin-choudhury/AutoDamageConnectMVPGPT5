@@ -57,7 +57,8 @@ ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
 STRICT_MODE = os.getenv("STRICT_MODE", "1") == "1"
 # Comprehensive mode prioritises recall and produces a dual-track output
 # with definitive damaged_parts and potential_parts.
-COMPREHENSIVE_MODE = os.getenv("COMPREHENSIVE_MODE", "0") == "1"
+# Default ON to ensure upper-bound visibility unless explicitly disabled.
+COMPREHENSIVE_MODE = os.getenv("COMPREHENSIVE_MODE", "1") == "1"
 MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "2"))  # Default stricter consensus
 MIN_VOTES_SEVERE = int(os.getenv("MIN_VOTES_SEVERE", str(MIN_VOTES_PER_PART)))
 MIN_VOTES_MODERATE = int(os.getenv("MIN_VOTES_MODERATE", str(MIN_VOTES_PER_PART)))
@@ -65,6 +66,8 @@ MIN_VOTES_MINOR = int(os.getenv("MIN_VOTES_MINOR", str(MIN_VOTES_PER_PART)))
 ENABLE_VERIFICATION_PASS = os.getenv("ENABLE_VERIFICATION_PASS", "1") == "1"
 VERIFY_MIN_CONFIDENCE = float(os.getenv("VERIFY_MIN_CONFIDENCE", "0.65" if STRICT_MODE else "0.55"))
 DETECT_MIN_CONFIDENCE = float(os.getenv("DETECT_MIN_CONFIDENCE", "0.0"))
+# Optional: in future, merge potential into definitive at output
+UPPER_BOUND_DEFINITIVE = os.getenv("UPPER_BOUND_DEFINITIVE", "0") == "1"
 # Detection temperatures: allow env override (e.g., '0.0,0.25,0.4'), else default by STRICT_MODE
 _dtemps = os.getenv("DETECTION_TEMPS")
 if _dtemps:
@@ -738,6 +741,13 @@ def union_parts(runs: List[dict]) -> dict:
             norm(p.get("name", "")),
             norm(p.get("location", "")),
         ))
+        # Ensure a standard 'reason' field for frontend/PDF rendering
+        for pp in potential_from_votes:
+            try:
+                pp.setdefault("reason", "insufficient_votes")
+                pp.setdefault("_potential_reason", pp.get("reason"))
+            except Exception:
+                pass
         return {"vehicle": vehicle, "damaged_parts": parts, "potential_parts": potential_from_votes}
     return {"vehicle": vehicle, "damaged_parts": parts}
 
@@ -1599,7 +1609,9 @@ def main():
                         pot["_verify"] = ev
                     except Exception:
                         pass
-                    pot.setdefault("_potential_reason", "verification_failed")
+                    # Provide standardized reason fields for renderers
+                    pot.setdefault("reason", "verification_failed")
+                    pot.setdefault("_potential_reason", pot.get("reason"))
                     potential.append(pot)
                 # Deduplicate potential by (name, location)
                 uniq = {}

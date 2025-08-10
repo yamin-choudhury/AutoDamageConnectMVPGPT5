@@ -55,6 +55,9 @@ CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
 PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
 ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
 STRICT_MODE = os.getenv("STRICT_MODE", "1") == "1"
+# Comprehensive mode prioritises recall and produces a dual-track output
+# with definitive damaged_parts and potential_parts.
+COMPREHENSIVE_MODE = os.getenv("COMPREHENSIVE_MODE", "0") == "1"
 MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "2"))  # Default stricter consensus
 MIN_VOTES_SEVERE = int(os.getenv("MIN_VOTES_SEVERE", str(MIN_VOTES_PER_PART)))
 MIN_VOTES_MODERATE = int(os.getenv("MIN_VOTES_MODERATE", str(MIN_VOTES_PER_PART)))
@@ -78,10 +81,10 @@ if _vtemps:
         VERIFY_TEMPS = [0.0, 0.2]
 else:
     VERIFY_TEMPS = [0.0, 0.2]
-
-# Vehicle ID toggles (disabled by default to avoid hallucinations)
-ENABLE_VEHICLE_ID = os.getenv("ENABLE_VEHICLE_ID", "0") == "1"
-ALLOW_VEHICLE_BACKFILL = os.getenv("ALLOW_VEHICLE_BACKFILL", "0") == "1"
+# Consensus requirements per severity (number of verification passes that must agree)
+VERIFY_REQUIRE_PASSES_SEVERE = int(os.getenv("VERIFY_REQUIRE_PASSES_SEVERE", "2"))
+VERIFY_REQUIRE_PASSES_MODERATE = int(os.getenv("VERIFY_REQUIRE_PASSES_MODERATE", "2"))
+VERIFY_REQUIRE_PASSES_MINOR = int(os.getenv("VERIFY_REQUIRE_PASSES_MINOR", "1"))
 
 def get_candidate_boxes(img_path: Path):
     """Return empty list – YOLO fully removed."""
@@ -655,8 +658,10 @@ def union_parts(runs: List[dict]) -> dict:
             part["_votes"] = len(cl["runs"])  # votes = number of runs supporting this cluster
             parts.append(part)
 
-    # Optional: filter by minimum votes to reduce single-run hallucinations
-    before_cnt = len(parts)
+    # Optional: filter by minimum votes to reduce single-run hallucinations.
+    # In comprehensive mode, we keep low-vote items as potential_parts instead of dropping them.
+    raw_parts = list(parts)
+    before_cnt = len(raw_parts)
     def _thr(p):
         sev = (p.get("severity") or "minor").strip().lower()
         if sev == "severe":
@@ -664,9 +669,25 @@ def union_parts(runs: List[dict]) -> dict:
         if sev == "moderate":
             return max(1, MIN_VOTES_MODERATE)
         return max(1, MIN_VOTES_MINOR)
-    parts = [p for p in parts if int(p.get("_votes", 0)) >= max(MIN_VOTES_PER_PART, _thr(p))]
-    if len(parts) != before_cnt:
-        print(f"Applied vote thresholds (global={MIN_VOTES_PER_PART}, sev={MIN_VOTES_SEVERE}, mod={MIN_VOTES_MODERATE}, min={MIN_VOTES_MINOR}): {before_cnt}->{len(parts)} parts")
+    filtered = [p for p in raw_parts if int(p.get("_votes", 0)) >= max(MIN_VOTES_PER_PART, _thr(p))]
+    if len(filtered) != before_cnt:
+        print(f"Applied vote thresholds (global={MIN_VOTES_PER_PART}, sev={MIN_VOTES_SEVERE}, mod={MIN_VOTES_MODERATE}, min={MIN_VOTES_MINOR}): {before_cnt}->{len(filtered)} parts")
+    # Compute potential from insufficient votes when in comprehensive mode
+    potential_from_votes: List[dict] = []
+    if COMPREHENSIVE_MODE:
+        def _keyp(px: dict) -> tuple:
+            return (norm(px.get("name", "")), norm(px.get("location", "")))
+        def_keys = {_keyp(p) for p in filtered}
+        seen_pot = set()
+        for rp in raw_parts:
+            k = _keyp(rp)
+            if k in def_keys or k in seen_pot:
+                continue
+            pot = dict(rp)
+            pot.setdefault("_potential_reason", "insufficient_votes")
+            potential_from_votes.append(pot)
+            seen_pot.add(k)
+    parts = filtered
 
     parts.sort(key=lambda p: (
         -p.get("_votes", 0),
@@ -677,6 +698,9 @@ def union_parts(runs: List[dict]) -> dict:
 
     # No cap: keep all distinct (clustered) parts
     print(f"Final merged parts (IoU-clustered @ {CLUSTER_IOU_THRESH}): {[p.get('name','Unknown') for p in parts]}")
+    if COMPREHENSIVE_MODE and potential_from_votes:
+        print(f"Union flagged {len(potential_from_votes)} additional candidates as potential (insufficient votes)")
+        return {"vehicle": vehicle, "damaged_parts": parts, "potential_parts": potential_from_votes}
     return {"vehicle": vehicle, "damaged_parts": parts}
 
 # ----------------------------------------------------------------------
@@ -728,34 +752,127 @@ def main():
         except Exception:
             pass
 
-    # ---------------- Vehicle metadata (no model recognition) ---------------
-    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
-    # Apply CLI overrides if provided (final authority)
-    try:
-        if getattr(args, "vehicle_make", None):
-            vehicle["make"] = args.vehicle_make
-        if getattr(args, "vehicle_model", None):
-            vehicle["model"] = args.vehicle_model
-        if getattr(args, "vehicle_year", None):
+    # ----------------  Phase -1 – Vehicle Identification (Per-image voting)  ----------------
+    def identify_vehicle_image(img: Path) -> dict:
+        """Identify vehicle from a single image with deterministic, badge-aware output."""
+        try:
+            prompt = VEHICLE_ID_PROMPT.read_text()
+            id_txt = call_openai_vision(prompt, [img], args.model, temperature=0.0, max_images=1)
+            if id_txt.startswith("```"):
+                id_txt = id_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            id_json = json.loads(id_txt)
+            veh = id_json.get("vehicle", {})
+            badge = id_json.get("badge_visible", id_json.get("badgeVisible", False))
+            conf = id_json.get("confidence", 0.0)
+            result = {
+                "make": veh.get("make", "Unknown"),
+                "model": veh.get("model", "Unknown"),
+                "year": veh.get("year", 0),
+                "badge_visible": bool(badge),
+                "confidence": float(conf) if isinstance(conf, (int, float)) else 0.0,
+                "_image": img.name,
+                "_path": str(img),
+            }
+            print(f"Vehicle ID from {img.name}: {result}")
+            return result
+        except Exception as e:
+            print(f"Vehicle-ID for {img.name} failed: {e}")
+            return {}
+
+    # Choose up to 6 diverse images for voting
+    id_candidates = select_diverse_top(dedupe_by_phash(images), k=min(6, len(images)))
+    print(f"Vehicle ID on {len(id_candidates)} images: {[p.name for p in id_candidates]}")
+
+    votes = Counter()
+    field_votes = {"make": Counter(), "model": Counter(), "year": Counter()}
+    per_image_results = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(6, len(id_candidates))) as executor:
+        future_to_img = {executor.submit(identify_vehicle_image, img): img for img in id_candidates}
+        for future in concurrent.futures.as_completed(future_to_img):
+            img = future_to_img[future]
             try:
-                vehicle["year"] = int(str(args.vehicle_year).strip())
-            except Exception:
-                pass
-    except Exception:
-        pass
-    print(f"Vehicle (from CLI or default): {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
-    # Optional: allow turning on model-based vehicle ID via env flag (off by default)
-    if ENABLE_VEHICLE_ID:
-        print("ENABLE_VEHICLE_ID=1 is set, but vehicle ID pass is intentionally disabled by default to avoid hallucinations.")
-    # Minimal vehicle metrics
+                res = future.result(timeout=25)
+                if not res:
+                    continue
+                per_image_results.append(res)
+                sig = (res.get("make"), res.get("model"), res.get("year"))
+                weight = 1 + (1 if res.get("badge_visible") else 0) + (1 if (res.get("confidence", 0.0) >= 0.6) else 0)
+                votes[sig] += weight
+                for f in ("make","model","year"):
+                    v = res.get(f)
+                    if v not in (None, "", "Unknown", 0):
+                        field_votes[f][v] += weight
+            except Exception as e:
+                print(f"Vehicle-ID image {img.name} timed out/failed: {e}")
+
+    vehicle = {"make": "Unknown", "model": "Unknown", "year": 0}
+    top = votes.most_common(2)
+    if top:
+        winner, w = top[0]
+        vehicle["make"], vehicle["model"], vehicle["year"] = winner
+        print(f"Vehicle consensus: {winner} (weight {w}) from {len(per_image_results)} images")
+        # Tie-break if close and same make but conflicting model (e.g., 108 vs 308)
+        if len(top) == 2:
+            (cand2, w2) = top[1]
+            if abs(w - w2) <= 2 and winner[0] == cand2[0] and winner[1] != cand2[1]:
+                tb_imgs = [Path(r.get("_path")) for r in per_image_results if r.get("badge_visible")][:2]
+                if not tb_imgs:
+                    tb_imgs = id_candidates[:2]
+                cmp_prompt = (
+                    "You are an expert vehicle identifier. Decide strictly between the two candidate models for the same make.\n"
+                    f"Make: {winner[0]}\n"
+                    f"Candidate A: {winner[1]}\n"
+                    f"Candidate B: {cand2[1]}\n"
+                    "Return JSON only: {\"model\": \"A\" or \"B\", \"confidence\": 0.0-1.0}.\n"
+                    "If uncertain, pick the best guess deterministically at temperature 0.\n"
+                )
+                try:
+                    tb_txt = call_openai_vision(cmp_prompt, tb_imgs, args.model, temperature=0.0, max_images=min(2, len(tb_imgs)))
+                    if tb_txt.startswith("```"):
+                        tb_txt = tb_txt.split("```",1)[1].rsplit("```",1)[0].strip()
+                    tb = json.loads(tb_txt)
+                    pick = tb.get("model")
+                    if pick == "A":
+                        vehicle["model"] = winner[1]
+                    elif pick == "B":
+                        vehicle["model"] = cand2[1]
+                    print(f"Tie-break selected model: {vehicle['model']} (A={winner[1]}, B={cand2[1]})")
+                    tie_break_used = True
+                except Exception as e:
+                    print(f"Tie-break failed: {e}")
+    else:
+        # fallback by independent field votes
+        for f in ("make","model","year"):
+            if field_votes[f]:
+                vehicle[f] = field_votes[f].most_common(1)[0][0]
+    print(f"Final vehicle: {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
+    # Apply CLI overrides if provided
     try:
+        if getattr(args, "vehicle_make", None) or getattr(args, "vehicle_model", None) or getattr(args, "vehicle_year", None):
+            if getattr(args, "vehicle_make", None):
+                vehicle["make"] = args.vehicle_make
+            if getattr(args, "vehicle_model", None):
+                vehicle["model"] = args.vehicle_model
+            if getattr(args, "vehicle_year", None):
+                try:
+                    vehicle["year"] = int(str(args.vehicle_year).strip())
+                except Exception:
+                    pass
+            print(f"Vehicle overridden from CLI: {vehicle.get('make','Unknown')} {vehicle.get('model','Unknown')} {vehicle.get('year',0)}")
+    except Exception as _e:
+        pass
+
+    # Vehicle-ID metrics
+    try:
+        total_results = len(per_image_results)
+        avg_conf = (sum([float(r.get("confidence", 0.0) or 0.0) for r in per_image_results]) / total_results) if total_results else 0.0
+        badge_rate = (sum([1 for r in per_image_results if r.get("badge_visible")]) / total_results) if total_results else 0.0
         metrics["vehicle_id"] = {
-            "enabled": bool(ENABLE_VEHICLE_ID),
-            "source": "cli" if any([
-                getattr(args, "vehicle_make", None),
-                getattr(args, "vehicle_model", None),
-                getattr(args, "vehicle_year", None),
-            ]) else "default",
+            "n_candidates": len(id_candidates),
+            "n_success": total_results,
+            "avg_confidence": round(avg_conf, 3),
+            "badge_visible_rate": round(badge_rate, 3),
+            "tie_break_used": bool(tie_break_used),
             "final": vehicle,
         }
     except Exception:
@@ -1067,26 +1184,26 @@ def main():
         metrics["union"]["post_union_severity_dist"] = sev_counts
     except Exception:
         pass
-    # ---------------- vehicle metadata handling ---------------
-    if ALLOW_VEHICLE_BACKFILL:
-        quick_vehicle = areas_json.get("vehicle", {})
-        for k in ("make", "model", "year"):
-            if detected["vehicle"].get(k, "Unknown") in ("", "Unknown", 0):
-                val = quick_vehicle.get(k)
-                if val not in (None, "", "Unknown", 0):
-                    detected["vehicle"][k] = val
-    # Enforce CLI vehicle overrides to take final precedence
+# ---------------- vehicle back-fill from quick detector ---------------
+    quick_vehicle = areas_json.get("vehicle", {})
+    for k in ("make", "model", "year"):
+        if detected["vehicle"].get(k, "Unknown") in ("", "Unknown", 0):
+            val = quick_vehicle.get(k)
+            if val not in (None, "", "Unknown", 0):
+                detected["vehicle"][k] = val
+    # Ensure CLI vehicle overrides take final precedence if provided
     try:
-        if getattr(args, "vehicle_make", None):
-            detected["vehicle"]["make"] = args.vehicle_make
-        if getattr(args, "vehicle_model", None):
-            detected["vehicle"]["model"] = args.vehicle_model
-        if getattr(args, "vehicle_year", None):
-            try:
-                detected["vehicle"]["year"] = int(str(args.vehicle_year).strip())
-            except Exception:
-                pass
-    except Exception:
+        if getattr(args, "vehicle_make", None) or getattr(args, "vehicle_model", None) or getattr(args, "vehicle_year", None):
+            if getattr(args, "vehicle_make", None):
+                detected["vehicle"]["make"] = args.vehicle_make
+            if getattr(args, "vehicle_model", None):
+                detected["vehicle"]["model"] = args.vehicle_model
+            if getattr(args, "vehicle_year", None):
+                try:
+                    detected["vehicle"]["year"] = int(str(args.vehicle_year).strip())
+                except Exception:
+                    pass
+    except Exception as _e:
         pass
     print(f"Detected {len(detected['damaged_parts'])} unique parts after merging")
 
@@ -1322,7 +1439,11 @@ def main():
 
                 def _consensus_required(pp: dict) -> int:
                     s = (pp.get("severity") or "minor").strip().lower()
-                    return 2 if s in ("severe", "moderate") else 1
+                    if s == "severe":
+                        return max(1, VERIFY_REQUIRE_PASSES_SEVERE)
+                    if s == "moderate":
+                        return max(1, VERIFY_REQUIRE_PASSES_MODERATE)
+                    return max(1, VERIFY_REQUIRE_PASSES_MINOR)
 
                 imgs = _gather_imgs(p)
                 # Build base and paraphrased prompts
@@ -1372,7 +1493,7 @@ def main():
                 return kept, best_conf, evidence
             
             kept: List[dict] = []
-            dropped: List[tuple] = []
+            dropped: List[tuple] = []  # (part, conf, evidence)
             kept_confs: List[float] = []
             dropped_confs: List[float] = []
             kept_by_sev = {"severe": 0, "moderate": 0, "minor": 0}
@@ -1396,16 +1517,45 @@ def main():
                         if sevk in kept_by_sev:
                             kept_by_sev[sevk] += 1
                     else:
-                        dropped.append((p, conf))
+                        dropped.append((p, conf, ev))
                         dropped_confs.append(float(conf))
                         sevd = (p.get("severity") or "minor").strip().lower()
                         if sevd in dropped_by_sev:
                             dropped_by_sev[sevd] += 1
             if dropped:
-                for p, conf in dropped:
+                for p, conf, _ in dropped:
                     print(f"❌ Verification dropped: {p.get('name','Unknown')} @ {p.get('location','')} (conf={conf:.2f})")
             print(f"Verification kept {len(kept)}/{len(detected['damaged_parts'])} parts (threshold={VERIFY_MIN_CONFIDENCE})")
             detected["damaged_parts"] = kept
+            # In comprehensive mode, merge verification-dropped as potential along with any union-derived potential
+            if COMPREHENSIVE_MODE:
+                def _nm(s: str) -> str:
+                    return (s or "").strip().lower()
+                def _k(px: dict) -> tuple:
+                    return (_nm(px.get("name", "")), _nm(px.get("location", "")))
+                kept_keys = {_k(p) for p in kept}
+                # Start with any existing union potential
+                potential = []
+                existing = detected.get("potential_parts", []) or []
+                for pp in existing:
+                    if _k(pp) not in kept_keys:
+                        potential.append(pp)
+                # Add verification-dropped with evidence
+                for p, conf, ev in dropped:
+                    if _k(p) in kept_keys:
+                        continue
+                    pot = dict(p)
+                    try:
+                        pot["_verify"] = ev
+                    except Exception:
+                        pass
+                    pot.setdefault("_potential_reason", "verification_failed")
+                    potential.append(pot)
+                # Deduplicate potential by (name, location)
+                uniq = {}
+                for pp in potential:
+                    uniq[_k(pp)] = pp
+                detected["potential_parts"] = list(uniq.values())
             # Verification metrics
             try:
                 kept_n = len(kept)
@@ -1428,7 +1578,11 @@ def main():
                         "kept": kept_by_sev,
                         "dropped": dropped_by_sev,
                     },
-                    "consensus_rule": "2-of-2 for severe/moderate, 1-of-2 for minor",
+                    "consensus_required": {
+                        "severe": VERIFY_REQUIRE_PASSES_SEVERE,
+                        "moderate": VERIFY_REQUIRE_PASSES_MODERATE,
+                        "minor": VERIFY_REQUIRE_PASSES_MINOR,
+                    },
                 }
             except Exception:
                 pass
@@ -1472,12 +1626,31 @@ def main():
         print(f"✅ Keeping: {part.get('name', 'Unknown')}")
     
     detected["damaged_parts"] = final_parts
+    # Final cleanup for potential parts: remove duplicates and any that are now definitive
+    if COMPREHENSIVE_MODE:
+        try:
+            def _nl(s: str) -> str:
+                return (s or "").strip().lower()
+            keep_keys = {( _nl(p.get('name','')) , _nl(p.get('location','')) ) for p in final_parts}
+            pot_final = []
+            seen_p = set()
+            for pp in (detected.get("potential_parts", []) or []):
+                k = (_nl(pp.get('name','')), _nl(pp.get('location','')))
+                if (k in keep_keys) or (k in seen_p):
+                    continue
+                pot_final.append(pp)
+                seen_p.add(k)
+            detected["potential_parts"] = pot_final
+        except Exception:
+            pass
     print(f"Final cleanup: {len(final_parts)} unique parts remaining")
     # Final metrics and completeness retention
     try:
         duplicates_removed = pre_final_count - len(final_parts)
         metrics["final"]["duplicates_removed"] = duplicates_removed
         metrics["final"]["n_parts"] = len(final_parts)
+        if COMPREHENSIVE_MODE:
+            metrics["final"]["n_potential_parts"] = len(detected.get("potential_parts", []) or [])
         sdist = {}
         for p in final_parts:
             s = (p.get("severity") or "minor")
@@ -1513,7 +1686,43 @@ def main():
         except Exception as e:
             print(f"Warning: failed to save superset: {e}")
 
-    report = detected
+    report = dict(detected)
+    # Attach configuration snapshot for auditability
+    try:
+        report["_config"] = {
+            "comprehensive_mode": COMPREHENSIVE_MODE,
+            "strict_mode": STRICT_MODE,
+            "detection_temps": [float(t) for t in DETECTION_TEMPS],
+            "cluster_iou_thresh": CLUSTER_IOU_THRESH,
+            "min_votes": {
+                "per_part": MIN_VOTES_PER_PART,
+                "severe": MIN_VOTES_SEVERE,
+                "moderate": MIN_VOTES_MODERATE,
+                "minor": MIN_VOTES_MINOR,
+            },
+            "verification": {
+                "enabled": ENABLE_VERIFICATION_PASS,
+                "temps": [float(t) for t in VERIFY_TEMPS],
+                "conf_thresholds": {
+                    "severe": VERIFY_CONF_SEVERE,
+                    "moderate": VERIFY_CONF_MODERATE,
+                    "minor": VERIFY_CONF_MINOR,
+                },
+                "consensus_required": {
+                    "severe": VERIFY_REQUIRE_PASSES_SEVERE,
+                    "moderate": VERIFY_REQUIRE_PASSES_MODERATE,
+                    "minor": VERIFY_REQUIRE_PASSES_MINOR,
+                },
+            },
+            "completeness_pass": ENABLE_COMPLETENESS_PASS,
+            "phase2_allow_new_parts": PHASE2_ALLOW_NEW_PARTS,
+            "persist_max_union": PERSIST_MAX_UNION,
+            "persist_min_support": PERSIST_MIN_SUPPORT,
+            "model": getattr(args, "model", "gpt-4o"),
+            "max_damaged_parts_cap": MAX_DAMAGED_PARTS,
+        }
+    except Exception:
+        pass
 
     # Write the report to file
     Path(args.out).write_text(json.dumps(report, indent=2))
@@ -1535,7 +1744,10 @@ def main():
         if comp:
             print(f" - completeness: runs={comp.get('runs')} added={comp.get('added_count')} retained={comp.get('retained_after_verification',0)}")
         fin = metrics.get("final", {})
-        print(f" - final: n_parts={fin.get('n_parts')} duplicates_removed={fin.get('duplicates_removed')}")
+        if COMPREHENSIVE_MODE:
+            print(f" - final: n_parts={fin.get('n_parts')} n_potential={fin.get('n_potential_parts')} duplicates_removed={fin.get('duplicates_removed')}")
+        else:
+            print(f" - final: n_parts={fin.get('n_parts')} duplicates_removed={fin.get('duplicates_removed')}")
         # Emit machine-parsable JSON on a single line for log collection
         try:
             print("METRICS_JSON " + json.dumps(metrics))

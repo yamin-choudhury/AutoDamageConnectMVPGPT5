@@ -108,18 +108,15 @@ async def download_images(images: list[dict] | list[str], dest: Path):
                 print(f"Failed to download image {idx} from {url}: {str(e)}")
                 raise HTTPException(status_code=400, detail=f"Failed to download image {idx}: {str(e)}")
 
-def run_subprocess(cmd: list[str]):
+def run_subprocess(cmd: list[str], env: dict | None = None):
     print(f"🔧 Running command: {' '.join(cmd)}")
-    proc = subprocess.run(cmd, capture_output=True, text=True)
+    proc = subprocess.run(cmd, capture_output=True, text=True, env=env)
     if proc.returncode != 0:
         print(f"❌ Command failed with return code {proc.returncode}")
         print(f"STDOUT: {proc.stdout}")
         print(f"STDERR: {proc.stderr}")
         raise RuntimeError(f"Command failed: {proc.stderr or proc.stdout}")
     print(f"✅ Command completed successfully")
-    # Forward child stdout so METRICS_JSON and other logs appear in Railway
-    if proc.stdout:
-        print(proc.stdout)
 
 # ---------------------------------------------------------------------------
 # /generate – main pipeline entry
@@ -161,6 +158,43 @@ async def generate_report(payload: GeneratePayload):
                 "--images_dir", str(tmp_dir),
                 "--out", str(out_json),
             ]
+            # Smart defaults for comprehensive, high-recall + verified reporting.
+            # We do not require the user to set envs; we set sane defaults unless already provided by deployment.
+            env = os.environ.copy()
+            smart_env = {
+                "COMPREHENSIVE_MODE": "1",
+                "STRICT_MODE": "0",
+                "ENABLE_COMPLETENESS_PASS": "1",
+                "CLUSTER_IOU_THRESH": "0.6",
+                "PHASE2_ALLOW_NEW_PARTS": "1",
+                "PERSIST_MAX_UNION": "1",
+                "PERSIST_MIN_SUPPORT": "1",
+                "MAX_DAMAGED_PARTS": "0",
+                # Union vote thresholds
+                "MIN_VOTES_PER_PART": "1",
+                "MIN_VOTES_SEVERE": "2",
+                "MIN_VOTES_MODERATE": "1",
+                "MIN_VOTES_MINOR": "2",
+                # Verification
+                "ENABLE_VERIFICATION_PASS": "1",
+                "VERIFY_TEMPS": "0.0,0.3",
+                "VERIFY_CONF_SEVERE": "0.60",
+                "VERIFY_CONF_MODERATE": "0.55",
+                "VERIFY_CONF_MINOR": "0.50",
+                "VERIFY_REQUIRE_PASSES_SEVERE": "2",
+                "VERIFY_REQUIRE_PASSES_MODERATE": "2",
+                "VERIFY_REQUIRE_PASSES_MINOR": "1",
+                # OpenAI robustness
+                "OPENAI_MAX_RETRIES": env.get("OPENAI_MAX_RETRIES", "5"),
+                "OPENAI_CONCURRENCY": env.get("OPENAI_CONCURRENCY", "4"),
+            }
+            for k, v in smart_env.items():
+                # Do not override if deployment explicitly set it
+                if k not in env or env[k] in (None, ""):
+                    env[k] = v
+            print("Smart ENV applied for generator:")
+            for k in sorted(smart_env.keys()):
+                print(f"  - {k}={env.get(k)}")
             # Support both top-level fields and nested document.vehicle
             veh_doc = (doc.get("vehicle") or {}) if isinstance(doc, dict) else {}
             vehicle_make = doc.get("make") if isinstance(doc, dict) else None
@@ -176,7 +210,7 @@ async def generate_report(payload: GeneratePayload):
             if vehicle_year not in (None, "", 0):
                 cmd += ["--vehicle_year", str(vehicle_year)]
             print(f"Generator command: {' '.join(cmd)}")
-            run_subprocess(cmd)
+            run_subprocess(cmd, env=env)
             print("Damage report generation completed")
         except Exception as e:
             print(f"Damage report generation failed: {e}")
@@ -184,27 +218,27 @@ async def generate_report(payload: GeneratePayload):
 
         # Convert to PDF ------------------------------------------------------
         print("Starting PDF conversion process...")
-        # Turn JSON into a simple pretty-printed HTML so Playwright can convert it
         html_path = tmp_dir / "report.html"
         print(f"Reading JSON from: {out_json}")
-        
         try:
             json_content = json.loads(out_json.read_text("utf-8"))
             print("JSON loaded successfully")
         except Exception as e:
             print(f"Failed to read JSON: {e}")
             raise HTTPException(status_code=500, detail=f"Failed to read generated JSON: {str(e)}")
-        
-        # Vehicle info now flows via CLI args directly into the staged generator.
-        # No post-run DB override is applied here.
-        
-        html_content = (
-            "<html><head><meta charset='utf-8'><title>Damage Report</title>"
-            "<style>body{font-family:Arial,Helvetica,sans-serif;}pre{white-space:pre-wrap;font-family:monospace;}</style>"
-            "</head><body><h1>Vehicle Damage Report</h1><pre>" +
-            json.dumps(json_content, indent=2) +
-            "</pre></body></html>"
-        )
+
+        # Build professional HTML with images and annotations
+        # Fallback to payload image URLs if Supabase has no images yet
+        fallback_urls: list[str] = []
+        try:
+            fallback_urls = [
+                (img.get("url") if isinstance(img, dict) else str(img))
+                for img in (doc.get("images") or [])
+                if ((isinstance(img, dict) and img.get("url")) or (isinstance(img, str) and img))
+            ]
+        except Exception:
+            fallback_urls = []
+        html_content = await generate_visual_html_report(json_content, doc_id, fallback_image_urls=fallback_urls)
         html_path.write_text(html_content, encoding="utf-8")
         print(f"HTML file created: {html_path}")
 
@@ -315,7 +349,7 @@ async def generate_report(payload: GeneratePayload):
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
-async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
+async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_image_urls: list[str] | None = None) -> str:
     """
     Generate a professional HTML damage report with images and annotations.
     """
@@ -324,14 +358,33 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
     # Get vehicle info
     vehicle = report_json.get('vehicle', {})
     damaged_parts = report_json.get('damaged_parts', [])
+    potential_parts = report_json.get('potential_parts', [])
     repair_parts = report_json.get('repair_parts', [])
     summary = report_json.get('summary', {})
+    config = report_json.get('_config', {})
+    metrics = report_json.get('_metrics', {})
     
     # Get images from Supabase
     sb = supabase()
     images_result = sb.table("images").select("url").eq("document_id", doc_id).execute()
     image_urls = [img['url'] for img in images_result.data] if images_result.data else []
-    
+    if not image_urls and fallback_image_urls:
+        image_urls = fallback_image_urls
+
+    # Compute severity counts
+    def sev_key(s: str) -> str:
+        s = (s or "").strip().lower()
+        return 'high' if s == 'severe' else ('moderate' if s == 'moderate' else 'low')
+    def count_sev(parts: list[dict]):
+        d = {"severe": 0, "moderate": 0, "minor": 0}
+        for p in parts:
+            s = (p.get('severity') or 'minor').strip().lower()
+            if s in d:
+                d[s] += 1
+        return d
+    sev_def = count_sev(damaged_parts)
+    sev_pot = count_sev(potential_parts)
+
     # HTML template with embedded CSS for professional styling
     html = f"""
 <!DOCTYPE html>
@@ -406,8 +459,19 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
             background-color: #f8fafc;
             border-radius: 0 8px 8px 0;
         }}
+        .potential-part {{
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff7ed;
+            border-radius: 0 8px 8px 0;
+        }}
         .damage-part h3 {{
             color: #1e40af;
+            margin-top: 0;
+        }}
+        .potential-part h3 {{
+            color: #92400e;
             margin-top: 0;
         }}
         .images-grid {{
@@ -453,12 +517,24 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
         .parts-table tr:hover {{
             background-color: #f8fafc;
         }}
+        .badge {{
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 9999px;
+            font-size: 0.75em;
+            background-color: #e5e7eb;
+            color: #111827;
+            margin-left: 8px;
+        }}
+        .badge-reason {{ background-color: #fde68a; color: #78350f; }}
+        .muted {{ color: #6b7280; }}
+        .small {{ font-size: 0.9em; }}
+        .mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }}
         .footer {{
             text-align: center;
             margin-top: 40px;
             padding: 20px;
             color: #6b7280;
-            font-size: 0.9em;
         }}
     </style>
 </head>
@@ -483,16 +559,12 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
     <div class="section">
         <h2>📋 Damage Summary</h2>
         <div class="summary-info">
-            <div class="info-label">Overall Severity:</div>
-            <div class="info-value severity-{summary.get('overall_severity', 'low')}">
-                {summary.get('overall_severity', 'N/A').upper()}
-            </div>
-            <div class="info-label">Repair Complexity:</div>
-            <div class="info-value">{summary.get('repair_complexity', 'N/A').title()}</div>
-            <div class="info-label">Safety Impact:</div>
-            <div class="info-value">{'YES' if summary.get('safety_impacted') else 'NO'}</div>
-            <div class="info-label">Estimated Hours:</div>
-            <div class="info-value">{summary.get('total_estimated_hours', 0)} hours</div>
+            <div class="info-label">Definitive parts:</div>
+            <div class="info-value">{len(damaged_parts)} (severe {sev_def['severe']}, moderate {sev_def['moderate']}, minor {sev_def['minor']})</div>
+            <div class="info-label">Potential parts:</div>
+            <div class="info-value">{len(potential_parts)} (severe {sev_pot['severe']}, moderate {sev_pot['moderate']}, minor {sev_pot['minor']})</div>
+            <div class="info-label">Comprehensive mode:</div>
+            <div class="info-value">{ 'ON' if config.get('comprehensive_mode') else 'OFF' }</div>
         </div>
         {f'<p><strong>Comments:</strong> {summary.get("comments", "")}' if summary.get('comments') else ''}</p>
     </div>
@@ -501,7 +573,6 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
         <h2>📸 Damage Images</h2>
         <div class="images-grid">
 """
-    
     # Add images to the report
     for i, img_url in enumerate(image_urls, 1):
         html += f"""
@@ -521,7 +592,7 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
     
     # Add damaged parts
     for i, part in enumerate(damaged_parts, 1):
-        severity_class = f"severity-{part.get('severity', 'low')}"
+        severity_class = f"severity-{sev_key(part.get('severity', 'low'))}"
         html += f"""
         <div class="damage-part">
             <h3>{i}. {part.get('name', 'Unknown Part')}</h3>
@@ -533,7 +604,7 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
                 <div class="info-label">Damage Type:</div>
                 <div class="info-value">{part.get('damage_type', 'N/A')}</div>
                 <div class="info-label">Severity:</div>
-                <div class="info-value {severity_class}">{part.get('severity', 'N/A').upper()}</div>
+                <div class="info-value {severity_class}">{(part.get('severity') or 'N/A').upper()}</div>
                 <div class="info-label">Repair Method:</div>
                 <div class="info-value">{part.get('repair_method', 'N/A').upper()}</div>
             </div>
@@ -541,7 +612,61 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
             {f'<p><strong>Notes:</strong> {part.get("notes", "")}' if part.get('notes') else ''}</p>
         </div>
         """
-    
+
+    # Potential parts section
+    if potential_parts:
+        html += """
+    </div>
+
+    <div class="section">
+        <h2>🟧 Potential Damage Candidates</h2>
+        <p class="muted small">Items surfaced for assessor review. Reasons shown per item. Verification evidence included when available.</p>
+        """
+        for i, part in enumerate(potential_parts, 1):
+            severity_class = f"severity-{sev_key(part.get('severity', 'low'))}"
+            reason = part.get('_potential_reason', 'candidate')
+            reason_map = {
+                'insufficient_votes': 'Low consensus across detection runs',
+                'verification_failed': 'Did not meet verification threshold',
+            }
+            reason_h = reason_map.get(reason, reason.replace('_',' ').title())
+            verify = part.get('_verify') or {}
+            passes = verify.get('passes') or []
+            thr = verify.get('threshold')
+            votes = verify.get('votes_yes')
+            req = verify.get('consensus_required')
+            ev_html = ""
+            if passes:
+                rows = "".join([
+                    f"<tr><td>Pass {idx+1}</td><td>{'YES' if r.get('present') else 'NO'}</td><td>{r.get('confidence',0):.2f}</td><td>{r.get('temp')}</td></tr>"
+                    for idx, r in enumerate(passes[:3])
+                ])
+                ev_html = f"""
+                <div class="small">
+                    <div class="muted">Verification evidence</div>
+                    <table class="parts-table" style="margin-top:8px;">
+                        <thead><tr><th>Pass</th><th>Present</th><th>Conf.</th><th>Temp</th></tr></thead>
+                        <tbody>{rows}</tbody>
+                    </table>
+                    <div class="muted">Threshold: {thr if thr is not None else '—'} | Votes yes: {votes if votes is not None else '—'} | Required: {req if req is not None else '—'}</div>
+                </div>
+                """
+            html += f"""
+            <div class=\"potential-part\">
+                <h3>{i}. {part.get('name','Unknown Part')} <span class=\"badge badge-reason\">{reason_h}</span></h3>
+                <div class=\"vehicle-info\">
+                    <div class=\"info-label\">Location:</div>
+                    <div class=\"info-value\">{part.get('location','N/A')}</div>
+                    <div class=\"info-label\">Category:</div>
+                    <div class=\"info-value\">{part.get('category','N/A')}</div>
+                    <div class=\"info-label\">Severity:</div>
+                    <div class=\"info-value {severity_class}\">{(part.get('severity') or 'N/A').upper()}</div>
+                </div>
+                {f'<p><strong>Description:</strong> {part.get("description", "")}' if part.get('description') else ''}</p>
+                {ev_html}
+            </div>
+            """
+
     # Add repair parts table if available
     if repair_parts:
         html += """
@@ -593,6 +718,19 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
     html += """
     </div>
 
+    <div class="section">
+        <h2>🧪 Audit & Settings</h2>
+        <div class="small">
+            <div><span class="info-label">Model:</span> {config.get('model','gpt-4o')}</div>
+            <div><span class="info-label">Detection temps:</span> {', '.join([str(t) for t in (config.get('detection_temps') or [])])}</div>
+            <div><span class="info-label">Verification temps:</span> {', '.join([str(t) for t in ((config.get('verification') or {}).get('temps') or [])])}</div>
+            <div><span class="info-label">Verification thresholds (S/M/m):</span> {((config.get('verification') or {}).get('conf_thresholds') or {})}</div>
+            <div><span class="info-label">Consensus required:</span> {((config.get('verification') or {}).get('consensus_required') or {})}</div>
+            <div><span class="info-label">Vote thresholds (S/M/m):</span> {config.get('min_votes')}</div>
+            <div><span class="info-label">Cluster IoU:</span> {config.get('cluster_iou_thresh')}</div>
+        </div>
+    </div>
+
     <div class="footer">
         <p>📄 End of Vehicle Damage Assessment Report</p>
         <p>This report was generated automatically using AI damage detection technology.</p>
@@ -601,7 +739,7 @@ async def generate_visual_html_report(report_json: dict, doc_id: str) -> str:
 </body>
 </html>
     """
-    
+
     return html
 
 # ---------------------------------------------------------------------------

@@ -52,6 +52,8 @@ MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "5"))  # 0 = no cap
 PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "0") == "1"  # default OFF to reduce hallucinations
 PERSIST_MAX_UNION = os.getenv("PERSIST_MAX_UNION", "1") == "1"
 CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
+# Global angle labels cache (content-hash keyed) to avoid repeated classification across runs
+CACHE_ANGLES_DB = (Path(__file__).resolve().parent / "cache" / "angles_db.json")
 PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
 ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
 STRICT_MODE = os.getenv("STRICT_MODE", "1") == "1"
@@ -77,6 +79,22 @@ if _dtemps:
         DETECTION_TEMPS = [0.0] if STRICT_MODE else [0.0, 0.2]
 else:
     DETECTION_TEMPS = [0.0] if STRICT_MODE else [0.0, 0.2]
+# Repeats per temperature for multi-pass detection (early-stop aware)
+DETECTION_REPEATS = int(os.getenv("DETECTION_REPEATS", "1" if STRICT_MODE else "2"))
+# Angle bucketing to reduce hallucinations by keeping viewpoint consistent per call (default ON)
+ANGLE_BUCKETING = os.getenv("ANGLE_BUCKETING", "1") == "1"
+_angles_env = os.getenv("ANGLES")
+DEFAULT_ANGLES = [
+    "front", "front_left", "front_right",
+    "side_left", "side_right",
+    "back", "back_left", "back_right",
+]
+if _angles_env:
+    ANGLES = [a.strip().lower() for a in _angles_env.split(",") if a.strip()]
+else:
+    ANGLES = DEFAULT_ANGLES
+# Limit for base frames per angle per detection call
+MAX_ANGLE_IMAGES = int(os.getenv("MAX_ANGLE_IMAGES", "5"))
 # IoU threshold for clustering parts across runs (prevents vote inflation)
 CLUSTER_IOU_THRESH = float(os.getenv("CLUSTER_IOU_THRESH", "0.4"))
 # Severity-aware verification confidence thresholds (fallback to VERIFY_MIN_CONFIDENCE)
@@ -472,23 +490,30 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
     tmp_dir.mkdir(exist_ok=True)
     # Prefer images that Phase 0 associated with this area
     suspect_paths: List[Path] = []
+    # Limit suspects to the provided images to avoid cross-angle mixing
+    try:
+        _images_set = {str(p) for p in images}
+    except Exception:
+        _images_set = set()
     for item in areas_json.get("damaged_areas", []):
         if area.lower() in item.get("area", "").lower() and item.get("image_path"):
             try:
-                suspect_paths.append(Path(item["image_path"]))
+                cand = Path(item["image_path"])
+                if (not _images_set) or (str(cand) in _images_set):
+                    suspect_paths.append(cand)
             except Exception:
                 pass
     # De-dup suspect set and select diverse top
     base_imgs: List[Path] = []
     if suspect_paths:
         sus_dedup = dedupe_by_phash(suspect_paths)
-        base_imgs = select_diverse_top(sus_dedup, k=min(3, len(sus_dedup)))
+        base_imgs = select_diverse_top(sus_dedup, k=min(MAX_ANGLE_IMAGES, len(sus_dedup)))
         # IMPORTANT: Do not top-up with non-suspect frames.
         # Mixing in unrelated views (e.g., rear for front-end) causes part anchoring drift.
     else:
-        # Fallback: 3 best diverse images overall
+        # Fallback: 3 best diverse images from provided images only (angle-scoped if used)
         deduped = dedupe_by_phash(images)
-        base_imgs = select_diverse_top(deduped, k=min(3, len(deduped)))
+        base_imgs = select_diverse_top(deduped, k=min(MAX_ANGLE_IMAGES, len(deduped)))
     print(f"      Area '{area}': using base frames -> {[p.name for p in base_imgs]}")
     # Always include the downsized full frame
     for p in base_imgs:
@@ -775,6 +800,7 @@ def main():
         "vehicle_id": {},
         "quick": {},
         "phase1": {"tasks_total": 0, "tasks_completed": 0, "per_temp": {}, "per_area": {}, "per_prompt": {}},
+        "angles": {},
         "union": {},
         "phase2_enrichment": {},
         "completeness": {},
@@ -1048,11 +1074,141 @@ def main():
     # Remove duplicate areas to prevent running same prompt combinations twice
     damaged_areas = list(dict.fromkeys(damaged_areas))  # Preserve order, remove duplicates
 
+    # Angle bucketing helpers (heuristic-only for now)
+    def classify_image_angle_heuristic(p: Path) -> str:
+        name = p.name.lower()
+        base = p.stem.lower()
+        s = name + " " + base
+        # normalize common tokens
+        s = s.replace("rear", "back")
+        # pairs
+        if "front left" in s or "left front" in s or "fl" in s:
+            return "front_left"
+        if "front right" in s or "right front" in s or "fr" in s:
+            return "front_right"
+        if "back left" in s or "left back" in s or "rear left" in s or "rl" in s:
+            return "back_left"
+        if "back right" in s or "right back" in s or "rear right" in s or "rr" in s:
+            return "back_right"
+        # singles
+        if "front" in s:
+            return "front"
+        if "back" in s:
+            return "back"
+        # side-only with possible left/right
+        if "side" in s and "left" in s:
+            return "side_left"
+        if "side" in s and "right" in s:
+            return "side_right"
+        if "left" in s:
+            return "side_left"
+        if "right" in s:
+            return "side_right"
+        return "unknown"
 
+    # Persistent cache for per-image angle labels (content-hash keyed)
+    def _load_angles_db() -> dict:
+        try:
+            CACHE_ANGLES_DB.parent.mkdir(parents=True, exist_ok=True)
+            if CACHE_ANGLES_DB.exists():
+                return json.loads(CACHE_ANGLES_DB.read_text())
+        except Exception:
+            pass
+        return {}
 
+    def _save_angles_db(db: dict) -> None:
+        try:
+            CACHE_ANGLES_DB.parent.mkdir(parents=True, exist_ok=True)
+            CACHE_ANGLES_DB.write_text(json.dumps(db, indent=2))
+        except Exception as e:
+            print(f"Warning: failed to save angle cache: {e}")
 
+    def _content_hash_image(p: Path) -> str:
+        h = hashlib.sha1()
+        try:
+            with open(p, 'rb') as f:
+                while True:
+                    chunk = f.read(1 << 20)
+                    if not chunk:
+                        break
+                    h.update(chunk)
+        except Exception:
+            # fallback to name+size if read fails
+            try:
+                st = p.stat()
+                h.update(str(p.name).encode()); h.update(str(st.st_size).encode())
+            except Exception:
+                h.update(str(p).encode())
+        return h.hexdigest()
 
+    def classify_image_angle_llm(p: Path, model: str) -> str:
+        prompt = (
+            "Classify the vehicle viewing angle for this single image into exactly one of "
+            "the following canonical angles: front, front_left, front_right, side_left, "
+            "side_right, back, back_left, back_right. Respond with STRICT JSON only in the form "
+            "{\"angle\": \"<one>\"}."
+        )
+        try:
+            txt = call_openai_vision(prompt, [p], model, temperature=0.0, max_images=1)
+            if txt.startswith("```"):
+                txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            data = json.loads(txt)
+            ang = str(data.get("angle", "")).strip().lower()
+            # normalize aliases
+            aliases = {"rear": "back", "rear_left": "back_left", "rear_right": "back_right"}
+            ang = aliases.get(ang, ang)
+            return ang if ang in ANGLES else "unknown"
+        except Exception as e:
+            print(f"Angle LLM classify failed for {p.name}: {e}")
+            return "unknown"
 
+    def classify_image_angle(p: Path, model: str, db: dict, metrics_angles: dict) -> str:
+        ch = _content_hash_image(p)
+        rec = db.get(ch)
+        if rec and isinstance(rec, dict) and rec.get("angle"):
+            try:
+                metrics_angles["cache_hits"] = int(metrics_angles.get("cache_hits", 0)) + 1
+            except Exception:
+                pass
+            return rec.get("angle")
+        try:
+            metrics_angles["cache_misses"] = int(metrics_angles.get("cache_misses", 0)) + 1
+        except Exception:
+            pass
+        # Try heuristic first; if unknown, use LLM at temp=0
+        ang = classify_image_angle_heuristic(p)
+        source = "heuristic"
+        if ang == "unknown":
+            ang = classify_image_angle_llm(p, model)
+            source = "llm"
+        try:
+            metrics_angles[f"from_{source}"] = int(metrics_angles.get(f"from_{source}", 0)) + 1
+        except Exception:
+            pass
+        db[ch] = {"angle": ang, "updated": time.time(), "path": str(p)}
+        return ang
+
+    # Build angle buckets
+    angle_buckets: dict[str, list[Path]] = {a: [] for a in ANGLES}
+    unassigned: list[Path] = []
+    if ANGLE_BUCKETING:
+        angles_db = _load_angles_db()
+        metrics.setdefault("angles", {})
+        for p in images:
+            ang = classify_image_angle(p, getattr(args, "model", "gpt-4o"), angles_db, metrics["angles"])  # cached + LLM fallback
+            if ang in angle_buckets:
+                angle_buckets[ang].append(p)
+            else:
+                unassigned.append(p)
+        _save_angles_db(angles_db)
+        angle_counts = {a: len(v) for a, v in angle_buckets.items()}
+        try:
+            metrics["angles"]["counts"] = angle_counts
+            metrics["angles"]["unassigned"] = len(unassigned)
+        except Exception:
+            pass
+    else:
+        angle_counts = {"all": len(images)}
 
     def run_area_detection_task(area, prompt_path, temp, imgs_for_call, model):
         """Run a single area detection task with specific temperature"""
@@ -1117,60 +1273,112 @@ def main():
             print(f"    ❌ {task_id} failed: {e}")
             return None
     
-    # Create all detection tasks upfront
-    detection_tasks = []
-    for area in damaged_areas:
-        prompt_paths = area_prompt_map.get(area, [PHASE1_FRONT_ENTERPRISE_PROMPT])
-        imgs_for_call = make_crops(area, images, areas_json)
-        
-        for prompt_path in prompt_paths:
-            # Slight ensemble to increase coverage without encouraging hallucinations
-            for temp in DETECTION_TEMPS:
-                detection_tasks.append((area, prompt_path, temp, imgs_for_call))
-    # Global enterprise sweep over diverse full frames (complements area shards)
-    global_imgs = select_diverse_top(dedupe_by_phash(images), k=min(5, len(images)))
-    for temp in DETECTION_TEMPS:
-        detection_tasks.append(("global", PHASE1_ENTERPRISE_PROMPT, temp, global_imgs))
-
-    print(f"Phase 1: Running {len(detection_tasks)} area-specialist + enterprise detection tasks in parallel...")
+    # Per-angle orchestration
+    print("Phase 1: multi-pass detection with repeats and early-stop…")
+    runs = []
     try:
-        metrics["phase1"]["tasks_total"] = len(detection_tasks)
+        metrics["phase1"]["repeats_run"] = {}
+        metrics["phase1"]["early_stops"] = {}
+        metrics["phase1"]["tasks_total"] = 0
     except Exception:
         pass
-    
-    # Execute all tasks in parallel with optimal thread count
-    max_workers = min(8, len(detection_tasks))  # Don't overwhelm OpenAI API
-    runs = []
-    
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # Preserve original task order deterministically
-        future_to_idx = {
-            executor.submit(run_area_detection_task, area, prompt_path, temp, imgs, args.model): i
-            for i, (area, prompt_path, temp, imgs) in enumerate(detection_tasks)
-        }
-        results_by_idx = {}
-        completed_count = 0
-        for future in concurrent.futures.as_completed(future_to_idx):
-            i = future_to_idx[future]
-            area, prompt_path, temp, _imgs = detection_tasks[i]
-            try:
-                result = future.result(timeout=45)  # increased timeout for stability
-                if result:
-                    results_by_idx[i] = result
-                completed_count += 1
-                print(f"Progress: {completed_count}/{len(detection_tasks)} tasks completed")
-                # Phase 1 metrics updates (successful tasks)
+
+    angle_to_images = angle_buckets if ANGLE_BUCKETING else {"all": images}
+    angle_order = ANGLES[:] if ANGLE_BUCKETING else ["all"]
+    # If we have unassigned frames, run them as a separate 'unknown' bucket last
+    if ANGLE_BUCKETING and unassigned:
+        angle_to_images = dict(angle_to_images)
+        angle_to_images["unknown"] = unassigned
+        angle_order = angle_order + ["unknown"]
+    for angle in angle_order:
+        imgs_angle = angle_to_images.get(angle, [])
+        if not imgs_angle:
+            continue
+        print(f" Angle '{angle}': {len(imgs_angle)} images")
+        # Prepare base tasks per area/prompt for this angle
+        base_tasks = []  # (area, prompt_path, imgs_for_call)
+        for area in damaged_areas:
+            prompt_paths = area_prompt_map.get(area, [PHASE1_FRONT_ENTERPRISE_PROMPT])
+            imgs_for_call = make_crops(area, imgs_angle, areas_json)
+            for prompt_path in prompt_paths:
+                base_tasks.append((area, prompt_path, imgs_for_call))
+        # Global enterprise sweep restricted to this angle's frames
+        global_imgs = select_diverse_top(dedupe_by_phash(imgs_angle), k=min(MAX_ANGLE_IMAGES, len(imgs_angle)))
+
+        for temp in DETECTION_TEMPS:
+            tkey = f"{angle}:{temp}"
+            temp_runs = []
+            seen_keys_prev = set()
+            repeats_done = 0
+            for rep in range(1, max(1, DETECTION_REPEATS) + 1):
+                # Build current repeat's tasks for this temperature
+                detection_tasks = []
+                for area, prompt_path, imgs_for_call in base_tasks:
+                    detection_tasks.append((area, prompt_path, temp, imgs_for_call))
+                detection_tasks.append(("global", PHASE1_ENTERPRISE_PROMPT, temp, global_imgs))
+
                 try:
-                    metrics["phase1"]["tasks_completed"] = completed_count
-                    tkey = str(temp)
-                    metrics["phase1"]["per_temp"][tkey] = metrics["phase1"]["per_temp"].get(tkey, 0) + 1
-                    metrics["phase1"]["per_area"][area] = metrics["phase1"]["per_area"].get(area, 0) + 1
-                    metrics["phase1"]["per_prompt"][prompt_path.name] = metrics["phase1"]["per_prompt"].get(prompt_path.name, 0) + 1
+                    metrics["phase1"]["tasks_total"] += len(detection_tasks)
                 except Exception:
                     pass
-            except Exception as e:
-                print(f"Task {area}-{prompt_path.name}-{temp} failed: {e}")
-        runs = [results_by_idx[i] for i in range(len(detection_tasks)) if i in results_by_idx]
+
+                print(f"  [{angle}] Temp {temp} — Repeat {rep}: running {len(detection_tasks)} tasks…")
+                max_workers = min(8, len(detection_tasks))
+                with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    future_to_idx = {
+                        executor.submit(run_area_detection_task, area, prompt_path, temp, imgs, args.model): i
+                        for i, (area, prompt_path, temp, imgs) in enumerate(detection_tasks)
+                    }
+                    results_by_idx = {}
+                    for future in concurrent.futures.as_completed(future_to_idx):
+                        i = future_to_idx[future]
+                        area, prompt_path, temp, _imgs = detection_tasks[i]
+                        try:
+                            result = future.result(timeout=45)
+                            if result:
+                                results_by_idx[i] = result
+                            # Phase 1 metrics updates (successful tasks)
+                            try:
+                                metrics["phase1"]["tasks_completed"] = int(metrics["phase1"].get("tasks_completed", 0)) + 1
+                                metrics["phase1"]["per_temp"][str(temp)] = metrics["phase1"]["per_temp"].get(str(temp), 0) + 1
+                                metrics["phase1"]["per_area"][area] = metrics["phase1"]["per_area"].get(area, 0) + 1
+                                metrics["phase1"]["per_prompt"][getattr(prompt_path, "name", str(prompt_path))] = metrics["phase1"]["per_prompt"].get(getattr(prompt_path, "name", str(prompt_path)), 0) + 1
+                            except Exception:
+                                pass
+                        except Exception as e:
+                            print(f"Task {area}-{getattr(prompt_path,'name',str(prompt_path))}-{temp} failed: {e}")
+
+                # Append results preserving deterministic order
+                repeat_results = [results_by_idx[i] for i in range(len(detection_tasks)) if i in results_by_idx]
+                runs.extend(repeat_results)
+                temp_runs.extend(repeat_results)
+                repeats_done += 1
+
+                # Early-stop check: union keys for this angle+temperature so far
+                try:
+                    merged_temp = union_parts(temp_runs)
+                    # Compute canonical keys across both definitive and potential parts
+                    cur_def = merged_temp.get("damaged_parts", []) or []
+                    cur_pot = merged_temp.get("potential_parts", []) or []
+                    keys_now = { _key_for_part(canonicalize_part(p)) for p in (cur_def + cur_pot) }
+                    new_keys = keys_now - seen_keys_prev
+                    print(f"    [{angle}] Temp {temp} — Repeat {rep}: +{len(new_keys)} new unique keys")
+                    if not new_keys:
+                        print(f"    Early-stop: [{angle}] Temp {temp} saturated after {rep} repeats")
+                        try:
+                            metrics["phase1"]["early_stops"][tkey] = True
+                        except Exception:
+                            pass
+                        break
+                    seen_keys_prev = keys_now
+                except Exception as _e:
+                    # If union fails, continue repeats defensively
+                    pass
+
+            try:
+                metrics["phase1"]["repeats_run"][tkey] = repeats_done
+            except Exception:
+                pass
 
     if not runs:
         sys.exit("Enterprise detection failed for all areas")
@@ -1662,6 +1870,46 @@ def main():
         except Exception as _e:
             print(f"Verification pass error: {_e}")
 
+    # Optional: upper-bound merge — promote potential parts to definitive
+    if COMPREHENSIVE_MODE and UPPER_BOUND_DEFINITIVE:
+        try:
+            def _nl(s: str) -> str:
+                return (s or "").strip().lower()
+            def _k(px: dict) -> tuple:
+                return (_nl(px.get("name", "")), _nl(px.get("location", "")))
+            keep = list(detected.get("damaged_parts", []) or [])
+            keep_keys = { _k(p) for p in keep }
+            added = 0
+            for pp in (detected.get("potential_parts", []) or []):
+                k = _k(pp)
+                if k in keep_keys:
+                    continue
+                pot = dict(pp)
+                pot.setdefault("reason", "upper_bound_merge")
+                pot.setdefault("_potential_reason", pot.get("reason"))
+                keep.append(pot)
+                keep_keys.add(k)
+                added += 1
+            # Deterministic ordering consistent with union sort
+            try:
+                keep.sort(key=lambda p: (
+                    -int(p.get("_votes", 0)),
+                    -SEVERITY_PRIORITY_GLOBAL.get(_nl(p.get("severity", "minor")), 1),
+                    _nl(p.get("name", "")),
+                    _nl(p.get("location", "")),
+                ))
+            except Exception:
+                pass
+            detected["damaged_parts"] = keep
+            detected["potential_parts"] = []
+            print(f"Upper-bound merge: promoted {added} potential parts to definitive")
+            try:
+                metrics.setdefault("upper_bound", {})["promoted"] = added
+            except Exception:
+                pass
+        except Exception:
+            pass
+
     # Phase 3 – Plan parts -------------------------------------------------
     p3_base = PHASE3_PROMPT.read_text()
     p3_prompt = p3_base.replace("<DETECTED_PARTS_JSON>", json.dumps(detected["damaged_parts"]))
@@ -1781,6 +2029,7 @@ def main():
             "comprehensive_mode": COMPREHENSIVE_MODE,
             "strict_mode": STRICT_MODE,
             "detection_temps": [float(t) for t in DETECTION_TEMPS],
+            "detection_repeats": int(DETECTION_REPEATS),
             "cluster_iou_thresh": CLUSTER_IOU_THRESH,
             "min_votes": {
                 "per_part": MIN_VOTES_PER_PART,
@@ -1806,8 +2055,16 @@ def main():
             "phase2_allow_new_parts": PHASE2_ALLOW_NEW_PARTS,
             "persist_max_union": PERSIST_MAX_UNION,
             "persist_min_support": PERSIST_MIN_SUPPORT,
+            "upper_bound_definitive": UPPER_BOUND_DEFINITIVE,
             "model": getattr(args, "model", "gpt-4o"),
             "max_damaged_parts_cap": MAX_DAMAGED_PARTS,
+            "angle_bucketing": {
+                "enabled": ANGLE_BUCKETING,
+                "angles": ANGLES,
+                "max_angle_images": MAX_ANGLE_IMAGES,
+                "counts": (metrics.get("angles", {}) or {}).get("counts"),
+                "unassigned": (metrics.get("angles", {}) or {}).get("unassigned"),
+            },
         }
     except Exception:
         pass
@@ -1820,6 +2077,13 @@ def main():
     try:
         print("\n=== METRICS SUMMARY (Railway) ===")
         print(f" - strict_mode={metrics.get('strict_mode')} temps={metrics.get('detection_temps')}")
+        angm = metrics.get("angles", {}) or {}
+        if angm:
+            print(f" - angles: enabled={ANGLE_BUCKETING} counts={angm.get('counts')} unassigned={angm.get('unassigned')}")
+        # Phase 1 summary
+        p1 = metrics.get("phase1", {})
+        if p1:
+            print(f" - phase1: repeats_run={p1.get('repeats_run')} early_stops={p1.get('early_stops')} tasks_total={p1.get('tasks_total')} completed={p1.get('tasks_completed')}")
         u = metrics.get("union", {})
         print(f" - pre_union_raw={u.get('pre_union_raw_parts')} unique={u.get('pre_union_unique_keys')}")
         vdrop = (u.get("vote_drop_estimate") or {}).get("drop", {})
@@ -1831,6 +2095,9 @@ def main():
         comp = metrics.get("completeness", {})
         if comp:
             print(f" - completeness: runs={comp.get('runs')} added={comp.get('added_count')} retained={comp.get('retained_after_verification',0)}")
+        ub = metrics.get("upper_bound", {})
+        if ub:
+            print(f" - upper_bound_merge: promoted={ub.get('promoted',0)}")
         fin = metrics.get("final", {})
         if COMPREHENSIVE_MODE:
             print(f" - final: n_parts={fin.get('n_parts')} n_potential={fin.get('n_potential_parts')} duplicates_removed={fin.get('duplicates_removed')}")

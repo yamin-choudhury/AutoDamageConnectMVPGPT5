@@ -1,9 +1,10 @@
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Progress } from "@/components/ui/progress";
 import DocumentPreview from "@/components/DocumentPreview";
 import { User } from "@supabase/supabase-js";
 import { User as UserIcon } from "lucide-react";
@@ -12,6 +13,10 @@ import Spinner from "@/components/ui/Spinner";
 import ImageUploader from "@/components/ImageUploader";
 import HistorySidebar from "@/components/HistorySidebar";
 import VehicleInfoForm from "@/components/VehicleInfoForm";
+import AngleReviewBoard from "@/components/AngleReviewBoard";
+import type { ReviewImage } from "@/components/AngleBucketPanel";
+import { BACKEND_BASE_URL } from "@/lib/config";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 interface DashboardProps {
   user: User;
@@ -27,6 +32,19 @@ interface VehicleInfo {
   trimBodyStyle: string;
 }
 
+interface DocumentRow {
+  id: string;
+  status?: string | null;
+  created_at?: string | null;
+  title?: string | null;
+  vin?: string | null;
+  registration_plate?: string | null;
+  make?: string | null;
+  model?: string | null;
+  year?: string | null;
+  trim_body_style?: string | null;
+}
+
 const Dashboard = ({ user, onLogout }: DashboardProps) => {
   const [selectedDocumentId, setSelectedDocumentId] = useState<string | null>(null);
   const [vehicleInfo, setVehicleInfo] = useState<VehicleInfo>({
@@ -37,110 +55,40 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
     year: '',
     trimBodyStyle: '',
   });
-  const [currentDocument, setCurrentDocument] = useState<any>(null);
+  const [currentDocument, setCurrentDocument] = useState<DocumentRow | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [docStatus, setDocStatus] = useState<string | null>(null);
   const { toast } = useToast();
   const navigate = useNavigate();
   const [anglesReady, setAnglesReady] = useState<boolean | null>(null);
+  const [angleClassifying, setAngleClassifying] = useState(false);
+  const [angleTotals, setAngleTotals] = useState<{ total_exterior: number; unknown_exterior: number } | null>(null);
+  const [pollId, setPollId] = useState<number | null>(null);
+  const [reviewOpen, setReviewOpen] = useState(false);
+  const [reviewImages, setReviewImages] = useState<{ url: string; id?: string; category?: "exterior" | "interior" | "document" }[]>([]);
+  const [statusErrorCount, setStatusErrorCount] = useState(0);
+  const backendBaseUrl = BACKEND_BASE_URL;
 
-  // show success/error when docStatus changes
-  useEffect(() => {
-    if (docStatus === 'ready') {
-      toast({ title: 'Report ready', description: 'Damage report has been generated.' });
-      setIsGenerating(false);
-    } else if (docStatus === 'error') {
-      toast({ title: 'Generation failed', variant: 'destructive' });
-      setIsGenerating(false);
-    }
-  }, [docStatus, toast]);
-
-  // Real-time subscription for document status updates
-  useEffect(() => {
-    if (!selectedDocumentId) {
-      setDocStatus(null);
-      return;
-    }
-
-    // Check actual database status first
-    const checkDatabaseStatus = async () => {
-      const { data, error } = await supabase
-        .from('documents')
-        .select('id, status, created_at')
-        .eq('id', selectedDocumentId)
-        .single();
-      
-      console.log('🔍 Database status check:', { data, error });
-      if (data) {
-        console.log('  - Actual DB status:', data.status);
-        console.log('  - Current docStatus state:', docStatus);
-        
-        // If DB shows ready but state is wrong, fix it immediately
-        if (data.status === 'ready' && docStatus !== 'ready') {
-          console.log('🚑 FIXING STATE MISMATCH: DB is ready but state is', docStatus);
-          setDocStatus('ready');
-          setIsGenerating(false);
-        }
-      }
-    };
-    
-    checkDatabaseStatus();
-    
-    // Set up real-time listener for this document
-    const channel = supabase
-      .channel("dashboard-doc-" + selectedDocumentId)
-      .on(
-        "postgres_changes",
-        { 
-          event: "UPDATE", 
-          schema: "public", 
-          table: "documents", 
-          filter: `id=eq.${selectedDocumentId}` 
-        },
-        (payload) => {
-          console.log('🎯 Dashboard real-time update received!');
-          console.log('  - Previous status:', docStatus);
-          console.log('  - New status:', payload.new.status);
-          console.log('  - Was generating:', isGenerating);
-          
-          setDocStatus(payload.new.status);
-          setIsGenerating(false); // Clear generating state on any status change
-          
-          console.log('  - Updated states: docStatus ->', payload.new.status, ', isGenerating -> false');
-        }
-      )
-      .subscribe();
-      
-    // Backup: Check database status every 3 seconds
-    const statusCheck = setInterval(checkDatabaseStatus, 3000);
-
-    return () => {
-      try { clearInterval(statusCheck); } catch {}
-      supabase.removeChannel(channel);
-    };
-  }, [selectedDocumentId]);
+  // Helper minimal Supabase typed interfaces to avoid 'any'
+  type SBSelectResult<T> = Promise<{ data: T[] | null; error: unknown | null }>;
+  type SBFromSelect<T> = { select: (cols: string) => { eq: (col: string, val: string) => SBSelectResult<T> } };
+  type SBClient = { from: <T = unknown>(table: string) => SBFromSelect<T> };
+  const sbTyped = supabase as unknown as SBClient;
 
   // Check if angle review is complete for this document
-  useEffect(() => {
-    const run = async () => {
-      if (!selectedDocumentId) { setAnglesReady(null); return; }
-      await checkAnglesComplete(selectedDocumentId);
-    };
-    void run();
-  }, [selectedDocumentId]);
-
-  const checkAnglesComplete = async (documentId: string): Promise<boolean> => {
+  const checkAnglesComplete = useCallback(async (documentId: string): Promise<boolean> => {
     try {
       // Prefer enriched public.images; fall back logic: if none exist yet, consider not ready
-      const { data: imgs, error } = await (supabase as any)
-        .from('images')
+      type ImgRow = { id?: string; category: 'exterior'|'interior'|'document'|null; angle: string | null };
+      const { data: imgs, error } = await (sbTyped as unknown as { from: <T=ImgRow>(t: string) => SBFromSelect<T> })
+        .from<ImgRow>('images')
         .select('id, category, angle')
         .eq('document_id', documentId);
 
       if (error) throw error;
       if (!imgs || imgs.length === 0) { setAnglesReady(false); return false; }
 
-      const exterior = (imgs as any[]).filter((i) => (i.category ?? 'exterior') === 'exterior');
+      const exterior = (imgs as ImgRow[]).filter((i) => (i.category ?? 'exterior') === 'exterior');
       if (exterior.length === 0) { setAnglesReady(false); return false; }
 
       const hasUnlabeled = exterior.some((i) => !i.angle || i.angle === 'unknown');
@@ -151,26 +99,111 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
       setAnglesReady(false);
       return false;
     }
-  };
+  }, [sbTyped]);
+
+  // Start and poll background angle classification for a document
+  const startAngleClassification = useCallback(async (docId: string) => {
+    if (!backendBaseUrl) return;
+    try {
+      setAngleClassifying(true);
+      // best-effort start
+      await fetch(`${backendBaseUrl}/angles/classify/start`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ document_id: docId })
+      }).catch((e) => { console.warn('angles/classify/start error', e); });
+
+      // begin polling status
+      const id = window.setInterval(async () => {
+        try {
+          const res = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
+          if (res.ok) {
+            setStatusErrorCount(0);
+            const s = await res.json();
+            setAngleTotals({ total_exterior: s.total_exterior ?? 0, unknown_exterior: s.unknown_exterior ?? 0 });
+            if (typeof s.unknown_exterior === 'number' && s.unknown_exterior === 0) {
+              window.clearInterval(id);
+              setPollId(null);
+              setAngleClassifying(false);
+              // refresh angle readiness
+              void checkAnglesComplete(docId);
+            }
+          } else {
+            setStatusErrorCount((c) => c + 1);
+          }
+        } catch (e) { setStatusErrorCount((c) => c + 1); /* tolerate transient errors */ }
+      }, 1200);
+      setPollId(id);
+    } catch (e) {
+      console.warn('startAngleClassification failed', e);
+      setAngleClassifying(false);
+    }
+  }, [backendBaseUrl, checkAnglesComplete]);
+
+  const retryAnglePolling = useCallback(async () => {
+    if (!selectedDocumentId || !backendBaseUrl) return;
+    setStatusErrorCount(0);
+    // clear any existing poller before retrying
+    if (pollId) { try { window.clearInterval(pollId); } catch { /* ignore */ } setPollId(null); }
+    await startAngleClassification(selectedDocumentId);
+  }, [selectedDocumentId, backendBaseUrl, startAngleClassification, pollId]);
+
+  // Cleanup poller
+  useEffect(() => {
+    return () => { if (pollId) window.clearInterval(pollId); };
+  }, [pollId]);
+
+  // On document selection, resume polling existing background classification (if any)
+  useEffect(() => {
+    const docId = selectedDocumentId;
+    if (!docId || !backendBaseUrl) return;
+    (async () => {
+      try {
+        const res = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
+        if (!res.ok) { setStatusErrorCount((c) => c + 1); return; }
+        setStatusErrorCount(0);
+        const s = await res.json();
+        setAngleTotals({ total_exterior: s.total_exterior ?? 0, unknown_exterior: s.unknown_exterior ?? 0 });
+        const hasUnknown = typeof s.unknown_exterior === 'number' && s.unknown_exterior > 0;
+        if (hasUnknown) {
+          // Start a poller if one is not already running
+          if (!pollId) {
+            setAngleClassifying(true);
+            const id = window.setInterval(async () => {
+              try {
+                const res2 = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
+                if (res2.ok) {
+                  setStatusErrorCount(0);
+                  const s2 = await res2.json();
+                  setAngleTotals({ total_exterior: s2.total_exterior ?? 0, unknown_exterior: s2.unknown_exterior ?? 0 });
+                  if (typeof s2.unknown_exterior === 'number' && s2.unknown_exterior === 0) {
+                    window.clearInterval(id);
+                    setPollId(null);
+                    setAngleClassifying(false);
+                    // ensure readiness flag updates
+                    void checkAnglesComplete(docId);
+                  }
+                } else {
+                  setStatusErrorCount((c) => c + 1);
+                }
+              } catch { setStatusErrorCount((c) => c + 1); /* ignore transient errors */ }
+            }, 1200);
+            setPollId(id);
+          } else {
+            setAngleClassifying(true);
+          }
+        }
+      } catch { setStatusErrorCount((c) => c + 1); /* ignore */ }
+    })();
+  }, [selectedDocumentId, backendBaseUrl, pollId, checkAnglesComplete]);
 
   useEffect(() => {
-    if (selectedDocumentId) {
-      fetchDocument(selectedDocumentId);
-    } else {
-      // Reset form for new document
-      setVehicleInfo({
-        vin: '',
-        registrationPlate: '',
-        make: '',
-        model: '',
-        year: '',
-        trimBodyStyle: '',
-      });
-      setCurrentDocument(null);
-    }
-  }, [selectedDocumentId]);
+    const run = async () => {
+      if (!selectedDocumentId) { setAnglesReady(null); return; }
+      await checkAnglesComplete(selectedDocumentId);
+    };
+    void run();
+  }, [selectedDocumentId, checkAnglesComplete]);
 
-  const fetchDocument = async (documentId: string) => {
+  const fetchDocument = useCallback(async (documentId: string) => {
     try {
       const { data, error } = await supabase
         .from('documents')
@@ -197,7 +230,24 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
         variant: "destructive",
       });
     }
-  };
+  }, [toast]);
+
+  useEffect(() => {
+    if (selectedDocumentId) {
+      void fetchDocument(selectedDocumentId);
+    } else {
+      // Reset form for new document
+      setVehicleInfo({
+        vin: '',
+        registrationPlate: '',
+        make: '',
+        model: '',
+        year: '',
+        trimBodyStyle: '',
+      });
+      setCurrentDocument(null);
+    }
+  }, [selectedDocumentId, fetchDocument]);
 
   const saveDocument = async (): Promise<string | null> => {
     try {
@@ -365,9 +415,24 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
             {/* Welcome Section */}
             <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-2xl">
-                  {selectedDocumentId ? 'Edit Document' : 'Create New Document'}
-                </CardTitle>
+                <div className="flex items-start justify-between gap-3">
+                  <CardTitle className="text-2xl">
+                    {selectedDocumentId ? 'Edit Document' : 'Create New Document'}
+                  </CardTitle>
+                  {selectedDocumentId && (
+                    <div className="mt-1">
+                      {angleClassifying ? (
+                        <span className="inline-flex items-center rounded-full px-2 py-1 bg-blue-50 text-blue-700 border border-blue-200 text-xs">
+                          Angles {angleTotals ? `${Math.max(0, (angleTotals.total_exterior - angleTotals.unknown_exterior))}/${angleTotals.total_exterior}` : '…'}
+                        </span>
+                      ) : anglesReady === true ? (
+                        <span className="inline-flex items-center rounded-full px-2 py-1 bg-green-50 text-green-700 border border-green-200 text-xs">
+                          Angles ready
+                        </span>
+                      ) : null}
+                    </div>
+                  )}
+                </div>
                 <p className="text-gray-600">
                   {selectedDocumentId 
                     ? 'Update vehicle information and images for this document.'
@@ -392,7 +457,27 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                 </p>
               </CardHeader>
               <CardContent>
-                <ImageUploader documentId={selectedDocumentId} onDocumentCreated={setSelectedDocumentId} />
+                <ImageUploader 
+                  documentId={selectedDocumentId} 
+                  onDocumentCreated={setSelectedDocumentId}
+                  onUploadFinished={async ({ documentId }) => {
+                    toast({ title: 'Classifying angles…', description: 'We are calculating image angles in the background.' });
+                    await startAngleClassification(documentId);
+                  }}
+                />
+
+                {/* Angle classification progress */}
+                {selectedDocumentId && angleClassifying && (
+                  <div className="mt-4 p-3 rounded-md bg-blue-50 border border-blue-200">
+                    <div className="flex items-center justify-between text-sm text-blue-800">
+                      <span>Calculating angles…</span>
+                      <span>
+                        {angleTotals ? `${Math.max(0, (angleTotals.total_exterior - angleTotals.unknown_exterior))}/${angleTotals.total_exterior}` : ''}
+                      </span>
+                    </div>
+                    <Progress className="mt-2" value={angleTotals && angleTotals.total_exterior > 0 ? ((angleTotals.total_exterior - angleTotals.unknown_exterior) / angleTotals.total_exterior) * 100 : 0} />
+                  </div>
+                )}
               </CardContent>
             </Card>
 
@@ -427,11 +512,43 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                       toast({ title: 'Error', description: 'Please save the document first', variant: 'destructive' });
                       return;
                     }
-                    navigate(`/review/${docId}`);
+                    // load images for dialog with fallback to legacy table
+                    try {
+                      type ImageRow = { url: string; angle: string | null; category: 'exterior'|'interior'|'document'|null; is_closeup?: boolean|null; source?: string|null; confidence?: number|null };
+                      const { data: enriched } = await sbTyped
+                        .from<ImageRow>('images')
+                        .select('url, angle, category, is_closeup, source, confidence')
+                        .eq('document_id', docId);
+
+                      if (enriched && enriched.length > 0) {
+                        const mapped = enriched
+                          .filter(r => !!r.url)
+                          .map(r => ({ url: r.url, category: (r.category ?? 'exterior') as 'exterior'|'interior'|'document' }));
+                        setReviewImages(mapped);
+
+                        // if unknown exterior remain, kick/resume background classification & polling
+                        const unknownExterior = enriched
+                          .filter(r => (r.category ?? 'exterior') === 'exterior')
+                          .filter(r => !r.angle || r.angle === 'unknown').length;
+                        if (unknownExterior > 0 && backendBaseUrl && !angleClassifying && !pollId) {
+                          await startAngleClassification(docId);
+                        }
+                      } else {
+                        // fallback to legacy document_images
+                        const { data: legacy, error: legacyErr } = await supabase
+                          .from('document_images')
+                          .select('image_url')
+                          .eq('document_id', docId);
+                        if (legacyErr) { console.warn('legacy images query failed', legacyErr); }
+                        const mappedLegacy = (legacy || []).map((r: { image_url: string }) => ({ url: r.image_url, category: 'exterior' as const }));
+                        setReviewImages(mappedLegacy);
+                      }
+                    } catch (e) { console.warn('load images for review failed', e); }
+                    setReviewOpen(true);
                   }}
                   className="border border-gray-300 px-6"
                 >
-                  Review Angles
+                  {angleTotals ? `Review Angles (${Math.max(0, (angleTotals.total_exterior - angleTotals.unknown_exterior))}/${angleTotals.total_exterior})` : 'Review Angles'}
                 </Button>
               )}
               {selectedDocumentId && (
@@ -498,6 +615,53 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
           </div>
         </main>
        </div>
+
+       {/* Angle Review Dialog encapsulated in dashboard */}
+       <Dialog open={reviewOpen} onOpenChange={setReviewOpen}>
+         <DialogContent className="max-w-5xl w-[96vw]">
+           <DialogHeader>
+             <DialogTitle>Review Angles</DialogTitle>
+           </DialogHeader>
+            {selectedDocumentId ? (
+              <div className="space-y-4">
+                {angleClassifying && (
+                  <div className="p-3 rounded-md bg-blue-50 border border-blue-200">
+                    <div className="flex items-center justify-between text-sm text-blue-800">
+                      <span>Calculating angles…</span>
+                      <span>
+                        {angleTotals ? `${Math.max(0, (angleTotals.total_exterior - angleTotals.unknown_exterior))}/${angleTotals.total_exterior}` : ''}
+                      </span>
+                    </div>
+                    <Progress className="mt-2" value={angleTotals && angleTotals.total_exterior > 0 ? ((angleTotals.total_exterior - angleTotals.unknown_exterior) / angleTotals.total_exterior) * 100 : 0} />
+                  </div>
+                )}
+                {statusErrorCount >= 3 && (angleTotals?.unknown_exterior ?? 0) > 0 && (
+                  <div className="p-3 rounded-md bg-amber-50 border border-amber-200 flex items-center justify-between text-amber-800 text-sm">
+                    <span>Having trouble updating classification status.</span>
+                    <button onClick={retryAnglePolling} className="px-2 py-1 text-xs rounded bg-amber-600 text-white hover:bg-amber-700">Retry</button>
+                  </div>
+                )}
+                {reviewImages.length === 0 && (
+                  <div className="text-sm text-gray-500">Loading images…</div>
+                )}
+                <AngleReviewBoard
+                  documentId={selectedDocumentId}
+                  backendBaseUrl={backendBaseUrl || ''}
+                  initialImages={reviewImages}
+                  onConfirm={(imgs: ReviewImage[]) => {
+                   setReviewOpen(false);
+                   setAnglesReady(true);
+                   toast({ title: 'Angles saved', description: 'All exterior images are labeled.' });
+                 }}
+                 autoClassifyOnMount={false}
+                />
+                <div className="text-xs text-gray-500">Prefer a full page? <button className="underline" onClick={() => { setReviewOpen(false); if (selectedDocumentId) navigate(`/review/${selectedDocumentId}`); }}>Open Review Page</button></div>
+              </div>
+            ) : (
+              <div className="text-sm text-gray-600">Save or select a document to review angles.</div>
+            )}
+         </DialogContent>
+       </Dialog>
 
        {/* Only show overlay if NOT in fullscreen report mode */}
        {!showFullscreenReport && (isGenerating || docStatus==='processing') && (

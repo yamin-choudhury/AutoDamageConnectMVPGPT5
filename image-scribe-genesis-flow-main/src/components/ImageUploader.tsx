@@ -18,9 +18,10 @@ interface UploadedImage {
 interface Props {
   documentId: string | null;
   onDocumentCreated?: (id: string) => void;
+  onUploadFinished?: (payload: { documentId: string; uploadedCount: number }) => void;
 }
 
-const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
+const ImageUploader = ({ documentId, onDocumentCreated, onUploadFinished }: Props) => {
   const [images, setImages] = useState<UploadedImage[]>([]);
   const [isUploading, setIsUploading] = useState(false);
 
@@ -147,6 +148,9 @@ const ImageUploader = ({ documentId, onDocumentCreated }: Props) => {
       
       if (successCount > 0) {
         toast({ title: "Upload complete", description: `${successCount} image(s) uploaded successfully` });
+        if (docId && onUploadFinished) {
+          onUploadFinished({ documentId: docId, uploadedCount: successCount });
+        }
       } else {
         toast({ title: "Upload failed", description: "No images were uploaded", variant: "destructive" });
       }

@@ -1056,10 +1056,19 @@ class AngleClassifyStartPayload(BaseModel):
 async def angles_classify_start(payload: AngleClassifyStartPayload):
     doc_id = payload.document_id
     sb = supabase()
-    # Fetch current images for this document
+    # Fetch current images for this document (prefer enriched images; fallback to legacy)
     try:
         res = sb.table("images").select("url, category, angle, is_closeup, source, confidence").eq("document_id", doc_id).execute()
         rows = getattr(res, "data", None) or []
+        if not rows:
+            # Fallback to legacy document_images
+            try:
+                leg = sb.table("document_images").select("image_url").eq("document_id", doc_id).execute()
+                leg_rows = getattr(leg, "data", None) or []
+                # Map to enriched-like shape; treat as exterior unknown
+                rows = [{"url": r.get("image_url"), "category": "exterior", "angle": None} for r in leg_rows if r.get("image_url")]
+            except Exception:
+                pass
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Supabase read failed: {e}")
 
@@ -1191,6 +1200,14 @@ async def angles_classify_status(document_id: str):
     try:
         res = sb.table("images").select("url, category, angle").eq("document_id", document_id).execute()
         rows = getattr(res, "data", None) or []
+        if not rows:
+            # Fallback to legacy document_images to compute totals
+            try:
+                leg = sb.table("document_images").select("image_url").eq("document_id", document_id).execute()
+                leg_rows = getattr(leg, "data", None) or []
+                rows = [{"url": r.get("image_url"), "category": "exterior", "angle": None} for r in leg_rows if r.get("image_url")]
+            except Exception:
+                pass
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Supabase read failed: {e}")
     total_exterior = 0; unknown_exterior = 0

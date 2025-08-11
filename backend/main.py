@@ -1051,6 +1051,7 @@ class AngleClassifyStartPayload(BaseModel):
     document_id: str
     reclassify_unknown_only: bool = True
     llm_enabled: bool = True
+    debug_sync: bool = False
 
 @app.post("/angles/classify/start")
 async def angles_classify_start(payload: AngleClassifyStartPayload):
@@ -1084,6 +1085,10 @@ async def angles_classify_start(payload: AngleClassifyStartPayload):
     ]
 
     queued = len(to_classify)
+    print(f"[angles] start: document_id={doc_id} queued={queued} total_rows={len(rows)}")
+    if queued > 0:
+        sample = [it.get("url") for it in to_classify[:3]]
+        print(f"[angles] sample urls: {sample}")
     if queued == 0:
         return {"status": "started", "queued": 0, "document_id": doc_id}
 
@@ -1108,91 +1113,110 @@ async def angles_classify_start(payload: AngleClassifyStartPayload):
         def content_hash_bytes(b: bytes) -> str:
             h = hashlib.sha1(); h.update(b); return h.hexdigest()
 
-        async with httpx.AsyncClient(timeout=30) as client:
-            cache = load_cache()
-            rows_to_upsert = []
-            for it in items:
-                url = it.get("url")
-                angle = "unknown"; source = "llm"; conf = None
-                try:
-                    if not url or not url.startswith(("http://", "https://")):
-                        raise ValueError("Invalid URL")
-                    resp = await client.get(url)
-                    resp.raise_for_status()
-                    b = resp.content
-                    ch = content_hash_bytes(b)
-                    c = cache.get(ch)
-                    if c and isinstance(c, dict) and c.get("angle"):
-                        angle = c["angle"]; source = c.get("source", "cache"); conf = c.get("confidence")
-                    else:
-                        used_llm = False
-                        if payload.llm_enabled and openai_client is not None:
-                            try:
-                                prompt = (
-                                    "Classify the vehicle viewing angle into one of: front, front_left, front_right, "
-                                    "side_left, side_right, back, back_left, back_right. Respond ONLY with the angle token."
-                                )
-                                completion = openai_client.chat.completions.create(
-                                    model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
-                                    messages=[
-                                        {"role": "system", "content": "You are a strict classifier."},
-                                        {
-                                            "role": "user",
-                                            "content": [
-                                                {"type": "text", "text": prompt},
-                                                {"type": "image_url", "image_url": {"url": url}},
-                                            ],
-                                        },
-                                    ],
-                                    temperature=0.0,
-                                )
-                                txt = (completion.choices[0].message.content or "").strip().lower()
-                                aliases = {"rear": "back", "rear_left": "back_left", "rear_right": "back_right"}
-                                txt = aliases.get(txt, txt)
-                                if txt in [
-                                    "front","front_left","front_right","side_left","side_right","back","back_left","back_right"
-                                ]:
-                                    angle = txt; source = "llm"; conf = None; used_llm = True
-                            except Exception as _:
-                                pass
-                        if angle == "unknown" and not used_llm:
-                            s = url.lower().replace("rear", "back")
-                            if ("front left" in s) or ("left front" in s) or (" fl" in s): angle = "front_left"
-                            elif ("front right" in s) or ("right front" in s) or (" fr" in s): angle = "front_right"
-                            elif ("back left" in s) or ("left back" in s) or ("rear left" in s) or (" rl" in s): angle = "back_left"
-                            elif ("back right" in s) or ("right back" in s) or ("rear right" in s) or (" rr" in s): angle = "back_right"
-                            elif "front" in s: angle = "front"
-                            elif "back" in s: angle = "back"
-                            elif "side" in s and "left" in s: angle = "side_left"
-                            elif "side" in s and "right" in s: angle = "side_right"
-                            elif " left" in s: angle = "side_left"
-                            elif " right" in s: angle = "side_right"
-                            else: angle = "unknown"
-                            source = "heuristic"
-                        cache[ch] = {"angle": angle, "source": source, "confidence": conf, "updated": time.time()}
-                except Exception:
-                    angle = "unknown"; source = "error"; conf = None
-                rows_to_upsert.append({
-                    "document_id": doc_id,
-                    "url": url,
-                    "angle": angle,
-                    "source": source,
-                    "confidence": conf,
-                })
-            save_cache(cache)
         try:
-            sb.table("images").upsert(rows_to_upsert, on_conflict=["document_id", "url"]).execute()
-        except Exception:
-            # Best-effort fallback
-            for row in rows_to_upsert:
-                try:
-                    sb.table("images").update({k: v for k, v in row.items() if k not in ("document_id","url")} ).eq("document_id", row["document_id"]).eq("url", row["url"]).execute()
-                except Exception:
-                    pass
+            print(f"[angles] worker: start doc={doc_id} items={len(items)}")
+            async with httpx.AsyncClient(timeout=30) as client:
+                cache = load_cache()
+                rows_to_upsert = []
+                for idx, it in enumerate(items, start=1):
+                    url = it.get("url")
+                    angle = "unknown"; source = "llm"; conf = None
+                    try:
+                        if not url or not url.startswith(("http://", "https://")):
+                            raise ValueError("Invalid URL")
+                        try:
+                            resp = await client.get(url)
+                            resp.raise_for_status()
+                            b = resp.content
+                            ch = content_hash_bytes(b)
+                        except Exception as fetch_err:
+                            print(f"[angles] fetch error idx={idx} url={url}: {fetch_err}")
+                            ch = None
+                        c = cache.get(ch) if ch else None
+                        if c and isinstance(c, dict) and c.get("angle"):
+                            angle = c["angle"]; source = c.get("source", "cache"); conf = c.get("confidence")
+                        else:
+                            used_llm = False
+                            if payload.llm_enabled and openai_client is not None:
+                                try:
+                                    prompt = (
+                                        "Classify the vehicle viewing angle into one of: front, front_left, front_right, "
+                                        "side_left, side_right, back, back_left, back_right. Respond ONLY with the angle token."
+                                    )
+                                    completion = openai_client.chat.completions.create(
+                                        model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
+                                        messages=[
+                                            {"role": "system", "content": "You are a strict classifier."},
+                                            {
+                                                "role": "user",
+                                                "content": [
+                                                    {"type": "text", "text": prompt},
+                                                    {"type": "image_url", "image_url": {"url": url}},
+                                                ],
+                                            },
+                                        ],
+                                        temperature=0.0,
+                                    )
+                                    txt = (completion.choices[0].message.content or "").strip().lower()
+                                    aliases = {"rear": "back", "rear_left": "back_left", "rear_right": "back_right"}
+                                    txt = aliases.get(txt, txt)
+                                    if txt in [
+                                        "front","front_left","front_right","side_left","side_right","back","back_left","back_right"
+                                    ]:
+                                        angle = txt; source = "llm"; conf = None; used_llm = True
+                                except Exception as llm_err:
+                                    print(f"[angles] llm error idx={idx} url={url}: {llm_err}")
+                            if angle == "unknown" and not used_llm:
+                                s = url.lower().replace("rear", "back")
+                                if ("front left" in s) or ("left front" in s) or (" fl" in s): angle = "front_left"
+                                elif ("front right" in s) or ("right front" in s) or (" fr" in s): angle = "front_right"
+                                elif ("back left" in s) or ("left back" in s) or ("rear left" in s) or (" rl" in s): angle = "back_left"
+                                elif ("back right" in s) or ("right back" in s) or ("rear right" in s) or (" rr" in s): angle = "back_right"
+                                elif "front" in s: angle = "front"
+                                elif "back" in s: angle = "back"
+                                elif "side" in s and "left" in s: angle = "side_left"
+                                elif "side" in s and "right" in s: angle = "side_right"
+                                elif " left" in s: angle = "side_left"
+                                elif " right" in s: angle = "side_right"
+                                else: angle = "unknown"
+                                source = "heuristic"
+                        cache[ch] = {"angle": angle, "source": source, "confidence": conf, "updated": time.time()} if ch else {"angle": angle, "source": source, "confidence": conf}
+                    except Exception as item_err:
+                        print(f"[angles] classify error idx={idx} url={url}: {item_err}")
+                        angle = "unknown"; source = "error"; conf = None
+                    rows_to_upsert.append({
+                        "document_id": doc_id,
+                        "url": url,
+                        "angle": angle,
+                        "source": source,
+                        "confidence": conf,
+                    })
+                save_cache(cache)
+            try:
+                sb.table("images").upsert(rows_to_upsert, on_conflict=["document_id", "url"]).execute()
+                print(f"[angles] upserted {len(rows_to_upsert)} rows for doc={doc_id}")
+            except Exception as up_err:
+                print(f"[angles] upsert error doc={doc_id}: {up_err}")
+                # Best-effort fallback
+                ok = 0
+                for row in rows_to_upsert:
+                    try:
+                        sb.table("images").update({k: v for k, v in row.items() if k not in ("document_id","url")} ).eq("document_id", row["document_id"]).eq("url", row["url"]).execute()
+                        ok += 1
+                    except Exception as upd_err:
+                        print(f"[angles] update error doc={doc_id} url={row.get('url')}: {upd_err}")
+                print(f"[angles] fallback updated {ok}/{len(rows_to_upsert)} rows for doc={doc_id}")
+        except Exception as worker_err:
+            print(f"[angles] worker fatal doc={doc_id}: {worker_err}")
 
-    # Fire-and-forget background task
-    asyncio.create_task(_classify_and_persist(doc_id, to_classify))
-    return {"status": "started", "queued": queued, "document_id": doc_id}
+    # Fire-and-forget background task (or run synchronously for debugging)
+    if payload.debug_sync:
+        print(f"[angles] debug_sync enabled for doc={doc_id}")
+        await _classify_and_persist(doc_id, to_classify)
+        return {"status": "completed", "queued": queued, "document_id": doc_id}
+    else:
+        asyncio.create_task(_classify_and_persist(doc_id, to_classify))
+        return {"status": "started", "queued": queued, "document_id": doc_id}
 
 @app.get("/angles/classify/status")
 async def angles_classify_status(document_id: str):
@@ -1218,4 +1242,6 @@ async def angles_classify_status(document_id: str):
             total_exterior += 1
             if not ang or ang == "unknown":
                 unknown_exterior += 1
-    return {"document_id": document_id, "total_exterior": total_exterior, "unknown_exterior": unknown_exterior}
+    out = {"document_id": document_id, "total_exterior": total_exterior, "unknown_exterior": unknown_exterior}
+    print(f"[angles] status: doc={document_id} totals={total_exterior} unknown={unknown_exterior}")
+    return out

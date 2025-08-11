@@ -88,8 +88,13 @@ app = FastAPI(title="Damage Report Service")
 # ---------------------------------------------------------------------------
 # CORS (allow frontend to call this API)
 # ---------------------------------------------------------------------------
-allowed_origins_env = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173")
+allowed_origins_env = os.getenv(
+    "ALLOWED_ORIGINS",
+    # Default to common Vite dev origins
+    "http://localhost:5173,http://localhost:8081,http://127.0.0.1:8081",
+)
 allowed_origins = [o.strip() for o in allowed_origins_env.split(",") if o.strip()]
+print(f"CORS allowed origins: {allowed_origins}")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,

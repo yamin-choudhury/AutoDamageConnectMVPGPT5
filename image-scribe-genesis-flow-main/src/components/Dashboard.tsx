@@ -1,5 +1,5 @@
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
@@ -76,10 +76,13 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
   type SBFromSelect<T> = { select: (cols: string) => { eq: (col: string, val: string) => SBSelectResult<T> } };
   type SBClient = { from: <T = unknown>(table: string) => SBFromSelect<T> };
   const sbTyped = supabase as unknown as SBClient;
+  const statusReqInFlight = useRef(false);
 
   // Helper to refresh server-computed angle totals and update UI state
   const refreshStatus = useCallback(async (docId: string) => {
     if (!backendBaseUrl) return;
+    if (statusReqInFlight.current) return;
+    statusReqInFlight.current = true;
     try {
       const res = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
       if (!res.ok) { setStatusErrorCount((c) => c + 1); return; }
@@ -92,6 +95,8 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
       if (totals.unknown_exterior === 0 && totals.total_exterior > 0) setAngleClassifying(false);
     } catch {
       setStatusErrorCount((c) => c + 1);
+    } finally {
+      statusReqInFlight.current = false;
     }
   }, [backendBaseUrl]);
 
@@ -153,21 +158,19 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
   useEffect(() => {
     const docId = selectedDocumentId;
     if (!docId || !backendBaseUrl) return;
-    (async () => {
-      // tear down existing channel
-      if (imagesChannel) { try { supabase.removeChannel(imagesChannel); } catch { /* ignore */ } setImagesChannel(null); }
-      // create new realtime subscription for this document
-      const ch = supabase.channel(`images-${docId}`) as unknown as RealtimeChannel;
-      ch.on('postgres_changes', { event: '*', schema: 'public', table: 'images', filter: `document_id=eq.${docId}` }, async (_payload: unknown) => {
-        // whenever an image row changes, refresh totals
-        await refreshStatus(docId);
-      });
-      await ch.subscribe();
-      setImagesChannel(ch);
-      // initial status fetch
+    // create new realtime subscription for this document
+    const ch = supabase.channel(`images-${docId}`) as unknown as RealtimeChannel;
+    ch.on('postgres_changes', { event: '*', schema: 'public', table: 'images', filter: `document_id=eq.${docId}` }, async (_payload: unknown) => {
+      // whenever an image row changes, refresh totals
       await refreshStatus(docId);
-    })();
-  }, [selectedDocumentId, backendBaseUrl, imagesChannel, refreshStatus]);
+    });
+    void ch.subscribe();
+    setImagesChannel(ch);
+    // initial status fetch
+    void refreshStatus(docId);
+    // cleanup on doc change/unmount
+    return () => { try { supabase.removeChannel(ch); } catch { /* ignore */ } setImagesChannel(null); };
+  }, [selectedDocumentId, backendBaseUrl, refreshStatus]);
 
   useEffect(() => {
     const run = async () => {

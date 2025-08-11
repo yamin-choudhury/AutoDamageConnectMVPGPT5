@@ -1,10 +1,17 @@
 from fastapi import FastAPI, HTTPException, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pathlib import Path
 from uuid import uuid4
 import os, json, tempfile, shutil, subprocess
 import httpx
+import hashlib, time
+from typing import Optional, List
 from supabase import create_client, Client
+try:
+    import openai  # Optional, used for LLM fallback in angle classification
+except Exception:
+    openai = None
 
 # ---------------------------------------------------------------------------
 # Environment
@@ -78,6 +85,19 @@ def supabase() -> Client:
 
 app = FastAPI(title="Damage Report Service")
 
+# ---------------------------------------------------------------------------
+# CORS (allow frontend to call this API)
+# ---------------------------------------------------------------------------
+allowed_origins_env = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173")
+allowed_origins = [o.strip() for o in allowed_origins_env.split(",") if o.strip()]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 class GeneratePayload(BaseModel):
     document: dict
 
@@ -85,25 +105,43 @@ class GeneratePayload(BaseModel):
 # Helper utilities
 # ---------------------------------------------------------------------------
 async def download_images(images: list[dict] | list[str], dest: Path):
-    """Download each image url into dest/<idx>.jpg asynchronously."""
+    """Download images into dest with angle-aware filenames.
+
+    - Exterior images with known angle are saved as idx_{angle}.jpg
+    - Exterior images without angle saved as idx.jpg
+    - Interior/document images are skipped (not part of angle-bucket detection)
+    """
     print(f"Attempting to download {len(images)} images...")
     for idx, img in enumerate(images):
         url = img["url"] if isinstance(img, dict) else img
         print(f"Image {idx}: {url}")
-    
+
     async with httpx.AsyncClient(timeout=60) as client:
         for idx, img in enumerate(images):
             try:
-                url = img["url"] if isinstance(img, dict) else img
-                print(f"Downloading image {idx} from: {url}")
-                
-                if not url or not isinstance(url, str) or not url.startswith(('http://', 'https://')):
+                if isinstance(img, dict):
+                    url = img.get("url")
+                    category = (img.get("category") or "exterior").lower()
+                    angle = (img.get("angle") or "").lower()
+                else:
+                    url = img
+                    category = "exterior"
+                    angle = ""
+
+                if not url or not isinstance(url, str) or not url.startswith(("http://", "https://")):
                     raise ValueError(f"Invalid URL: {url}")
-                
+
+                # Skip interior/document from detection set
+                if category in ("interior", "document"):
+                    print(f"Skipping non-exterior image {idx} ({category})")
+                    continue
+
+                print(f"Downloading image {idx} from: {url}")
                 r = await client.get(url)
                 r.raise_for_status()
-                (dest / f"{idx}.jpg").write_bytes(r.content)
-                print(f"Successfully downloaded image {idx}")
+                fname = f"{idx}_{angle}.jpg" if angle else f"{idx}.jpg"
+                (dest / fname).write_bytes(r.content)
+                print(f"Successfully downloaded image {idx} -> {fname}")
             except Exception as e:
                 print(f"Failed to download image {idx} from {url}: {str(e)}")
                 raise HTTPException(status_code=400, detail=f"Failed to download image {idx}: {str(e)}")
@@ -189,6 +227,10 @@ async def generate_report(payload: GeneratePayload):
                 # OpenAI robustness
                 "OPENAI_MAX_RETRIES": env.get("OPENAI_MAX_RETRIES", "5"),
                 "OPENAI_CONCURRENCY": env.get("OPENAI_CONCURRENCY", "4"),
+                # Angle bucketing defaults (enable by default for reviewed images)
+                "ANGLE_BUCKETING": env.get("ANGLE_BUCKETING", "1"),
+                "ANGLES": env.get("ANGLES", "front,front_left,front_right,side_left,side_right,back,back_left,back_right"),
+                "MAX_ANGLE_IMAGES": env.get("MAX_ANGLE_IMAGES", "0"),
             }
             for k, v in smart_env.items():
                 # Do not override if deployment explicitly set it
@@ -790,3 +832,189 @@ async def pdf_from_json(payload: PDFPayload):
 @app.get("/")
 async def root():
     return {"status": "ok"}
+
+# ---------------------------------------------------------------------------
+# /classify-angles – LLM primary with cache, heuristic fallback
+# ---------------------------------------------------------------------------
+class AngleImageIn(BaseModel):
+    url: str
+    id: Optional[str] = None
+
+class ClassifyAnglesRequest(BaseModel):
+    images: List[AngleImageIn]
+    reclassify_unknown_only: bool = True
+    max_concurrency: int = 4
+    llm_enabled: bool = True
+
+@app.post("/classify-angles")
+async def classify_angles(req: ClassifyAnglesRequest):
+    t0 = time.time()
+    tmp_dir = Path(tempfile.mkdtemp(prefix="angles_"))
+    cache_path = Path(tempfile.gettempdir()) / "angle_cache.json"
+
+    def load_cache() -> dict:
+        try:
+            if cache_path.exists():
+                return json.loads(cache_path.read_text())
+        except Exception:
+            pass
+        return {}
+
+    def save_cache(db: dict) -> None:
+        try:
+            cache_path.write_text(json.dumps(db, indent=2))
+        except Exception:
+            pass
+
+    def content_hash_bytes(b: bytes) -> str:
+        h = hashlib.sha1(); h.update(b); return h.hexdigest()
+
+    def classify_heuristic_from_name(name: str) -> str:
+        s = name.lower().replace("rear", "back")
+        if ("front left" in s) or ("left front" in s) or (" fl" in s):
+            return "front_left"
+        if ("front right" in s) or ("right front" in s) or (" fr" in s):
+            return "front_right"
+        if ("back left" in s) or ("left back" in s) or ("rear left" in s) or (" rl" in s):
+            return "back_left"
+        if ("back right" in s) or ("right back" in s) or ("rear right" in s) or (" rr" in s):
+            return "back_right"
+        if "front" in s:
+            return "front"
+        if "back" in s:
+            return "back"
+        if "side" in s and "left" in s:
+            return "side_left"
+        if "side" in s and "right" in s:
+            return "side_right"
+        if " left" in s:
+            return "side_left"
+        if " right" in s:
+            return "side_right"
+        return "unknown"
+
+    async with httpx.AsyncClient(timeout=30) as client:
+        cache = load_cache()
+        results = []
+        for item in req.images:
+            status = "ok"; err = None; angle = "unknown"; source = "llm"; conf: Optional[float] = None
+            url = item.url
+            try:
+                if not url.startswith(("http://", "https://")):
+                    raise ValueError("Invalid URL")
+                # Download
+                r = await client.get(url)
+                r.raise_for_status()
+                b = r.content
+                ch = content_hash_bytes(b)
+                # Cache hit
+                c = cache.get(ch)
+                if c and isinstance(c, dict) and c.get("angle"):
+                    angle = c["angle"]; source = c.get("source", "cache"); conf = c.get("confidence")
+                else:
+                    # LLM primary (if enabled and SDK available)
+                    used_llm = False
+                    if req.llm_enabled and openai is not None:
+                        try:
+                            prompt = (
+                                "Classify the vehicle viewing angle into one of: front, front_left, front_right, "
+                                "side_left, side_right, back, back_left, back_right. Respond ONLY with the angle token."
+                            )
+                            completion = openai.ChatCompletion.create(
+                                model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
+                                messages=[
+                                    {"role": "system", "content": "You are a strict classifier."},
+                                    {
+                                        "role": "user",
+                                        "content": [
+                                            {"type": "text", "text": prompt},
+                                            {"type": "image_url", "image_url": {"url": url}},
+                                        ],
+                                    },
+                                ],
+                                temperature=0.0,
+                            )
+                            txt = (completion.choices[0].message["content"] or "").strip().lower()
+                            aliases = {"rear": "back", "rear_left": "back_left", "rear_right": "back_right"}
+                            txt = aliases.get(txt, txt)
+                            if txt in [
+                                "front","front_left","front_right","side_left","side_right","back","back_left","back_right"
+                            ]:
+                                angle = txt; source = "llm"; conf = None; used_llm = True
+                        except Exception as le:
+                            # LLM failure -> remain unknown for now; fall back to heuristic below
+                            print(f"LLM classify failed for {url}: {le}")
+                    # Heuristic fallback (use URL as filename proxy) only if LLM did not yield a valid angle
+                    if angle == "unknown" and not used_llm:
+                        angle = classify_heuristic_from_name(url)
+                        source = "heuristic"
+                    # Save to cache
+                    cache[ch] = {"angle": angle, "source": source, "confidence": conf, "updated": time.time()}
+            except Exception as e:
+                status = "error"; err = str(e)
+            results.append({
+                "url": url,
+                "id": item.id,
+                "angle": angle,
+                "source": source,
+                "confidence": conf,
+                "status": status,
+                "error": err,
+                "duration_ms": int((time.time() - t0) * 1000),
+            })
+        save_cache(cache)
+    try:
+        shutil.rmtree(tmp_dir, ignore_errors=True)
+    except Exception:
+        pass
+    return {"results": results}
+
+# ---------------------------------------------------------------------------
+# /save-angle-metadata – persist user corrections
+# ---------------------------------------------------------------------------
+class SaveAngleItem(BaseModel):
+    url: str
+    angle: Optional[str] = None
+    category: Optional[str] = None
+    is_closeup: Optional[bool] = None
+    source: Optional[str] = None
+    confidence: Optional[float] = None
+
+class SaveAnglePayload(BaseModel):
+    document_id: str
+    images: List[SaveAngleItem]
+
+@app.post("/save-angle-metadata")
+async def save_angle_metadata(payload: SaveAnglePayload):
+    sb = supabase()
+    rows = []
+    for it in payload.images:
+        row = {
+            "document_id": payload.document_id,
+            "url": it.url,
+        }
+        if it.angle is not None:
+            row["angle"] = it.angle
+        if it.category is not None:
+            row["category"] = it.category
+        if it.is_closeup is not None:
+            row["is_closeup"] = it.is_closeup
+        if it.source is not None:
+            row["source"] = it.source
+        if it.confidence is not None:
+            row["confidence"] = it.confidence
+        rows.append(row)
+    try:
+        # Use upsert to persist by (document_id, url) if DB is configured with a unique constraint
+        res = sb.table("images").upsert(rows, on_conflict=["document_id", "url"]).execute()
+        updated = len(rows)
+        return {"updated": updated, "errors": 0}
+    except Exception as e:
+        # Fallback to iterative update
+        errors = 0
+        for row in rows:
+            try:
+                sb.table("images").update({k: v for k, v in row.items() if k not in ("document_id", "url")}).eq("document_id", row["document_id"]).eq("url", row["url"]).execute()
+            except Exception:
+                errors += 1
+        return {"updated": len(rows) - errors, "errors": errors}

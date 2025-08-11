@@ -34,38 +34,58 @@ serve(async (req) => {
     console.log('📝 Marking document as processing:', document_id);
     await supabase.from("documents").update({ status: "processing" }).eq("id", document_id);
 
-    // Fetch images
+    // Fetch images with enriched metadata (images table → fallback to document_images)
     console.log('🖼️ Fetching images for document:', document_id);
-    const { data: imageRows, error: imgErr } = await supabase
-      .from("document_images")
-      .select("image_url")
+    const { data: enrichedRows, error: enrichedErr } = await supabase
+      .from("images")
+      .select("url, angle, category, is_closeup, source, confidence")
       .eq("document_id", document_id);
-    
-    console.log('📋 Image query result:', { imageRows, error: imgErr });
-    
-    if (imgErr) {
-      console.error('❌ Failed to fetch images:', imgErr);
-      await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
-      return new Response("Failed to fetch images", { status: 500, headers: corsHeaders });
+
+    if (enrichedErr) {
+      console.warn('⚠️ images table query failed, will attempt fallback:', enrichedErr);
     }
 
-    const signedUrls = imageRows?.map(r => r.image_url) ?? [];
-    console.log('🔗 Signed URLs found:', signedUrls.length, signedUrls);
-    
-    if (!signedUrls.length) {
-      console.error('❌ No images found for document:', document_id);
-      await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
-      return new Response("No images found for document", { status: 400, headers: corsHeaders });
+    let imagesPayload: Array<Record<string, unknown>> = [];
+    if (enrichedRows && enrichedRows.length > 0) {
+      imagesPayload = enrichedRows.map((r) => ({
+        url: r.url,
+        angle: r.angle ?? undefined,
+        category: r.category ?? undefined,
+        is_closeup: r.is_closeup ?? undefined,
+        source: r.source ?? undefined,
+        confidence: r.confidence ?? undefined,
+      }));
+      console.log('✅ Using enriched images from images table:', imagesPayload.length);
+    } else {
+      console.log('ℹ️ No enriched rows found in images; falling back to document_images');
+      const { data: imageRows, error: imgErr } = await supabase
+        .from("document_images")
+        .select("image_url")
+        .eq("document_id", document_id);
+      if (imgErr) {
+        console.error('❌ Failed to fetch fallback images:', imgErr);
+        await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
+        return new Response("Failed to fetch images", { status: 500, headers: corsHeaders });
+      }
+      const signedUrls = imageRows?.map((r) => r.image_url) ?? [];
+      console.log('🔗 Fallback signed URLs found:', signedUrls.length);
+      if (!signedUrls.length) {
+        console.error('❌ No images found for document:', document_id);
+        await supabase.from("documents").update({ status: "error" }).eq("id", document_id);
+        return new Response("No images found for document", { status: 400, headers: corsHeaders });
+      }
+      imagesPayload = signedUrls.map((url) => ({ url }));
     }
 
-    // Call Railway and return immediately
+    // Call backend generator and return immediately
+    const { data: docData } = await supabase.from("documents").select("*").eq("id", document_id).single();
     fetch(`${REPORT_SERVICE_URL}/generate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         document: {
-          ...(await supabase.from("documents").select("*").eq("id", document_id).single()).data,
-          images: signedUrls.map((url) => ({ url }))
+          ...docData,
+          images: imagesPayload,
         }
       })
     }).catch(console.error);

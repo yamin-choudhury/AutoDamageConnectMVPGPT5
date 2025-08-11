@@ -1029,7 +1029,8 @@ async def save_angle_metadata(payload: SaveAnglePayload):
         rows.append(row)
     try:
         # Use upsert to persist by (document_id, url) if DB is configured with a unique constraint
-        res = sb.table("images").upsert(rows, on_conflict=["document_id", "url"]).execute()
+        # supabase-py expects on_conflict as a comma-separated string, not a list
+        res = sb.table("images").upsert(rows, on_conflict="document_id,url").execute()
         updated = len(rows)
         return {"updated": updated, "errors": 0}
     except Exception as e:
@@ -1193,7 +1194,8 @@ async def angles_classify_start(payload: AngleClassifyStartPayload):
                     })
                 save_cache(cache)
             try:
-                sb.table("images").upsert(rows_to_upsert, on_conflict=["document_id", "url"]).execute()
+                # supabase-py expects on_conflict as a comma-separated string
+                sb.table("images").upsert(rows_to_upsert, on_conflict="document_id,url").execute()
                 print(f"[angles] upserted {len(rows_to_upsert)} rows for doc={doc_id}")
             except Exception as up_err:
                 print(f"[angles] upsert error doc={doc_id}: {up_err}")

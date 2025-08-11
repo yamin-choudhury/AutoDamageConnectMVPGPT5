@@ -9,9 +9,11 @@ import hashlib, time
 from typing import Optional, List
 from supabase import create_client, Client
 try:
-    import openai  # Optional, used for LLM fallback in angle classification
+    # Use OpenAI v1 SDK
+    from openai import OpenAI  # type: ignore
+    openai_client = OpenAI()
 except Exception:
-    openai = None
+    openai_client = None
 
 # ---------------------------------------------------------------------------
 # Environment
@@ -919,13 +921,13 @@ async def classify_angles(req: ClassifyAnglesRequest):
                 else:
                     # LLM primary (if enabled and SDK available)
                     used_llm = False
-                    if req.llm_enabled and openai is not None:
+                    if req.llm_enabled and openai_client is not None:
                         try:
                             prompt = (
                                 "Classify the vehicle viewing angle into one of: front, front_left, front_right, "
                                 "side_left, side_right, back, back_left, back_right. Respond ONLY with the angle token."
                             )
-                            completion = openai.ChatCompletion.create(
+                            completion = openai_client.chat.completions.create(
                                 model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
                                 messages=[
                                     {"role": "system", "content": "You are a strict classifier."},
@@ -939,7 +941,7 @@ async def classify_angles(req: ClassifyAnglesRequest):
                                 ],
                                 temperature=0.0,
                             )
-                            txt = (completion.choices[0].message["content"] or "").strip().lower()
+                            txt = (completion.choices[0].message.content or "").strip().lower()
                             aliases = {"rear": "back", "rear_left": "back_left", "rear_right": "back_right"}
                             txt = aliases.get(txt, txt)
                             if txt in [

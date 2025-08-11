@@ -92,14 +92,29 @@ app = FastAPI(title="Damage Report Service")
 # ---------------------------------------------------------------------------
 allowed_origins_env = os.getenv(
     "ALLOWED_ORIGINS",
-    # Default to common Vite dev origins
-    "http://localhost:5173,http://localhost:8081,http://127.0.0.1:8081",
+    # Default to common local dev origins
+    ",".join([
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:8081",
+        "http://127.0.0.1:8081",
+        "http://localhost:8080",
+        "http://127.0.0.1:8080",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+    ]),
+)
+allowed_origin_regex_env = os.getenv(
+    "ALLOWED_ORIGIN_REGEX",
+    r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$",
 )
 allowed_origins = [o.strip() for o in allowed_origins_env.split(",") if o.strip()]
 print(f"CORS allowed origins: {allowed_origins}")
+print(f"CORS allowed origin regex: {allowed_origin_regex_env}")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
+    allow_origin_regex=allowed_origin_regex_env,
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],

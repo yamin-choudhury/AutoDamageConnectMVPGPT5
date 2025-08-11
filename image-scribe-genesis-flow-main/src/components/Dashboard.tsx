@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -40,6 +41,8 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
   const [isGenerating, setIsGenerating] = useState(false);
   const [docStatus, setDocStatus] = useState<string | null>(null);
   const { toast } = useToast();
+  const navigate = useNavigate();
+  const [anglesReady, setAnglesReady] = useState<boolean | null>(null);
 
   // show success/error when docStatus changes
   useEffect(() => {
@@ -116,6 +119,39 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
       supabase.removeChannel(channel);
     };
   }, [selectedDocumentId]);
+
+  // Check if angle review is complete for this document
+  useEffect(() => {
+    const run = async () => {
+      if (!selectedDocumentId) { setAnglesReady(null); return; }
+      await checkAnglesComplete(selectedDocumentId);
+    };
+    void run();
+  }, [selectedDocumentId]);
+
+  const checkAnglesComplete = async (documentId: string): Promise<boolean> => {
+    try {
+      // Prefer enriched public.images; fall back logic: if none exist yet, consider not ready
+      const { data: imgs, error } = await (supabase as any)
+        .from('images')
+        .select('id, category, angle')
+        .eq('document_id', documentId);
+
+      if (error) throw error;
+      if (!imgs || imgs.length === 0) { setAnglesReady(false); return false; }
+
+      const exterior = (imgs as any[]).filter((i) => (i.category ?? 'exterior') === 'exterior');
+      if (exterior.length === 0) { setAnglesReady(false); return false; }
+
+      const hasUnlabeled = exterior.some((i) => !i.angle || i.angle === 'unknown');
+      setAnglesReady(!hasUnlabeled);
+      return !hasUnlabeled;
+    } catch (e) {
+      console.error('Angle completeness check failed:', e);
+      setAnglesReady(false);
+      return false;
+    }
+  };
 
   useEffect(() => {
     if (selectedDocumentId) {
@@ -384,11 +420,35 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
               </Button>
               {selectedDocumentId && (
                 <Button
-                  disabled={isGenerating || docStatus==='processing' }
-                  variant={isGenerating || docStatus==='processing' ? 'secondary' : 'outline'}
+                  variant="outline"
+                  onClick={async () => {
+                    const docId = await saveDocument();
+                    if (!docId) {
+                      toast({ title: 'Error', description: 'Please save the document first', variant: 'destructive' });
+                      return;
+                    }
+                    navigate(`/review/${docId}`);
+                  }}
+                  className="border border-gray-300 px-6"
+                >
+                  Review Angles
+                </Button>
+              )}
+              {selectedDocumentId && (
+                <Button
+                  disabled={isGenerating || docStatus==='processing' || anglesReady === false }
+                  variant={isGenerating || docStatus==='processing' || anglesReady === false ? 'secondary' : 'outline'}
                   onClick={async () => {
                     setIsGenerating(true);
                     try {
+                      // Enforce staged flow: angles must be reviewed and complete
+                      const ready = await checkAnglesComplete(selectedDocumentId);
+                      if (!ready) {
+                        setIsGenerating(false);
+                        toast({ title:'Review required', description:'Complete angle review for all exterior images before generating.', variant:'destructive' });
+                        navigate(`/review/${selectedDocumentId}`);
+                        return;
+                      }
                       console.log('Starting report generation...');
                       const docId = await saveDocument();
                       console.log('Document ID from saveDocument:', docId);
@@ -429,6 +489,10 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                 >
                   Generate Report
                 </Button>
+              )}
+              {/* Helper hint about stages */}
+              {selectedDocumentId && anglesReady === false && (
+                <div className="text-sm text-gray-500 self-center">Review angles to enable Generate.</div>
               )}
             </div>
           </div>

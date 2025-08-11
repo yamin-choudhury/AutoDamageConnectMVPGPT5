@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import DocumentPreview from "@/components/DocumentPreview";
 import { User } from "@supabase/supabase-js";
+import type { RealtimeChannel } from "@supabase/supabase-js";
 import { User as UserIcon } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import Spinner from "@/components/ui/Spinner";
@@ -63,7 +64,8 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
   const [anglesReady, setAnglesReady] = useState<boolean | null>(null);
   const [angleClassifying, setAngleClassifying] = useState(false);
   const [angleTotals, setAngleTotals] = useState<{ total_exterior: number; unknown_exterior: number } | null>(null);
-  const [pollId, setPollId] = useState<number | null>(null);
+  // Realtime channel for images updates (one per selected document)
+  const [imagesChannel, setImagesChannel] = useState<RealtimeChannel | null>(null);
   const [reviewOpen, setReviewOpen] = useState(false);
   const [reviewImages, setReviewImages] = useState<{ url: string; id?: string; category?: "exterior" | "interior" | "document" }[]>([]);
   const [statusErrorCount, setStatusErrorCount] = useState(0);
@@ -74,6 +76,24 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
   type SBFromSelect<T> = { select: (cols: string) => { eq: (col: string, val: string) => SBSelectResult<T> } };
   type SBClient = { from: <T = unknown>(table: string) => SBFromSelect<T> };
   const sbTyped = supabase as unknown as SBClient;
+
+  // Helper to refresh server-computed angle totals and update UI state
+  const refreshStatus = useCallback(async (docId: string) => {
+    if (!backendBaseUrl) return;
+    try {
+      const res = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
+      if (!res.ok) { setStatusErrorCount((c) => c + 1); return; }
+      setStatusErrorCount(0);
+      const s = await res.json();
+      const totals = { total_exterior: s.total_exterior ?? 0, unknown_exterior: s.unknown_exterior ?? 0 };
+      setAngleTotals(totals);
+      // update readiness locally from totals (no DB roundtrip)
+      if (totals.total_exterior > 0) setAnglesReady(totals.unknown_exterior === 0);
+      if (totals.unknown_exterior === 0 && totals.total_exterior > 0) setAngleClassifying(false);
+    } catch {
+      setStatusErrorCount((c) => c + 1);
+    }
+  }, [backendBaseUrl]);
 
   // Check if angle review is complete for this document
   const checkAnglesComplete = useCallback(async (documentId: string): Promise<boolean> => {
@@ -101,7 +121,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
     }
   }, [sbTyped]);
 
-  // Start and poll background angle classification for a document
+  // Start background angle classification for a document (Realtime will push updates)
   const startAngleClassification = useCallback(async (docId: string) => {
     if (!backendBaseUrl) return;
     try {
@@ -110,90 +130,44 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
       await fetch(`${backendBaseUrl}/angles/classify/start`, {
         method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ document_id: docId })
       }).catch((e) => { console.warn('angles/classify/start error', e); });
-
-      // begin polling status
-      const id = window.setInterval(async () => {
-        try {
-          const res = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
-          if (res.ok) {
-            setStatusErrorCount(0);
-            const s = await res.json();
-            setAngleTotals({ total_exterior: s.total_exterior ?? 0, unknown_exterior: s.unknown_exterior ?? 0 });
-            if (typeof s.unknown_exterior === 'number' && s.unknown_exterior === 0) {
-              window.clearInterval(id);
-              setPollId(null);
-              setAngleClassifying(false);
-              // refresh angle readiness
-              void checkAnglesComplete(docId);
-            }
-          } else {
-            setStatusErrorCount((c) => c + 1);
-          }
-        } catch (e) { setStatusErrorCount((c) => c + 1); /* tolerate transient errors */ }
-      }, 1200);
-      setPollId(id);
+      // initial status fetch to seed UI; realtime events will drive subsequent updates
+      await refreshStatus(docId);
     } catch (e) {
       console.warn('startAngleClassification failed', e);
       setAngleClassifying(false);
     }
-  }, [backendBaseUrl, checkAnglesComplete]);
+  }, [backendBaseUrl, refreshStatus]);
 
   const retryAnglePolling = useCallback(async () => {
     if (!selectedDocumentId || !backendBaseUrl) return;
     setStatusErrorCount(0);
-    // clear any existing poller before retrying
-    if (pollId) { try { window.clearInterval(pollId); } catch { /* ignore */ } setPollId(null); }
     await startAngleClassification(selectedDocumentId);
-  }, [selectedDocumentId, backendBaseUrl, startAngleClassification, pollId]);
+  }, [selectedDocumentId, backendBaseUrl, startAngleClassification]);
 
-  // Cleanup poller
+  // Cleanup realtime channel on unmount
   useEffect(() => {
-    return () => { if (pollId) window.clearInterval(pollId); };
-  }, [pollId]);
+    return () => { if (imagesChannel) { try { supabase.removeChannel(imagesChannel); } catch { /* ignore */ } } };
+  }, [imagesChannel]);
 
-  // On document selection, resume polling existing background classification (if any)
+  // On document selection, subscribe to realtime updates and fetch initial status
   useEffect(() => {
     const docId = selectedDocumentId;
     if (!docId || !backendBaseUrl) return;
     (async () => {
-      try {
-        const res = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
-        if (!res.ok) { setStatusErrorCount((c) => c + 1); return; }
-        setStatusErrorCount(0);
-        const s = await res.json();
-        setAngleTotals({ total_exterior: s.total_exterior ?? 0, unknown_exterior: s.unknown_exterior ?? 0 });
-        const hasUnknown = typeof s.unknown_exterior === 'number' && s.unknown_exterior > 0;
-        if (hasUnknown) {
-          // Start a poller if one is not already running
-          if (!pollId) {
-            setAngleClassifying(true);
-            const id = window.setInterval(async () => {
-              try {
-                const res2 = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(docId)}`);
-                if (res2.ok) {
-                  setStatusErrorCount(0);
-                  const s2 = await res2.json();
-                  setAngleTotals({ total_exterior: s2.total_exterior ?? 0, unknown_exterior: s2.unknown_exterior ?? 0 });
-                  if (typeof s2.unknown_exterior === 'number' && s2.unknown_exterior === 0) {
-                    window.clearInterval(id);
-                    setPollId(null);
-                    setAngleClassifying(false);
-                    // ensure readiness flag updates
-                    void checkAnglesComplete(docId);
-                  }
-                } else {
-                  setStatusErrorCount((c) => c + 1);
-                }
-              } catch { setStatusErrorCount((c) => c + 1); /* ignore transient errors */ }
-            }, 1200);
-            setPollId(id);
-          } else {
-            setAngleClassifying(true);
-          }
-        }
-      } catch { setStatusErrorCount((c) => c + 1); /* ignore */ }
+      // tear down existing channel
+      if (imagesChannel) { try { supabase.removeChannel(imagesChannel); } catch { /* ignore */ } setImagesChannel(null); }
+      // create new realtime subscription for this document
+      const ch = supabase.channel(`images-${docId}`) as unknown as RealtimeChannel;
+      ch.on('postgres_changes', { event: '*', schema: 'public', table: 'images', filter: `document_id=eq.${docId}` }, async (_payload: unknown) => {
+        // whenever an image row changes, refresh totals
+        await refreshStatus(docId);
+      });
+      await ch.subscribe();
+      setImagesChannel(ch);
+      // initial status fetch
+      await refreshStatus(docId);
     })();
-  }, [selectedDocumentId, backendBaseUrl, pollId, checkAnglesComplete]);
+  }, [selectedDocumentId, backendBaseUrl, imagesChannel, refreshStatus]);
 
   useEffect(() => {
     const run = async () => {
@@ -530,7 +504,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                         const unknownExterior = enriched
                           .filter(r => (r.category ?? 'exterior') === 'exterior')
                           .filter(r => !r.angle || r.angle === 'unknown').length;
-                        if (unknownExterior > 0 && backendBaseUrl && !angleClassifying && !pollId) {
+                        if (unknownExterior > 0 && backendBaseUrl && !angleClassifying) {
                           await startAngleClassification(docId);
                         }
                       } else {

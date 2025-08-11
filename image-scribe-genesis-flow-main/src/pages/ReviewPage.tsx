@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
+import type { RealtimeChannel } from "@supabase/supabase-js";
 import type { Tables } from "@/integrations/supabase/types";
 import AngleReviewBoard from "@/components/AngleReviewBoard";
 import type { ReviewImage } from "@/components/AngleBucketPanel";
@@ -18,6 +19,35 @@ export default function ReviewPage() {
 
   const backendBaseUrl = BACKEND_BASE_URL;
   const functionsBaseUrl = FUNCTIONS_BASE_URL;
+
+  // Minimal typed wrapper for selects
+  type SBSelectResult<T> = Promise<{ data: T[] | null; error: unknown | null }>;
+  type SBFromSelect<T> = { select: (cols: string) => { eq: (col: string, val: string) => SBSelectResult<T> } };
+  type SBClient = { from: <T=unknown>(table: string) => SBFromSelect<T> };
+  const sbTyped = supabase as unknown as SBClient;
+
+  // Subscribe to realtime updates for this document's images and refresh list
+  useEffect(() => {
+    if (!documentId) return;
+    const ch: RealtimeChannel = supabase.channel(`images-review-${documentId}`) as unknown as RealtimeChannel;
+    ch.on('postgres_changes', { event: '*', schema: 'public', table: 'images', filter: `document_id=eq.${documentId}` }, async () => {
+      try {
+        type ImageRow = { url: string; angle: string | null; category: "exterior"|"interior"|"document"|null; is_closeup: boolean|null; source: string|null; confidence: number|null };
+        const { data: enriched } = await sbTyped
+          .from<ImageRow>('images')
+          .select('url, angle, category, is_closeup, source, confidence')
+          .eq('document_id', documentId);
+        if (enriched && enriched.length > 0) {
+          const rows = enriched as ImageRow[];
+          setInitialImages(rows.filter(r => !!r.url).map(r => ({ url: r.url, category: (r.category ?? 'exterior') as 'exterior'|'interior'|'document' })));
+          const unknownExterior = rows.filter(r => (r.category ?? 'exterior') === 'exterior').filter(r => !r.angle || r.angle === 'unknown').length;
+          setClassifying(unknownExterior > 0);
+        }
+      } catch { /* ignore */ }
+    });
+    ch.subscribe();
+    return () => { try { supabase.removeChannel(ch); } catch { /* ignore */ } };
+  }, [documentId]);
 
   useEffect(() => {
     if (!documentId) return;
@@ -41,8 +71,8 @@ export default function ReviewPage() {
             };
           };
         };
-        const { data: enriched, error: enrichedErr } = await sbAny
-          .from("images")
+        const { data: enriched, error: enrichedErr } = await sbTyped
+          .from<ImageRow>("images")
           .select("url, angle, category, is_closeup, source, confidence")
           .eq("document_id", documentId);
 
@@ -59,35 +89,8 @@ export default function ReviewPage() {
           const unknownExterior = rows.filter((r) => (r.category ?? 'exterior') === 'exterior').filter((r) => !r.angle || r.angle === 'unknown').length;
           if (unknownExterior > 0 && backendBaseUrl) {
             setClassifying(true);
-            // Fire-and-forget start
+            // Fire-and-forget start; realtime subscription will update UI as rows change
             try { await fetch(`${backendBaseUrl}/angles/classify/start`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ document_id: documentId }) }); } catch (e) { console.warn('angles/classify/start failed', e); }
-            // Poll status until complete or timeout (~60s)
-            const tStart = Date.now();
-            const deadline = tStart + 60000;
-            while (Date.now() < deadline) {
-              try {
-                const res = await fetch(`${backendBaseUrl}/angles/classify/status?document_id=${encodeURIComponent(documentId)}`);
-                if (res.ok) {
-                  const s = await res.json();
-                  if (s && typeof s.unknown_exterior === 'number' && s.unknown_exterior === 0) {
-                    break;
-                  }
-                }
-              } catch (e) { /* tolerate transient poll errors */ }
-              await new Promise(r => setTimeout(r, 1200));
-            }
-            // Re-fetch enriched rows
-            try {
-              const { data: enriched2 } = await sbAny
-                .from("images")
-                .select("url, angle, category, is_closeup, source, confidence")
-                .eq("document_id", documentId);
-              if (enriched2 && enriched2.length) {
-                const rows2 = enriched2 as ImageRow[];
-                setInitialImages(rows2.filter(r => !!r.url).map(r => ({ url: r.url, category: (r.category ?? 'exterior') as 'exterior' | 'interior' | 'document' })));
-              }
-            } catch (e) { console.warn('re-fetch enriched images failed', e); }
-            setClassifying(false);
           }
           setLoading(false);
           return;

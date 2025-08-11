@@ -15,13 +15,14 @@ interface AngleReviewBoardProps {
     confidence?: number | null;
   }>;
   onConfirm?: (images: ReviewImage[]) => void;
+  autoClassifyOnMount?: boolean; // default: true
 }
 
 const EXTERIOR_ANGLES: AngleToken[] = [
   'front','front_left','front_right','side_left','side_right','back','back_left','back_right'
 ];
 
-export default function AngleReviewBoard({ documentId, backendBaseUrl, initialImages, onConfirm }: AngleReviewBoardProps) {
+export default function AngleReviewBoard({ documentId, backendBaseUrl, initialImages, onConfirm, autoClassifyOnMount = true }: AngleReviewBoardProps) {
   const [images, setImages] = useState<ReviewImage[]>(() => initialImages.map(i => ({
     url: i.url,
     id: i.id,
@@ -44,7 +45,8 @@ export default function AngleReviewBoard({ documentId, backendBaseUrl, initialIm
   };
 
   useEffect(() => {
-    // classify on mount for only unknown exterior images
+    // Optionally classify on mount for only unknown exterior images
+    if (!autoClassifyOnMount) return;
     (async () => {
       try {
         setLoading(true);

@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from pathlib import Path
 from uuid import uuid4
 import os, json, tempfile, shutil, subprocess
+import asyncio
 import httpx
 import hashlib, time
 from typing import Optional, List
@@ -1040,3 +1041,164 @@ async def save_angle_metadata(payload: SaveAnglePayload):
             except Exception:
                 errors += 1
         return {"updated": len(rows) - errors, "errors": errors}
+
+# ---------------------------------------------------------------------------
+# Background angle classification orchestration
+#   - POST /angles/classify/start: queue background classification for a document
+#   - GET  /angles/classify/status: report unknown exterior count
+# ---------------------------------------------------------------------------
+class AngleClassifyStartPayload(BaseModel):
+    document_id: str
+    reclassify_unknown_only: bool = True
+    llm_enabled: bool = True
+
+@app.post("/angles/classify/start")
+async def angles_classify_start(payload: AngleClassifyStartPayload):
+    doc_id = payload.document_id
+    sb = supabase()
+    # Fetch current images for this document
+    try:
+        res = sb.table("images").select("url, category, angle, is_closeup, source, confidence").eq("document_id", doc_id).execute()
+        rows = getattr(res, "data", None) or []
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Supabase read failed: {e}")
+
+    def _is_unknown_exterior(r: dict) -> bool:
+        cat = (r.get("category") or "exterior").lower()
+        ang = (r.get("angle") or "unknown").lower()
+        return cat == "exterior" and (not ang or ang == "unknown")
+
+    to_classify = [
+        {"url": r.get("url"), "id": r.get("id")}
+        for r in rows
+        if r.get("url") and _is_unknown_exterior(r)
+    ]
+
+    queued = len(to_classify)
+    if queued == 0:
+        return {"status": "started", "queued": 0, "document_id": doc_id}
+
+    async def _classify_and_persist(doc_id: str, items: list[dict]):
+        # Reuse similar logic as /classify-angles but persist directly
+        cache_path = Path(tempfile.gettempdir()) / "angle_cache.json"
+
+        def load_cache() -> dict:
+            try:
+                if cache_path.exists():
+                    return json.loads(cache_path.read_text())
+            except Exception:
+                pass
+            return {}
+
+        def save_cache(db: dict) -> None:
+            try:
+                cache_path.write_text(json.dumps(db, indent=2))
+            except Exception:
+                pass
+
+        def content_hash_bytes(b: bytes) -> str:
+            h = hashlib.sha1(); h.update(b); return h.hexdigest()
+
+        async with httpx.AsyncClient(timeout=30) as client:
+            cache = load_cache()
+            rows_to_upsert = []
+            for it in items:
+                url = it.get("url")
+                angle = "unknown"; source = "llm"; conf = None
+                try:
+                    if not url or not url.startswith(("http://", "https://")):
+                        raise ValueError("Invalid URL")
+                    resp = await client.get(url)
+                    resp.raise_for_status()
+                    b = resp.content
+                    ch = content_hash_bytes(b)
+                    c = cache.get(ch)
+                    if c and isinstance(c, dict) and c.get("angle"):
+                        angle = c["angle"]; source = c.get("source", "cache"); conf = c.get("confidence")
+                    else:
+                        used_llm = False
+                        if payload.llm_enabled and openai_client is not None:
+                            try:
+                                prompt = (
+                                    "Classify the vehicle viewing angle into one of: front, front_left, front_right, "
+                                    "side_left, side_right, back, back_left, back_right. Respond ONLY with the angle token."
+                                )
+                                completion = openai_client.chat.completions.create(
+                                    model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
+                                    messages=[
+                                        {"role": "system", "content": "You are a strict classifier."},
+                                        {
+                                            "role": "user",
+                                            "content": [
+                                                {"type": "text", "text": prompt},
+                                                {"type": "image_url", "image_url": {"url": url}},
+                                            ],
+                                        },
+                                    ],
+                                    temperature=0.0,
+                                )
+                                txt = (completion.choices[0].message.content or "").strip().lower()
+                                aliases = {"rear": "back", "rear_left": "back_left", "rear_right": "back_right"}
+                                txt = aliases.get(txt, txt)
+                                if txt in [
+                                    "front","front_left","front_right","side_left","side_right","back","back_left","back_right"
+                                ]:
+                                    angle = txt; source = "llm"; conf = None; used_llm = True
+                            except Exception as _:
+                                pass
+                        if angle == "unknown" and not used_llm:
+                            s = url.lower().replace("rear", "back")
+                            if ("front left" in s) or ("left front" in s) or (" fl" in s): angle = "front_left"
+                            elif ("front right" in s) or ("right front" in s) or (" fr" in s): angle = "front_right"
+                            elif ("back left" in s) or ("left back" in s) or ("rear left" in s) or (" rl" in s): angle = "back_left"
+                            elif ("back right" in s) or ("right back" in s) or ("rear right" in s) or (" rr" in s): angle = "back_right"
+                            elif "front" in s: angle = "front"
+                            elif "back" in s: angle = "back"
+                            elif "side" in s and "left" in s: angle = "side_left"
+                            elif "side" in s and "right" in s: angle = "side_right"
+                            elif " left" in s: angle = "side_left"
+                            elif " right" in s: angle = "side_right"
+                            else: angle = "unknown"
+                            source = "heuristic"
+                        cache[ch] = {"angle": angle, "source": source, "confidence": conf, "updated": time.time()}
+                except Exception:
+                    angle = "unknown"; source = "error"; conf = None
+                rows_to_upsert.append({
+                    "document_id": doc_id,
+                    "url": url,
+                    "angle": angle,
+                    "source": source,
+                    "confidence": conf,
+                })
+            save_cache(cache)
+        try:
+            sb.table("images").upsert(rows_to_upsert, on_conflict=["document_id", "url"]).execute()
+        except Exception:
+            # Best-effort fallback
+            for row in rows_to_upsert:
+                try:
+                    sb.table("images").update({k: v for k, v in row.items() if k not in ("document_id","url")} ).eq("document_id", row["document_id"]).eq("url", row["url"]).execute()
+                except Exception:
+                    pass
+
+    # Fire-and-forget background task
+    asyncio.create_task(_classify_and_persist(doc_id, to_classify))
+    return {"status": "started", "queued": queued, "document_id": doc_id}
+
+@app.get("/angles/classify/status")
+async def angles_classify_status(document_id: str):
+    sb = supabase()
+    try:
+        res = sb.table("images").select("url, category, angle").eq("document_id", document_id).execute()
+        rows = getattr(res, "data", None) or []
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Supabase read failed: {e}")
+    total_exterior = 0; unknown_exterior = 0
+    for r in rows:
+        cat = (r.get("category") or "exterior").lower()
+        ang = (r.get("angle") or "unknown").lower()
+        if cat == "exterior":
+            total_exterior += 1
+            if not ang or ang == "unknown":
+                unknown_exterior += 1
+    return {"document_id": document_id, "total_exterior": total_exterior, "unknown_exterior": unknown_exterior}

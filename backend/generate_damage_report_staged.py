@@ -15,7 +15,9 @@ from typing import Optional
 from typing import List
 from io import BytesIO
 
-import openai
+# OpenAI v1 client
+from openai import OpenAI
+openai = OpenAI()
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random

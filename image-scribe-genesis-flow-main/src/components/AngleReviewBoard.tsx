@@ -5,7 +5,15 @@ import AngleBucketPanel, { ReviewImage } from './AngleBucketPanel';
 interface AngleReviewBoardProps {
   documentId: string;
   backendBaseUrl: string; // e.g., https://your-backend.example.com
-  initialImages: Array<{ url: string; id?: string; category?: 'exterior' | 'interior' | 'document' }>;
+  initialImages: Array<{
+    url: string;
+    id?: string;
+    category?: 'exterior' | 'interior' | 'document';
+    angle?: AngleToken | 'unknown';
+    is_closeup?: boolean;
+    source?: ReviewImage['source'];
+    confidence?: number | null;
+  }>;
   onConfirm?: (images: ReviewImage[]) => void;
 }
 
@@ -18,7 +26,10 @@ export default function AngleReviewBoard({ documentId, backendBaseUrl, initialIm
     url: i.url,
     id: i.id,
     category: i.category || 'exterior',
-    angle: 'unknown',
+    angle: (i.angle as AngleToken | 'unknown') || 'unknown',
+    is_closeup: i.is_closeup,
+    source: (i.source as ReviewImage['source'] | undefined),
+    confidence: i.confidence ?? null,
   })));
   const [selected, setSelected] = useState<AngleToken>('unknown');
   const [loading, setLoading] = useState(false);
@@ -33,23 +44,41 @@ export default function AngleReviewBoard({ documentId, backendBaseUrl, initialIm
   };
 
   useEffect(() => {
-    // classify on mount
+    // classify on mount for only unknown exterior images
     (async () => {
       try {
         setLoading(true);
         setError(null);
-        const body = { images: images.map(i => ({ url: i.url, id: i.id })) };
+        const toClassify = images.filter(i => (i.category ?? 'exterior') === 'exterior' && (!i.angle || i.angle === 'unknown'));
+        if (toClassify.length === 0) return; // nothing to do
+        const body = {
+          images: toClassify.map(i => ({ url: i.url, id: i.id })),
+          reclassify_unknown_only: true,
+          llm_enabled: true,
+        };
         const res = await fetch(`${backendBaseUrl}/classify-angles`, {
           method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body)
         });
         if (!res.ok) throw new Error(`classify-angles failed: ${res.status}`);
         const data = await res.json();
-        const results: any[] = data?.results || [];
-        const byUrl: Record<string, { angle?: AngleToken | 'unknown'; source?: string; confidence?: number | null }> = {};
+        interface ClassifyResult {
+          url: string;
+          id?: string;
+          angle?: AngleToken | 'unknown';
+          source?: ReviewImage['source'];
+          confidence?: number | null;
+          status?: string;
+          error?: string | null;
+        }
+        const results: ClassifyResult[] = (data?.results || []) as ClassifyResult[];
+        const byUrl: Record<string, Pick<ReviewImage, 'angle' | 'source' | 'confidence'>> = {};
         results.forEach((r) => { byUrl[r.url] = { angle: r.angle, source: r.source, confidence: r.confidence ?? null }; });
         setImages((prev) => prev.map(i => ({ ...i, ...byUrl[i.url] })));
-      } catch (e: any) {
-        setError(e?.message || 'Failed to classify');
+        // persist results via autosave
+        scheduleSave();
+      } catch (e: unknown) {
+        const msg = e instanceof Error ? e.message : 'Failed to classify';
+        setError(msg);
       } finally {
         setLoading(false);
       }

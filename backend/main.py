@@ -336,7 +336,53 @@ async def generate_report(payload: GeneratePayload):
             if vehicle_year not in (None, "", 0):
                 cmd += ["--vehicle_year", str(vehicle_year)]
             print(f"Generator command: {' '.join(cmd)}")
-            run_subprocess(cmd, env=env)
+            try:
+                run_subprocess(cmd, env=env)
+            except RuntimeError as e:
+                msg = str(e)
+                print(f"[generator] Module execution failed: {msg}")
+                # Only fallback if this looks like a module import error for 'backend'
+                mod_err_signals = (
+                    "ModuleNotFoundError",
+                    "No module named 'backend'",
+                    "No module named backend",
+                )
+                if not any(s in msg for s in mod_err_signals):
+                    # Not an import-path issue; propagate the original error
+                    raise
+                # Fallback 1: run by absolute script path in backend/
+                script1 = backend_dir / "generate_damage_report_staged.py"
+                if script1.exists():
+                    cmd1 = ["python", str(script1), "--images_dir", str(tmp_dir), "--out", str(out_json)]
+                    # Preserve vehicle args in fallback path
+                    if vehicle_make not in (None, ""):
+                        cmd1 += ["--vehicle_make", str(vehicle_make)]
+                    if vehicle_model not in (None, ""):
+                        cmd1 += ["--vehicle_model", str(vehicle_model)]
+                    if vehicle_year not in (None, "", 0):
+                        cmd1 += ["--vehicle_year", str(vehicle_year)]
+                    print(f"[generator] Falling back to script path: {script1}")
+                    print(f"Generator command: {' '.join(cmd1)}")
+                    try:
+                        run_subprocess(cmd1, env=env)
+                    except RuntimeError as e2:
+                        print(f"[generator] Script path in backend failed: {e2}")
+                        # Fallback 2: common Railway location /app/generate_damage_report_staged.py
+                        script2 = Path("/app/generate_damage_report_staged.py")
+                        if script2.exists():
+                            cmd2 = ["python", str(script2), "--images_dir", str(tmp_dir), "--out", str(out_json)]
+                            # Preserve vehicle args in fallback path
+                            if vehicle_make not in (None, ""):
+                                cmd2 += ["--vehicle_make", str(vehicle_make)]
+                            if vehicle_model not in (None, ""):
+                                cmd2 += ["--vehicle_model", str(vehicle_model)]
+                            if vehicle_year not in (None, "", 0):
+                                cmd2 += ["--vehicle_year", str(vehicle_year)]
+                            print(f"[generator] Falling back to /app script: {script2}")
+                            print(f"Generator command: {' '.join(cmd2)}")
+                            run_subprocess(cmd2, env=env)
+                        else:
+                            raise
             print("Damage report generation completed")
         except Exception as e:
             print(f"Damage report generation failed: {e}")

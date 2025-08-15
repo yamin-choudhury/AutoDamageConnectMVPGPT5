@@ -211,33 +211,18 @@ async def generate_report(payload: GeneratePayload):
 
         # Run staged generator ------------------------------------------------
         out_json = tmp_dir / "report.json"
-        # Prefer running as a module to ensure imports resolve regardless of file relocation
+        # Always run as a module to ensure imports resolve regardless of file relocation
         backend_dir = Path(__file__).resolve().parent
         repo_root = backend_dir.parent
         gen_script = backend_dir / "generate_damage_report_staged.py"
-        run_as_module = (backend_dir / "__init__.py").exists() and (backend_dir / "llm_clients").exists()
         try:
             # Build command with optional vehicle args from payload
-            if run_as_module:
-                cmd = [
-                    "python", "-m", "backend.generate_damage_report_staged",
-                    "--images_dir", str(tmp_dir),
-                    "--out", str(out_json),
-                ]
-                print("Starting damage report generation as module: backend.generate_damage_report_staged")
-            else:
-                # Fall back to script path within backend/
-                if not gen_script.exists():
-                    # Last resort: try repo root (only if backend isn't a package), but warn this may lack imports
-                    alt = repo_root / "generate_damage_report_staged.py"
-                    if alt.exists():
-                        gen_script = alt
-                print(f"Starting damage report generation with script: {gen_script}")
-                cmd = [
-                    "python", str(gen_script),
-                    "--images_dir", str(tmp_dir),
-                    "--out", str(out_json),
-                ]
+            cmd = [
+                "python", "-m", "backend.generate_damage_report_staged",
+                "--images_dir", str(tmp_dir),
+                "--out", str(out_json),
+            ]
+            print("Starting damage report generation as module: backend.generate_damage_report_staged")
             # Smart defaults for comprehensive, high-recall + verified reporting.
             # We do not require the user to set envs; we set sane defaults unless already provided by deployment.
             env = os.environ.copy()
@@ -294,6 +279,8 @@ async def generate_report(payload: GeneratePayload):
             cwd_backend = Path.cwd() / "backend"
             if cwd_backend.exists():
                 py_paths.append(str(cwd_backend))
+            # Add common Railway container paths as a safety net
+            py_paths.extend(["/app", "/app/backend"])  # they may or may not exist; harmless if not
             current_py = env.get("PYTHONPATH", "")
             for p in py_paths:
                 if p and p not in current_py:

@@ -42,13 +42,59 @@ except ModuleNotFoundError:
         try:
             from llm_clients.factory import create_vision_client
         except ModuleNotFoundError:
-            from backend.llm_clients.factory import create_vision_client  # last resort
+            try:
+                from backend.llm_clients.factory import create_vision_client  # last resort
+            except ModuleNotFoundError:
+                # Final fallback: minimal Gemini client implemented inline
+                def create_vision_client():
+                    try:
+                        import google.generativeai as genai
+                    except Exception as ie:
+                        raise ModuleNotFoundError("google-generativeai not installed; cannot create fallback Gemini client") from ie
+                    api_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
+                    if not api_key:
+                        raise RuntimeError("Missing GOOGLE_API_KEY or GEMINI_API_KEY for Gemini client")
+                    genai.configure(api_key=api_key)
+                    model_name = os.getenv("GEMINI_VISION_MODEL", "gemini-2.5-flash")
+                    text_model = os.getenv("GEMINI_TEXT_MODEL", model_name)
+                    vision = genai.GenerativeModel(model_name)
+                    text = genai.GenerativeModel(text_model)
+
+                    class _Client:
+                        def vision_json(self, prompt: str, images: List[Path], temperature: float = 0.2, max_images: Optional[int] = None) -> str:
+                            parts = [prompt]
+                            for p in images:
+                                try:
+                                    raw = Path(p).read_bytes()
+                                    b64 = base64.b64encode(raw).decode()
+                                    parts.append({"inline_data": {"mime_type": "image/jpeg", "data": b64}})
+                                except Exception:
+                                    continue
+                            try:
+                                resp = vision.generate_content(parts, generation_config={"temperature": float(temperature)})
+                                return getattr(resp, "text", "") or ""
+                            except Exception as e:
+                                return f"{{\n  \"error\": \"vision_call_failed\", \n  \"message\": \"{str(e).replace('"','\\"')}\"\n}}"
+
+                        def text(self, prompt: str, temperature: float = 0.2) -> str:
+                            try:
+                                resp = text.generate_content(prompt, generation_config={"temperature": float(temperature)})
+                                return getattr(resp, "text", "") or ""
+                            except Exception as e:
+                                return f"{{\n  \"error\": \"text_call_failed\", \n  \"message\": \"{str(e).replace('"','\\"')}\"\n}}"
+
+                    return _Client()
 _llm_client = None
 def get_llm_client():
     global _llm_client
     if _llm_client is None:
         _llm_client = create_vision_client()
     return _llm_client
+print(f"[generator] file={__file__} cwd={os.getcwd()}")
+try:
+    print(f"[generator] sys.path (head)={sys.path[:5]}")
+except Exception:
+    pass
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random
@@ -57,10 +103,23 @@ from tqdm import tqdm
 from copy import deepcopy
 
 
-# Look for prompt files one directory up (repo root) to ensure they are present inside the container
-# Try ./prompts beside this file first, else ../prompts (repo root)
-_prompts_same = Path(__file__).resolve().parent / "prompts"
-PROMPTS_DIR = _prompts_same if _prompts_same.exists() else Path(__file__).resolve().parent.parent / "prompts"
+# Locate prompts folder robustly across layouts (backend module vs. single-file at /app)
+_here = Path(__file__).resolve().parent
+_candidates = [
+    _here / "prompts",                    # same dir
+    _here.parent / "prompts",             # repo root when file in backend/
+    Path.cwd() / "backend" / "prompts",   # running from repo root
+    Path("/app/backend/prompts"),          # Railway common
+]
+PROMPTS_DIR = None
+for _pd in _candidates:
+    if _pd.exists():
+        PROMPTS_DIR = _pd
+        break
+if PROMPTS_DIR is None:
+    # As last resort, keep same-dir default (may fail later but logs will show path)
+    PROMPTS_DIR = _here / "prompts"
+print(f"[generator] PROMPTS_DIR={PROMPTS_DIR}")
 PHASE0_QUICK_PROMPT   = PROMPTS_DIR / "detect_quick_prompt.txt"
 PHASE1_FRONT_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_front_enterprise.txt"
 PHASE1_SIDE_ENTERPRISE_PROMPT  = PROMPTS_DIR / "detect_side_enterprise.txt"

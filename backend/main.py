@@ -267,6 +267,16 @@ async def generate_report(payload: GeneratePayload):
                 # Do not override if deployment explicitly set it
                 if k not in env or env[k] in (None, ""):
                     env[k] = v
+            # Ensure Python can import backend packages when script is relocated at /app
+            py_paths = [
+                str(Path(__file__).resolve().parent),          # /.../backend
+                str(Path(__file__).resolve().parent.parent),    # repo root
+            ]
+            current_py = env.get("PYTHONPATH", "")
+            for p in py_paths:
+                if p and p not in current_py:
+                    current_py = f"{p}:{current_py}" if current_py else p
+            env["PYTHONPATH"] = current_py
             # Provider selection and model defaults
             provider = (env.get("MODEL_PROVIDER") or os.getenv("MODEL_PROVIDER") or "gemini").strip().lower()
             if "MODEL_PROVIDER" not in env or not env.get("MODEL_PROVIDER"):

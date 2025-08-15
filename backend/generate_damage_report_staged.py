@@ -34,7 +34,7 @@ except ModuleNotFoundError:
                 if (c / "llm_clients").exists():
                     sys.path.insert(0, str(c))
                 if (c / "backend" / "llm_clients").exists():
-                    sys.path.insert(0, str(c))
+                    sys.path.insert(0, str(c / "backend"))
             except Exception:
                 pass
         try:

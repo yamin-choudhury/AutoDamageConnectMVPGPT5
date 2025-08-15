@@ -15,9 +15,13 @@ from typing import Optional
 from typing import List
 from io import BytesIO
 
-# OpenAI v1 client
-from openai import OpenAI
-openai = OpenAI()
+from llm_clients.factory import create_vision_client
+_llm_client = None
+def get_llm_client():
+    global _llm_client
+    if _llm_client is None:
+        _llm_client = create_vision_client()
+    return _llm_client
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random
@@ -97,6 +101,9 @@ else:
     ANGLES = DEFAULT_ANGLES
 # Limit for base frames per angle per detection call
 MAX_ANGLE_IMAGES = int(os.getenv("MAX_ANGLE_IMAGES", "5"))
+# Close-up prioritization controls
+USE_CLOSEUPS_FOR_DETECTION = os.getenv("USE_CLOSEUPS_FOR_DETECTION", "1") == "1"
+CLOSEUP_PRIORITY_BOOST = float(os.getenv("CLOSEUP_PRIORITY_BOOST", "1.35"))
 # IoU threshold for clustering parts across runs (prevents vote inflation)
 CLUSTER_IOU_THRESH = float(os.getenv("CLUSTER_IOU_THRESH", "0.4"))
 # Severity-aware verification confidence thresholds (fallback to VERIFY_MIN_CONFIDENCE)
@@ -150,54 +157,20 @@ def call_openai_vision(
     # Select quality-diverse subset when capped
     if max_images is not None and len(images) > max_images:
         deduped = dedupe_by_phash(images)
-        use_images = select_diverse_top(deduped, k=max_images)
+        use_images = select_diverse_with_closeup_priority(deduped, k=max_images)
     else:
         use_images = images
 
-    user_parts = [{"type": "text", "text": "Please analyse all images and reply with JSON only."}]
-    for img in use_images:
-        user_parts.append({"type": "image_url", "image_url": {"url": encode_image_b64(img)}})
-
-    # Concurrency-limit and retry with backoff
-    with _openai_sem:
-        last_err = None
-        for attempt in range(OPENAI_MAX_RETRIES):
-            try:
-                resp = openai.chat.completions.create(
-                    model=model,
-                    messages=[{"role": "system", "content": prompt}, {"role": "user", "content": user_parts}],
-                    max_tokens=6144,
-                    temperature=temperature,
-                )
-                return resp.choices[0].message.content.strip()
-            except Exception as e:
-                last_err = e
-                if attempt < OPENAI_MAX_RETRIES - 1:
-                    sleep_s = OPENAI_BACKOFF_BASE * (2 ** attempt) + random.uniform(0, 0.25)
-                    time.sleep(sleep_s)
-                else:
-                    raise last_err
+    # Provider-agnostic vision call
+    prompt_local = (prompt or "") + "\nRespond with STRICTLY valid JSON only."
+    client = get_llm_client()
+    return client.vision_json(prompt_local, use_images, temperature=temperature, max_images=max_images)
 
 
 def call_openai_text(prompt: str, model: str = "gpt-4o", temperature: float = 0.2) -> str:
-    with _openai_sem:
-        last_err = None
-        for attempt in range(OPENAI_MAX_RETRIES):
-            try:
-                resp = openai.chat.completions.create(
-                    model=model,
-                    messages=[{"role": "system", "content": prompt}],
-                    max_tokens=6144,
-                    temperature=temperature,
-                )
-                return resp.choices[0].message.content.strip()
-            except Exception as e:
-                last_err = e
-                if attempt < OPENAI_MAX_RETRIES - 1:
-                    sleep_s = OPENAI_BACKOFF_BASE * (2 ** attempt) + random.uniform(0, 0.25)
-                    time.sleep(sleep_s)
-                else:
-                    raise last_err
+    # Provider-agnostic text call (signature preserved for minimal diff)
+    client = get_llm_client()
+    return client.text(prompt, temperature=temperature)
 
 
 # ----------------------- Image cropping utilities --------------------
@@ -458,6 +431,47 @@ def dedupe_by_phash(images: List[Path], dist_thresh: int = 5) -> List[Path]:
     return selected
 
 
+def is_closeup_path(p: Path) -> bool:
+    """Detect close-ups by filename convention set in download step (e.g., *_cu.jpg)."""
+    name = p.name.lower()
+    stem = p.stem.lower()
+    return name.endswith("_cu.jpg") or stem.endswith("_cu")
+
+
+def select_diverse_with_closeup_priority(images: List[Path], k: int, dist_thresh: int = 8) -> List[Path]:
+    """Select up to k images by quality with diversity, boosting close-ups.
+    If USE_CLOSEUPS_FOR_DETECTION is off, falls back to select_diverse_top.
+    """
+    if not USE_CLOSEUPS_FOR_DETECTION:
+        return select_diverse_top(images, k, dist_thresh)
+    if k <= 0:
+        return []
+    # Score all, boosting close-ups
+    scored = []
+    for p in images:
+        s = score_image(p)
+        if is_closeup_path(p):
+            s *= CLOSEUP_PRIORITY_BOOST
+        scored.append((s, p))
+    scored.sort(key=lambda t: t[0], reverse=True)
+    selected: List[Path] = []
+    selected_hashes: List[int] = []
+    for _, p in scored:
+        h = ahash(p)
+        if all(hamming_distance(h, sh) > dist_thresh for sh in selected_hashes):
+            selected.append(p)
+            selected_hashes.append(h)
+        if len(selected) >= k:
+            break
+    if len(selected) < k:
+        for _, p in scored:
+            if p not in selected:
+                selected.append(p)
+            if len(selected) >= k:
+                break
+    return selected
+
+
 def select_diverse_top(images: List[Path], k: int, dist_thresh: int = 8) -> List[Path]:
     """Select up to k images by quality with diversity via aHash distance."""
     if k <= 0:
@@ -509,13 +523,13 @@ def make_crops(area: str, images: List[Path], areas_json: dict, max_px: int = 12
     base_imgs: List[Path] = []
     if suspect_paths:
         sus_dedup = dedupe_by_phash(suspect_paths)
-        base_imgs = select_diverse_top(sus_dedup, k=min(MAX_ANGLE_IMAGES, len(sus_dedup)))
+        base_imgs = select_diverse_with_closeup_priority(sus_dedup, k=min(MAX_ANGLE_IMAGES, len(sus_dedup)))
         # IMPORTANT: Do not top-up with non-suspect frames.
         # Mixing in unrelated views (e.g., rear for front-end) causes part anchoring drift.
     else:
         # Fallback: 3 best diverse images from provided images only (angle-scoped if used)
         deduped = dedupe_by_phash(images)
-        base_imgs = select_diverse_top(deduped, k=min(MAX_ANGLE_IMAGES, len(deduped)))
+        base_imgs = select_diverse_with_closeup_priority(deduped, k=min(MAX_ANGLE_IMAGES, len(deduped)))
     print(f"      Area '{area}': using base frames -> {[p.name for p in base_imgs]}")
     # Always include the downsized full frame
     for p in base_imgs:
@@ -1080,31 +1094,43 @@ def main():
     def classify_image_angle_heuristic(p: Path) -> str:
         name = p.name.lower()
         base = p.stem.lower()
-        s = name + " " + base
-        # normalize common tokens
+        # normalize separators and aliases
+        s = (name + " " + base).replace("_", " ").replace("-", " ")
         s = s.replace("rear", "back")
-        # pairs
-        if "front left" in s or "left front" in s or "fl" in s:
+        tokens = [t for t in s.replace(".", " ").split() if t]
+        tokset = set(tokens)
+        # exact canonical tokens
+        canonical = [
+            "front_left","front_right","back_left","back_right",
+            "side_left","side_right","front","back"
+        ]
+        for c in canonical:
+            if c in tokset or " ".join(c.split("_")) in s:
+                return c
+        # explicit pair logic using tokens (avoid substring collisions like 'fr' in 'front_left')
+        has_front = "front" in tokset
+        has_back = "back" in tokset
+        has_left = "left" in tokset
+        has_right = "right" in tokset
+        if has_front and has_left:
             return "front_left"
-        if "front right" in s or "right front" in s or "fr" in s:
+        if has_front and has_right:
             return "front_right"
-        if "back left" in s or "left back" in s or "rear left" in s or "rl" in s:
+        if has_back and has_left:
             return "back_left"
-        if "back right" in s or "right back" in s or "rear right" in s or "rr" in s:
+        if has_back and has_right:
             return "back_right"
-        # singles
-        if "front" in s:
+        if has_front:
             return "front"
-        if "back" in s:
+        if has_back:
             return "back"
-        # side-only with possible left/right
-        if "side" in s and "left" in s:
+        if "side" in tokset and has_left:
             return "side_left"
-        if "side" in s and "right" in s:
+        if "side" in tokset and has_right:
             return "side_right"
-        if "left" in s:
+        if has_left:
             return "side_left"
-        if "right" in s:
+        if has_right:
             return "side_right"
         return "unknown"
 
@@ -1204,8 +1230,11 @@ def main():
                 unassigned.append(p)
         _save_angles_db(angles_db)
         angle_counts = {a: len(v) for a, v in angle_buckets.items()}
+        # Count close-ups per angle for audit
+        cu_counts = {a: sum(1 for p in v if is_closeup_path(p)) for a, v in angle_buckets.items()}
         try:
             metrics["angles"]["counts"] = angle_counts
+            metrics["angles"]["closeups"] = cu_counts
             metrics["angles"]["unassigned"] = len(unassigned)
         except Exception:
             pass
@@ -1304,8 +1333,8 @@ def main():
             imgs_for_call = make_crops(area, imgs_angle, areas_json)
             for prompt_path in prompt_paths:
                 base_tasks.append((area, prompt_path, imgs_for_call))
-        # Global enterprise sweep restricted to this angle's frames
-        global_imgs = select_diverse_top(dedupe_by_phash(imgs_angle), k=min(MAX_ANGLE_IMAGES, len(imgs_angle)))
+        # Global enterprise sweep restricted to this angle's frames (prioritize close-ups)
+        global_imgs = select_diverse_with_closeup_priority(dedupe_by_phash(imgs_angle), k=min(MAX_ANGLE_IMAGES, len(imgs_angle)))
 
         for temp in DETECTION_TEMPS:
             tkey = f"{angle}:{temp}"

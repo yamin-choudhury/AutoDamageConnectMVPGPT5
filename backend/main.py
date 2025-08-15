@@ -146,10 +146,12 @@ async def download_images(images: list[dict] | list[str], dest: Path):
                     url = img.get("url")
                     category = (img.get("category") or "exterior").lower()
                     angle = (img.get("angle") or "").lower()
+                    is_closeup = bool(img.get("is_closeup"))
                 else:
                     url = img
                     category = "exterior"
                     angle = ""
+                    is_closeup = False
 
                 if not url or not isinstance(url, str) or not url.startswith(("http://", "https://")):
                     raise ValueError(f"Invalid URL: {url}")
@@ -162,7 +164,9 @@ async def download_images(images: list[dict] | list[str], dest: Path):
                 print(f"Downloading image {idx} from: {url}")
                 r = await client.get(url)
                 r.raise_for_status()
-                fname = f"{idx}_{angle}.jpg" if angle else f"{idx}.jpg"
+                # Encode close-up flag into filename to allow staged generator to prioritize
+                cu_suffix = "_cu" if is_closeup else ""
+                fname = f"{idx}_{angle}{cu_suffix}.jpg" if angle else f"{idx}{cu_suffix}.jpg"
                 (dest / fname).write_bytes(r.content)
                 print(f"Successfully downloaded image {idx} -> {fname}")
             except Exception as e:
@@ -253,15 +257,50 @@ async def generate_report(payload: GeneratePayload):
                 # Angle bucketing defaults (enable by default for reviewed images)
                 "ANGLE_BUCKETING": env.get("ANGLE_BUCKETING", "1"),
                 "ANGLES": env.get("ANGLES", "front,front_left,front_right,side_left,side_right,back,back_left,back_right"),
-                "MAX_ANGLE_IMAGES": env.get("MAX_ANGLE_IMAGES", "0"),
+                # Use at least a small non-zero default; 5 keeps payloads bounded and robust
+                "MAX_ANGLE_IMAGES": env.get("MAX_ANGLE_IMAGES", "5"),
+                # Close-up prioritization feature flags
+                "USE_CLOSEUPS_FOR_DETECTION": env.get("USE_CLOSEUPS_FOR_DETECTION", "1"),
+                "CLOSEUP_PRIORITY_BOOST": env.get("CLOSEUP_PRIORITY_BOOST", "1.35"),
             }
             for k, v in smart_env.items():
                 # Do not override if deployment explicitly set it
                 if k not in env or env[k] in (None, ""):
                     env[k] = v
-            print("Smart ENV applied for generator:")
+            # Provider selection and model defaults
+            provider = (env.get("MODEL_PROVIDER") or os.getenv("MODEL_PROVIDER") or "gemini").strip().lower()
+            if "MODEL_PROVIDER" not in env or not env.get("MODEL_PROVIDER"):
+                env["MODEL_PROVIDER"] = provider
+            # Configure provider-specific settings (no secrets printed)
+            if provider in ("gemini", "google", "googleai", "google-ai"):
+                if not env.get("GEMINI_VISION_MODEL"):
+                    env["GEMINI_VISION_MODEL"] = os.getenv("GEMINI_VISION_MODEL", "gemini-2.5-flash")
+                if not env.get("GEMINI_TEXT_MODEL"):
+                    env["GEMINI_TEXT_MODEL"] = os.getenv("GEMINI_TEXT_MODEL", env["GEMINI_VISION_MODEL"]) 
+                if not env.get("GEMINI_CONCURRENCY"):
+                    env["GEMINI_CONCURRENCY"] = os.getenv("GEMINI_CONCURRENCY", env.get("OPENAI_CONCURRENCY", "4"))
+                if not env.get("GEMINI_MAX_RETRIES"):
+                    env["GEMINI_MAX_RETRIES"] = os.getenv("GEMINI_MAX_RETRIES", env.get("OPENAI_MAX_RETRIES", "5"))
+                # API key pass-through (do NOT print)
+                if not env.get("GOOGLE_API_KEY") and (os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")):
+                    env["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
+            else:
+                # OpenAI defaults (models)
+                if not env.get("OPENAI_VISION_MODEL") and os.getenv("OPENAI_VISION_MODEL"):
+                    env["OPENAI_VISION_MODEL"] = os.getenv("OPENAI_VISION_MODEL")
+                if not env.get("OPENAI_TEXT_MODEL") and os.getenv("OPENAI_TEXT_MODEL"):
+                    env["OPENAI_TEXT_MODEL"] = os.getenv("OPENAI_TEXT_MODEL")
+
+            print("Smart ENV applied for generator (non-secret subset):")
             for k in sorted(smart_env.keys()):
                 print(f"  - {k}={env.get(k)}")
+            print(f"  - MODEL_PROVIDER={env.get('MODEL_PROVIDER')}")
+            if provider in ("gemini", "google", "googleai", "google-ai"):
+                print(f"  - GEMINI_VISION_MODEL={env.get('GEMINI_VISION_MODEL')}")
+                print(f"  - GEMINI_TEXT_MODEL={env.get('GEMINI_TEXT_MODEL')}")
+            else:
+                print(f"  - OPENAI_VISION_MODEL={env.get('OPENAI_VISION_MODEL')}")
+                print(f"  - OPENAI_TEXT_MODEL={env.get('OPENAI_TEXT_MODEL')}")
             # Support both top-level fields and nested document.vehicle
             veh_doc = (doc.get("vehicle") or {}) if isinstance(doc, dict) else {}
             vehicle_make = doc.get("make") if isinstance(doc, dict) else None
@@ -431,12 +470,43 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
     config = report_json.get('_config', {})
     metrics = report_json.get('_metrics', {})
     
-    # Get images from Supabase
+    # Get images from Supabase (with angle metadata)
     sb = supabase()
-    images_result = sb.table("images").select("url").eq("document_id", doc_id).execute()
-    image_urls = [img['url'] for img in images_result.data] if images_result.data else []
+    images_result = sb.table("images").select("url, angle, category, is_closeup").eq("document_id", doc_id).execute()
+    images_data = images_result.data or []
+    image_urls = [img.get('url') for img in images_data if img.get('url')]
     if not image_urls and fallback_image_urls:
         image_urls = fallback_image_urls
+
+    # Prepare groupings for angle/close-up/interior evidence
+    angle_order = [
+        "front", "front_left", "side_left", "back_left",
+        "back", "back_right", "side_right", "front_right", "unknown",
+    ]
+    def norm_angle(a: str | None) -> str:
+        a = (a or "").strip().lower().replace("-", "_")
+        return a if a in angle_order else ("unknown" if a else "unknown")
+    def norm_cat(c: str | None) -> str:
+        c = (c or "").strip().lower()
+        return c if c in ("exterior", "interior", "document") else "exterior"
+
+    grouped_exterior: dict[str, list[str]] = {k: [] for k in angle_order}
+    grouped_closeups: dict[str, list[str]] = {k: [] for k in angle_order}
+    interior_urls: list[str] = []
+    for r in images_data:
+        url = r.get('url');
+        if not url:
+            continue
+        cat = norm_cat(r.get('category'))
+        ang = norm_angle(r.get('angle'))
+        is_cu = bool(r.get('is_closeup'))
+        if cat == "interior":
+            interior_urls.append(url)
+        elif cat == "exterior":
+            if is_cu:
+                grouped_closeups[ang].append(url)
+            else:
+                grouped_exterior[ang].append(url)
 
     # Compute severity counts
     def sev_key(s: str) -> str:
@@ -640,17 +710,106 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
         <h2>📸 Damage Images</h2>
         <div class="images-grid">
 """
-    # Add images to the report
+    # Add images to the report (all images fallback view)
     for i, img_url in enumerate(image_urls, 1):
         html += f"""
-            <div class="image-container">
-                <img src="{img_url}" alt="Damage Image {i}" onerror="this.style.display='none';this.nextElementSibling.innerHTML='Image not available'">
-                <div class="image-caption">Image {i} - Vehicle Damage</div>
+            <div class=\"image-container\">
+                <img src=\"{img_url}\" alt=\"Damage Image {i}\" onerror=\"this.style.display='none';this.nextElementSibling.innerHTML='Image not available'\">
+                <div class=\"image-caption\">Image {i} - Vehicle Damage</div>
             </div>
         """
     
     html += """
         </div>
+    </div>
+
+    <div class=\"section\">
+        <h2>🧭 Exterior Overview by Angle</h2>
+"""
+    any_exterior = any(len(v) for v in grouped_exterior.values())
+    if any_exterior:
+        for ang in angle_order:
+            urls = grouped_exterior.get(ang) or []
+            if not urls:
+                continue
+            ang_h = ang.replace("_"," ").title()
+            html += f"""
+            <h3 style=\"margin-top:10px\">{ang_h}</h3>
+            <div class=\"images-grid\">
+            """
+            for i, u in enumerate(urls, 1):
+                html += f"""
+                <div class=\"image-container\">
+                    <img src=\"{u}\" alt=\"{ang_h} {i}\" onerror=\"this.style.display='none';this.nextElementSibling.innerHTML='Image not available'\">
+                    <div class=\"image-caption\">{ang_h} {i}</div>
+                </div>
+                """
+            html += """
+            </div>
+            """
+    else:
+        html += """
+        <p class=\"muted\">No exterior images with angle metadata available.</p>
+        """
+
+    html += """
+    </div>
+
+    <div class=\"section\">
+        <h2>🔎 Close-up Evidence by Angle</h2>
+"""
+    any_closeups = any(len(v) for v in grouped_closeups.values())
+    if any_closeups:
+        for ang in angle_order:
+            urls = grouped_closeups.get(ang) or []
+            if not urls:
+                continue
+            ang_h = ang.replace("_"," ").title()
+            html += f"""
+            <h3 style=\"margin-top:10px\">{ang_h}</h3>
+            <div class=\"images-grid\">
+            """
+            for i, u in enumerate(urls, 1):
+                html += f"""
+                <div class=\"image-container\">
+                    <img src=\"{u}\" alt=\"Close-up {ang_h} {i}\" onerror=\"this.style.display='none';this.nextElementSibling.innerHTML='Image not available'\">
+                    <div class=\"image-caption\">Close-up {ang_h} {i}</div>
+                </div>
+                """
+            html += """
+            </div>
+            """
+    else:
+        html += """
+        <p class=\"muted\">No close-up images available.</p>
+        """
+
+    html += """
+    </div>
+
+    <div class=\"section\">
+        <h2>🛋️ Interior Evidence</h2>
+"""
+    if interior_urls:
+        html += """
+        <div class=\"images-grid\">
+        """
+        for i, u in enumerate(interior_urls, 1):
+            html += f"""
+            <div class=\"image-container\">
+                <img src=\"{u}\" alt=\"Interior {i}\" onerror=\"this.style.display='none';this.nextElementSibling.innerHTML='Image not available'\">
+                <div class=\"image-caption\">Interior {i}</div>
+            </div>
+            """
+        html += """
+        </div>
+        """
+    else:
+        html += """
+        <p class=\"muted\">No interior images available.</p>
+        """
+
+    html += """
     </div>
 
     <div class="section">

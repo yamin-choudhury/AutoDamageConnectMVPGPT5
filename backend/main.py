@@ -229,7 +229,7 @@ async def generate_report(payload: GeneratePayload):
             smart_env = {
                 "COMPREHENSIVE_MODE": "1",
                 "STRICT_MODE": "0",
-                "ENABLE_COMPLETENESS_PASS": "1",
+                "ENABLE_COMPLETENESS_PASS": "0",
                 "CLUSTER_IOU_THRESH": "0.45",
                 "PHASE2_ALLOW_NEW_PARTS": "1",
                 "PERSIST_MAX_UNION": "1",
@@ -242,15 +242,16 @@ async def generate_report(payload: GeneratePayload):
                 "MIN_VOTES_MINOR": "1",
                 # Verification
                 "ENABLE_VERIFICATION_PASS": "1",
-                "VERIFY_TEMPS": "0.0,0.3",
+                "VERIFY_TEMPS": "0.0",
                 "VERIFY_CONF_SEVERE": "0.60",
                 "VERIFY_CONF_MODERATE": "0.55",
                 "VERIFY_CONF_MINOR": "0.45",
-                "VERIFY_REQUIRE_PASSES_SEVERE": "2",
-                "VERIFY_REQUIRE_PASSES_MODERATE": "2",
+                "VERIFY_REQUIRE_PASSES_SEVERE": "1",
+                "VERIFY_REQUIRE_PASSES_MODERATE": "1",
                 "VERIFY_REQUIRE_PASSES_MINOR": "1",
-                # Detection temps for higher recall on subtle defects
-                "DETECTION_TEMPS": env.get("DETECTION_TEMPS", "0.0,0.25,0.4"),
+                # Detection knobs (speed-focused defaults, still accurate)
+                "DETECTION_TEMPS": env.get("DETECTION_TEMPS", "0.0"),
+                "DETECTION_REPEATS": env.get("DETECTION_REPEATS", "1"),
                 # OpenAI robustness
                 "OPENAI_MAX_RETRIES": env.get("OPENAI_MAX_RETRIES", "5"),
                 "OPENAI_CONCURRENCY": env.get("OPENAI_CONCURRENCY", "4"),
@@ -258,7 +259,7 @@ async def generate_report(payload: GeneratePayload):
                 "ANGLE_BUCKETING": env.get("ANGLE_BUCKETING", "1"),
                 "ANGLES": env.get("ANGLES", "front,front_left,front_right,side_left,side_right,back,back_left,back_right"),
                 # Use at least a small non-zero default; 5 keeps payloads bounded and robust
-                "MAX_ANGLE_IMAGES": env.get("MAX_ANGLE_IMAGES", "5"),
+                "MAX_ANGLE_IMAGES": env.get("MAX_ANGLE_IMAGES", "3"),
                 # Close-up prioritization feature flags
                 "USE_CLOSEUPS_FOR_DETECTION": env.get("USE_CLOSEUPS_FOR_DETECTION", "1"),
                 "CLOSEUP_PRIORITY_BOOST": env.get("CLOSEUP_PRIORITY_BOOST", "1.35"),

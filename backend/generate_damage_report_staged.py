@@ -74,14 +74,14 @@ except ModuleNotFoundError:
                                 resp = vision.generate_content(parts, generation_config={"temperature": float(temperature)})
                                 return getattr(resp, "text", "") or ""
                             except Exception as e:
-                                return f"{{\n  \"error\": \"vision_call_failed\", \n  \"message\": \"{str(e).replace('"','\\"')}\"\n}}"
+                                return json.dumps({"error": "vision_call_failed", "message": str(e)})
 
                         def text(self, prompt: str, temperature: float = 0.2) -> str:
                             try:
                                 resp = text.generate_content(prompt, generation_config={"temperature": float(temperature)})
                                 return getattr(resp, "text", "") or ""
                             except Exception as e:
-                                return f"{{\n  \"error\": \"text_call_failed\", \n  \"message\": \"{str(e).replace('"','\\"')}\"\n}}"
+                                return json.dumps({"error": "text_call_failed", "message": str(e)})
 
                     return _Client()
 _llm_client = None
@@ -95,6 +95,27 @@ try:
     print(f"[generator] sys.path (head)={sys.path[:5]}")
 except Exception:
     pass
+# Robust JSON parsing and schema validation utilities
+try:
+    from backend.utils.json_parser import (
+        try_parse_json,
+        validate_detection_output,
+        validate_verify_output,
+    )
+except Exception:
+    try:
+        from utils.json_parser import (
+            try_parse_json,
+            validate_detection_output,
+            validate_verify_output,
+        )
+    except Exception:
+        # Last resort local import when running from backend/ directly
+        from .utils.json_parser import (  # type: ignore
+            try_parse_json,
+            validate_detection_output,
+            validate_verify_output,
+        )
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random
@@ -403,6 +424,24 @@ def canonicalize_part(p: dict) -> dict:
         q["severity"] = _canon_severity(q.get("severity", ""))
     return q
 
+def _is_safety_critical(p: dict) -> bool:
+    """Heuristic safety-critical flagging based on part name/category."""
+    name = _norm(p.get("name", ""))
+    cat = _norm(p.get("category", ""))
+    desc = _norm(p.get("description", p.get("damage_description", "")))
+    keywords = [
+        "airbag", "seat belt", "seatbelt", "brake", "brakes",
+        "steering", "suspension", "windshield", "windscreen",
+        "tire", "tyre", "wheel hub", "control arm"
+    ]
+    if any(k in name for k in keywords):
+        return True
+    if any(k in desc for k in keywords):
+        return True
+    if cat in ("brakes", "suspension", "steering"):
+        return True
+    return False
+
 def _finalize_display_fields(p: dict) -> dict:
     """Ensure all user-facing fields are populated deterministically for output.
     This runs only at the end of the pipeline so it does not influence union keys.
@@ -421,6 +460,11 @@ def _finalize_display_fields(p: dict) -> dict:
     # Canonicalize severity one last time
     if out.get("severity") is not None:
         out["severity"] = _canon_severity(str(out.get("severity", "")))
+    # Safety-critical flag
+    try:
+        out["safety_critical"] = bool(out.get("safety_critical")) or _is_safety_critical(out)
+    except Exception:
+        out["safety_critical"] = False
     return out
 
 def _fingerprint_images(images: List[Path]) -> str:
@@ -1335,37 +1379,22 @@ def main():
             print(f"    Running {task_id}...")
             
             txt = call_openai_vision(prompt_text, imgs_for_call, model, temperature=temp, max_images=5)
-            if txt.startswith("```"):
-                if "json" in txt.split("\n")[0]:
-                    txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-                else:
-                    txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
-            # Robust JSON parse with fallback extraction/retry
+            parsed = try_parse_json(txt)
+            if parsed is None:
+                # One more attempt asking for strict JSON only
+                txt2 = call_openai_vision(prompt_text + "\nRespond with STRICTLY valid JSON only.", imgs_for_call, model, temperature=temp, max_images=5)
+                parsed = try_parse_json(txt2)
+            if parsed is None:
+                parsed = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_parts": []}
+            # Pydantic validation/coercion
             try:
-                result = json.loads(txt)
-            except json.JSONDecodeError:
-                s = txt
-                l = s.find("{"); r = s.rfind("}")
-                parsed = None
-                if l != -1 and r != -1 and r > l:
-                    try:
-                        parsed = json.loads(s[l:r+1])
-                    except Exception:
-                        parsed = None
-                if parsed is None:
-                    # One more attempt asking for strict JSON only
-                    txt2 = call_openai_vision(prompt_text + "\nRespond with STRICTLY valid JSON only.", imgs_for_call, model, temperature=temp, max_images=5)
-                    if txt2.startswith("```"):
-                        if "json" in txt2.split("\n")[0]:
-                            txt2 = txt2.split("\n",1)[1].rsplit("```",1)[0].strip()
-                        else:
-                            txt2 = txt2.split("```",1)[1].rsplit("```",1)[0].strip()
-                    result = json.loads(txt2)
-                else:
-                    result = parsed
+                validated = validate_detection_output(parsed)
+            except Exception as e:
+                print(f"[warn] Detection schema validation failed for {task_id}: {e}")
+                validated = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_parts": []}
             combined = {
-                "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
-                "damaged_parts": result.get("damaged_parts", [])
+                "vehicle": validated.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
+                "damaged_parts": validated.get("damaged_parts", [])
             }
             # Attach a stable context image to each part; override unknown/invalid names
             try:
@@ -1830,22 +1859,19 @@ def main():
                 for i in range(2):
                     try:
                         txt = call_openai_vision(prompts[i], imgs, args.model, temperature=float(temps[i]), max_images=min(5, len(imgs)))
-                        if txt.startswith("```"):
-                            if "json" in txt.split("\n")[0]:
-                                txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
-                            else:
-                                txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+                        data_raw = try_parse_json(txt)
+                        if data_raw is None:
+                            # Retry with stricter instruction
+                            txt2 = call_openai_vision(prompts[i] + "\nRespond with STRICTLY valid JSON only.", imgs, args.model, temperature=float(temps[i]), max_images=min(5, len(imgs)))
+                            data_raw = try_parse_json(txt2)
+                        if data_raw is None:
+                            raise ValueError("Unable to parse verification JSON")
                         try:
-                            data = json.loads(txt)
-                        except json.JSONDecodeError:
-                            s = txt; l = s.find("{"); r = s.rfind("}")
-                            if l != -1 and r != -1 and r > l:
-                                data = json.loads(s[l:r+1])
-                            else:
-                                raise
+                            data = validate_verify_output(data_raw)
+                        except Exception as ve:
+                            raise ValueError(f"verify schema invalid: {ve}")
                         present = bool(data.get("present", False))
-                        conf_val = data.get("confidence", 0.0)
-                        conf = float(conf_val) if isinstance(conf_val, (int, float)) else 0.0
+                        conf = float(data.get("confidence", 0.0))
                         passes.append({"present": present, "confidence": conf, "temp": float(temps[i])})
                     except Exception as e:
                         print(f"Verification pass {i+1} error for {p.get('name','?')}@{p.get('location','?')}: {e}")

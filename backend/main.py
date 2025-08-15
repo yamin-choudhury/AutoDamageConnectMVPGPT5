@@ -575,6 +575,21 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
             else:
                 grouped_exterior[ang].append(url)
 
+    # Build basename->URL map for rendering evidence thumbnails
+    import posixpath
+    from urllib.parse import urlparse
+    basename_to_url: dict[str, str] = {}
+    for r in images_data:
+        u = r.get('url')
+        if not u:
+            continue
+        try:
+            bn = posixpath.basename(urlparse(u).path)
+            if bn:
+                basename_to_url[bn] = u
+        except Exception:
+            continue
+
     # Compute severity counts
     def sev_key(s: str) -> str:
         s = (s or "").strip().lower()
@@ -731,6 +746,12 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
             margin-left: 8px;
         }}
         .badge-reason {{ background-color: #fde68a; color: #78350f; }}
+        .badge-sev-high {{ background-color: #fecaca; color: #7f1d1d; }}
+        .badge-sev-moderate {{ background-color: #fde68a; color: #78350f; }}
+        .badge-sev-low {{ background-color: #bbf7d0; color: #064e3b; }}
+        .badge-safety {{ background-color: #fecaca; color: #7f1d1d; border: 1px solid #ef4444; }}
+        .thumbs {{ display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }}
+        .thumbs img {{ width: 120px; height: auto; border-radius: 6px; border: 1px solid #e5e7eb; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }}
         .muted {{ color: #6b7280; }}
         .small {{ font-size: 0.9em; }}
         .mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }}
@@ -886,9 +907,31 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
     # Add damaged parts
     for i, part in enumerate(damaged_parts, 1):
         severity_class = f"severity-{sev_key(part.get('severity', 'low'))}"
+        # Badges and thumbnails
+        sev_badge = f"<span class=\"badge badge-sev-{sev_key(part.get('severity','low'))}\">{(part.get('severity') or 'N/A').upper()}</span>"
+        safety_badge = "<span class=\"badge badge-safety\">SAFETY-CRITICAL</span>" if part.get('safety_critical') else ""
+        thumbs = []
+        if part.get('image'):
+            n = str(part.get('image'))
+            if basename_to_url.get(n):
+                thumbs.append(basename_to_url[n])
+        verify = part.get('_verify') or {}
+        for n in (verify.get('images') or []):
+            n = str(n)
+            if basename_to_url.get(n):
+                thumbs.append(basename_to_url[n])
+        # dedupe while preserving order
+        seen = set(); thumb_urls = []
+        for u in thumbs:
+            if u not in seen:
+                thumb_urls.append(u); seen.add(u)
+        thumbs_html = ""
+        if thumb_urls:
+            imgs = "".join([f"<img src=\"{u}\" alt=\"evidence\" onerror=\"this.style.display='none'\">" for u in thumb_urls[:6]])
+            thumbs_html = f"<div class=\"thumbs\">{imgs}</div>"
         html += f"""
         <div class="damage-part">
-            <h3>{i}. {part.get('name', 'Unknown Part')}</h3>
+            <h3>{i}. {part.get('name', 'Unknown Part')} {sev_badge} {safety_badge}</h3>
             <div class="vehicle-info">
                 <div class="info-label">Location:</div>
                 <div class="info-value">{part.get('location', 'N/A')}</div>
@@ -903,6 +946,7 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
             </div>
             {f'<p><strong>Description:</strong> {part.get("description", "")}' if part.get('description') else ''}</p>
             {f'<p><strong>Notes:</strong> {part.get("notes", "")}' if part.get('notes') else ''}</p>
+            {thumbs_html}
         </div>
         """
 
@@ -928,6 +972,22 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
             thr = verify.get('threshold')
             votes = verify.get('votes_yes')
             req = verify.get('consensus_required')
+            sev_badge = f"<span class=\"badge badge-sev-{sev_key(part.get('severity','low'))}\">{(part.get('severity') or 'N/A').upper()}</span>"
+            safety_badge = "<span class=\"badge badge-safety\">SAFETY-CRITICAL</span>" if part.get('safety_critical') else ""
+            # thumbnails from verification evidence only for potential parts
+            thumbs = []
+            for n in (verify.get('images') or []):
+                n = str(n)
+                if basename_to_url.get(n):
+                    thumbs.append(basename_to_url[n])
+            seen = set(); thumb_urls = []
+            for u in thumbs:
+                if u not in seen:
+                    thumb_urls.append(u); seen.add(u)
+            thumbs_html = ""
+            if thumb_urls:
+                imgs = "".join([f"<img src=\"{u}\" alt=\"evidence\" onerror=\"this.style.display='none'\">" for u in thumb_urls[:6]])
+                thumbs_html = f"<div class=\"thumbs\">{imgs}</div>"
             ev_html = ""
             if passes:
                 rows = "".join([
@@ -946,7 +1006,7 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
                 """
             html += f"""
             <div class=\"potential-part\">
-                <h3>{i}. {part.get('name','Unknown Part')} <span class=\"badge badge-reason\">{reason_h}</span></h3>
+                <h3>{i}. {part.get('name','Unknown Part')} <span class=\"badge badge-reason\">{reason_h}</span> {sev_badge} {safety_badge}</h3>
                 <div class=\"vehicle-info\">
                     <div class=\"info-label\">Location:</div>
                     <div class=\"info-value\">{part.get('location','N/A')}</div>
@@ -957,6 +1017,7 @@ async def generate_visual_html_report(report_json: dict, doc_id: str, fallback_i
                 </div>
                 {f'<p><strong>Description:</strong> {part.get("description", "")}' if part.get('description') else ''}</p>
                 {ev_html}
+                {thumbs_html}
             </div>
             """
 

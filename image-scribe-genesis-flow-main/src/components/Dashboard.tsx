@@ -1,5 +1,5 @@
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
@@ -18,6 +18,7 @@ import AngleReviewBoard from "@/components/AngleReviewBoard";
 import type { ReviewImage } from "@/components/AngleBucketPanel";
 import { BACKEND_BASE_URL } from "@/lib/config";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { CANON_ANGLES, AngleToken } from "@/lib/angles";
 
 interface DashboardProps {
   user: User;
@@ -67,9 +68,48 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
   // Realtime channel for images updates (one per selected document)
   const [imagesChannel, setImagesChannel] = useState<RealtimeChannel | null>(null);
   const [reviewOpen, setReviewOpen] = useState(false);
-  const [reviewImages, setReviewImages] = useState<{ url: string; id?: string; category?: "exterior" | "interior" | "document" }[]>([]);
+  const [reviewImages, setReviewImages] = useState<ReviewImage[]>([]);
+  const [confirmedReviewImages, setConfirmedReviewImages] = useState<ReviewImage[] | null>(null);
   const [statusErrorCount, setStatusErrorCount] = useState(0);
   const backendBaseUrl = BACKEND_BASE_URL;
+  // Lightweight counts to inform Dashboard cards
+  const [imageCounts, setImageCounts] = useState<{ closeups: number; interior: number; documents: number }>({ closeups: 0, interior: 0, documents: 0 });
+  // Medium-effort: coverage and spotlight
+  const zeroAngles = useMemo((): Record<AngleToken | 'unknown', number> => ({
+    front: 0, front_left: 0, front_right: 0, side_left: 0, side_right: 0, back: 0, back_left: 0, back_right: 0, unknown: 0
+  }), []);
+  const [angleCoverage, setAngleCoverage] = useState<Record<AngleToken | 'unknown', number>>(zeroAngles);
+  const [closeupsByAngle, setCloseupsByAngle] = useState<Record<AngleToken | 'unknown', number>>(zeroAngles);
+  const [unknownSpotlight, setUnknownSpotlight] = useState<{ id?: string; url: string }[]>([]);
+  const [lastUpdatedAt, setLastUpdatedAt] = useState<number | null>(null);
+  const [nowTs, setNowTs] = useState<number>(() => Date.now());
+  useEffect(() => { const t = window.setInterval(() => setNowTs(Date.now()), 30000); return () => window.clearInterval(t); }, []);
+  const lastUpdatedLabel = useMemo(() => {
+    if (!lastUpdatedAt) return null;
+    const diff = Math.max(0, Math.floor((nowTs - lastUpdatedAt) / 1000));
+    if (diff < 5) return 'just now';
+    if (diff < 60) return `${diff}s ago`;
+    const m = Math.floor(diff / 60);
+    return `${m}m ago`;
+  }, [nowTs, lastUpdatedAt]);
+
+  // Compact gallery filmstrip items (latest 20 images for selected document)
+  const [galleryItems, setGalleryItems] = useState<
+    { id?: string; url: string; category: 'exterior'|'interior'|'document'|null; angle: string | null; is_closeup: boolean | null; created_at: string | null }[]
+  >([]);
+  const angleBadge = useCallback((a: string | null | undefined): string => {
+    switch ((a || 'unknown')) {
+      case 'front': return 'F';
+      case 'front_left': return 'FL';
+      case 'front_right': return 'FR';
+      case 'side_left': return 'SL';
+      case 'side_right': return 'SR';
+      case 'back': return 'B';
+      case 'back_left': return 'BL';
+      case 'back_right': return 'BR';
+      default: return '?';
+    }
+  }, []);
 
   // Helper minimal Supabase typed interfaces to avoid 'any'
   type SBSelectResult<T> = Promise<{ data: T[] | null; error: unknown | null }>;
@@ -99,6 +139,88 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
       statusReqInFlight.current = false;
     }
   }, [backendBaseUrl]);
+
+  // Fetch simple counts for dashboard badges
+  const refreshCounts = useCallback(async (docId: string) => {
+    try {
+      type CRow = { category: 'exterior'|'interior'|'document'|null; is_closeup: boolean|null };
+      const { data, error } = await (sbTyped as unknown as { from: <T=CRow>(t: string) => SBFromSelect<T> })
+        .from<CRow>('images')
+        .select('category, is_closeup')
+        .eq('document_id', docId);
+      if (error) throw error;
+      const rows = (data || []) as CRow[];
+      const closeups = rows.filter(r => (r.category ?? 'exterior') === 'exterior' && !!r.is_closeup).length;
+      const interior = rows.filter(r => (r.category ?? 'exterior') === 'interior').length;
+      const documents = rows.filter(r => (r.category ?? 'exterior') === 'document').length;
+      setImageCounts({ closeups, interior, documents });
+    } catch (e) {
+      // Non-fatal
+      console.warn('refreshCounts failed', e);
+      setImageCounts({ closeups: 0, interior: 0, documents: 0 });
+    }
+  }, [sbTyped]);
+
+  // Medium-effort: compute per-angle coverage (exterior non-closeups), unknown spotlight, and close-ups by angle
+  const refreshCoverage = useCallback(async (docId: string) => {
+    try {
+      type Row = { id?: string; url: string; category: 'exterior'|'interior'|'document'|null; angle: string | null; is_closeup: boolean | null };
+      const { data, error } = await (sbTyped as unknown as { from: <T=Row>(t: string) => SBFromSelect<T> })
+        .from<Row>('images')
+        .select('id, url, category, angle, is_closeup')
+        .eq('document_id', docId);
+      if (error) throw error;
+      const rows = (data || []) as Row[];
+      // Exterior, non-closeup for coverage
+      const exteriorNonClose = rows.filter(r => (r.category ?? 'exterior') === 'exterior' && !r.is_closeup);
+      const cov: Record<AngleToken | 'unknown', number> = { ...zeroAngles };
+      exteriorNonClose.forEach(r => {
+        const a = ((r.angle || 'unknown') as AngleToken | 'unknown');
+        cov[a] = (cov[a] ?? 0) + 1;
+      });
+      setAngleCoverage(cov);
+      // Close-ups by angle
+      const closeRows = rows.filter(r => (r.category ?? 'exterior') === 'exterior' && !!r.is_closeup);
+      const closeCov: Record<AngleToken | 'unknown', number> = { ...zeroAngles };
+      closeRows.forEach(r => {
+        const a = ((r.angle || 'unknown') as AngleToken | 'unknown');
+        closeCov[a] = (closeCov[a] ?? 0) + 1;
+      });
+      setCloseupsByAngle(closeCov);
+      // Unknown spotlight (limit 6)
+      const unknowns = exteriorNonClose.filter(r => !r.angle || r.angle === 'unknown').slice(0, 6).map(r => ({ id: r.id, url: r.url }));
+      setUnknownSpotlight(unknowns);
+      setLastUpdatedAt(Date.now());
+    } catch (e) {
+      console.warn('refreshCoverage failed', e);
+      setAngleCoverage(zeroAngles);
+      setCloseupsByAngle(zeroAngles);
+      setUnknownSpotlight([]);
+    }
+  }, [sbTyped, zeroAngles]);
+
+  // Filmstrip: fetch latest images (sorted by created_at desc), slice to 20
+  const refreshGallery = useCallback(async (docId: string) => {
+    try {
+      type Row = { id?: string; url: string; category: 'exterior'|'interior'|'document'|null; angle: string | null; is_closeup: boolean | null; created_at: string | null };
+      const { data, error } = await (sbTyped as unknown as { from: <T=Row>(t: string) => SBFromSelect<T> })
+        .from<Row>('images')
+        .select('id, url, category, angle, is_closeup, created_at')
+        .eq('document_id', docId);
+      if (error) throw error;
+      const rows = (data || []) as Row[];
+      rows.sort((a, b) => {
+        const ta = a.created_at ? new Date(a.created_at).getTime() : 0;
+        const tb = b.created_at ? new Date(b.created_at).getTime() : 0;
+        return tb - ta;
+      });
+      setGalleryItems(rows.slice(0, 20));
+      setLastUpdatedAt(Date.now());
+    } catch (e) {
+      console.warn('refreshGallery failed', e);
+      setGalleryItems([]);
+    }
+  }, [sbTyped]);
 
   // Check if angle review is complete for this document
   const checkAnglesComplete = useCallback(async (documentId: string): Promise<boolean> => {
@@ -163,14 +285,65 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
     ch.on('postgres_changes', { event: '*', schema: 'public', table: 'images', filter: `document_id=eq.${docId}` }, async (_payload: unknown) => {
       // whenever an image row changes, refresh totals
       await refreshStatus(docId);
+      await refreshCounts(docId);
+      await refreshCoverage(docId);
+      await refreshGallery(docId);
     });
     void ch.subscribe();
     setImagesChannel(ch);
     // initial status fetch
     void refreshStatus(docId);
+    void refreshCounts(docId);
+    void refreshCoverage(docId);
+    void refreshGallery(docId);
     // cleanup on doc change/unmount
     return () => { try { supabase.removeChannel(ch); } catch { /* ignore */ } setImagesChannel(null); };
-  }, [selectedDocumentId, backendBaseUrl, refreshStatus]);
+  }, [selectedDocumentId, backendBaseUrl, refreshStatus, refreshCounts, refreshCoverage, refreshGallery]);
+
+  // Open angle review modal and ensure images are loaded
+  const openAngleReview = useCallback(async () => {
+    const docId = selectedDocumentId;
+    if (!docId) {
+      toast({ title: 'Error', description: 'Please save the document first', variant: 'destructive' });
+      return;
+    }
+    try {
+      type ImageRow = { id?: string; url: string; angle: string | null; category: 'exterior'|'interior'|'document'|null; is_closeup?: boolean|null; source?: string|null; confidence?: number|null };
+      const { data: enriched } = await sbTyped
+        .from<ImageRow>('images')
+        .select('id, url, angle, category, is_closeup, source, confidence')
+        .eq('document_id', docId);
+      if (enriched && enriched.length > 0) {
+        const mapped = enriched
+          .filter(r => !!r.url)
+          .map(r => ({
+            url: r.url,
+            id: r.id,
+            category: (r.category ?? 'exterior') as ReviewImage['category'],
+            angle: ((r.category ?? 'exterior') === 'exterior' ? (r.angle ?? 'unknown') : 'unknown') as ReviewImage['angle'],
+            is_closeup: r.is_closeup ?? undefined,
+            source: (r.source ?? undefined) as ReviewImage['source'],
+            confidence: r.confidence ?? null,
+          }));
+        setReviewImages(mapped);
+        const unknownExterior = enriched
+          .filter(r => (r.category ?? 'exterior') === 'exterior')
+          .filter(r => !r.angle || r.angle === 'unknown').length;
+        if (unknownExterior > 0 && backendBaseUrl && !angleClassifying) {
+          await startAngleClassification(docId);
+        }
+      } else {
+        const { data: legacy, error: legacyErr } = await supabase
+          .from('document_images')
+          .select('image_url')
+          .eq('document_id', docId);
+        if (legacyErr) { console.warn('legacy images query failed', legacyErr); }
+        const mappedLegacy = (legacy || []).map((r: { image_url: string }) => ({ url: r.image_url, category: 'exterior' as const }));
+        setReviewImages(mappedLegacy);
+      }
+    } catch (e) { console.warn('load images for review failed', e); }
+    setReviewOpen(true);
+  }, [selectedDocumentId, sbTyped, backendBaseUrl, angleClassifying, startAngleClassification, toast]);
 
   useEffect(() => {
     const run = async () => {
@@ -389,6 +562,32 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
         {/* Main Content Area */}
         <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Global Classification Banner */}
+            {selectedDocumentId && (
+              <div className="lg:col-span-2">
+                {angleClassifying ? (
+                  <div className="p-3 rounded-md bg-blue-50 border border-blue-200">
+                    <div className="flex items-center justify-between text-sm text-blue-800">
+                      <span>Angle classification in progress…</span>
+                      <div className="flex items-center gap-3">
+                        {lastUpdatedLabel && (
+                          <span className="text-xs text-blue-700/80">Updated {lastUpdatedLabel}</span>
+                        )}
+                        <span>{angleTotals ? `${Math.max(0, (angleTotals.total_exterior - angleTotals.unknown_exterior))}/${angleTotals.total_exterior}` : ''}</span>
+                      </div>
+                    </div>
+                    <Progress className="mt-2" value={angleTotals && angleTotals.total_exterior > 0 ? ((angleTotals.total_exterior - angleTotals.unknown_exterior) / angleTotals.total_exterior) * 100 : 0} />
+                  </div>
+                ) : anglesReady === true ? (
+                  <div className="p-3 rounded-md bg-green-50 border border-green-200 text-green-800 text-sm flex items-center justify-between">
+                    <span>Angles ready</span>
+                    {lastUpdatedLabel && (
+                      <span className="text-xs text-green-700/80">Updated {lastUpdatedLabel}</span>
+                    )}
+                  </div>
+                ) : null}
+              </div>
+            )}
             {/* Welcome Section */}
             <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
               <CardHeader>
@@ -424,6 +623,200 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
               vehicleInfo={vehicleInfo}
               onVehicleInfoChange={setVehicleInfo}
             />
+
+            {/* Review Status Card */}
+            <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="text-xl">Review Status</CardTitle>
+                <p className="text-gray-600">Quick overview of angle review and image categories.</p>
+              </CardHeader>
+              <CardContent>
+                {selectedDocumentId ? (
+                  <div className="space-y-4">
+                    <div>
+                      <div className="flex items-center justify-between text-sm text-gray-700">
+                        <span>
+                          Exterior labeled {angleTotals ? Math.max(0, (angleTotals.total_exterior - angleTotals.unknown_exterior)) : 0}/{angleTotals ? angleTotals.total_exterior : 0}
+                        </span>
+                        <span>Unknown exterior: {angleTotals ? angleTotals.unknown_exterior : 0}</span>
+                      </div>
+                      <Progress className="mt-2" value={angleTotals && angleTotals.total_exterior > 0 ? ((angleTotals.total_exterior - angleTotals.unknown_exterior) / angleTotals.total_exterior) * 100 : 0} />
+                    </div>
+                    <div className="flex flex-wrap gap-2 text-xs">
+                      <span className="px-2 py-1 rounded bg-purple-50 text-purple-700 border border-purple-200">Close-ups: {imageCounts.closeups}</span>
+                      <span className="px-2 py-1 rounded bg-gray-50 text-gray-700 border border-gray-200">Interior: {imageCounts.interior}</span>
+                      <span className="px-2 py-1 rounded bg-gray-50 text-gray-700 border border-gray-200">Documents: {imageCounts.documents}</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Button onClick={openAngleReview} className="px-5">Resume Review</Button>
+                      <Button
+                        variant="outline"
+                        onClick={async () => {
+                          const id = selectedDocumentId || await saveDocument();
+                          if (id) navigate(`/review/${id}`);
+                        }}
+                      >Open Review Page</Button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="text-sm text-gray-500">Save a document and upload images to begin review.</div>
+                )}
+              </CardContent>
+            </Card>
+
+            {/* Angle Coverage (Exterior, non-closeups) */}
+            <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl">Angle Coverage</CardTitle>
+                  {lastUpdatedLabel && (
+                    <span className="text-xs text-gray-500">Updated {lastUpdatedLabel}</span>
+                  )}
+                </div>
+                <p className="text-gray-600">Counts per exterior angle (non-close-ups).</p>
+              </CardHeader>
+              <CardContent>
+                {selectedDocumentId ? (
+                  <>
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                      {CANON_ANGLES.map((a) => (
+                        <div key={a} className="flex items-center justify-between px-3 py-2 rounded border border-gray-200 bg-white">
+                          <span className="text-sm capitalize text-gray-700">{String(a).replace(/_/g, ' ')}</span>
+                          <span className="text-sm font-medium text-gray-900">{angleCoverage[a] ?? 0}</span>
+                        </div>
+                      ))}
+                    </div>
+                    {(angleCoverage['unknown'] ?? 0) > 0 && (
+                      <div className="mt-3 text-xs text-gray-600">Unknown: {angleCoverage['unknown']}</div>
+                    )}
+                  </>
+                ) : (
+                  <div className="text-sm text-gray-500">Save a document to see coverage.</div>
+                )}
+              </CardContent>
+            </Card>
+
+            {/* Unknowns Spotlight */}
+            <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl">Unknowns Spotlight</CardTitle>
+                  {lastUpdatedLabel && (
+                    <span className="text-xs text-gray-500">Updated {lastUpdatedLabel}</span>
+                  )}
+                </div>
+                <p className="text-gray-600">Quick access to unlabeled exterior images.</p>
+              </CardHeader>
+              <CardContent>
+                {selectedDocumentId ? (
+                  unknownSpotlight.length > 0 ? (
+                    <>
+                      <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                        {unknownSpotlight.map((u) => (
+                          <div key={u.id || u.url} className="aspect-square rounded overflow-hidden border border-gray-200 bg-gray-100">
+                            <img src={u.url} alt="Unknown angle" className="w-full h-full object-cover" />
+                          </div>
+                        ))}
+                      </div>
+                      <div className="mt-3">
+                        <Button size="sm" variant="outline" onClick={openAngleReview}>Fix Unknowns</Button>
+                      </div>
+                    </>
+                  ) : (
+                    <div className="text-sm text-green-700">No unknown exterior images — great!</div>
+                  )
+                ) : (
+                  <div className="text-sm text-gray-500">Save a document to show unknowns.</div>
+                )}
+              </CardContent>
+            </Card>
+
+            {/* Recent Images (Filmstrip) */}
+            <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl">Recent Images</CardTitle>
+                  <div className="flex items-center gap-3">
+                    {lastUpdatedLabel && (
+                      <span className="text-xs text-gray-500">Updated {lastUpdatedLabel}</span>
+                    )}
+                    {selectedDocumentId && (
+                      <Button
+                        variant="link"
+                        className="h-auto p-0 text-sm"
+                        onClick={async () => {
+                          const id = selectedDocumentId || await saveDocument();
+                          if (id) navigate(`/review/${id}`);
+                        }}
+                      >See All</Button>
+                    )}
+                  </div>
+                </div>
+                <p className="text-gray-600">Latest 20 uploads for this document.</p>
+              </CardHeader>
+              <CardContent>
+                {selectedDocumentId ? (
+                  galleryItems.length > 0 ? (
+                    <div className="overflow-x-auto">
+                      <div className="flex gap-2 py-1">
+                        {galleryItems.map((g) => (
+                          <button
+                            key={g.id || g.url}
+                            className="relative w-16 h-16 rounded overflow-hidden border border-gray-200 bg-gray-100 flex-shrink-0"
+                            title={`Angle: ${g.angle || 'unknown'} | Category: ${(g.category ?? 'exterior')} | Close-up: ${g.is_closeup ? 'yes' : 'no'} | Created: ${g.created_at ? new Date(g.created_at).toLocaleString() : 'unknown'}`}
+                            onClick={() => { openAngleReview(); }}
+                          >
+                            <img src={g.url} alt={g.angle || 'image'} loading="lazy" className="w-full h-full object-cover" />
+                            {/* angle badge */}
+                            <span className="absolute bottom-0 left-0 m-0.5 px-1 py-0.5 rounded text-[10px] leading-none bg-black/60 text-white">
+                              {angleBadge(g.angle)}
+                            </span>
+                            {/* close-up indicator */}
+                            {g.is_closeup ? (
+                              <span className="absolute top-0 right-0 m-0.5 px-1 py-0.5 rounded text-[10px] leading-none bg-amber-500 text-white">CU</span>
+                            ) : null}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="text-sm text-gray-500">No images yet.</div>
+                  )
+                ) : (
+                  <div className="text-sm text-gray-500">Save a document to see recent images.</div>
+                )}
+              </CardContent>
+            </Card>
+
+            {/* Close-ups Summary */}
+            <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl">Close-ups Summary</CardTitle>
+                  {lastUpdatedLabel && (
+                    <span className="text-xs text-gray-500">Updated {lastUpdatedLabel}</span>
+                  )}
+                </div>
+                <p className="text-gray-600">Distribution of exterior close-ups by angle.</p>
+              </CardHeader>
+              <CardContent>
+                {selectedDocumentId ? (
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                    {CANON_ANGLES.map((a) => (
+                      <div key={a} className="flex items-center justify-between px-3 py-2 rounded border border-purple-200 bg-purple-50">
+                        <span className="text-sm capitalize text-purple-800">{String(a).replace(/_/g, ' ')}</span>
+                        <span className="text-sm font-medium text-purple-900">{closeupsByAngle[a] ?? 0}</span>
+                      </div>
+                    ))}
+                    {(closeupsByAngle['unknown'] ?? 0) > 0 && (
+                      <div className="col-span-full text-xs text-purple-700">Unknown close-ups: {closeupsByAngle['unknown']}</div>
+                    )}
+                  </div>
+                ) : (
+                  <div className="text-sm text-gray-500">Save a document to see close-ups.</div>
+                )}
+              </CardContent>
+            </Card>
 
             {/* Upload Section */}
             <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
@@ -483,46 +876,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
               {selectedDocumentId && (
                 <Button
                   variant="outline"
-                  onClick={async () => {
-                    const docId = await saveDocument();
-                    if (!docId) {
-                      toast({ title: 'Error', description: 'Please save the document first', variant: 'destructive' });
-                      return;
-                    }
-                    // load images for dialog with fallback to legacy table
-                    try {
-                      type ImageRow = { url: string; angle: string | null; category: 'exterior'|'interior'|'document'|null; is_closeup?: boolean|null; source?: string|null; confidence?: number|null };
-                      const { data: enriched } = await sbTyped
-                        .from<ImageRow>('images')
-                        .select('url, angle, category, is_closeup, source, confidence')
-                        .eq('document_id', docId);
-
-                      if (enriched && enriched.length > 0) {
-                        const mapped = enriched
-                          .filter(r => !!r.url)
-                          .map(r => ({ url: r.url, category: (r.category ?? 'exterior') as 'exterior'|'interior'|'document' }));
-                        setReviewImages(mapped);
-
-                        // if unknown exterior remain, kick/resume background classification & polling
-                        const unknownExterior = enriched
-                          .filter(r => (r.category ?? 'exterior') === 'exterior')
-                          .filter(r => !r.angle || r.angle === 'unknown').length;
-                        if (unknownExterior > 0 && backendBaseUrl && !angleClassifying) {
-                          await startAngleClassification(docId);
-                        }
-                      } else {
-                        // fallback to legacy document_images
-                        const { data: legacy, error: legacyErr } = await supabase
-                          .from('document_images')
-                          .select('image_url')
-                          .eq('document_id', docId);
-                        if (legacyErr) { console.warn('legacy images query failed', legacyErr); }
-                        const mappedLegacy = (legacy || []).map((r: { image_url: string }) => ({ url: r.image_url, category: 'exterior' as const }));
-                        setReviewImages(mappedLegacy);
-                      }
-                    } catch (e) { console.warn('load images for review failed', e); }
-                    setReviewOpen(true);
-                  }}
+                  onClick={openAngleReview}
                   className="border border-gray-300 px-6"
                 >
                   {angleTotals ? `Review Angles (${Math.max(0, (angleTotals.total_exterior - angleTotals.unknown_exterior))}/${angleTotals.total_exterior})` : 'Review Angles'}
@@ -558,9 +912,18 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                       console.log('Session:', session ? 'Valid' : 'None');
                       
                       console.log('Calling generate_report edge function with docId:', docId);
+                      const imagesPayload = (confirmedReviewImages || undefined)?.map((i) => ({
+                        url: i.url,
+                        angle: i.category === 'exterior' ? i.angle : undefined,
+                        category: i.category,
+                        is_closeup: i.is_closeup,
+                        source: i.source,
+                        confidence: i.confidence ?? undefined,
+                        subcategory: i.subcategory,
+                      }));
                       const { data, error } = await supabase.functions.invoke('generate_report', {
                         headers: { Authorization: `Bearer ${session?.access_token || supabase['supabaseKey']}` },
-                        body: { document_id: docId },
+                        body: { document_id: docId, images: imagesPayload },
                       });
                       
                       if (error) {
@@ -585,8 +948,14 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                 </Button>
               )}
               {/* Helper hint about stages */}
-              {selectedDocumentId && anglesReady === false && (
-                <div className="text-sm text-gray-500 self-center">Review angles to enable Generate.</div>
+              {selectedDocumentId && (
+                <div className="text-sm self-center flex items-center gap-2">
+                  {anglesReady ? (
+                    <span className="text-green-600">✅ All exterior labeled</span>
+                  ) : (
+                    <span className="text-gray-500">Requires all exterior labeled</span>
+                  )}
+                </div>
               )}
             </div>
           </div>
@@ -628,6 +997,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
                   onConfirm={(imgs: ReviewImage[]) => {
                    setReviewOpen(false);
                    setAnglesReady(true);
+                   setConfirmedReviewImages(imgs);
                    toast({ title: 'Angles saved', description: 'All exterior images are labeled.' });
                  }}
                  autoClassifyOnMount={false}

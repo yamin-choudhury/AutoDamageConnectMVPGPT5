@@ -79,16 +79,16 @@ const ImageUploader = ({ documentId, onDocumentCreated, onUploadFinished }: Prop
       return false;
     }
 
-    // Record the public URL in the Supabase document_images table
-    const { error: dbErr } = await (supabase as any).from("document_images").insert({
+    // Insert into legacy/public.document_images; DB trigger will mirror to public.images
+    const { error: legacyErr } = await (supabase as any).from('document_images').insert({
       document_id: docId,
       image_url: publicUrl,
       image_name: img.file.name,
       file_size: img.file.size,
     });
 
-    if (dbErr) {
-      toast({ title: "DB insert failed", description: dbErr.message, variant: "destructive" });
+    if (legacyErr) {
+      toast({ title: 'DB insert failed', description: String(legacyErr?.message || legacyErr), variant: 'destructive' });
       return false;
     }
 

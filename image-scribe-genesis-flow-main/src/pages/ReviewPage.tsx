@@ -6,10 +6,19 @@ import type { Tables } from "@/integrations/supabase/types";
 import AngleReviewBoard from "@/components/AngleReviewBoard";
 import type { ReviewImage } from "@/components/AngleBucketPanel";
 import { BACKEND_BASE_URL, FUNCTIONS_BASE_URL } from "@/lib/config";
+import type { AngleToken } from "@/lib/angles";
 
 export default function ReviewPage() {
   const { documentId } = useParams<{ documentId: string }>();
-  const [initialImages, setInitialImages] = useState<{ url: string; id?: string; category?: "exterior" | "interior" | "document" }[]>([]);
+  const [initialImages, setInitialImages] = useState<{
+    url: string;
+    id?: string;
+    category?: "exterior" | "interior" | "document";
+    angle?: AngleToken | 'unknown';
+    is_closeup?: boolean;
+    source?: ReviewImage['source'];
+    confidence?: number | null;
+  }[]>([]);
   const [loading, setLoading] = useState(true);
   const [classifying, setClassifying] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -32,14 +41,29 @@ export default function ReviewPage() {
     const ch: RealtimeChannel = supabase.channel(`images-review-${documentId}`) as unknown as RealtimeChannel;
     ch.on('postgres_changes', { event: '*', schema: 'public', table: 'images', filter: `document_id=eq.${documentId}` }, async () => {
       try {
-        type ImageRow = { url: string; angle: string | null; category: "exterior"|"interior"|"document"|null; is_closeup: boolean|null; source: string|null; confidence: number|null };
+        type ImageRow = { id?: string; url: string; angle: string | null; category: "exterior"|"interior"|"document"|null; is_closeup: boolean|null; source: string|null; confidence: number|null };
         const { data: enriched } = await sbTyped
           .from<ImageRow>('images')
-          .select('url, angle, category, is_closeup, source, confidence')
+          .select('id, url, angle, category, is_closeup, source, confidence')
           .eq('document_id', documentId);
         if (enriched && enriched.length > 0) {
           const rows = enriched as ImageRow[];
-          setInitialImages(rows.filter(r => !!r.url).map(r => ({ url: r.url, category: (r.category ?? 'exterior') as 'exterior'|'interior'|'document' })));
+          setInitialImages(
+            rows
+              .filter(r => !!r.url)
+              .map(r => {
+                const src = (r.source === 'heuristic' || r.source === 'llm' || r.source === 'user' || r.source === 'cache') ? r.source : undefined;
+                return {
+                  url: r.url,
+                  id: r.id,
+                  category: (r.category ?? 'exterior') as 'exterior'|'interior'|'document',
+                  angle: (r.angle as AngleToken | 'unknown') ?? 'unknown',
+                  is_closeup: r.is_closeup ?? undefined,
+                  source: src,
+                  confidence: r.confidence ?? null,
+                };
+              })
+          );
           const unknownExterior = rows.filter(r => (r.category ?? 'exterior') === 'exterior').filter(r => !r.angle || r.angle === 'unknown').length;
           setClassifying(unknownExterior > 0);
         }
@@ -47,7 +71,7 @@ export default function ReviewPage() {
     });
     ch.subscribe();
     return () => { try { supabase.removeChannel(ch); } catch { /* ignore */ } };
-  }, [documentId]);
+  }, [documentId, sbTyped]);
 
   useEffect(() => {
     if (!documentId) return;
@@ -57,6 +81,7 @@ export default function ReviewPage() {
       try {
         // Prefer enriched images first (cast table name to bypass generated types until updated)
         type ImageRow = {
+          id?: string;
           url: string;
           angle: string | null;
           category: "exterior" | "interior" | "document" | null;
@@ -73,7 +98,7 @@ export default function ReviewPage() {
         };
         const { data: enriched, error: enrichedErr } = await sbTyped
           .from<ImageRow>("images")
-          .select("url, angle, category, is_closeup, source, confidence")
+          .select("id, url, angle, category, is_closeup, source, confidence")
           .eq("document_id", documentId);
 
         if (enrichedErr) {
@@ -83,7 +108,20 @@ export default function ReviewPage() {
         const hasEnriched = enriched && enriched.length > 0;
         if (hasEnriched) {
           const rows = enriched as ImageRow[];
-          const mapped = rows.filter((r) => !!r.url).map((r) => ({ url: r.url, category: (r.category ?? "exterior") as "exterior" | "interior" | "document" }));
+          const mapped = rows
+            .filter((r) => !!r.url)
+            .map((r) => {
+              const src = (r.source === 'heuristic' || r.source === 'llm' || r.source === 'user' || r.source === 'cache') ? r.source : undefined;
+              return {
+                url: r.url,
+                id: r.id,
+                category: (r.category ?? "exterior") as "exterior" | "interior" | "document",
+                angle: (r.angle as AngleToken | 'unknown') ?? 'unknown',
+                is_closeup: r.is_closeup ?? undefined,
+                source: src,
+                confidence: r.confidence ?? null,
+              };
+            });
           setInitialImages(mapped);
           // Decide if we need background classification
           const unknownExterior = rows.filter((r) => (r.category ?? 'exterior') === 'exterior').filter((r) => !r.angle || r.angle === 'unknown').length;
@@ -111,7 +149,7 @@ export default function ReviewPage() {
         setLoading(false);
       }
     })();
-  }, [documentId, backendBaseUrl]);
+  }, [documentId, backendBaseUrl, sbTyped]);
 
   const canGenerate = useMemo(() => {
     return !!confirmedImages && confirmedImages.length > 0;
@@ -130,10 +168,19 @@ export default function ReviewPage() {
     try {
       setGenerating(true);
       setGenResult(null);
+      const imagesPayload = (confirmedImages || undefined)?.map((i) => ({
+        url: i.url,
+        angle: i.category === 'exterior' ? i.angle : undefined,
+        category: i.category,
+        is_closeup: i.is_closeup,
+        source: i.source,
+        confidence: i.confidence ?? undefined,
+        subcategory: i.subcategory,
+      }));
       const res = await fetch(`${functionsBaseUrl}/generate_report`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ document_id: documentId }),
+        body: JSON.stringify({ document_id: documentId, images: imagesPayload }),
       });
       const data = await res.json().catch(() => ({}));
       setGenResult(data);

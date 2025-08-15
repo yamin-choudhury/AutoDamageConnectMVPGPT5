@@ -1,17 +1,5 @@
 import React from 'react';
-
-export type AngleToken =
-  | 'front' | 'front_left' | 'front_right'
-  | 'side_left' | 'side_right'
-  | 'back' | 'back_left' | 'back_right'
-  | 'unknown';
-
-export const CANON_ANGLES: AngleToken[] = [
-  'front', 'front_left', 'front_right',
-  'side_left', 'side_right',
-  'back', 'back_left', 'back_right',
-  'unknown',
-];
+import { AngleToken, CANON_ANGLES } from '../lib/angles';
 
 export interface AngleCounts {
   [angle: string]: number | undefined;
@@ -44,21 +32,33 @@ export default function AngleDiagram({ selected, counts, onSelect, disabled }: A
   const Hotspot: React.FC<{ angle: AngleToken; cx: number; cy: number; label: string }>=({ angle, cx, cy, label }) => (
     <button
       type="button"
+      role="radio"
+      aria-checked={selected === angle}
       onClick={() => handleClick(angle)}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleClick(angle); }
+      }}
       aria-label={`${label} (${counts?.[angle] ?? 0} images)`}
+      tabIndex={disabled ? -1 : 0}
       style={{
         position: 'absolute', left: cx, top: cy, transform: 'translate(-50%, -50%)',
-        width: 44, height: 44, borderRadius: 22,
+        width: 56, height: 56, borderRadius: 12,
         border: selected === angle ? '2px solid #2563eb' : '1px solid #d1d5db',
-        background: disabled ? '#f3f4f6' : '#ffffff', cursor: disabled ? 'not-allowed' : 'pointer'
+        background: disabled ? '#f3f4f6' : (selected === angle ? '#eff6ff' : '#ffffff'),
+        cursor: disabled ? 'not-allowed' : 'pointer',
+        outline: 'none',
+        boxShadow: selected === angle ? '0 0 0 2px rgba(37,99,235,0.2)' : 'none',
+        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+        color: '#111827', fontSize: 11
       }}
     >
       {badge(angle)}
+      <span style={{ pointerEvents: 'none' }}>{label}</span>
     </button>
   );
 
   return (
-    <div style={{ position: 'relative', width: 360, height: 260, margin: '0 auto' }}>
+    <div role="radiogroup" aria-label="Vehicle angles" style={{ position: 'relative', width: '100%', maxWidth: 360, height: 260, margin: '0 auto' }}>
       {/* Simple car body rectangle as placeholder */}
       <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: 220, height: 100, borderRadius: 16, background: '#e5e7eb' }} />
 

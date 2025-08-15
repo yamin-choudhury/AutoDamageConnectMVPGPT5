@@ -15,7 +15,32 @@ from typing import Optional
 from typing import List
 from io import BytesIO
 
-from llm_clients.factory import create_vision_client
+try:
+    from llm_clients.factory import create_vision_client
+except ModuleNotFoundError:
+    try:
+        from backend.llm_clients.factory import create_vision_client
+    except ModuleNotFoundError:
+        # Adjust sys.path for common container layouts (script at /app, package at /app/backend)
+        here = Path(__file__).resolve().parent
+        candidates = [
+            here,                      # .../backend or /app
+            here / "backend",          # /app/backend when script is at /app
+            here.parent,               # repo root
+            here.parent / "backend",  # repo root backend
+        ]
+        for c in candidates:
+            try:
+                if (c / "llm_clients").exists():
+                    sys.path.insert(0, str(c))
+                if (c / "backend" / "llm_clients").exists():
+                    sys.path.insert(0, str(c))
+            except Exception:
+                pass
+        try:
+            from llm_clients.factory import create_vision_client
+        except ModuleNotFoundError:
+            from backend.llm_clients.factory import create_vision_client  # last resort
 _llm_client = None
 def get_llm_client():
     global _llm_client

@@ -93,11 +93,18 @@ def try_parse_json(text: str) -> Optional[Any]:
 
 def validate_detection_output(data: Any) -> dict:
     """Validate/coerce raw data to DetectionLLMOutput -> dict."""
-    model = DetectionLLMOutput.parse_obj(data)
+    # pydantic v2: model_validate/model_dump; v1: parse_obj/dict
+    if hasattr(DetectionLLMOutput, "model_validate"):
+        model = DetectionLLMOutput.model_validate(data)  # type: ignore[attr-defined]
+        return model.model_dump()  # type: ignore[attr-defined]
+    model = DetectionLLMOutput.parse_obj(data)  # type: ignore[attr-defined]
     return model.dict()
 
 
 def validate_verify_output(data: Any) -> dict:
     """Validate/coerce raw data to VerifyLLMOutput -> dict."""
-    model = VerifyLLMOutput.parse_obj(data)
+    if hasattr(VerifyLLMOutput, "model_validate"):
+        model = VerifyLLMOutput.model_validate(data)  # type: ignore[attr-defined]
+        return model.model_dump()  # type: ignore[attr-defined]
+    model = VerifyLLMOutput.parse_obj(data)  # type: ignore[attr-defined]
     return model.dict()

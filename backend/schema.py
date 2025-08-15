@@ -78,8 +78,8 @@ class ReportPart(BaseModel):
     safety_critical: bool = False
     confidence: Optional[float] = None
     reason: Optional[str] = None  # for potential_parts
-    _votes: Optional[int] = Field(default=None, alias="_votes")
-    _verify: Optional[VerifyEvidence] = Field(default=None, alias="_verify")
+    votes: Optional[int] = Field(default=None, alias="_votes")
+    verify: Optional[VerifyEvidence] = Field(default=None, alias="_verify")
 
     @validator("severity", pre=True, always=True)
     def _norm_report_severity(cls, v):  # type: ignore[no-untyped-def]
@@ -93,5 +93,6 @@ class ReportPart(BaseModel):
         return "minor"
 
     class Config:
-        allow_population_by_field_name = True
+        # pydantic v2: allow_population_by_field_name -> validate_by_name
+        validate_by_name = True
         extra = "ignore"

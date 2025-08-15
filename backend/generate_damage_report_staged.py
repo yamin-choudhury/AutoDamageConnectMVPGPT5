@@ -97,25 +97,28 @@ except Exception:
     pass
 # Robust JSON parsing and schema validation utilities
 try:
+    # Ensure backend package is importable even when running as a top-level script (/app)
+    here = Path(__file__).resolve().parent
+    for c in [here, here / "backend", here.parent, here.parent / "backend"]:
+        try:
+            if str(c) not in sys.path and c.exists():
+                sys.path.insert(0, str(c))
+        except Exception:
+            pass
+except Exception:
+    pass
+try:
     from backend.utils.json_parser import (
         try_parse_json,
         validate_detection_output,
         validate_verify_output,
     )
 except Exception:
-    try:
-        from utils.json_parser import (
-            try_parse_json,
-            validate_detection_output,
-            validate_verify_output,
-        )
-    except Exception:
-        # Last resort local import when running from backend/ directly
-        from .utils.json_parser import (  # type: ignore
-            try_parse_json,
-            validate_detection_output,
-            validate_verify_output,
-        )
+    from utils.json_parser import (
+        try_parse_json,
+        validate_detection_output,
+        validate_verify_output,
+    )
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random

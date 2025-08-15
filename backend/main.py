@@ -153,6 +153,9 @@ async def download_images(images: list[dict] | list[str], dest: Path):
                     angle = ""
                     is_closeup = False
 
+                # Sanitize stray punctuation sometimes included by upstream payloads (e.g., ";" after .jpg)
+                if isinstance(url, str):
+                    url = url.strip().strip("'\";,)] ")
                 if not url or not isinstance(url, str) or not url.startswith(("http://", "https://")):
                     raise ValueError(f"Invalid URL: {url}")
 
@@ -208,21 +211,33 @@ async def generate_report(payload: GeneratePayload):
 
         # Run staged generator ------------------------------------------------
         out_json = tmp_dir / "report.json"
-        # Locate generate_damage_report_staged.py whether it lives beside backend/ or at repo root
-        root_dir = Path(__file__).resolve().parent
-        gen_script = root_dir / "generate_damage_report_staged.py"
-        if not gen_script.exists():
-            gen_script = root_dir.parent / "generate_damage_report_staged.py"
-        if not gen_script.exists():
-            raise RuntimeError("generate_damage_report_staged.py not found in expected locations")
+        # Prefer running as a module to ensure imports resolve regardless of file relocation
+        backend_dir = Path(__file__).resolve().parent
+        repo_root = backend_dir.parent
+        gen_script = backend_dir / "generate_damage_report_staged.py"
+        run_as_module = (backend_dir / "__init__.py").exists() and (backend_dir / "llm_clients").exists()
         try:
-            print(f"Starting damage report generation with script: {gen_script}")
             # Build command with optional vehicle args from payload
-            cmd = [
-                "python", str(gen_script),
-                "--images_dir", str(tmp_dir),
-                "--out", str(out_json),
-            ]
+            if run_as_module:
+                cmd = [
+                    "python", "-m", "backend.generate_damage_report_staged",
+                    "--images_dir", str(tmp_dir),
+                    "--out", str(out_json),
+                ]
+                print("Starting damage report generation as module: backend.generate_damage_report_staged")
+            else:
+                # Fall back to script path within backend/
+                if not gen_script.exists():
+                    # Last resort: try repo root (only if backend isn't a package), but warn this may lack imports
+                    alt = repo_root / "generate_damage_report_staged.py"
+                    if alt.exists():
+                        gen_script = alt
+                print(f"Starting damage report generation with script: {gen_script}")
+                cmd = [
+                    "python", str(gen_script),
+                    "--images_dir", str(tmp_dir),
+                    "--out", str(out_json),
+                ]
             # Smart defaults for comprehensive, high-recall + verified reporting.
             # We do not require the user to set envs; we set sane defaults unless already provided by deployment.
             env = os.environ.copy()
@@ -268,15 +283,23 @@ async def generate_report(payload: GeneratePayload):
                 if k not in env or env[k] in (None, ""):
                     env[k] = v
             # Ensure Python can import backend packages when script is relocated at /app
+            # Add multiple candidates for safety
+            bdir = Path(__file__).resolve().parent
             py_paths = [
-                str(Path(__file__).resolve().parent),          # /.../backend
-                str(Path(__file__).resolve().parent.parent),    # repo root
+                str(bdir),                       # /.../backend
+                str(bdir.parent),                # repo root
+                str(bdir / ".."),               # (string fallback)
             ]
+            # If an adjacent backend dir exists relative to current working dir, include it too
+            cwd_backend = Path.cwd() / "backend"
+            if cwd_backend.exists():
+                py_paths.append(str(cwd_backend))
             current_py = env.get("PYTHONPATH", "")
             for p in py_paths:
                 if p and p not in current_py:
                     current_py = f"{p}:{current_py}" if current_py else p
             env["PYTHONPATH"] = current_py
+            print(f"PYTHONPATH for generator: {env['PYTHONPATH']}")
             # Provider selection and model defaults
             provider = (env.get("MODEL_PROVIDER") or os.getenv("MODEL_PROVIDER") or "gemini").strip().lower()
             if "MODEL_PROVIDER" not in env or not env.get("MODEL_PROVIDER"):

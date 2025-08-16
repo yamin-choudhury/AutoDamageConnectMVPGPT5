@@ -119,6 +119,15 @@ except Exception:
         validate_detection_output,
         validate_verify_output,
     )
+# Finalization modules (deterministic merge + LLM judge/compose)
+try:
+    from backend.finalize.merge import consolidate_parts
+    from backend.finalize.judge import judge_ambiguous
+    from backend.finalize.compose import compose_narrative
+except Exception:
+    from finalize.merge import consolidate_parts  # type: ignore
+    from finalize.judge import judge_ambiguous  # type: ignore
+    from finalize.compose import compose_narrative  # type: ignore
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random
@@ -156,6 +165,8 @@ PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
 PHASE1_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_enterprise_prompt.txt"
 PHASE1_COMPLETENESS_PROMPT = PROMPTS_DIR / "detect_missing_parts.txt"
 PHASE5_VERIFY_PROMPT = PROMPTS_DIR / "verify_part_prompt.txt"
+FINALIZE_JUDGE_PROMPT = PROMPTS_DIR / "finalize_judge_prompt.txt"
+FINALIZE_COMPOSE_PROMPT = PROMPTS_DIR / "finalize_compose_prompt.txt"
 
 
 # ----------------------- OpenAI client tuning -------------------------
@@ -164,7 +175,7 @@ OPENAI_MAX_RETRIES = int(os.getenv("OPENAI_MAX_RETRIES", "5"))
 OPENAI_BACKOFF_BASE = float(os.getenv("OPENAI_BACKOFF_BASE", "0.5"))  # seconds
 OPENAI_CONCURRENCY = int(os.getenv("OPENAI_CONCURRENCY", "4"))
 _openai_sem = threading.Semaphore(OPENAI_CONCURRENCY)
-MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "5"))  # 0 = no cap
+MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "0"))  # 0 = no cap (recall-preserving default)
 PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "0") == "1"  # default OFF to reduce hallucinations
 PERSIST_MAX_UNION = os.getenv("PERSIST_MAX_UNION", "1") == "1"
 CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
@@ -172,12 +183,12 @@ CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
 CACHE_ANGLES_DB = (Path(__file__).resolve().parent / "cache" / "angles_db.json")
 PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
 ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
-STRICT_MODE = os.getenv("STRICT_MODE", "1") == "1"
+STRICT_MODE = os.getenv("STRICT_MODE", "0") == "1"  # default relaxed for higher recall in fallback
 # Comprehensive mode prioritises recall and produces a dual-track output
 # with definitive damaged_parts and potential_parts.
 # Default ON to ensure upper-bound visibility unless explicitly disabled.
 COMPREHENSIVE_MODE = os.getenv("COMPREHENSIVE_MODE", "1") == "1"
-MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "2"))  # Default stricter consensus
+MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "1"))  # relaxed default to avoid over-pruning
 MIN_VOTES_SEVERE = int(os.getenv("MIN_VOTES_SEVERE", str(MIN_VOTES_PER_PART)))
 MIN_VOTES_MODERATE = int(os.getenv("MIN_VOTES_MODERATE", str(MIN_VOTES_PER_PART)))
 MIN_VOTES_MINOR = int(os.getenv("MIN_VOTES_MINOR", str(MIN_VOTES_PER_PART)))
@@ -186,6 +197,10 @@ VERIFY_MIN_CONFIDENCE = float(os.getenv("VERIFY_MIN_CONFIDENCE", "0.65" if STRIC
 DETECT_MIN_CONFIDENCE = float(os.getenv("DETECT_MIN_CONFIDENCE", "0.0"))
 # Optional: in future, merge potential into definitive at output
 UPPER_BOUND_DEFINITIVE = os.getenv("UPPER_BOUND_DEFINITIVE", "0") == "1"
+# Finalization feature flags
+FINALIZE_WITH_LLM = os.getenv("FINALIZE_WITH_LLM", "0") == "1"
+FINALIZE_USE_JUDGE = os.getenv("FINALIZE_USE_JUDGE", "1") == "1"
+FINALIZE_ONTOLOGY_PATH = os.getenv("FINALIZE_ONTOLOGY_PATH", "")
 # Detection temperatures: allow env override (e.g., '0.0,0.25,0.4'), else default by STRICT_MODE
 _dtemps = os.getenv("DETECTION_TEMPS")
 if _dtemps:
@@ -231,7 +246,7 @@ else:
     VERIFY_TEMPS = [0.0, 0.2]
 # Consensus requirements per severity (number of verification passes that must agree)
 VERIFY_REQUIRE_PASSES_SEVERE = int(os.getenv("VERIFY_REQUIRE_PASSES_SEVERE", "2"))
-VERIFY_REQUIRE_PASSES_MODERATE = int(os.getenv("VERIFY_REQUIRE_PASSES_MODERATE", "2"))
+VERIFY_REQUIRE_PASSES_MODERATE = int(os.getenv("VERIFY_REQUIRE_PASSES_MODERATE", "1"))
 VERIFY_REQUIRE_PASSES_MINOR = int(os.getenv("VERIFY_REQUIRE_PASSES_MINOR", "1"))
 
 def get_candidate_boxes(img_path: Path):
@@ -1791,6 +1806,31 @@ def main():
     except Exception:
         pass
 
+    # Pre-verify consolidation (ontology-driven deterministic merge) -------
+    if FINALIZE_WITH_LLM:
+        try:
+            merged_pre = consolidate_parts(
+                detected.get("damaged_parts", []) or [],
+                (detected.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else [],
+                os.getenv("FINALIZE_ONTOLOGY_PATH", FINALIZE_ONTOLOGY_PATH) or None,
+            )
+            detected["damaged_parts"] = list(merged_pre.get("damaged_parts", []) or [])
+            if COMPREHENSIVE_MODE:
+                detected["potential_parts"] = list(merged_pre.get("potential_parts", []) or [])
+            try:
+                metrics.setdefault("finalize", {}).update({
+                    "pre_verify_consolidated": True,
+                    "n_pre_clusters": int(merged_pre.get("metrics", {}).get("n_clusters", 0)),
+                })
+            except Exception:
+                pass
+            try:
+                detected.setdefault("_finalize_provenance", {}).update(merged_pre.get("provenance", {}))
+            except Exception:
+                pass
+        except Exception as _e:
+            print(f"Pre-verify consolidate error: {_e}")
+
     # Phase 2.5 – Verification (reduce hallucinations) ---------------------
     if ENABLE_VERIFICATION_PASS and detected.get("damaged_parts"):
         try:
@@ -2056,6 +2096,72 @@ def main():
         except Exception:
             pass
 
+    # Finalization pipeline (deterministic consolidation + optional LLM judge)
+    if FINALIZE_WITH_LLM:
+        try:
+            merged = consolidate_parts(
+                detected.get("damaged_parts", []) or [],
+                (detected.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else [],
+                os.getenv("FINALIZE_ONTOLOGY_PATH", FINALIZE_ONTOLOGY_PATH) or None,
+            )
+            decisions = []
+            if FINALIZE_USE_JUDGE and (merged.get("ambiguous_clusters") or []):
+                try:
+                    judge_tmpl = FINALIZE_JUDGE_PROMPT.read_text()
+                except Exception:
+                    judge_tmpl = ""
+                decisions = judge_ambiguous(
+                    merged.get("ambiguous_clusters", []),
+                    judge_tmpl,
+                    model=args.model,
+                    temperature=0.0,
+                )
+            finals = list(merged.get("damaged_parts", []) or [])
+            pots = list(merged.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else []
+            if decisions:
+                def _nl(s: str) -> str:
+                    return (s or "").strip().lower()
+                key_to_idx = {(_nl(p.get("name", "")), _nl(p.get("location", ""))): i for i, p in enumerate(finals)}
+                dropped = set()
+                for d in decisions:
+                    try:
+                        k = (
+                            _nl(d.get("key", {}).get("name", "")),
+                            _nl(d.get("key", {}).get("location", "")),
+                        )
+                        dec = (d.get("decision") or "").strip().lower()
+                        if k not in key_to_idx:
+                            continue
+                        if dec == "drop":
+                            dropped.add(k)
+                        elif dec == "potential":
+                            item = dict(finals[key_to_idx[k]])
+                            item.setdefault("reason", "llm_judge_potential")
+                            item.setdefault("_potential_reason", item.get("reason"))
+                            pots.append(item)
+                            dropped.add(k)
+                    except Exception:
+                        continue
+                if dropped:
+                    finals = [p for p in finals if (_nl(p.get("name", "")), _nl(p.get("location", ""))) not in dropped]
+            detected["damaged_parts"] = finals
+            if COMPREHENSIVE_MODE:
+                detected["potential_parts"] = pots
+            try:
+                metrics.setdefault("finalize", {}).update({
+                    "enabled": True,
+                    "n_ambiguous": int(merged.get("metrics", {}).get("n_ambiguous", 0)),
+                    "judge_decisions": int(len(decisions)),
+                })
+            except Exception:
+                pass
+            try:
+                detected["_finalize_provenance"] = merged.get("provenance", {})
+            except Exception:
+                pass
+        except Exception as _e:
+            print(f"Finalize pipeline error: {_e}")
+
     # Phase 3 – Plan parts -------------------------------------------------
     p3_base = PHASE3_PROMPT.read_text()
     p3_prompt = p3_base.replace("<DETECTED_PARTS_JSON>", json.dumps(detected["damaged_parts"]))
@@ -2074,6 +2180,18 @@ def main():
     if summary_txt.startswith("```"):
         summary_txt = summary_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     detected["summary"] = json.loads(summary_txt)
+
+    # Narrative composition (enterprise-grade narrative) -------------------
+    if FINALIZE_WITH_LLM:
+        try:
+            try:
+                comp_tmpl = FINALIZE_COMPOSE_PROMPT.read_text()
+            except Exception:
+                comp_tmpl = ""
+            narrative = compose_narrative(detected, comp_tmpl, temperature=0.1)
+            detected["narrative"] = narrative
+        except Exception as _e:
+            print(f"Narrative composition error: {_e}")
 
     pre_final_count = len(detected["damaged_parts"])
     # FINAL DUPLICATE CLEANUP - keep list stable; only drop exact duplicates
@@ -2198,6 +2316,11 @@ def main():
                 },
             },
             "completeness_pass": ENABLE_COMPLETENESS_PASS,
+            "finalize": {
+                "enabled": FINALIZE_WITH_LLM,
+                "use_judge": FINALIZE_USE_JUDGE,
+                "ontology_path": FINALIZE_ONTOLOGY_PATH,
+            },
             "phase2_allow_new_parts": PHASE2_ALLOW_NEW_PARTS,
             "persist_max_union": PERSIST_MAX_UNION,
             "persist_min_support": PERSIST_MIN_SUPPORT,

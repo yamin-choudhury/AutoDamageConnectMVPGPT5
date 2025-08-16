@@ -74,14 +74,14 @@ except ModuleNotFoundError:
                                 resp = vision.generate_content(parts, generation_config={"temperature": float(temperature)})
                                 return getattr(resp, "text", "") or ""
                             except Exception as e:
-                                return json.dumps({"error": "vision_call_failed", "message": str(e)})
+                                return f"{{\n  \"error\": \"vision_call_failed\", \n  \"message\": \"{str(e).replace('"','\\"')}\"\n}}"
 
                         def text(self, prompt: str, temperature: float = 0.2) -> str:
                             try:
                                 resp = text.generate_content(prompt, generation_config={"temperature": float(temperature)})
                                 return getattr(resp, "text", "") or ""
                             except Exception as e:
-                                return json.dumps({"error": "text_call_failed", "message": str(e)})
+                                return f"{{\n  \"error\": \"text_call_failed\", \n  \"message\": \"{str(e).replace('"','\\"')}\"\n}}"
 
                     return _Client()
 _llm_client = None
@@ -95,39 +95,6 @@ try:
     print(f"[generator] sys.path (head)={sys.path[:5]}")
 except Exception:
     pass
-# Robust JSON parsing and schema validation utilities
-try:
-    # Ensure backend package is importable even when running as a top-level script (/app)
-    here = Path(__file__).resolve().parent
-    for c in [here, here / "backend", here.parent, here.parent / "backend"]:
-        try:
-            if str(c) not in sys.path and c.exists():
-                sys.path.insert(0, str(c))
-        except Exception:
-            pass
-except Exception:
-    pass
-try:
-    from backend.utils.json_parser import (
-        try_parse_json,
-        validate_detection_output,
-        validate_verify_output,
-    )
-except Exception:
-    from utils.json_parser import (
-        try_parse_json,
-        validate_detection_output,
-        validate_verify_output,
-    )
-# Finalization modules (deterministic merge + LLM judge/compose)
-try:
-    from backend.finalize.merge import consolidate_parts
-    from backend.finalize.judge import judge_ambiguous
-    from backend.finalize.compose import compose_narrative
-except Exception:
-    from finalize.merge import consolidate_parts  # type: ignore
-    from finalize.judge import judge_ambiguous  # type: ignore
-    from finalize.compose import compose_narrative  # type: ignore
 from dotenv import load_dotenv
 from PIL import Image, ImageOps, ImageFilter, ImageStat
 import time, random
@@ -165,8 +132,6 @@ PHASE4_PROMPT = PROMPTS_DIR / "summary_prompt.txt"
 PHASE1_ENTERPRISE_PROMPT = PROMPTS_DIR / "detect_enterprise_prompt.txt"
 PHASE1_COMPLETENESS_PROMPT = PROMPTS_DIR / "detect_missing_parts.txt"
 PHASE5_VERIFY_PROMPT = PROMPTS_DIR / "verify_part_prompt.txt"
-FINALIZE_JUDGE_PROMPT = PROMPTS_DIR / "finalize_judge_prompt.txt"
-FINALIZE_COMPOSE_PROMPT = PROMPTS_DIR / "finalize_compose_prompt.txt"
 
 
 # ----------------------- OpenAI client tuning -------------------------
@@ -175,7 +140,7 @@ OPENAI_MAX_RETRIES = int(os.getenv("OPENAI_MAX_RETRIES", "5"))
 OPENAI_BACKOFF_BASE = float(os.getenv("OPENAI_BACKOFF_BASE", "0.5"))  # seconds
 OPENAI_CONCURRENCY = int(os.getenv("OPENAI_CONCURRENCY", "4"))
 _openai_sem = threading.Semaphore(OPENAI_CONCURRENCY)
-MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "0"))  # 0 = no cap (recall-preserving default)
+MAX_DAMAGED_PARTS = int(os.getenv("MAX_DAMAGED_PARTS", "5"))  # 0 = no cap
 PHASE2_ALLOW_NEW_PARTS = os.getenv("PHASE2_ALLOW_NEW_PARTS", "0") == "1"  # default OFF to reduce hallucinations
 PERSIST_MAX_UNION = os.getenv("PERSIST_MAX_UNION", "1") == "1"
 CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
@@ -183,12 +148,12 @@ CACHE_SUPERSET_DIR = (Path(__file__).resolve().parent / "cache" / "supersets")
 CACHE_ANGLES_DB = (Path(__file__).resolve().parent / "cache" / "angles_db.json")
 PERSIST_MIN_SUPPORT = int(os.getenv("PERSIST_MIN_SUPPORT", "1"))
 ENABLE_COMPLETENESS_PASS = os.getenv("ENABLE_COMPLETENESS_PASS", "1") == "1"
-STRICT_MODE = os.getenv("STRICT_MODE", "0") == "1"  # default relaxed for higher recall in fallback
+STRICT_MODE = os.getenv("STRICT_MODE", "1") == "1"
 # Comprehensive mode prioritises recall and produces a dual-track output
 # with definitive damaged_parts and potential_parts.
 # Default ON to ensure upper-bound visibility unless explicitly disabled.
 COMPREHENSIVE_MODE = os.getenv("COMPREHENSIVE_MODE", "1") == "1"
-MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "1"))  # relaxed default to avoid over-pruning
+MIN_VOTES_PER_PART = int(os.getenv("MIN_VOTES_PER_PART", "2"))  # Default stricter consensus
 MIN_VOTES_SEVERE = int(os.getenv("MIN_VOTES_SEVERE", str(MIN_VOTES_PER_PART)))
 MIN_VOTES_MODERATE = int(os.getenv("MIN_VOTES_MODERATE", str(MIN_VOTES_PER_PART)))
 MIN_VOTES_MINOR = int(os.getenv("MIN_VOTES_MINOR", str(MIN_VOTES_PER_PART)))
@@ -197,10 +162,6 @@ VERIFY_MIN_CONFIDENCE = float(os.getenv("VERIFY_MIN_CONFIDENCE", "0.65" if STRIC
 DETECT_MIN_CONFIDENCE = float(os.getenv("DETECT_MIN_CONFIDENCE", "0.0"))
 # Optional: in future, merge potential into definitive at output
 UPPER_BOUND_DEFINITIVE = os.getenv("UPPER_BOUND_DEFINITIVE", "0") == "1"
-# Finalization feature flags
-FINALIZE_WITH_LLM = os.getenv("FINALIZE_WITH_LLM", "0") == "1"
-FINALIZE_USE_JUDGE = os.getenv("FINALIZE_USE_JUDGE", "1") == "1"
-FINALIZE_ONTOLOGY_PATH = os.getenv("FINALIZE_ONTOLOGY_PATH", "")
 # Detection temperatures: allow env override (e.g., '0.0,0.25,0.4'), else default by STRICT_MODE
 _dtemps = os.getenv("DETECTION_TEMPS")
 if _dtemps:
@@ -246,7 +207,7 @@ else:
     VERIFY_TEMPS = [0.0, 0.2]
 # Consensus requirements per severity (number of verification passes that must agree)
 VERIFY_REQUIRE_PASSES_SEVERE = int(os.getenv("VERIFY_REQUIRE_PASSES_SEVERE", "2"))
-VERIFY_REQUIRE_PASSES_MODERATE = int(os.getenv("VERIFY_REQUIRE_PASSES_MODERATE", "1"))
+VERIFY_REQUIRE_PASSES_MODERATE = int(os.getenv("VERIFY_REQUIRE_PASSES_MODERATE", "2"))
 VERIFY_REQUIRE_PASSES_MINOR = int(os.getenv("VERIFY_REQUIRE_PASSES_MINOR", "1"))
 
 def get_candidate_boxes(img_path: Path):
@@ -442,24 +403,6 @@ def canonicalize_part(p: dict) -> dict:
         q["severity"] = _canon_severity(q.get("severity", ""))
     return q
 
-def _is_safety_critical(p: dict) -> bool:
-    """Heuristic safety-critical flagging based on part name/category."""
-    name = _norm(p.get("name", ""))
-    cat = _norm(p.get("category", ""))
-    desc = _norm(p.get("description", p.get("damage_description", "")))
-    keywords = [
-        "airbag", "seat belt", "seatbelt", "brake", "brakes",
-        "steering", "suspension", "windshield", "windscreen",
-        "tire", "tyre", "wheel hub", "control arm"
-    ]
-    if any(k in name for k in keywords):
-        return True
-    if any(k in desc for k in keywords):
-        return True
-    if cat in ("brakes", "suspension", "steering"):
-        return True
-    return False
-
 def _finalize_display_fields(p: dict) -> dict:
     """Ensure all user-facing fields are populated deterministically for output.
     This runs only at the end of the pipeline so it does not influence union keys.
@@ -478,11 +421,6 @@ def _finalize_display_fields(p: dict) -> dict:
     # Canonicalize severity one last time
     if out.get("severity") is not None:
         out["severity"] = _canon_severity(str(out.get("severity", "")))
-    # Safety-critical flag
-    try:
-        out["safety_critical"] = bool(out.get("safety_critical")) or _is_safety_critical(out)
-    except Exception:
-        out["safety_critical"] = False
     return out
 
 def _fingerprint_images(images: List[Path]) -> str:
@@ -1397,22 +1335,37 @@ def main():
             print(f"    Running {task_id}...")
             
             txt = call_openai_vision(prompt_text, imgs_for_call, model, temperature=temp, max_images=5)
-            parsed = try_parse_json(txt)
-            if parsed is None:
-                # One more attempt asking for strict JSON only
-                txt2 = call_openai_vision(prompt_text + "\nRespond with STRICTLY valid JSON only.", imgs_for_call, model, temperature=temp, max_images=5)
-                parsed = try_parse_json(txt2)
-            if parsed is None:
-                parsed = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_parts": []}
-            # Pydantic validation/coercion
+            if txt.startswith("```"):
+                if "json" in txt.split("\n")[0]:
+                    txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+                else:
+                    txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
+            # Robust JSON parse with fallback extraction/retry
             try:
-                validated = validate_detection_output(parsed)
-            except Exception as e:
-                print(f"[warn] Detection schema validation failed for {task_id}: {e}")
-                validated = {"vehicle": {"make": "Unknown", "model": "Unknown", "year": 0}, "damaged_parts": []}
+                result = json.loads(txt)
+            except json.JSONDecodeError:
+                s = txt
+                l = s.find("{"); r = s.rfind("}")
+                parsed = None
+                if l != -1 and r != -1 and r > l:
+                    try:
+                        parsed = json.loads(s[l:r+1])
+                    except Exception:
+                        parsed = None
+                if parsed is None:
+                    # One more attempt asking for strict JSON only
+                    txt2 = call_openai_vision(prompt_text + "\nRespond with STRICTLY valid JSON only.", imgs_for_call, model, temperature=temp, max_images=5)
+                    if txt2.startswith("```"):
+                        if "json" in txt2.split("\n")[0]:
+                            txt2 = txt2.split("\n",1)[1].rsplit("```",1)[0].strip()
+                        else:
+                            txt2 = txt2.split("```",1)[1].rsplit("```",1)[0].strip()
+                    result = json.loads(txt2)
+                else:
+                    result = parsed
             combined = {
-                "vehicle": validated.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
-                "damaged_parts": validated.get("damaged_parts", [])
+                "vehicle": result.get("vehicle", {"make": "Unknown", "model": "Unknown", "year": 0}),
+                "damaged_parts": result.get("damaged_parts", [])
             }
             # Attach a stable context image to each part; override unknown/invalid names
             try:
@@ -1806,41 +1759,6 @@ def main():
     except Exception:
         pass
 
-    # Pre-verify consolidation (ontology-driven deterministic merge) -------
-    if FINALIZE_WITH_LLM:
-        try:
-            merged_pre = consolidate_parts(
-                detected.get("damaged_parts", []) or [],
-                (detected.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else [],
-                os.getenv("FINALIZE_ONTOLOGY_PATH", FINALIZE_ONTOLOGY_PATH) or None,
-            )
-            pre_keep = len(detected.get("damaged_parts", []) or [])
-            pre_pot = len(detected.get("potential_parts", []) or [])
-            new_keep = list(merged_pre.get("damaged_parts", []) or [])
-            new_pot = list(merged_pre.get("potential_parts", []) or [])
-            if new_keep:
-                detected["damaged_parts"] = new_keep
-            else:
-                print(f"[finalize] skip pre-verify replacement: merge produced 0 from {pre_keep}")
-            if COMPREHENSIVE_MODE:
-                if new_pot or not detected.get("potential_parts"):
-                    detected["potential_parts"] = new_pot
-                else:
-                    print(f"[finalize] keep existing potential_parts: merge produced 0 from {pre_pot}")
-            try:
-                metrics.setdefault("finalize", {}).update({
-                    "pre_verify_consolidated": True,
-                    "n_pre_clusters": int(merged_pre.get("metrics", {}).get("n_clusters", 0)),
-                })
-            except Exception:
-                pass
-            try:
-                detected.setdefault("_finalize_provenance", {}).update(merged_pre.get("provenance", {}))
-            except Exception:
-                pass
-        except Exception as _e:
-            print(f"Pre-verify consolidate error: {_e}")
-
     # Phase 2.5 – Verification (reduce hallucinations) ---------------------
     if ENABLE_VERIFICATION_PASS and detected.get("damaged_parts"):
         try:
@@ -1912,19 +1830,22 @@ def main():
                 for i in range(2):
                     try:
                         txt = call_openai_vision(prompts[i], imgs, args.model, temperature=float(temps[i]), max_images=min(5, len(imgs)))
-                        data_raw = try_parse_json(txt)
-                        if data_raw is None:
-                            # Retry with stricter instruction
-                            txt2 = call_openai_vision(prompts[i] + "\nRespond with STRICTLY valid JSON only.", imgs, args.model, temperature=float(temps[i]), max_images=min(5, len(imgs)))
-                            data_raw = try_parse_json(txt2)
-                        if data_raw is None:
-                            raise ValueError("Unable to parse verification JSON")
+                        if txt.startswith("```"):
+                            if "json" in txt.split("\n")[0]:
+                                txt = txt.split("\n",1)[1].rsplit("```",1)[0].strip()
+                            else:
+                                txt = txt.split("```",1)[1].rsplit("```",1)[0].strip()
                         try:
-                            data = validate_verify_output(data_raw)
-                        except Exception as ve:
-                            raise ValueError(f"verify schema invalid: {ve}")
+                            data = json.loads(txt)
+                        except json.JSONDecodeError:
+                            s = txt; l = s.find("{"); r = s.rfind("}")
+                            if l != -1 and r != -1 and r > l:
+                                data = json.loads(s[l:r+1])
+                            else:
+                                raise
                         present = bool(data.get("present", False))
-                        conf = float(data.get("confidence", 0.0))
+                        conf_val = data.get("confidence", 0.0)
+                        conf = float(conf_val) if isinstance(conf_val, (int, float)) else 0.0
                         passes.append({"present": present, "confidence": conf, "temp": float(temps[i])})
                     except Exception as e:
                         print(f"Verification pass {i+1} error for {p.get('name','?')}@{p.get('location','?')}: {e}")
@@ -2106,88 +2027,6 @@ def main():
         except Exception:
             pass
 
-    # Finalization pipeline (deterministic consolidation + optional LLM judge)
-    if FINALIZE_WITH_LLM:
-        try:
-            merged = consolidate_parts(
-                detected.get("damaged_parts", []) or [],
-                (detected.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else [],
-                os.getenv("FINALIZE_ONTOLOGY_PATH", FINALIZE_ONTOLOGY_PATH) or None,
-            )
-            decisions = []
-            if FINALIZE_USE_JUDGE and (merged.get("ambiguous_clusters") or []):
-                try:
-                    judge_tmpl = FINALIZE_JUDGE_PROMPT.read_text()
-                except Exception:
-                    judge_tmpl = ""
-                decisions = judge_ambiguous(
-                    merged.get("ambiguous_clusters", []),
-                    judge_tmpl,
-                    model=args.model,
-                    temperature=0.0,
-                )
-            orig_finals = list(detected.get("damaged_parts", []) or [])
-            orig_pots = list(detected.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else []
-            finals = list(merged.get("damaged_parts", []) or [])
-            pots = list(merged.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else []
-            if decisions:
-                def _nl(s: str) -> str:
-                    return (s or "").strip().lower()
-                key_to_idx = {(_nl(p.get("name", "")), _nl(p.get("location", ""))): i for i, p in enumerate(finals)}
-                dropped = set()
-                for d in decisions:
-                    try:
-                        k = (
-                            _nl(d.get("key", {}).get("name", "")),
-                            _nl(d.get("key", {}).get("location", "")),
-                        )
-                        dec = (d.get("decision") or "").strip().lower()
-                        if k not in key_to_idx:
-                            continue
-                        if dec == "drop":
-                            dropped.add(k)
-                        elif dec == "potential":
-                            item = dict(finals[key_to_idx[k]])
-                            item.setdefault("reason", "llm_judge_potential")
-                            item.setdefault("_potential_reason", item.get("reason"))
-                            pots.append(item)
-                            dropped.add(k)
-                    except Exception:
-                        continue
-                if dropped:
-                    finals = [p for p in finals if (_nl(p.get("name", "")), _nl(p.get("location", ""))) not in dropped]
-            # Safeguards: avoid wiping out all parts unless explicitly intended
-            if not finals and orig_finals:
-                print(f"[finalize] safeguard: merged finals 0 but had {len(orig_finals)}. Keeping originals.")
-                finals = orig_finals
-                if COMPREHENSIVE_MODE:
-                    pots = orig_pots
-            detected["damaged_parts"] = finals
-            if COMPREHENSIVE_MODE:
-                detected["potential_parts"] = pots
-            try:
-                metrics.setdefault("finalize", {}).update({
-                    "enabled": True,
-                    "n_ambiguous": int(merged.get("metrics", {}).get("n_ambiguous", 0)),
-                    "judge_decisions": int(len(decisions)),
-                    "pre_finalize_counts": {
-                        "orig_definitive": len(orig_finals),
-                        "orig_potential": len(orig_pots),
-                    },
-                    "post_finalize_counts": {
-                        "definitive": len(finals),
-                        "potential": len(pots),
-                    },
-                })
-            except Exception:
-                pass
-            try:
-                detected["_finalize_provenance"] = merged.get("provenance", {})
-            except Exception:
-                pass
-        except Exception as _e:
-            print(f"Finalize pipeline error: {_e}")
-
     # Phase 3 – Plan parts -------------------------------------------------
     p3_base = PHASE3_PROMPT.read_text()
     p3_prompt = p3_base.replace("<DETECTED_PARTS_JSON>", json.dumps(detected["damaged_parts"]))
@@ -2206,18 +2045,6 @@ def main():
     if summary_txt.startswith("```"):
         summary_txt = summary_txt.split("\n",1)[1].rsplit("```",1)[0].strip()
     detected["summary"] = json.loads(summary_txt)
-
-    # Narrative composition (enterprise-grade narrative) -------------------
-    if FINALIZE_WITH_LLM:
-        try:
-            try:
-                comp_tmpl = FINALIZE_COMPOSE_PROMPT.read_text()
-            except Exception:
-                comp_tmpl = ""
-            narrative = compose_narrative(detected, comp_tmpl, temperature=0.1)
-            detected["narrative"] = narrative
-        except Exception as _e:
-            print(f"Narrative composition error: {_e}")
 
     pre_final_count = len(detected["damaged_parts"])
     # FINAL DUPLICATE CLEANUP - keep list stable; only drop exact duplicates
@@ -2342,11 +2169,6 @@ def main():
                 },
             },
             "completeness_pass": ENABLE_COMPLETENESS_PASS,
-            "finalize": {
-                "enabled": FINALIZE_WITH_LLM,
-                "use_judge": FINALIZE_USE_JUDGE,
-                "ontology_path": FINALIZE_ONTOLOGY_PATH,
-            },
             "phase2_allow_new_parts": PHASE2_ALLOW_NEW_PARTS,
             "persist_max_union": PERSIST_MAX_UNION,
             "persist_min_support": PERSIST_MIN_SUPPORT,

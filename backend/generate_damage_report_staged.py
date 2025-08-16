@@ -1814,9 +1814,19 @@ def main():
                 (detected.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else [],
                 os.getenv("FINALIZE_ONTOLOGY_PATH", FINALIZE_ONTOLOGY_PATH) or None,
             )
-            detected["damaged_parts"] = list(merged_pre.get("damaged_parts", []) or [])
+            pre_keep = len(detected.get("damaged_parts", []) or [])
+            pre_pot = len(detected.get("potential_parts", []) or [])
+            new_keep = list(merged_pre.get("damaged_parts", []) or [])
+            new_pot = list(merged_pre.get("potential_parts", []) or [])
+            if new_keep:
+                detected["damaged_parts"] = new_keep
+            else:
+                print(f"[finalize] skip pre-verify replacement: merge produced 0 from {pre_keep}")
             if COMPREHENSIVE_MODE:
-                detected["potential_parts"] = list(merged_pre.get("potential_parts", []) or [])
+                if new_pot or not detected.get("potential_parts"):
+                    detected["potential_parts"] = new_pot
+                else:
+                    print(f"[finalize] keep existing potential_parts: merge produced 0 from {pre_pot}")
             try:
                 metrics.setdefault("finalize", {}).update({
                     "pre_verify_consolidated": True,
@@ -2116,6 +2126,8 @@ def main():
                     model=args.model,
                     temperature=0.0,
                 )
+            orig_finals = list(detected.get("damaged_parts", []) or [])
+            orig_pots = list(detected.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else []
             finals = list(merged.get("damaged_parts", []) or [])
             pots = list(merged.get("potential_parts", []) or []) if COMPREHENSIVE_MODE else []
             if decisions:
@@ -2144,6 +2156,12 @@ def main():
                         continue
                 if dropped:
                     finals = [p for p in finals if (_nl(p.get("name", "")), _nl(p.get("location", ""))) not in dropped]
+            # Safeguards: avoid wiping out all parts unless explicitly intended
+            if not finals and orig_finals:
+                print(f"[finalize] safeguard: merged finals 0 but had {len(orig_finals)}. Keeping originals.")
+                finals = orig_finals
+                if COMPREHENSIVE_MODE:
+                    pots = orig_pots
             detected["damaged_parts"] = finals
             if COMPREHENSIVE_MODE:
                 detected["potential_parts"] = pots
@@ -2152,6 +2170,14 @@ def main():
                     "enabled": True,
                     "n_ambiguous": int(merged.get("metrics", {}).get("n_ambiguous", 0)),
                     "judge_decisions": int(len(decisions)),
+                    "pre_finalize_counts": {
+                        "orig_definitive": len(orig_finals),
+                        "orig_potential": len(orig_pots),
+                    },
+                    "post_finalize_counts": {
+                        "definitive": len(finals),
+                        "potential": len(pots),
+                    },
                 })
             except Exception:
                 pass
